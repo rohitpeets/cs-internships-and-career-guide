@@ -1,0 +1,1455 @@
+{
+ "fetched_at": "2026-11-09T23:41:35+00:00",
+ "removed": [],
+ "rows": [
+  {
+   "company": "3M",
+   "first_seen": "2026-11-09",
+   "id": "https://3m.wd1.myworkdayjobs.com/search/job/us-minnesota-maplewood/internship---2027-undergraduate-and-master-s-research---development-intern_r01170405",
+   "last_seen": "2026-11-09",
+   "location": "US, Minnesota, Maplewood",
+   "misses": 0,
+   "section": "internship",
+   "source": "workday",
+   "status": "open",
+   "tag_evidence": {
+    "citizen": "Export Control Laws.",
+    "sponsor": "Must be legally authorized to work in country of employment without sponsorship for employment visa status (e."
+   },
+   "tags": {
+    "citizen": true,
+    "clearance": null,
+    "remote": false,
+    "sponsor": false
+   },
+   "title": "Internship - 2027 Undergraduate and Master's Research & Development Intern",
+   "url": "https://3m.wd1.myworkdayjobs.com/Search/job/US-Minnesota-Maplewood/Internship---2027-Undergraduate-and-Master-s-Research---Development-Intern_R01170405"
+  },
+  {
+   "company": "3M",
+   "first_seen": "2026-11-09",
+   "id": "https://3m.wd1.myworkdayjobs.com/search/job/us-minnesota-maplewood/internship---2027-undergraduate-business-analytics-intern---consumer-business-group--cbg-_r01171049",
+   "last_seen": "2026-11-09",
+   "location": "US, Minnesota, Maplewood",
+   "misses": 0,
+   "section": "internship",
+   "source": "workday",
+   "status": "open",
+   "tag_evidence": {
+    "sponsor": "Must be legally authorized to work in country of employment without sponsorship for employment visa status (e."
+   },
+   "tags": {
+    "citizen": null,
+    "clearance": null,
+    "remote": false,
+    "sponsor": false
+   },
+   "title": "Internship - 2027 Undergraduate Business Analytics Intern – Consumer Business Group (CBG)",
+   "url": "https://3m.wd1.myworkdayjobs.com/Search/job/US-Minnesota-Maplewood/Internship---2027-Undergraduate-Business-Analytics-Intern---Consumer-Business-Group--CBG-_R01171049"
+  },
+  {
+   "company": "3M",
+   "first_seen": "2026-11-09",
+   "id": "https://3m.wd1.myworkdayjobs.com/search/job/us-minnesota-maplewood/internship---2027-undergraduate-it-intern_r01170403-1",
+   "last_seen": "2026-11-09",
+   "location": "US, Minnesota, Maplewood",
+   "misses": 0,
+   "section": "internship",
+   "source": "workday",
+   "status": "open",
+   "tag_evidence": {
+    "citizen": "Export Control Laws.",
+    "sponsor": "Must be legally authorized to work in country of employment without sponsorship for employment visa status (e."
+   },
+   "tags": {
+    "citizen": true,
+    "clearance": null,
+    "remote": false,
+    "sponsor": false
+   },
+   "title": "Internship - 2027 Undergraduate IT Intern",
+   "url": "https://3m.wd1.myworkdayjobs.com/Search/job/US-Minnesota-Maplewood/Internship---2027-Undergraduate-IT-Intern_R01170403-1"
+  },
+  {
+   "company": "7-Eleven",
+   "first_seen": "2026-11-09",
+   "id": "https://my7elevenhr.wd12.myworkdayjobs.com/careers/job/ssc-irving-tx/data-engineer-intern_r26_6281",
+   "last_seen": "2026-11-09",
+   "location": "SSC Irving TX",
+   "misses": 0,
+   "section": "internship",
+   "source": "workday",
+   "status": "open",
+   "tag_evidence": {},
+   "tags": {
+    "citizen": null,
+    "clearance": null,
+    "remote": false,
+    "sponsor": null
+   },
+   "title": "Data Engineer Intern",
+   "url": "https://my7elevenhr.wd12.myworkdayjobs.com/Careers/job/SSC-Irving-TX/Data-Engineer-Intern_R26_6281"
+  },
+  {
+   "company": "7-Eleven",
+   "first_seen": "2026-11-09",
+   "id": "https://my7elevenhr.wd12.myworkdayjobs.com/careers/job/ssc-irving-tx/development-analyst-intern_r26_6319",
+   "last_seen": "2026-11-09",
+   "location": "SSC Irving TX",
+   "misses": 0,
+   "section": "internship",
+   "source": "workday",
+   "status": "open",
+   "tag_evidence": {},
+   "tags": {
+    "citizen": null,
+    "clearance": null,
+    "remote": false,
+    "sponsor": null
+   },
+   "title": "Development Analyst Intern",
+   "url": "https://my7elevenhr.wd12.myworkdayjobs.com/Careers/job/SSC-Irving-TX/Development-Analyst-Intern_R26_6319"
+  },
+  {
+   "company": "7-Eleven",
+   "first_seen": "2026-11-09",
+   "id": "https://my7elevenhr.wd12.myworkdayjobs.com/careers/job/ssc-irving-tx/fuel-supply-analyst-intern_r26_6024",
+   "last_seen": "2026-11-09",
+   "location": "SSC Irving TX",
+   "misses": 0,
+   "section": "internship",
+   "source": "workday",
+   "status": "open",
+   "tag_evidence": {},
+   "tags": {
+    "citizen": null,
+    "clearance": null,
+    "remote": false,
+    "sponsor": null
+   },
+   "title": "Fuel Supply Analyst Intern",
+   "url": "https://my7elevenhr.wd12.myworkdayjobs.com/Careers/job/SSC-Irving-TX/Fuel-Supply-Analyst-Intern_R26_6024"
+  },
+  {
+   "company": "7-Eleven",
+   "first_seen": "2026-11-09",
+   "id": "https://my7elevenhr.wd12.myworkdayjobs.com/careers/job/ssc-irving-tx/it-field-manager-intern_r26_5975",
+   "last_seen": "2026-11-09",
+   "location": "SSC Irving TX",
+   "misses": 0,
+   "section": "internship",
+   "source": "workday",
+   "status": "open",
+   "tag_evidence": {},
+   "tags": {
+    "citizen": null,
+    "clearance": null,
+    "remote": false,
+    "sponsor": null
+   },
+   "title": "IT Field Manager Intern",
+   "url": "https://my7elevenhr.wd12.myworkdayjobs.com/Careers/job/SSC-Irving-TX/IT-Field-Manager-Intern_R26_5975"
+  },
+  {
+   "company": "AAM - American Axle & Manufacturing",
+   "first_seen": "2026-11-09",
+   "id": "https://aampower.wd1.myworkdayjobs.com/aam-career-site/job/royal-oak-mi/engineering-college-co-op_jreq-226200",
+   "last_seen": "2026-11-09",
+   "location": "Royal Oak, MI",
+   "misses": 0,
+   "section": "internship",
+   "source": "workday",
+   "status": "open",
+   "tag_evidence": {},
+   "tags": {
+    "citizen": null,
+    "clearance": null,
+    "remote": false,
+    "sponsor": null
+   },
+   "title": "Engineering College Co-op",
+   "url": "https://aampower.wd1.myworkdayjobs.com/AAM-Career-Site/job/Royal-Oak-MI/Engineering-College-Co-op_JREQ-226200"
+  },
+  {
+   "company": "Activision Blizzard, Inc",
+   "first_seen": "2026-11-09",
+   "id": "https://xboxgaming.wd1.myworkdayjobs.com/external/job/playa-vista/activision-2027-summer-internships---game-design_r028091",
+   "last_seen": "2026-11-09",
+   "location": "Playa Vista",
+   "misses": 0,
+   "section": "internship",
+   "source": "workday",
+   "status": "open",
+   "tag_evidence": {},
+   "tags": {
+    "citizen": null,
+    "clearance": null,
+    "remote": false,
+    "sponsor": null
+   },
+   "title": "Activision 2027 Summer Internships - Game Design",
+   "url": "https://xboxgaming.wd1.myworkdayjobs.com/External/job/Playa-Vista/Activision-2027-Summer-Internships---Game-Design_R028091"
+  },
+  {
+   "company": "Activision Blizzard, Inc",
+   "first_seen": "2026-11-09",
+   "id": "https://xboxgaming.wd1.myworkdayjobs.com/external/job/santa-monica/activision-2027-summer-internships---game-economy_r028035",
+   "last_seen": "2026-11-09",
+   "location": "Santa Monica",
+   "misses": 0,
+   "section": "internship",
+   "source": "workday",
+   "status": "open",
+   "tag_evidence": {},
+   "tags": {
+    "citizen": null,
+    "clearance": null,
+    "remote": false,
+    "sponsor": null
+   },
+   "title": "Activision 2027 Summer Internships - Game Economy",
+   "url": "https://xboxgaming.wd1.myworkdayjobs.com/External/job/Santa-Monica/Activision-2027-Summer-Internships---Game-Economy_R028035"
+  },
+  {
+   "company": "Activision Blizzard, Inc",
+   "first_seen": "2026-11-09",
+   "id": "https://xboxgaming.wd1.myworkdayjobs.com/external/job/middleton/activision-2027-summer-internships---tech-art_r028075",
+   "last_seen": "2026-11-09",
+   "location": "Middleton",
+   "misses": 0,
+   "section": "internship",
+   "source": "workday",
+   "status": "open",
+   "tag_evidence": {},
+   "tags": {
+    "citizen": null,
+    "clearance": null,
+    "remote": false,
+    "sponsor": null
+   },
+   "title": "Activision 2027 Summer Internships - Tech Art",
+   "url": "https://xboxgaming.wd1.myworkdayjobs.com/External/job/Middleton/Activision-2027-Summer-Internships---Tech-Art_R028075"
+  },
+  {
+   "company": "Adient",
+   "first_seen": "2026-11-09",
+   "id": "https://adient.wd3.myworkdayjobs.com/external/job/plymouth-mi/engineering-intern_r-29444",
+   "last_seen": "2026-11-09",
+   "location": "Plymouth, MI",
+   "misses": 0,
+   "section": "internship",
+   "source": "workday",
+   "status": "open",
+   "tag_evidence": {},
+   "tags": {
+    "citizen": null,
+    "clearance": null,
+    "remote": false,
+    "sponsor": null
+   },
+   "title": "Engineering Intern",
+   "url": "https://adient.wd3.myworkdayjobs.com/External/job/Plymouth-MI/Engineering-Intern_R-29444"
+  },
+  {
+   "company": "Adient",
+   "first_seen": "2026-11-09",
+   "id": "https://adient.wd3.myworkdayjobs.com/external/job/plymouth-mi/it-intern_r-29354",
+   "last_seen": "2026-11-09",
+   "location": "Plymouth, MI",
+   "misses": 0,
+   "section": "internship",
+   "source": "workday",
+   "status": "open",
+   "tag_evidence": {},
+   "tags": {
+    "citizen": null,
+    "clearance": null,
+    "remote": false,
+    "sponsor": null
+   },
+   "title": "IT Intern",
+   "url": "https://adient.wd3.myworkdayjobs.com/External/job/Plymouth-MI/IT-Intern_R-29354"
+  },
+  {
+   "company": "Adient",
+   "first_seen": "2026-11-09",
+   "id": "https://adient.wd3.myworkdayjobs.com/external/job/plymouth-mi/it-intern_r-29529",
+   "last_seen": "2026-11-09",
+   "location": "Plymouth, MI",
+   "misses": 0,
+   "section": "internship",
+   "source": "workday",
+   "status": "open",
+   "tag_evidence": {},
+   "tags": {
+    "citizen": null,
+    "clearance": null,
+    "remote": false,
+    "sponsor": null
+   },
+   "title": "IT Intern",
+   "url": "https://adient.wd3.myworkdayjobs.com/External/job/Plymouth-MI/IT-Intern_R-29529"
+  },
+  {
+   "company": "Adient",
+   "first_seen": "2026-11-09",
+   "id": "https://adient.wd3.myworkdayjobs.com/external/job/plymouth-mi/trim-engineering-intern_r-29447",
+   "last_seen": "2026-11-09",
+   "location": "Plymouth, MI",
+   "misses": 0,
+   "section": "internship",
+   "source": "workday",
+   "status": "open",
+   "tag_evidence": {},
+   "tags": {
+    "citizen": null,
+    "clearance": null,
+    "remote": false,
+    "sponsor": null
+   },
+   "title": "Trim Engineering Intern",
+   "url": "https://adient.wd3.myworkdayjobs.com/External/job/Plymouth-MI/Trim-Engineering-Intern_R-29447"
+  },
+  {
+   "company": "Adobe",
+   "first_seen": "2026-11-09",
+   "id": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/san-jose/xmlname-2027-intern---ai---architecture_r172998",
+   "last_seen": "2026-11-09",
+   "location": "San Jose",
+   "misses": 0,
+   "section": "internship",
+   "source": "workday",
+   "status": "open",
+   "tag_evidence": {},
+   "tags": {
+    "citizen": null,
+    "clearance": null,
+    "remote": false,
+    "sponsor": null
+   },
+   "title": "2027 Intern - AI & Architecture",
+   "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2027-Intern---AI---Architecture_R172998"
+  },
+  {
+   "company": "Adobe",
+   "first_seen": "2026-11-09",
+   "id": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/san-jose/xmlname-2027-intern---applied-and-research-scientist-engineer_r172064",
+   "last_seen": "2026-11-09",
+   "location": "San Jose",
+   "misses": 0,
+   "section": "internship",
+   "source": "workday",
+   "status": "open",
+   "tag_evidence": {},
+   "tags": {
+    "citizen": null,
+    "clearance": null,
+    "remote": false,
+    "sponsor": null
+   },
+   "title": "2027 Intern - Applied and Research Scientist/Engineer",
+   "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2027-Intern---Applied-and-Research-Scientist-Engineer_R172064"
+  },
+  {
+   "company": "Adobe",
+   "first_seen": "2026-11-09",
+   "id": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/new-york/xmlname-2027-intern---digital-strategy-analyst_r171828",
+   "last_seen": "2026-11-09",
+   "location": "New York",
+   "misses": 0,
+   "section": "internship",
+   "source": "workday",
+   "status": "open",
+   "tag_evidence": {},
+   "tags": {
+    "citizen": null,
+    "clearance": null,
+    "remote": false,
+    "sponsor": null
+   },
+   "title": "2027 Intern - Digital Strategy Analyst, Strategic Advisory",
+   "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/New-York/XMLNAME-2027-Intern---Digital-Strategy-Analyst_R171828"
+  },
+  {
+   "company": "Adobe",
+   "first_seen": "2026-11-09",
+   "id": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/san-jose/xmlname-2027-intern---data--ai---innovation_r172997",
+   "last_seen": "2026-11-09",
+   "location": "San Jose",
+   "misses": 0,
+   "section": "internship",
+   "source": "workday",
+   "status": "open",
+   "tag_evidence": {},
+   "tags": {
+    "citizen": null,
+    "clearance": null,
+    "remote": false,
+    "sponsor": null
+   },
+   "title": "2027 Intern - Emerging Technology & Innovation",
+   "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2027-Intern---Data--AI---Innovation_R172997"
+  },
+  {
+   "company": "Adobe",
+   "first_seen": "2026-11-09",
+   "id": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/new-york/xmlname-2027-intern---enterprise-architecture-analyst_r171856",
+   "last_seen": "2026-11-09",
+   "location": "New York",
+   "misses": 0,
+   "section": "internship",
+   "source": "workday",
+   "status": "open",
+   "tag_evidence": {},
+   "tags": {
+    "citizen": null,
+    "clearance": null,
+    "remote": false,
+    "sponsor": null
+   },
+   "title": "2027 Intern - Enterprise Architecture Analyst",
+   "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/New-York/XMLNAME-2027-Intern---Enterprise-Architecture-Analyst_R171856"
+  },
+  {
+   "company": "Adobe",
+   "first_seen": "2026-11-09",
+   "id": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/san-jose/xmlname-2027-intern---machine-learning-engineer_r171519",
+   "last_seen": "2026-11-09",
+   "location": "San Jose",
+   "misses": 0,
+   "section": "internship",
+   "source": "workday",
+   "status": "open",
+   "tag_evidence": {},
+   "tags": {
+    "citizen": null,
+    "clearance": null,
+    "remote": false,
+    "sponsor": null
+   },
+   "title": "2027 Intern - Machine Learning Engineer",
+   "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2027-Intern---Machine-Learning-Engineer_R171519"
+  },
+  {
+   "company": "Adobe",
+   "first_seen": "2026-11-09",
+   "id": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/lehi/xmlname-2027-intern---security-engineer_r173000",
+   "last_seen": "2026-11-09",
+   "location": "Lehi",
+   "misses": 0,
+   "section": "internship",
+   "source": "workday",
+   "status": "open",
+   "tag_evidence": {},
+   "tags": {
+    "citizen": null,
+    "clearance": null,
+    "remote": false,
+    "sponsor": null
+   },
+   "title": "2027 Intern - Security Engineer",
+   "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Lehi/XMLNAME-2027-Intern---Security-Engineer_R173000"
+  },
+  {
+   "company": "Adobe",
+   "first_seen": "2026-11-09",
+   "id": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/san-jose/xmlname-2027-intern---security-engineer_r173001",
+   "last_seen": "2026-11-09",
+   "location": "San Jose",
+   "misses": 0,
+   "section": "internship",
+   "source": "workday",
+   "status": "open",
+   "tag_evidence": {},
+   "tags": {
+    "citizen": null,
+    "clearance": null,
+    "remote": false,
+    "sponsor": null
+   },
+   "title": "2027 Intern - Security Engineer",
+   "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2027-Intern---Security-Engineer_R173001"
+  },
+  {
+   "company": "Adobe",
+   "first_seen": "2026-11-09",
+   "id": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/san-jose/xmlname-2027-intern---software-engineer_r171666",
+   "last_seen": "2026-11-09",
+   "location": "San Jose",
+   "misses": 0,
+   "section": "internship",
+   "source": "workday",
+   "status": "open",
+   "tag_evidence": {},
+   "tags": {
+    "citizen": null,
+    "clearance": null,
+    "remote": false,
+    "sponsor": null
+   },
+   "title": "2027 Intern - Software Engineer",
+   "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2027-Intern---Software-Engineer_R171666"
+  },
+  {
+   "company": "Adobe",
+   "first_seen": "2026-11-09",
+   "id": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/new-york/xmlname-2027-intern---solutions-consulting-analyst_r171696",
+   "last_seen": "2026-11-09",
+   "location": "New York",
+   "misses": 0,
+   "section": "internship",
+   "source": "workday",
+   "status": "open",
+   "tag_evidence": {},
+   "tags": {
+    "citizen": null,
+    "clearance": null,
+    "remote": false,
+    "sponsor": null
+   },
+   "title": "2027 Intern - Solutions Consulting Analyst",
+   "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/New-York/XMLNAME-2027-Intern---Solutions-Consulting-Analyst_R171696"
+  },
+  {
+   "company": "Adobe",
+   "first_seen": "2026-11-09",
+   "id": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/bucharest/xmlname-2027-intern--security-engineer_r172468",
+   "last_seen": "2026-11-09",
+   "location": "Bucharest",
+   "misses": 0,
+   "section": "internship",
+   "source": "workday",
+   "status": "open",
+   "tag_evidence": {},
+   "tags": {
+    "citizen": null,
+    "clearance": null,
+    "remote": false,
+    "sponsor": null
+   },
+   "title": "2027 Intern- Security Engineer",
+   "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Bucharest/XMLNAME-2027-Intern--Security-Engineer_R172468"
+  },
+  {
+   "company": "Adobe",
+   "first_seen": "2026-11-09",
+   "id": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/basel/xmlname-2027-intern--software-engineer_r173015",
+   "last_seen": "2026-11-09",
+   "location": "Basel",
+   "misses": 0,
+   "section": "internship",
+   "source": "workday",
+   "status": "open",
+   "tag_evidence": {},
+   "tags": {
+    "citizen": null,
+    "clearance": null,
+    "remote": false,
+    "sponsor": null
+   },
+   "title": "2027 Intern- Software Engineer",
+   "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Basel/XMLNAME-2027-Intern--Software-Engineer_R173015"
+  },
+  {
+   "company": "Adobe",
+   "first_seen": "2026-11-09",
+   "id": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/yerevan/xmlname-2027-intern--software-engineer_r173019",
+   "last_seen": "2026-11-09",
+   "location": "Yerevan",
+   "misses": 0,
+   "section": "internship",
+   "source": "workday",
+   "status": "open",
+   "tag_evidence": {
+    "sponsor": "This position is open to candidates who are legally authorized to work in Armenia and will not require visa sponsorship now or in the future"
+   },
+   "tags": {
+    "citizen": null,
+    "clearance": null,
+    "remote": false,
+    "sponsor": false
+   },
+   "title": "2027 Intern- Software Engineer",
+   "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Yerevan/XMLNAME-2027-Intern--Software-Engineer_R173019"
+  },
+  {
+   "company": "Adobe",
+   "first_seen": "2026-11-09",
+   "id": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/bucharest/xmlname-2027-intern--software-engineer_r173018",
+   "last_seen": "2026-11-09",
+   "location": "Bucharest",
+   "misses": 0,
+   "section": "internship",
+   "source": "workday",
+   "status": "open",
+   "tag_evidence": {},
+   "tags": {
+    "citizen": null,
+    "clearance": null,
+    "remote": false,
+    "sponsor": null
+   },
+   "title": "2027 Intern- Software Engineer",
+   "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Bucharest/XMLNAME-2027-Intern--Software-Engineer_R173018"
+  },
+  {
+   "company": "Adobe",
+   "first_seen": "2026-11-09",
+   "id": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/san-jose/xmlname-2027-university-graduate---data-engineer_r173455",
+   "last_seen": "2026-11-09",
+   "location": "San Jose",
+   "misses": 0,
+   "section": "new_grad",
+   "source": "workday",
+   "status": "open",
+   "tag_evidence": {},
+   "tags": {
+    "citizen": null,
+    "clearance": null,
+    "remote": false,
+    "sponsor": null
+   },
+   "title": "2027 University Graduate - Data Engineer",
+   "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2027-University-Graduate---Data-Engineer_R173455"
+  },
+  {
+   "company": "Adobe",
+   "first_seen": "2026-11-09",
+   "id": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/san-jose/xmlname-2027-university-graduate---machine-learning-engineer_r172085",
+   "last_seen": "2026-11-09",
+   "location": "San Jose",
+   "misses": 0,
+   "section": "new_grad",
+   "source": "workday",
+   "status": "open",
+   "tag_evidence": {},
+   "tags": {
+    "citizen": null,
+    "clearance": null,
+    "remote": false,
+    "sponsor": null
+   },
+   "title": "2027 University Graduate - Machine Learning Engineer",
+   "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2027-University-Graduate---Machine-Learning-Engineer_R172085"
+  },
+  {
+   "company": "Adobe",
+   "first_seen": "2026-11-09",
+   "id": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/san-jose/xmlname-2027-university-graduate---software-engineer_r172083",
+   "last_seen": "2026-11-09",
+   "location": "San Jose",
+   "misses": 0,
+   "section": "new_grad",
+   "source": "workday",
+   "status": "open",
+   "tag_evidence": {},
+   "tags": {
+    "citizen": null,
+    "clearance": null,
+    "remote": false,
+    "sponsor": null
+   },
+   "title": "2027 University Graduate - Software Engineer",
+   "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2027-University-Graduate---Software-Engineer_R172083"
+  },
+  {
+   "company": "AeroVironment",
+   "first_seen": "2026-11-09",
+   "id": "https://avav.wd1.myworkdayjobs.com/avav/job/huntsville-al/aeromechanical-engineering-intern_8786",
+   "last_seen": "2026-11-09",
+   "location": "Huntsville, AL",
+   "misses": 0,
+   "section": "internship",
+   "source": "workday",
+   "status": "open",
+   "tag_evidence": {
+    "citizen": "ITAR Requirement:",
+    "clearance": "Must be willing to work on government contracts and have the ability to obtain a security clearance."
+   },
+   "tags": {
+    "citizen": true,
+    "clearance": true,
+    "remote": false,
+    "sponsor": null
+   },
+   "title": "Aeromechanical Engineering Intern",
+   "url": "https://avav.wd1.myworkdayjobs.com/AVAV/job/Huntsville-AL/Aeromechanical-Engineering-Intern_8786"
+  },
+  {
+   "company": "AeroVironment",
+   "first_seen": "2026-11-09",
+   "id": "https://avav.wd1.myworkdayjobs.com/avav/job/moorpark-ca/aeromechanical-engineering-intern_9217",
+   "last_seen": "2026-11-09",
+   "location": "Moorpark, CA",
+   "misses": 0,
+   "section": "internship",
+   "source": "workday",
+   "status": "open",
+   "tag_evidence": {
+    "citizen": "ITAR Requirement:"
+   },
+   "tags": {
+    "citizen": true,
+    "clearance": null,
+    "remote": false,
+    "sponsor": null
+   },
+   "title": "Aeromechanical Engineering Intern",
+   "url": "https://avav.wd1.myworkdayjobs.com/AVAV/job/Moorpark-CA/Aeromechanical-Engineering-Intern_9217"
+  },
+  {
+   "company": "AeroVironment",
+   "first_seen": "2026-11-09",
+   "id": "https://avav.wd1.myworkdayjobs.com/avav/job/simi-valley-ca/xmlname--digital-business-technology-infrastructure--dbt--intern_8885",
+   "last_seen": "2026-11-09",
+   "location": "Simi Valley, CA",
+   "misses": 0,
+   "section": "internship",
+   "source": "workday",
+   "status": "open",
+   "tag_evidence": {
+    "citizen": "ITAR Requirement:"
+   },
+   "tags": {
+    "citizen": true,
+    "clearance": null,
+    "remote": false,
+    "sponsor": null
+   },
+   "title": "Digital Business Technology Infrastructure (DBT) Intern",
+   "url": "https://avav.wd1.myworkdayjobs.com/AVAV/job/Simi-Valley-CA/XMLNAME--Digital-Business-Technology-Infrastructure--DBT--Intern_8885"
+  },
+  {
+   "company": "AeroVironment",
+   "first_seen": "2026-11-09",
+   "id": "https://avav.wd1.myworkdayjobs.com/avav/job/pottstown-pa/electrical-engineer-intern_9103",
+   "last_seen": "2026-11-09",
+   "location": "Pottstown, PA",
+   "misses": 0,
+   "section": "internship",
+   "source": "workday",
+   "status": "open",
+   "tag_evidence": {
+    "citizen": "ITAR Requirement:"
+   },
+   "tags": {
+    "citizen": true,
+    "clearance": null,
+    "remote": false,
+    "sponsor": null
+   },
+   "title": "Electrical Engineer Intern",
+   "url": "https://avav.wd1.myworkdayjobs.com/AVAV/job/Pottstown-PA/Electrical-Engineer-Intern_9103"
+  },
+  {
+   "company": "AeroVironment",
+   "first_seen": "2026-11-09",
+   "id": "https://avav.wd1.myworkdayjobs.com/avav/job/petaluma-ca/electrical-engineering-intern_9037",
+   "last_seen": "2026-11-09",
+   "location": "Petaluma, CA",
+   "misses": 0,
+   "section": "internship",
+   "source": "workday",
+   "status": "open",
+   "tag_evidence": {
+    "citizen": "ITAR Requirement:"
+   },
+   "tags": {
+    "citizen": true,
+    "clearance": null,
+    "remote": false,
+    "sponsor": null
+   },
+   "title": "Electrical Engineering Intern",
+   "url": "https://avav.wd1.myworkdayjobs.com/AVAV/job/Petaluma-CA/Electrical-Engineering-Intern_9037"
+  },
+  {
+   "company": "AeroVironment",
+   "first_seen": "2026-11-09",
+   "id": "https://avav.wd1.myworkdayjobs.com/avav/job/san-diego-ca/electrical-engineering-intern_9143",
+   "last_seen": "2026-11-09",
+   "location": "San Diego, CA",
+   "misses": 0,
+   "section": "internship",
+   "source": "workday",
+   "status": "open",
+   "tag_evidence": {
+    "citizen": "ITAR Requirement:"
+   },
+   "tags": {
+    "citizen": true,
+    "clearance": null,
+    "remote": false,
+    "sponsor": null
+   },
+   "title": "Electrical Engineering Intern",
+   "url": "https://avav.wd1.myworkdayjobs.com/AVAV/job/San-Diego-CA/Electrical-Engineering-Intern_9143"
+  },
+  {
+   "company": "AeroVironment",
+   "first_seen": "2026-11-09",
+   "id": "https://avav.wd1.myworkdayjobs.com/avav/job/sunrise-fl/electrical-engineering-intern_9185",
+   "last_seen": "2026-11-09",
+   "location": "Sunrise, FL",
+   "misses": 0,
+   "section": "internship",
+   "source": "workday",
+   "status": "open",
+   "tag_evidence": {
+    "citizen": "ITAR Requirement:"
+   },
+   "tags": {
+    "citizen": true,
+    "clearance": null,
+    "remote": false,
+    "sponsor": null
+   },
+   "title": "Electrical Engineering Intern",
+   "url": "https://avav.wd1.myworkdayjobs.com/AVAV/job/Sunrise-FL/Electrical-Engineering-Intern_9185"
+  },
+  {
+   "company": "AeroVironment",
+   "first_seen": "2026-11-09",
+   "id": "https://avav.wd1.myworkdayjobs.com/avav/job/albuquerque-nm/electrical-engineering-intern---space-technologies_9256",
+   "last_seen": "2026-11-09",
+   "location": "Albuquerque, NM",
+   "misses": 0,
+   "section": "internship",
+   "source": "workday",
+   "status": "open",
+   "tag_evidence": {
+    "citizen": "·Due to the nature of this role U.S. citizenship is required.",
+    "clearance": "·Preferred ability to obtain and maintain a DoD security clearance."
+   },
+   "tags": {
+    "citizen": true,
+    "clearance": true,
+    "remote": false,
+    "sponsor": null
+   },
+   "title": "Electrical Engineering Intern - Space Technologies",
+   "url": "https://avav.wd1.myworkdayjobs.com/AVAV/job/Albuquerque-NM/Electrical-Engineering-Intern---Space-Technologies_9256"
+  },
+  {
+   "company": "AeroVironment",
+   "first_seen": "2026-11-09",
+   "id": "https://avav.wd1.myworkdayjobs.com/avav/job/dayton-oh/entry-level-radar-exploitation-engineer_9060",
+   "last_seen": "2026-11-09",
+   "location": "Dayton, OH",
+   "misses": 0,
+   "section": "new_grad",
+   "source": "workday",
+   "status": "open",
+   "tag_evidence": {
+    "citizen": "U.S. Citizenship required.",
+    "clearance": "Ability to obtain and maintain a TS/SCI clearance."
+   },
+   "tags": {
+    "citizen": true,
+    "clearance": true,
+    "remote": false,
+    "sponsor": null
+   },
+   "title": "Entry-Level Radar Exploitation Engineer",
+   "url": "https://avav.wd1.myworkdayjobs.com/AVAV/job/Dayton-OH/Entry-Level-Radar-Exploitation-Engineer_9060"
+  },
+  {
+   "company": "AeroVironment",
+   "first_seen": "2026-11-09",
+   "id": "https://avav.wd1.myworkdayjobs.com/avav/job/simi-valley-ca/gnc---autonomy-engineering-intern_9222",
+   "last_seen": "2026-11-09",
+   "location": "Simi Valley, CA",
+   "misses": 0,
+   "section": "internship",
+   "source": "workday",
+   "status": "open",
+   "tag_evidence": {
+    "citizen": "ITAR Requirement:"
+   },
+   "tags": {
+    "citizen": true,
+    "clearance": null,
+    "remote": false,
+    "sponsor": null
+   },
+   "title": "GNC / Autonomy Engineering Intern",
+   "url": "https://avav.wd1.myworkdayjobs.com/AVAV/job/Simi-Valley-CA/GNC---Autonomy-Engineering-Intern_9222"
+  },
+  {
+   "company": "AeroVironment",
+   "first_seen": "2026-11-09",
+   "id": "https://avav.wd1.myworkdayjobs.com/avav/job/wpafb/graduate-student-research-assistant--computational-modeling-of-polymer-solution-behavior-intern_9339",
+   "last_seen": "2026-11-09",
+   "location": "WPAFB",
+   "misses": 0,
+   "section": "internship",
+   "source": "workday",
+   "status": "open",
+   "tag_evidence": {
+    "citizen": "ITAR Requirement:"
+   },
+   "tags": {
+    "citizen": true,
+    "clearance": null,
+    "remote": false,
+    "sponsor": null
+   },
+   "title": "Graduate Student Research Assistant- Computational Modeling of Polymer Solution Behavior Intern",
+   "url": "https://avav.wd1.myworkdayjobs.com/AVAV/job/WPAFB/Graduate-Student-Research-Assistant--Computational-Modeling-of-Polymer-Solution-Behavior-Intern_9339"
+  },
+  {
+   "company": "AeroVironment",
+   "first_seen": "2026-11-09",
+   "id": "https://avav.wd1.myworkdayjobs.com/avav/job/germantown-md/hypersonic-rf-software-engineering-intern_8993",
+   "last_seen": "2026-11-09",
+   "location": "Germantown, MD",
+   "misses": 0,
+   "section": "internship",
+   "source": "workday",
+   "status": "open",
+   "tag_evidence": {
+    "citizen": "ITAR Requirement:"
+   },
+   "tags": {
+    "citizen": true,
+    "clearance": null,
+    "remote": false,
+    "sponsor": null
+   },
+   "title": "Hypersonic RF Software Engineering Intern",
+   "url": "https://avav.wd1.myworkdayjobs.com/AVAV/job/Germantown-MD/Hypersonic-RF-Software-Engineering-Intern_8993"
+  },
+  {
+   "company": "AeroVironment",
+   "first_seen": "2026-11-09",
+   "id": "https://avav.wd1.myworkdayjobs.com/avav/job/centreville-va/machine-learning-engineering-intern_8941",
+   "last_seen": "2026-11-09",
+   "location": "Centreville, VA",
+   "misses": 0,
+   "section": "internship",
+   "source": "workday",
+   "status": "open",
+   "tag_evidence": {
+    "citizen": "ITAR Requirement:",
+    "clearance": "Must be willing to work on government contracts and have the ability to obtain a security clearance."
+   },
+   "tags": {
+    "citizen": true,
+    "clearance": true,
+    "remote": false,
+    "sponsor": null
+   },
+   "title": "Machine Learning Engineering Intern",
+   "url": "https://avav.wd1.myworkdayjobs.com/AVAV/job/Centreville-VA/Machine-Learning-Engineering-Intern_8941"
+  },
+  {
+   "company": "AeroVironment",
+   "first_seen": "2026-11-09",
+   "id": "https://avav.wd1.myworkdayjobs.com/avav/job/simi-valley-ca/production-engineering-intern_8887",
+   "last_seen": "2026-11-09",
+   "location": "Simi Valley, CA",
+   "misses": 0,
+   "section": "internship",
+   "source": "workday",
+   "status": "open",
+   "tag_evidence": {
+    "citizen": "ITAR Requirement:"
+   },
+   "tags": {
+    "citizen": true,
+    "clearance": null,
+    "remote": false,
+    "sponsor": null
+   },
+   "title": "Production Engineering Intern",
+   "url": "https://avav.wd1.myworkdayjobs.com/AVAV/job/Simi-Valley-CA/Production-Engineering-Intern_8887"
+  },
+  {
+   "company": "AeroVironment",
+   "first_seen": "2026-11-09",
+   "id": "https://avav.wd1.myworkdayjobs.com/avav/job/petaluma-ca/quality-engineer-intern_9073",
+   "last_seen": "2026-11-09",
+   "location": "Petaluma, CA",
+   "misses": 0,
+   "section": "internship",
+   "source": "workday",
+   "status": "open",
+   "tag_evidence": {
+    "citizen": "ITAR Requirement:"
+   },
+   "tags": {
+    "citizen": true,
+    "clearance": null,
+    "remote": false,
+    "sponsor": null
+   },
+   "title": "Quality Engineer Intern",
+   "url": "https://avav.wd1.myworkdayjobs.com/AVAV/job/Petaluma-CA/Quality-Engineer-Intern_9073"
+  },
+  {
+   "company": "AeroVironment",
+   "first_seen": "2026-11-09",
+   "id": "https://avav.wd1.myworkdayjobs.com/avav/job/simi-valley-ca/quality-engineering-intern_8586",
+   "last_seen": "2026-11-09",
+   "location": "Simi Valley, CA",
+   "misses": 0,
+   "section": "internship",
+   "source": "workday",
+   "status": "open",
+   "tag_evidence": {
+    "citizen": "ITAR Requirement:"
+   },
+   "tags": {
+    "citizen": true,
+    "clearance": null,
+    "remote": false,
+    "sponsor": null
+   },
+   "title": "Quality Engineering Intern",
+   "url": "https://avav.wd1.myworkdayjobs.com/AVAV/job/Simi-Valley-CA/Quality-Engineering-Intern_8586"
+  },
+  {
+   "company": "AeroVironment",
+   "first_seen": "2026-11-09",
+   "id": "https://avav.wd1.myworkdayjobs.com/avav/job/simi-valley-ca/quality-engineering-intern_8618",
+   "last_seen": "2026-11-09",
+   "location": "Simi Valley, CA",
+   "misses": 0,
+   "section": "internship",
+   "source": "workday",
+   "status": "open",
+   "tag_evidence": {
+    "citizen": "ITAR Requirement:"
+   },
+   "tags": {
+    "citizen": true,
+    "clearance": null,
+    "remote": false,
+    "sponsor": null
+   },
+   "title": "Quality Engineering Intern",
+   "url": "https://avav.wd1.myworkdayjobs.com/AVAV/job/Simi-Valley-CA/Quality-Engineering-Intern_8618"
+  },
+  {
+   "company": "AeroVironment",
+   "first_seen": "2026-11-09",
+   "id": "https://avav.wd1.myworkdayjobs.com/avav/job/centreville-va/software-engineering-intern_8593",
+   "last_seen": "2026-11-09",
+   "location": "Centreville, VA",
+   "misses": 0,
+   "section": "internship",
+   "source": "workday",
+   "status": "open",
+   "tag_evidence": {
+    "citizen": "ITAR Requirement:",
+    "clearance": "Must be willing to work on government contracts and have the ability to obtain a security clearance."
+   },
+   "tags": {
+    "citizen": true,
+    "clearance": true,
+    "remote": false,
+    "sponsor": null
+   },
+   "title": "Software Engineering Intern",
+   "url": "https://avav.wd1.myworkdayjobs.com/AVAV/job/Centreville-VA/Software-Engineering-Intern_8593"
+  },
+  {
+   "company": "AeroVironment",
+   "first_seen": "2026-11-09",
+   "id": "https://avav.wd1.myworkdayjobs.com/avav/job/melbourne-fl/software-engineering-intern_8613",
+   "last_seen": "2026-11-09",
+   "location": "Melbourne, FL",
+   "misses": 0,
+   "section": "internship",
+   "source": "workday",
+   "status": "open",
+   "tag_evidence": {
+    "citizen": "ITAR Requirement:"
+   },
+   "tags": {
+    "citizen": true,
+    "clearance": null,
+    "remote": false,
+    "sponsor": null
+   },
+   "title": "Software Engineering Intern",
+   "url": "https://avav.wd1.myworkdayjobs.com/AVAV/job/Melbourne-FL/Software-Engineering-Intern_8613"
+  },
+  {
+   "company": "AeroVironment",
+   "first_seen": "2026-11-09",
+   "id": "https://avav.wd1.myworkdayjobs.com/avav/job/simi-valley-ca/software-engineering-intern_8813",
+   "last_seen": "2026-11-09",
+   "location": "Simi Valley, CA",
+   "misses": 0,
+   "section": "internship",
+   "source": "workday",
+   "status": "open",
+   "tag_evidence": {
+    "citizen": "ITAR Requirement:"
+   },
+   "tags": {
+    "citizen": true,
+    "clearance": null,
+    "remote": false,
+    "sponsor": null
+   },
+   "title": "Software Engineering Intern",
+   "url": "https://avav.wd1.myworkdayjobs.com/AVAV/job/Simi-Valley-CA/Software-Engineering-Intern_8813"
+  },
+  {
+   "company": "AeroVironment",
+   "first_seen": "2026-11-09",
+   "id": "https://avav.wd1.myworkdayjobs.com/avav/job/sunrise-fl/software-engineering-intern_8797",
+   "last_seen": "2026-11-09",
+   "location": "Sunrise, FL",
+   "misses": 0,
+   "section": "internship",
+   "source": "workday",
+   "status": "open",
+   "tag_evidence": {
+    "citizen": "ITAR Requirement:"
+   },
+   "tags": {
+    "citizen": true,
+    "clearance": null,
+    "remote": false,
+    "sponsor": null
+   },
+   "title": "Software Engineering Intern",
+   "url": "https://avav.wd1.myworkdayjobs.com/AVAV/job/Sunrise-FL/Software-Engineering-Intern_8797"
+  },
+  {
+   "company": "AeroVironment",
+   "first_seen": "2026-11-09",
+   "id": "https://avav.wd1.myworkdayjobs.com/avav/job/moorpark-ca/software-engineering-intern_9094",
+   "last_seen": "2026-11-09",
+   "location": "Moorpark, CA",
+   "misses": 0,
+   "section": "internship",
+   "source": "workday",
+   "status": "open",
+   "tag_evidence": {
+    "citizen": "ITAR Requirement:"
+   },
+   "tags": {
+    "citizen": true,
+    "clearance": null,
+    "remote": false,
+    "sponsor": null
+   },
+   "title": "Software Engineering Intern",
+   "url": "https://avav.wd1.myworkdayjobs.com/AVAV/job/Moorpark-CA/Software-Engineering-Intern_9094"
+  },
+  {
+   "company": "AeroVironment",
+   "first_seen": "2026-11-09",
+   "id": "https://avav.wd1.myworkdayjobs.com/avav/job/minneapolis-mn/software-engineering-intern_8940",
+   "last_seen": "2026-11-09",
+   "location": "Minneapolis, MN",
+   "misses": 0,
+   "section": "internship",
+   "source": "workday",
+   "status": "open",
+   "tag_evidence": {
+    "citizen": "ITAR Requirement:",
+    "clearance": "Must be willing to work on government contracts and have the ability to obtain a security clearance."
+   },
+   "tags": {
+    "citizen": true,
+    "clearance": true,
+    "remote": false,
+    "sponsor": null
+   },
+   "title": "Software Engineering Intern",
+   "url": "https://avav.wd1.myworkdayjobs.com/AVAV/job/Minneapolis-MN/Software-Engineering-Intern_8940"
+  },
+  {
+   "company": "AeroVironment",
+   "first_seen": "2026-11-09",
+   "id": "https://avav.wd1.myworkdayjobs.com/avav/job/san-diego-ca/software-engineering-intern_8828",
+   "last_seen": "2026-11-09",
+   "location": "San Diego, CA",
+   "misses": 0,
+   "section": "internship",
+   "source": "workday",
+   "status": "open",
+   "tag_evidence": {
+    "citizen": "ITAR Requirement:",
+    "clearance": "Must be willing to work on government contracts and have the ability to obtain a security clearance."
+   },
+   "tags": {
+    "citizen": true,
+    "clearance": true,
+    "remote": false,
+    "sponsor": null
+   },
+   "title": "Software Engineering Intern",
+   "url": "https://avav.wd1.myworkdayjobs.com/AVAV/job/San-Diego-CA/Software-Engineering-Intern_8828"
+  },
+  {
+   "company": "AeroVironment",
+   "first_seen": "2026-11-09",
+   "id": "https://avav.wd1.myworkdayjobs.com/avav/job/simi-valley-ca/summer-2027-autonomy---robotics-engineering-intern_8556",
+   "last_seen": "2026-11-09",
+   "location": "Simi Valley, CA",
+   "misses": 0,
+   "section": "internship",
+   "source": "workday",
+   "status": "open",
+   "tag_evidence": {
+    "citizen": "ITAR Requirement:"
+   },
+   "tags": {
+    "citizen": true,
+    "clearance": null,
+    "remote": false,
+    "sponsor": null
+   },
+   "title": "Summer 2027 Autonomy & Robotics Engineering Intern",
+   "url": "https://avav.wd1.myworkdayjobs.com/AVAV/job/Simi-Valley-CA/Summer-2027-Autonomy---Robotics-Engineering-Intern_8556"
+  },
+  {
+   "company": "AeroVironment",
+   "first_seen": "2026-11-09",
+   "id": "https://avav.wd1.myworkdayjobs.com/avav/job/summer-2027-electrical-engineering-intern_8557",
+   "last_seen": "2026-11-09",
+   "location": "",
+   "misses": 0,
+   "section": "internship",
+   "source": "workday",
+   "status": "open",
+   "tag_evidence": {
+    "citizen": "ITAR Requirement:"
+   },
+   "tags": {
+    "citizen": true,
+    "clearance": null,
+    "remote": false,
+    "sponsor": null
+   },
+   "title": "Summer 2027 Electrical Engineering Intern",
+   "url": "https://avav.wd1.myworkdayjobs.com/AVAV/job/Summer-2027-Electrical-Engineering-Intern_8557"
+  },
+  {
+   "company": "AeroVironment",
+   "first_seen": "2026-11-09",
+   "id": "https://avav.wd1.myworkdayjobs.com/avav/job/simi-valley-ca/summer-2027-embedded-software-engineering-intern_8388",
+   "last_seen": "2026-11-09",
+   "location": "Simi Valley, CA",
+   "misses": 0,
+   "section": "internship",
+   "source": "workday",
+   "status": "open",
+   "tag_evidence": {
+    "citizen": "ITAR Requirement:"
+   },
+   "tags": {
+    "citizen": true,
+    "clearance": null,
+    "remote": false,
+    "sponsor": null
+   },
+   "title": "Summer 2027 Embedded Software Engineering Intern",
+   "url": "https://avav.wd1.myworkdayjobs.com/AVAV/job/Simi-Valley-CA/Summer-2027-Embedded-Software-Engineering-Intern_8388"
+  },
+  {
+   "company": "AeroVironment",
+   "first_seen": "2026-11-09",
+   "id": "https://avav.wd1.myworkdayjobs.com/avav/job/simi-valley-ca/summer-2027-gnc---autonomy-intern_8610",
+   "last_seen": "2026-11-09",
+   "location": "Simi Valley, CA",
+   "misses": 0,
+   "section": "internship",
+   "source": "workday",
+   "status": "open",
+   "tag_evidence": {
+    "citizen": "ITAR Requirement:"
+   },
+   "tags": {
+    "citizen": true,
+    "clearance": null,
+    "remote": false,
+    "sponsor": null
+   },
+   "title": "Summer 2027 GNC / Autonomy Intern",
+   "url": "https://avav.wd1.myworkdayjobs.com/AVAV/job/Simi-Valley-CA/Summer-2027-GNC---Autonomy-Intern_8610"
+  },
+  {
+   "company": "AeroVironment",
+   "first_seen": "2026-11-09",
+   "id": "https://avav.wd1.myworkdayjobs.com/avav/job/minneapolis-mn/summer-2027-machine-learning-intern_8389",
+   "last_seen": "2026-11-09",
+   "location": "Minneapolis, MN",
+   "misses": 0,
+   "section": "internship",
+   "source": "workday",
+   "status": "open",
+   "tag_evidence": {
+    "citizen": "ITAR Requirement:"
+   },
+   "tags": {
+    "citizen": true,
+    "clearance": null,
+    "remote": false,
+    "sponsor": null
+   },
+   "title": "Summer 2027 Machine Learning Intern",
+   "url": "https://avav.wd1.myworkdayjobs.com/AVAV/job/Minneapolis-MN/Summer-2027-Machine-Learning-Intern_8389"
+  },
+  {
+   "company": "AeroVironment",
+   "first_seen": "2026-11-09",
+   "id": "https://avav.wd1.myworkdayjobs.com/avav/job/simi-valley-ca/summer-2027-software-engineering-intern_8611",
+   "last_seen": "2026-11-09",
+   "location": "Simi Valley, CA",
+   "misses": 0,
+   "section": "internship",
+   "source": "workday",
+   "status": "open",
+   "tag_evidence": {
+    "citizen": "ITAR Requirement:"
+   },
+   "tags": {
+    "citizen": true,
+    "clearance": null,
+    "remote": false,
+    "sponsor": null
+   },
+   "title": "Summer 2027 Software Engineering Intern",
+   "url": "https://avav.wd1.myworkdayjobs.com/AVAV/job/Simi-Valley-CA/Summer-2027-Software-Engineering-Intern_8611"
+  },
+  {
+   "company": "AeroVironment",
+   "first_seen": "2026-11-09",
+   "id": "https://avav.wd1.myworkdayjobs.com/avav/job/melbourne-fl/summer-2027-software-engineering-intern_8550",
+   "last_seen": "2026-11-09",
+   "location": "Melbourne, FL",
+   "misses": 0,
+   "section": "internship",
+   "source": "workday",
+   "status": "open",
+   "tag_evidence": {
+    "citizen": "ITAR Requirement:"
+   },
+   "tags": {
+    "citizen": true,
+    "clearance": null,
+    "remote": false,
+    "sponsor": null
+   },
+   "title": "Summer 2027 Software Engineering Intern",
+   "url": "https://avav.wd1.myworkdayjobs.com/AVAV/job/Melbourne-FL/Summer-2027-Software-Engineering-Intern_8550"
+  },
+  {
+   "company": "AeroVironment",
+   "first_seen": "2026-11-09",
+   "id": "https://avav.wd1.myworkdayjobs.com/avav/job/petaluma-ca/systems-engineering-intern_8592",
+   "last_seen": "2026-11-09",
+   "location": "Petaluma, CA",
+   "misses": 0,
+   "section": "internship",
+   "source": "workday",
+   "status": "open",
+   "tag_evidence": {
+    "citizen": "ITAR Requirement:"
+   },
+   "tags": {
+    "citizen": true,
+    "clearance": null,
+    "remote": false,
+    "sponsor": null
+   },
+   "title": "Systems Engineering Intern",
+   "url": "https://avav.wd1.myworkdayjobs.com/AVAV/job/Petaluma-CA/Systems-Engineering-Intern_8592"
+  },
+  {
+   "company": "AeroVironment",
+   "first_seen": "2026-11-09",
+   "id": "https://avav.wd1.myworkdayjobs.com/avav/job/albuquerque-nm/systems-engineering-intern---space-technologies_9250",
+   "last_seen": "2026-11-09",
+   "location": "Albuquerque, NM",
+   "misses": 0,
+   "section": "internship",
+   "source": "workday",
+   "status": "open",
+   "tag_evidence": {
+    "citizen": "·Due to the nature of this position, U.S. citizenship is required."
+   },
+   "tags": {
+    "citizen": true,
+    "clearance": null,
+    "remote": false,
+    "sponsor": null
+   },
+   "title": "Systems Engineering Intern - Space Technologies",
+   "url": "https://avav.wd1.myworkdayjobs.com/AVAV/job/Albuquerque-NM/Systems-Engineering-Intern---Space-Technologies_9250"
+  },
+  {
+   "company": "AeroVironment",
+   "first_seen": "2026-11-09",
+   "id": "https://avav.wd1.myworkdayjobs.com/avav/job/albuquerque-nm/test-engineering-intern---space-technologies_9253",
+   "last_seen": "2026-11-09",
+   "location": "Albuquerque, NM",
+   "misses": 0,
+   "section": "internship",
+   "source": "workday",
+   "status": "open",
+   "tag_evidence": {
+    "citizen": "ITAR Requirement:"
+   },
+   "tags": {
+    "citizen": true,
+    "clearance": null,
+    "remote": false,
+    "sponsor": null
+   },
+   "title": "Test Engineering Intern - Space Technologies",
+   "url": "https://avav.wd1.myworkdayjobs.com/AVAV/job/Albuquerque-NM/Test-Engineering-Intern---Space-Technologies_9253"
+  },
+  {
+   "company": "AeroVironment",
+   "first_seen": "2026-11-09",
+   "id": "https://avav.wd1.myworkdayjobs.com/avav/job/simi-valley-ca/test-product-engineering-intern_8537",
+   "last_seen": "2026-11-09",
+   "location": "Simi Valley, CA",
+   "misses": 0,
+   "section": "internship",
+   "source": "workday",
+   "status": "open",
+   "tag_evidence": {
+    "citizen": "ITAR Requirement:"
+   },
+   "tags": {
+    "citizen": true,
+    "clearance": null,
+    "remote": false,
+    "sponsor": null
+   },
+   "title": "Test Product Engineering Intern",
+   "url": "https://avav.wd1.myworkdayjobs.com/AVAV/job/Simi-Valley-CA/Test-Product-Engineering-Intern_8537"
+  },
+  {
+   "company": "AeroVironment",
+   "first_seen": "2026-11-09",
+   "id": "https://avav.wd1.myworkdayjobs.com/avav/job/leesburg-va/titan-sv-software-engineer-intern_8901",
+   "last_seen": "2026-11-09",
+   "location": "Leesburg, VA",
+   "misses": 0,
+   "section": "internship",
+   "source": "workday",
+   "status": "open",
+   "tag_evidence": {
+    "citizen": "ITAR Requirement:"
+   },
+   "tags": {
+    "citizen": true,
+    "clearance": null,
+    "remote": false,
+    "sponsor": null
+   },
+   "title": "Titan-SV Software Engineer Intern",
+   "url": "https://avav.wd1.myworkdayjobs.com/AVAV/job/Leesburg-VA/Titan-SV-Software-Engineer-Intern_8901"
+  }
+ ]
+}

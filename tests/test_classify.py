@@ -47,7 +47,8 @@ def test_citizen_and_clearance():
 
 def test_non_cs_engineering_dropped():
     for t in ["Entry-Level Civil Engineer", "Intern/Co-op - Geotechnical Engineering (Summer 2027)", "2027 Mechanical Engineer Intern",
-              "2027 Early Career Warhead Engineer", "Game Presentation Intern - Frederick Keys", "Intern - EHS Engineer"]:
+              "2027 Early Career Warhead Engineer", "Game Presentation Intern - Frederick Keys", "Intern - EHS Engineer",
+              "Activision 2027 Summer Internships - Game Design", "Fuel Supply Analyst Intern", "Trim Engineering Intern"]:
         assert not keep_title(t), t
     assert keep_title("Electrical Engineering Internship - Data Center Facilities")
 

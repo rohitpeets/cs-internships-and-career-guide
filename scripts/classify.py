@@ -46,10 +46,11 @@ NON_TECH = re.compile(r"\b(marketing|sales|account (executive|manager)|finance|a
                       r"artist|graphic design|content|social media|events?|administrative|operations intern|game presentation|"
                       r"civil|geotechnical|structural|traffic|transportation|mechanical|environmental|chemical|process engineer|"
                       r"manufacturing|industrial|ehs|health and safety|safety engineer|construction|mining|petroleum|materials|"
-                      r"warhead|harness|propulsion|thermal|fluids|geolog\w*|surveying|architect(ure)? intern|water resources)\b", re.I)
+                      r"warhead|harness|propulsion|thermal|fluids|geolog\w*|surveying|architect(ure)? intern|water resources|"
+                      r"game design|game economy|tech art|fuel|trim|field manager)\b", re.I)
 
 
-FIELD_DROP = re.compile(r"\b(civil|geotechnical|structural|traffic|transportation|mechanical|environmental|chemical|process|manufacturing|industrial|ehs|safety|construction|mining|petroleum|materials|warhead|harness|propulsion|thermal|fluids|surveying|water resources|game presentation)\b", re.I)
+FIELD_DROP = re.compile(r"\b(civil|geotechnical|structural|traffic|transportation|mechanical|environmental|chemical|process|manufacturing|industrial|ehs|safety|construction|mining|petroleum|materials|warhead|harness|propulsion|thermal|fluids|surveying|water resources|game presentation|game design|game economy|tech art|fuel|trim)\b", re.I)
 STRONG_TECH = re.compile(r"\b(engineer(ing)?|developer|software|data scien\w*|machine learning)\b(?!.*\bsales\b)", re.I)
 
 

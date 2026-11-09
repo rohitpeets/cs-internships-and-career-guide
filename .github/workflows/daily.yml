@@ -47,6 +47,9 @@ jobs:
         if: env.FULL_RUN == 'true'
         run: python scripts/fetch_ats.py --cloud
 
+      - name: Merge laptop results (Workday, Oracle)
+        run: python scripts/merge_local.py
+
       - name: Load manual postings
         run: python scripts/load_manual.py
 

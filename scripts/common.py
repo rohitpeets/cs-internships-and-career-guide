@@ -14,6 +14,7 @@ POSTINGS = DATA / "postings.json"
 REMOVED = DATA / "removed.json"
 COMPANIES = DATA / "companies.yaml"
 MANUAL = DATA / "manual.yaml"
+LOCAL = DATA / "local.json"  # written only by the laptop job (Workday, Oracle)
 
 USER_AGENT = "mcneese-jobs/1.0 (student job board; github.com/rohitpeets/mcneese-jobs)"
 TRACKING = ("utm_", "source", "ref", "gh_src", "lever-source")
@@ -56,12 +57,18 @@ class Http:
         self.s.headers["User-Agent"] = USER_AGENT
         self.gap, self.timeout, self.last = gap, timeout, {}
 
-    def get(self, url: str, **kw) -> requests.Response:
+    def _call(self, method: str, url: str, **kw) -> requests.Response:
         host = urlsplit(url).netloc
         wait = self.gap - (time.monotonic() - self.last.get(host, 0))
         if wait > 0:
             time.sleep(wait)
         try:
-            return self.s.get(url, timeout=self.timeout, **kw)
+            return self.s.request(method, url, timeout=self.timeout, **kw)
         finally:
             self.last[host] = time.monotonic()
+
+    def get(self, url: str, **kw) -> requests.Response:
+        return self._call("GET", url, **kw)
+
+    def post(self, url: str, **kw) -> requests.Response:
+        return self._call("POST", url, **kw)
