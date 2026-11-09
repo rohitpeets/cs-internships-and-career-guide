@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["id", "company", "title", "url", "source", "section", "tags", "status", "first_seen", "last_seen"],
+    "properties": {
+      "id": {"type": "string", "minLength": 8},
+      "company": {"type": "string", "minLength": 1},
+      "title": {"type": "string", "minLength": 1},
+      "url": {"type": "string", "pattern": "^https?://"},
+      "location": {"type": "string"},
+      "source": {"enum": ["greenhouse", "lever", "ashby", "workday", "oracle", "smartrecruiters", "workable", "recruitee", "eightfold", "adp", "hn", "manual", "company"]},
+      "section": {"enum": ["internship", "new_grad", "early"]},
+      "tags": {
+        "type": "object",
+        "properties": {
+          "sponsor": {"type": ["boolean", "null"]},
+          "citizen": {"type": ["boolean", "null"]},
+          "clearance": {"type": ["boolean", "null"]},
+          "remote": {"type": "boolean"}
+        }
+      },
+      "tag_evidence": {"type": "object"},
+      "status": {"enum": ["open", "uncertain"]},
+      "misses": {"type": "integer", "minimum": 0},
+      "first_seen": {"type": "string", "format": "date"},
+      "last_seen": {"type": "string", "format": "date"}
+    }
+  }
+}

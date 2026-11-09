@@ -1,0 +1,958 @@
+# Company job boards, from the apply links of the Nov 5, 2026 scan (company + its own public board only).
+# ats: greenhouse | lever | ashby | workday (tenant.wdN/site) | smartrecruiters | oracle (v1.1)
+companies:
+  - {name: "Allen Control Systems", ats: ashby, board: "allen-control-systems"}
+  - {name: "Amplify", ats: ashby, board: "amplify"}
+  - {name: "Astera Institute", ats: ashby, board: "astera"}
+  - {name: "Base Power Company", ats: ashby, board: "base-power"}
+  - {name: "Bedrock Robotics Inc", ats: ashby, board: "bedrock-robotics"}
+  - {name: "Bracket Bot Inc", ats: ashby, board: "bracket-bot"}
+  - {name: "Brain Co", ats: ashby, board: "brainco"}
+  - {name: "Clasp", ats: ashby, board: "clasp"}
+  - {name: "Clay Labs", ats: ashby, board: "claylabs"}
+  - {name: "Cyvl", ats: ashby, board: "cyvl"}
+  - {name: "Etched", ats: ashby, board: "Etched"}
+  - {name: "GrayMatter Robotics", ats: ashby, board: "graymatter-robotics"}
+  - {name: "Grow Therapy", ats: ashby, board: "grow-therapy"}
+  - {name: "Kunin Technologies", ats: ashby, board: "kunin"}
+  - {name: "Linkup", ats: ashby, board: "Linkup"}
+  - {name: "MakiPeople", ats: ashby, board: "maki"}
+  - {name: "Matic", ats: ashby, board: "MaticRobots"}
+  - {name: "Mercor", ats: ashby, board: "mercor"}
+  - {name: "NextToken", ats: ashby, board: "nexttoken"}
+  - {name: "Niantic Spatial", ats: ashby, board: "niantic-spatial"}
+  - {name: "onepot", ats: ashby, board: "onepot"}
+  - {name: "Patreon", ats: ashby, board: "patreon"}
+  - {name: "Peec AI", ats: ashby, board: "peec"}
+  - {name: "Ramp", ats: ashby, board: "ramp"}
+  - {name: "Range", ats: ashby, board: "range"}
+  - {name: "Reflect Orbital", ats: ashby, board: "reflect-orbital"}
+  - {name: "REGENT", ats: ashby, board: "REGENT"}
+  - {name: "Relling", ats: ashby, board: "Relling"}
+  - {name: "Revel", ats: ashby, board: "revel"}
+  - {name: "Rhoda AI", ats: ashby, board: "rhoda-ai"}
+  - {name: "Rivian and Volkswagen Group Technologies", ats: ashby, board: "rivianvw.tech"}
+  - {name: "Sardine", ats: ashby, board: "sardine"}
+  - {name: "Saronic Technologies", ats: ashby, board: "saronic"}
+  - {name: "Skydio", ats: ashby, board: "skydio"}
+  - {name: "Subtotal", ats: ashby, board: "subtotal"}
+  - {name: "WorldEngine AI", ats: ashby, board: "worldengine"}
+  - {name: "AccuWeather Careers", ats: greenhouse, board: "accuweather"}
+  - {name: "Affirm", ats: greenhouse, board: "affirm"}
+  - {name: "AiDASH, Inc", ats: greenhouse, board: "aidashinc"}
+  - {name: "AMOREPACIFIC US, INC", ats: greenhouse, board: "amorepacificusinc"}
+  - {name: "Amperesand", ats: greenhouse, board: "amperesand"}
+  - {name: "Anduril Industries", ats: greenhouse, board: "andurilindustries"}
+  - {name: "Angel City", ats: greenhouse, board: "wfclainc"}
+  - {name: "Arc Boat Company", ats: greenhouse, board: "arcboatcompany"}
+  - {name: "Arcesium LLC", ats: greenhouse, board: "arcesiumllc"}
+  - {name: "ARCO/Murray National Construction", ats: greenhouse, board: "amn"}
+  - {name: "Astronics Corporation", ats: greenhouse, board: "astronicscorporation"}
+  - {name: "Atoms", ats: greenhouse, board: "atoms"}
+  - {name: "ATOMS Careers page", ats: greenhouse, board: "cssmerge"}
+  - {name: "Attain Sports", ats: greenhouse, board: "attainsports"}
+  - {name: "BGE Inc. Campus Recruiting", ats: greenhouse, board: "bgeinccampus"}
+  - {name: "BGE, Inc", ats: greenhouse, board: "bgeinc"}
+  - {name: "Blur Studio", ats: greenhouse, board: "blurstudio"}
+  - {name: "Braze", ats: greenhouse, board: "braze"}
+  - {name: "C3 Integrated Solutions", ats: greenhouse, board: "c3integratedsolutions"}
+  - {name: "Cadence Solutions", ats: greenhouse, board: "solutions"}
+  - {name: "CareDx, Inc", ats: greenhouse, board: "caredxinc"}
+  - {name: "CarGurus Early Careers", ats: greenhouse, board: "ecjobb"}
+  - {name: "CARIAD, Inc", ats: greenhouse, board: "cariadinc"}
+  - {name: "Center for Strategic and International Studies, Inc", ats: greenhouse, board: "centerforstrategicandinternationalstudiesinc"}
+  - {name: "Charles River Analytics", ats: greenhouse, board: "charlesriveranalytics90"}
+  - {name: "Clockwork.io", ats: greenhouse, board: "clockworksystems"}
+  - {name: "Cloudflare", ats: greenhouse, board: "cloudflare"}
+  - {name: "Courier Health", ats: greenhouse, board: "courierhealth"}
+  - {name: "CoVar", ats: greenhouse, board: "covar"}
+  - {name: "Dark Wolf Solutions", ats: greenhouse, board: "darkwolfsolutions"}
+  - {name: "Datacor", ats: greenhouse, board: "datacor"}
+  - {name: "DB E.C.O. North America", ats: greenhouse, board: "dbeconorthamerica"}
+  - {name: "DiDi Labs", ats: greenhouse, board: "didi"}
+  - {name: "Divergent", ats: greenhouse, board: "divergent"}
+  - {name: "DoorDash USA", ats: greenhouse, board: "doordashusa"}
+  - {name: "DriveWealth", ats: greenhouse, board: "drivewealth"}
+  - {name: "DV Trading", ats: greenhouse, board: "dvtrading"}
+  - {name: "Emergent Labs", ats: greenhouse, board: "emergentlabsinc"}
+  - {name: "Energy Solutions Internships", ats: greenhouse, board: "energysolutionsinternships"}
+  - {name: "Enova International", ats: greenhouse, board: "enova"}
+  - {name: "Enviva", ats: greenhouse, board: "enviva"}
+  - {name: "EQT Corporation", ats: greenhouse, board: "eqtcorporation"}
+  - {name: "Eulerity", ats: greenhouse, board: "eulerity"}
+  - {name: "Fanatics Inc", ats: greenhouse, board: "fanaticsinc"}
+  - {name: "Faraday Future", ats: greenhouse, board: "faradayfuture"}
+  - {name: "Farmers Mutual Hail Insurance Company", ats: greenhouse, board: "farmersmutualhailinsurancecompany"}
+  - {name: "Figma", ats: greenhouse, board: "figma"}
+  - {name: "Figure", ats: greenhouse, board: "figureai"}
+  - {name: "Formlabs Internships", ats: greenhouse, board: "formlabsinternships"}
+  - {name: "Four Hands", ats: greenhouse, board: "fourhands"}
+  - {name: "Fussball Club Cincinnati LLC (\u201cFC Cincinnati\u201d)", ats: greenhouse, board: "fccincinnati"}
+  - {name: "Garda Capital Partners", ats: greenhouse, board: "gardacp"}
+  - {name: "General Matter", ats: greenhouse, board: "generalmatter"}
+  - {name: "Geneva Trading", ats: greenhouse, board: "genevatrading"}
+  - {name: "GenScript", ats: greenhouse, board: "genscript"}
+  - {name: "Ginkgo Bioworks Inc", ats: greenhouse, board: "ginkgobioworks"}
+  - {name: "Graphcore", ats: greenhouse, board: "graphcore"}
+  - {name: "Graphcore Early Careers", ats: greenhouse, board: "graphcore-early-careers"}
+  - {name: "Harbinger Motors Inc", ats: greenhouse, board: "harbingermotors"}
+  - {name: "Hasbro", ats: greenhouse, board: "hasbro"}
+  - {name: "HawkEye 360", ats: greenhouse, board: "hawkeye360"}
+  - {name: "Hearst", ats: greenhouse, board: "hearst"}
+  - {name: "HERE", ats: greenhouse, board: "hereio"}
+  - {name: "Heven AeroTech", ats: greenhouse, board: "hevenaerotech"}
+  - {name: "Hillel International", ats: greenhouse, board: "hillel"}
+  - {name: "Hive Financial Systems", ats: greenhouse, board: "hivefinancialsystems"}
+  - {name: "Horace Mann", ats: greenhouse, board: "horacemannservicecorporation"}
+  - {name: "Horizon Industries", ats: greenhouse, board: "horizonindustrieslimited"}
+  - {name: "HP IQ", ats: greenhouse, board: "hpiq"}
+  - {name: "HPR", ats: greenhouse, board: "hyannisportresearch"}
+  - {name: "Hudl", ats: greenhouse, board: "hudl"}
+  - {name: "Hut 8", ats: greenhouse, board: "hut8"}
+  - {name: "ID.me University Recruiting", ats: greenhouse, board: "idmeuniversityrecruiting"}
+  - {name: "IMC", ats: greenhouse, board: "imc"}
+  - {name: "InterSystems", ats: greenhouse, board: "intersystems"}
+  - {name: "Island", ats: greenhouse, board: "island"}
+  - {name: "ISN In-House", ats: greenhouse, board: "inhousespring24"}
+  - {name: "Ivalua", ats: greenhouse, board: "ivalua"}
+  - {name: "Jackie Robinson Training Center", ats: greenhouse, board: "jrtc"}
+  - {name: "JetZero", ats: greenhouse, board: "jetzero"}
+  - {name: "Jomboy Media", ats: greenhouse, board: "jomboymedia"}
+  - {name: "K2 Space", ats: greenhouse, board: "k2spacecorporation"}
+  - {name: "Keeley Construction", ats: greenhouse, board: "keeleyconstruction"}
+  - {name: "Klaviyo Campus", ats: greenhouse, board: "klaviyocampus"}
+  - {name: "KnowBe4", ats: greenhouse, board: "knowbe4"}
+  - {name: "Kyowa Kirin North America", ats: greenhouse, board: "kyowakirinusa90"}
+  - {name: "Langan Engineering & Environmental Services", ats: greenhouse, board: "langanengineeringandenvironmentalservicesllc"}
+  - {name: "Legend Biotech US", ats: greenhouse, board: "legendcareers"}
+  - {name: "Loenbro", ats: greenhouse, board: "loenbro"}
+  - {name: "Mach Industries", ats: greenhouse, board: "machindustries"}
+  - {name: "MacKay", ats: greenhouse, board: "mackaysposito"}
+  - {name: "Man Group", ats: greenhouse, board: "mangroup"}
+  - {name: "MEMX", ats: greenhouse, board: "memx"}
+  - {name: "Metropolis", ats: greenhouse, board: "metropolis"}
+  - {name: "Metropolitan Commercial Bank", ats: greenhouse, board: "metropolitancommercialbank"}
+  - {name: "Mill", ats: greenhouse, board: "mill"}
+  - {name: "Minitab", ats: greenhouse, board: "minitab"}
+  - {name: "Mirakl - AMER", ats: greenhouse, board: "miraklamer"}
+  - {name: "Muon Space", ats: greenhouse, board: "muonspace"}
+  - {name: "National Information Solutions Cooperative (NISC)", ats: greenhouse, board: "nisc"}
+  - {name: "National Life Group - Interns", ats: greenhouse, board: "nlginterns"}
+  - {name: "National Life Insurance Company", ats: greenhouse, board: "nationallifeinsurancecompany"}
+  - {name: "NEW Cooperative", ats: greenhouse, board: "newcooperative"}
+  - {name: "NewsBreak", ats: greenhouse, board: "newsbreak"}
+  - {name: "NMI", ats: greenhouse, board: "nmi"}
+  - {name: "Northmarq", ats: greenhouse, board: "northmarq"}
+  - {name: "NYISO Internship Program", ats: greenhouse, board: "nyisointernships"}
+  - {name: "Olsson", ats: greenhouse, board: "olsson"}
+  - {name: "Parallel Systems", ats: greenhouse, board: "parallel"}
+  - {name: "Parametrix", ats: greenhouse, board: "parametrix"}
+  - {name: "ParetoHealth", ats: greenhouse, board: "paretocaptiveservicesllc"}
+  - {name: "Path Robotics", ats: greenhouse, board: "pathrobotics"}
+  - {name: "PDT Partners", ats: greenhouse, board: "pdtpartners"}
+  - {name: "Point72", ats: greenhouse, board: "point72"}
+  - {name: "Profluent", ats: greenhouse, board: "profluent"}
+  - {name: "Protagonist", ats: greenhouse, board: "protagonist"}
+  - {name: "QDSS UC Co-op", ats: greenhouse, board: "qdssuccoop"}
+  - {name: "Qube Research & Technologies", ats: greenhouse, board: "quberesearchandtechnologies"}
+  - {name: "QuEra Computing, Inc", ats: greenhouse, board: "queracomputinginc"}
+  - {name: "RCLCO", ats: greenhouse, board: "rclco"}
+  - {name: "Relay", ats: greenhouse, board: "relaypro"}
+  - {name: "Rendezvous Robotics", ats: greenhouse, board: "rendezvousrobotics"}
+  - {name: "RF-SMART", ats: greenhouse, board: "rfsmart"}
+  - {name: "Scale AI", ats: greenhouse, board: "scaleai"}
+  - {name: "Schonfeld", ats: greenhouse, board: "schonfeld"}
+  - {name: "SESCO", ats: greenhouse, board: "sesco"}
+  - {name: "Seven Research", ats: greenhouse, board: "sevenresearch"}
+  - {name: "Sigma Computing", ats: greenhouse, board: "sigmacomputing"}
+  - {name: "SingleStore", ats: greenhouse, board: "singlestore"}
+  - {name: "SiTime Corporation", ats: greenhouse, board: "sitimecorporation"}
+  - {name: "SK hynix memory solutions America Inc", ats: greenhouse, board: "skhynixmemorysolutionsamericainc"}
+  - {name: "State Affairs", ats: greenhouse, board: "stateaffairs"}
+  - {name: "TEGNA Inc", ats: greenhouse, board: "tegnainc"}
+  - {name: "Tenstorrent University Jobs", ats: greenhouse, board: "tenstorrentuniversity"}
+  - {name: "The Allen Institute for Artificial Intelligence", ats: greenhouse, board: "thealleninstitute"}
+  - {name: "The Brattle Group", ats: greenhouse, board: "thebrattlegroup"}
+  - {name: "The New York Times", ats: greenhouse, board: "thenewyorktimes"}
+  - {name: "The Riverside Company", ats: greenhouse, board: "theriversidecompany"}
+  - {name: "Together AI", ats: greenhouse, board: "togetherai"}
+  - {name: "Trace3", ats: greenhouse, board: "trace3"}
+  - {name: "Two Six Technologies", ats: greenhouse, board: "twosixtechnologies"}
+  - {name: "USAFacts", ats: greenhouse, board: "usafacts"}
+  - {name: "Varda Space Industries", ats: greenhouse, board: "vardaspace"}
+  - {name: "Vatic Labs", ats: greenhouse, board: "vaticlabs"}
+  - {name: "Veeam Software", ats: greenhouse, board: "veeamsoftware"}
+  - {name: "Verkada", ats: greenhouse, board: "verkada"}
+  - {name: "Vertical Bridge", ats: greenhouse, board: "verticalbridge"}
+  - {name: "Vestmark Internship Program", ats: greenhouse, board: "internrecruiting"}
+  - {name: "Vestwell", ats: greenhouse, board: "vestwell"}
+  - {name: "Veterinary Emergency Group (VEG)", ats: greenhouse, board: "veterinaryemergencygroupst"}
+  - {name: "Viant Technology", ats: greenhouse, board: "vianttechnology"}
+  - {name: "Viking Global Investors", ats: greenhouse, board: "vikingglobalinvestors"}
+  - {name: "Virtu Financial", ats: greenhouse, board: "virtu"}
+  - {name: "Voloridge Investment Management", ats: greenhouse, board: "voloridgeinvestmentmanagement"}
+  - {name: "Weiss Asset Management", ats: greenhouse, board: "weissassetmanagement"}
+  - {name: "Woolpert", ats: greenhouse, board: "woolpert"}
+  - {name: "WSC", ats: greenhouse, board: "watersystemsconsulting"}
+  - {name: "ZipRecruiter", ats: greenhouse, board: "ziprecruiter"}
+  - {name: "Acron Aviation", ats: lever, board: "acronaviation"}
+  - {name: "Alice & Bob", ats: lever, board: "alice-bob"}
+  - {name: "Aprio", ats: lever, board: "Aprio"}
+  - {name: "Azul", ats: lever, board: "azul"}
+  - {name: "Commonwealth Fusion Systems", ats: lever, board: "cfsenergy"}
+  - {name: "Fehr & Peers", ats: lever, board: "fehrandpeers"}
+  - {name: "FieldAI", ats: lever, board: "field-ai"}
+  - {name: "Filevine", ats: lever, board: "filevine"}
+  - {name: "Firework", ats: lever, board: "fireworkhq"}
+  - {name: "Foth", ats: lever, board: "foth"}
+  - {name: "GenBio AI", ats: lever, board: "genbio"}
+  - {name: "Humble Robotics", ats: lever, board: "humble-robotics"}
+  - {name: "Kickmaker", ats: lever, board: "kickmaker"}
+  - {name: "Loft Orbital Solutions", ats: lever, board: "loftorbital"}
+  - {name: "Palantir Technologies", ats: lever, board: "palantir"}
+  - {name: "Pattern", ats: lever, board: "pattern"}
+  - {name: "Protective", ats: lever, board: "protective"}
+  - {name: "RosaicLabs", ats: lever, board: "rosaiclabs"}
+  - {name: "Shield AI", ats: lever, board: "shieldai"}
+  - {name: "ShopBack", ats: lever, board: "shopback-2"}
+  - {name: "Stanley Consultants", ats: lever, board: "stanleygroup"}
+  - {name: "Strada Education Foundation", ats: lever, board: "stradaeducation"}
+  - {name: "Tevora", ats: lever, board: "tevora"}
+  - {name: "The Chisholm Legacy Project", ats: lever, board: "The-Chisholm-Legacy-Project"}
+  - {name: "Thea Energy", ats: lever, board: "thea"}
+  - {name: "Thomas & Hutton", ats: lever, board: "tandh"}
+  - {name: "Toyota Research Institute", ats: lever, board: "tri"}
+  - {name: "Upscale, Inc", ats: lever, board: "upscale-ai"}
+  - {name: "Viget", ats: lever, board: "viget"}
+  - {name: "VR Systems, Inc", ats: lever, board: "VRsystems"}
+  - {name: "Walker Consultants", ats: lever, board: "walkerconsultants"}
+  - {name: "WisdomTree", ats: lever, board: "wisdomtree"}
+  - {name: "ACI Worldwide", ats: oracle, board: "ebwg.fa.us2/CX"}
+  - {name: "Alta Genetics", ats: oracle, board: "hdjm.fa.ca2/Alta"}
+  - {name: "American Express", ats: oracle, board: "egug.fa.us2/CX_1"}
+  - {name: "Americold", ats: oracle, board: "fa-ewwt-saasfaprod1.fa.ocs/CX"}
+  - {name: "Americold", ats: oracle, board: "fa-ewwt-saasfaprod1.fa.ocs/CX_2001"}
+  - {name: "Americold", ats: oracle, board: "fa-ewwt-saasfaprod1.fa.ocs/CX_6001"}
+  - {name: "Americold", ats: oracle, board: "fa-ewwt-saasfaprod1.fa.ocs/Americold-Careers"}
+  - {name: "Arcadis", ats: oracle, board: "ebcs.fa.em2/CX_1"}
+  - {name: "Arcadis", ats: oracle, board: "ebcs.fa.em2/CX"}
+  - {name: "Arconic", ats: oracle, board: "hdnn.fa.us6/CX"}
+  - {name: "Arlington County Government", ats: oracle, board: "fa-exkk-saasfaprod1.fa.ocs/CX_1"}
+  - {name: "Associated Wholesale Grocers", ats: oracle, board: "fa-etwq-saasfaprod1.fa.ocs/CX_1"}
+  - {name: "At Home", ats: oracle, board: "hdiy.fa.us2/CX"}
+  - {name: "AutoZone", ats: oracle, board: "egud.fa.us2/CX_1"}
+  - {name: "Baylor University", ats: oracle, board: "ejof.fa.us2/BaylorCareers"}
+  - {name: "Baylor University", ats: oracle, board: "ejof.fa.us2/CX_1"}
+  - {name: "BBB | Better Business Bureau", ats: oracle, board: "fa-euha-saasfaprod1.fa.ocs/CX_1"}
+  - {name: "BDO USA", ats: oracle, board: "ebqb.fa.us2/CX_1001"}
+  - {name: "BDO USA", ats: oracle, board: "ebqb.fa.us2/BDOExperiencedCareers"}
+  - {name: "BDO USA, P.C", ats: oracle, board: "ebqb.fa.us2/CX"}
+  - {name: "BHE", ats: oracle, board: "fa-essf-saasfaprod1.fa.ocs/CX_1"}
+  - {name: "BHE (Berkshire Hathaway Energy)", ats: oracle, board: "fa-essf-saasfaprod1.fa.ocs/CX"}
+  - {name: "Blue Cross Blue Shield of Michigan", ats: oracle, board: "ejko.fa.us2/CX_3"}
+  - {name: "Blue Shield of California", ats: oracle, board: "ecge.fa.us2/CX_1003"}
+  - {name: "Blue Shield of California", ats: oracle, board: "ecge.fa.us2/CX"}
+  - {name: "BNY Mellon", ats: oracle, board: "eofe.fa.us2/CX"}
+  - {name: "Butler University", ats: oracle, board: "fa-exer-saasfaprod1.fa.ocs/CX_1001"}
+  - {name: "Cantor Fitzgerald/BGC", ats: oracle, board: "hdow.fa.us6/CX_1003"}
+  - {name: "CDS Global", ats: oracle, board: "eevd.fa.us6/CDS-Global"}
+  - {name: "Cedars-Sinai", ats: oracle, board: "hdkk.fa.us6/CX_2001"}
+  - {name: "Centrus Energy", ats: oracle, board: "eese.fa.us8/CX"}
+  - {name: "Chicago Park District", ats: oracle, board: "fa-esjf-saasfaprod1.fa.ocs/CX_1"}
+  - {name: "Chubb", ats: oracle, board: "fa-ewgu-saasfaprod1.fa.ocs/CX_2001"}
+  - {name: "Clean Harbors", ats: oracle, board: "epyc.fa.us2/CX"}
+  - {name: "Clean Harbors", ats: oracle, board: "epyc.fa.us2/CLH-ca"}
+  - {name: "Clean Harbors", ats: oracle, board: "epyc.fa.us2/CLH-US"}
+  - {name: "Clean Harbors", ats: oracle, board: "epyc.fa.us2/CLH-IN"}
+  - {name: "Clean Harbors", ats: oracle, board: "epyc.fa.us2/CX_1"}
+  - {name: "Community Health Systems Professional Services Corporation", ats: oracle, board: "fa-evxo-saasfaprod1.fa.ocs/CX_1"}
+  - {name: "Conifer Health Solutions", ats: oracle, board: "eodr.fa.us2/CX_2001"}
+  - {name: "CooperCompanies", ats: oracle, board: "hcjy.fa.us2/CX"}
+  - {name: "CSC", ats: oracle, board: "hczw.fa.us2/CX"}
+  - {name: "Cummins", ats: oracle, board: "fa-espx-saasfaprod1.fa.ocs/CX_1"}
+  - {name: "Cummins", ats: oracle, board: "fa-espx-saasfaprod1.fa.ocs/CX"}
+  - {name: "Dell Technologies", ats: oracle, board: "iawmqy.fa.ocs/careers"}
+  - {name: "Dollar General", ats: oracle, board: "ibxwjb.fa.ocs/CX_1"}
+  - {name: "DP World", ats: oracle, board: "ehpv.fa.em2/CX"}
+  - {name: "DP World", ats: oracle, board: "ehpv.fa.em2/CX_1"}
+  - {name: "EF Education First", ats: oracle, board: "fa-evad-saasfaprod1.fa.ocs/CX_1001"}
+  - {name: "Emergent Holdings", ats: oracle, board: "ejko.fa.us2/CX_2"}
+  - {name: "Emerson", ats: oracle, board: "hdjq.fa.us2/CX_1"}
+  - {name: "Encompass Health", ats: oracle, board: "ibwsjb.fa.ocs/CX_1"}
+  - {name: "Encompass Health", ats: oracle, board: "ibwsjb.fa.ocs/CX"}
+  - {name: "EXL", ats: oracle, board: "fa-ewjt-saasfaprod1.fa.ocs/CX_2"}
+  - {name: "FlexStaff", ats: oracle, board: "eppr.fa.us2/CX_1"}
+  - {name: "Florida Blue", ats: oracle, board: "fa-etum-saasfaprod1.fa.ocs/floridablue"}
+  - {name: "Florida Blue (Blue Cross and Blue Shield of Florida)", ats: oracle, board: "fa-etum-saasfaprod1.fa.ocs/CX_1001"}
+  - {name: "GM Financial", ats: oracle, board: "fa-exvu-saasfaprod1.fa.ocs/CX_1"}
+  - {name: "Good Samaritan", ats: oracle, board: "fa-exgl-saasfaprod1.fa.ocs/CX"}
+  - {name: "Grant Thornton", ats: oracle, board: "ehzq.fa.us2/GrantThorntonPhilippines"}
+  - {name: "Grant Thornton", ats: oracle, board: "ehzq.fa.us2/CX_1"}
+  - {name: "Harbour Village", ats: oracle, board: "eexs.fa.us2/HarbourVillage"}
+  - {name: "Harmonic Inc", ats: oracle, board: "egmn.fa.us2/CX_1"}
+  - {name: "Hearst", ats: oracle, board: "eevd.fa.us6/CX"}
+  - {name: "Hearst Newspapers", ats: oracle, board: "eevd.fa.us6/CX_8004"}
+  - {name: "Heritage Pointe", ats: oracle, board: "eexs.fa.us2/HeritagePointe"}
+  - {name: "Hilltop Holdings", ats: oracle, board: "ejlu.fa.us2/HilltopHoldingsAllJobs"}
+  - {name: "Howmet Aerospace", ats: oracle, board: "fa-exty-saasfaprod1.fa.ocs/CX_1"}
+  - {name: "Howmet Aerospace", ats: oracle, board: "fa-exty-saasfaprod1.fa.ocs/CX"}
+  - {name: "Hunt", ats: oracle, board: "fa-eqcd-saasfaprod1.fa.ocs/CX_1"}
+  - {name: "Idaho National Laboratory", ats: oracle, board: "elhe.fa.us8/pro"}
+  - {name: "INTEGRIS Health", ats: oracle, board: "ertr.fa.us2/CX_2001"}
+  - {name: "INTEGRIS Health", ats: oracle, board: "ertr.fa.us2/CX_1"}
+  - {name: "Ipsos", ats: oracle, board: "ecqf.fa.em2/CX"}
+  - {name: "ITC Holdings", ats: oracle, board: "edqo.fa.us2/ITCHOLDINGS"}
+  - {name: "Kawneer", ats: oracle, board: "hdnn.fa.us6/CX_1"}
+  - {name: "Kroll", ats: oracle, board: "hcxs.fa.us2/CX_1"}
+  - {name: "Lazard", ats: oracle, board: "icbpjb.fa.ocs/LazardProfessionalCareers"}
+  - {name: "Legrand Slovenija", ats: oracle, board: "iadugs.fa.ocs/CX_1001"}
+  - {name: "Macy's", ats: oracle, board: "ebwh.fa.us2/CX_1001"}
+  - {name: "Macy's", ats: oracle, board: "ebwh.fa.us2/CX_1"}
+  - {name: "Macy's", ats: oracle, board: "ebwh.fa.us2/CX"}
+  - {name: "Manitowoc", ats: oracle, board: "fda.fa.us1/CX"}
+  - {name: "Manitowoc", ats: oracle, board: "fda.fa.us1/CX_1"}
+  - {name: "Marriott", ats: oracle, board: "ejwl.fa.us2/CX"}
+  - {name: "Mayo Clinic", ats: oracle, board: "fa-euwp-saasfaprod1.fa.ocs/CX_1"}
+  - {name: "McDermott", ats: oracle, board: "edsv.fa.us2/CX_1"}
+  - {name: "McDermott", ats: oracle, board: "edsv.fa.us2/CX"}
+  - {name: "Michael Baker International", ats: oracle, board: "ebxs.fa.us2/CX_2"}
+  - {name: "Michael Baker International", ats: oracle, board: "ebxs.fa.us2/CX_4004"}
+  - {name: "Molina Healthcare", ats: oracle, board: "hckd.fa.us2/CX"}
+  - {name: "Molina Healthcare", ats: oracle, board: "hckd.fa.us2/CX_1"}
+  - {name: "Mortenson", ats: oracle, board: "fa-esgu-saasfaprod1.fa.ocs/CX_1"}
+  - {name: "Mosaic Life Care", ats: oracle, board: "ibcjqy.fa.ocs/CX_2"}
+  - {name: "Navy Federal Credit Union", ats: oracle, board: "fa-etbx-saasfaprod1.fa.ocs/CX_1001"}
+  - {name: "Newmark", ats: oracle, board: "hdow.fa.us6/CX_1001"}
+  - {name: "Nokia", ats: oracle, board: "fa-evmr-saasfaprod1.fa.ocs/CX_1"}
+  - {name: "NOV", ats: oracle, board: "egay.fa.us6/CX_xx"}
+  - {name: "Oceaneering", ats: oracle, board: "ebfr.fa.us2/jobs"}
+  - {name: "onsemi", ats: oracle, board: "hctz.fa.us2/CX"}
+  - {name: "onsemi", ats: oracle, board: "hctz.fa.us2/CX_1001"}
+  - {name: "Patterson-UTI", ats: oracle, board: "fa-elpm-saasfaprod1.fa.ocs/CX"}
+  - {name: "Pella Windows & Doors", ats: oracle, board: "ebgj.fa.us2/Pella-Careers"}
+  - {name: "Quad", ats: oracle, board: "ebud.fa.us2/CX_1"}
+  - {name: "Ralliant", ats: oracle, board: "ibwujb.fa.ocs/CX_1001"}
+  - {name: "Resideo", ats: oracle, board: "ehtl.fa.us6/CX"}
+  - {name: "Rheem Manufacturing Company", ats: oracle, board: "hdde.fa.us2/CX"}
+  - {name: "Ricoh", ats: oracle, board: "cbha.fa.us2/CX_1"}
+  - {name: "Rockland Trust", ats: oracle, board: "eehb.fa.us2/CX_2005"}
+  - {name: "Rockland Trust", ats: oracle, board: "eehb.fa.us2/CX_1"}
+  - {name: "S&C Electric Company", ats: oracle, board: "ejia.fa.us6/CX_1"}
+  - {name: "S&C Electric Company", ats: oracle, board: "ejia.fa.us6/CX"}
+  - {name: "SAIC", ats: oracle, board: "eihu.fa.us8/CX"}
+  - {name: "Schroders", ats: oracle, board: "ekbq.fa.em2/CX_2"}
+  - {name: "Sherwin-Williams", ats: oracle, board: "ejhp.fa.us6/CX_2"}
+  - {name: "Southwest Gas Corporation", ats: oracle, board: "ebtw.fa.us2/CX_1"}
+  - {name: "Standard Aero", ats: oracle, board: "cva.fa.us1/CX_3"}
+  - {name: "Standard Aero", ats: oracle, board: "cva.fa.us1/CX"}
+  - {name: "Stantec", ats: oracle, board: "hdhl.fa.us6/CX_1"}
+  - {name: "Stantec", ats: oracle, board: "hdhl.fa.us6/CX"}
+  - {name: "Staples Inc", ats: oracle, board: "fa-exhh-saasfaprod1.fa.ocs/CX"}
+  - {name: "Staples Inc.", ats: oracle, board: "fa-exhh-saasfaprod1.fa.ocs/CX_2002"}
+  - {name: "Tallgrass", ats: oracle, board: "epix.fa.us2/CX"}
+  - {name: "Tallgrass", ats: oracle, board: "epix.fa.us2/CX_1"}
+  - {name: "Tenet Healthcare Corporation", ats: oracle, board: "eodr.fa.us2/CX"}
+  - {name: "Tenet Healthcare Corporation", ats: oracle, board: "eodr.fa.us2/CX_1"}
+  - {name: "Texas Instruments", ats: oracle, board: "edbz.fa.us2/CX"}
+  - {name: "The Church of Jesus Christ of Latter-day Saints", ats: oracle, board: "epej.fa.us2/CX_1001"}
+  - {name: "The Church of Jesus Christ of Latter-day Saints", ats: oracle, board: "epej.fa.us2/ChurchEmployment"}
+  - {name: "The Church of Jesus Christ of Latter-day Saints", ats: oracle, board: "epej.fa.us2/MTCEmployment"}
+  - {name: "The Kroger Co", ats: oracle, board: "eluq.fa.us2/CX"}
+  - {name: "Tradeweb", ats: oracle, board: "ecnf.fa.us2/CX"}
+  - {name: "Tradeweb", ats: oracle, board: "ecnf.fa.us2/CX_xx"}
+  - {name: "TTX Company", ats: oracle, board: "ejjc.fa.us6/CX"}
+  - {name: "Tumi", ats: oracle, board: "ekkf.fa.em2/CX_1"}
+  - {name: "UChicago Medicine", ats: oracle, board: "fa-etnf-saasfaprod1.fa.ocs/CX_1001"}
+  - {name: "UL Solutions", ats: oracle, board: "fa-eups-saasfaprod1.fa.ocs/CX_1"}
+  - {name: "UL Solutions", ats: oracle, board: "fa-eups-saasfaprod1.fa.ocs/ULSolutionsCareers"}
+  - {name: "UNDP", ats: oracle, board: "estm.fa.em2/CX"}
+  - {name: "URUS Group", ats: oracle, board: "hdjm.fa.ca2/CX_5"}
+  - {name: "Vertiv", ats: oracle, board: "egup.fa.us2/CX"}
+  - {name: "Vertiv", ats: oracle, board: "egup.fa.us2/CX_1"}
+  - {name: "Virginia Department of Transportation", ats: oracle, board: "etgi.fa.us8/CX_4005"}
+  - {name: "Vulcan Materials Company", ats: oracle, board: "vmcfa-prod-iccgjb.fa.ocs/CX_1"}
+  - {name: "Washington Metropolitan Area Transit Authority", ats: oracle, board: "ibpbjb.fa.ocs/CX_2011"}
+  - {name: "Waste Management, Inc. (WM)", ats: oracle, board: "emcm.fa.us2/CX_4001"}
+  - {name: "We One", ats: oracle, board: "ehpv.fa.em2/WeOneCareers"}
+  - {name: "Well Enterprises", ats: oracle, board: "hcsb.fa.us2/CX"}
+  - {name: "Westfield", ats: oracle, board: "fa-exdv-saasfaprod1.fa.ocs/CX"}
+  - {name: "WSP", ats: oracle, board: "emit.fa.ca3/CX_2001"}
+  - {name: "WSP", ats: oracle, board: "emit.fa.ca3/jobsearch"}
+  - {name: "WTW", ats: oracle, board: "eedu.fa.em3/CX_1003"}
+  - {name: "Yanfeng", ats: oracle, board: "fa-epuh-saasfaprod1.fa.ocs/CX_1"}
+  - {name: "AbbVie", ats: smartrecruiters, board: "AbbVie"}
+  - {name: "AECOM", ats: smartrecruiters, board: "AECOM2"}
+  - {name: "Aumovio", ats: smartrecruiters, board: "Aumovio"}
+  - {name: "Avery Dennison", ats: smartrecruiters, board: "AveryDennison"}
+  - {name: "Bertelsmann-Jobs", ats: smartrecruiters, board: "Bertelsmann-Jobs"}
+  - {name: "Bosch Group", ats: smartrecruiters, board: "BoschGroup"}
+  - {name: "CapTech Consulting", ats: smartrecruiters, board: "CapTechConsulting"}
+  - {name: "Carlisle", ats: smartrecruiters, board: "Carlisle"}
+  - {name: "City of New York", ats: smartrecruiters, board: "CityOfNewYork"}
+  - {name: "Clean Water Action", ats: smartrecruiters, board: "CleanWaterAction"}
+  - {name: "Continental", ats: smartrecruiters, board: "Continental"}
+  - {name: "Continental Group Sector ContiTech", ats: smartrecruiters, board: "ContinentalGroupSectorContiTech"}
+  - {name: "CRB", ats: smartrecruiters, board: "CRB"}
+  - {name: "Egis Group", ats: smartrecruiters, board: "EgisGroup"}
+  - {name: "Elemental Brands", ats: smartrecruiters, board: "ElementalLEDInc"}
+  - {name: "EVERSANA", ats: smartrecruiters, board: "EVERSANA1"}
+  - {name: "Expeditors", ats: smartrecruiters, board: "Expeditors"}
+  - {name: "Fortune Brands", ats: smartrecruiters, board: "FortuneBrands"}
+  - {name: "Grimco", ats: smartrecruiters, board: "Grimco"}
+  - {name: "Henry Ford Health", ats: smartrecruiters, board: "HenryFordHealth1"}
+  - {name: "INFICON", ats: smartrecruiters, board: "INFICON2"}
+  - {name: "InfiniteQuant", ats: smartrecruiters, board: "InfiniteQuant"}
+  - {name: "Interco", ats: smartrecruiters, board: "Interco"}
+  - {name: "Intuitive", ats: smartrecruiters, board: "Intuitive"}
+  - {name: "Jack Link's Protein Snacks", ats: smartrecruiters, board: "JackLinksProteinSnacks"}
+  - {name: "Keenfinity", ats: smartrecruiters, board: "Keenfinity"}
+  - {name: "Knobelsdorff Enterprises", ats: smartrecruiters, board: "KnobelsdorffEnterprises"}
+  - {name: "LinkedIn", ats: smartrecruiters, board: "LinkedIn3"}
+  - {name: "LLNL", ats: smartrecruiters, board: "LLNL"}
+  - {name: "Loram", ats: smartrecruiters, board: "Loram1"}
+  - {name: "Louis Dreyfus Company", ats: smartrecruiters, board: "LouisDreyfusCompany"}
+  - {name: "NBCUniversal", ats: smartrecruiters, board: "NBCUniversal3"}
+  - {name: "NETZSCH Group", ats: smartrecruiters, board: "NETZSCHGroup"}
+  - {name: "Northwestern Memorial Healthcare", ats: smartrecruiters, board: "NorthwesternMedicine"}
+  - {name: "Pilot Company", ats: smartrecruiters, board: "PilotCompany"}
+  - {name: "PROCON", ats: smartrecruiters, board: "PROCON"}
+  - {name: "Pyrotek", ats: smartrecruiters, board: "Pyrotek3"}
+  - {name: "Renesas Electronics", ats: smartrecruiters, board: "RenesasElectronics"}
+  - {name: "Resultant", ats: smartrecruiters, board: "Resultant"}
+  - {name: "RR Donnelley", ats: smartrecruiters, board: "RRDonnelley"}
+  - {name: "RRS Group", ats: smartrecruiters, board: "RRSGroup"}
+  - {name: "SAP IT Business Systeme", ats: smartrecruiters, board: "SAPITBusinessSysteme"}
+  - {name: "ServiceNow", ats: smartrecruiters, board: "ServiceNow"}
+  - {name: "Smiths Group", ats: smartrecruiters, board: "SmithsGroup2"}
+  - {name: "Solidigm", ats: smartrecruiters, board: "Solidigm"}
+  - {name: "Spring Venture Group", ats: smartrecruiters, board: "SpringVentureGroup1"}
+  - {name: "Syngenta Group", ats: smartrecruiters, board: "SyngentaGroup"}
+  - {name: "The Panaro Group", ats: smartrecruiters, board: "ThePanaroGroup"}
+  - {name: "Veolia Environnement SA", ats: smartrecruiters, board: "VeoliaEnvironnementSA"}
+  - {name: "VusionGroup SA", ats: smartrecruiters, board: "VusionGroupSA"}
+  - {name: "Wabash Valley Power Alliance", ats: smartrecruiters, board: "WabashValleyPowerAlliance"}
+  - {name: "Wabtec", ats: smartrecruiters, board: "Wabtec"}
+  - {name: "Wellmark, Inc", ats: smartrecruiters, board: "WellmarkInc"}
+  - {name: "3M", ats: workday, board: "3m.wd1/Search"}
+  - {name: "7-Eleven", ats: workday, board: "my7elevenhr.wd12/Careers"}
+  - {name: "AAM - American Axle & Manufacturing", ats: workday, board: "aampower.wd1/AAM-Career-Site"}
+  - {name: "Activision Blizzard, Inc", ats: workday, board: "xboxgaming.wd1/External"}
+  - {name: "Adelphi Group", ats: workday, board: "interpublic.wd5/OMC"}
+  - {name: "Adient", ats: workday, board: "adient.wd3/External"}
+  - {name: "Adobe", ats: workday, board: "adobe.wd5/external_experienced"}
+  - {name: "Advocate Health", ats: workday, board: "aah.wd5/External"}
+  - {name: "Aegon Asset Management", ats: workday, board: "transamerica.wd5/AegonAM"}
+  - {name: "AeroVironment", ats: workday, board: "avav.wd1/AVAV"}
+  - {name: "Agilent Technologies", ats: workday, board: "agilent.wd5/Agilent_Student_Careers"}
+  - {name: "Airbus", ats: workday, board: "ag.wd3/Airbus"}
+  - {name: "Allegion", ats: workday, board: "allegion.wd5/careers"}
+  - {name: "Allied Solutions LLC", ats: workday, board: "alliedsolutions.wd501/Allied_External"}
+  - {name: "Allison Transmission", ats: workday, board: "allisontransmission.wd1/ATI-External"}
+  - {name: "Ally", ats: workday, board: "ally.wd1/Ally"}
+  - {name: "Ambarella", ats: workday, board: "ambarella.wd108/Ambarella"}
+  - {name: "Amentum", ats: workday, board: "pae.wd1/Amentum_Careers"}
+  - {name: "Ameresco", ats: workday, board: "ameresco.wd5/Ameresco"}
+  - {name: "American Bar Association", ats: workday, board: "aba.wd1/ABA"}
+  - {name: "American Century Investments", ats: workday, board: "americancentury.wd5/AmericanCenturyInvestments"}
+  - {name: "American Chemical Society", ats: workday, board: "acs.wd5/ACSCareers"}
+  - {name: "American Electric Power", ats: workday, board: "aep.wd1/AEPCareerSite"}
+  - {name: "American Express Global Business Travel", ats: workday, board: "travelhrportal.wd1/Jobs"}
+  - {name: "American Family Insurance", ats: workday, board: "amfam.wd1/Careers"}
+  - {name: "American Family Insurance", ats: workday, board: "amfam.wd1/AmFamGroupInternCareers"}
+  - {name: "American Fidelity", ats: workday, board: "americanfidelity.wd5/External"}
+  - {name: "AmeriLife", ats: workday, board: "amerilife.wd5/External"}
+  - {name: "Amgen", ats: workday, board: "amgen.wd1/Careers"}
+  - {name: "Amica Insurance", ats: workday, board: "amica.wd503/CareersAmica"}
+  - {name: "Analog Devices", ats: workday, board: "analogdevices.wd1/External"}
+  - {name: "Ankura", ats: workday, board: "ankura.wd5/Ankura"}
+  - {name: "Apache Industrial", ats: workday, board: "apacheip.wd1/Apache_Careers"}
+  - {name: "Apogee Enterprises, Inc", ats: workday, board: "apog.wd1/Apogee"}
+  - {name: "Apple Bank", ats: workday, board: "applebank.wd5/applebankcareers"}
+  - {name: "Applied Materials", ats: workday, board: "amat.wd1/External"}
+  - {name: "Aptiv", ats: workday, board: "aptiv.wd5/APTIV_CAREERS"}
+  - {name: "Arch Insurance Group Inc", ats: workday, board: "archgroup.wd1/Careers"}
+  - {name: "Ardent Mills", ats: workday, board: "ardentmills.wd5/Ardent_Mills_LLC"}
+  - {name: "Ardian Jobs & Internships", ats: workday, board: "ardian.wd103/ArdianCareers"}
+  - {name: "Aristocrat Gaming", ats: workday, board: "aristocrat.wd3/AristocratExternalCareersSite"}
+  - {name: "Arkansas Children's Hospital", ats: workday, board: "archildrens.wd1/External_Career_Site"}
+  - {name: "Asahi Kasei", ats: workday, board: "akamerica.wd501/aka"}
+  - {name: "ASML", ats: workday, board: "asml.wd3/ASMLEXT1"}
+  - {name: "Aspen Technology", ats: workday, board: "aspentech.wd5/AspenTech"}
+  - {name: "Associated Bank", ats: workday, board: "associatedbank.wd1/external_careers"}
+  - {name: "Assurant", ats: workday, board: "assurant.wd1/Assurant_Careers"}
+  - {name: "AstraZeneca", ats: workday, board: "astrazeneca.wd3/Careers"}
+  - {name: "AT&T", ats: workday, board: "att.wd1/ATTCollege"}
+  - {name: "ATC", ats: workday, board: "atcllc.wd5/atcllc"}
+  - {name: "Athene", ats: workday, board: "athene.wd5/athene_careers"}
+  - {name: "AtkinsR\u00e9alis", ats: workday, board: "slihrms.wd3/Careers"}
+  - {name: "Austal USA", ats: workday, board: "austalusa.wd1/austal"}
+  - {name: "Austin Powder", ats: workday, board: "austinpowder.wd5/AP"}
+  - {name: "Auto-Owners Insurance", ats: workday, board: "aoins.wd5/AutoOwners"}
+  - {name: "Avis Budget Group", ats: workday, board: "avisbudget.wd1/ABG_Careers"}
+  - {name: "Axiom Space", ats: workday, board: "axiomspace.wd5/External_Career_Site"}
+  - {name: "Axos Bank", ats: workday, board: "axos.wd5/Axos"}
+  - {name: "Badger Meter", ats: workday, board: "badgermeter.wd5/US_CareerSite"}
+  - {name: "Baker Tilly", ats: workday, board: "bakertilly.wd5/BTCareers"}
+  - {name: "Barclays", ats: workday, board: "barclays.wd3/External_Career_Site_Barclays"}
+  - {name: "Barings", ats: workday, board: "barings.wd1/Barings"}
+  - {name: "Barry-Wehmiller", ats: workday, board: "barrywehmiller.wd1/BWCareers"}
+  - {name: "Bass Pro Shops", ats: workday, board: "basspro.wd1/careers"}
+  - {name: "Bell Partners Inc", ats: workday, board: "bellpartnersinc.wd5/Careers"}
+  - {name: "Biogen", ats: workday, board: "biibhr.wd3/external"}
+  - {name: "Blattner", ats: workday, board: "blattner.wd5/BlattnerCompany"}
+  - {name: "Bloomberg Industry Group", ats: workday, board: "bloomberg.wd1/Bloombergindustrygroup_External_Career_Site"}
+  - {name: "Blue Cross & Blue Shield of Rhode Island", ats: workday, board: "bcbsri.wd1/BCBSRICareers"}
+  - {name: "Blue Cross and Blue Shield of Louisiana", ats: workday, board: "bcbsla.wd1/Generation_Blue"}
+  - {name: "BMC Software", ats: workday, board: "bmc.wd1/BMC"}
+  - {name: "Boeing", ats: workday, board: "boeing.wd1/INTERN"}
+  - {name: "BorgWarner", ats: workday, board: "borgwarner.wd5/BorgWarner_Careers"}
+  - {name: "Bose Corporation", ats: workday, board: "boseallaboutme.wd503/Bose_Careers"}
+  - {name: "Boyd Group Services", ats: workday, board: "boydgroup.wd1/boydcareers"}
+  - {name: "Bracco Medical Technologies", ats: workday, board: "bracco.wd103/BraccoCareers"}
+  - {name: "Bristol Myers Squibb", ats: workday, board: "bristolmyerssquibb.wd5/BMS"}
+  - {name: "Brookfield Asset Management", ats: workday, board: "brookfield.wd5/brookfield"}
+  - {name: "Brown & Brown Insurance", ats: workday, board: "bbinsurance.wd1/Careers"}
+  - {name: "Buildertrend", ats: workday, board: "buildertrend.wd108/External_Careers"}
+  - {name: "BWE", ats: workday, board: "bwe.wd12/BWECareers"}
+  - {name: "C&S Wholesale Grocers", ats: workday, board: "cswg.wd1/CS_Careers"}
+  - {name: "C.H. Robinson", ats: workday, board: "chrobinson.wd5/CHRobinson"}
+  - {name: "CAA Club Group", ats: workday, board: "caa.wd1/Careers"}
+  - {name: "CAC Group", ats: workday, board: "baldwin.wd1/CAC"}
+  - {name: "CACI International", ats: workday, board: "caci.wd1/External"}
+  - {name: "Cadence Design Systems", ats: workday, board: "cadence.wd1/Univ_Careers"}
+  - {name: "Cambridge Investment Research, Inc", ats: workday, board: "cir.wd108/CIR_External_Career_Site"}
+  - {name: "Campbell's", ats: workday, board: "campbellsoup.wd5/ExternalCareers_GlobalSite"}
+  - {name: "CareSource", ats: workday, board: "caresource.wd1/CareSource"}
+  - {name: "CarMax", ats: workday, board: "carmax.wd1/External"}
+  - {name: "Carnegie Mellon University", ats: workday, board: "cmu.wd115/CMU"}
+  - {name: "Carpenter Technology Corporation", ats: workday, board: "cartech.wd5/CTCExternal"}
+  - {name: "Carrier", ats: workday, board: "carrier.wd5/jobs"}
+  - {name: "Catalent Pharma Solutions", ats: workday, board: "catalent.wd1/External"}
+  - {name: "Caterpillar Inc", ats: workday, board: "cat.wd5/CaterpillarCareers"}
+  - {name: "Cboe Global Markets", ats: workday, board: "cboe.wd1/External_Career_CBOE"}
+  - {name: "CDW", ats: workday, board: "cdw.wd5/Careers"}
+  - {name: "CEFCU", ats: workday, board: "cefcu.wd5/CEFCU"}
+  - {name: "Celgard", ats: workday, board: "akamerica.wd501/broadbean_external"}
+  - {name: "Cemstone", ats: workday, board: "cemstone.wd1/CemstoneCareers"}
+  - {name: "Cencora", ats: workday, board: "myhrabc.wd5/Global"}
+  - {name: "Centene Corporation", ats: workday, board: "centene.wd5/Centene_External"}
+  - {name: "Centerstone", ats: workday, board: "centerstone.wd5/CenterstoneCareers"}
+  - {name: "Centific", ats: workday, board: "centific.wd1/Centific_Global"}
+  - {name: "Cerity Partners", ats: workday, board: "ceritypartners.wd12/ceritypartnerscareers"}
+  - {name: "Charter Manufacturing", ats: workday, board: "chartermfg.wd5/Charter_Careers"}
+  - {name: "Children's Wisconsin", ats: workday, board: "cwi.wd1/CW_Careers"}
+  - {name: "Ciena", ats: workday, board: "ciena.wd5/Careers"}
+  - {name: "Cigna Healthcare", ats: workday, board: "cigna.wd5/cignacareers"}
+  - {name: "Circle K", ats: workday, board: "circlek.wd3/CircleKStoreJobs"}
+  - {name: "City and County of Denver", ats: workday, board: "denver.wd1/CCD-denver-denvergov-CSC_Jobs-Civil_service_jobs-Police_Jobs-Fire_Jobs"}
+  - {name: "City of Charlotte", ats: workday, board: "charlottenc.wd12/citgov"}
+  - {name: "City of North Las Vegas", ats: workday, board: "cityofnorthlasvegas.wd12/CNLVExternalCareerSite"}
+  - {name: "City Utilities of Springfield", ats: workday, board: "cityutilities.wd5/Careers"}
+  - {name: "CLA (CliftonLarsonAllen)", ats: workday, board: "cliftonlarsonallen.wd115/CLA"}
+  - {name: "Clarios", ats: workday, board: "clarios.wd5/clarioscareers"}
+  - {name: "Clearwater Analytics", ats: workday, board: "clearwateranalytics.wd1/Clearwater_Analytics_Careers"}
+  - {name: "Cleveland-Cliffs", ats: workday, board: "aksteel.wd1/careers"}
+  - {name: "CNO Financial Group, Inc", ats: workday, board: "cnoinc.wd5/Careers"}
+  - {name: "Cognex", ats: workday, board: "cognex.wd1/External_Career_Site"}
+  - {name: "Cohen & Co", ats: workday, board: "cohenco.wd108/CC"}
+  - {name: "Cohesity", ats: workday, board: "cohesity.wd5/Cohesity_Careers"}
+  - {name: "Commerce Bank", ats: workday, board: "commercebank.wd1/CommerceJobs"}
+  - {name: "Concord Group Insurance", ats: workday, board: "aoins.wd5/Concord"}
+  - {name: "Constellation Brands", ats: workday, board: "cbrands.wd5/CBI_External_Careers"}
+  - {name: "Copart", ats: workday, board: "copart.wd12/Copart"}
+  - {name: "Core Specialty Insurance Holdings, Inc.", ats: workday, board: "corespecialtyinsurance.wd1/Core_Specialty"}
+  - {name: "Corewell Health", ats: workday, board: "spectrumhealth.wd5/CorewellHealthCareers"}
+  - {name: "CoStar Group", ats: workday, board: "costar.wd1/Costar_Campus"}
+  - {name: "Cox Enterprises", ats: workday, board: "cox.wd1/Cox_External_Career_Site_1"}
+  - {name: "Crane Company", ats: workday, board: "cranecompany.wd5/Careers"}
+  - {name: "Creation Technologies", ats: workday, board: "creationtech.wd1/Creation"}
+  - {name: "CrowdStrike", ats: workday, board: "crowdstrike.wd5/crowdstrikecareers"}
+  - {name: "CSAA Insurance Group, a AAA Insurer", ats: workday, board: "aaaie.wd1/CSAACareers2"}
+  - {name: "CSAA Insurance Group, a AAA Insurer", ats: workday, board: "aaaie.wd1/CSAACareers-Interns"}
+  - {name: "Cumming Group", ats: workday, board: "cumminggroup.wd1/CGC"}
+  - {name: "Daimler Truck", ats: workday, board: "dtna.wd5/DTNA_affiliate"}
+  - {name: "Daimler Truck AG", ats: workday, board: "dtna.wd5/DTNA_external"}
+  - {name: "Danaher Corporation", ats: workday, board: "danaher.wd1/DanaherJobs"}
+  - {name: "DataRobot", ats: workday, board: "datarobot.wd1/DataRobot_External_Careers"}
+  - {name: "David Yurman", ats: workday, board: "davidyurman.wd1/DavidYurmanCareers"}
+  - {name: "Dee Zee, Inc", ats: workday, board: "deezee.wd108/DeeZee_Careers"}
+  - {name: "Delta Dental of Michigan", ats: workday, board: "rhsc.wd5/Delta_Dental_of_Michigan"}
+  - {name: "Denver Health", ats: workday, board: "denverhealth.wd1/DHHA-Main"}
+  - {name: "Direct Supply", ats: workday, board: "directsupply.wd501/direct-supply-careers"}
+  - {name: "DMA - DuCharme, McMillen & Associates, Inc", ats: workday, board: "dmainc.wd5/DMA"}
+  - {name: "Donaldson", ats: workday, board: "donaldson.wd115/DonaldsonCareers"}
+  - {name: "Dover Corporation", ats: workday, board: "dover.wd103/Dover"}
+  - {name: "Dow Jones", ats: workday, board: "dowjones.wd1/Dow_Jones_Career"}
+  - {name: "DPR Construction", ats: workday, board: "mydpr.wd5/11212017"}
+  - {name: "DraftKings Inc", ats: workday, board: "draftkings.wd1/Campus_Career_Portal"}
+  - {name: "Draper", ats: workday, board: "draper.wd5/Draper_Careers"}
+  - {name: "DriveTime", ats: workday, board: "drivetime.wd1/DriveTime"}
+  - {name: "Duke Energy Corporation", ats: workday, board: "dukeenergy.wd1/Search"}
+  - {name: "Echo Global Logistics", ats: workday, board: "echo.wd1/Echo_Logistics"}
+  - {name: "Elanco", ats: workday, board: "elanco.wd5/External_Career"}
+  - {name: "Elevance Health", ats: workday, board: "elevancehealth.wd1/ANT"}
+  - {name: "Elkay Manufacturing", ats: workday, board: "elkay.wd1/Elkay_External"}
+  - {name: "Elliott Group, Ebara Corp", ats: workday, board: "elliottgroup.wd5/ElliottCareers"}
+  - {name: "embecta", ats: workday, board: "embecta.wd1/embectacareers"}
+  - {name: "EMC Insurance", ats: workday, board: "emcins.wd5/EMC_Internships"}
+  - {name: "EMC Insurance Companies", ats: workday, board: "emcins.wd5/EMC_Careers"}
+  - {name: "Emery Sapp & Sons, Inc. (ESS)", ats: workday, board: "emerysapp.wd501/ESS"}
+  - {name: "Empower", ats: workday, board: "empower.wd12/empower"}
+  - {name: "Enact Mortgage Insurance", ats: workday, board: "gnw.wd1/Enact_MI"}
+  - {name: "Encova Insurance", ats: workday, board: "encova.wd1/Search"}
+  - {name: "ESS Companies", ats: workday, board: "emerysapp.wd501/ESSC"}
+  - {name: "Eversource Energy", ats: workday, board: "eversource.wd1/Eversource_Confidential"}
+  - {name: "Excellus BCBS", ats: workday, board: "lthc.wd1/ExcellusBCBSCareers"}
+  - {name: "Exol", ats: workday, board: "symbotic.wd504/Symbotic"}
+  - {name: "Expedia", ats: workday, board: "expedia.wd108/private"}
+  - {name: "F.N.B. Corporation", ats: workday, board: "fnbcorp.wd501/FNBCORP"}
+  - {name: "FactSet", ats: workday, board: "factset.wd108/FactSetCareers"}
+  - {name: "Faith Technologies", ats: workday, board: "faithtechnologies.wd1/FTI"}
+  - {name: "Faith Technologies Incorporated (FTI)", ats: workday, board: "faithtechnologies.wd1/FTI_Intern"}
+  - {name: "Federal Home Loan Bank", ats: workday, board: "fhlb.wd1/FHLB_Careers"}
+  - {name: "Federal Home Loan Bank of Indianapolis", ats: workday, board: "fhlbi.wd1/FHLBI_Careers"}
+  - {name: "Federal Reserve System", ats: workday, board: "rb.wd5/FRS"}
+  - {name: "Fermilab", ats: workday, board: "fermilab.wd5/FermilabCareers"}
+  - {name: "Ferrovial", ats: workday, board: "ferrovial.wd3/Ferrovial_Career_Site"}
+  - {name: "FHLBank Chicago", ats: workday, board: "fhlbc.wd1/Search"}
+  - {name: "First Bank & Trust", ats: workday, board: "bankeasy.wd5/bank-easy-job-openings"}
+  - {name: "First National Bank", ats: workday, board: "firstnational.wd12/fnbocareers"}
+  - {name: "First Quality", ats: workday, board: "firstquality.wd5/FIRSTQUALITY"}
+  - {name: "Fiskars Group", ats: workday, board: "fiskars.wd3/FiskarsGroup"}
+  - {name: "Flex", ats: workday, board: "flextronics.wd1/Careers"}
+  - {name: "Florida Atlantic University", ats: workday, board: "fau.wd1/FAU"}
+  - {name: "Focus Financial Partners", ats: workday, board: "ffpar.wd108/External"}
+  - {name: "FormFactor Inc", ats: workday, board: "formfactor.wd1/FFI-Careers"}
+  - {name: "Fox Corporation", ats: workday, board: "fox.wd1/Domestic"}
+  - {name: "Freese and Nichols", ats: workday, board: "freese.wd1/Freese_Nichols_External"}
+  - {name: "Freudenberg Group", ats: workday, board: "freudenberg.wd3/freudenberg-group"}
+  - {name: "GAF", ats: workday, board: "gafsgi.wd5/GAF_Careers"}
+  - {name: "Galloup", ats: workday, board: "kendallgroup.wd503/Kendall_Careers"}
+  - {name: "Gartner", ats: workday, board: "gartner.wd5/EXT"}
+  - {name: "GE Aerospace", ats: workday, board: "geaerospace.wd5/GE_ExternalSite"}
+  - {name: "GE Appliances, a Haier company", ats: workday, board: "haier.wd3/GE_Appliances"}
+  - {name: "GE Vernova", ats: workday, board: "gevernova.wd5/Vernova_ExternalSite"}
+  - {name: "GEICO", ats: workday, board: "geico.wd1/External"}
+  - {name: "Generac Power Systems", ats: workday, board: "generac.wd5/External"}
+  - {name: "General Motors", ats: workday, board: "generalmotors.wd5/Careers_GM"}
+  - {name: "Genpact", ats: workday, board: "genpact.wd108/campussite"}
+  - {name: "Genuine Parts Company", ats: workday, board: "genpt.wd1/Careers"}
+  - {name: "Genworth", ats: workday, board: "gnw.wd1/GNW"}
+  - {name: "Global Infrastructure", ats: workday, board: "gi.wd1/Global_Infrastructure"}
+  - {name: "Global Power Components", ats: workday, board: "globalpowercomponents.wd115/GPC"}
+  - {name: "GlobalFoundries", ats: workday, board: "globalfoundries.wd1/External"}
+  - {name: "Gordon Food Service", ats: workday, board: "gfs.wd5/usjobs-gen-gfs"}
+  - {name: "Great American Insurance Group", ats: workday, board: "gaig.wd1/GAIG_External"}
+  - {name: "GreatAmerica Financial Services", ats: workday, board: "greatamerica.wd12/greatamericacareers"}
+  - {name: "Greif", ats: workday, board: "greif.wd5/Greif"}
+  - {name: "Greystar", ats: workday, board: "greystar.wd1/CONFIDENTIALEXTERNAL"}
+  - {name: "Greystar (International)", ats: workday, board: "greystar.wd1/Campus"}
+  - {name: "Greystone", ats: workday, board: "greyco.wd108/GTI"}
+  - {name: "Guardian Life Insurance", ats: workday, board: "guardianlife.wd5/Guardian-Life-Careers"}
+  - {name: "GuideStone Financial Resources", ats: workday, board: "guidestone.wd1/GuideStone"}
+  - {name: "Gundersen Health System", ats: workday, board: "gundersenhealth.wd5/Gundersen"}
+  - {name: "Hackensack Meridian Health", ats: workday, board: "hmhw.wd12/HMH_Careers"}
+  - {name: "Harvest College", ats: workday, board: "hec.wd5/HarvestCollegeRecruiting"}
+  - {name: "Harvest Midstream Company", ats: workday, board: "hec.wd5/Harvest_Midstream"}
+  - {name: "Hayward Holdings, Inc", ats: workday, board: "hayward.wd1/External"}
+  - {name: "HD Supply", ats: workday, board: "hdsupply.wd1/External"}
+  - {name: "Health Care Service Corporation", ats: workday, board: "hcsc.wd1/HCSC_External"}
+  - {name: "Heidelberg Materials", ats: workday, board: "heidelbergmaterials.wd3/Global_HM_Career_Site"}
+  - {name: "Hendrick Motorsports", ats: workday, board: "hendrick.wd5/HMSCareers"}
+  - {name: "Heritage Construction + Materials", ats: workday, board: "thgrp.wd12/HeritageConstructionMaterials"}
+  - {name: "Hewlett Packard Enterprise", ats: workday, board: "hpe.wd5/Jobsathpe"}
+  - {name: "Highmark Health", ats: workday, board: "highmarkhealth.wd1/highmark"}
+  - {name: "Hilb Group", ats: workday, board: "hilbgroup.wd5/HG-Careers"}
+  - {name: "Hilcorp", ats: workday, board: "hec.wd5/CollegeRecruiting"}
+  - {name: "Hitachi", ats: workday, board: "hitachi.wd1/hitachi"}
+  - {name: "HNTB", ats: workday, board: "hntb.wd5/HNTB_University_Careers"}
+  - {name: "Hose Master LLC", ats: workday, board: "hosemaster.wd12/HoseMaster_Careers"}
+  - {name: "HP", ats: workday, board: "hp.wd5/ExternalCareerSite"}
+  - {name: "Hunkem\u00f6ller", ats: workday, board: "hkm.wd3/Hunkemoller_External_Career_Site"}
+  - {name: "Huntington National Bank", ats: workday, board: "huntington.wd12/HNBcareers"}
+  - {name: "Huron", ats: workday, board: "huron.wd1/huroncareers"}
+  - {name: "Hy-Vee, Inc", ats: workday, board: "hyvee.wd1/HyVeeCareers"}
+  - {name: "Hylant", ats: workday, board: "hylant.wd503/Hylant"}
+  - {name: "Hyster-Yale Group", ats: workday, board: "hysteryale.wd1/Hyster-YaleCareers"}
+  - {name: "IAT Insurance Group", ats: workday, board: "iatinsurancegroup.wd1/iat"}
+  - {name: "ICF", ats: workday, board: "icf.wd5/ICFExternal_Career_Site"}
+  - {name: "IFF", ats: workday, board: "iff.wd5/IFF_Careers"}
+  - {name: "IMB (International Mission Board)", ats: workday, board: "golimitless.wd1/Staff_External_career_site"}
+  - {name: "Imerys", ats: workday, board: "imerys.wd3/IMERYS-Careers"}
+  - {name: "Ingredion Incorporated", ats: workday, board: "ingredion.wd1/IngredionCareers"}
+  - {name: "Inmar Intelligence", ats: workday, board: "inmar.wd1/inmarcareers"}
+  - {name: "Insmed Incorporated", ats: workday, board: "insmed.wd504/EXTERNAL"}
+  - {name: "Insperity", ats: workday, board: "insperity.wd12/NSP"}
+  - {name: "Inspire", ats: workday, board: "inspirebrands.wd5/InspireCareers"}
+  - {name: "Insulet Corporation", ats: workday, board: "insulet.wd5/insuletcareers"}
+  - {name: "Intel Corporation", ats: workday, board: "intel.wd1/External"}
+  - {name: "InterDigital, Inc", ats: workday, board: "interdigital.wd5/InterDigital_Intern"}
+  - {name: "Intermountain Health", ats: workday, board: "imh.wd108/IntermountainCareers"}
+  - {name: "Invesco Ltd", ats: workday, board: "invesco.wd1/IVZearlycareers"}
+  - {name: "Itron", ats: workday, board: "itron.wd5/Early_Careers"}
+  - {name: "Itron, Inc", ats: workday, board: "itron.wd5/Itron"}
+  - {name: "ITW", ats: workday, board: "itw.wd5/External"}
+  - {name: "J.B. Hunt Transport Services, Inc.", ats: workday, board: "jbhunt.wd501/Careers"}
+  - {name: "Jabil", ats: workday, board: "jabil.wd5/Jabil_Careers"}
+  - {name: "Jasper Engines & Transmissions", ats: workday, board: "jasperholdings.wd504/JET_Careers"}
+  - {name: "JLL", ats: workday, board: "jll.wd1/jllcareers"}
+  - {name: "JM&A Group", ats: workday, board: "jmfamily.wd1/JMFamily_External"}
+  - {name: "Johnson & Johnson Innovative Medicine", ats: workday, board: "jj.wd5/JJ"}
+  - {name: "Jonas Software", ats: workday, board: "talentmanagementsolution.wd3/JonasSoftwareUSA"}
+  - {name: "JSX", ats: workday, board: "jsx.wd503/JSX_Careers"}
+  - {name: "KBR, Inc.", ats: workday, board: "kbr.wd5/KBR_Careers"}
+  - {name: "KeyBank", ats: workday, board: "keybank.wd5/External_Career_Site"}
+  - {name: "Keystone Cooperative", ats: workday, board: "keystone.wd5/keystone"}
+  - {name: "Kimball Electronics", ats: workday, board: "kei.wd1/GlobalKimballCareers"}
+  - {name: "Kimco Realty Corporation", ats: workday, board: "kimcorealty.wd503/KimcoCareers"}
+  - {name: "KLA", ats: workday, board: "kla.wd1/UR"}
+  - {name: "KLA", ats: workday, board: "kla.wd1/Search"}
+  - {name: "KLA", ats: workday, board: "kla.wd1/AnnArbor"}
+  - {name: "Kohn Pedersen Fox", ats: workday, board: "kpf.wd5/KPF_Careers"}
+  - {name: "Koppers Inc", ats: workday, board: "koppers.wd5/Koppers"}
+  - {name: "Labcorp", ats: workday, board: "labcorp.wd1/External"}
+  - {name: "Lansing Board of Water & Light", ats: workday, board: "lbwl.wd12/BWLCareers"}
+  - {name: "Lehigh Valley Health Network", ats: workday, board: "lvhn.wd1/LVHN"}
+  - {name: "Leidos", ats: workday, board: "leidos.wd5/External"}
+  - {name: "Life Fitness", ats: workday, board: "lifefitness.wd1/searchLFN"}
+  - {name: "Light & Wonder", ats: workday, board: "lnw.wd5/LightWonderExternalCareers"}
+  - {name: "LIGHTSPEED STUDIOS", ats: workday, board: "tencent.wd1/Lightspeed"}
+  - {name: "Lindt & Spr\u00fcngli (Canada), Inc", ats: workday, board: "lindtspruengli.wd103/LindtSpruengliGroupCareers"}
+  - {name: "Linxon", ats: workday, board: "slihrms.wd3/Linxon"}
+  - {name: "Lithium Americas", ats: workday, board: "lithiumamericas.wd108/External_Careers_SG"}
+  - {name: "Live Nation Entertainment", ats: workday, board: "livenation.wd503/LNExternalSite"}
+  - {name: "Lowe's Companies, Inc", ats: workday, board: "lowes.wd5/LWS_External_CS"}
+  - {name: "LSEG", ats: workday, board: "lseg.wd3/Graduate_Careers"}
+  - {name: "M&T Bank", ats: workday, board: "mtb.wd5/Campus"}
+  - {name: "MacArthur Foundation", ats: workday, board: "macfound.wd1/MAC_FOUND_EXT_CAREERS"}
+  - {name: "Maricopa Association of Governments (MAG)", ats: workday, board: "azmag.wd108/magcareers"}
+  - {name: "Marriott Vacations Worldwide", ats: workday, board: "mymvw.wd5/MVW"}
+  - {name: "Marsh McLennan", ats: workday, board: "mmc.wd1/MMC"}
+  - {name: "Marsh McLennan", ats: workday, board: "mmc.wd1/careers"}
+  - {name: "Marvell Technology", ats: workday, board: "marvell.wd1/MarvellCareers"}
+  - {name: "Marvell Technology", ats: workday, board: "marvell.wd1/MarvellCareers2"}
+  - {name: "Mass General Brigham", ats: workday, board: "massgeneralbrigham.wd1/MGBExternal"}
+  - {name: "McKesson", ats: workday, board: "mckesson.wd3/External_Careers"}
+  - {name: "Medline Industries, LP", ats: workday, board: "medline.wd5/Medline"}
+  - {name: "Methode Electronics", ats: workday, board: "methode.wd5/methode"}
+  - {name: "Michelin", ats: workday, board: "michelinhr.wd3/Michelin"}
+  - {name: "Micron Technology", ats: workday, board: "micron.wd1/External"}
+  - {name: "Midland States Bank", ats: workday, board: "midlandsb.wd1/msbcareers"}
+  - {name: "Midwest Heritage, A Hy-Vee Company", ats: workday, board: "hyvee.wd1/MidwestHeritageCareers"}
+  - {name: "ModMed", ats: workday, board: "modmed.wd501/ModMed12"}
+  - {name: "Monolithic Power Systems, Inc", ats: workday, board: "monolithicpower.wd12/MPS_Careers"}
+  - {name: "Moog Inc", ats: workday, board: "moog.wd5/MOOG_External_Career_Site"}
+  - {name: "Morningstar", ats: workday, board: "morningstar.wd5/Confidential"}
+  - {name: "Motorola Solutions", ats: workday, board: "motorolasolutions.wd5/Careers"}
+  - {name: "Mountain Area Health Education Center - MAHEC", ats: workday, board: "mahec.wd5/MAHEC"}
+  - {name: "MSD", ats: workday, board: "msd.wd5/SearchJobs"}
+  - {name: "MSI Express", ats: workday, board: "msiexpress.wd5/MSI_Express_External_Careers"}
+  - {name: "Mueller Water Products", ats: workday, board: "muellerwaterproducts.wd5/Mueller"}
+  - {name: "NASA Jet Propulsion Laboratory", ats: workday, board: "citjpl.wd5/Jobs"}
+  - {name: "Nasdaq", ats: workday, board: "nasdaq.wd1/Global_External_Site"}
+  - {name: "Nassau Financial Group", ats: workday, board: "nfg.wd504/Nassau"}
+  - {name: "National Basketball Association (NBA)", ats: workday, board: "nba.wd108/nbacareers"}
+  - {name: "National Laboratory of the Rockies", ats: workday, board: "nrel.wd5/NLR"}
+  - {name: "Nationwide", ats: workday, board: "nationwide.wd1/Nationwide_Career"}
+  - {name: "Nationwide Children's Hospital", ats: workday, board: "nationwidechildrens.wd5/NCHCareers"}
+  - {name: "NCR Atleos", ats: workday, board: "ncratleos.wd1/ext_contractors"}
+  - {name: "Nelnet", ats: workday, board: "nelnet.wd1/MyNelnet"}
+  - {name: "Neogen Corporation", ats: workday, board: "neogen.wd5/neogencareers"}
+  - {name: "Netsmart", ats: workday, board: "ntst.wd1/Careers"}
+  - {name: "New York Mets", ats: workday, board: "sterlingmets.wd5/Mets"}
+  - {name: "Nextens", ats: workday, board: "relx.wd3/RiskSolutions"}
+  - {name: "Nike", ats: workday, board: "nike.wd1/nke"}
+  - {name: "Nissan Motor Corporation", ats: workday, board: "alliance.wd3/nissanjobs"}
+  - {name: "NJM Insurance Group", ats: workday, board: "njm.wd1/njm"}
+  - {name: "Nordson Corporation", ats: workday, board: "nordsonhcm.wd501/nordsoncareers"}
+  - {name: "Northwestern Mutual", ats: workday, board: "northwesternmutual.wd5/CORPORATE-CAREERS"}
+  - {name: "Novacore", ats: workday, board: "nsminc.wd1/Novacore_Careers"}
+  - {name: "Novanta Inc", ats: workday, board: "novanta.wd5/Novanta-Careers"}
+  - {name: "nVent", ats: workday, board: "nvent.wd5/nVent"}
+  - {name: "NVIDIA", ats: workday, board: "nvidia.wd5/NVIDIAExternalCareerSite"}
+  - {name: "NXP Semiconductors", ats: workday, board: "nxp.wd3/careers"}
+  - {name: "NYSTRS", ats: workday, board: "nystrs.wd12/NYSTRS_Careers"}
+  - {name: "OCC", ats: workday, board: "theocc.wd5/careers"}
+  - {name: "ODL, Inc", ats: workday, board: "odl.wd5/ODL"}
+  - {name: "ONEOK", ats: workday, board: "oneok.wd1/ONEOK_Early_Careers"}
+  - {name: "Orion Steel Group", ats: workday, board: "orionsteel.wd5/externalcareers"}
+  - {name: "Oshkosh Corporation", ats: workday, board: "oshkoshcorporation.wd5/Oshkosh"}
+  - {name: "Otis Elevator Co", ats: workday, board: "otis.wd504/REC_Ext_Gateway"}
+  - {name: "OxyChem", ats: workday, board: "oxychem.wd504/Corporate"}
+  - {name: "Pacific Life", ats: workday, board: "pacificlife.wd1/PacificLifeCareers"}
+  - {name: "Panduit", ats: workday, board: "panduit.wd1/InternCoOp"}
+  - {name: "Papa Johns", ats: workday, board: "papajohns.wd1/PapaJohnsCareers"}
+  - {name: "Pape-Dawson", ats: workday, board: "papedawson.wd12/PDE"}
+  - {name: "Parsons Corporation", ats: workday, board: "parsons.wd5/Search"}
+  - {name: "PCI Pharma Services", ats: workday, board: "pciservices.wd1/External"}
+  - {name: "Penn State University", ats: workday, board: "psu.wd1/PSU_Staff"}
+  - {name: "Permian Resources", ats: workday, board: "permianres.wd12/Permian_Resources_Careers"}
+  - {name: "PGA Tour", ats: workday, board: "pgatour.wd5/PGATOURExternal"}
+  - {name: "PGA TOUR", ats: workday, board: "pgatour.wd5/FTFExternal"}
+  - {name: "Phelps Health", ats: workday, board: "phelpshealth.wd5/Phelps"}
+  - {name: "Philips", ats: workday, board: "philips.wd3/jobs-and-careers"}
+  - {name: "Plastipak", ats: workday, board: "plastipak.wd1/Plastipak"}
+  - {name: "POET", ats: workday, board: "poet.wd1/POET"}
+  - {name: "Polaris Inc", ats: workday, board: "polaris.wd5/PolarisJobs"}
+  - {name: "Primient", ats: workday, board: "primient.wd1/External_Careers"}
+  - {name: "Procter & Gamble", ats: workday, board: "pg.wd5/1000"}
+  - {name: "Prologis", ats: workday, board: "prologis.wd5/Prologis_External_Careers"}
+  - {name: "ProPetro Services, Inc", ats: workday, board: "propetroservices.wd5/ProPetro_Careers"}
+  - {name: "PROPWR", ats: workday, board: "propetroservices.wd5/PROPWR_Careers"}
+  - {name: "Protiviti", ats: workday, board: "roberthalf.wd1/ProtivitiNA"}
+  - {name: "Protiviti", ats: workday, board: "roberthalf.wd1/ProtivitiGraduate"}
+  - {name: "PTC", ats: workday, board: "ptc.wd1/PTC"}
+  - {name: "PwC", ats: workday, board: "pwc.wd3/NonPublic_Postings"}
+  - {name: "PwC", ats: workday, board: "pwc.wd3/US_Entry_Level_Careers"}
+  - {name: "Q2", ats: workday, board: "q2ebanking.wd5/Q2"}
+  - {name: "QIAGEN", ats: workday, board: "qiagen.wd502/QIAGEN"}
+  - {name: "Rakuten", ats: workday, board: "rakuten.wd1/RakutenAmericas"}
+  - {name: "Realty Income Corporation", ats: workday, board: "realtyincome.wd108/realty_income_careers"}
+  - {name: "Red Hat", ats: workday, board: "redhat.wd5/Jobs"}
+  - {name: "Regal Rexnord", ats: workday, board: "regalrexnord.wd1/Careers"}
+  - {name: "Regeneron", ats: workday, board: "regeneron.wd1/US_Only_University_Relations_Career"}
+  - {name: "Regeneron Pharmaceuticals", ats: workday, board: "regeneron.wd1/Careers"}
+  - {name: "Rehlko", ats: workday, board: "rehlko.wd12/Reh"}
+  - {name: "Reinsurance Group of America, Incorporated", ats: workday, board: "rgare.wd1/Careers"}
+  - {name: "Relation Insurance Services", ats: workday, board: "relationinsurance.wd5/Relation"}
+  - {name: "Republic Airways", ats: workday, board: "rjet.wd108/External_Career_Site"}
+  - {name: "REV Entertainment", ats: workday, board: "rangersmlb.wd5/REVEntertainmentCareers"}
+  - {name: "Revantage, A Blackstone Portfolio Company", ats: workday, board: "revantage.wd1/Revantage"}
+  - {name: "Revvity", ats: workday, board: "revvity.wd103/External"}
+  - {name: "Reworld Waste", ats: workday, board: "reworld.wd5/External"}
+  - {name: "Richardson International", ats: workday, board: "richardson.wd3/Richardson_Our_Careers"}
+  - {name: "Rite-Hite", ats: workday, board: "ritehite.wd12/RHH"}
+  - {name: "Rochester Regional Health", ats: workday, board: "rrhs.wd5/acm"}
+  - {name: "Rockefeller Group", ats: workday, board: "rockefellergroup.wd503/Rockefeller"}
+  - {name: "Rocket Companies", ats: workday, board: "quickenloans.wd5/rocket_careers"}
+  - {name: "Rockwell Automation", ats: workday, board: "rockwellautomation.wd1/External-Rockwell-Automation-Early-Careers"}
+  - {name: "Rockwell Automation", ats: workday, board: "rockwellautomation.wd1/External_Rockwell_Automation"}
+  - {name: "ROCKWOOL Group", ats: workday, board: "rockwoolgroup.wd3/ROCKWOOL"}
+  - {name: "Rogue Fitness", ats: workday, board: "roguefitness.wd1/RogueFitness_External_Careers"}
+  - {name: "Rosendin", ats: workday, board: "rosendin.wd1/Careers"}
+  - {name: "RSM US LLP", ats: workday, board: "rsm.wd1/RSMCareers"}
+  - {name: "Ryan", ats: workday, board: "ryan.wd1/RyanCareers"}
+  - {name: "Ryan", ats: workday, board: "ryan.wd1/Students-Graduates"}
+  - {name: "Ryan Specialty", ats: workday, board: "ryansg.wd5/Ryan_Specialty_Career_Site"}
+  - {name: "Ryder Supply Chain Solutions", ats: workday, board: "ryder.wd5/RyderCareers"}
+  - {name: "Salesforce", ats: workday, board: "salesforce.wd12/External_Career_Site"}
+  - {name: "Salesforce", ats: workday, board: "salesforce.wd12/Futureforce_NewGradRoles"}
+  - {name: "Salt Lake City Corporation", ats: workday, board: "slcgov.wd1/SLC"}
+  - {name: "Sanofi", ats: workday, board: "sanofi.wd3/SanofiCareers"}
+  - {name: "Saputo Inc", ats: workday, board: "saputo.wd5/Saputo_External_Careers"}
+  - {name: "Schreiber Foods", ats: workday, board: "schreiberfoods.wd115/Schreiber_Careers"}
+  - {name: "Schweitzer Engineering Laboratories (SEL)", ats: workday, board: "selinc.wd1/SEL"}
+  - {name: "Sentara Health", ats: workday, board: "sentara.wd1/SCS"}
+  - {name: "Signet Jewelers", ats: workday, board: "signetjewelers.wd1/SignetCorporateCareers"}
+  - {name: "Signify", ats: workday, board: "lighting.wd3/jobs-and-careers"}
+  - {name: "Smith+Nephew", ats: workday, board: "smithnephew.wd5/External"}
+  - {name: "Software Engineering Institute | Carnegie Mellon University", ats: workday, board: "cmu.wd115/SEI"}
+  - {name: "Solar Turbines", ats: workday, board: "cat.wd5/SolarTurbines"}
+  - {name: "Solenis", ats: workday, board: "solenis.wd1/Solenis"}
+  - {name: "Sompo International", ats: workday, board: "endurance.wd103/SompoInternational"}
+  - {name: "Sonoco", ats: workday, board: "sonoco.wd1/CorporateCareers"}
+  - {name: "Sony", ats: workday, board: "sonyglobal.wd1/SonyGlobalCareers"}
+  - {name: "South Jersey Gas", ats: workday, board: "sjindustries.wd1/SJI"}
+  - {name: "SouthState Bank", ats: workday, board: "southstatebank.wd5/External"}
+  - {name: "SpartanNash", ats: workday, board: "spartannash.wd1/SpartanNash_Careers"}
+  - {name: "Splish Splash Water Park", ats: workday, board: "hfecorp.wd503/palace_jobs"}
+  - {name: "SPS Commerce", ats: workday, board: "spscommerce.wd108/SPS"}
+  - {name: "Stanley Black & Decker, Inc", ats: workday, board: "sbdinc.wd1/Stanley_Black_Decker_Career_Site"}
+  - {name: "State of Nebraska", ats: workday, board: "son.wd108/NebraskaStateCareers"}
+  - {name: "State of Oklahoma", ats: workday, board: "okgov.wd1/okgovjobs"}
+  - {name: "State of Wisconsin Investment Board", ats: workday, board: "swib.wd12/EXT"}
+  - {name: "State Street", ats: workday, board: "statestreet.wd1/Global"}
+  - {name: "Stryker", ats: workday, board: "stryker.wd1/StrykerCareers"}
+  - {name: "STV", ats: workday, board: "stvinc.wd5/stv"}
+  - {name: "Sun Life", ats: workday, board: "sunlife.wd3/Experienced-Jobs"}
+  - {name: "Sun Life", ats: workday, board: "sunlife.wd3/Experienced"}
+  - {name: "Suntory", ats: workday, board: "pbv.wd503/external"}
+  - {name: "SWBC", ats: workday, board: "swbc.wd1/CollegeInternships"}
+  - {name: "Swivel", ats: workday, board: "swbc.wd1/Swivel"}
+  - {name: "Synchrony", ats: workday, board: "synchronyfinancial.wd5/University"}
+  - {name: "T-Mobile", ats: workday, board: "tmobile.wd1/External"}
+  - {name: "Taylor Corporation", ats: workday, board: "taylor.wd1/External"}
+  - {name: "TD SYNNEX", ats: workday, board: "synnex.wd5/tdsynnexcareers"}
+  - {name: "Teledyne Technologies Incorporated", ats: workday, board: "flir.wd1/flircareers"}
+  - {name: "Tencent", ats: workday, board: "tencent.wd1/Tencent_Careers"}
+  - {name: "Texas A&M University System", ats: workday, board: "tamus.wd1/TAMIU_Student_Employment"}
+  - {name: "The Andersons, Inc", ats: workday, board: "andersonsinc.wd1/TheAndersonsCareers"}
+  - {name: "The Baldwin Group", ats: workday, board: "baldwin.wd1/Baldwin"}
+  - {name: "The Geneva Foundation", ats: workday, board: "genevausa.wd5/CareersAtGeneva"}
+  - {name: "The Hartford", ats: workday, board: "thehartford.wd5/Careers_External"}
+  - {name: "The J.M. Smucker Co", ats: workday, board: "smucker.wd5/US_External_Careers"}
+  - {name: "The Ohio State University", ats: workday, board: "osu.wd1/OSUCareers"}
+  - {name: "The Toro Company", ats: workday, board: "ttc.wd1/Toro_External_Careers"}
+  - {name: "The Weitz Company", ats: workday, board: "weitz.wd504/WeitzCareers"}
+  - {name: "Thermo Fisher Scientific", ats: workday, board: "thermofisher.wd5/ThermoFisherCareers"}
+  - {name: "Thomson Reuters", ats: workday, board: "thomsonreuters.wd5/External_Career_Site"}
+  - {name: "Thornton Tomasetti", ats: workday, board: "tt.wd503/ThorntonTomasetti"}
+  - {name: "Thrivent", ats: workday, board: "thrivent.wd5/External"}
+  - {name: "TIAA", ats: workday, board: "tiaa.wd1/Search"}
+  - {name: "Tokyo Electron", ats: workday, board: "tel.wd3/TEL-Careers"}
+  - {name: "Toyota North America", ats: workday, board: "toyota.wd503/TMNA"}
+  - {name: "Trane Italia", ats: workday, board: "tranetechnologies.wd12/Trane_Technologies_Careers"}
+  - {name: "Travelers", ats: workday, board: "travelers.wd5/External"}
+  - {name: "Trek", ats: workday, board: "trekbikes.wd1/TREK"}
+  - {name: "Trimble Inc", ats: workday, board: "trimble.wd1/TrimbleCareers"}
+  - {name: "Trinity Health", ats: workday, board: "trinityhealth.wd1/Jobs"}
+  - {name: "Trinity Life Sciences", ats: workday, board: "trinitylifesciences.wd108/Trinity"}
+  - {name: "Truist", ats: workday, board: "truist.wd1/Careers"}
+  - {name: "TRUMPF", ats: workday, board: "trumpf.wd3/TRUMPF_Students"}
+  - {name: "TruStage", ats: workday, board: "trustage.wd1/TruStage"}
+  - {name: "Tucson Electric Power", ats: workday, board: "tep.wd1/TEP"}
+  - {name: "Tyson Foods", ats: workday, board: "tysonfoods.wd5/TSN1"}
+  - {name: "Tyson Foods, Inc", ats: workday, board: "tysonfoods.wd5/TSFD"}
+  - {name: "U-Haul", ats: workday, board: "uhaul.wd1/UhaulJobs"}
+  - {name: "U.S. Bank", ats: workday, board: "usbank.wd1/US_Bank_Careers"}
+  - {name: "Uline", ats: workday, board: "uline.wd1/Uline_Careers"}
+  - {name: "UMB Bank", ats: workday, board: "umb.wd1/UMBExternal"}
+  - {name: "Unisys", ats: workday, board: "unisys.wd5/External"}
+  - {name: "Unity Technologies", ats: workday, board: "unitytech.wd1/Unity"}
+  - {name: "Universities of Wisconsin", ats: workday, board: "wisconsin.wd1/UW_Students"}
+  - {name: "University of Arkansas for Medical Sciences", ats: workday, board: "uasys.wd5/UAMS_All_Careers"}
+  - {name: "University of Arkansas for Medical Sciences (UAMS)", ats: workday, board: "uasys.wd5/UAMS_CW_Career_Site"}
+  - {name: "University of Arkansas System", ats: workday, board: "uasys.wd5/UASYS"}
+  - {name: "University of Miami", ats: workday, board: "umiami.wd1/UMCareerStaff"}
+  - {name: "USAA", ats: workday, board: "usaa.wd1/USAAJOBSWD"}
+  - {name: "Valeris", ats: workday, board: "valeris.wd108/Valeris"}
+  - {name: "Valmont Industries, Inc", ats: workday, board: "valmont.wd1/ValmontCareers"}
+  - {name: "Vanguard", ats: workday, board: "vanguard.wd5/vanguard_external"}
+  - {name: "Velco", ats: workday, board: "velco.wd12/VELCO"}
+  - {name: "Venerable", ats: workday, board: "venerable.wd5/venerablecareers"}
+  - {name: "Verizon", ats: workday, board: "verizon.wd12/verizon-careers"}
+  - {name: "Veterans United Home Loans", ats: workday, board: "veteransunited.wd1/VUHL"}
+  - {name: "Victaulic", ats: workday, board: "victaulic.wd1/victaulic_careers"}
+  - {name: "Visa", ats: workday, board: "visa.wd5/Visa"}
+  - {name: "Visa", ats: workday, board: "visa.wd5/Visa_Early_Careers"}
+  - {name: "Vizient", ats: workday, board: "vizient.wd1/Vizient_Careers"}
+  - {name: "VSP Vision Care", ats: workday, board: "vsp.wd1/VSPVisionCareers"}
+  - {name: "Vylor", ats: workday, board: "vylor.wd115/Vylor"}
+  - {name: "Walbec Group", ats: workday, board: "walbecgroup.wd501/WalbecGroup"}
+  - {name: "Walmart", ats: workday, board: "walmart.wd504/WalmartExternal"}
+  - {name: "Waste Connections", ats: workday, board: "wasteconnections.wd1/Careers"}
+  - {name: "Watts Water Technologies", ats: workday, board: "wattswater.wd5/Intern-External"}
+  - {name: "Wawa, Inc", ats: workday, board: "wawa.wd1/careers"}
+  - {name: "Wayne Farms", ats: workday, board: "waynefarms.wd1/WayneFarms"}
+  - {name: "Weber Blackstone", ats: workday, board: "weber.wd115/WB"}
+  - {name: "Weld County Government", ats: workday, board: "weldgov.wd5/WeldCountyCareers"}
+  - {name: "Wellington Management", ats: workday, board: "wellington.wd5/Campus"}
+  - {name: "Werner Enterprises", ats: workday, board: "werner.wd501/Werner"}
+  - {name: "West Tennessee Healthcare", ats: workday, board: "wth.wd501/WTH"}
+  - {name: "Western Governors University", ats: workday, board: "wgu.wd5/External"}
+  - {name: "Whataburger", ats: workday, board: "whataburger.wd5/WAB_CAREERS"}
+  - {name: "White Cap", ats: workday, board: "whitecap.wd1/Careers"}
+  - {name: "Wilbur-Ellis", ats: workday, board: "wilburellis.wd12/WILBUR-ELLIS"}
+  - {name: "Wintrust Financial Corporation", ats: workday, board: "wintrust.wd1/Search"}
+  - {name: "Workday", ats: workday, board: "workday.wd5/Workday_Early_Career"}
+  - {name: "Workiva Inc", ats: workday, board: "workiva.wd503/careers"}
+  - {name: "World Vision", ats: workday, board: "worldvision.wd1/WorldVisionInternational"}
+  - {name: "WSFS Bank", ats: workday, board: "wsfsbank.wd1/broadbean_external"}
+  - {name: "WSFS Bank", ats: workday, board: "wsfsbank.wd1/wsfscareers"}
+  - {name: "WSFS Bank", ats: workday, board: "wsfsbank.wd1/bmtcareers"}
+  - {name: "X-energy", ats: workday, board: "xenergy.wd5/X-energyUS"}
+  - {name: "Xcel Energy", ats: workday, board: "xcelenergy.wd1/External"}
+  - {name: "Zebra Technologies", ats: workday, board: "zebra.wd501/Zebra_careers"}
+  - {name: "Zekelman Industries", ats: workday, board: "zekelman.wd12/Careers"}
+  - {name: "Zillow", ats: workday, board: "zillow.wd5/Zillow_Group_External"}
+  - {name: "Zoetis", ats: workday, board: "zoetis.wd5/broadbean_external"}

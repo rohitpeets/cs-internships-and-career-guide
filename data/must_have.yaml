@@ -1,0 +1,6 @@
+# Companies that must always have a working source (checked monthly). Add or remove as the club wishes.
+companies: [Meta, Microsoft, Amazon, Google, Apple, NVIDIA, Netflix, Salesforce, Adobe, Intel, AMD, Qualcomm, Cisco, IBM, Oracle,
+  Texas Instruments, Micron, Applied Materials, ExxonMobil, Phillips 66, Chevron, Shell, Entergy, Lockheed Martin, Boeing,
+  Capital One, JPMorgan Chase, Goldman Sachs, Bloomberg, Stripe, Databricks, Snowflake, Palantir, Uber, Airbnb, LinkedIn,
+  Tesla, SpaceX, Dell Technologies, HP, Hewlett Packard Enterprise, Workday, ServiceNow, Intuit, PayPal, Visa, Mastercard,
+  Walmart, Target, General Motors]

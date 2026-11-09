@@ -1,0 +1,85 @@
+name: Daily refresh
+
+on:
+  schedule:
+    # Cron runs in UTC: 11:17 UTC = 5:17 a.m. Central (6:17 a.m. during daylight time).
+    # Off the top of the hour, because runs scheduled at :00 are often delayed.
+    - cron: "17 11 * * *"
+  workflow_dispatch: # "Run workflow" button for maintainers
+  push:
+    # A maintainer adding postings by hand gets a quick run.
+    # Only collaborators can push, and the bot's own commits don't trigger workflows.
+    branches: [main]
+    paths: ["data/manual.yaml"]
+
+# No token access unless a job asks for it below.
+permissions: {}
+
+jobs:
+  # Full refresh on the daily schedule or a manual run.
+  # Fast path (no fetching or link checks) when manual.yaml changes.
+  refresh:
+    name: Refresh the board
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write # commit README.md, the table files and data/
+    # Only one refresh writes at a time, so two runs never push over each other.
+    concurrency:
+      group: board-writer
+      cancel-in-progress: false
+    env:
+      FULL_RUN: ${{ github.event_name != 'push' }}
+    steps:
+      # Before launch: pin both actions to a full commit SHA (keep the version as a comment).
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      # Greenhouse, Lever, Ashby (more sources added in later steps).
+      # Workday and Oracle come from the laptop's nightly run (data/checks.json).
+      - name: Fetch company job boards
+        if: env.FULL_RUN == 'true'
+        run: python scripts/fetch_ats.py --cloud
+
+      - name: Load manual postings
+        run: python scripts/load_manual.py
+
+      - name: Classify sections and tags
+        run: python scripts/classify.py
+
+      # Feed rows close when they drop out of their company feed twice, so they aren't link-checked.
+      - name: Check manual links
+        if: env.FULL_RUN == 'true'
+        run: python scripts/check_links.py --stale-only
+
+      # Parsers are tested against saved fixtures, so a broken one fails the run instead of publishing.
+      - name: Run tests
+        run: python -m pytest -q
+
+      # Schema check, plus fail if open postings dropped more than 50% since the last commit
+      # (skipped on the first run, when there is nothing to compare against).
+      - name: Validate data
+        run: python scripts/validate.py
+
+      - name: Build README and tables
+        run: python scripts/build_readme.py
+
+      # Pull first in case a maintainer pushed while this run was working.
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add README.md INTERNSHIPS.md NEW_GRAD.md EARLY.md data/
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit -m "Board refresh $(date -u +%Y-%m-%d)"
+            git pull --rebase
+            git push
+          fi
