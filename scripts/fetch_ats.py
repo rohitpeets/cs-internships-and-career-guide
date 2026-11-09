@@ -12,7 +12,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
 import adapters  # noqa: E402
-from classify import keep_title, section, tags  # noqa: E402
+from classify import keep_title, section, tags, us_job  # noqa: E402
 from common import COMPANIES, POSTINGS, REMOVED, Http, load_json, load_yaml, now_iso, save_json, today, url_key  # noqa: E402
 
 MAX_FAIL_SHARE = 0.3  # more failing boards than this means something is wrong on our side
@@ -51,7 +51,7 @@ def main():
             continue
         ids = set()
         for j in jobs:
-            if not keep_title(j["title"]):
+            if not keep_title(j["title"]) or not us_job(j["location"]):
                 continue
             new = to_row(c["name"], c["ats"], j)
             if not new["section"]:

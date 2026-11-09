@@ -43,3 +43,26 @@ def test_citizen_and_clearance():
     assert t["citizen"] is True and t["clearance"] is True
     assert tags("Applicants must be U.S. persons under ITAR.")[0]["citizen"] is True
     assert tags("We value citizenship in our community.")[0]["citizen"] is None
+
+
+def test_non_cs_engineering_dropped():
+    for t in ["Entry-Level Civil Engineer", "Intern/Co-op - Geotechnical Engineering (Summer 2027)", "2027 Mechanical Engineer Intern",
+              "2027 Early Career Warhead Engineer", "Game Presentation Intern - Frederick Keys", "Intern - EHS Engineer"]:
+        assert not keep_title(t), t
+    assert keep_title("Electrical Engineering Internship - Data Center Facilities")
+
+
+def test_early_needs_title_or_explicit_statement():
+    assert section("Data Engineering Intern", "In your first year on the team you will learn a lot.") == "internship"
+    assert section("Software Intern", "This program is open to sophomores and juniors.") == "early"
+
+
+def test_export_license_is_not_visa_sponsorship():
+    assert tags("must comply with U.S. export control laws without sponsorship for an export license.")[0]["sponsor"] is None
+
+
+def test_us_only():
+    from classify import us_job
+    assert not us_job("London, United Kingdom")
+    assert not us_job("Amsterdam")
+    assert us_job("Houston, TX") and us_job("Remote - US") and us_job("")

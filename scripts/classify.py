@@ -14,6 +14,7 @@ TITLE_KEEP = re.compile(r"\b(intern(ship)?s?|co-?op|new grad(uate)?|entry[- ]lev
 TITLE_DROP = re.compile(r"\b(senior|sr\.?|staff|principal|director|manager(?!\s*intern)|lead(?!ership)|phd|ph\.d|postdoc|mba)\b", re.I)
 
 EARLY = re.compile(r"\b(freshm[ae]n|sophomores?|first[- ]year|second[- ]year|explore (intern|program)|step intern|engineering practicum)\b", re.I)
+EARLY_TEXT = re.compile(r"\b(freshm[ae]n|sophomores?)\b[^.]{0,60}\b(eligible|encouraged|welcome|open to|apply|students)\b|\b(open to|for|eligible:?)\s+(current\s+)?(freshm[ae]n|sophomores?)\b|\b(open to|for|eligible:?)\s+(current\s+)?(first[- ]year|second[- ]year)\b[^.]{0,40}\b(students|undergrad\w*)", re.I)
 NEW_GRAD = re.compile(r"\b(new grad(uate)?s?|entry[- ]level|university grad(uate)?|early career|graduate program)\b", re.I)
 INTERN = re.compile(r"\b(intern(ship)?s?|co-?op)\b", re.I)
 
@@ -42,22 +43,41 @@ TECH = re.compile(r"\b(software|developer|engineer(ing)?|data|machine learning|m
                   r"database|bioinformatics|scientist|technology|tech|slam|mapping|perception|estimation|autonomous|controls?|tooling|simulation)\b", re.I)
 NON_TECH = re.compile(r"\b(marketing|sales|account (executive|manager)|finance|accounting|human resources|hr|recruit\w*|legal|paralegal|"
                       r"communications|public relations|customer (experience|success|service)|corporate strategy|supply chain|procurement|"
-                      r"artist|graphic design|content|social media|events?|administrative|operations intern)\b", re.I)
+                      r"artist|graphic design|content|social media|events?|administrative|operations intern|game presentation|"
+                      r"civil|geotechnical|structural|traffic|transportation|mechanical|environmental|chemical|process engineer|"
+                      r"manufacturing|industrial|ehs|health and safety|safety engineer|construction|mining|petroleum|materials|"
+                      r"warhead|harness|propulsion|thermal|fluids|geolog\w*|surveying|architect(ure)? intern|water resources)\b", re.I)
 
 
+FIELD_DROP = re.compile(r"\b(civil|geotechnical|structural|traffic|transportation|mechanical|environmental|chemical|process|manufacturing|industrial|ehs|safety|construction|mining|petroleum|materials|warhead|harness|propulsion|thermal|fluids|surveying|water resources|game presentation)\b", re.I)
 STRONG_TECH = re.compile(r"\b(engineer(ing)?|developer|software|data scien\w*|machine learning)\b(?!.*\bsales\b)", re.I)
+
+
+NON_US = re.compile(r"\b(united kingdom|uk|england|london|ireland|dublin|netherlands|amsterdam|germany|berlin|munich|france|paris|spain|"
+                    r"italy|switzerland|zurich|india|bangalore|bengaluru|hyderabad|pune|canada|toronto|vancouver|montreal|ontario|"
+                    r"singapore|hong kong|china|shanghai|beijing|japan|tokyo|korea|seoul|australia|sydney|israel|tel aviv|poland|"
+                    r"mexico|brazil|argentina|philippines|emea|apac|europe)\b", re.I)
+US = re.compile(r"\b(united states|usa|u\.s\.|us|remote|[A-Z][a-z]+,\s*[A-Z]{2})\b")
+
+
+def us_job(location: str) -> bool:
+    """Drop clearly non-US jobs; keep US, US-remote and blank locations."""
+    loc = location or ""
+    return not NON_US.search(loc) or bool(US.search(loc))
 
 
 def keep_title(title: str) -> bool:
     if not TITLE_KEEP.search(title) or TITLE_DROP.search(title) or not TECH.search(title):
         return False
     # "Supply Chain Tooling Engineer Intern" is technical even though it names a business area
+    if FIELD_DROP.search(title):
+        return False
     return not NON_TECH.search(title) or (bool(STRONG_TECH.search(title)) and not re.search(r"\bsales\b", title, re.I))
 
 
 def section(title: str, text: str = "") -> str | None:
     blob = f"{title}\n{text[:3000]}"
-    if EARLY.search(blob):
+    if EARLY.search(title) or EARLY_TEXT.search(text[:3000]):
         return "early"
     if NEW_GRAD.search(title) and not INTERN.search(title):
         return "new_grad"
@@ -82,6 +102,8 @@ def tags(text: str, location: str = "") -> tuple[dict, dict]:
         if t[name] is not None:  # "no" checked first, so a "will not sponsor" sentence never reads as "sponsor"
             continue
         m = rx.search(text or "")
+        if m and name == "sponsor" and re.search(r"export licen[cs]e", _sentence(text, m), re.I):
+            m = None
         if m:
             t[name], ev[name] = val, _sentence(text, m)
     return t, ev
