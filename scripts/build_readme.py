@@ -175,7 +175,7 @@ def main():
     early_note = f"{early} open right now" if early else "None listed right now, check back soon"
     readme = f"""# Things I Wish I Knew: CS Edition
 
-[![Daily refresh](https://github.com/rohitpeets/mcneese-jobs/actions/workflows/daily.yml/badge.svg)](https://github.com/rohitpeets/mcneese-jobs/actions/workflows/daily.yml)
+[![Daily refresh](https://github.com/rohitpeets/cs-internships-and-career-guide/actions/workflows/daily.yml/badge.svg)](https://github.com/rohitpeets/cs-internships-and-career-guide/actions/workflows/daily.yml)
 
 A free starter kit for computer science and computer engineering students in the U.S.: **a job board refreshed every day** from companies' own career sites, plus **plain-English guides** on everything I wish someone had told me as a freshman.
 
@@ -216,7 +216,7 @@ Every row links straight to the company's application page. International studen
 
 - **{len(rows):,} open roles** from **{boards} company job boards**, checked every day with automated tests on every run. How it works and how accurate it is: [docs/WRITEUP.md](docs/WRITEUP.md).
 - It doesn't catch everything. Also check Handshake, LinkedIn, and [Simplify's internship list](https://github.com/SimplifyJobs/Summer2027-Internships).
-- Found a missing posting, a broken link, or a mistake? [Open an issue](https://github.com/rohitpeets/mcneese-jobs/issues).
+- Found a missing posting, a broken link, or a mistake? [Open an issue](https://github.com/rohitpeets/cs-internships-and-career-guide/issues).
 """
     (ROOT / "README.md").write_text(readme, encoding="utf-8")
     print(f"built: {dict(counts)}, new this week {len(new)}, rows left out for unsafe links {skipped}")

@@ -5,8 +5,8 @@ For ACM officers. You need write access to the repo and Python 3.12+.
 ## Setup
 
 ```
-git clone https://github.com/rohitpeets/mcneese-jobs
-cd mcneese-jobs
+git clone https://github.com/rohitpeets/cs-internships-and-career-guide
+cd cs-internships-and-career-guide
 pip install -r requirements.txt
 python -m pytest -q
 ```

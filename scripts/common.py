@@ -18,7 +18,7 @@ COMPANIES = DATA / "companies.yaml"
 MANUAL = DATA / "manual.yaml"
 LOCAL = DATA / "local.json"  # written only by the laptop job (Workday, Oracle)
 
-USER_AGENT = "mcneese-jobs/1.0 (student job board; github.com/rohitpeets/mcneese-jobs)"
+USER_AGENT = "cs-internships-and-career-guide/1.0 (student job board; github.com/rohitpeets/cs-internships-and-career-guide)"
 TRACKING = ("utm_", "source", "ref", "gh_src", "lever-source")
 
 

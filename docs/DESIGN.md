@@ -61,7 +61,7 @@ Hacker News and the YC company pass add startup roles that weren't in that scan 
 ## 3. Repo structure
 
 ```
-mcneese-jobs/
+cs-internships-and-career-guide/
 ├── README.md                     front page (generated): New this week, counts, legend, links to the tables
 ├── INTERNSHIPS.md                generated table
 ├── NEW_GRAD.md                   generated table
