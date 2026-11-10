@@ -10,10 +10,10 @@ Last updated **2026-11-10**.
 
 | List | What's inside |
 |---|---|
-| 💼 **[Internships](INTERNSHIPS.md)** | 1,379 open roles, newest first |
+| 💼 **[Internships](INTERNSHIPS.md)** | 1,386 open roles, newest first |
 | 🎓 **[New grad](NEW_GRAD.md)** | 102 full-time roles for graduating students |
 | 🌱 **[Early programs](EARLY.md)** | For freshmen and sophomores. None listed right now, check back soon |
-| 🆕 **[New this week](NEW_THIS_WEEK.md)** | 51 roles posted in the last 7 days |
+| 🆕 **[New this week](NEW_THIS_WEEK.md)** | 61 roles posted in the last 7 days |
 
 Every row links straight to the company's application page. International students: each posting is tagged for visa sponsorship, CPT/OPT and citizenship rules, with the sentence from the posting that the tag came from.
 
@@ -39,7 +39,7 @@ Every row links straight to the company's application page. International studen
 
 ## ℹ️ About
 
-- **1,481 open roles** from **965 company job boards**, checked every day with automated tests on every run. How it works and how accurate it is: [docs/WRITEUP.md](docs/WRITEUP.md).
+- **1,488 open roles** from **965 company job boards**, checked every day with automated tests on every run. How it works and how accurate it is: [docs/WRITEUP.md](docs/WRITEUP.md).
 - It doesn't catch everything. Also check Handshake, LinkedIn, and [Simplify's internship list](https://github.com/SimplifyJobs/Summer2027-Internships).
 - Found a missing posting, a broken link, or a mistake? [Open an issue](https://github.com/rohitpeets/cs-internships-and-career-guide/issues).
 

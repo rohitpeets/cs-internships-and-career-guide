@@ -1,1 +1,7 @@
-{}
+{
+ "eightfold|explore.jobs.netflix.net|netflix.com": {
+  "name": "Netflix",
+  "reason": "robots.txt disallows /api/apply/v2/jobs",
+  "since": "2026-11-10"
+ }
+}
