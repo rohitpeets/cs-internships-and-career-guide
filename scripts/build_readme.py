@@ -10,7 +10,7 @@ from common import POSTINGS, ROOT, load_json, today  # noqa: E402
 SECTIONS = [("internship", "Internships", "INTERNSHIPS.md"),
             ("new_grad", "New Grad", "NEW_GRAD.md"),
             ("early", "Early Programs (freshmen & sophomores)", "EARLY.md")]
-LEGEND = """**Tags.** 🛂✅ the posting says it sponsors visas · 🛂❌ it says it doesn't · 🇺🇸 U.S. citizenship / U.S. person required · 🔒 security clearance · 🌐 remote · ⚠ link couldn't be verified recently · ⏳ listed for 60+ days.
+LEGEND = """**Tags.** 🛂✅ the posting says it sponsors visas · 🛂❌ it says it doesn't · 🇺🇸 limited to U.S. citizens, green-card holders or U.S. persons (often ITAR) · 🔒 security clearance · 🌐 remote · ⚠ link couldn't be verified recently · ⏳ listed for 60+ days.
 A blank tag means the posting doesn't say.
 
 > 🛂❌ usually refers to future visa sponsorship (for example H-1B). It doesn't necessarily mean CPT or OPT can't be used. Check with the recruiter and your DSO."""

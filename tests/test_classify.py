@@ -34,7 +34,9 @@ def test_sponsor_no_is_negation_aware():
 
 def test_sponsor_yes_only_on_explicit_statement():
     assert tags("We will sponsor work visas for this position.")[0]["sponsor"] is True
-    assert tags("F-1 students on CPT are welcome to apply.")[0]["sponsor"] is True
+    assert tags("F-1 students on CPT are welcome to apply.")[0]["sponsor"] is None  # CPT isn't sponsorship
+    assert tags("Sponsorship is available for this position and other select roles.")[0]["sponsor"] is True
+    assert tags("Sponsorship available for exceptional candidates.")[0]["sponsor"] is None
     assert tags("Great benefits and a fun team.")[0]["sponsor"] is None
 
 
@@ -85,3 +87,23 @@ def test_allow_list_needs_cs_work_in_title():
     for t in ["CSG Hardware Engineering Intern", "Firmware Engineering Intern", "Data Engineer Intern", "IT Intern",
               "Summer 2027 - Technology Intern", "Cybersecurity Analyst Intern", "FPGA Design Intern", "Software Engineering Co-op (Jun-Dec 2027)"]:
         assert keep_title(t), t
+
+
+def test_sponsor_regressions_from_audit():
+    for s in ["No relocation assistance or visa sponsorship is available for this position.",
+              "No H-1B sponsorship is provided.",
+              "Sponsorship is not available for this position.",
+              "Candidates who require sponsorship now or in the future will not be considered.",
+              "Visa sponsorship: we do not offer it."]:
+        assert tags(s)[0]["sponsor"] is False, s
+
+
+def test_export_control_alone_is_not_citizenship():
+    assert tags("You must comply with U.S. Export Control Laws.")[0]["citizen"] is None
+    assert tags("This position is subject to ITAR.")[0]["citizen"] is True
+    assert tags("Applicants must be U.S. persons under ITAR.")[0]["citizen"] is True
+
+
+def test_evidence_not_cut_at_abbreviation():
+    _, ev = tags("Must be a U.S. citizen to apply. Great team.")
+    assert ev["citizen"] == "Must be a U.S. citizen to apply."

@@ -4,7 +4,7 @@
 
 **Click a job title to open the company's application page.**
 
-**Tags.** 🛂✅ the posting says it sponsors visas · 🛂❌ it says it doesn't · 🇺🇸 U.S. citizenship / U.S. person required · 🔒 security clearance · 🌐 remote · ⚠ link couldn't be verified recently · ⏳ listed for 60+ days.
+**Tags.** 🛂✅ the posting says it sponsors visas · 🛂❌ it says it doesn't · 🇺🇸 limited to U.S. citizens, green-card holders or U.S. persons (often ITAR) · 🔒 security clearance · 🌐 remote · ⚠ link couldn't be verified recently · ⏳ listed for 60+ days.
 A blank tag means the posting doesn't say.
 
 > 🛂❌ usually refers to future visa sponsorship (for example H-1B). It doesn't necessarily mean CPT or OPT can't be used. Check with the recruiter and your DSO.
@@ -272,10 +272,10 @@ A blank tag means the posting doesn't say.
 | Stantec | [Technology Intern/Co-op - Buildings (Summer 2027)](https://hdhl.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/1007834) | New York, NY, United States |  | 11-09 |
 | Stanley Black & Decker, Inc | [Embedded Engineering Summer Intern 2027](https://sbdinc.wd1.myworkdayjobs.com/Stanley_Black_Decker_Career_Site/job/Towson-MD-United-States/Embedded-Engineering-Summer-Intern-2027_REQ-1000052019) | Towson, MD, United States | 🛂❌ | 11-09 |
 | Stanley Black & Decker, Inc | [Packaging Science Engineering Intern, Graphics/Graphic Design - Summer 2027](https://sbdinc.wd1.myworkdayjobs.com/Stanley_Black_Decker_Career_Site/job/Towson-MD-United-States/Packaging-Science-Engineering-Intern--Graphics-Graphic-Design---Summer-2027_REQ-1000052821) | Towson, MD, United States | 🛂❌ | 11-09 |
-| Standard Aero | [Co-op, IT Analyst: Spring](https://cva.fa.us1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/10255) | Cincinnati, OH, United States | 🇺🇸 | 11-09 |
-| Standard Aero | [Co-op, IT Analyst: Spring](https://cva.fa.us1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/10255) | Cincinnati, OH, United States | 🇺🇸 | 11-09 |
-| Standard Aero | [Intern, IT Analyst: Summer](https://cva.fa.us1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/10479) | Cincinnati, OH, United States | 🇺🇸 | 11-09 |
-| Standard Aero | [Intern, IT Analyst: Summer](https://cva.fa.us1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/10479) | Cincinnati, OH, United States | 🇺🇸 | 11-09 |
+| Standard Aero | [Co-op, IT Analyst: Spring](https://cva.fa.us1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/10255) | Cincinnati, OH, United States |  | 11-09 |
+| Standard Aero | [Co-op, IT Analyst: Spring](https://cva.fa.us1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/10255) | Cincinnati, OH, United States |  | 11-09 |
+| Standard Aero | [Intern, IT Analyst: Summer](https://cva.fa.us1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/10479) | Cincinnati, OH, United States |  | 11-09 |
+| Standard Aero | [Intern, IT Analyst: Summer](https://cva.fa.us1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/10479) | Cincinnati, OH, United States |  | 11-09 |
 | Splish Splash Water Park | [Adventureland Park - IT Support Intern](https://hfecorp.wd503.myworkdayjobs.com/palace_jobs/job/Adventureland-3200-Adventureland-drive-Altoona--IA-50009-United-States-of-America/Adventureland-Park---IT-Support-Intern_JR107889) | Adventureland, 3200 Adventureland drive, Altoona,  IA 50009, |  | 11-09 |
 | SpartanNash | [Business Development & Analytics Intern - Summer 2027](https://spartannash.wd1.myworkdayjobs.com/SpartanNash_Careers/job/Norfolk-Virginia/Business-Development---Analytics-Intern---Summer-2027_R90936) | Norfolk, Virginia | 🛂❌ | 11-09 |
 | SpartanNash | [IS Internship - IT Planning & Strategy](https://spartannash.wd1.myworkdayjobs.com/SpartanNash_Careers/job/Byron-Center-Michigan/IS-Internship---Planning---Strategy-Office_R90066-1) | Byron Center, Michigan | 🛂❌ | 11-09 |
@@ -599,7 +599,7 @@ A blank tag means the posting doesn't say.
 | Nordson Corporation | [ETS - Platform Engineering Intern](https://nordsonhcm.wd501.myworkdayjobs.com/nordsoncareers/job/USA---Ohio---Westlake/ETS---Platform-Engineering-Intern_REQ52821) | USA - Ohio - Westlake |  | 11-09 |
 | Nordson Corporation | [Intern (Software Engineering)](https://nordsonhcm.wd501.myworkdayjobs.com/nordsoncareers/job/USA---Rhode-Island---East-Providence/Intern--Software-Engineering-_REQ53006) | USA - Rhode Island - East Providence |  | 11-09 |
 | Nordson Corporation | [Software Intern](https://nordsonhcm.wd501.myworkdayjobs.com/nordsoncareers/job/USA---Minnesota---Minneapolis---5900-Golden-Hills-Drive/Software-Intern_REQ52945) | USA - Minnesota - Minneapolis - 5900 Golden Hills Drive |  | 11-09 |
-| Nokia | [AI Assisted Software Development Co-op](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/40535) | United States | 🛂✅ | 11-09 |
+| Nokia | [AI Assisted Software Development Co-op](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/40535) | United States | 🛂❌ | 11-09 |
 | Nokia | [AI Engineering Co-op](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/40566) | United States |  | 11-09 |
 | Nokia | [AI R&D Engineer Co-op](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/40702) | United States |  | 11-09 |
 | Nokia | [Defense Software Test & AI Co-Op](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/41196) | United States | 🛂❌ 🇺🇸 | 11-09 |
@@ -701,7 +701,7 @@ A blank tag means the posting doesn't say.
 | Motorola Solutions | [Software Engineer Intern - Summer 2027](https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Greater-Chicago-Area/Software-Engineer-Intern---Summer-2027_R68679) | Greater Chicago Area |  | 11-09 |
 | Motorola Solutions | [Software Engineering - 2026 Spring Co-Op](https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Chicago-IL/Software-Engineering---2026-Spring-Co-Op_R67662) | Chicago, IL |  | 11-09 |
 | Motorola Solutions | [Software Engineering Intern - Summer 2027](https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Chicago-IL/Software-Engineering-Intern---Summer-2027_R68388) | Chicago, IL |  | 11-09 |
-| Motorola Solutions | [Software Engineering Intern - Summer 2027](https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Plantation-FL/Software-Engineering-Intern---Summer-2027_R69136) | Plantation, FL | 🛂✅ 🇺🇸 | 11-09 |
+| Motorola Solutions | [Software Engineering Intern - Summer 2027](https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Plantation-FL/Software-Engineering-Intern---Summer-2027_R69136) | Plantation, FL | 🇺🇸 | 11-09 |
 | Motorola Solutions | [Software Presales Enablement Intern - Summer Internship 2027](https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Illinois-Remote-Work/Software-Presales-Enablement-Intern---Summer-Internship-2027_R70228) | Illinois Remote Work | 🌐 | 11-09 |
 | Motorola Solutions | [Test Automation Intern](https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Ho-Chi-Minh-Vietnam/Test-Automation-Engineer-Intern_R69625) | Ho Chi Minh, Vietnam |  | 11-09 |
 | Motorola Solutions | [Test Automation Intern](https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Ho-Chi-Minh-Vietnam/Test-Automation-Intern_R69442) | Ho Chi Minh, Vietnam |  | 11-09 |
@@ -728,13 +728,13 @@ A blank tag means the posting doesn't say.
 | Mercor | [Software Engineer Intern](https://jobs.ashbyhq.com/mercor/de3025e5-10ca-4d55-b688-eff0e647ac8d) | San Francisco |  | 11-09 |
 | Mayo Clinic | [Summer Surgical Tech Intern](https://fa-euwp-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/394345) | Rochester, MN, United States |  | 11-09 |
 | Mass General Brigham | [Co-op Security](https://massgeneralbrigham.wd1.myworkdayjobs.com/MGBExternal/job/Boston-MA/Co-op-Security_RQ4085104) | Boston-MA |  | 11-09 |
-| Marvell Technology | [Electrical Validation Intern, BS - Summer 2027](https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Electrical-Validation-Intern--BS---Summer-2027_2603795-1) | Santa Clara, CA | 🇺🇸 | 11-09 |
-| Marvell Technology | [Electrical Validation Intern, BS - Summer 2027](https://marvell.wd1.myworkdayjobs.com/MarvellCareers2/job/Santa-Clara-CA/Electrical-Validation-Intern--BS---Summer-2027_2603795) | Santa Clara, CA | 🇺🇸 | 11-09 |
-| Marvell Technology | [Firmware Engineer Intern, BS - Summer 2027](https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Firmware-Engineer-Intern--BS---Summer-2027_2604461) | Santa Clara, CA | 🇺🇸 | 11-09 |
-| Marvell Technology | [Firmware Engineer Intern, BS - Summer 2027](https://marvell.wd1.myworkdayjobs.com/MarvellCareers2/job/Santa-Clara-CA/Firmware-Engineer-Intern--BS---Summer-2027_2604461-1) | Santa Clara, CA | 🇺🇸 | 11-09 |
-| Marvell Technology | [Hardware Engineer Intern, BS - Summer 2027](https://marvell.wd1.myworkdayjobs.com/MarvellCareers2/job/Santa-Clara-CA/Hardware-Engineer-Intern--BS---Summer-2027_2604975) | Santa Clara, CA | 🇺🇸 | 11-09 |
-| Marvell Technology | [Security Verification/Validation Engineer Intern, BS - Summer 2027](https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Chandler-AZ/Security-Verification-Validation-Engineer-Intern--BS---Summer-2027_2604148-1) | Chandler, AZ | 🇺🇸 | 11-09 |
-| Marvell Technology | [Security Verification/Validation Engineer Intern, BS - Summer 2027](https://marvell.wd1.myworkdayjobs.com/MarvellCareers2/job/Chandler-AZ/Security-Verification-Validation-Engineer-Intern--BS---Summer-2027_2604148) | Chandler, AZ | 🇺🇸 | 11-09 |
+| Marvell Technology | [Electrical Validation Intern, BS - Summer 2027](https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Electrical-Validation-Intern--BS---Summer-2027_2603795-1) | Santa Clara, CA |  | 11-09 |
+| Marvell Technology | [Electrical Validation Intern, BS - Summer 2027](https://marvell.wd1.myworkdayjobs.com/MarvellCareers2/job/Santa-Clara-CA/Electrical-Validation-Intern--BS---Summer-2027_2603795) | Santa Clara, CA |  | 11-09 |
+| Marvell Technology | [Firmware Engineer Intern, BS - Summer 2027](https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Firmware-Engineer-Intern--BS---Summer-2027_2604461) | Santa Clara, CA |  | 11-09 |
+| Marvell Technology | [Firmware Engineer Intern, BS - Summer 2027](https://marvell.wd1.myworkdayjobs.com/MarvellCareers2/job/Santa-Clara-CA/Firmware-Engineer-Intern--BS---Summer-2027_2604461-1) | Santa Clara, CA |  | 11-09 |
+| Marvell Technology | [Hardware Engineer Intern, BS - Summer 2027](https://marvell.wd1.myworkdayjobs.com/MarvellCareers2/job/Santa-Clara-CA/Hardware-Engineer-Intern--BS---Summer-2027_2604975) | Santa Clara, CA |  | 11-09 |
+| Marvell Technology | [Security Verification/Validation Engineer Intern, BS - Summer 2027](https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Chandler-AZ/Security-Verification-Validation-Engineer-Intern--BS---Summer-2027_2604148-1) | Chandler, AZ |  | 11-09 |
+| Marvell Technology | [Security Verification/Validation Engineer Intern, BS - Summer 2027](https://marvell.wd1.myworkdayjobs.com/MarvellCareers2/job/Chandler-AZ/Security-Verification-Validation-Engineer-Intern--BS---Summer-2027_2604148) | Chandler, AZ |  | 11-09 |
 | Marriott Vacations Worldwide | [Corporate Intern- Information Technology](https://mymvw.wd5.myworkdayjobs.com/MVW/job/MVW-Headquarters/Corporate-Intern--Information-Technology_JR95560) | MVW Headquarters |  | 11-09 |
 | Marriott Vacations Worldwide | [Corporate Intern-Information Technology](https://mymvw.wd5.myworkdayjobs.com/MVW/job/MVW-Headquarters/Corporate-Intern-Information-Technology_JR95566) | MVW Headquarters |  | 11-09 |
 | Marriott Vacations Worldwide | [Corporate Intern-Information Technology](https://mymvw.wd5.myworkdayjobs.com/MVW/job/MVW-Headquarters/Corporate-Intern-Information-Technology_JR95562) | MVW Headquarters |  | 11-09 |
@@ -1194,8 +1194,8 @@ A blank tag means the posting doesn't say.
 | Dow Jones | [Summer 2027 Internship Program – Software Engineering Intern](https://dowjones.wd1.myworkdayjobs.com/Dow_Jones_Career/job/NYC---1211-Ave-of-the-Americas/Summer-2027-Internship-Program---Software-Engineering-Intern_Job_Req_55891) | NYC - 1211 Ave of the Americas | 🛂❌ | 11-09 |
 | Dow Jones | [Summer 2027 Internship Program – Software Engineering Intern](https://dowjones.wd1.myworkdayjobs.com/Dow_Jones_Career/job/NYC---1211-Ave-of-the-Americas/Summer-2027-Internship-Program---Software-Engineering-Intern_Job_Req_55892) | NYC - 1211 Ave of the Americas | 🛂❌ | 11-09 |
 | Dover Corporation | [Intern, IT Leadership Development Program](https://dover.wd103.myworkdayjobs.com/Dover/job/Downers-Grove-Illinois-USA/Intern--IT-Leadership-Development-Program_JR102548) | Downers Grove, Illinois, USA |  | 11-09 |
-| DoorDash USA | [Software Engineer, Intern (Summer 2027) - US](https://job-boards.greenhouse.io/doordashusa/jobs/8171041) | New York, NY; San Francisco, CA; Sunnyvale, CA; Los Angeles, | 🛂✅ | 11-09 |
-| DoorDash USA | [Software Engineer, Intern - Labs (Summer 2027)](https://job-boards.greenhouse.io/doordashusa/jobs/8263774) | San Francisco, CA; Sunnyvale, CA | 🛂✅ | 11-09 |
+| DoorDash USA | [Software Engineer, Intern (Summer 2027) - US](https://job-boards.greenhouse.io/doordashusa/jobs/8171041) | New York, NY; San Francisco, CA; Sunnyvale, CA; Los Angeles, |  | 11-09 |
+| DoorDash USA | [Software Engineer, Intern - Labs (Summer 2027)](https://job-boards.greenhouse.io/doordashusa/jobs/8263774) | San Francisco, CA; Sunnyvale, CA |  | 11-09 |
 | Donaldson | [Graduate Intern - Modeling and Data Science](https://donaldson.wd115.myworkdayjobs.com/DonaldsonCareers/job/Bloomington-MN-USA/Graduate-Intern---Modeling-and-Data-Science_JR-28305-1) | Bloomington, MN (USA) | 🛂❌ 🇺🇸 | 11-09 |
 | DMA - DuCharme, McMillen & Associates, Inc | [IT Quality Assurance Intern - Spring 2027](https://dmainc.wd5.myworkdayjobs.com/DMA/job/Lisle-IL/IT-Quality-Assurance-Intern---Spring-2027_REQ656) | Lisle, IL |  | 11-09 |
 | DMA - DuCharme, McMillen & Associates, Inc | [IT Quality Assurance Intern - Summer 2027](https://dmainc.wd5.myworkdayjobs.com/DMA/job/Lisle-IL/IT-Quality-Assurance-Intern---Summer-2027_REQ657) | Lisle, IL |  | 11-09 |
@@ -1242,10 +1242,10 @@ A blank tag means the posting doesn't say.
 | Conifer Health Solutions | [Analytics Intern - Hybrid in Dallas, TX](https://eodr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/2603021209) | Dallas, TX, United States |  | 11-09 |
 | Conifer Health Solutions | [BI Developer Intern - Hybrid in Dallas, TX](https://eodr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/2603021909) | Dallas, TX, United States |  | 11-09 |
 | Concord Group Insurance | [Software Engineer Intern](https://aoins.wd5.myworkdayjobs.com/Concord/job/Bedford-NH/Software-Engineer-Intern_R_14465) | Bedford, NH |  | 11-09 |
-| Commonwealth Fusion Systems | [Intern - I&C and Network Engineer - Spring or Summer 2027](https://jobs.lever.co/cfsenergy/cbf90690-2518-4c81-ace4-530e3b158545) | Devens, MA | 🇺🇸 | 11-09 |
+| Commonwealth Fusion Systems | [Intern - I&C and Network Engineer - Spring or Summer 2027](https://jobs.lever.co/cfsenergy/cbf90690-2518-4c81-ace4-530e3b158545) | Devens, MA |  | 11-09 |
 | Cohesity | [Software Engineering Intern (Summer 2027)](https://cohesity.wd5.myworkdayjobs.com/Cohesity_Careers/job/Santa-Clara-CA---USA-Office/Software-Engineering-Intern--Summer-2027-_R04791-2) | Santa Clara, CA - USA (Office) |  | 11-09 |
-| Cloudflare | [Software Engineer Intern (2027)](https://boards.greenhouse.io/cloudflare/jobs/8245197?gh_jid=8245197) | In-Office | 🇺🇸 | 11-09 |
-| Cloudflare | [Software Engineer Intern (2027) - Austin, TX](https://boards.greenhouse.io/cloudflare/jobs/8199958?gh_jid=8199958) | In-Office | 🇺🇸 | 11-09 |
+| Cloudflare | [Software Engineer Intern (2027)](https://boards.greenhouse.io/cloudflare/jobs/8245197?gh_jid=8245197) | In-Office |  | 11-09 |
+| Cloudflare | [Software Engineer Intern (2027) - Austin, TX](https://boards.greenhouse.io/cloudflare/jobs/8199958?gh_jid=8199958) | In-Office |  | 11-09 |
 | Clockwork.io | [Software Engineer Intern](https://job-boards.greenhouse.io/clockworksystems/jobs/6174230004) | Palo Alto, CA |  | 11-09 |
 | Clearwater Analytics | [Data Management & Reporting Intern](https://clearwateranalytics.wd1.myworkdayjobs.com/Clearwater_Analytics_Careers/job/Office---New-York/Data-Management---Reporting-Intern_R12095) | Office - New York |  | 11-09 |
 | Clearwater Analytics | [Data Management & Reporting Intern](https://clearwateranalytics.wd1.myworkdayjobs.com/Clearwater_Analytics_Careers/job/Office---Boise/Data-Management---Reporting-Intern_R12057) | Office - Boise |  | 11-09 |
@@ -1553,9 +1553,9 @@ A blank tag means the posting doesn't say.
 | Adobe | [2027 Intern- Software Engineer](https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Bucharest/XMLNAME-2027-Intern--Software-Engineer_R173018) | Bucharest |  | 11-09 |
 | Adient | [IT Intern](https://adient.wd3.myworkdayjobs.com/External/job/Plymouth-MI/IT-Intern_R-29354) | Plymouth, MI |  | 11-09 |
 | Adient | [IT Intern](https://adient.wd3.myworkdayjobs.com/External/job/Plymouth-MI/IT-Intern_R-29529) | Plymouth, MI |  | 11-09 |
-| Acron Aviation | [Software Engineer Intern - St. Pete Site](https://jobs.lever.co/acronaviation/19dbac7d-b4fb-4d21-9247-dc610bf55fed) | St Petersburg, FL | 🇺🇸 | 11-09 |
+| Acron Aviation | [Software Engineer Intern - St. Pete Site](https://jobs.lever.co/acronaviation/19dbac7d-b4fb-4d21-9247-dc610bf55fed) | St Petersburg, FL |  | 11-09 |
 | ACI Worldwide | [Technology Internships](https://ebwg.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/19943) | Norcross, GA, United States |  | 11-09 |
 | 7-Eleven | [Data Engineer Intern](https://my7elevenhr.wd12.myworkdayjobs.com/Careers/job/SSC-Irving-TX/Data-Engineer-Intern_R26_6281) | SSC Irving TX |  | 11-09 |
 | 7-Eleven | [IT Field Manager Intern](https://my7elevenhr.wd12.myworkdayjobs.com/Careers/job/SSC-Irving-TX/IT-Field-Manager-Intern_R26_5975) | SSC Irving TX |  | 11-09 |
 | 3M | [Internship - 2027 Undergraduate Business Analytics Intern – Consumer Business Group (CBG)](https://3m.wd1.myworkdayjobs.com/Search/job/US-Minnesota-Maplewood/Internship---2027-Undergraduate-Business-Analytics-Intern---Consumer-Business-Group--CBG-_R01171049) | US, Minnesota, Maplewood | 🛂❌ | 11-09 |
-| 3M | [Internship - 2027 Undergraduate IT Intern](https://3m.wd1.myworkdayjobs.com/Search/job/US-Minnesota-Maplewood/Internship---2027-Undergraduate-IT-Intern_R01170403-1) | US, Minnesota, Maplewood | 🛂❌ 🇺🇸 | 11-09 |
+| 3M | [Internship - 2027 Undergraduate IT Intern](https://3m.wd1.myworkdayjobs.com/Search/job/US-Minnesota-Maplewood/Internship---2027-Undergraduate-IT-Intern_R01170403-1) | US, Minnesota, Maplewood | 🛂❌ | 11-09 |

@@ -35,11 +35,10 @@
       "source": "workday",
       "status": "open",
       "tag_evidence": {
-        "citizen": "Export Control Laws.",
         "sponsor": "Must be legally authorized to work in country of employment without sponsorship for employment visa status (e."
       },
       "tags": {
-        "citizen": true,
+        "citizen": null,
         "clearance": null,
         "remote": false,
         "sponsor": false
@@ -444,8 +443,8 @@
       "source": "workday",
       "status": "open",
       "tag_evidence": {
-        "citizen": "ITAR Requirement:",
-        "clearance": "Must be willing to work on government contracts and have the ability to obtain a security clearance."
+        "clearance": "Must be willing to work on government contracts and have the ability to obtain a security clearance.",
+        "citizen": "ITAR Requirement:"
       },
       "tags": {
         "citizen": true,
@@ -467,8 +466,8 @@
       "source": "workday",
       "status": "open",
       "tag_evidence": {
-        "citizen": "ITAR Requirement:",
-        "clearance": "Must be willing to work on government contracts and have the ability to obtain a security clearance."
+        "clearance": "Must be willing to work on government contracts and have the ability to obtain a security clearance.",
+        "citizen": "ITAR Requirement:"
       },
       "tags": {
         "citizen": true,
@@ -578,8 +577,8 @@
       "source": "workday",
       "status": "open",
       "tag_evidence": {
-        "citizen": "ITAR Requirement:",
-        "clearance": "Must be willing to work on government contracts and have the ability to obtain a security clearance."
+        "clearance": "Must be willing to work on government contracts and have the ability to obtain a security clearance.",
+        "citizen": "ITAR Requirement:"
       },
       "tags": {
         "citizen": true,
@@ -601,8 +600,8 @@
       "source": "workday",
       "status": "open",
       "tag_evidence": {
-        "citizen": "ITAR Requirement:",
-        "clearance": "Must be willing to work on government contracts and have the ability to obtain a security clearance."
+        "clearance": "Must be willing to work on government contracts and have the ability to obtain a security clearance.",
+        "citizen": "ITAR Requirement:"
       },
       "tags": {
         "citizen": true,
@@ -2912,9 +2911,9 @@
       "source": "workday",
       "status": "open",
       "tag_evidence": {
-        "citizen": "Some of these positions must meet Export Control compliance requirements, therefore a “US Person” as defined by 22 C.",
         "clearance": "Security Clearance:",
-        "sponsor": "Employer will not sponsor applicants for employment visa status."
+        "sponsor": "Employer will not sponsor applicants for employment visa status.",
+        "citizen": "Some of these positions must meet Export Control compliance requirements, therefore a “US Person” as defined by 22 C."
       },
       "tags": {
         "citizen": true,
@@ -2936,9 +2935,9 @@
       "source": "workday",
       "status": "open",
       "tag_evidence": {
-        "citizen": "Some of these positions must meet Export Control compliance requirements, therefore a “US Person” as defined by 22 C.",
         "clearance": "Security Clearance for which the U.",
-        "sponsor": "Employer will not sponsor applicants for employment visa status."
+        "sponsor": "Employer will not sponsor applicants for employment visa status.",
+        "citizen": "Some of these positions must meet Export Control compliance requirements, therefore a “US Person” as defined by 22 C."
       },
       "tags": {
         "citizen": true,
@@ -3579,7 +3578,7 @@
       "status": "open",
       "tag_evidence": {
         "citizen": "• Candidate must be a US Citizen, and able to obtain a DoD Secret Clearance.",
-        "clearance": "Minimum Clearance Required to Start: Secret"
+        "clearance": "• Candidate must be a US Citizen, and able to obtain a DoD Secret Clearance."
       },
       "tags": {
         "citizen": true,
@@ -13944,11 +13943,9 @@
       "section": "internship",
       "source": "workday",
       "status": "open",
-      "tag_evidence": {
-        "citizen": "export control laws and regulations, including the Export Administration Regulations (EAR)."
-      },
+      "tag_evidence": {},
       "tags": {
-        "citizen": true,
+        "citizen": null,
         "clearance": null,
         "remote": false,
         "sponsor": null
@@ -13966,11 +13963,9 @@
       "section": "internship",
       "source": "workday",
       "status": "open",
-      "tag_evidence": {
-        "citizen": "export control laws and regulations, including the Export Administration Regulations (EAR)."
-      },
+      "tag_evidence": {},
       "tags": {
-        "citizen": true,
+        "citizen": null,
         "clearance": null,
         "remote": false,
         "sponsor": null
@@ -13988,11 +13983,9 @@
       "section": "internship",
       "source": "workday",
       "status": "open",
-      "tag_evidence": {
-        "citizen": "export control laws and regulations, including the Export Administration Regulations (EAR)."
-      },
+      "tag_evidence": {},
       "tags": {
-        "citizen": true,
+        "citizen": null,
         "clearance": null,
         "remote": false,
         "sponsor": null
@@ -14010,11 +14003,9 @@
       "section": "internship",
       "source": "workday",
       "status": "open",
-      "tag_evidence": {
-        "citizen": "export control laws and regulations, including the Export Administration Regulations (EAR)."
-      },
+      "tag_evidence": {},
       "tags": {
-        "citizen": true,
+        "citizen": null,
         "clearance": null,
         "remote": false,
         "sponsor": null
@@ -14032,11 +14023,9 @@
       "section": "internship",
       "source": "workday",
       "status": "open",
-      "tag_evidence": {
-        "citizen": "export control laws and regulations, including the Export Administration Regulations (EAR)."
-      },
+      "tag_evidence": {},
       "tags": {
-        "citizen": true,
+        "citizen": null,
         "clearance": null,
         "remote": false,
         "sponsor": null
@@ -14054,11 +14043,9 @@
       "section": "internship",
       "source": "workday",
       "status": "open",
-      "tag_evidence": {
-        "citizen": "export control laws and regulations, including the Export Administration Regulations (EAR)."
-      },
+      "tag_evidence": {},
       "tags": {
-        "citizen": true,
+        "citizen": null,
         "clearance": null,
         "remote": false,
         "sponsor": null
@@ -14076,11 +14063,9 @@
       "section": "internship",
       "source": "workday",
       "status": "open",
-      "tag_evidence": {
-        "citizen": "export control laws and regulations, including the Export Administration Regulations (EAR)."
-      },
+      "tag_evidence": {},
       "tags": {
-        "citizen": true,
+        "citizen": null,
         "clearance": null,
         "remote": false,
         "sponsor": null
@@ -14821,14 +14806,13 @@
       "source": "workday",
       "status": "open",
       "tag_evidence": {
-        "citizen": "Must be a US Citizen, permanent resident or be an MS student with work authorization (F1 Visa on CPT accepted only for masters-level students).",
-        "sponsor": "Must be a US Citizen, permanent resident or be an MS student with work authorization (F1 Visa on CPT accepted only for masters-level students)."
+        "citizen": "Must be a US Citizen, permanent resident or be an MS student with work authorization (F1 Visa on CPT accepted only for masters-level students)."
       },
       "tags": {
         "citizen": true,
         "clearance": null,
         "remote": false,
-        "sponsor": true
+        "sponsor": null
       },
       "title": "Software Engineering Intern - Summer 2027",
       "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Plantation-FL/Software-Engineering-Intern---Summer-2027_R69136"
@@ -16320,7 +16304,7 @@
         "citizen": null,
         "clearance": null,
         "remote": false,
-        "sponsor": true
+        "sponsor": false
       },
       "title": "AI Assisted Software Development Co-op",
       "url": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/40535"
@@ -20370,11 +20354,9 @@
       "section": "internship",
       "source": "oracle",
       "status": "open",
-      "tag_evidence": {
-        "citizen": "export control laws."
-      },
+      "tag_evidence": {},
       "tags": {
-        "citizen": true,
+        "citizen": null,
         "clearance": null,
         "remote": false,
         "sponsor": null
@@ -20392,11 +20374,9 @@
       "section": "internship",
       "source": "oracle",
       "status": "open",
-      "tag_evidence": {
-        "citizen": "export control laws."
-      },
+      "tag_evidence": {},
       "tags": {
-        "citizen": true,
+        "citizen": null,
         "clearance": null,
         "remote": false,
         "sponsor": null
@@ -20414,11 +20394,9 @@
       "section": "internship",
       "source": "oracle",
       "status": "open",
-      "tag_evidence": {
-        "citizen": "export control laws."
-      },
+      "tag_evidence": {},
       "tags": {
-        "citizen": true,
+        "citizen": null,
         "clearance": null,
         "remote": false,
         "sponsor": null
@@ -20436,11 +20414,9 @@
       "section": "internship",
       "source": "oracle",
       "status": "open",
-      "tag_evidence": {
-        "citizen": "export control laws."
-      },
+      "tag_evidence": {},
       "tags": {
-        "citizen": true,
+        "citizen": null,
         "clearance": null,
         "remote": false,
         "sponsor": null

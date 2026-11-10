@@ -18,19 +18,26 @@ EARLY_TEXT = re.compile(r"\b(freshm[ae]n|sophomores?)\b[^.]{0,60}\b(eligible|enc
 NEW_GRAD = re.compile(r"\b(new grad(uate)?s?|entry[- ]level|university grad(uate)?|early career|graduate program)\b", re.I)
 INTERN = re.compile(r"\b(intern(ship)?s?|co-?op)\b", re.I)
 
+NEG = re.compile(r"\b(no|not|unable|cannot|can't|won't|without|neither|nor)\b", re.I)
 SPONSOR_NO = re.compile(
-    r"(unable|not able|will not|won't|cannot|can't|can ?not|does not|doesn't|do not|don't|is not able|are not able|not in a position)\s+(to\s+)?(\w+\s+){0,3}sponsor"
-    r"|\bno (visa |employment )?sponsorship"
-    r"|without (the )?(need for |requiring )?(current or future )?(visa |employer |employment )?sponsorship"
+    r"(unable|not able|will not|won't|cannot|can't|can ?not|does not|doesn't|do not|don't|is not able|are not able|not in a position)\s+(to\s+)?(\w+\s+){0,3}(sponsor|offer (visa |employment )?sponsorship)"
+    r"|\bno\b[^.]{0,40}\bsponsorship"
+    r"|without (the )?(need for |requiring )?(current or future )?(visa |employer |employment |immigration )?sponsorship"
     r"|not eligible for (visa |immigration )?sponsorship"
+    r"|sponsorship\b[^.]{0,20}\b(do|does|will|can) not\b"
+    r"|sponsorship[^.]{0,40}\b(is|are|will be) not (available|provided|offered)"
+    r"|(require|need)s? (visa |immigration |employment )?sponsorship[^.]{0,80}\b(not be considered|ineligible|not eligible)"
     r"|(does not|doesn't|will not|won't|not) (accept|consider) (cpt|opt|f-?1)", re.I)
+# a firm offer only: CPT/OPT eligibility isn't sponsorship, and "for select roles/candidates" isn't a promise
 SPONSOR_YES = re.compile(
     r"\b(we|will|can|able to|happy to|willing to)\s+(\w+\s+){0,2}sponsor"
-    r"|sponsorship (is )?(available|provided|offered)"
-    r"|(cpt|opt|f-?1)\b[^.]{0,40}\b(welcome|accepted|eligible|encouraged|considered)", re.I)
+    r"|sponsorship (is )?(available|provided|offered)", re.I)
+SPONSOR_HEDGE = re.compile(r"(available|offered|provided|sponsor)\s+(only\s+)?(for|to)\s+(select|exceptional|certain|some)\b|case[- ]by[- ]case|\bmay\b[^.]{0,20}sponsor|\b(cpt|opt|f-?1)\b", re.I)
+# citizenship / green card / U.S. person must be stated as a requirement; export-control boilerplate alone doesn't count
 CITIZEN = re.compile(
-    r"u\.?s\.? citizen(ship)?[^.]{0,40}(required|only|must)|must be (a )?u\.?s\.? citizen|(only|limited to) u\.?s\.? citizens"
-    r"|\bu\.?s\.? persons?\b|\bitar\b|export control", re.I)
+    r"u\.?s\.? citizen(ship)?[^.]{0,60}(required|only|must)|(must|required to) be (a )?u\.?s\.? (citizen|person)|(only|limited to) u\.?s\.? (citizens|persons)"
+    r"|(must|required to|requires?|need to)[^.]{0,40}\bu\.?s\.? persons?\b|\bu\.?s\.? persons?\b[^.]{0,40}\b(required|only)"
+    r"|\bitar\b", re.I)  # ITAR roles are limited to U.S. persons; generic "comply with export control laws" doesn't count
 CLEARANCE = re.compile(r"(security|secret|top secret|ts/sci|dod) clearance|clearance (is )?required|(obtain|maintain|hold) (an? |active )?(security )?clearance|\bts/sci\b", re.I)
 REMOTE = re.compile(r"\bremote\b", re.I)
 
@@ -116,23 +123,26 @@ def section(title: str, text: str = "") -> str | None:
     return None
 
 
-def _sentence(text: str, m: re.Match) -> str:
-    start = max(text.rfind(".", 0, m.start()), text.rfind("\n", 0, m.start())) + 1
-    ends = [i for i in (text.find(".", m.end()), text.find("\n", m.end())) if i != -1]
-    end = min(ends) if ends else len(text)
-    return " ".join(text[start:end + 1].split())[:300]
+SENT_END = re.compile(r"(?<=[.!?])(?<!\b[A-Za-z]\.)(?<!e\.g\.)(?<!i\.e\.)(?<!etc\.)\s+(?=[A-Z(])|\n+")
+
+
+def sentences(text: str) -> list[str]:
+    return [" ".join(x.split()) for x in SENT_END.split(text or "") if x and x.strip()]
 
 
 def tags(text: str, location: str = "") -> tuple[dict, dict]:
     t, ev = {"sponsor": None, "citizen": None, "clearance": None, "remote": bool(REMOTE.search(location))}, {}
-    for name, rx, val in (("sponsor", SPONSOR_NO, False), ("sponsor", SPONSOR_YES, True), ("citizen", CITIZEN, True), ("clearance", CLEARANCE, True)):
-        if t[name] is not None:  # "no" checked first, so a "will not sponsor" sentence never reads as "sponsor"
-            continue
-        m = rx.search(text or "")
-        if m and name == "sponsor" and re.search(r"export licen[cs]e", _sentence(text, m), re.I):
-            m = None
-        if m:
-            t[name], ev[name] = val, _sentence(text, m)
+    sents = [x for x in sentences(text) if not re.search(r"export licen[cs]e", x, re.I)]
+    no = next((x for x in sents if SPONSOR_NO.search(x)), None)
+    yes = next((x for x in sents if SPONSOR_YES.search(x) and not NEG.search(x) and not SPONSOR_HEDGE.search(x)), None)
+    if no:  # any "no" sentence wins: a wrong "sponsors" tag costs a student the most
+        t["sponsor"], ev["sponsor"] = False, no[:300]
+    elif yes:
+        t["sponsor"], ev["sponsor"] = True, yes[:300]
+    for name, rx in (("citizen", CITIZEN), ("clearance", CLEARANCE)):
+        hit = next((x for x in sents if rx.search(x)), None)
+        if hit:
+            t[name], ev[name] = True, hit[:300]
     return t, ev
 
 
