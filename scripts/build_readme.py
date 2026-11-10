@@ -63,15 +63,23 @@ def main():
 
     for key, name, fname in SECTIONS:
         part = [r for r in rows if r["section"] == key]
-        (ROOT / fname).write_text(f"# {name}\n\n[← back to the board](README.md) · {len(part)} open · updated {today()}\n\n{LEGEND}\n\n{table(part)}\n", encoding="utf-8")
+        (ROOT / fname).write_text(f"# {name}\n\n[⬅ Back to the main page](README.md) · {len(part)} open · updated {today()}\n\n"
+                                  f"**Click a job title to open the company's application page.**\n\n{LEGEND}\n\n{table(part)}\n", encoding="utf-8")
 
-    links = " · ".join(f"[{name}]({fname}) ({counts.get(key, 0)})" for key, name, fname in SECTIONS)
+    icons = {"internship": "💼", "new_grad": "🎓", "early": "🌱"}
+    links = "\n".join(f"| {icons[key]} **{name}** | {counts.get(key, 0)} | **[👉 Open the list]({fname})** |" for key, name, fname in SECTIONS)
     readme = f"""# McNeese Jobs
 
 Internships, new-grad roles and early programs for McNeese computer science and computer engineering students.
 Pulled straight from companies' own job boards and refreshed daily. **Last updated {today()}.**
 
-**Browse:** {links}
+## Find jobs
+
+**Click "👉 Open the list"** next to a section to see its jobs. Each job title in a list is a link to the company's application page.
+
+| Section | Open roles | |
+|---|---|---|
+{links}
 
 This board isn't the most complete one out there. It focuses on tags you can trust, Gulf Coast and local companies, and programs for freshmen and sophomores. For more breadth, also check Handshake, LinkedIn, and the community internship lists on GitHub.
 

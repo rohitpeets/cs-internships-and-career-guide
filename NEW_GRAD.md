@@ -1,6 +1,8 @@
 # New Grad
 
-[← back to the board](README.md) · 276 open · updated 2026-11-10
+[⬅ Back to the main page](README.md) · 276 open · updated 2026-11-10
+
+**Click a job title to open the company's application page.**
 
 **Tags.** 🛂✅ the posting says it sponsors visas · 🛂❌ it says it doesn't · 🇺🇸 U.S. citizenship / U.S. person required · 🔒 security clearance · 🌐 remote · ⚠ link couldn't be verified recently · ⏳ listed for 60+ days.
 A blank tag means the posting doesn't say.

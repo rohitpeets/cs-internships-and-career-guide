@@ -3,7 +3,15 @@
 Internships, new-grad roles and early programs for McNeese computer science and computer engineering students.
 Pulled straight from companies' own job boards and refreshed daily. **Last updated 2026-11-10.**
 
-**Browse:** [Internships](INTERNSHIPS.md) (3231) · [New Grad](NEW_GRAD.md) (276) · [Early Programs (freshmen & sophomores)](EARLY.md) (16)
+## Find jobs
+
+**Click "👉 Open the list"** next to a section to see its jobs. Each job title in a list is a link to the company's application page.
+
+| Section | Open roles | |
+|---|---|---|
+| 💼 **Internships** | 3231 | **[👉 Open the list](INTERNSHIPS.md)** |
+| 🎓 **New Grad** | 276 | **[👉 Open the list](NEW_GRAD.md)** |
+| 🌱 **Early Programs (freshmen & sophomores)** | 16 | **[👉 Open the list](EARLY.md)** |
 
 This board isn't the most complete one out there. It focuses on tags you can trust, Gulf Coast and local companies, and programs for freshmen and sophomores. For more breadth, also check Handshake, LinkedIn, and the community internship lists on GitHub.
 
