@@ -1,6 +1,6 @@
 # New Grad
 
-[⬅ Back to the main page](README.md) · 102 open · updated 2026-11-09
+[⬅ Back to the main page](README.md) · 102 open · updated 2026-11-10
 
 **Click a job title to open the company's application page.**
 

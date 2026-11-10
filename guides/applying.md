@@ -56,7 +56,15 @@ You will get many. Every person who got an internship also got rejections. After
 
 ## Resources
 
-- [Tech Interview Handbook: coding interviews](https://www.techinterviewhandbook.org/coding-interview-prep/)
-- [Tech Interview Handbook: behavioral interviews](https://www.techinterviewhandbook.org/behavioral-interview/)
+**Interview prep**
+- [Tech Interview Handbook](https://www.techinterviewhandbook.org): coding, behavioral, and negotiation guides, plus the Grind 75 study plan.
+- [NeetCode](https://neetcode.io) and [LeetCode](https://leetcode.com): the NeetCode 150 list, videos, and practice.
+- [Kattis](https://open.kattis.com) and [Codeforces](https://codeforces.com): contest-style practice.
+
+**More job lists** (this board doesn't catch everything)
+- [Simplify's Summer 2027 internship list](https://github.com/SimplifyJobs/Summer2027-Internships) and [new-grad list](https://github.com/SimplifyJobs/New-Grad-Positions).
+- Handshake (through your school) and LinkedIn Jobs.
+
+**No internship yet?** [Extern](https://www.extern.com), [Forage](https://www.theforage.com), [Parker Dewey](https://www.parkerdewey.com), undergrad research, and campus jobs all count as experience.
 
 Next: [the 4-year timeline](timeline.md).

@@ -20,6 +20,8 @@ F-1 student? Read the [note for F-1 students](timeline.md#note-for-f-1-students)
 
 Take Data Structures seriously, build one bigger [project](projects.md) with a team, and start [applying](applying.md) for internships in late summer (July to September for the next summer). After Data Structures, start [coding practice](timeline.md#coding-interview-practice).
 
+Looking for clubs, programs, free courses, or project ideas? See [resources](resources.md).
+
 ## All guides
 
 - [GitHub](github.md)
@@ -29,3 +31,4 @@ Take Data Structures seriously, build one bigger [project](projects.md) with a t
 - [Networking and getting involved](networking.md)
 - [Applying and interviews](applying.md)
 - [4-year timeline](timeline.md)
+- [**Resources**: communities, programs, courses, hackathons, tools, and more](resources.md)

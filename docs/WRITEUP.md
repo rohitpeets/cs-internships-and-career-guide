@@ -1,6 +1,6 @@
-# McNeese Jobs: design notes
+# Things I Wish I Knew: CS Edition — design notes
 
-McNeese Jobs is a job board for the roughly 300 computer science and computer engineering students at McNeese State University. It lists internships, new-grad roles and freshman/sophomore programs, pulled straight from companies' own job boards and refreshed every day. I built it because the boards students already use are either paid, cluttered with roles they can't apply to, or silent on the question international students care about most: will this employer work with my visa status?
+Things I Wish I Knew: CS Edition is a job board and set of guides for computer science and computer engineering students. I started it for my friends and classmates at my university (about 300 CS and CE students), and it's open to any student. It lists internships, new-grad roles and freshman/sophomore programs, pulled straight from companies' own job boards and refreshed every day. I built it because the boards students already use are either paid, cluttered with roles they can't apply to, or silent on the question international students care about most: will this employer work with my visa status?
 
 ## How it works
 

@@ -35,7 +35,12 @@ Free tools and trials for students (cloud credits, domains, developer tools). Ap
 
 ## Resources
 
-- [GitHub Student Developer Pack](https://education.github.com/pack)
-- [Make a README](https://www.makeareadme.com) (a simple guide with a template)
+- [GitHub Student Developer Pack](https://education.github.com/pack): free tools, cloud credits, and domains.
+- [GitHub Skills](https://skills.github.com): free hands-on courses inside GitHub.
+- [Pro Git](https://git-scm.com/book/en/v2): the free official Git book.
+- [Make a README](https://www.makeareadme.com): a simple guide with a template.
+- [First Contributions](https://github.com/firstcontributions/first-contributions): practice making your first pull request.
+- [Good First Issue](https://goodfirstissue.dev): beginner-friendly issues in real open-source projects.
+- [JetBrains student licenses](https://www.jetbrains.com/community/education/#students): free IntelliJ, PyCharm, CLion, and more.
 
 Next: [build a project](projects.md) worth putting here.

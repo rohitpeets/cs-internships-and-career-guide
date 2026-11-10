@@ -59,4 +59,38 @@ Expect fewer than 1 in 10 to reply. That's normal, not personal.
 - A month later, tell them what you did with their advice.
 - Keep a simple list: name, date, what you talked about.
 
+## Resources
+
+**Communities and organizations.** Join one or two; many give free conference trips, mentors, and recruiter connections.
+- [ACM](https://www.acm.org): student chapters, contests, and conferences for everyone in computing.
+- [ColorStack](https://www.colorstack.org): Black and Latinx CS students.
+- [NSBE](https://www.nsbe.org): Black engineers and CS students; big national convention and career fair.
+- [SHPE](https://www.shpe.org): Hispanic engineers and CS students; big national convention and career fair.
+- [SWE](https://swe.org): women in engineering and CS.
+- [Rewriting the Code](https://rewritingthecode.org): women in college studying tech.
+- [AnitaB.org](https://anitab.org): women in tech; runs the Grace Hopper Celebration.
+- [Out in Tech](https://outintech.com) and [oSTEM](https://ostem.org): LGBTQ+ people in tech and STEM.
+- [AISES](https://www.aises.org): Indigenous students in STEM.
+- (Women Who Code closed in 2024. Rewriting the Code and AnitaB.org are good alternatives.)
+
+**Programs**
+- [CodePath](https://www.codepath.org): free courses for college students (interview prep, web, mobile, AI), with company connections.
+- [Code2040](https://www.code2040.org): career programs for Black and Latinx CS students.
+- [SEO Tech Developer](https://tech.seo-usa.org): free training and internship placement for students from underrepresented groups, including a first-year academy.
+- [Break Through Tech](https://breakthroughtech.org): free AI/ML program for undergrads from underrepresented groups.
+- [Explore Microsoft](https://careers.microsoft.com/v2/global/en/exploremicrosoft) and [Google students](https://www.google.com/about/careers/applications/students/): early programs for first-years and sophomores (long shots).
+- Summer research: search "NSF REU sites" (deadlines usually January to March).
+
+**Hackathons and contests**
+- [Major League Hacking (MLH)](https://mlh.com) and [Devpost](https://devpost.com): hackathon calendars, in person and online.
+- [ICPC](https://icpc.global): the big team programming contest.
+- [Advent of Code](https://adventofcode.com): daily puzzles every December.
+- Security CTFs: [picoCTF](https://picoctf.org) for beginners, [OverTheWire](https://overthewire.org/wargames/), [TryHackMe](https://tryhackme.com).
+
+**Conferences and scholarships**
+- [Grace Hopper Celebration](https://ghc.anitab.org) and [Tapia Conference](https://tapiaconference.cmd-it.org): student-friendly conferences with travel scholarships.
+- [Generation Google Scholarship](https://www.iie.org/programs/generationgoogle/generation-google-scholarship-canada-united-states-north-america): for students from underrepresented groups in CS.
+- [DoD SMART Scholarship](https://www.smartscholarship.org): tuition plus a stipend, then a job at a defense lab. U.S. citizens only.
+- [CyberCorps Scholarship for Service](https://sfs.opm.gov): cybersecurity scholarship with government service after. U.S. citizens only.
+
 Next: [applying and interviews](applying.md).

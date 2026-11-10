@@ -1,14 +1,14 @@
-# McNeese ACM Job Board: Design
+# Things I Wish I Knew: CS Edition — original design
 
 > This is the original plan. Parts not built yet are marked *(planned)*. [WRITEUP.md](WRITEUP.md) describes what's built and what was measured.
 
-A public GitHub repo that lists internships, new-grad roles and early-career programs for McNeese computer science and computer engineering students, refreshed daily. Built and owned by Rohitpreet Singh as a portfolio project. Only the maintainers (Rohit and the ACM officers) can change it; everyone else has read access.
+A public GitHub repo that lists internships, new-grad roles and early-career programs for computer science and computer engineering students, refreshed daily. Built and owned by Rohitpreet Singh as a portfolio project. Only the maintainers (Rohit and the ACM officers) can change it; everyone else has read access.
 
 ## 1. Goals and constraints
 
 | | |
 |---|---|
-| Audience | About 300 McNeese students, mostly CS, some computer engineering, from freshmen to seniors |
+| Audience | Originally about 300 students at my university, mostly CS, some computer engineering, from freshmen to seniors |
 | Content | Three sections: Summer internships, New-grad roles, Early programs for freshmen and sophomores, plus a "New this week" section at the top |
 | Refresh | Daily (scheduled GitHub Action), plus an immediate run when a maintainer adds postings by hand |
 | Freshness | Postings confirmed closed twice in a row are removed; postings that can't be verified are flagged ⚠ instead of removed |

@@ -1,9 +1,11 @@
-# McNeese Jobs
+# Things I Wish I Knew: CS Edition
 
 [![Daily refresh](https://github.com/rohitpeets/mcneese-jobs/actions/workflows/daily.yml/badge.svg)](https://github.com/rohitpeets/mcneese-jobs/actions/workflows/daily.yml)
 
-Internships, new-grad roles and early programs in the **United States** for McNeese computer science and computer engineering students.
-Pulled straight from companies' own job boards and refreshed daily. **Last updated 2026-11-09.**
+Internships, new-grad roles and early programs in the **United States** for computer science and computer engineering students, plus the guides and resources I wish I'd had as a freshman.
+Pulled straight from companies' own job boards and refreshed daily. **Last updated 2026-11-10.**
+
+> **📘 New to internships? Read the [student guides](guides/README.md)** (resume, projects, applying, interviews, 4-year plan) **and [resources](guides/resources.md)** (ColorStack, NSBE, SHPE, CodePath, hackathons, free courses, project ideas, and more).
 
 ## Find jobs
 
@@ -31,11 +33,13 @@ A blank tag means the posting doesn't say. The grey line under a title is the se
 
 ## New to internships? Start here
 
+**📘 [Student guides](guides/README.md):** short how-tos for CS and CE students on GitHub, LinkedIn, your first resume, projects, networking, applying and interviews, and a 4-year timeline. **[Resources](guides/resources.md):** communities, programs, free courses, hackathons, and tools.
+
 - **Apply early.** Most summer internships open between August and October of the year before, and many fill by winter.
 - **Freshmen and sophomores:** start with 🌱 Early Programs. In the other lists, open the posting and check the qualifications for class year and GPA.
 - **Internship vs. co-op:** an internship is usually a summer. A co-op is usually a full semester or more of full-time work, often with a break from classes.
 - **Don't wait to meet every bullet.** If you meet most of the qualifications, apply.
-- **Get your resume checked** by the campus career center or an ACM officer before you send it out.
+- **Get your resume checked** by your career center or an upperclassman who has had an internship before you send it out.
 
 ## 🆕 New this week
 
@@ -75,4 +79,4 @@ A blank tag means the posting doesn't say. The grey line under a title is the se
 _51 postings were posted this week. This list shows up to 3 per company; the rest are in the section pages above._
 
 ---
-Found a posting that should be here? Tell an ACM officer.
+Found a posting that should be here, or a mistake? [Open an issue](https://github.com/rohitpeets/mcneese-jobs/issues).

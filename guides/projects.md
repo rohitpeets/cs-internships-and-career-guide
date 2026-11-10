@@ -44,7 +44,33 @@ Two evenings a week is plenty. Your classes come first.
 
 ## Resources
 
-- [CS50x](https://cs50.harvard.edu/x/) (free; a certificate may cost money)
-- [The Missing Semester of Your CS Education](https://missing.csail.mit.edu)
+**Learn the basics (free)**
+- [CS50x](https://cs50.harvard.edu/x/): Harvard's intro to CS. The best place to start.
+- [The Missing Semester](https://missing.csail.mit.edu): terminal, Git, editors, and tools classes skip.
+- [OSSU Computer Science](https://github.com/ossu/computer-science): a full CS degree path using free courses.
+- [Teach Yourself CS](https://teachyourselfcs.com): the 9 subjects every CS student should know, with the best book and course for each.
+- [MIT OpenCourseWare](https://ocw.mit.edu): full MIT course materials.
+- [Nand2Tetris](https://www.nand2tetris.org): build a computer from logic gates up. Great for CE students.
+- [The Odin Project](https://www.theodinproject.com) and [freeCodeCamp](https://www.freecodecamp.org): web development paths.
+- [Full Stack Open](https://fullstackopen.com): modern web development (React, Node) from the University of Helsinki.
+- [Exercism](https://exercism.org): practice exercises in 70+ languages with free mentoring.
+- [roadmap.sh](https://roadmap.sh): step-by-step maps for backend, frontend, DevOps, and more.
+
+**Build real projects**
+- [Build Your Own X](https://github.com/codecrafters-io/build-your-own-x): build your own Git, database, shell, web server, and more.
+- [Project-Based Learning](https://github.com/practical-tutorials/project-based-learning): tutorials where you build something, sorted by language.
+- [App Ideas](https://github.com/florinpop17/app-ideas): project ideas sorted by level.
+- [build-your-own.org](https://build-your-own.org): books on building Redis, a database, and a compiler from scratch.
+- [Crafting Interpreters](https://craftinginterpreters.com): build a programming language; free to read online.
+- [CodeCrafters](https://codecrafters.io): guided "build your own" challenges (some free, mostly paid).
+
+**Build with others**
+- [MLH Fellowship](https://fellowship.mlh.com): paid remote fellowship on open source or real projects.
+- [CodeDay Labs](https://labs.codeday.org): open-source internship-style projects with mentors.
+- [Google Summer of Code](https://summerofcode.withgoogle.com): paid summer open-source work with a mentor.
+- [Outreachy](https://www.outreachy.org): paid open-source internships for people underrepresented in tech.
+
+**Free tools**
+- [GitHub Student Developer Pack](https://education.github.com/pack), [Azure for Students](https://azure.microsoft.com/en-us/free/students/), and [AWS Educate](https://aws.amazon.com/education/awseducate/): free hosting, cloud credits, and training.
 
 Next: [find people](networking.md) to build with.

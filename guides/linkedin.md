@@ -44,4 +44,10 @@ Ask one specific question first. If they reply, then ask for a 15-minute chat. M
 
 After you apply to a company, it's fine to message the recruiter or an alum there with one line saying you applied and why you're interested.
 
+## Resources
+
+- Your school's alumni: go to your school's LinkedIn page and click "Alumni" (or "People") to filter by company, city, and what they studied.
+- [LinkedIn guide, University of Chicago Career Advancement](https://careeradvancement.uchicago.edu/career-toolkit/interviewing-and-networking/linkedin-guide/)
+- [LinkedIn guide, Colorado State University Career Center](https://career.colostate.edu/linkedin/)
+
 Next: [write your resume](resume.md) and keep it matching your LinkedIn.

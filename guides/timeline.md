@@ -71,5 +71,7 @@ Rules depend on your situation, so check everything with your DSO (Designated Sc
 ## Resources
 
 - [F-1 CPT, official DHS page](https://studyinthestates.dhs.gov/sevis-help-hub/student-records/fm-student-employment/f-1-curricular-practical-training-cpt)
-- [NeetCode](https://neetcode.io) (free problem list and videos)
-- [LeetCode](https://leetcode.com) (free practice problems)
+- [NeetCode](https://neetcode.io) (free problem list and videos) and [LeetCode](https://leetcode.com) (practice problems)
+- [Tech Interview Handbook: Grind 75](https://www.techinterviewhandbook.org/grind75/): a week-by-week study plan.
+- More: [GitHub](github.md#resources), [LinkedIn](linkedin.md#resources), [resume](resume.md#resources), [projects](projects.md#resources), [networking](networking.md#resources), [applying](applying.md#resources).
+

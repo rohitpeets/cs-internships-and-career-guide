@@ -62,6 +62,9 @@ Read the job posting. If it asks for skills you really have (say, Java and SQL),
 ## Resources
 
 - [Tech Interview Handbook: resume guide](https://www.techinterviewhandbook.org/resume/)
-- [Jake's Resume template (Overleaf)](https://www.overleaf.com/latex/templates/jakes-resume/syzfjbzwjncs) (optional)
+- [Jake's Resume template (Overleaf)](https://www.overleaf.com/latex/templates/jakes-resume/syzfjbzwjncs) (optional, LaTeX)
+- [Forage](https://www.theforage.com): free virtual job simulations from big companies, worth a resume line if you have no experience.
+- [Extern](https://www.extern.com): remote, project-based "externships" with real companies.
+- [Parker Dewey](https://www.parkerdewey.com): short paid "micro-internship" projects.
 
 Next: [start applying](applying.md).

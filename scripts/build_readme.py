@@ -17,7 +17,7 @@ from common import COMPANIES, DATA, POSTINGS, ROOT, load_json, load_yaml  # noqa
 
 
 def today() -> str:
-    """Dates on the page are McNeese's (Central) time, not the server's UTC."""
+    """Dates on the page are U.S. Central time, not the server's UTC."""
     return datetime.now(ZoneInfo("America/Chicago")).date().isoformat()
 
 SECTIONS = [("internship", "Internships", "INTERNSHIPS.md"),
@@ -30,13 +30,13 @@ A blank tag means the posting doesn't say. The grey line under a title is the se
 > 🛂❌ usually means no visa sponsorship later (for example H-1B). Unless the row also shows 🚫, CPT or OPT may still work. Check with the recruiter and your DSO."""
 START_HERE = """## New to internships? Start here
 
-**📘 [Student guides](guides/README.md):** short how-tos for CS and CE students on GitHub, LinkedIn, your first resume, projects, networking, applying and interviews, and a 4-year timeline.
+**📘 [Student guides](guides/README.md):** short how-tos for CS and CE students on GitHub, LinkedIn, your first resume, projects, networking, applying and interviews, and a 4-year timeline. **[Resources](guides/resources.md):** communities, programs, free courses, hackathons, and tools.
 
 - **Apply early.** Most summer internships open between August and October of the year before, and many fill by winter.
 - **Freshmen and sophomores:** start with 🌱 Early Programs. In the other lists, open the posting and check the qualifications for class year and GPA.
 - **Internship vs. co-op:** an internship is usually a summer. A co-op is usually a full semester or more of full-time work, often with a break from classes.
 - **Don't wait to meet every bullet.** If you meet most of the qualifications, apply.
-- **Get your resume checked** by the campus career center or an ACM officer before you send it out."""
+- **Get your resume checked** by your career center or an upperclassman who has had an internship before you send it out."""
 GOV = re.compile(r"\b(u\.?s\.? government|government|federal|national lab\w*|laborator(y|ies)|jpl|jet propulsion|nasa|dod|department of (defense|energy)|"
                  r"navy|naval|army|air force|space force|missile|defense)\b", re.I)
 
@@ -175,12 +175,14 @@ def main():
     icons = {"internship": "💼", "new_grad": "🎓", "early": "🌱"}
     links = "\n".join(f"| {icons[key]} **{name}** | {counts.get(key, 0)} | **[👉 Open the list]({fname})** |" for key, name, fname in SECTIONS)
     boards = len((load_yaml(COMPANIES, {}) or {}).get("companies") or [])
-    readme = f"""# McNeese Jobs
+    readme = f"""# Things I Wish I Knew: CS Edition
 
 [![Daily refresh](https://github.com/rohitpeets/mcneese-jobs/actions/workflows/daily.yml/badge.svg)](https://github.com/rohitpeets/mcneese-jobs/actions/workflows/daily.yml)
 
-Internships, new-grad roles and early programs in the **United States** for McNeese computer science and computer engineering students.
+Internships, new-grad roles and early programs in the **United States** for computer science and computer engineering students, plus the guides and resources I wish I'd had as a freshman.
 Pulled straight from companies' own job boards and refreshed daily. **Last updated {today()}.**
+
+> **📘 New to internships? Read the [student guides](guides/README.md)** (resume, projects, applying, interviews, 4-year plan) **and [resources](guides/resources.md)** (ColorStack, NSBE, SHPE, CodePath, hackathons, free courses, project ideas, and more).
 
 ## Find jobs
 
@@ -207,7 +209,7 @@ This board doesn't cover everything. It reads about half of what paid job aggreg
 {new_section(new)}
 
 ---
-Found a posting that should be here? Tell an ACM officer.
+Found a posting that should be here, or a mistake? [Open an issue](https://github.com/rohitpeets/mcneese-jobs/issues).
 """
     (ROOT / "README.md").write_text(readme, encoding="utf-8")
     print(f"built: {dict(counts)}, new this week {len(new)}, rows left out for unsafe links {skipped}")
