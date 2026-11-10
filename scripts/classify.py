@@ -11,7 +11,7 @@ sys.path.insert(0, str(__import__("pathlib").Path(__file__).parent))
 from common import POSTINGS, load_json, save_json  # noqa: E402
 
 TITLE_KEEP = re.compile(r"\b(intern(ship)?s?|co-?op|new grad(uate)?|entry[- ]level|early career|university grad(uate)?|graduate program|apprentice(ship)?|explore program|freshm[ae]n|sophomore)\b", re.I)
-TITLE_DROP = re.compile(r"\b(senior|sr\.?|staff|principal|director|manager(?!\s*intern)|lead(?!ership)|phd|ph\.d|postdoc|mba)\b", re.I)
+TITLE_DROP = re.compile(r"\b(senior|sr\.?|staff|principal|director|manager(?!\s*intern)|lead(?!ership)|phd|ph\.d|postdoc|mba|ms|m\.s\.|masters?|master's|student worker)\b", re.I)
 
 EARLY = re.compile(r"\b(freshm[ae]n|sophomores?|first[- ]year|second[- ]year|explore (intern|program)|step intern|engineering practicum)\b", re.I)
 EARLY_TEXT = re.compile(r"\b(freshm[ae]n|sophomores?)\b[^.]{0,60}\b(eligible|encouraged|welcome|open to|apply|students)\b|\b(open to|for|eligible:?)\s+(current\s+)?(freshm[ae]n|sophomores?)\b|\b(open to|for|eligible:?)\s+(current\s+)?(first[- ]year|second[- ]year)\b[^.]{0,40}\b(students|undergrad\w*)", re.I)
@@ -50,7 +50,7 @@ NON_TECH = re.compile(r"\b(marketing|sales|account (executive|manager)|finance|a
                       r"game design|game economy|tech art|fuel|trim|field manager)\b", re.I)
 
 
-FIELD_DROP = re.compile(r"\b(civil|geotechnical|structural|traffic|transportation|mechanical|environmental|chemical|process|manufacturing|industrial|ehs|safety|construction|mining|petroleum|materials|warhead|harness|propulsion|thermal|fluids|surveying|water resources|game presentation|game design|game economy|tech art|fuel|trim|field engineer)\b", re.I)
+FIELD_DROP = re.compile(r"\b(facilit(y|ies)|civil|geotechnical|structural|traffic|transportation|mechanical|environmental|chemical|process|manufacturing|industrial|ehs|safety|construction|mining|petroleum|materials|warhead|harness|propulsion|thermal|fluids|surveying|water resources|game presentation|game design|game economy|tech art|fuel|trim|field engineer)\b", re.I)
 STRONG_TECH = re.compile(r"\b(engineer(ing)?|developer|software|data scien\w*|machine learning)\b(?!.*\bsales\b)", re.I)
 
 
@@ -72,10 +72,25 @@ OTHER_SCHOOL = re.compile(r"-\s*(colorado school of mines|montana( state| tech)?
                           r"[a-z .&]+ (university|college|state))\s*$", re.I)
 
 
+# Allow-list: the title has to name CS or computer-engineering work. "Engineer" or "analyst" alone isn't enough.
+CS_TITLE = re.compile(
+    r"\b(software|developer|programm\w*|coding|data|machine learning|deep learning|ml|ai|a\.i\.|artificial intelligence|llm|nlp|"
+    r"computer|cs|cyber\w*|security|information technology|it|information systems|network\w*|cloud|devops|sre|site reliability|"
+    r"web|mobile|android|ios|full[- ]?stack|front[- ]?end|back[- ]?end|firmware|embedded|database|analytics|bioinformatics|"
+    r"quant\w*|automation engineer\w*|robotics software|autonomy|computer vision|perception|slam|infrastructure engineer\w*|"
+    r"platform engineer\w*|systems? administrat\w*|help ?desk|technical support|qa|quality assurance|sdet|test automation|"
+    r"technology intern\w*|tech intern\w*|technology (analyst|associate|program)|digital (design|technology)|"
+    r"hardware|asic|fpga|vlsi|chip|silicon|semiconductor|soc|digital design|verification|signal processing|dsp|"
+    r"computer engineering|electrical (and|&) computer|game (developer|engine|programmer)|gameplay|graphics|simulation software)\b", re.I)
+INTERNAL_ONLY = re.compile(r"\b(current|previous|recent|returning)\b[^)]{0,40}\binterns?\b[^)]{0,20}\bonly\b|\bfor current\b", re.I)
+
+
 def keep_title(title: str) -> bool:
+    if not CS_TITLE.search(title) or INTERNAL_ONLY.search(title) or NON_US.search(title):
+        return False
     if OTHER_SCHOOL.search(title) and not re.search(r"mcneese", title, re.I):
         return False
-    if not TITLE_KEEP.search(title) or TITLE_DROP.search(title) or not TECH.search(title):
+    if not TITLE_KEEP.search(title) or TITLE_DROP.search(title):  # CS_TITLE above already requires technical work
         return False
     # "Supply Chain Tooling Engineer Intern" is technical even though it names a business area
     if FIELD_DROP.search(title):

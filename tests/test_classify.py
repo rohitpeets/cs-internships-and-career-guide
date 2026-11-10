@@ -11,9 +11,9 @@ def test_titles_kept_and_dropped():
     assert not keep_title("Summer 2027: Corporate Strategy Intern")
     assert not keep_title("Technical Design Artist, Intern 2027")
     assert keep_title("Summer 2027: Data Analytics Intern")
-    assert keep_title("Electrical Engineering Intern, 2027")
+    assert not keep_title("Electrical Engineering Intern, 2027")  # plain EE: not CS/CE work in the title
     assert keep_title("Summer 2027: IT Services Intern")
-    assert keep_title("Supply Chain Tooling Engineer Intern")
+    assert not keep_title("Supply Chain Tooling Engineer Intern")
     assert keep_title("2027 Internship State Estimation, Learned Mapping & Semantic SLAM")
     assert not keep_title("Sales Engineer Intern")
 
@@ -50,7 +50,7 @@ def test_non_cs_engineering_dropped():
               "2027 Early Career Warhead Engineer", "Game Presentation Intern - Frederick Keys", "Intern - EHS Engineer",
               "Activision 2027 Summer Internships - Game Design", "Fuel Supply Analyst Intern", "Trim Engineering Intern"]:
         assert not keep_title(t), t
-    assert keep_title("Electrical Engineering Internship - Data Center Facilities")
+    assert not keep_title("Electrical Engineering Internship - Data Center Facilities")
 
 
 def test_early_needs_title_or_explicit_statement():
@@ -74,3 +74,14 @@ def test_school_specific_reqs_dropped():
     assert not keep_title("I - 27002 - AK Field Engineer Intern - Colorado School of Mines")
     assert keep_title("Software Engineering Co-op (Jun-Dec 2027)")
     assert keep_title("Software Engineering Intern - McNeese State University")
+
+
+def test_allow_list_needs_cs_work_in_title():
+    for t in ["Roadway Engineering Intern - Spring/Summer 2027", "Electrical Engineering (Substation) Intern - Summer 2027",
+              "Packaging Engineering Co-op", "Business Analyst Intern", "Risk Control Intern", "Quality Engineering Intern",
+              "Component Engineering Intern", "Undergraduate Investment Analyst Intern (Summer 2027) - Investment Office",
+              "New Grad GIS Analyst I (For Current/Previous HNTB Interns ONLY)"]:
+        assert not keep_title(t), t
+    for t in ["CSG Hardware Engineering Intern", "Firmware Engineering Intern", "Data Engineer Intern", "IT Intern",
+              "Summer 2027 - Technology Intern", "Cybersecurity Analyst Intern", "FPGA Design Intern", "Software Engineering Co-op (Jun-Dec 2027)"]:
+        assert keep_title(t), t
