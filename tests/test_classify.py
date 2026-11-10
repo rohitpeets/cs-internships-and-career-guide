@@ -67,3 +67,10 @@ def test_us_only():
     assert not us_job("London, United Kingdom")
     assert not us_job("Amsterdam")
     assert us_job("Houston, TX") and us_job("Remote - US") and us_job("")
+
+
+def test_school_specific_reqs_dropped():
+    assert not keep_title("I-26002 - HEC Engineer Intern - LSU")
+    assert not keep_title("I - 27002 - AK Field Engineer Intern - Colorado School of Mines")
+    assert keep_title("Software Engineering Co-op (Jun-Dec 2027)")
+    assert keep_title("Software Engineering Intern - McNeese State University")

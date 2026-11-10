@@ -50,7 +50,7 @@ NON_TECH = re.compile(r"\b(marketing|sales|account (executive|manager)|finance|a
                       r"game design|game economy|tech art|fuel|trim|field manager)\b", re.I)
 
 
-FIELD_DROP = re.compile(r"\b(civil|geotechnical|structural|traffic|transportation|mechanical|environmental|chemical|process|manufacturing|industrial|ehs|safety|construction|mining|petroleum|materials|warhead|harness|propulsion|thermal|fluids|surveying|water resources|game presentation|game design|game economy|tech art|fuel|trim)\b", re.I)
+FIELD_DROP = re.compile(r"\b(civil|geotechnical|structural|traffic|transportation|mechanical|environmental|chemical|process|manufacturing|industrial|ehs|safety|construction|mining|petroleum|materials|warhead|harness|propulsion|thermal|fluids|surveying|water resources|game presentation|game design|game economy|tech art|fuel|trim|field engineer)\b", re.I)
 STRONG_TECH = re.compile(r"\b(engineer(ing)?|developer|software|data scien\w*|machine learning)\b(?!.*\bsales\b)", re.I)
 
 
@@ -67,7 +67,14 @@ def us_job(location: str) -> bool:
     return not NON_US.search(loc) or bool(US.search(loc))
 
 
+# campus-specific reqs ("HEC Engineer Intern - LSU") are only open to that school's students
+OTHER_SCHOOL = re.compile(r"-\s*(colorado school of mines|montana( state| tech)?|lsu|texas a&m|a&m|ou|clemson|ut|tulsa|purdue|georgia tech|"
+                          r"[a-z .&]+ (university|college|state))\s*$", re.I)
+
+
 def keep_title(title: str) -> bool:
+    if OTHER_SCHOOL.search(title) and not re.search(r"mcneese", title, re.I):
+        return False
     if not TITLE_KEEP.search(title) or TITLE_DROP.search(title) or not TECH.search(title):
         return False
     # "Supply Chain Tooling Engineer Intern" is technical even though it names a business area

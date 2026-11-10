@@ -6,7 +6,7 @@ Set-Location (Join-Path $PSScriptRoot "..\..")
 New-Item -ItemType Directory -Force logs | Out-Null
 $log = "logs\nightly-$(Get-Date -Format yyyy-MM-dd).log"
 
-git pull --rebase *>> $log
+git pull --rebase --autostash *>> $log
 python scripts/fetch_ats.py --local --workers 16 *>> $log
 if ($LASTEXITCODE -ne 0) { "fetch failed" >> $log; exit 1 }
 
@@ -17,6 +17,6 @@ if ($LASTEXITCODE -ne 0) {
     for ($i = 0; $i -lt 3; $i++) {
         git push *>> $log
         if ($LASTEXITCODE -eq 0) { break }
-        git pull --rebase *>> $log   # the Action pushed first; our files never overlap with its files
+        git pull --rebase --autostash *>> $log   # the Action pushed first; our files never overlap with its files
     }
 }
