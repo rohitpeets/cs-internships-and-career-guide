@@ -1,5 +1,5 @@
 # Company job boards, from the apply links of the Nov 5, 2026 scan (company + its own public board only).
-# ats: greenhouse | lever | ashby | workday (tenant.wdN/site) | smartrecruiters | oracle (v1.1)
+# ats: greenhouse | lever | ashby | smartrecruiters | amazon | eightfold (host|domain) | workday (tenant.wdN/site) | oracle (prefix.fa.region/site)
 companies:
   - {name: "Allen Control Systems", ats: ashby, board: "allen-control-systems"}
   - {name: "Amplify", ats: ashby, board: "amplify"}
@@ -956,3 +956,14 @@ companies:
   - {name: "Zekelman Industries", ats: workday, board: "zekelman.wd12/Careers"}
   - {name: "Zillow", ats: workday, board: "zillow.wd5/Zillow_Group_External"}
   - {name: "Zoetis", ats: workday, board: "zoetis.wd5/broadbean_external"}
+  # big companies and Gulf Coast employers found with scripts/probe_sources.py (2026-11-09)
+  - {name: "Amazon", ats: amazon, board: "amazon"}
+  - {name: "Netflix", ats: eightfold, board: "explore.jobs.netflix.net|netflix.com"}
+  - {name: "SpaceX", ats: greenhouse, board: "spacex"}
+  - {name: "Stripe", ats: greenhouse, board: "stripe"}
+  - {name: "Databricks", ats: greenhouse, board: "databricks"}
+  - {name: "Airbnb", ats: greenhouse, board: "airbnb"}
+  - {name: "Snowflake", ats: ashby, board: "snowflake"}
+  - {name: "Venture Global", ats: greenhouse, board: "ventureglobal"}
+  - {name: "JPMorgan Chase", ats: oracle, board: "jpmc.fa/CX_1001"}
+  - {name: "Oracle", ats: oracle, board: "eeho.fa.us2/CX_45001"}

@@ -9,11 +9,11 @@ Pulled straight from companies' own job boards and refreshed daily. **Last updat
 
 | Section | Open roles | Link |
 |---|---|---|
-| 💼 **Internships** | 1279 | **[👉 Open the list](INTERNSHIPS.md)** |
+| 💼 **Internships** | 1291 | **[👉 Open the list](INTERNSHIPS.md)** |
 | 🎓 **New Grad** | 87 | **[👉 Open the list](NEW_GRAD.md)** |
 | 🌱 **Early Programs (freshmen & sophomores)** | 5 | **[👉 Open the list](EARLY.md)** |
 
-Each list is grouped by state, with Louisiana and the Gulf Coast first. Tags come only from a sentence in the posting itself. A blank tag means the posting doesn't say, not "no".
+Each list shows the newest postings first. Tags come only from a sentence in the posting itself. A blank tag means the posting doesn't say, not "no".
 
 This board doesn't cover everything. It reads about half of what paid job aggregators list. For more, also check Handshake, LinkedIn, and the community internship lists on GitHub.
 

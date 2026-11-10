@@ -53,3 +53,11 @@ def test_smartrecruiters_parses():
             return FakeResp(data)
     jobs = adapters.CLOUD["smartrecruiters"]("acme", H())
     assert [j["location"] for j in jobs] == ["Austin, TX, US"] and "unable to sponsor" in jobs[0]["text"]
+
+
+def test_amazon_parses():
+    data = {"hits": 1, "jobs": [{"id": "1", "title": "2027 Software Dev Engineer Intern", "job_path": "/en/jobs/1/sde-intern",
+                                 "normalized_location": "Seattle, Washington, USA", "description": "Build things.",
+                                 "basic_qualifications": "Enrolled in a CS degree.", "preferred_qualifications": ""}]}
+    jobs = adapters.CLOUD["amazon"]("amazon", FakeHttp(data))
+    assert jobs[0]["url"] == "https://www.amazon.jobs/en/jobs/1/sde-intern" and "CS degree" in jobs[0]["text"]

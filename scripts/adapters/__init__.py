@@ -180,5 +180,66 @@ def smartrecruiters(board, http):
     return Jobs(out, complete)
 
 
-CLOUD = {"greenhouse": greenhouse, "lever": lever, "ashby": ashby, "smartrecruiters": smartrecruiters}
+def amazon(board, http):
+    """amazon.jobs public search JSON (board is unused; kept for the companies.yaml format)."""
+    from classify import keep_title, strip_html
+    seen, complete = {}, True
+    for q in ("intern", "co-op", "new grad", "university graduate"):
+        offset = 0
+        while True:
+            r = http.get("https://www.amazon.jobs/en/search.json",
+                         params={"base_query": q, "loc_query": "United States", "result_limit": 100, "offset": offset})
+            gone(r, board)
+            r.raise_for_status()
+            d = r.json()
+            need(isinstance(d, dict) and isinstance(d.get("jobs"), list), "amazon: no jobs list")
+            for j in d["jobs"]:
+                if keep_title(j.get("title", "")):
+                    seen[j["id"]] = j
+            offset += 100
+            if not d["jobs"] or offset >= d.get("hits", 0):
+                break
+            if offset >= 1000:
+                complete = False
+                break
+    return Jobs([{"title": j["title"], "url": "https://www.amazon.jobs" + j["job_path"],
+                  "location": j.get("normalized_location") or j.get("location", ""),
+                  "text": strip_html("\n".join(j.get(k) or "" for k in ("description", "basic_qualifications", "preferred_qualifications")))}
+                 for j in seen.values()], complete)
+
+
+def eightfold(board, http):
+    """board = "host|domain", e.g. "explore.jobs.netflix.net|netflix.com". Eightfold's public careers API."""
+    from classify import keep_title, strip_html
+    host, domain = board.split("|", 1)
+    api = f"https://{host}/api/apply/v2/jobs"
+    seen, complete = {}, True
+    for q in ("intern", "co-op", "new grad", "university"):
+        start = 0
+        while True:
+            r = http.get(api, params={"domain": domain, "query": q, "location": "United States", "start": start, "num": 100})
+            gone(r, board)
+            r.raise_for_status()
+            d = r.json()
+            need(isinstance(d, dict) and isinstance(d.get("positions"), list), "eightfold: no positions list")
+            for j in d["positions"]:
+                if keep_title(j.get("name", "")):
+                    seen[j["id"]] = j
+            start += 100
+            if not d["positions"] or start >= d.get("count", 0):
+                break
+            if start >= 1000:
+                complete = False
+                break
+    out = []
+    for pid, j in seen.items():
+        r = http.get(f"{api}/{pid}", params={"domain": domain})
+        det = r.json() if r.ok else {}
+        out.append({"title": j["name"], "url": j.get("canonicalPositionUrl") or f"https://{host}/careers/job/{pid}",
+                    "location": j.get("location") or "; ".join(j.get("locations") or []),
+                    "text": strip_html(det.get("job_description", "") or "")})
+    return Jobs(out, complete)
+
+
+CLOUD = {"greenhouse": greenhouse, "lever": lever, "ashby": ashby, "smartrecruiters": smartrecruiters, "amazon": amazon, "eightfold": eightfold}
 LOCAL = {"workday": workday, "oracle": oracle}

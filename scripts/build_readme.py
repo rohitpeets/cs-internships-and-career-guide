@@ -147,7 +147,7 @@ def main():
                       "Check their student career pages directly in the fall.\n\n"}
     for key, name, fname in SECTIONS:
         part = [r for r in rows if r["section"] == key]
-        body = table(part, why=True) if key == "early" else grouped(part)
+        body = table(part, why=(key == "early"))
         (ROOT / fname).write_text(f"<a id=\"top\"></a>\n\n# {name}\n\n[⬅ Back to the main page](README.md) · {len(part)} open · updated {today()}\n\n"
                                   f"{intro.get(key, '')}**Click a job title to open the company's application page.**\n\n{LEGEND}\n\n{body}\n", encoding="utf-8")
 
@@ -172,7 +172,7 @@ Pulled straight from companies' own job boards and refreshed daily. **Last updat
 |---|---|---|
 {links}
 
-Each list is grouped by state, with Louisiana and the Gulf Coast first. Tags come only from a sentence in the posting itself. A blank tag means the posting doesn't say, not "no".
+Each list shows the newest postings first. Tags come only from a sentence in the posting itself. A blank tag means the posting doesn't say, not "no".
 
 This board doesn't cover everything. It reads about half of what paid job aggregators list. For more, also check Handshake, LinkedIn, and the community internship lists on GitHub.
 
