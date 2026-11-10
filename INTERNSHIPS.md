@@ -1,6 +1,6 @@
 # Internships
 
-[⬅ Back to the main page](README.md) · 1504 open · updated 2026-11-10
+[⬅ Back to the main page](README.md) · 1548 open · updated 2026-11-10
 
 **Click a job title to open the company's application page.**
 
@@ -18,6 +18,7 @@ A blank tag means the posting doesn't say.
 | Zoetis | [Information Security Intern](https://zoetis.wd5.myworkdayjobs.com/broadbean_external/job/Parsippany/Information-Security-Intern_JR00021994) | Parsippany |  | 11-09 |
 | Zoetis | [IT/OT Security Intern](https://zoetis.wd5.myworkdayjobs.com/broadbean_external/job/Kalamazoo---Kilgore-Road/IT-OT-Security-Intern_JR00021980) | Kalamazoo - Kilgore Road |  | 11-09 |
 | ZipRecruiter | [Software Engineer - Intern](https://job-boards.greenhouse.io/ziprecruiter/jobs/8180455) | Santa Monica, CA |  | 11-09 |
+| Zillow | [Applied Scientist (Economics) Intern](https://zillow.wd5.myworkdayjobs.com/Zillow_Group_External/job/Seattle-WA-2nd-Ave/Applied-Scientist--Economics--Intern_P751642-1) | Seattle-WA-2nd Ave |  | 11-09 |
 | Zillow | [Data Science Intern](https://zillow.wd5.myworkdayjobs.com/Zillow_Group_External/job/Seattle-WA-2nd-Ave/Data-Science-Intern_P751677-1) | Seattle-WA-2nd Ave |  | 11-09 |
 | Zillow | [Software Development Engineer - Intern](https://zillow.wd5.myworkdayjobs.com/Zillow_Group_External/job/Seattle-WA-2nd-Ave/Software-Development-Engineer---Intern_P751630) | Seattle-WA-2nd Ave |  | 11-09 |
 | Zekelman Industries | [AI Intern](https://zekelman.wd12.myworkdayjobs.com/Careers/job/Wheatland-PA---Council-Ave/AI-Intern_JR002752) | Wheatland, PA - Council Ave |  | 11-09 |
@@ -152,11 +153,21 @@ A blank tag means the posting doesn't say.
 | Toyota Research Institute | [Human Interactive Driving Research Intern, Perception for Driving at the Limits](https://jobs.lever.co/tri/33c33641-756d-4cd1-8238-0100af2224b8) | Los Altos, CA |  | 11-09 |
 | Toyota Research Institute | [Human-Centered AI Research Intern, Causal Reasoning Models](https://jobs.lever.co/tri/6433edb6-76be-409f-9a73-9b9d9c207f9f) | Los Altos, CA |  | 11-09 |
 | Toyota Research Institute | [Human-Centered AI Research Intern, Human Language Models](https://jobs.lever.co/tri/d4184c04-b963-489a-9a0b-91bc57d6267e) | Los Altos, CA |  | 11-09 |
+| Toyota Research Institute | [Robotics Intern, Human-Machine Interaction Research](https://jobs.lever.co/tri/16336213-1880-482f-87d0-b15fa4141047) | Los Altos, CA |  | 11-09 |
+| Toyota Research Institute | [Robotics Intern, Human-Machine Interaction Research](https://jobs.lever.co/tri/dcc68e06-e6a6-4cb5-b0a9-282ab9c16dc8) | Los Altos, CA |  | 11-09 |
+| Toyota Research Institute | [Robotics Intern, Human-Robot Interaction](https://jobs.lever.co/tri/11da7518-14d4-4960-a3aa-57dc010f3642) | Cambridge, MA |  | 11-09 |
+| Toyota Research Institute | [Robotics Intern, Post-Training and Continual Learning](https://jobs.lever.co/tri/f6541d1f-b72f-456f-829f-bf118ac10c43) | Los Altos, CA |  | 11-09 |
+| Toyota Research Institute | [Robotics Intern, Teleoperation and Spatial Computing](https://jobs.lever.co/tri/4ea8d663-1060-4c55-aede-91fd8f945871) | Cambridge, MA |  | 11-09 |
+| Toyota Research Institute | [Robotics Intern, Trustworthy Learning under Uncertainty](https://jobs.lever.co/tri/6f60ff79-c902-466a-912c-7ab849ce6424) | Los Altos, CA |  | 11-09 |
+| Toyota Research Institute | [Robotics Intern, World Action Models for Robot Policy](https://jobs.lever.co/tri/e1ed2b1f-d345-4e7c-b963-76195369538d) | Cambridge, MA |  | 11-09 |
+| Toyota Research Institute | [Robotics Intern, World Foundation Models](https://jobs.lever.co/tri/016bbb58-857a-4367-b1aa-0cdc9f818478) | Los Altos, CA |  | 11-09 |
+| Toyota Research Institute | [Robotics Research Intern, Manipulation](https://jobs.lever.co/tri/17acdd1f-f234-4a30-a313-34be94a1adcd) | Los Altos, CA |  | 11-09 |
 | Toyota North America | [2027 TFS Data Science Internship](https://toyota.wd503.myworkdayjobs.com/TMNA/job/Plano-Texas/XMLNAME-2027-TFS-Data-Science-Internship_10338545-1) | Plano, Texas | 🛂❌ | 11-09 |
 | Together AI | [Systems Research Engineer Intern - GPU Programming (Summer 2027)](https://job-boards.greenhouse.io/togetherai/jobs/5238460007) | San Francisco |  | 11-09 |
 | Together AI | [Technical Writer Intern, Developer Experience (Summer 2027)](https://job-boards.greenhouse.io/togetherai/jobs/5271149007) | San Francisco |  | 11-09 |
 | Thrivent | [IT Application Engineer Intern, Investments - Summer 2027](https://thrivent.wd5.myworkdayjobs.com/External/job/Mpls-Investments-Office/IT-Application-Engineer-Intern--Investments---Summer-2027_REQ-48511-2) | Mpls-Investments Office | 🛂❌ | 11-09 |
 | Thornton Tomasetti | [Electronic Security Intern](https://tt.wd503.myworkdayjobs.com/ThorntonTomasetti/job/Washington-DC-USA/Electronic-Security-Intern_R7378) | Washington DC, USA | 🔒 | 11-09 |
+| Thomson Reuters | [Applied Scientist Intern](https://thomsonreuters.wd5.myworkdayjobs.com/External_Career_Site/job/United-States-of-America-San-Francisco-California/Applied-Scientist-Intern_JREQ203428) | United States of America, San Francisco, California |  | 11-09 |
 | Thomson Reuters | [Reuters News Internship Program 2027 (Temp Guild) - Graphics, New York](https://thomsonreuters.wd5.myworkdayjobs.com/External_Career_Site/job/United-States-of-America-New-York-New-York/Reuters-News-Internship-Program--Temp-Guild----New-York_JREQ204985) | United States of America, New York, New York |  | 11-09 |
 | Thomson Reuters | [Software Engineer Co-Op](https://thomsonreuters.wd5.myworkdayjobs.com/External_Career_Site/job/United-States-of-America-Rochester-New-York/Software-Engineer-Co-Op_JREQ203587) | United States of America, Rochester, New York | 🔒 | 11-09 |
 | Thermo Fisher Scientific | [Intern - DevOps](https://thermofisher.wd5.myworkdayjobs.com/ThermoFisherCareers/job/Brno-Czechia/Intern---DevOps_R-01374014-1) | Brno, Czechia |  | 11-09 |
@@ -184,9 +195,11 @@ A blank tag means the posting doesn't say.
 | The Hartford | [2027 Summer Intern - Rotational (IT, Operations, Risk, and Fund Treasury)](https://thehartford.wd5.myworkdayjobs.com/Careers_External/job/Wayne-PA/XMLNAME-2027-Summer-Intern---Rotational--IT--Operations--Risk--and-Fund-Treasury-_R2627500) | Wayne, PA |  | 11-09 |
 | The Hartford | [Data Science Intern - Summer 2027](https://thehartford.wd5.myworkdayjobs.com/Careers_External/job/Hartford-CT/Data-Science-Intern---Summer-2027_R2627114) | Hartford, CT | 🛂❌ | 11-09 |
 | The Allen Institute for Artificial Intelligence | [Research Internship, AI for Science](https://job-boards.greenhouse.io/thealleninstitute/jobs/8293615) | Seattle, WA |  | 11-09 |
+| The Allen Institute for Artificial Intelligence | [Research Internship, Robotics](https://job-boards.greenhouse.io/thealleninstitute/jobs/8293641) | Seattle, WA | 🛂✅ | 11-09 |
 | Texas Instruments | [Digital Design Verification Engineering Intern](https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25019665) | Santa Clara, CA, United States | 🛂❌ | 11-09 |
 | Texas Instruments | [Information Technology Intern – Data Engineering](https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25017978) | Dallas, TX, United States | 🛂❌ | 11-09 |
 | Texas Instruments | [Information Technology Intern – Security](https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25017626) | Dallas, TX, United States | 🛂❌ | 11-09 |
+| Texas Instruments | [Test or Validation Engineering Intern](https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25017578) | Dallas, TX, United States | 🛂❌ | 11-09 |
 | Texas Instruments | [Web Marketing Intern - Front-end Developer](https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25018753) | Dallas, TX, United States |  | 11-09 |
 | Tevora | [Cybersecurity Internship Summer 2027 - Systems and Organizations Controls (SOC)](https://jobs.lever.co/tevora/4e3b7ae3-cb18-4c76-815c-0014e3c7598c) | Irvine, CA |  | 11-09 |
 | Tevora | [Cybersecurity Internship Winter 2027 - Systems and Organizations Controls (SOC)](https://jobs.lever.co/tevora/f73a1676-ca54-45a5-a657-1fb81bf0dc76) | Irvine, CA |  | 11-09 |
@@ -372,6 +385,7 @@ A blank tag means the posting doesn't say.
 | Rivian and Volkswagen Group Technologies | [Software Engineering Intern - Vehicle Controls (January - August 2027)](https://jobs.ashbyhq.com/rivianvw.tech/f5aa59d9-4fdc-42d5-931d-efd9e6d96f2f) | Irvine, California |  | 11-09 |
 | Rivian and Volkswagen Group Technologies | [Software Engineering Intern - Vehicle Controls (Summer 2027)](https://jobs.ashbyhq.com/rivianvw.tech/cb3559f0-2514-45f1-8d36-a11fa1dded0c) | Palo Alto, California |  | 11-09 |
 | Ricoh | [Applied Machine Learning and AI Engineering Intern](https://cbha.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8491) | Boulder, CO, United States |  | 11-09 |
+| Ricoh | [Robotics Engineer Intern](https://cbha.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8474) | Boulder, CO, United States |  | 11-09 |
 | Ricoh | [Software Development Intern](https://cbha.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8477) | Boulder, CO, United States |  | 11-09 |
 | Ricoh | [SW Engineer – Microservice Developer Intern](https://cbha.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8580) | Boulder, CO, United States |  | 11-09 |
 | Rhoda AI | [Optical Sensing Intern - Robot Perception](https://jobs.ashbyhq.com/rhoda-ai/df2aa2a4-ca56-4fa6-b106-89a7fc6a9bb4) | Mountain View |  | 11-09 |
@@ -409,6 +423,7 @@ A blank tag means the posting doesn't say.
 | Regeneron Pharmaceuticals | [2027 Summer Intern Quality Assurance – Compliance & Quality Systems (IOPS)](https://regeneron.wd1.myworkdayjobs.com/Careers/job/RENSSELAER/XMLNAME-2027-Summer-Intern-Quality-Assurance---Compliance---Quality-Systems--IOPS-_R52018-1) | RENSSELAER |  | 11-09 |
 | Regeneron | [2027 Co-op Data Analytics & Digital Tools (IOPS)](https://regeneron.wd1.myworkdayjobs.com/US_Only_University_Relations_Career/job/RENSSELAER/XMLNAME-2027-Co-op-Data-Analytics---Digital-Tools--IOPS-_R50983) | RENSSELAER |  | 11-09 |
 | Regeneron | [2027 Co-op Data Science & Computational Biology (Research)](https://regeneron.wd1.myworkdayjobs.com/US_Only_University_Relations_Career/job/TARRYTOWN/XMLNAME-2027-Co-op-Data-Science---Computational-Biology--Research-_R51032) | TARRYTOWN |  | 11-09 |
+| Regeneron | [2027 Co-op Laboratory Automation & Robotics Engineering](https://regeneron.wd1.myworkdayjobs.com/US_Only_University_Relations_Career/job/TARRYTOWN/XMLNAME-2027-Co-op-Laboratory-Automation---Robotics-Engineering_R51030) | TARRYTOWN |  | 11-09 |
 | Regeneron | [2027 Summer Intern AI/ML & Data Engineering](https://regeneron.wd1.myworkdayjobs.com/US_Only_University_Relations_Career/job/TARRYTOWN/XMLNAME-2027-Summer-Intern-AI-ML---Data-Engineering_R52560) | TARRYTOWN |  | 11-09 |
 | Regeneron | [2027 Summer Intern Data Science & Digital Innovation (IOPS)](https://regeneron.wd1.myworkdayjobs.com/US_Only_University_Relations_Career/job/RENSSELAER/XMLNAME-2027-Summer-Intern-Data-Science---Digital-Innovation--IOPS-_R51821) | RENSSELAER |  | 11-09 |
 | Regeneron | [2027 Summer Intern Genomics, Computational Biology & Translational Data Science](https://regeneron.wd1.myworkdayjobs.com/US_Only_University_Relations_Career/job/TARRYTOWN/XMLNAME-2027-Summer-Intern-Genomics--Computational-Biology---Translational-Data-Science_R52557) | TARRYTOWN |  | 11-09 |
@@ -424,6 +439,7 @@ A blank tag means the posting doesn't say.
 | Reflect Orbital | [IT Support Specialist Intern](https://jobs.ashbyhq.com/reflect-orbital/8f4f8e74-b386-41b4-8154-7e5e50a34205) | Hawthorne, CA |  | 11-09 |
 | Realty Income Corporation | [Technology Intern - Multiple Opportunities](https://realtyincome.wd108.myworkdayjobs.com/realty_income_careers/job/San-Diego-California/Technology-Intern---Multiple-Opportunities_R-100339) | San Diego, California |  | 11-09 |
 | Range | [Software Engineering Intern](https://jobs.ashbyhq.com/range/5fe3697d-b5b3-4772-9de4-1551cb726718) | McLean, VA |  | 11-09 |
+| Ramp | [Applied Scientist Intern](https://jobs.ashbyhq.com/ramp/b39ceb08-a0a7-4f8b-a760-2fb88e209956) | New York, NY (HQ) |  | 11-09 |
 | Ramp | [Software Engineering Intern, Android](https://jobs.ashbyhq.com/ramp/fcf118cc-521a-4a62-9d13-945e5b6e3cb8) | New York, NY (HQ) |  | 11-09 |
 | Ramp | [Software Engineering Intern, Backend](https://jobs.ashbyhq.com/ramp/acf6b28d-767f-483f-8ff2-114620cd7e04) | New York, NY (HQ) |  | 11-09 |
 | Ramp | [Software Engineering Intern, Frontend](https://jobs.ashbyhq.com/ramp/a13ae586-f4cb-4385-8822-c42b9b54ed74) | New York, NY (HQ) |  | 11-09 |
@@ -539,10 +555,14 @@ A blank tag means the posting doesn't say.
 | Oshkosh Corporation | [Customer Support AI Intern](https://oshkoshcorporation.wd5.myworkdayjobs.com/Oshkosh/job/McConnellsburg-Pennsylvania-United-States/Customer-Support-Business-Analyst-Intern_R49501) | McConnellsburg, Pennsylvania, United States | 🇺🇸 | 11-09 |
 | onsemi | [Spring 2027 - Semiconductor AI Specialist Intern](https://hctz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2506918) | Gresham, OR, United States |  | 11-09 |
 | onsemi | [Spring 2027 - Semiconductor AI Specialist Intern](https://hctz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/2506918) | Gresham, OR, United States |  | 11-09 |
+| onsemi | [Spring 2027 - Validation Engineering Intern](https://hctz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2506611) | Nampa, ID, United States |  | 11-09 |
+| onsemi | [Spring 2027 - Validation Engineering Intern](https://hctz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/2506611) | Nampa, ID, United States |  | 11-09 |
 | onsemi | [Summer 2027 - Data and Visualization Intern](https://hctz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2506638) | Hopewell Junction, NY, United States |  | 11-09 |
 | onsemi | [Summer 2027 - Data and Visualization Intern](https://hctz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/2506638) | Hopewell Junction, NY, United States |  | 11-09 |
 | onsemi | [Summer 2027 - IE / Data Analytics Intern](https://hctz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2506636) | Hopewell Junction, NY, United States |  | 11-09 |
 | onsemi | [Summer 2027 - IE / Data Analytics Intern](https://hctz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/2506636) | Hopewell Junction, NY, United States |  | 11-09 |
+| onsemi | [Summer 2027 - Validation Engineering Intern](https://hctz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2506606) | Nampa, ID, United States |  | 11-09 |
+| onsemi | [Summer 2027 - Validation Engineering Intern](https://hctz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/2506606) | Nampa, ID, United States |  | 11-09 |
 | onepot | [Research Intern, Machine Learning](https://jobs.ashbyhq.com/onepot/5116ee20-adfa-4177-b120-e3f48354e7e8) | South San Francisco, CA |  | 11-09 |
 | Olsson | [Student Internship - Network and Server Infrastructure](https://job-boards.greenhouse.io/olsson/jobs/5462183008) | Lincoln, NE |  | 11-09 |
 | Oceaneering | [3d Subsea Simulator Software Intern](https://ebfr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/jobs/job/11523) | Austin, TX, United States |  | 11-09 |
@@ -555,10 +575,12 @@ A blank tag means the posting doesn't say.
 | Oceaneering | [Power Platform Developer Intern](https://ebfr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/jobs/job/11624) | Houston, TX, United States |  | 11-09 |
 | Oceaneering | [Software Asset Management Analyst Intern](https://ebfr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/jobs/job/11627) | Houston, TX, United States |  | 11-09 |
 | OCC | [Year-Round Intern - Application Security](https://theocc.wd5.myworkdayjobs.com/careers/job/Dallas-TX/Year-Round-Intern---Application-Security_REQ-4838) | Dallas, TX |  | 11-09 |
+| OCC | [Year-Round Intern - Automation Testing Frameworks](https://theocc.wd5.myworkdayjobs.com/careers/job/Dallas-TX/Year-Round-Intern---Automation-Testing-Frameworks_REQ-4834) | Dallas, TX |  | 11-09 |
 | NYISO Internship Program | [Intern - IT Service Delivery](https://job-boards.greenhouse.io/nyisointernships/jobs/5236071007) | Rensselaer, New York, United States |  | 11-09 |
 | NYISO Internship Program | [Intern - IT Software Development](https://job-boards.greenhouse.io/nyisointernships/jobs/5236084007) | Rensselaer, New York, United States |  | 11-09 |
 | NVIDIA | [Artificial Intelligence Research Intern - Deep Learning](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Taiwan-Taipei/Artificial-Intelligence-Research-Intern---Deep-Learning_JR2023646) | Taiwan, Taipei |  | 11-09 |
 | NVIDIA | [Compiler Software Engineering Intern - Summer 2027](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-WA-Redmond/Compiler-Software-Engineering-Intern---Summer-2027_JR2028607) | US, WA, Redmond |  | 11-09 |
+| NVIDIA | [NVIDIA 2027 Internships: Autonomous Vehicles and Robotics](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Autonomous-Vehicles-and-Robotics_JR2023496) | US, CA, Santa Clara |  | 11-09 |
 | NVIDIA | [NVIDIA 2027 Internships: Computer Architecture](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Computer-Architecture_JR2023489) | US, CA, Santa Clara |  | 11-09 |
 | NVIDIA | [NVIDIA 2027 Internships: Deep Learning Computer Architecture](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Deep-Learning-Computer-Architecture_JR2023491) | US, CA, Santa Clara |  | 11-09 |
 | NVIDIA | [NVIDIA 2027 Internships: Hardware ASIC Design](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-ASIC-Design_JR2023486) | US, CA, Santa Clara |  | 11-09 |
@@ -594,6 +616,7 @@ A blank tag means the posting doesn't say.
 | Nissan Motor Corporation | [Generative AI & Software Engineering Intern](https://alliance.wd3.myworkdayjobs.com/nissanjobs/job/Barcelona-ZF/Generative-AI---Software-Engineering-Intern_R00215499-1) | Barcelona ZF |  | 11-09 |
 | Nissan Motor Corporation | [IS/IT Intern - Summer 2027 - Franklin, TN](https://alliance.wd3.myworkdayjobs.com/nissanjobs/job/Franklin-Tennessee---United-States-of-America/IS-IT-Intern---Summer-2027---Franklin--TN_R00214212) | Franklin, Tennessee - United States of America |  | 11-09 |
 | Nissan Motor Corporation | [IT Collaboration Tools Intern - Summer 2027 - Franklin, TN](https://alliance.wd3.myworkdayjobs.com/nissanjobs/job/Franklin-Tennessee---United-States-of-America/IT-Collaboration-Tools-Intern---Summer-2027---Franklin--TN_R00214213) | Franklin, Tennessee - United States of America |  | 11-09 |
+| Nissan Motor Corporation | [New Model Tech Quality Validation Engineer Intern - Summer 2027 - Smyrna, TN](https://alliance.wd3.myworkdayjobs.com/nissanjobs/job/Smyrna-Tennessee---United-States-of-America/New-Model-Tech-Quality-Validation-Engineer-Intern---Summer-2027---Smyrna--TN_R00214251) | Smyrna, Tennessee - United States of America |  | 11-09 |
 | Nissan Motor Corporation | [People Analytics Intern - Summer 2027 - Franklin, TN](https://alliance.wd3.myworkdayjobs.com/nissanjobs/job/Franklin-Tennessee---United-States-of-America/People-Analytics-Intern---Summer-2027---Franklin--TN_R00214301) | Franklin, Tennessee - United States of America |  | 11-09 |
 | Nissan Motor Corporation | [QA Dyno/Assembly Engineer Intern - Summer 2027 - Decherd, TN](https://alliance.wd3.myworkdayjobs.com/nissanjobs/job/Decherd-Tennessee---United-States-of-America/QA-Dyno-Assembly-Engineer-Intern---Summer-2027---Decherd--TN_R00214292) | Decherd, Tennessee - United States of America |  | 11-09 |
 | Nissan Motor Corporation | [Robotics Programmer Intern - Summer 2027 - Smyrna, TN](https://alliance.wd3.myworkdayjobs.com/nissanjobs/job/Smyrna-Tennessee---United-States-of-America/Robotics-Programmer-Intern---Summer-2027---Smyrna--TN_R00214302) | Smyrna, Tennessee - United States of America |  | 11-09 |
@@ -705,6 +728,8 @@ A blank tag means the posting doesn't say.
 | Mercor | [Software Engineer Intern](https://jobs.ashbyhq.com/mercor/de3025e5-10ca-4d55-b688-eff0e647ac8d) | San Francisco |  | 11-09 |
 | Mayo Clinic | [Summer Surgical Tech Intern](https://fa-euwp-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/394345) | Rochester, MN, United States |  | 11-09 |
 | Mass General Brigham | [Co-op Security](https://massgeneralbrigham.wd1.myworkdayjobs.com/MGBExternal/job/Boston-MA/Co-op-Security_RQ4085104) | Boston-MA |  | 11-09 |
+| Marvell Technology | [Electrical Validation Intern, BS - Summer 2027](https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Electrical-Validation-Intern--BS---Summer-2027_2603795-1) | Santa Clara, CA | 🇺🇸 | 11-09 |
+| Marvell Technology | [Electrical Validation Intern, BS - Summer 2027](https://marvell.wd1.myworkdayjobs.com/MarvellCareers2/job/Santa-Clara-CA/Electrical-Validation-Intern--BS---Summer-2027_2603795) | Santa Clara, CA | 🇺🇸 | 11-09 |
 | Marvell Technology | [Firmware Engineer Intern, BS - Summer 2027](https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Firmware-Engineer-Intern--BS---Summer-2027_2604461) | Santa Clara, CA | 🇺🇸 | 11-09 |
 | Marvell Technology | [Firmware Engineer Intern, BS - Summer 2027](https://marvell.wd1.myworkdayjobs.com/MarvellCareers2/job/Santa-Clara-CA/Firmware-Engineer-Intern--BS---Summer-2027_2604461-1) | Santa Clara, CA | 🇺🇸 | 11-09 |
 | Marvell Technology | [Hardware Engineer Intern, BS - Summer 2027](https://marvell.wd1.myworkdayjobs.com/MarvellCareers2/job/Santa-Clara-CA/Hardware-Engineer-Intern--BS---Summer-2027_2604975) | Santa Clara, CA | 🇺🇸 | 11-09 |
@@ -762,6 +787,8 @@ A blank tag means the posting doesn't say.
 | Klaviyo Campus | [Software Engineer Co-op (Spring 2027)](https://job-boards.greenhouse.io/klaviyocampus/jobs/7989365003) | Boston, MA | 🛂❌ | 11-09 |
 | KLA | [Algorithm Engineering Intern (AI, Computer Vision & Software Engineering)](https://kla.wd1.myworkdayjobs.com/Search/job/Milpitas-CA/Algorithm-Engineering-Intern--AI--Computer-Vision---Software-Engineering-_2641392-2) | Milpitas, CA |  | 11-09 |
 | KLA | [Algorithm Engineering Intern (AI, Computer Vision & Software Engineering)](https://kla.wd1.myworkdayjobs.com/UR/job/Milpitas-CA/Algorithm-Engineering-Intern--AI--Computer-Vision---Software-Engineering-_2641392-1) | Milpitas, CA |  | 11-09 |
+| KLA | [Algorithm Engineering Intern (GPU/CUDA)](https://kla.wd1.myworkdayjobs.com/Search/job/Milpitas-CA/Algorithm-Engineering-Intern--GPU-CUDA-_2642044) | Milpitas, CA |  | 11-09 |
+| KLA | [Algorithm Engineering Intern (GPU/CUDA)](https://kla.wd1.myworkdayjobs.com/UR/job/Milpitas-CA/Algorithm-Engineering-Intern--GPU-CUDA-_2642044-2) | Milpitas, CA |  | 11-09 |
 | KLA | [Computer Vision/Machine Learning Intern](https://kla.wd1.myworkdayjobs.com/Search/job/Milpitas-CA/Computer-Vision-Machine-Learning-Intern_2641921-1) | Milpitas, CA |  | 11-09 |
 | KLA | [Computer Vision/Machine Learning Intern](https://kla.wd1.myworkdayjobs.com/UR/job/Milpitas-CA/Computer-Vision-Machine-Learning-Intern_2641921) | Milpitas, CA |  | 11-09 |
 | KLA | [Machine Learning Engineer Intern](https://kla.wd1.myworkdayjobs.com/Search/job/Milpitas-CA/Product-Development-Engineering-Intern_2641562-1) | Milpitas, CA |  | 11-09 |
@@ -814,6 +841,7 @@ A blank tag means the posting doesn't say.
 | Jabil | [Computer Systems Analyst Intern](https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/St-PetersburgTampa-FL/Computer-Systems-Analyst-Intern_J2464586-1) | St. Petersburg/Tampa, FL |  | 11-09 |
 | Jabil | [IT Audit Intern](https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/St-PetersburgTampa-FL/IT-Audit-Intern_J2468699) | St. Petersburg/Tampa, FL |  | 11-09 |
 | Jabil | [IT SCM Intern](https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/St-PetersburgTampa-FL/IT-SCM-Intern_J2465768) | St. Petersburg/Tampa, FL |  | 11-09 |
+| Jabil | [Validation Engineer Intern](https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Austin-TX/Validation-Engineer-Intern_J2469310) | Austin, TX |  | 11-09 |
 | ITW | [Software Engineering Intern](https://itw.wd5.myworkdayjobs.com/External/job/Rogers---55374/Software-Engineering-Intern_JR10129) | Rogers - 55374 |  | 11-09 |
 | ITW | [Summer 2027 Software Engineer Intern (Application Software)](https://itw.wd5.myworkdayjobs.com/External/job/MTS-Headquarters/Summer-2027-Software-Engineer-Intern--Application-Software-_JR10491-1) | MTS Headquarters |  | 11-09 |
 | ITW | [Summer 2027 Software Engineering Intern](https://itw.wd5.myworkdayjobs.com/External/job/MTS-Headquarters/Software-Engineering-Intern_JR10261) | MTS Headquarters |  | 11-09 |
@@ -857,6 +885,7 @@ A blank tag means the posting doesn't say.
 | IMC | [Deep Learning Research Intern - Summer 2027 - New York](https://job-boards.eu.greenhouse.io/imc/jobs/4907430101) | New York, United States |  | 11-09 |
 | IMC | [Machine Learning Engineer Intern - Summer 2027](https://job-boards.eu.greenhouse.io/imc/jobs/4962456101) | New York, United States |  | 11-09 |
 | IMC | [Quant Performance Engineer Intern - Summer 2027](https://job-boards.eu.greenhouse.io/imc/jobs/4842595101) | Chicago, United States |  | 11-09 |
+| IMC | [Quantitative Research Intern (BS/MS) - Summer 2027](https://job-boards.eu.greenhouse.io/imc/jobs/4907399101) | Chicago, United States |  | 11-09 |
 | IMC | [Quantitative Trader Intern - Summer 2027](https://job-boards.eu.greenhouse.io/imc/jobs/4823923101) | Chicago, United States |  | 11-09 |
 | IMC | [Software Engineer Intern - Summer 2027](https://job-boards.eu.greenhouse.io/imc/jobs/4823924101) | Chicago, United States |  | 11-09 |
 | Idaho National Laboratory | [AI-Enhanced Automation Intern - Summer 2027](https://elhe.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/pro/job/2257) | Idaho Falls, ID, United States |  | 11-09 |
@@ -976,6 +1005,7 @@ A blank tag means the posting doesn't say.
 | Great American Insurance Group | [Telematics Intern / Predictive Analytics Intern - Summer 2027](https://gaig.wd1.myworkdayjobs.com/GAIG_External/job/Cincinnati-OH-USA/Telematics-Intern---Predictive-Analytics-Intern---Summer-2027_R9868) | Cincinnati, OH (USA) | 🛂❌ | 11-09 |
 | Great American Insurance Group | [Third-Party Risk & Analytics Intern (Year-Round)](https://gaig.wd1.myworkdayjobs.com/GAIG_External/job/Cincinnati-OH-USA/Third-Party-Service-Provider-Intern--Year-Round-_R9637) | Cincinnati, OH (USA) | 🛂❌ | 11-09 |
 | GrayMatter Robotics | [AI Research Intern: Foundation Models - IMMEDIATE START](https://jobs.ashbyhq.com/graymatter-robotics/dea0f08d-ebf5-4e55-b9cb-e6302014f429) | Los Angeles - HQ | 🇺🇸 | 11-09 |
+| GrayMatter Robotics | [Robotics Engineering Intern: Systems & Applications - IMMEDIATE START](https://jobs.ashbyhq.com/graymatter-robotics/1cdbf03d-438b-46f8-808e-76fb6cfd4320) | Los Angeles - HQ |  | 11-09 |
 | Graphcore Early Careers | [Cloud Platform Summer Intern 2027](https://job-boards.greenhouse.io/graphcore-early-careers/jobs/8902072002) | Bristol, UK | 🛂❌ | 11-09 |
 | Graphcore Early Careers | [Firmware Summer Intern 2027](https://job-boards.greenhouse.io/graphcore-early-careers/jobs/8902588002) | Bristol, UK | 🛂❌ | 11-09 |
 | Graphcore Early Careers | [Hardware Summer Intern 2027](https://job-boards.greenhouse.io/graphcore-early-careers/jobs/8902078002) | Bristol, UK | 🛂❌ | 11-09 |
@@ -1017,6 +1047,7 @@ A blank tag means the posting doesn't say.
 | General Motors | [2027 Intern - AI/ML Engineer, Autonomous Vehicle ML Infrastructure](https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Intern---AI-ML-Engineer--Autonomous-Vehicle-ML-Infrastructure_JR-202622410) | Sunnyvale, California, United States of America |  | 11-09 |
 | General Motors | [2027 Summer Intern - Digital Product: Software Engineering](https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern---Digital-Product--Software-Engineering_JR-202620546) | Warren, Michigan, United States of America |  | 11-09 |
 | General Motors | [2027 Summer Intern – AI & Hardware Analytics, ADPT](https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern---AI---Hardware-Analytics--ADPT_JR-202621756) | Warren, Michigan, United States of America |  | 11-09 |
+| General Motors | [2027 Summer Intern – Autonomous Driving Software Engineer (Bachelor's & Master's)](https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Autonomous-Driving-Software-Engineer--Bachelor-s---Master-s-_JR-202622064) | Sunnyvale, California, United States of America |  | 11-09 |
 | General Motors | [2027 Summer Intern – Software Engineer, AV/AI Platform](https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/GM-Automation---Sunnyvale---GM-Automation---Sunnyvale/XMLNAME-2027-Summer-Intern---Software-Engineer--AV-AI-Platform_JR-202621696) | GM Automation - Sunnyvale - GM Automation - Sunnyvale |  | 11-09 |
 | General Motors | [2027 Summer Intern,  Data Scaling, Embodied AI](https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Data-Scaling--Embodied-AI_JR-202622132) | Sunnyvale, California, United States of America |  | 11-09 |
 | General Motors | [2027 Summer Intern, Radar Hardware Development Engineer,  ASD](https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Milford-Proving-Ground---Bldg-104A/XMLNAME-2027-Summer-Intern--Radar-Hardware-Development-Engineer---ASD_JR-202621645) | Milford Proving Ground - Bldg 104A |  | 11-09 |
@@ -1067,9 +1098,11 @@ A blank tag means the posting doesn't say.
 | Figure | [Embedded Software Engineering Intern [Winter 2027]](https://job-boards.greenhouse.io/figureai/jobs/4722086006) | San Jose, CA |  | 11-09 |
 | Figure | [Firmware Engineering Intern [Winter 2027]](https://job-boards.greenhouse.io/figureai/jobs/4601309006) | San Jose, CA |  | 11-09 |
 | Figure | [Hardware Reliability Intern [Winter 2027]](https://job-boards.greenhouse.io/figureai/jobs/4613067006) | San Jose, CA |  | 11-09 |
+| Figure | [Validation Engineering Intern [Winter 2027]](https://job-boards.greenhouse.io/figureai/jobs/4606072006) | San Jose, CA |  | 11-09 |
 | Figma | [Data Engineer Intern (2027)](https://boards.greenhouse.io/figma/jobs/6178851004?gh_jid=6178851004) | San Francisco, CA • New York, NY |  | 11-09 |
 | Figma | [Software Engineer Intern (Summer 2027)](https://boards.greenhouse.io/figma/jobs/6143238004?gh_jid=6143238004) | San Francisco, CA • New York, NY |  | 11-09 |
 | FieldAI | [Robotics Research, Embodied AI Intern (Spring & Summer 2027)](https://jobs.lever.co/field-ai/ef35c537-b864-479f-9dbe-b30429ac7704) | Irvine, CA |  | 11-09 |
+| FieldAI | [Robotics Research, Robot Learning & Manipulation Intern (Spring, Summer, & Fall 2027)](https://jobs.lever.co/field-ai/b37569c3-d07f-4968-82dc-44020f34e54e) | Irvine, CA |  | 11-09 |
 | FHLBank Chicago | [Summer Internship - AI Intern](https://fhlbc.wd1.myworkdayjobs.com/Search/job/Chicago/Summer-Internship---AI-Intern_R2600477) | Chicago |  | 11-09 |
 | Federal Reserve System | [2027 Information Technology Internship](https://rb.wd5.myworkdayjobs.com/FRS/job/St-Louis-MO/XMLNAME-2027-Information-Technology-Internship_R-0000034047) | St. Louis, MO |  | 11-09 |
 | Federal Reserve System | [2027 Summer Internship Program - Information Security Intern](https://rb.wd5.myworkdayjobs.com/FRS/job/Atlanta-GA/XMLNAME-2027-Summer-Internship-Program---Information-Security-Intern_R-0000033910) | Atlanta, GA | 🛂❌ | 11-09 |
@@ -1242,6 +1275,7 @@ A blank tag means the posting doesn't say.
 | Charter Manufacturing | [Automation & Analytics Intern (Year-Round)](https://chartermfg.wd5.myworkdayjobs.com/Charter_Careers/job/Charter-Wire---Menomonee-Valley---Milwaukee-WI/Automation---Analytics-Intern--Year-Round-_R08112) | Charter Wire - Menomonee Valley - Milwaukee, WI |  | 11-09 |
 | Charter Manufacturing | [IT Support Technician Intern (Year-Round)](https://chartermfg.wd5.myworkdayjobs.com/Charter_Careers/job/Charter-Dura-Bar---Woodstock-IL/IT-Support-Technician-Intern--Year-Round-_R07769) | Charter Dura-Bar - Woodstock, IL |  | 11-09 |
 | Cerity Partners | [Investment Data & Technology Analyst Internship](https://ceritypartners.wd12.myworkdayjobs.com/ceritypartnerscareers/job/New-York-City-NY/Investment-Data---Technology-Analyst-Internship_R929) | New York City, NY |  | 11-09 |
+| Centific | [Robotics Interns](https://centific.wd1.myworkdayjobs.com/Centific_Global/job/Redmond-Washington/Robotics-Interns_JR107983-1) | Redmond, Washington |  | 11-09 |
 | Centific | [Software graduate Internship PEN](https://centific.wd1.myworkdayjobs.com/Centific_Global/job/Malaysia-Office--Penang/Software-graduate-Internship-PEN_JR104027) | Malaysia Office -Penang |  | 11-09 |
 | Centific | [Software graduate Internship PEN](https://centific.wd1.myworkdayjobs.com/Centific_Global/job/Malaysia-Office--Penang/Software-graduate-Internship-PEN_JR104026-2) | Malaysia Office -Penang |  | 11-09 |
 | Centific | [Software graduate Internship PEN](https://centific.wd1.myworkdayjobs.com/Centific_Global/job/Malaysia-Office--Penang/Software-graduate-Internship-PEN_JR104025-2) | Malaysia Office -Penang |  | 11-09 |
@@ -1322,6 +1356,7 @@ A blank tag means the posting doesn't say.
 | Brain Co | [AI Security Engineer Intern (Summer 2027)](https://jobs.ashbyhq.com/brainco/b697421a-4a50-4028-9832-6798132e327a) | San Francisco Bay Area |  | 11-09 |
 | Brain Co | [Machine Learning Engineer, Applied AI Co-Op Intern, Winter 2027](https://jobs.ashbyhq.com/brainco/b6adda4c-490c-4e9e-8354-e55c05d3c6ac) | San Francisco Bay Area |  | 11-09 |
 | Brain Co | [Machine Learning Engineer, Applied AI Intern (Summer 2027)](https://jobs.ashbyhq.com/brainco/a4bdb254-8007-4142-bf36-a3e8622b1ed9) | San Francisco Bay Area |  | 11-09 |
+| Bracket Bot Inc | [Robotics Engineering Intern](https://jobs.ashbyhq.com/bracket-bot/aecb5cb3-a96b-4ba8-863d-a1ad45414086) | San Francisco |  | 11-09 |
 | Bracco Medical Technologies | [Firmware Engineering Co-op](https://bracco.wd103.myworkdayjobs.com/BraccoCareers/job/USA-Eden-Prairie-Minnesota-55344/Firmware-Engineering-Co-op_JR100324) | USA, Eden Prairie, Minnesota, 55344 |  | 11-09 |
 | Bracco Medical Technologies | [Internship - Digital Twin of a Contrast Media Injector for Virtual Verification and Reliability Engineering](https://bracco.wd103.myworkdayjobs.com/BraccoCareers/job/CHE---Lausanne/Internship---Digital-Twin-of-a-Contrast-Media-Injector-for-Virtual-Verification-and-Reliability-Engineering_JR100448) | CHE - Lausanne |  | 11-09 |
 | Bracco Medical Technologies | [Internship: Robotic Solution for Test Automation of a Contrast Media Injector](https://bracco.wd103.myworkdayjobs.com/BraccoCareers/job/CHE---Lausanne/Internship--Robotic-Solution-for-Test-Automation-of-a-Contrast-Media-Injector_JR100450) | CHE - Lausanne |  | 11-09 |
@@ -1359,6 +1394,7 @@ A blank tag means the posting doesn't say.
 | Bedrock Robotics Inc | [2027 Internship Software Engineer, Fleet Platform](https://jobs.ashbyhq.com/bedrock-robotics/8927dd7e-a48d-49a2-92eb-09ec059432f4) | New York, NY |  | 11-09 |
 | Bedrock Robotics Inc | [2027 Internship State Estimation, Learned Mapping & Semantic SLAM](https://jobs.ashbyhq.com/bedrock-robotics/8c7bad61-50e3-4702-be36-72e9b72a9760) | San Francisco, CA |  | 11-09 |
 | Bass Pro Shops | [IT Developer Intern Summer 2027](https://basspro.wd1.myworkdayjobs.com/careers/job/Springfield-MO-Bass-Pro-Shops-Base-Camp/IT-Developer-Intern-Summer-2027_R267441-1) | Springfield, MO (Bass Pro Shops Base Camp) |  | 11-09 |
+| Bass Pro Shops | [Product Testing and Validation Engineering Co-op](https://basspro.wd1.myworkdayjobs.com/careers/job/Springfield-MO-Tracker-Marine-Base-Camp/Product-Validation-Engineer-Co-Op_R267057) | Springfield, MO (Tracker Marine Base Camp) |  | 11-09 |
 | Base Power Company | [Embedded Software Engineering Intern](https://jobs.ashbyhq.com/base-power/a8ee9a66-e90b-42c2-a4a2-28d997c3e8c7) | Austin, TX |  | 11-09 |
 | Base Power Company | [Hardware Engineering Intern](https://jobs.ashbyhq.com/base-power/f22cee0e-55d9-42cd-806e-1c1fc7217770) | Austin, TX |  | 11-09 |
 | Base Power Company | [Hardware Reliability & Test Engineering Intern](https://jobs.ashbyhq.com/base-power/fbb553e1-5fb8-49a1-b5a5-9c7dde6b4406) | Austin, TX |  | 11-09 |
@@ -1391,12 +1427,15 @@ A blank tag means the posting doesn't say.
 | Auto-Owners Insurance | [Business Intelligence Developer Internship - Summer 2027](https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Lansing-MI/Business-Intelligence-Developer-Internship---Summer-2027_R_14772) | Lansing, MI | 🛂❌ | 11-09 |
 | Auto-Owners Insurance | [Data Engineering Internship - Summer 2027](https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Lansing-MI/Data-Engineering-Internship---Summer-2026_R_12318) | Lansing, MI | 🛂❌ | 11-09 |
 | Auto-Owners Insurance | [Intern - Analytics Web Systems Developer](https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Lansing-MI/Intern---Analytics-Web-Systems-Developer_R_14272) | Lansing, MI | 🛂❌ | 11-09 |
+| ATOMS Careers page | [AI Research Intern  (BS/MS)](https://job-boards.greenhouse.io/cssmerge/jobs/8919606002) | Mountain View, CA |  | 11-09 |
 | ATOMS Careers page | [Robotics Software Engineer Intern](https://job-boards.greenhouse.io/cssmerge/jobs/8695475002) | Pittsburgh, PA |  | 11-09 |
 | ATOMS Careers page | [Software Engineering Intern - 2027 Winter Term](https://job-boards.greenhouse.io/cssmerge/jobs/8888411002) | Los Angeles, CA |  | 11-09 |
+| Atoms | [AI Research Intern  (BS/MS)](https://job-boards.greenhouse.io/atoms/jobs/8919596002) | Mountain View, CA |  | 11-09 |
 | Atoms | [Software Engineering Intern - 2027 Winter Term](https://job-boards.greenhouse.io/atoms/jobs/8356071002) | Los Angeles, CA |  | 11-09 |
 | AtkinsRéalis | [Water Infrastructure Engineering Intern - Summer 2027](https://slihrms.wd3.myworkdayjobs.com/Careers/job/USGAAtlanta2018-Powers-Ferry-Rd/Water-Infrastructure-Engineering-Intern---Summer-2027_R-163480-1) | US.GA.Atlanta.2018 Powers Ferry Rd |  | 11-09 |
 | ATC | [Intern - Cyber Security Summer 2027](https://atcllc.wd5.myworkdayjobs.com/atcllc/job/Pewaukee-WI/Intern---Cyber-Security-Summer-2027_R0003307) | Pewaukee, WI |  | 11-09 |
 | AstraZeneca | [Network Planning & Data Analytics Intern](https://astrazeneca.wd3.myworkdayjobs.com/Careers/job/US--Tarzana--CA/Network-Planning---Data-Analytics-Intern_R-263845) | US – Tarzana – CA |  | 11-09 |
+| Astera Institute | [Robotics Systems Intern](https://jobs.ashbyhq.com/astera/59578b73-571f-462d-a3d2-5f19b1ee6ed8) | Emeryville HQ |  | 11-09 |
 | Assurant | [Summer 2027 Intern: Data Support Analyst](https://assurant.wd1.myworkdayjobs.com/Assurant_Careers/job/Illinois-Virtual/Summer-2027-Intern--Data-Support-Analyst_R-115717) | Illinois Virtual | 🛂❌ | 11-09 |
 | Assurant | [Summer 2027 Intern: Software Engineering Intern](https://assurant.wd1.myworkdayjobs.com/Assurant_Careers/job/Atlanta-GA/Summer-2027-Intern--Software-Engineering-Intern_R-115727-1) | Atlanta, GA |  | 11-09 |
 | Associated Wholesale Grocers | [Business Analytics Intern](https://fa-etwq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2164) | Kansas City, KS, United States |  | 11-09 |
@@ -1423,6 +1462,7 @@ A blank tag means the posting doesn't say.
 | Arc Boat Company | [Electrical Hardware Engineering Intern](https://job-boards.greenhouse.io/arcboatcompany/jobs/5442853008) | Torrance, CA |  | 11-09 |
 | Arc Boat Company | [Software Engineering Intern](https://job-boards.greenhouse.io/arcboatcompany/jobs/5442881008) | Torrance, CA |  | 11-09 |
 | Applied Materials | [2026 Summer Intern - Physics & AI modeling Engineering](https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/XMLNAME-2026-Summer-Intern---Physics---AI-modeling-Engineering_R2616095) | Santa Clara,CA |  | 11-09 |
+| Applied Materials | [2027 Data Analytics & Business Operations Spring Co-Op or Summer Intern- Bachelor's/Master's (Austin, TX)](https://amat.wd1.myworkdayjobs.com/External/job/AustinTX/XMLNAME-2027-Data-Analytics---Business-Operations-Spring-Co-Op-or-Summer-Intern--Bachelor-s-Master-s--Austin--TX-_R2626381) | Austin,TX |  | 11-09 |
 | Apple Bank | [2027 Summer Intern- Information Security](https://applebank.wd5.myworkdayjobs.com/applebankcareers/job/New-York-NY/XMLNAME-2027-Summer-Intern--Information-Security_2026-1416) | New York, NY | 🛂❌ | 11-09 |
 | Apple Bank | [2027 Summer Intern- IT Data, Analytics, & Automation](https://applebank.wd5.myworkdayjobs.com/applebankcareers/job/New-York-NY/XMLNAME-2027-Summer-Intern--IT-Data--Analytics----Automation_2026-1414) | New York, NY | 🛂❌ | 11-09 |
 | Apache Industrial | [AI Implementation Intern](https://apacheip.wd1.myworkdayjobs.com/Apache_Careers/job/Houston-Headquarters/AI-Implementation-Intern_R115510) | Houston Headquarters |  | 11-09 |
@@ -1430,6 +1470,7 @@ A blank tag means the posting doesn't say.
 | Anduril Industries | [2027 Firmware Engineer Intern](https://boards.greenhouse.io/andurilindustries/jobs/5265158007?gh_jid=5265158007) | Costa Mesa, California, United States | 🇺🇸 | 11-09 |
 | Anduril Industries | [2027 Flight Software Engineer Intern](https://boards.greenhouse.io/andurilindustries/jobs/5239083007?gh_jid=5239083007) | Costa Mesa, California, United States | 🇺🇸 | 11-09 |
 | Anduril Industries | [2027 Software Engineer Intern](https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007) | Atlanta, Georgia, United States; Boston, Massachusetts, Unit | 🇺🇸 | 11-09 |
+| Anduril Industries | [Winter 2027 Robotics Engineer Co-op](https://boards.greenhouse.io/andurilindustries/jobs/5271842007?gh_jid=5271842007) | Quincy, Massachusetts, United States | 🇺🇸 | 11-09 |
 | Anduril Industries | [Winter 2027 Software Engineer Co-op](https://boards.greenhouse.io/andurilindustries/jobs/5236563007?gh_jid=5236563007) | Quincy, Massachusetts, United States | 🇺🇸 | 11-09 |
 | Analog Devices | [AI/ML Engineer Intern](https://analogdevices.wd1.myworkdayjobs.com/External/job/US-MA-Wilmington/AI-ML-Engineer-Intern_R265579) | US, MA, Wilmington |  | 11-09 |
 | Analog Devices | [DevOps Co-Op](https://analogdevices.wd1.myworkdayjobs.com/External/job/US-MA-Boston/DevOps-Co-Op_R267690) | US, MA, Boston |  | 11-09 |
@@ -1459,6 +1500,7 @@ A blank tag means the posting doesn't say.
 | American Bar Association | [Intern, Cybersecurity Policy Analyst](https://aba.wd1.myworkdayjobs.com/ABA/job/US-DC-Main-Office/Intern--Cybersecurity-Policy-Analyst_R611) | US DC Main Office |  | 11-09 |
 | American Bar Association | [Intern, Quantitative Research](https://aba.wd1.myworkdayjobs.com/ABA/job/US-DC-Main-Office/Intern--Quantitative-Research_R614) | US DC Main Office |  | 11-09 |
 | Ambarella | [ASIC Design Engineer Intern](https://ambarella.wd108.myworkdayjobs.com/Ambarella/job/US-Headquarters/ASIC-Design-Engineer-Intern_JR100357) | US Headquarters |  | 11-09 |
+| Ambarella | [DFT Engineer Intern](https://ambarella.wd108.myworkdayjobs.com/Ambarella/job/US-Headquarters/DFT-Engineer-Intern_JR100360) | US Headquarters |  | 11-09 |
 | Ambarella | [Software Architecture Engineer Intern](https://ambarella.wd108.myworkdayjobs.com/Ambarella/job/US-Headquarters/Software-Architecture-Engineer-Intern_JR100365) | US Headquarters |  | 11-09 |
 | Ambarella | [Software Development Engineer Intern](https://ambarella.wd108.myworkdayjobs.com/Ambarella/job/US-Headquarters/Software-Development-Engineer-Intern_JR100366-1) | US Headquarters |  | 11-09 |
 | Ambarella | [Software Engineer Intern](https://ambarella.wd108.myworkdayjobs.com/Ambarella/job/US-Headquarters/Software-Engineer-Intern_JR100363) | US Headquarters |  | 11-09 |
@@ -1470,6 +1512,7 @@ A blank tag means the posting doesn't say.
 | Allegion | [Summer Intern - Hardware Engineering](https://allegion.wd5.myworkdayjobs.com/careers/job/Indianapolis-IN---Hague-Rd/Summer-Intern---Hardware-Engineering_JR37413-1) | Indianapolis, IN - Hague Rd | 🛂❌ | 11-09 |
 | Allegion | [Summer Intern - Hardware Engineering - Indianapolis, Indiana](https://allegion.wd5.myworkdayjobs.com/careers/job/Indianapolis-IN---Hague-Rd/Summer-Intern---Hardware-Engineering---Indianapolis--Indiana_JR37467-1) | Indianapolis, IN - Hague Rd | 🛂❌ | 11-09 |
 | Allegion | [Summer Intern - Product Data](https://allegion.wd5.myworkdayjobs.com/careers/job/Indianapolis-IN---Hague-Rd/Summer-Intern---Product-Data_JR37448-1) | Indianapolis, IN - Hague Rd | 🛂❌ | 11-09 |
+| Allegion | [Summer Intern - Robotics Technician](https://allegion.wd5.myworkdayjobs.com/careers/job/Indianapolis-IN---Tobey-Dr/Summer-Intern---Robotics-Technician_JR37367-1) | Indianapolis, IN - Tobey Dr | 🛂❌ | 11-09 |
 | Allegion | [Summer Intern - Software Engineering](https://allegion.wd5.myworkdayjobs.com/careers/job/Golden-CO/Summer-Intern---Software-Engineering_JR37795-1) | Golden, CO | 🛂❌ | 11-09 |
 | Allegion | [Summer Intern - Software Engineering - DevOps](https://allegion.wd5.myworkdayjobs.com/careers/job/Carmel-IN/Software-Engineering-Intern---DevOps_JR37379) | Carmel, IN | 🛂❌ | 11-09 |
 | Allegion | [Summer Intern - Software Engineering - Quality Assurance](https://allegion.wd5.myworkdayjobs.com/careers/job/Golden-CO/Summer-Intern---Summer-Intern---Software-Engineering---Quality-Assurance_JR37856-1) | Golden, CO | 🛂❌ | 11-09 |
@@ -1513,5 +1556,6 @@ A blank tag means the posting doesn't say.
 | Acron Aviation | [Software Engineer Intern - St. Pete Site](https://jobs.lever.co/acronaviation/19dbac7d-b4fb-4d21-9247-dc610bf55fed) | St Petersburg, FL | 🇺🇸 | 11-09 |
 | ACI Worldwide | [Technology Internships](https://ebwg.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/19943) | Norcross, GA, United States |  | 11-09 |
 | 7-Eleven | [Data Engineer Intern](https://my7elevenhr.wd12.myworkdayjobs.com/Careers/job/SSC-Irving-TX/Data-Engineer-Intern_R26_6281) | SSC Irving TX |  | 11-09 |
+| 7-Eleven | [IT Field Manager Intern](https://my7elevenhr.wd12.myworkdayjobs.com/Careers/job/SSC-Irving-TX/IT-Field-Manager-Intern_R26_5975) | SSC Irving TX |  | 11-09 |
 | 3M | [Internship - 2027 Undergraduate Business Analytics Intern – Consumer Business Group (CBG)](https://3m.wd1.myworkdayjobs.com/Search/job/US-Minnesota-Maplewood/Internship---2027-Undergraduate-Business-Analytics-Intern---Consumer-Business-Group--CBG-_R01171049) | US, Minnesota, Maplewood | 🛂❌ | 11-09 |
 | 3M | [Internship - 2027 Undergraduate IT Intern](https://3m.wd1.myworkdayjobs.com/Search/job/US-Minnesota-Maplewood/Internship---2027-Undergraduate-IT-Intern_R01170403-1) | US, Minnesota, Maplewood | 🛂❌ 🇺🇸 | 11-09 |

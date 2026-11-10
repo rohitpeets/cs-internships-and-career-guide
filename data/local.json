@@ -68,6 +68,26 @@
       "url": "https://my7elevenhr.wd12.myworkdayjobs.com/Careers/job/SSC-Irving-TX/Data-Engineer-Intern_R26_6281"
     },
     {
+      "company": "7-Eleven",
+      "first_seen": "2026-11-09",
+      "id": "https://my7elevenhr.wd12.myworkdayjobs.com/careers/job/ssc-irving-tx/it-field-manager-intern_r26_5975",
+      "last_seen": "2026-11-09",
+      "location": "SSC Irving TX",
+      "misses": 1,
+      "section": "internship",
+      "source": "workday",
+      "status": "open",
+      "tag_evidence": {},
+      "tags": {
+        "citizen": null,
+        "clearance": null,
+        "remote": false,
+        "sponsor": null
+      },
+      "title": "IT Field Manager Intern",
+      "url": "https://my7elevenhr.wd12.myworkdayjobs.com/Careers/job/SSC-Irving-TX/IT-Field-Manager-Intern_R26_5975"
+    },
+    {
       "company": "ACI Worldwide",
       "first_seen": "2026-11-09",
       "id": "https://ebwg.fa.us2.oraclecloud.com/hcmui/candidateexperience/en/sites/cx/job/19943",
@@ -856,6 +876,28 @@
     {
       "company": "Allegion",
       "first_seen": "2026-11-09",
+      "id": "https://allegion.wd5.myworkdayjobs.com/careers/job/indianapolis-in---tobey-dr/summer-intern---robotics-technician_jr37367-1",
+      "last_seen": "2026-11-09",
+      "location": "Indianapolis, IN - Tobey Dr",
+      "misses": 0,
+      "section": "internship",
+      "source": "workday",
+      "status": "open",
+      "tag_evidence": {
+        "sponsor": "The company does not intend to provide sponsorship for employment visa status (e."
+      },
+      "tags": {
+        "citizen": null,
+        "clearance": null,
+        "remote": false,
+        "sponsor": false
+      },
+      "title": "Summer Intern - Robotics Technician",
+      "url": "https://allegion.wd5.myworkdayjobs.com/careers/job/Indianapolis-IN---Tobey-Dr/Summer-Intern---Robotics-Technician_JR37367-1"
+    },
+    {
+      "company": "Allegion",
+      "first_seen": "2026-11-09",
       "id": "https://allegion.wd5.myworkdayjobs.com/careers/job/golden-co/summer-intern---software-engineering_jr37795-1",
       "last_seen": "2026-11-09",
       "location": "Golden, CO",
@@ -1024,6 +1066,26 @@
       },
       "title": "ASIC Design Engineer Intern",
       "url": "https://ambarella.wd108.myworkdayjobs.com/Ambarella/job/US-Headquarters/ASIC-Design-Engineer-Intern_JR100357"
+    },
+    {
+      "company": "Ambarella",
+      "first_seen": "2026-11-09",
+      "id": "https://ambarella.wd108.myworkdayjobs.com/ambarella/job/us-headquarters/dft-engineer-intern_jr100360",
+      "last_seen": "2026-11-09",
+      "location": "US Headquarters",
+      "misses": 0,
+      "section": "internship",
+      "source": "workday",
+      "status": "open",
+      "tag_evidence": {},
+      "tags": {
+        "citizen": null,
+        "clearance": null,
+        "remote": false,
+        "sponsor": null
+      },
+      "title": "DFT Engineer Intern",
+      "url": "https://ambarella.wd108.myworkdayjobs.com/Ambarella/job/US-Headquarters/DFT-Engineer-Intern_JR100360"
     },
     {
       "company": "Ambarella",
@@ -1658,6 +1720,26 @@
       },
       "title": "2026 Summer Intern - Physics & AI modeling Engineering",
       "url": "https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/XMLNAME-2026-Summer-Intern---Physics---AI-modeling-Engineering_R2616095"
+    },
+    {
+      "company": "Applied Materials",
+      "first_seen": "2026-11-09",
+      "id": "https://amat.wd1.myworkdayjobs.com/external/job/austintx/xmlname-2027-data-analytics---business-operations-spring-co-op-or-summer-intern--bachelor-s-master-s--austin--tx-_r2626381",
+      "last_seen": "2026-11-09",
+      "location": "Austin,TX",
+      "misses": 0,
+      "section": "internship",
+      "source": "workday",
+      "status": "open",
+      "tag_evidence": {},
+      "tags": {
+        "citizen": null,
+        "clearance": null,
+        "remote": false,
+        "sponsor": null
+      },
+      "title": "2027 Data Analytics & Business Operations Spring Co-Op or Summer Intern- Bachelor's/Master's (Austin, TX)",
+      "url": "https://amat.wd1.myworkdayjobs.com/External/job/AustinTX/XMLNAME-2027-Data-Analytics---Business-Operations-Spring-Co-Op-or-Summer-Intern--Bachelor-s-Master-s--Austin--TX-_R2626381"
     },
     {
       "company": "Arch Insurance Group Inc",
@@ -2658,6 +2740,26 @@
       },
       "title": "IT Developer Intern Summer 2027",
       "url": "https://basspro.wd1.myworkdayjobs.com/careers/job/Springfield-MO-Bass-Pro-Shops-Base-Camp/IT-Developer-Intern-Summer-2027_R267441-1"
+    },
+    {
+      "company": "Bass Pro Shops",
+      "first_seen": "2026-11-09",
+      "id": "https://basspro.wd1.myworkdayjobs.com/careers/job/springfield-mo-tracker-marine-base-camp/product-validation-engineer-co-op_r267057",
+      "last_seen": "2026-11-09",
+      "location": "Springfield, MO (Tracker Marine Base Camp)",
+      "misses": 0,
+      "section": "internship",
+      "source": "workday",
+      "status": "open",
+      "tag_evidence": {},
+      "tags": {
+        "citizen": null,
+        "clearance": null,
+        "remote": false,
+        "sponsor": null
+      },
+      "title": "Product Testing and Validation Engineering Co-op",
+      "url": "https://basspro.wd1.myworkdayjobs.com/careers/job/Springfield-MO-Tracker-Marine-Base-Camp/Product-Validation-Engineer-Co-Op_R267057"
     },
     {
       "company": "BHE",
@@ -4402,6 +4504,26 @@
     {
       "company": "Centific",
       "first_seen": "2026-11-09",
+      "id": "https://centific.wd1.myworkdayjobs.com/centific_global/job/redmond-washington/robotics-interns_jr107983-1",
+      "last_seen": "2026-11-09",
+      "location": "Redmond, Washington",
+      "misses": 0,
+      "section": "internship",
+      "source": "workday",
+      "status": "open",
+      "tag_evidence": {},
+      "tags": {
+        "citizen": null,
+        "clearance": null,
+        "remote": false,
+        "sponsor": null
+      },
+      "title": "Robotics Interns",
+      "url": "https://centific.wd1.myworkdayjobs.com/Centific_Global/job/Redmond-Washington/Robotics-Interns_JR107983-1"
+    },
+    {
+      "company": "Centific",
+      "first_seen": "2026-11-09",
       "id": "https://centific.wd1.myworkdayjobs.com/centific_global/job/malaysia-office--penang/software-graduate-internship-pen_jr104027",
       "last_seen": "2026-11-09",
       "location": "Malaysia Office -Penang",
@@ -4698,6 +4820,26 @@
       },
       "title": "Hardware Engineering Co-op (Winter 2027)",
       "url": "https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Hardware-Engineering-Co-op--Winter-2027-_R032054"
+    },
+    {
+      "company": "Ciena",
+      "first_seen": "2026-11-09",
+      "id": "https://ciena.wd5.myworkdayjobs.com/careers/job/quebec/ingnieur-de-validation-de-composant--product-validation-engineer---new-grad_r031778",
+      "last_seen": "2026-11-09",
+      "location": "Quebec",
+      "misses": 0,
+      "section": "new_grad",
+      "source": "workday",
+      "status": "open",
+      "tag_evidence": {},
+      "tags": {
+        "citizen": null,
+        "clearance": null,
+        "remote": false,
+        "sponsor": null
+      },
+      "title": "Ingénieur de Validation de Composant/ Product Validation Engineer - New Grad",
+      "url": "https://ciena.wd5.myworkdayjobs.com/Careers/job/Quebec/Ingnieur-de-Validation-de-Composant--Product-Validation-Engineer---New-Grad_R031778"
     },
     {
       "company": "Ciena",
@@ -8278,6 +8420,26 @@
     {
       "company": "General Motors",
       "first_seen": "2026-11-09",
+      "id": "https://generalmotors.wd5.myworkdayjobs.com/careers_gm/job/sunnyvale-california-united-states-of-america/xmlname-2027-summer-intern---autonomous-driving-software-engineer--bachelor-s---master-s-_jr-202622064",
+      "last_seen": "2026-11-09",
+      "location": "Sunnyvale, California, United States of America",
+      "misses": 0,
+      "section": "internship",
+      "source": "workday",
+      "status": "open",
+      "tag_evidence": {},
+      "tags": {
+        "citizen": null,
+        "clearance": null,
+        "remote": false,
+        "sponsor": null
+      },
+      "title": "2027 Summer Intern – Autonomous Driving Software Engineer (Bachelor's & Master's)",
+      "url": "https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Autonomous-Driving-Software-Engineer--Bachelor-s---Master-s-_JR-202622064"
+    },
+    {
+      "company": "General Motors",
+      "first_seen": "2026-11-09",
       "id": "https://generalmotors.wd5.myworkdayjobs.com/careers_gm/job/gm-automation---sunnyvale---gm-automation---sunnyvale/xmlname-2027-summer-intern---software-engineer--av-ai-platform_jr-202621696",
       "last_seen": "2026-11-09",
       "location": "GM Automation - Sunnyvale - GM Automation - Sunnyvale",
@@ -11804,6 +11966,26 @@
       "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/St-PetersburgTampa-FL/IT-SCM-Intern_J2465768"
     },
     {
+      "company": "Jabil",
+      "first_seen": "2026-11-09",
+      "id": "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/austin-tx/validation-engineer-intern_j2469310",
+      "last_seen": "2026-11-09",
+      "location": "Austin, TX",
+      "misses": 0,
+      "section": "internship",
+      "source": "workday",
+      "status": "open",
+      "tag_evidence": {},
+      "tags": {
+        "citizen": null,
+        "clearance": null,
+        "remote": false,
+        "sponsor": null
+      },
+      "title": "Validation Engineer Intern",
+      "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Austin-TX/Validation-Engineer-Intern_J2469310"
+    },
+    {
       "company": "Jasper Engines & Transmissions",
       "first_seen": "2026-11-09",
       "id": "https://jasperholdings.wd504.myworkdayjobs.com/jet_careers/job/jasper-in/it-full-stack-developer-internship--summer-2027_r-100857",
@@ -12226,6 +12408,46 @@
       },
       "title": "Algorithm Engineering Intern (AI, Computer Vision & Software Engineering)",
       "url": "https://kla.wd1.myworkdayjobs.com/UR/job/Milpitas-CA/Algorithm-Engineering-Intern--AI--Computer-Vision---Software-Engineering-_2641392-1"
+    },
+    {
+      "company": "KLA",
+      "first_seen": "2026-11-09",
+      "id": "https://kla.wd1.myworkdayjobs.com/search/job/milpitas-ca/algorithm-engineering-intern--gpu-cuda-_2642044",
+      "last_seen": "2026-11-09",
+      "location": "Milpitas, CA",
+      "misses": 1,
+      "section": "internship",
+      "source": "workday",
+      "status": "open",
+      "tag_evidence": {},
+      "tags": {
+        "citizen": null,
+        "clearance": null,
+        "remote": false,
+        "sponsor": null
+      },
+      "title": "Algorithm Engineering Intern (GPU/CUDA)",
+      "url": "https://kla.wd1.myworkdayjobs.com/Search/job/Milpitas-CA/Algorithm-Engineering-Intern--GPU-CUDA-_2642044"
+    },
+    {
+      "company": "KLA",
+      "first_seen": "2026-11-09",
+      "id": "https://kla.wd1.myworkdayjobs.com/ur/job/milpitas-ca/algorithm-engineering-intern--gpu-cuda-_2642044-2",
+      "last_seen": "2026-11-09",
+      "location": "Milpitas, CA",
+      "misses": 0,
+      "section": "internship",
+      "source": "workday",
+      "status": "open",
+      "tag_evidence": {},
+      "tags": {
+        "citizen": null,
+        "clearance": null,
+        "remote": false,
+        "sponsor": null
+      },
+      "title": "Algorithm Engineering Intern (GPU/CUDA)",
+      "url": "https://kla.wd1.myworkdayjobs.com/UR/job/Milpitas-CA/Algorithm-Engineering-Intern--GPU-CUDA-_2642044-2"
     },
     {
       "company": "KLA",
@@ -13711,6 +13933,50 @@
       },
       "title": "Public Cloud Administrator (Entry Level)",
       "url": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Louisville---West-Market/Public-Cloud-Administrator--Entry-Level-_R_368461"
+    },
+    {
+      "company": "Marvell Technology",
+      "first_seen": "2026-11-09",
+      "id": "https://marvell.wd1.myworkdayjobs.com/marvellcareers/job/santa-clara-ca/electrical-validation-intern--bs---summer-2027_2603795-1",
+      "last_seen": "2026-11-09",
+      "location": "Santa Clara, CA",
+      "misses": 1,
+      "section": "internship",
+      "source": "workday",
+      "status": "open",
+      "tag_evidence": {
+        "citizen": "export control laws and regulations, including the Export Administration Regulations (EAR)."
+      },
+      "tags": {
+        "citizen": true,
+        "clearance": null,
+        "remote": false,
+        "sponsor": null
+      },
+      "title": "Electrical Validation Intern, BS - Summer 2027",
+      "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Electrical-Validation-Intern--BS---Summer-2027_2603795-1"
+    },
+    {
+      "company": "Marvell Technology",
+      "first_seen": "2026-11-09",
+      "id": "https://marvell.wd1.myworkdayjobs.com/marvellcareers2/job/santa-clara-ca/electrical-validation-intern--bs---summer-2027_2603795",
+      "last_seen": "2026-11-09",
+      "location": "Santa Clara, CA",
+      "misses": 0,
+      "section": "internship",
+      "source": "workday",
+      "status": "open",
+      "tag_evidence": {
+        "citizen": "export control laws and regulations, including the Export Administration Regulations (EAR)."
+      },
+      "tags": {
+        "citizen": true,
+        "clearance": null,
+        "remote": false,
+        "sponsor": null
+      },
+      "title": "Electrical Validation Intern, BS - Summer 2027",
+      "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers2/job/Santa-Clara-CA/Electrical-Validation-Intern--BS---Summer-2027_2603795"
     },
     {
       "company": "Marvell Technology",
@@ -15880,6 +16146,26 @@
     {
       "company": "Nissan Motor Corporation",
       "first_seen": "2026-11-09",
+      "id": "https://alliance.wd3.myworkdayjobs.com/nissanjobs/job/smyrna-tennessee---united-states-of-america/new-model-tech-quality-validation-engineer-intern---summer-2027---smyrna--tn_r00214251",
+      "last_seen": "2026-11-09",
+      "location": "Smyrna, Tennessee - United States of America",
+      "misses": 0,
+      "section": "internship",
+      "source": "workday",
+      "status": "open",
+      "tag_evidence": {},
+      "tags": {
+        "citizen": null,
+        "clearance": null,
+        "remote": false,
+        "sponsor": null
+      },
+      "title": "New Model Tech Quality Validation Engineer Intern - Summer 2027 - Smyrna, TN",
+      "url": "https://alliance.wd3.myworkdayjobs.com/nissanjobs/job/Smyrna-Tennessee---United-States-of-America/New-Model-Tech-Quality-Validation-Engineer-Intern---Summer-2027---Smyrna--TN_R00214251"
+    },
+    {
+      "company": "Nissan Motor Corporation",
+      "first_seen": "2026-11-09",
       "id": "https://alliance.wd3.myworkdayjobs.com/nissanjobs/job/franklin-tennessee---united-states-of-america/people-analytics-intern---summer-2027---franklin--tn_r00214301",
       "last_seen": "2026-11-09",
       "location": "Franklin, Tennessee - United States of America",
@@ -16345,6 +16631,26 @@
     {
       "company": "NVIDIA",
       "first_seen": "2026-11-09",
+      "id": "https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/us-ca-santa-clara/nvidia-2027-internships--autonomous-vehicles-and-robotics_jr2023496",
+      "last_seen": "2026-11-09",
+      "location": "US, CA, Santa Clara",
+      "misses": 0,
+      "section": "internship",
+      "source": "workday",
+      "status": "open",
+      "tag_evidence": {},
+      "tags": {
+        "citizen": null,
+        "clearance": null,
+        "remote": false,
+        "sponsor": null
+      },
+      "title": "NVIDIA 2027 Internships: Autonomous Vehicles and Robotics",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Autonomous-Vehicles-and-Robotics_JR2023496"
+    },
+    {
+      "company": "NVIDIA",
+      "first_seen": "2026-11-09",
       "id": "https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/us-ca-santa-clara/nvidia-2027-internships--computer-architecture_jr2023489",
       "last_seen": "2026-11-09",
       "location": "US, CA, Santa Clara",
@@ -16583,6 +16889,26 @@
       "url": "https://theocc.wd5.myworkdayjobs.com/careers/job/Dallas-TX/Year-Round-Intern---Application-Security_REQ-4838"
     },
     {
+      "company": "OCC",
+      "first_seen": "2026-11-09",
+      "id": "https://theocc.wd5.myworkdayjobs.com/careers/job/dallas-tx/year-round-intern---automation-testing-frameworks_req-4834",
+      "last_seen": "2026-11-09",
+      "location": "Dallas, TX",
+      "misses": 0,
+      "section": "internship",
+      "source": "workday",
+      "status": "open",
+      "tag_evidence": {},
+      "tags": {
+        "citizen": null,
+        "clearance": null,
+        "remote": false,
+        "sponsor": null
+      },
+      "title": "Year-Round Intern - Automation Testing Frameworks",
+      "url": "https://theocc.wd5.myworkdayjobs.com/careers/job/Dallas-TX/Year-Round-Intern---Automation-Testing-Frameworks_REQ-4834"
+    },
+    {
       "company": "Oceaneering",
       "first_seen": "2026-11-09",
       "id": "https://ebfr.fa.us2.oraclecloud.com/hcmui/candidateexperience/en/sites/jobs/job/11523",
@@ -16807,6 +17133,46 @@
     {
       "company": "onsemi",
       "first_seen": "2026-11-09",
+      "id": "https://hctz.fa.us2.oraclecloud.com/hcmui/candidateexperience/en/sites/cx_1001/job/2506611",
+      "last_seen": "2026-11-09",
+      "location": "Nampa, ID, United States",
+      "misses": 1,
+      "section": "internship",
+      "source": "oracle",
+      "status": "open",
+      "tag_evidence": {},
+      "tags": {
+        "citizen": null,
+        "clearance": null,
+        "remote": false,
+        "sponsor": null
+      },
+      "title": "Spring 2027 - Validation Engineering Intern",
+      "url": "https://hctz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2506611"
+    },
+    {
+      "company": "onsemi",
+      "first_seen": "2026-11-09",
+      "id": "https://hctz.fa.us2.oraclecloud.com/hcmui/candidateexperience/en/sites/cx/job/2506611",
+      "last_seen": "2026-11-09",
+      "location": "Nampa, ID, United States",
+      "misses": 0,
+      "section": "internship",
+      "source": "oracle",
+      "status": "open",
+      "tag_evidence": {},
+      "tags": {
+        "citizen": null,
+        "clearance": null,
+        "remote": false,
+        "sponsor": null
+      },
+      "title": "Spring 2027 - Validation Engineering Intern",
+      "url": "https://hctz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/2506611"
+    },
+    {
+      "company": "onsemi",
+      "first_seen": "2026-11-09",
       "id": "https://hctz.fa.us2.oraclecloud.com/hcmui/candidateexperience/en/sites/cx_1001/job/2506638",
       "last_seen": "2026-11-09",
       "location": "Hopewell Junction, NY, United States",
@@ -16883,6 +17249,46 @@
       },
       "title": "Summer 2027 - IE / Data Analytics Intern",
       "url": "https://hctz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/2506636"
+    },
+    {
+      "company": "onsemi",
+      "first_seen": "2026-11-09",
+      "id": "https://hctz.fa.us2.oraclecloud.com/hcmui/candidateexperience/en/sites/cx_1001/job/2506606",
+      "last_seen": "2026-11-09",
+      "location": "Nampa, ID, United States",
+      "misses": 1,
+      "section": "internship",
+      "source": "oracle",
+      "status": "open",
+      "tag_evidence": {},
+      "tags": {
+        "citizen": null,
+        "clearance": null,
+        "remote": false,
+        "sponsor": null
+      },
+      "title": "Summer 2027 - Validation Engineering Intern",
+      "url": "https://hctz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2506606"
+    },
+    {
+      "company": "onsemi",
+      "first_seen": "2026-11-09",
+      "id": "https://hctz.fa.us2.oraclecloud.com/hcmui/candidateexperience/en/sites/cx/job/2506606",
+      "last_seen": "2026-11-09",
+      "location": "Nampa, ID, United States",
+      "misses": 0,
+      "section": "internship",
+      "source": "oracle",
+      "status": "open",
+      "tag_evidence": {},
+      "tags": {
+        "citizen": null,
+        "clearance": null,
+        "remote": false,
+        "sponsor": null
+      },
+      "title": "Summer 2027 - Validation Engineering Intern",
+      "url": "https://hctz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/2506606"
     },
     {
       "company": "Oshkosh Corporation",
@@ -18145,6 +18551,26 @@
     {
       "company": "Regeneron",
       "first_seen": "2026-11-09",
+      "id": "https://regeneron.wd1.myworkdayjobs.com/us_only_university_relations_career/job/tarrytown/xmlname-2027-co-op-laboratory-automation---robotics-engineering_r51030",
+      "last_seen": "2026-11-09",
+      "location": "TARRYTOWN",
+      "misses": 0,
+      "section": "internship",
+      "source": "workday",
+      "status": "open",
+      "tag_evidence": {},
+      "tags": {
+        "citizen": null,
+        "clearance": null,
+        "remote": false,
+        "sponsor": null
+      },
+      "title": "2027 Co-op Laboratory Automation & Robotics Engineering",
+      "url": "https://regeneron.wd1.myworkdayjobs.com/US_Only_University_Relations_Career/job/TARRYTOWN/XMLNAME-2027-Co-op-Laboratory-Automation---Robotics-Engineering_R51030"
+    },
+    {
+      "company": "Regeneron",
+      "first_seen": "2026-11-09",
       "id": "https://regeneron.wd1.myworkdayjobs.com/us_only_university_relations_career/job/tarrytown/xmlname-2027-summer-intern-ai-ml---data-engineering_r52560",
       "last_seen": "2026-11-09",
       "location": "TARRYTOWN",
@@ -18681,6 +19107,26 @@
       },
       "title": "Applied Machine Learning and AI Engineering Intern",
       "url": "https://cbha.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8491"
+    },
+    {
+      "company": "Ricoh",
+      "first_seen": "2026-11-09",
+      "id": "https://cbha.fa.us2.oraclecloud.com/hcmui/candidateexperience/en/sites/cx_1/job/8474",
+      "last_seen": "2026-11-09",
+      "location": "Boulder, CO, United States",
+      "misses": 0,
+      "section": "internship",
+      "source": "oracle",
+      "status": "open",
+      "tag_evidence": {},
+      "tags": {
+        "citizen": null,
+        "clearance": null,
+        "remote": false,
+        "sponsor": null
+      },
+      "title": "Robotics Engineer Intern",
+      "url": "https://cbha.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8474"
     },
     {
       "company": "Ricoh",
@@ -21337,6 +21783,28 @@
     {
       "company": "Texas Instruments",
       "first_seen": "2026-11-09",
+      "id": "https://edbz.fa.us2.oraclecloud.com/hcmui/candidateexperience/en/sites/cx/job/25017578",
+      "last_seen": "2026-11-09",
+      "location": "Dallas, TX, United States",
+      "misses": 0,
+      "section": "internship",
+      "source": "oracle",
+      "status": "open",
+      "tag_evidence": {
+        "sponsor": "Texas Instruments will not sponsor job applicants for visas or work authorization for this position."
+      },
+      "tags": {
+        "citizen": null,
+        "clearance": null,
+        "remote": false,
+        "sponsor": false
+      },
+      "title": "Test or Validation Engineering Intern",
+      "url": "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25017578"
+    },
+    {
+      "company": "Texas Instruments",
+      "first_seen": "2026-11-09",
       "id": "https://edbz.fa.us2.oraclecloud.com/hcmui/candidateexperience/en/sites/cx/job/25018753",
       "last_seen": "2026-11-09",
       "location": "Dallas, TX, United States",
@@ -21669,6 +22137,26 @@
       },
       "title": "Intern – Software Engineering",
       "url": "https://thermofisher.wd5.myworkdayjobs.com/ThermoFisherCareers/job/Brno-Czechia/Intern---Software-Engineering_R-01374064"
+    },
+    {
+      "company": "Thomson Reuters",
+      "first_seen": "2026-11-09",
+      "id": "https://thomsonreuters.wd5.myworkdayjobs.com/external_career_site/job/united-states-of-america-san-francisco-california/applied-scientist-intern_jreq203428",
+      "last_seen": "2026-11-09",
+      "location": "United States of America, San Francisco, California",
+      "misses": 0,
+      "section": "internship",
+      "source": "workday",
+      "status": "open",
+      "tag_evidence": {},
+      "tags": {
+        "citizen": null,
+        "clearance": null,
+        "remote": false,
+        "sponsor": null
+      },
+      "title": "Applied Scientist Intern",
+      "url": "https://thomsonreuters.wd5.myworkdayjobs.com/External_Career_Site/job/United-States-of-America-San-Francisco-California/Applied-Scientist-Intern_JREQ203428"
     },
     {
       "company": "Thomson Reuters",
@@ -23633,6 +24121,26 @@
       },
       "title": "Intern, Production Analytics",
       "url": "https://zekelman.wd12.myworkdayjobs.com/Careers/job/Wheatland-PA---Council-Ave/Intern--Production-Analytics_JR002898"
+    },
+    {
+      "company": "Zillow",
+      "first_seen": "2026-11-09",
+      "id": "https://zillow.wd5.myworkdayjobs.com/zillow_group_external/job/seattle-wa-2nd-ave/applied-scientist--economics--intern_p751642-1",
+      "last_seen": "2026-11-09",
+      "location": "Seattle-WA-2nd Ave",
+      "misses": 0,
+      "section": "internship",
+      "source": "workday",
+      "status": "open",
+      "tag_evidence": {},
+      "tags": {
+        "citizen": null,
+        "clearance": null,
+        "remote": false,
+        "sponsor": null
+      },
+      "title": "Applied Scientist (Economics) Intern",
+      "url": "https://zillow.wd5.myworkdayjobs.com/Zillow_Group_External/job/Seattle-WA-2nd-Ave/Applied-Scientist--Economics--Intern_P751642-1"
     },
     {
       "company": "Zillow",

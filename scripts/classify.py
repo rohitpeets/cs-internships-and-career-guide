@@ -11,7 +11,7 @@ sys.path.insert(0, str(__import__("pathlib").Path(__file__).parent))
 from common import POSTINGS, load_json, save_json  # noqa: E402
 
 TITLE_KEEP = re.compile(r"\b(intern(ship)?s?|co-?op|new grad(uate)?|entry[- ]level|early career|university grad(uate)?|graduate program|apprentice(ship)?|explore program|freshm[ae]n|sophomore)\b", re.I)
-TITLE_DROP = re.compile(r"\b(senior|sr\.?|staff|principal|director|manager(?!\s*intern)|lead(?!ership)|phd|ph\.d|postdoc|mba|ms|m\.s\.|masters?|master's|student worker)\b", re.I)
+TITLE_DROP = re.compile(r"\b(senior|sr\.?|staff|principal|director|manager(?!\s*intern)|lead(?!ership)|phd|ph\.d|postdoc|mba|student worker)\b", re.I)
 
 EARLY = re.compile(r"\b(freshm[ae]n|sophomores?|first[- ]year|second[- ]year|explore (intern|program)|step intern|engineering practicum)\b", re.I)
 EARLY_TEXT = re.compile(r"\b(freshm[ae]n|sophomores?)\b[^.]{0,60}\b(eligible|encouraged|welcome|open to|apply|students)\b|\b(open to|for|eligible:?)\s+(current\s+)?(freshm[ae]n|sophomores?)\b|\b(open to|for|eligible:?)\s+(current\s+)?(first[- ]year|second[- ]year)\b[^.]{0,40}\b(students|undergrad\w*)", re.I)
@@ -36,7 +36,7 @@ REMOTE = re.compile(r"\bremote\b", re.I)
 
 
 # the board is for CS / computer engineering students: keep technical roles only
-TECH = re.compile(r"\b(software|developer|engineer(ing)?|data|machine learning|ml|a\.?i\.?|artificial intelligence|computer|cyber|security|"
+TECH = re.compile(r"\b(robotic\w*|applied scientist|gpu|cuda|dft|(software|hardware|electrical|silicon|firmware|design) (validation|verification)|validation engineer\w*|fpga|asic|test automation|automation test\w*|erp|telecom\w*|software|developer|engineer(ing)?|data|machine learning|ml|a\.?i\.?|artificial intelligence|computer|cyber|security|"
                   r"it|information technology|network|cloud|devops|sre|site reliability|infrastructure|platform|embedded|firmware|hardware|"
                   r"electrical|robotics|autonomy|computer vision|systems|research|analytics|analyst|quant(itative)?|product manag\w*|"
                   r"technical program|qa|test|automation|web|mobile|android|ios|full[- ]?stack|front[- ]?end|back[- ]?end|game|graphics|"
@@ -51,7 +51,9 @@ NON_TECH = re.compile(r"\b(marketing|sales|account (executive|manager)|finance|a
 
 
 FIELD_DROP = re.compile(r"\b(facilit(y|ies)|civil|geotechnical|structural|traffic|transportation|mechanical|environmental|chemical|process|manufacturing|industrial|ehs|safety|construction|mining|petroleum|materials|warhead|harness|propulsion|thermal|fluids|surveying|water resources|game presentation|game design|game economy|tech art|fuel|trim|field engineer)\b", re.I)
-STRONG_TECH = re.compile(r"\b(engineer(ing)?|developer|software|data scien\w*|machine learning)\b(?!.*\bsales\b)", re.I)
+STRONG_TECH = re.compile(r"\b(engineer(ing)?|developer|software|data scien\w*|data analy\w*|analytics|machine learning|information technology|it|erp)\b(?!.*\b(sales|marketing)\b)", re.I)
+GRAD_ONLY = re.compile(r"\b(ms|m\.s\.|masters?|master's)\b", re.I)
+UNDERGRAD = re.compile(r"\b(bs|b\.s\.|bachelor'?s?|undergrad\w*)\b", re.I)
 
 
 NON_US = re.compile(r"\b(united kingdom|uk|england|london|ireland|dublin|netherlands|amsterdam|germany|berlin|munich|france|paris|spain|"
@@ -74,7 +76,7 @@ OTHER_SCHOOL = re.compile(r"-\s*(colorado school of mines|montana( state| tech)?
 
 # Allow-list: the title has to name CS or computer-engineering work. "Engineer" or "analyst" alone isn't enough.
 CS_TITLE = re.compile(
-    r"\b(software|developer|programm\w*|coding|data|machine learning|deep learning|ml|ai|a\.i\.|artificial intelligence|llm|nlp|"
+    r"\b(robotic\w*|applied scientist|gpu|cuda|dft|(software|hardware|electrical|silicon|firmware|design) (validation|verification)|validation engineer\w*|fpga|asic|test automation|automation test\w*|erp|telecom\w*|software|developer|programm\w*|coding|data|machine learning|deep learning|ml|ai|a\.i\.|artificial intelligence|llm|nlp|"
     r"computer|cs|cyber\w*|security|information technology|it|information systems|network\w*|cloud|devops|sre|site reliability|"
     r"web|mobile|android|ios|full[- ]?stack|front[- ]?end|back[- ]?end|firmware|embedded|database|analytics|bioinformatics|"
     r"quant\w*|automation engineer\w*|robotics software|autonomy|computer vision|perception|slam|infrastructure engineer\w*|"
@@ -87,6 +89,8 @@ INTERNAL_ONLY = re.compile(r"\b(current|previous|recent|returning)\b[^)]{0,40}\b
 
 def keep_title(title: str) -> bool:
     if not CS_TITLE.search(title) or INTERNAL_ONLY.search(title) or NON_US.search(title):
+        return False
+    if GRAD_ONLY.search(title) and not UNDERGRAD.search(title):
         return False
     if OTHER_SCHOOL.search(title) and not re.search(r"mcneese", title, re.I):
         return False

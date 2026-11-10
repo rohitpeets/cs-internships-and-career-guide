@@ -1,6 +1,6 @@
 # New Grad
 
-[⬅ Back to the main page](README.md) · 109 open · updated 2026-11-10
+[⬅ Back to the main page](README.md) · 110 open · updated 2026-11-10
 
 **Click a job title to open the company's application page.**
 
@@ -98,6 +98,7 @@ A blank tag means the posting doesn't say.
 | Ciena | [Embedded Security Software Developer - New Grad](https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Embedded-Security-Software-Developer---New-Grad_R032066) | Ottawa |  | 11-09 |
 | Ciena | [Embedded Software Engineer - New Grad](https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Embedded-Software-Engineer---New-Grad_R031571) | Ottawa |  | 11-09 |
 | Ciena | [Hardware Engineer - New Grad](https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Hardware-Engineer---New-Grad_R031914) | Ottawa |  | 11-09 |
+| Ciena | [Ingénieur de Validation de Composant/ Product Validation Engineer - New Grad](https://ciena.wd5.myworkdayjobs.com/Careers/job/Quebec/Ingnieur-de-Validation-de-Composant--Product-Validation-Engineer---New-Grad_R031778) | Quebec |  | 11-09 |
 | Ciena | [Network Engineer - New Grad](https://ciena.wd5.myworkdayjobs.com/Careers/job/Frankfurt/Network-Engineer---New-Grad_R031296) | Frankfurt |  | 11-09 |
 | Ciena | [Photonic Card Software Developer - New Grad](https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Experienced-Photonic-Card-Software-Developer_R031379) | Ottawa |  | 11-09 |
 | Ciena | [Routing/IP Software Engineer  - New Grad](https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Routing-IP-Software-Engineer----New-Grad_R032006) | Ottawa |  | 11-09 |
