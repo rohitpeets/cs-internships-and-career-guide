@@ -28,47 +28,8 @@ A blank tag means the posting doesn't say. The grey line under a title is the se
 **Posted** is the date the company posted the job. A date with * is when this board first saw it, because that company's job site doesn't give one. Companies sometimes re-post a job, which resets its date.
 
 > 🛂❌ usually means no visa sponsorship later (for example H-1B). Unless the row also shows 🚫, CPT or OPT may still work. Check with the recruiter and your DSO."""
-START_HERE = """## New to internships? Start here
-
-**📘 [Student guides](guides/README.md):** short how-tos for CS and CE students on GitHub, LinkedIn, your first resume, projects, networking, applying and interviews, and a 4-year timeline. **[Resources](guides/resources.md):** communities, programs, free courses, hackathons, and tools.
-
-- **Apply early.** Most summer internships open between August and October of the year before, and many fill by winter.
-- **Freshmen and sophomores:** start with 🌱 Early Programs. In the other lists, open the posting and check the qualifications for class year and GPA.
-- **Internship vs. co-op:** an internship is usually a summer. A co-op is usually a full semester or more of full-time work, often with a break from classes.
-- **Don't wait to meet every bullet.** If you meet most of the qualifications, apply.
-- **Get your resume checked** by your career center or an upperclassman who has had an internship before you send it out."""
 GOV = re.compile(r"\b(u\.?s\.? government|government|federal|national lab\w*|laborator(y|ies)|jpl|jet propulsion|nasa|dod|department of (defense|energy)|"
                  r"navy|naval|army|air force|space force|missile|defense)\b", re.I)
-
-
-GUIDES = [("resume.md", "📝 Your first resume"), ("projects.md", "🛠️ Your first projects"),
-          ("applying.md", "📨 Applying and interviews"), ("networking.md", "🤝 Networking, clubs, and programs"),
-          ("timeline.md", "🗓️ 4-year timeline (and F-1 rules)"), ("github.md", "🐙 GitHub setup"),
-          ("linkedin.md", "💼 LinkedIn setup")]
-
-
-def guides_section() -> str:
-    """Embed each guide in the README as a click-to-open section, so nobody has to leave the page."""
-    gdir = ROOT / "guides"
-    if not gdir.is_dir():
-        return ""
-    start = (gdir / "README.md").read_text(encoding="utf-8") if (gdir / "README.md").exists() else ""
-    m = re.search(r"## Year 1: start here\n(.*?)\n## All guides", start, re.S)
-    out = ["## 📘 Guides: things I wish I knew", "",
-           "Click a guide to open it right here. Each one ends with its own list of free resources.", ""]
-    if m:
-        out += ["### Start here (year 1)", "", re.sub(r"^## ", "### ", re.sub(r"\]\((?!https?:|#)([^)]+)\)", r"](guides/\1)", re.sub(r"\n+Looking for clubs.*$", "", m.group(1).strip())), flags=re.M), ""]
-    for fname, label in GUIDES:
-        f = gdir / fname
-        if not f.exists():
-            continue
-        body = f.read_text(encoding="utf-8")
-        body = re.sub(r"^# .*\n", "", body, count=1)                      # its title becomes the summary
-        body = re.sub(r"^(#{2,5}) ", lambda h: "#" + h.group(1) + " ", body, flags=re.M)   # nest headings
-        body = re.sub(r"\]\((?!https?:|#)([^)]+)\)", r"](guides/\1)", body)          # links work from the repo root
-        body = re.sub(r"\n+Next: .*$", "", body.rstrip(), flags=re.S)
-        out += ["<details>", f"<summary><b>{label}</b></summary>", "", body.strip(), "", "</details>", ""]
-    return "\n".join(out)
 
 
 def text(s: str) -> str:
@@ -188,60 +149,74 @@ def main():
                       "The grey line under each title is the sentence from the posting, so you can check it.\n\n"
                       "Big-company programs like Google STEP, Microsoft Explore and Meta University aren't read by this board yet. "
                       "Check their student career pages directly in the fall.\n\n"}
-    skipped = 0
-    for key, name, fname in SECTIONS:
-        part = [r for r in rows if r["section"] == key]
-        body, n = table(part, early=(key == "early"))
-        skipped += n
-        (ROOT / fname).write_text(f"# {name}\n\n[⬅ Back to the main page](README.md) · {len(part)} open · updated {today()}\n\n"
-                                  f"{intro.get(key, '')}**Click a job title to open the company's application page.**\n\n{LEGEND}\n\n{body}\n", encoding="utf-8")
-
     must = (load_yaml(DATA / "must_have.yaml", {}) or {}).get("companies") or []
     names = " ".join(r["company"].lower() for r in rows)
     missing = [m for m in must if m.lower() not in names]
     not_yet = (f"**Not on this board yet:** {', '.join(missing)}. These companies hire CS interns, but their job sites aren't read here yet. "
                f"Check their careers pages directly.") if missing else ""
 
-    icons = {"internship": "💼", "new_grad": "🎓", "early": "🌱"}
-    links = "\n".join(f"| {icons[key]} **{name}** | {counts.get(key, 0)} | **[👉 Open the list]({fname})** |" for key, name, fname in SECTIONS)
+    skipped = 0
+    for key, name, fname in SECTIONS:
+        part = [r for r in rows if r["section"] == key]
+        body, n = table(part, early=(key == "early"))
+        skipped += n
+        (ROOT / fname).write_text(f"# {name}\n\n[⬅ Back to the main page](README.md) · {len(part)} open · updated {today()}\n\n"
+                                  f"{intro.get(key, '')}**Click a job title to open the company's application page.**\n\n{LEGEND}\n\n{body}\n"
+                                  + (f"\n{not_yet}\n" if key != "early" and not_yet else ""), encoding="utf-8")
+
+
+    # postings from this week get their own page, so the landing page stays short
+    (ROOT / "NEW_THIS_WEEK.md").write_text(
+        f"# 🆕 New this week\n\n[⬅ Back to the main page](README.md) · {len(new)} posted in the last 7 days · updated {today()}\n\n"
+        f"**Click a job title to open the company's application page.**\n\n{LEGEND}\n\n{new_section(new)}\n", encoding="utf-8")
+
     boards = len((load_yaml(COMPANIES, {}) or {}).get("companies") or [])
+    early = counts.get("early", 0)
+    early_note = f"{early} open right now" if early else "None listed right now, check back soon"
     readme = f"""# Things I Wish I Knew: CS Edition
 
 [![Daily refresh](https://github.com/rohitpeets/mcneese-jobs/actions/workflows/daily.yml/badge.svg)](https://github.com/rohitpeets/mcneese-jobs/actions/workflows/daily.yml)
 
-Internships, new-grad roles and early programs in the **United States** for computer science and computer engineering students, plus the guides and resources I wish I'd had as a freshman.
-Pulled straight from companies' own job boards and refreshed daily. **Last updated {today()}.**
+A free starter kit for computer science and computer engineering students in the U.S.: **a job board refreshed every day** from companies' own career sites, plus **plain-English guides** on everything I wish someone had told me as a freshman.
 
-> **📘 New to internships? [Open the guides below](#-guides-things-i-wish-i-knew)** (resume, projects, applying, interviews, 4-year plan) **and [resources](guides/resources.md)** ([ColorStack](https://www.colorstack.org), [NSBE](https://www.nsbe.org), [SHPE](https://www.shpe.org), [CodePath](https://www.codepath.org), [hackathons](https://mlh.com), [free courses](guides/projects.md#resources), [project ideas](https://github.com/codecrafters-io/build-your-own-x), and [more](guides/resources.md)).
+Last updated **{today()}**.
 
-## Find jobs
+## 💼 Find jobs
 
-**Click "👉 Open the list"** next to a section to see its jobs. Each job title in a list is a link to the company's application page.
-
-| Section | Open roles | Link |
+| | What's inside | |
 |---|---|---|
-{links}
+| 💼 **Internships** | {counts.get("internship", 0):,} open roles, newest first | **[Open internships →](INTERNSHIPS.md)** |
+| 🎓 **New grad** | {counts.get("new_grad", 0):,} full-time roles for graduating students | **[Open new grad →](NEW_GRAD.md)** |
+| 🌱 **Early programs** | For freshmen and sophomores. {early_note} | **[Open early programs →](EARLY.md)** |
+| 🆕 **New this week** | {len(new):,} roles posted in the last 7 days | **[Open new this week →](NEW_THIS_WEEK.md)** |
 
-Each list shows the newest postings first. Tags come only from a sentence in the posting itself. A blank tag means the posting doesn't say, not "no".
+Every row links straight to the company's application page. International students: each posting is tagged for visa sponsorship, CPT/OPT and citizenship rules, with the sentence from the posting that the tag came from.
 
-**{len(rows):,} open roles** from **{boards} company job boards**, checked every day, with automated tests on every run. How it works and how accurate it is: [docs/WRITEUP.md](docs/WRITEUP.md).
+## 📘 Guides
 
-This board doesn't cover everything. It reads about half of what paid job aggregators list. For more, also check Handshake, LinkedIn, and the community internship lists on GitHub.
+| Guide | Read it if... | |
+|---|---|---|
+| 🧭 **Start here** | You're a freshman or sophomore and don't know where to begin | **[Read →](guides/README.md)** |
+| 📝 **Your first resume** | You need a resume, or yours isn't getting replies | **[Read →](guides/resume.md)** |
+| 🛠️ **Your first projects** | You don't know what to build or how to finish it | **[Read →](guides/projects.md)** |
+| 📨 **Applying and interviews** | You're about to apply: timing, referrals, coding tests, interviews | **[Read →](guides/applying.md)** |
+| 🤝 **Networking and getting involved** | You want clubs, research, hackathons, contests, programs | **[Read →](guides/networking.md)** |
+| 🗓️ **4-year timeline** | You want to know what to do each semester (and F-1 rules) | **[Read →](guides/timeline.md)** |
+| 🐙 **GitHub** | You need to set up GitHub or make your repos look good | **[Read →](guides/github.md)** |
+| 💼 **LinkedIn** | You need a LinkedIn profile or want to reach alumni | **[Read →](guides/linkedin.md)** |
+| 🧰 **Resources** | You want free courses, communities, scholarships, and tools | **[Read →](guides/resources.md)** |
 
-{guides_section()}
+## 🚀 New here? Do these 3 things
 
-{not_yet}
+1. **Read [Start here](guides/README.md).** Five steps for your first year, nothing more.
+2. **Make a one-page resume** with the [resume guide](guides/resume.md).
+3. **Apply early.** Big-company summer internships open about **July to September of the year before**. Open the [internships list](INTERNSHIPS.md) and apply in the first two weeks.
 
-{LEGEND}
+## ℹ️ About
 
-{START_HERE}
-
-## 🆕 New this week
-
-{new_section(new)}
-
----
-Found a posting that should be here, or a mistake? [Open an issue](https://github.com/rohitpeets/mcneese-jobs/issues).
+- **{len(rows):,} open roles** from **{boards} company job boards**, checked every day with automated tests on every run. How it works and how accurate it is: [docs/WRITEUP.md](docs/WRITEUP.md).
+- It doesn't catch everything. Also check Handshake, LinkedIn, and [Simplify's internship list](https://github.com/SimplifyJobs/Summer2027-Internships).
+- Found a missing posting, a broken link, or a mistake? [Open an issue](https://github.com/rohitpeets/mcneese-jobs/issues).
 """
     (ROOT / "README.md").write_text(readme, encoding="utf-8")
     print(f"built: {dict(counts)}, new this week {len(new)}, rows left out for unsafe links {skipped}")

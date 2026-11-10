@@ -1391,3 +1391,5 @@ A blank tag means the posting doesn't say. The grey line under a title is the se
 | Palantir Technologies | [Software Engineer, Internship](https://jobs.lever.co/palantir/e27af7ab-41fc-40c9-b31d-02c6cb1c505c)<br><sub>“Active US Security clearance, or eligibility and willingness to obtain a US Security clearance.”</sub> | Palo Alto, CA | 🔒 ⏳ | Jul 1 |
 | Palantir Technologies | [Privacy and Civil Liberties Software Engineer, Internship](https://jobs.lever.co/palantir/09846827-b931-4a9f-bd64-c3bb8860187b) | New York, NY | ⏳ | Oct 6 |
 | Palantir Technologies | [Forward Deployed Software Engineer, Internship - Commercial](https://jobs.lever.co/palantir/4d29249a-d7e8-4c39-880d-3b35d7b2f6f6) | New York, NY | ⏳ | Feb 24 |
+
+**Not on this board yet:** Meta, Microsoft, Google, AMD, Qualcomm, Cisco, IBM, Oracle, ExxonMobil, Phillips 66, Chevron, Shell, Entergy, Lockheed Martin, Capital One, JPMorgan Chase, Goldman Sachs, Bloomberg, Uber, Airbnb, Tesla, PayPal, Visa, Mastercard, Target. These companies hire CS interns, but their job sites aren't read here yet. Check their careers pages directly.
