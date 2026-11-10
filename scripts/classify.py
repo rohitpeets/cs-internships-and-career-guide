@@ -32,7 +32,7 @@ SPONSOR_NO = re.compile(
 SPONSOR_YES = re.compile(
     r"\b(we|will|can|able to|happy to|willing to)\s+(\w+\s+){0,2}sponsor"
     r"|sponsorship (is )?(available|provided|offered)", re.I)
-SPONSOR_HEDGE = re.compile(r"(available|offered|provided|sponsor)\s+(only\s+)?(for|to)\s+(select|exceptional|certain|some)\b|case[- ]by[- ]case|\bmay\b[^.]{0,20}sponsor|\b(cpt|opt|f-?1)\b", re.I)
+SPONSOR_HEDGE = re.compile(r"clearance|(available|offered|provided|sponsor)\s+(only\s+)?(for|to)\s+(select|exceptional|certain|some)\b|case[- ]by[- ]case|\bmay\b[^.]{0,20}sponsor|\b(cpt|opt|f-?1)\b", re.I)
 # citizenship / green card / U.S. person must be stated as a requirement; export-control boilerplate alone doesn't count
 CITIZEN = re.compile(
     r"u\.?s\.? citizen(ship)?[^.]{0,60}(required|only|must)|(must|required to) be (a )?u\.?s\.? (citizen|person)|(only|limited to) u\.?s\.? (citizens|persons)"
@@ -41,12 +41,13 @@ CITIZEN = re.compile(
 CLEARANCE = re.compile(r"(security|secret|top secret|ts/sci|dod) clearance|clearance (is )?required|(obtain|maintain|hold) (an? |active )?(security )?clearance|\bts/sci\b", re.I)
 REMOTE = re.compile(r"\bremote\b", re.I)
 # F-1 students need CPT (during school) or OPT: a posting that rules those out is closed to them right now, not just later
-NO_CPT = re.compile(r"(does not|doesn't|will not|won't|not|cannot|can't|unable to|no)\s+(\w+\s+){0,3}(accept|consider|support|eligible|available|allow)\w*[^.]{0,40}\b(cpt|opt|curricular practical|optional practical|f-?1)\b"
+NOT_REQUIRED = re.compile(r"\b(not|no)\b[^.]{0,20}\b(required|needed|necessary)\b|\bno (security )?clearance\b", re.I)
+NO_CPT = re.compile(r"(does not|doesn't|do not|don't|will not|won't|not|cannot|can't|unable to|no)\s+(\w+\s+){0,3}(accept|consider|support|eligible|available|allow|offer|provide|sponsor)\w*[^.]{0,40}\b(cpt|opt|curricular practical|optional practical|f-?1)\b"
                     r"|\b(cpt|opt|f-?1)\b[^.]{0,40}\b(not (be )?(accepted|eligible|considered|supported)|ineligible)"
                     r"|\bno (cpt|opt)\b", re.I)
 
 
-NON_TECH = re.compile(r"\b(tax|compliance|audit|pricing|actuarial|underwriting|marketing|sales|account (executive|manager)|finance|accounting|human resources|hr|recruit\w*|legal|paralegal|"
+NON_TECH = re.compile(r"\b(operations research|financial analy\w*|risk|tax|compliance|audit|pricing|actuarial|underwriting|marketing|sales|account (executive|manager)|finance|accounting|human resources|hr|recruit\w*|legal|paralegal|"
                       r"communications|public relations|customer (experience|success|service)|corporate strategy|supply chain|procurement|"
                       r"artist|graphic design|content|social media|events?|administrative|operations intern|game presentation|"
                       r"civil|geotechnical|structural|traffic|transportation|mechanical|environmental|chemical|process engineer|"
@@ -55,9 +56,12 @@ NON_TECH = re.compile(r"\b(tax|compliance|audit|pricing|actuarial|underwriting|m
                       r"game design|game economy|tech art|fuel|trim|field manager)\b", re.I)
 
 
-FIELD_DROP = re.compile(r"\b(facilit(y|ies)|mechanic|diesel|maintenance|technician|civil|geotechnical|structural|traffic|transportation|mechanical|environmental|chemical|process|manufacturing|industrial|ehs|safety|construction|mining|petroleum|materials|warhead|harness|propulsion|thermal|fluids|surveying|water resources|game presentation|game design|game economy|tech art|fuel|trim|field engineer)\b", re.I)
-STRONG_TECH = re.compile(r"\b(engineer(ing)?|developer|software|data scien\w*|data analy\w*|analytics|machine learning|information technology|it|erp)\b(?!.*\b(sales|marketing)\b)", re.I)
-GRAD_ONLY = re.compile(r"\b(ms|m\.s\.|masters?|master's)\b", re.I)
+FIELD_DROP = re.compile(r"\b(facilit(y|ies)|electrical engineer\w*|packaging|photonics|mechanic|diesel|maintenance|technician|civil|geotechnical|structural|traffic|transportation|mechanical|environmental|chemical|process|manufacturing|industrial|ehs|safety|construction|mining|petroleum|materials|warhead|harness|propulsion|thermal|fluids|surveying|water resources|game presentation|game design|game economy|tech art|fuel|trim|field engineer)\b", re.I)
+STRONG_TECH = re.compile(r"\b(engineer(ing)?|developer|software|data scien\w*|data analy\w*|machine learning|information technology|it|erp|cyber\w*)\b", re.I)
+# business areas a technical word can't rescue: "Tax & Data Analytics Intern" is a tax job
+NO_RESCUE = re.compile(r"\b(sales|marketing|tax|audit|accounting|actuarial|operations research)\b", re.I)
+PAST_TERM = re.compile(r"\b(spring|summer|fall|autumn|winter)?\s*[-–]?\s*(20\d\d)\s*[-–]?\s*(spring|summer|fall|autumn|winter)?\b", re.I)
+GRAD_ONLY = re.compile(r"\b(ms|m\.s\.|masters?|master's|graduate students?)\b", re.I)
 UNDERGRAD = re.compile(r"\b(bs|b\.s\.|bachelor'?s?|undergrad\w*)\b", re.I)
 
 
@@ -76,8 +80,11 @@ NON_US = re.compile(r"\b(united kingdom|uk|england|scotland|wales|london|glasgow
     r"lausanne|valbonne|sophia antipolis|knutsford|sgp|"
     r"armenia|yerevan|tbilisi|kazakhstan|almaty|uzbekistan|tashkent|morocco|casablanca|tunisia|ghana|accra|jordan|amman|lebanon|beirut|cyprus|malta|"
     r"luxembourg|iceland|slovakia|bratislava|slovenia|ljubljana|belarus|minsk|moldova|ecuador|quito|uruguay|montevideo|panama|dominican republic|"
-    r"bahrain|kuwait|oman|nepal|kathmandu|cambodia|mongolia|basel|getafe|lysaker|north york|tan uyen|"
+    r"bahrain|kuwait|oman|nepal|kathmandu|cambodia|mongolia|basel|getafe|lysaker|north york|tan uyen|zaragoza|warszawa|wuxi|jiangsu|ovar|babenhausen|"
     r"emea|apac|latam|europe)\b", re.I)
+# country codes ("Zaragoza, ESP", "BRA", "Ovar, PT"); two-letter codes that are also US states are left out on purpose
+COUNTRY_CODE = re.compile(r"\b(BRA|ESP|PRT|POL|CHN|IRL|DEU|GBR|CAN|MEX|FRA|ITA|NLD|SWE|JPN|KOR|SGP|AUS|ISR|ARE|ROU|CZE|HUN|AUT|CHE|BEL|DNK|NOR|FIN|PHL|VNM|MYS|THA|IDN|TWN|HKG|ARG|CHL|COL|CRI|ZAF|EGY|TUR|GRC|IND)\b"
+                          r"|,\s*(PT|PL|ES|MX|BR|SE|MY|VN|CN|IE|GB|UK|FR|NL|JP|KR|SG|AU|AE|RO|CZ|HU|AT|CH|BE|DK|NO|FI|PH|TH|TW|HK|CL|CR|ZA|EG|TR|GR)\s*$")
 US_MARK = re.compile(r"(?i:\b(united states|usa|u\.s\.a?\.?)(?!\w))|\bUS\b")
 
 
@@ -92,7 +99,7 @@ def us_job(location: str) -> bool:
     loc = (location or "").strip()
     if US_STATE_END.search(loc):
         return True
-    return not NON_US.search(loc) or bool(US_MARK.search(loc))
+    return not (NON_US.search(loc) or COUNTRY_CODE.search(loc)) or bool(US_MARK.search(loc))
 
 
 # campus-specific reqs ("HEC Engineer Intern - LSU") are only open to that school's students
@@ -103,10 +110,10 @@ OTHER_SCHOOL = re.compile(r"-\s*(colorado school of mines|montana( state| tech)?
 # Allow-list: the title has to name CS or computer-engineering work. "Engineer" or "analyst" alone isn't enough.
 CS_TITLE = re.compile(
     r"\b(robotic\w*|applied scientist|gpu|cuda|dft|(software|hardware|electrical|silicon|firmware|design) (validation|verification)|validation engineer\w*|fpga|asic|test automation|automation test\w*|erp|telecom\w*|software|developer|programmer\w*|programming|coding|data|machine learning|deep learning|ml|ai|a\.i\.|artificial intelligence|llm|nlp|"
-    r"computer|cs|swe|cyber\w*|(information|network|cloud|application|product|software|it|data) security|security (engineer\w*|analyst|operations|research\w*|intern\w*)|offensive security|appsec|penetration test\w*|pentest\w*|information technology|it|information systems|network (engineer\w*|administrat\w*|operations|infrastructure|analyst)|networking|cloud|devops|sre|site reliability|"
+    r"computer|cs|swe|cyber\w*|(information|network|cloud|application|product|software|it|data) security|security (engineer\w*|analyst|operations|research\w*)|offensive security|appsec|penetration test\w*|pentest\w*|information technology|it|information systems|network (engineer\w*|administrat\w*|operations|infrastructure|analyst)|networking|cloud|devops|sre|site reliability|"
     r"web|mobile (app\w*|developer|software|engineer\w*)|android|ios|full[- ]?stack|front[- ]?end|back[- ]?end|firmware|embedded|database|analytics|bioinformatics|"
     r"quant\w*|automation engineer\w*|robotics software|autonomy|computer vision|perception|slam|infrastructure engineer\w*|"
-    r"platform engineer\w*|systems? administrat\w*|help ?desk|technical support|qa|quality assurance|sdet|test automation|"
+    r"platform engineer\w*|systems? administrat\w*|help ?desk|technical support|qa (engineer\w*|automation|test\w*|analyst)|software (qa|quality|test\w*)|quality assurance (engineer\w*|automation|analyst)|sdet|test automation|"
     r"technology intern\w*|tech intern\w*|technology (analyst|associate|program)|digital (design|technology)|"
     r"hardware|asic|fpga|vlsi|chip|silicon|semiconductor|soc|digital design|verification|signal processing|dsp|"
     r"computer engineering|electrical (and|&) computer|game (developer|engine|programmer)|gameplay|(computer|real-time) graphics|graphics (software|engineer\w*|programmer)|simulation software|solutions engineer\w*)\b", re.I)
@@ -123,9 +130,25 @@ def keep_title(title: str) -> bool:
     if not TITLE_KEEP.search(title) or TITLE_DROP.search(title):  # CS_TITLE above already requires technical work
         return False
     # "Supply Chain Tooling Engineer Intern" is technical even though it names a business area
-    if FIELD_DROP.search(title) and not re.search(r"\b(software|developer|programmer|firmware|data scien\w*|it)\b", title, re.I):
+    if FIELD_DROP.search(title) and not re.search(r"\b(software|developer|programmer|firmware|embedded|computer|data scien\w*|it)\b", title, re.I):
         return False
-    return not NON_TECH.search(title) or (bool(STRONG_TECH.search(title)) and not re.search(r"\bsales\b", title, re.I))
+    if expired_term(title):
+        return False
+    return not NON_TECH.search(title) or (bool(STRONG_TECH.search(title)) and not NO_RESCUE.search(title))
+
+
+def expired_term(title: str, today: date | None = None) -> bool:
+    """ "2026 Summer Intern" listed in November 2026 is over. A term counts as past once its season has started:
+    spring after February, summer after July, fall after October, winter after January of that year."""
+    today = today or date.today()
+    starts = {"winter": 1, "spring": 3, "summer": 8, "fall": 11, "autumn": 11}
+    for m in PAST_TERM.finditer(title):
+        year, season = int(m.group(2)), (m.group(1) or m.group(3) or "").lower()
+        if year < today.year:
+            return True
+        if year == today.year and season and today.month >= starts[season]:
+            return True
+    return False
 
 
 def early_evidence(title: str, text: str = "") -> str | None:
@@ -169,7 +192,7 @@ def tags(text: str, location: str = "") -> tuple[dict, dict]:
     elif yes:
         t["sponsor"], ev["sponsor"] = True, yes[:300]
     for name, rx in (("citizen", CITIZEN), ("clearance", CLEARANCE), ("no_cpt", NO_CPT)):
-        hit = next((x for x in sents if rx.search(x)), None)
+        hit = next((x for x in sents if rx.search(x) and not (name == "clearance" and NOT_REQUIRED.search(x))), None)
         if hit:
             t[name], ev[name] = True, hit[:300]
     return t, ev

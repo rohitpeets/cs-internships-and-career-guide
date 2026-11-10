@@ -77,7 +77,7 @@ def greenhouse(board, http):
     r.raise_for_status()
     d = r.json()
     need(isinstance(d, dict) and isinstance(d.get("jobs"), list), "greenhouse: no jobs list")
-    return [{"title": j["title"], "url": j["absolute_url"], "location": (j.get("location") or {}).get("name", ""),
+    return [{"title": j["title"], "url": j["absolute_url"], "location": (j.get("location") or {}).get("name") or "",
              "text": strip_html(j.get("content", "")), "posted": posted_date(j.get("first_published"))}  # updated_at is an edit date, not a posting date
             for j in d["jobs"]]
 
@@ -227,7 +227,7 @@ def amazon(board, http):
     for q in ("intern", "co-op", "new grad", "university graduate"):
         items, ok = paginate(page(q), 100)
         complete &= ok
-        seen.update((j["id"], j) for j in items if keep_title(j.get("title", "")))
+        seen.update((j["id"], j) for j in items if keep_title(j.get("title", "")) and j.get("country_code") in ("USA", None))
     return Jobs([{"title": j["title"], "url": "https://www.amazon.jobs" + j["job_path"],
                   "location": j.get("normalized_location") or j.get("location", ""),
                   "text": strip_html("\n".join(j.get(k) or "" for k in ("description", "basic_qualifications", "preferred_qualifications"))),

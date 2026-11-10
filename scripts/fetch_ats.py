@@ -87,9 +87,14 @@ def main():
                 unsure.add(key)  # capped or suddenly empty: don't count its missing rows as closed
             ids = set()
             for j in jobs:
-                if not keep_title(j["title"]) or not us_job(j["location"]):
+                try:  # one odd posting (missing field, null location) must not stop the run
+                    j = {**j, "title": j.get("title") or "", "location": j.get("location") or "", "text": j.get("text") or ""}
+                    if not keep_title(j["title"]) or not us_job(j["location"]):
+                        continue
+                    new = to_row(c["name"], c["ats"], c["board"], j)
+                except Exception as e:
+                    print(f"  skipped one posting from {c['name']}: {type(e).__name__} {str(e)[:80]}")
                     continue
-                new = to_row(c["name"], c["ats"], c["board"], j)
                 if not new["section"]:
                     continue
                 ids.add(new["id"])
@@ -127,7 +132,7 @@ def main():
     if a.local:
         save_json(target, {"fetched_at": now_iso(), "rows": out, "removed": removed[-2000:]})
     else:
-        save_json(REMOVED, removed)  # first: a crash before the next line leaves a closed row in both files, never in neither
+        save_json(REMOVED, removed[-5000:])  # first: a crash before the next line leaves a closed row in both files, never in neither
         save_json(target, out)
     print(f"{now_iso()} boards={len(boards)} failed={len(failed)} gone={len(gone)} unsure={len(unsure)} open={len(rows)} closed_now={closed}")
     for f in failed[:20]:

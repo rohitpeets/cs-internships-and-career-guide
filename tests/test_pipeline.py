@@ -176,3 +176,29 @@ def test_no_cpt_tag():
     assert classify.tags("We do not accept CPT or OPT for this role.")[0]["no_cpt"] is True
     assert classify.tags("This role is not eligible for OPT.")[0]["no_cpt"] is True
     assert classify.tags("We will not sponsor H-1B visas.")[0]["no_cpt"] is None
+
+
+def test_final_audit_rows():
+    for t in ("Electronic Security Intern", "2027 Intern - QA, QMS", "Tax & Data Analytics Intern",
+              "Data Center Electrical Engineering Intern", "Undergraduate Financial Analytics Intern",
+              "Silicon Photonics Packaging Engineer Co-op", "Defense Science and Technology Graduate Student Internship"):
+        assert not classify.keep_title(t), t
+    for t in ("QA Automation Intern", "Cybersecurity Risk Analyst Intern", "Electrical and Computer Engineering Intern"):
+        assert classify.keep_title(t), t
+    for loc in ("Zaragoza, ESP", "BRA", "Ovar, PT", "Wuxi, Jiangsu"):
+        assert not classify.us_job(loc), loc
+
+
+def test_expired_terms():
+    nov = date(2026, 11, 9)
+    assert classify.expired_term("2026 Summer Intern", nov) and classify.expired_term("Software Intern - Fall 2026", nov)
+    assert classify.expired_term("2025 Co-op", nov)
+    assert not classify.expired_term("Summer 2027 Software Engineering Intern", nov)
+    assert not classify.expired_term("Software Engineering Co-op (Jan-Aug 2027)", nov)
+
+
+def test_clearance_wording():
+    t = classify.tags
+    assert t("Upon start, you will be sponsored for a TS/SCI clearance.")[0]["sponsor"] is None
+    assert t("A security clearance is not required for this role.")[0]["clearance"] is None
+    assert t("This position is not eligible for sponsorship, OPT, or CPT.")[0]["no_cpt"] is True

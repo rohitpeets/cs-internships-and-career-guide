@@ -7,12 +7,18 @@ import html
 import re
 import sys
 from collections import Counter
-from datetime import date, timedelta
+from datetime import date, datetime, timedelta
+from zoneinfo import ZoneInfo
 from pathlib import Path
 from urllib.parse import quote, urlsplit
 
 sys.path.insert(0, str(Path(__file__).parent))
-from common import DATA, POSTINGS, ROOT, load_json, load_yaml, today  # noqa: E402
+from common import COMPANIES, DATA, POSTINGS, ROOT, load_json, load_yaml  # noqa: E402
+
+
+def today() -> str:
+    """Dates on the page are McNeese's (Central) time, not the server's UTC."""
+    return datetime.now(ZoneInfo("America/Chicago")).date().isoformat()
 
 SECTIONS = [("internship", "Internships", "INTERNSHIPS.md"),
             ("new_grad", "New Grad", "NEW_GRAD.md"),
@@ -68,9 +74,9 @@ def tag_str(r) -> str:
         out.append("🏛")
     if t.get("remote"):
         out.append("🌐")
-    if r.get("status") == "uncertain":
+    if r.get("status") == "uncertain" or r.get("misses", 0) > 0:  # missed its company's feed at least once
         out.append("⚠")
-    if date.fromisoformat(r["first_seen"]) < date.today() - timedelta(days=60):
+    if date.fromisoformat(when(r)) < date.today() - timedelta(days=60):
         out.append("⏳")
     return " ".join(out)
 
@@ -125,12 +131,20 @@ def new_section(new) -> str:
         return "_Nothing new this week yet._"
     if len(new) > 150:  # a big new source was added this week
         return f"_{len(new)} postings were added this week (a new source was connected). Browse the sections above._"
-    shown, _ = table(new[:75])
-    return shown if len(new) <= 75 else shown + f"\n\nShowing the 75 newest of {len(new)}. The rest are in the section pages above."
+    per, capped = Counter(), []
+    for r in sorted(new, key=lambda r: when(r), reverse=True):  # at most 3 per company, so one big poster can't fill the list
+        per[r["company"]] += 1
+        if per[r["company"]] <= 3:
+            capped.append(r)
+    shown, _ = table(capped[:75])
+    return shown + f"\n\n_{len(new)} postings were posted this week. This list shows up to 3 per company; the rest are in the section pages above._"
 
 
 def main():
     rows = dedupe(load_json(POSTINGS, []))
+    for r in rows:  # an early-program row has to show the sentence that makes it one; otherwise it's listed as a normal internship
+        if r["section"] == "early" and not (r.get("tag_evidence") or {}).get("early"):
+            r["section"] = "internship"
     counts = Counter(r["section"] for r in rows)
     week_ago = (date.today() - timedelta(days=7)).isoformat()
     # "new" means the company posted it this week; a row without a posting date counts from when the board first saw it,
@@ -158,9 +172,12 @@ def main():
 
     icons = {"internship": "💼", "new_grad": "🎓", "early": "🌱"}
     links = "\n".join(f"| {icons[key]} **{name}** | {counts.get(key, 0)} | **[👉 Open the list]({fname})** |" for key, name, fname in SECTIONS)
+    boards = len((load_yaml(COMPANIES, {}) or {}).get("companies") or [])
     readme = f"""# McNeese Jobs
 
-Internships, new-grad roles and early programs for McNeese computer science and computer engineering students.
+[![Daily refresh](https://github.com/rohitpeets/mcneese-jobs/actions/workflows/daily.yml/badge.svg)](https://github.com/rohitpeets/mcneese-jobs/actions/workflows/daily.yml)
+
+Internships, new-grad roles and early programs in the **United States** for McNeese computer science and computer engineering students.
 Pulled straight from companies' own job boards and refreshed daily. **Last updated {today()}.**
 
 ## Find jobs
@@ -172,6 +189,8 @@ Pulled straight from companies' own job boards and refreshed daily. **Last updat
 {links}
 
 Each list shows the newest postings first. Tags come only from a sentence in the posting itself. A blank tag means the posting doesn't say, not "no".
+
+**{len(rows):,} open roles** from **{boards} company job boards**, checked every day, with automated tests on every run. How it works and how accurate it is: [docs/WRITEUP.md](docs/WRITEUP.md).
 
 This board doesn't cover everything. It reads about half of what paid job aggregators list. For more, also check Handshake, LinkedIn, and the community internship lists on GitHub.
 

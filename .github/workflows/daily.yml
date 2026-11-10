@@ -21,7 +21,7 @@ jobs:
   refresh:
     name: Refresh the board
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 60
     permissions:
       contents: write # commit README.md, the table files and data/
     # Only one refresh writes at a time, so two runs never push over each other.
@@ -34,7 +34,7 @@ jobs:
       # Actions pinned to full commit SHAs, so a moved tag can't change what runs with write access.
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
-          fetch-depth: 8 # validate.py compares against the last 7 commits of postings.json
+          fetch-depth: 0 # validate.py compares against recent commits of postings.json
 
       - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
         with:

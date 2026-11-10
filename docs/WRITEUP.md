@@ -4,18 +4,18 @@ McNeese Jobs is a job board for the roughly 300 computer science and computer en
 
 ## How it works
 
-Every company publishes its openings through a job system: Greenhouse, Lever, Ashby, Workday or Oracle. Most of these have a public JSON endpoint behind the career page. The board keeps a list of 955 company boards (`data/companies.yaml`) and asks each one what's open.
+Every company publishes its openings through a job system: Greenhouse, Lever, Ashby, SmartRecruiters, Workday, Oracle, or its own (Amazon, and Netflix on Eightfold). Most of these have a public JSON endpoint behind the career page. The board keeps a list of 965 company boards (`data/companies.yaml`) and asks each one what's open.
 
 The work is split between two machines:
 
 | Runs on | Sources | Why |
 |---|---|---|
-| GitHub Actions, daily | Greenhouse, Lever, Ashby, SmartRecruiters (279 boards) | Fast, small JSON feeds; fits easily in a free run |
-| My laptop, nightly | Workday, Oracle (676 boards) | Slower: several searches plus one request per posting, which doesn't fit comfortably in a free cloud run |
+| GitHub Actions, daily | Greenhouse, Lever, Ashby, SmartRecruiters, Amazon, Eightfold (287 boards) | Fast, small JSON feeds; fits easily in a free run |
+| My laptop, nightly | Workday, Oracle (678 boards) | Slower: several searches plus one request per posting, which doesn't fit comfortably in a free cloud run |
 
 The laptop writes exactly one file, `data/local.json`, and pushes it. The Action writes everything else and merges the laptop's file in. Because the two never edit the same file, their pushes can't conflict. If the laptop is off for three days, its rows stay on the board marked ⚠ instead of disappearing.
 
-On the first full run the cloud half found 732 postings and the laptop half found 2,790, from 902 boards with 3 failures. After the CS/CE-only filter (below), about 1,500 remain.
+On the first full run the cloud half found 732 postings and the laptop half found 2,790, from 902 boards with 3 failures. After the CS/CE-only, U.S.-only filters (below), about 1,500 to 1,700 roles are open on a given day; the README shows the live count.
 
 ## Decisions and trade-offs
 
@@ -37,6 +37,22 @@ On the first full run the cloud half found 732 postings and the laptop half foun
 **Treating feed text as untrusted.** Titles, locations and links come from other companies' systems and end up on a public page. Every cell is HTML- and markdown-escaped, and a link is used only if it's a plain http(s) URL, so a posting titled `Intern](https://phishing.example)` can't plant a link. The workflow's actions are pinned to commit SHAs and dependencies to exact versions.
 
 **F-1 students.** 🛂❌ (no sponsorship later) is kept separate from 🚫 (the posting says it won't take CPT/OPT), because only the second one closes the role to an F-1 student right now. Government and national-lab titles get 🏛 as a "check this" flag even when the posting doesn't say it's U.S.-only.
+
+
+## Measured accuracy
+
+After the fixes above, I hand-checked 200 random rows from the live board (no descriptions, judged from title, location and the saved evidence):
+
+| Check | Errors | Rate |
+|---|---|---|
+| Is it a CS/CE role? | 10 / 200 | 5% |
+| Is it in the U.S.? | 4 / 200 | 2% |
+| Right level (not grad-only, not an expired term)? | 3 / 200 | 1.5% |
+| Right section? | 1 / 200 | 0.5% |
+| Tag matches its evidence sentence | 2 / 55 tagged rows | 4% |
+| Posting date in the future | 0 / 74 dated rows | 0% |
+
+Every wrong row in that sample became a test case and a rule fix (bare "QA", "security intern" and "data center electrical" no longer count as CS; country codes like "ESP" and "BRA" are non-U.S.; "2026 Summer" roles listed after the summer started are dropped; "clearance is not required" no longer sets 🔒). The numbers above are from before those fixes, so they're an upper bound; a fresh sample is the next check.
 
 ## What I'd do next
 

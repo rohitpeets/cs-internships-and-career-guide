@@ -40,7 +40,9 @@ def main():
     prev = previous_count()
     if prev and len(rows) < prev * 0.5:
         sys.exit(f"open postings fell from {prev} (7-commit high) to {len(rows)}; refusing to publish")
-    print(f"valid: {len(rows)} postings" + (f" (was {prev})" if prev is not None else " (first run)"))
+    if prev is None:
+        print("WARNING: no previous postings.json found in git history; the shrink guard was skipped")
+    print(f"valid: {len(rows)} postings" + (f" (7-commit high {prev})" if prev is not None else ""))
 
 
 if __name__ == "__main__":
