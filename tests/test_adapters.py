@@ -61,3 +61,13 @@ def test_amazon_parses():
                                  "basic_qualifications": "Enrolled in a CS degree.", "preferred_qualifications": ""}]}
     jobs = adapters.CLOUD["amazon"]("amazon", FakeHttp(data))
     assert jobs[0]["url"] == "https://www.amazon.jobs/en/jobs/1/sde-intern" and "CS degree" in jobs[0]["text"]
+
+
+def test_posted_date_formats():
+    from datetime import date
+    p = adapters.posted_date
+    assert p("2026-07-21T19:49:28-04:00") == "2026-07-21"           # Greenhouse first_published, Ashby publishedAt
+    assert p(1760000000000) == p(1760000000) == "2025-10-09"        # Lever ms, Eightfold seconds
+    assert p("November 3, 2026") == "2026-11-03"                    # Amazon
+    assert p("2099-01-01") == date.today().isoformat()              # never in the future
+    assert p("garbage") is None and p(None) is None

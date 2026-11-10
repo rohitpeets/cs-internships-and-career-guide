@@ -19,6 +19,7 @@ SECTIONS = [("internship", "Internships", "INTERNSHIPS.md"),
             ("early", "Early Programs (freshmen & sophomores)", "EARLY.md")]
 LEGEND = """**Tags.** 🛂✅ the posting says it sponsors visas · 🛂❌ it says it doesn't · 🚫 it says it won't take CPT/OPT · 🇺🇸 limited to U.S. citizens, green-card holders or U.S. persons (often ITAR) · 🔒 security clearance · 🏛 government or national-lab role, often U.S.-only (check) · 🌐 remote · ⚠ link couldn't be verified recently · ⏳ listed for 60+ days.
 A blank tag means the posting doesn't say. The grey line under a title is the sentence a tag came from.
+**Posted** is the date the company posted the job. A date with * is when this board first saw it, because that company's job site doesn't give one. Companies sometimes re-post a job, which resets its date.
 
 > 🛂❌ usually means no visa sponsorship later (for example H-1B). Unless the row also shows 🚫, CPT or OPT may still work. Check with the recruiter and your DSO."""
 START_HERE = """## New to internships? Start here
@@ -91,18 +92,23 @@ def dedupe(rows):
     return list(best.values())
 
 
+def when(r) -> str:
+    """The company's posting date when the feed gives one, else the day this board first saw the job."""
+    return r.get("posted") or r["first_seen"]
+
+
 def added(d: str) -> str:
     x = date.fromisoformat(d)
     return f"{x:%b} {x.day}"
 
 
 def table(rows, early=False) -> tuple[str, int]:
-    """Newest first. The Added column is left out while every row has the same date (launch week)."""
-    show_added = len({r["first_seen"] for r in rows}) > 1
-    lines = ["| Company | Role | Location | Tags |" + (" Added |" if show_added else ""),
+    """Newest first by posting date. The date column is left out while every row has the same date."""
+    show_added = len({when(r) for r in rows}) > 1
+    lines = ["| Company | Role | Location | Tags |" + (" Posted |" if show_added else ""),
              "|---|---|---|---|" + ("---|" if show_added else "")]
     skipped = 0
-    for r in sorted(rows, key=lambda r: (-date.fromisoformat(r["first_seen"]).toordinal(), r["company"].lower(), r["title"].lower())):
+    for r in sorted(rows, key=lambda r: (-date.fromisoformat(when(r)).toordinal(), r["company"].lower(), r["title"].lower())):
         url = safe_url(r.get("url"))
         if not url:
             skipped += 1
@@ -110,14 +116,11 @@ def table(rows, early=False) -> tuple[str, int]:
         loc = r.get("location") or ""
         line = (f"| {text(r['company'])} | [{text(r['title'])}]({url}){evidence(r, early)} | "
                 f"{text(loc[:45])}{'…' if len(loc) > 45 else ''} | {tag_str(r)} |")
-        lines.append(line + (f" {added(r['first_seen'])} |" if show_added else ""))
+        lines.append(line + (f" {added(when(r))}{'' if r.get('posted') else '*'} |" if show_added else ""))
     return "\n".join(lines), skipped
 
 
-def new_section(new, launched: str) -> str:
-    start = date.fromisoformat(launched) + timedelta(days=7)
-    if date.today() < start:  # launch week: every posting is "new", so the list would just repeat the board
-        return f"_The board started on {added(launched)}. From {added(start.isoformat())}, this list shows postings added in the past 7 days._"
+def new_section(new) -> str:
     if not new:
         return "_Nothing new this week yet._"
     if len(new) > 150:  # a big new source was added this week
@@ -130,8 +133,10 @@ def main():
     rows = dedupe(load_json(POSTINGS, []))
     counts = Counter(r["section"] for r in rows)
     week_ago = (date.today() - timedelta(days=7)).isoformat()
+    # "new" means the company posted it this week; a row without a posting date counts from when the board first saw it,
+    # but only after the board's first week (otherwise every launch-week row would be "new")
     launched = min((r["first_seen"] for r in rows), default=today())
-    new = [r for r in rows if r["first_seen"] >= week_ago]
+    new = [r for r in rows if (r.get("posted") or (r["first_seen"] if r["first_seen"] > launched else "")) >= week_ago]
 
     intro = {"early": "Postings that say freshmen or sophomores can apply, or programs built for them. "
                       "The grey line under each title is the sentence from the posting, so you can check it.\n\n"
@@ -178,7 +183,7 @@ This board doesn't cover everything. It reads about half of what paid job aggreg
 
 ## 🆕 New this week
 
-{new_section(new, launched)}
+{new_section(new)}
 
 ---
 Found a posting that should be here? Tell an ACM officer.

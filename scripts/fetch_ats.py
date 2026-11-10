@@ -28,7 +28,7 @@ def to_row(company, ats, board, j):
         if why:
             ev["early"] = why
     return {"id": url_key(j["url"]), "company": company, "board": board, "title": j["title"].strip(), "url": j["url"],
-            "location": j["location"], "source": ats, "section": sec, "tags": t, "tag_evidence": ev,
+            "location": j["location"], "source": ats, "section": sec, "tags": t, "tag_evidence": ev, "posted": j.get("posted"),
             "status": "open", "misses": 0, "first_seen": today(), "last_seen": today()}
 
 

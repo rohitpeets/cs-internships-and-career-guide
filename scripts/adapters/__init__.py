@@ -5,6 +5,7 @@ so a changed API fails loudly instead of silently returning zero jobs.
 """
 
 
+import re
 import sys
 from pathlib import Path
 
@@ -26,6 +27,24 @@ class Jobs(list):
     def __init__(self, items=(), complete=True):
         super().__init__(items)
         self.complete = complete
+
+
+def posted_date(v):
+    """The company's own posting date as YYYY-MM-DD, from whatever the source gives:
+    ISO strings, epoch seconds/milliseconds, or "November 3, 2026". None if missing or unreadable."""
+    from datetime import date, datetime, timezone
+    if v in (None, ""):
+        return None
+    try:
+        if isinstance(v, (int, float)):
+            d = datetime.fromtimestamp(v / 1000 if v > 1e11 else v, tz=timezone.utc).date()
+        elif re.match(r"\d{4}-\d{2}-\d{2}", str(v)):
+            d = date.fromisoformat(str(v)[:10])
+        else:
+            d = datetime.strptime(str(v).strip(), "%B %d, %Y").date()
+    except (ValueError, OverflowError, OSError):
+        return None
+    return min(d, date.today()).isoformat()  # a future date is a data error; never show it
 
 
 def paginate(call, step, cap=1000):
@@ -59,7 +78,8 @@ def greenhouse(board, http):
     d = r.json()
     need(isinstance(d, dict) and isinstance(d.get("jobs"), list), "greenhouse: no jobs list")
     return [{"title": j["title"], "url": j["absolute_url"], "location": (j.get("location") or {}).get("name", ""),
-             "text": strip_html(j.get("content", ""))} for j in d["jobs"]]
+             "text": strip_html(j.get("content", "")), "posted": posted_date(j.get("first_published"))}  # updated_at is an edit date, not a posting date
+            for j in d["jobs"]]
 
 
 def lever(board, http):
@@ -72,7 +92,8 @@ def lever(board, http):
     for j in d:
         lists = " ".join(f"{x.get('text', '')}: {x.get('content', '')}" for x in j.get("lists", []))
         text = (j.get("descriptionPlain") or "") + "\n" + strip_html(lists) + "\n" + (j.get("additionalPlain") or "")
-        out.append({"title": j["text"], "url": j["hostedUrl"], "location": (j.get("categories") or {}).get("location", "") or "", "text": text})
+        out.append({"title": j["text"], "url": j["hostedUrl"], "location": (j.get("categories") or {}).get("location", "") or "", "text": text,
+                    "posted": posted_date(j.get("createdAt"))})
     return out
 
 
@@ -82,7 +103,8 @@ def ashby(board, http):
     r.raise_for_status()
     d = r.json()
     need(isinstance(d, dict) and isinstance(d.get("jobs"), list), "ashby: no jobs list")
-    return [{"title": j["title"], "url": j["jobUrl"], "location": j.get("location", "") or "", "text": j.get("descriptionPlain", "") or ""}
+    return [{"title": j["title"], "url": j["jobUrl"], "location": j.get("location", "") or "", "text": j.get("descriptionPlain", "") or "",
+             "posted": posted_date(j.get("publishedAt"))}
             for j in d["jobs"] if j.get("isListed", True)]
 
 
@@ -115,7 +137,8 @@ def workday(board, http):
         r = http.get(f"{api}{path}")
         info = ((r.json() or {}).get("jobPostingInfo") or {}) if r.ok else {}  # a failed detail call keeps the row, without tags
         out.append({"title": j["title"], "url": info.get("externalUrl") or f"{base}/{site}{path}",
-                    "location": info.get("location") or j.get("locationsText", ""), "text": strip_html(info.get("jobDescription", ""))})
+                    "location": info.get("location") or j.get("locationsText", ""), "text": strip_html(info.get("jobDescription", "")),
+                    "posted": posted_date(info.get("startDate"))})
     return Jobs(out, complete)
 
 
@@ -150,7 +173,7 @@ def oracle(board, http):
             items = (r.json() or {}).get("items") or [{}]
             text = strip_html((items[0].get("ExternalDescriptionStr") or "") + "\n" + (items[0].get("ExternalQualificationsStr") or ""))
         out.append({"title": j["Title"], "url": f"{base}/hcmUI/CandidateExperience/en/sites/{site}/job/{rid}",
-                    "location": j.get("PrimaryLocation", "") or "", "text": text})
+                    "location": j.get("PrimaryLocation", "") or "", "text": text, "posted": posted_date(j.get("PostedDate"))})
     return Jobs(out, complete)
 
 
@@ -183,7 +206,7 @@ def smartrecruiters(board, http):
         if loc.get("remote"):
             where = (where + " (Remote)").strip()
         out.append({"title": j["name"], "url": det.get("postingUrl") or f"https://jobs.smartrecruiters.com/{board}/{pid}",
-                    "location": where, "text": text})
+                    "location": where, "text": text, "posted": posted_date(j.get("releasedDate"))})
     return Jobs(out, complete)
 
 
@@ -207,7 +230,8 @@ def amazon(board, http):
         seen.update((j["id"], j) for j in items if keep_title(j.get("title", "")))
     return Jobs([{"title": j["title"], "url": "https://www.amazon.jobs" + j["job_path"],
                   "location": j.get("normalized_location") or j.get("location", ""),
-                  "text": strip_html("\n".join(j.get(k) or "" for k in ("description", "basic_qualifications", "preferred_qualifications")))}
+                  "text": strip_html("\n".join(j.get(k) or "" for k in ("description", "basic_qualifications", "preferred_qualifications"))),
+                  "posted": posted_date(j.get("posted_date"))}
                  for j in seen.values()], complete)
 
 
@@ -236,7 +260,7 @@ def eightfold(board, http):
         det = r.json() if r.ok else {}
         out.append({"title": j["name"], "url": j.get("canonicalPositionUrl") or f"https://{host}/careers/job/{pid}",
                     "location": j.get("location") or "; ".join(j.get("locations") or []),
-                    "text": strip_html(det.get("job_description", "") or "")})
+                    "text": strip_html(det.get("job_description", "") or ""), "posted": posted_date(j.get("t_create"))})
     return Jobs(out, complete)
 
 
