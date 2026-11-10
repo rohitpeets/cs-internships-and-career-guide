@@ -4,6 +4,7 @@ Everything in the tables comes from company feeds, so it's treated as untrusted:
 and a link is used only if it's a plain http(s) URL (otherwise the row is left out and counted).
 """
 import html
+import json
 import re
 import sys
 from collections import Counter
@@ -219,6 +220,11 @@ Every row links straight to the company's application page. International studen
 - Found a missing posting, a broken link, or a mistake? [Open an issue](https://github.com/rohitpeets/cs-internships-and-career-guide/issues).
 """
     (ROOT / "README.md").write_text(readme, encoding="utf-8")
+    # numbers for the GitHub Pages home page (index.html reads them as site.data.stats)
+    (ROOT / "_data").mkdir(exist_ok=True)
+    (ROOT / "_data" / "stats.json").write_text(json.dumps({"updated": today(), "internships": counts.get("internship", 0),
+        "new_grad": counts.get("new_grad", 0), "early": counts.get("early", 0), "new_week": len(new), "total": len(rows),
+        "boards": boards}, indent=2) + "\n", encoding="utf-8")
     print(f"built: {dict(counts)}, new this week {len(new)}, rows left out for unsafe links {skipped}")
 
 

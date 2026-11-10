@@ -1,9 +1,12 @@
 title: "Things I Wish I Knew: CS Edition"
 description: "Daily-updated CS internships, new grad jobs and freshman programs in the U.S., with visa/CPT tags for international students, plus free guides on resumes, projects, LeetCode, networking and interviews."
-theme: jekyll-theme-primer
 plugins:
   - jekyll-relative-links
   - jekyll-seo-tag
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-titles-from-headings
+  - jekyll-default-layout
 relative_links:
   enabled: true
   collections: false
@@ -13,3 +16,5 @@ exclude:
   - tests/
   - requirements.txt
   - .github/
+  - docs/
+  - "*.ps1"
