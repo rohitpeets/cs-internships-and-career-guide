@@ -40,14 +40,12 @@ CITIZEN = re.compile(
     r"|\bitar\b", re.I)  # ITAR roles are limited to U.S. persons; generic "comply with export control laws" doesn't count
 CLEARANCE = re.compile(r"(security|secret|top secret|ts/sci|dod) clearance|clearance (is )?required|(obtain|maintain|hold) (an? |active )?(security )?clearance|\bts/sci\b", re.I)
 REMOTE = re.compile(r"\bremote\b", re.I)
+# F-1 students need CPT (during school) or OPT: a posting that rules those out is closed to them right now, not just later
+NO_CPT = re.compile(r"(does not|doesn't|will not|won't|not|cannot|can't|unable to|no)\s+(\w+\s+){0,3}(accept|consider|support|eligible|available|allow)\w*[^.]{0,40}\b(cpt|opt|curricular practical|optional practical|f-?1)\b"
+                    r"|\b(cpt|opt|f-?1)\b[^.]{0,40}\b(not (be )?(accepted|eligible|considered|supported)|ineligible)"
+                    r"|\bno (cpt|opt)\b", re.I)
 
 
-# the board is for CS / computer engineering students: keep technical roles only
-TECH = re.compile(r"\b(robotic\w*|applied scientist|gpu|cuda|dft|(software|hardware|electrical|silicon|firmware|design) (validation|verification)|validation engineer\w*|fpga|asic|test automation|automation test\w*|erp|telecom\w*|software|developer|engineer(ing)?|data|machine learning|ml|a\.?i\.?|artificial intelligence|computer|cyber|security|"
-                  r"it|information technology|network|cloud|devops|sre|site reliability|infrastructure|platform|embedded|firmware|hardware|"
-                  r"electrical|robotics|autonomy|computer vision|systems|research|analytics|analyst|quant(itative)?|product manag\w*|"
-                  r"technical program|qa|test|automation|web|mobile (app\w*|developer|software|engineer\w*)|android|ios|full[- ]?stack|front[- ]?end|back[- ]?end|game|graphics|"
-                  r"database|bioinformatics|scientist|technology|tech|slam|mapping|perception|estimation|autonomous|controls?|tooling|simulation)\b", re.I)
 NON_TECH = re.compile(r"\b(tax|compliance|audit|pricing|actuarial|underwriting|marketing|sales|account (executive|manager)|finance|accounting|human resources|hr|recruit\w*|legal|paralegal|"
                       r"communications|public relations|customer (experience|success|service)|corporate strategy|supply chain|procurement|"
                       r"artist|graphic design|content|social media|events?|administrative|operations intern|game presentation|"
@@ -76,14 +74,24 @@ NON_US = re.compile(r"\b(united kingdom|uk|england|scotland|wales|london|glasgow
     r"uae|dubai|abu dhabi|qatar|doha|saudi\w*|riyadh|egypt|cairo|nigeria|lagos|kenya|nairobi|south africa|johannesburg|cape town|"
     r"mexico|guadalajara|monterrey|brazil|são paulo|sao paulo|blumenau|argentina|buenos aires|chile|colombia|bogota|bogotá|peru|costa rica|guatemala|"
     r"lausanne|valbonne|sophia antipolis|knutsford|sgp|"
+    r"armenia|yerevan|tbilisi|kazakhstan|almaty|uzbekistan|tashkent|morocco|casablanca|tunisia|ghana|accra|jordan|amman|lebanon|beirut|cyprus|malta|"
+    r"luxembourg|iceland|slovakia|bratislava|slovenia|ljubljana|belarus|minsk|moldova|ecuador|quito|uruguay|montevideo|panama|dominican republic|"
+    r"bahrain|kuwait|oman|nepal|kathmandu|cambodia|mongolia|basel|getafe|lysaker|north york|tan uyen|"
     r"emea|apac|latam|europe)\b", re.I)
 US_MARK = re.compile(r"(?i:\b(united states|usa|u\.s\.a?\.?)(?!\w))|\bUS\b")
 
 
+US_STATE_END = re.compile(r",\s*(AL|AK|AZ|AR|CA|CO|CT|DE|DC|FL|GA|HI|ID|IL|IN|IA|KS|KY|LA|ME|MD|MA|MI|MN|MS|MO|MT|NE|NV|NH|NJ|NM|NY|NC|ND|OH|OK|OR|PA|RI|SC|SD|TN|TX|UT|VT|VA|WA|WV|WI|WY|PR)"
+                          r"\s*(,\s*(?i:us|usa|united states( of america)?))?\s*$")
+
+
 def us_job(location: str) -> bool:
-    """Drop non-US jobs. A location naming another country/city counts as US only if it also says "United States"/"US"
-    (multi-location postings). Two-letter codes aren't trusted: "Blumenau, SC, Brazil" isn't South Carolina."""
-    loc = location or ""
+    """Drop non-US jobs. "Athens, GA" and "Dublin, CA" are US: a city followed by a state code at the end wins.
+    "Blumenau, SC, Brazil" isn't South Carolina, because the code isn't at the end. Otherwise a location naming another
+    country or city counts as US only if it also says "United States"/"US" (multi-location postings)."""
+    loc = (location or "").strip()
+    if US_STATE_END.search(loc):
+        return True
     return not NON_US.search(loc) or bool(US_MARK.search(loc))
 
 
@@ -152,7 +160,7 @@ def sentences(text: str) -> list[str]:
 
 
 def tags(text: str, location: str = "") -> tuple[dict, dict]:
-    t, ev = {"sponsor": None, "citizen": None, "clearance": None, "remote": bool(REMOTE.search(location))}, {}
+    t, ev = {"sponsor": None, "citizen": None, "clearance": None, "no_cpt": None, "remote": bool(REMOTE.search(location))}, {}
     sents = [x for x in sentences(text) if not re.search(r"export licen[cs]e", x, re.I)]
     no = next((x for x in sents if SPONSOR_NO.search(x)), None)
     yes = next((x for x in sents if SPONSOR_YES.search(x) and not NEG.search(x) and not SPONSOR_HEDGE.search(x)), None)
@@ -160,7 +168,7 @@ def tags(text: str, location: str = "") -> tuple[dict, dict]:
         t["sponsor"], ev["sponsor"] = False, no[:300]
     elif yes:
         t["sponsor"], ev["sponsor"] = True, yes[:300]
-    for name, rx in (("citizen", CITIZEN), ("clearance", CLEARANCE)):
+    for name, rx in (("citizen", CITIZEN), ("clearance", CLEARANCE), ("no_cpt", NO_CPT)):
         hit = next((x for x in sents if rx.search(x)), None)
         if hit:
             t[name], ev[name] = True, hit[:300]

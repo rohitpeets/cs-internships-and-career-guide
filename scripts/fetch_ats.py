@@ -127,8 +127,8 @@ def main():
     if a.local:
         save_json(target, {"fetched_at": now_iso(), "rows": out, "removed": removed[-2000:]})
     else:
+        save_json(REMOVED, removed)  # first: a crash before the next line leaves a closed row in both files, never in neither
         save_json(target, out)
-        save_json(REMOVED, removed)
     print(f"{now_iso()} boards={len(boards)} failed={len(failed)} gone={len(gone)} unsure={len(unsure)} open={len(rows)} closed_now={closed}")
     for f in failed[:20]:
         print("  FAILED", f)

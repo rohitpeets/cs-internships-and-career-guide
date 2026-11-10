@@ -33,6 +33,11 @@ On the first full run the cloud half found 732 postings and the laptop half foun
 
 **Read-only for students.** Only maintainers can change the board. Students suggest postings to an ACM officer, who adds them to `data/manual.yaml`. With 300 readers, an open write path would mean spam and broken tables.
 
+
+**Treating feed text as untrusted.** Titles, locations and links come from other companies' systems and end up on a public page. Every cell is HTML- and markdown-escaped, and a link is used only if it's a plain http(s) URL, so a posting titled `Intern](https://phishing.example)` can't plant a link. The workflow's actions are pinned to commit SHAs and dependencies to exact versions.
+
+**F-1 students.** 🛂❌ (no sponsorship later) is kept separate from 🚫 (the posting says it won't take CPT/OPT), because only the second one closes the role to an F-1 student right now. Government and national-lab titles get 🏛 as a "check this" flag even when the posting doesn't say it's U.S.-only.
+
 ## What I'd do next
 
 - Hand-label about 150 postings and report precision and recall for each tag, especially how often the board wrongly says a company sponsors.

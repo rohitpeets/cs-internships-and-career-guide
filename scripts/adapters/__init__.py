@@ -5,6 +5,13 @@ so a changed API fails loudly instead of silently returning zero jobs.
 """
 
 
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from classify import keep_title, strip_html  # noqa: E402
+
+
 class ShapeError(Exception):
     pass
 
@@ -19,6 +26,20 @@ class Jobs(list):
     def __init__(self, items=(), complete=True):
         super().__init__(items)
         self.complete = complete
+
+
+def paginate(call, step, cap=1000):
+    """call(offset) -> (items, total). Pages until a short/empty page or `total`; stops at `cap` and reports it,
+    so a capped board is treated as incomplete (missing jobs aren't counted as closed)."""
+    out, offset = [], 0
+    while True:
+        items, total = call(offset)
+        out += items
+        offset += step
+        if not items or offset >= total:
+            return out, True
+        if offset >= cap:
+            return out, False
 
 
 def gone(r, board):
@@ -37,7 +58,6 @@ def greenhouse(board, http):
     r.raise_for_status()
     d = r.json()
     need(isinstance(d, dict) and isinstance(d.get("jobs"), list), "greenhouse: no jobs list")
-    from classify import strip_html
     return [{"title": j["title"], "url": j["absolute_url"], "location": (j.get("location") or {}).get("name", ""),
              "text": strip_html(j.get("content", ""))} for j in d["jobs"]]
 
@@ -51,7 +71,6 @@ def lever(board, http):
     out = []
     for j in d:
         lists = " ".join(f"{x.get('text', '')}: {x.get('content', '')}" for x in j.get("lists", []))
-        from classify import strip_html
         text = (j.get("descriptionPlain") or "") + "\n" + strip_html(lists) + "\n" + (j.get("additionalPlain") or "")
         out.append({"title": j["text"], "url": j["hostedUrl"], "location": (j.get("categories") or {}).get("location", "") or "", "text": text})
     return out
@@ -72,29 +91,25 @@ SEARCHES = ("intern", "co-op", "new grad", "graduate", "entry level")
 
 def workday(board, http):
     """board = "tenant.wdN/site". Uses the JSON search behind every Workday career site."""
-    from classify import keep_title, strip_html
     host_part, site = board.split("/", 1)
     tenant = host_part.split(".")[0]
     base = f"https://{host_part}.myworkdayjobs.com"
     api = f"{base}/wday/cxs/{tenant}/{site}"
-    paths, complete = {}, True
-    for q in SEARCHES:
-        offset = 0
-        while True:
+    def page(q):
+        def call(offset):
             r = http.post(f"{api}/jobs", json={"appliedFacets": {}, "limit": 20, "offset": offset, "searchText": q})
             gone(r, board)
             r.raise_for_status()
             d = r.json()
             need(isinstance(d, dict) and isinstance(d.get("jobPostings"), list), "workday: no jobPostings")
-            for j in d["jobPostings"]:
-                if j.get("externalPath") and keep_title(j.get("title", "")):
-                    paths[j["externalPath"]] = j
-            offset += 20
-            if not d["jobPostings"] or offset >= d.get("total", 0):
-                break
-            if offset >= 1000:
-                complete = False
-                break
+            return d["jobPostings"], d.get("total", 0)
+        return call
+
+    paths, complete = {}, True
+    for q in SEARCHES:
+        items, ok = paginate(page(q), 20)
+        complete &= ok
+        paths.update((j["externalPath"], j) for j in items if j.get("externalPath") and keep_title(j.get("title", "")))
     out = []
     for path, j in paths.items():
         r = http.get(f"{api}{path}")
@@ -107,13 +122,10 @@ def workday(board, http):
 def oracle(board, http):
     """board = "prefix.fa.region/site". Uses Oracle Recruiting Cloud's public candidate-experience API."""
     from urllib.parse import quote
-    from classify import keep_title, strip_html
     host_part, site = board.split("/", 1)
     base = f"https://{host_part}.oraclecloud.com"
-    seen, out, complete = {}, [], True
-    for q in ("intern", "co-op", "graduate", "entry level"):
-        offset = 0
-        while True:
+    def page(q):
+        def call(offset):
             finder = quote(f'findReqs;siteNumber={site},facetsList=NONE,limit=100,offset={offset},keyword="{q}",sortBy=POSTING_DATES_DESC', safe=";=,")
             r = http.get(f"{base}/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList&finder={finder}")
             gone(r, board)
@@ -121,16 +133,15 @@ def oracle(board, http):
             d = r.json()
             need(isinstance(d, dict) and isinstance(d.get("items"), list), "oracle: no items")
             batch = [j for item in d["items"] for j in (item.get("requisitionList") or [])]
-            for j in batch:
-                if keep_title(j.get("Title", "")):
-                    seen[j["Id"]] = j
             total = (d["items"][0].get("TotalJobsCount") if d["items"] else 0) or 0
-            offset += 100
-            if len(batch) < 100 or offset >= total:
-                break
-            if offset >= 1000:
-                complete = False
-                break
+            return batch, (total if len(batch) == 100 else 0)  # a short page is the last one
+        return call
+
+    seen, out, complete = {}, [], True
+    for q in ("intern", "co-op", "graduate", "entry level"):
+        items, ok = paginate(page(q), 100)
+        complete &= ok
+        seen.update((j["Id"], j) for j in items if keep_title(j.get("Title", "")))
     for rid, j in seen.items():
         finder = quote(f'ById;Id="{rid}",siteNumber={site}', safe=";=,")
         r = http.get(f"{base}/hcmRestApi/resources/latest/recruitingCEJobRequisitionDetails?expand=all&onlyData=true&finder={finder}")
@@ -145,26 +156,22 @@ def oracle(board, http):
 
 def smartrecruiters(board, http):
     """board = company identifier. Public Posting API: list with keyword search, then one detail call per kept job."""
-    from classify import keep_title, strip_html
     api = f"https://api.smartrecruiters.com/v1/companies/{board}/postings"
-    seen, complete = {}, True
-    for q in ("intern", "co-op", "graduate", "entry level"):
-        offset = 0
-        while True:
+    def page(q):
+        def call(offset):
             r = http.get(api, params={"q": q, "limit": 100, "offset": offset})
             gone(r, board)
             r.raise_for_status()
             d = r.json()
             need(isinstance(d, dict) and isinstance(d.get("content"), list), "smartrecruiters: no content list")
-            for j in d["content"]:
-                if keep_title(j.get("name", "")):
-                    seen[j["id"]] = j
-            offset += 100
-            if not d["content"] or offset >= d.get("totalFound", 0):
-                break
-            if offset >= 1000:
-                complete = False
-                break
+            return d["content"], d.get("totalFound", 0)
+        return call
+
+    seen, complete = {}, True
+    for q in ("intern", "co-op", "graduate", "entry level"):
+        items, ok = paginate(page(q), 100)
+        complete &= ok
+        seen.update((j["id"], j) for j in items if keep_title(j.get("name", "")))
     out = []
     for pid, j in seen.items():
         r = http.get(f"{api}/{pid}")
@@ -182,26 +189,22 @@ def smartrecruiters(board, http):
 
 def amazon(board, http):
     """amazon.jobs public search JSON (board is unused; kept for the companies.yaml format)."""
-    from classify import keep_title, strip_html
-    seen, complete = {}, True
-    for q in ("intern", "co-op", "new grad", "university graduate"):
-        offset = 0
-        while True:
+    def page(q):
+        def call(offset):
             r = http.get("https://www.amazon.jobs/en/search.json",
                          params={"base_query": q, "loc_query": "United States", "result_limit": 100, "offset": offset})
             gone(r, board)
             r.raise_for_status()
             d = r.json()
             need(isinstance(d, dict) and isinstance(d.get("jobs"), list), "amazon: no jobs list")
-            for j in d["jobs"]:
-                if keep_title(j.get("title", "")):
-                    seen[j["id"]] = j
-            offset += 100
-            if not d["jobs"] or offset >= d.get("hits", 0):
-                break
-            if offset >= 1000:
-                complete = False
-                break
+            return d["jobs"], d.get("hits", 0)
+        return call
+
+    seen, complete = {}, True
+    for q in ("intern", "co-op", "new grad", "university graduate"):
+        items, ok = paginate(page(q), 100)
+        complete &= ok
+        seen.update((j["id"], j) for j in items if keep_title(j.get("title", "")))
     return Jobs([{"title": j["title"], "url": "https://www.amazon.jobs" + j["job_path"],
                   "location": j.get("normalized_location") or j.get("location", ""),
                   "text": strip_html("\n".join(j.get(k) or "" for k in ("description", "basic_qualifications", "preferred_qualifications")))}
@@ -210,27 +213,23 @@ def amazon(board, http):
 
 def eightfold(board, http):
     """board = "host|domain", e.g. "explore.jobs.netflix.net|netflix.com". Eightfold's public careers API."""
-    from classify import keep_title, strip_html
     host, domain = board.split("|", 1)
     api = f"https://{host}/api/apply/v2/jobs"
-    seen, complete = {}, True
-    for q in ("intern", "co-op", "new grad", "university"):
-        start = 0
-        while True:
+    def page(q):
+        def call(start):
             r = http.get(api, params={"domain": domain, "query": q, "location": "United States", "start": start, "num": 100})
             gone(r, board)
             r.raise_for_status()
             d = r.json()
             need(isinstance(d, dict) and isinstance(d.get("positions"), list), "eightfold: no positions list")
-            for j in d["positions"]:
-                if keep_title(j.get("name", "")):
-                    seen[j["id"]] = j
-            start += 100
-            if not d["positions"] or start >= d.get("count", 0):
-                break
-            if start >= 1000:
-                complete = False
-                break
+            return d["positions"], d.get("count", 0)
+        return call
+
+    seen, complete = {}, True
+    for q in ("intern", "co-op", "new grad", "university"):
+        items, ok = paginate(page(q), 100)
+        complete &= ok
+        seen.update((j["id"], j) for j in items if keep_title(j.get("name", "")))
     out = []
     for pid, j in seen.items():
         r = http.get(f"{api}/{pid}", params={"domain": domain})

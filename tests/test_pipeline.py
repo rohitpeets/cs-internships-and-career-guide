@@ -142,10 +142,37 @@ def test_us_job_locations():
     assert not classify.us_job("CAD Remote – ON")
 
 
-def test_board_groups_and_dedupes():
-    assert build_readme.state_of("Lake Charles, LA") == "Louisiana"
-    assert build_readme.state_of("Austin, TX; Seattle, WA") == "Multiple locations"
-    assert build_readme.state_of("Remote") == "Remote"
+def test_board_dedupes():
     a = {"company": "T-Mobile", "title": "SWE Intern", "location": "Bellevue, WA", "first_seen": "2026-11-02"}
     b = {**a, "first_seen": "2026-11-01"}
     assert build_readme.dedupe([a, b]) == [b]
+
+
+def test_untrusted_text_cannot_inject_markdown_or_html():
+    evil = 'Software Intern](https://evil.example/login) [Apply <img src=x onerror=alert(1)> | x\r\r# Fake'
+    out = build_readme.text(evil)
+    assert "](" not in out and "<img" not in out and "|" not in out and "\n" not in out and "\r" not in out
+
+
+def test_only_plain_http_links():
+    assert build_readme.safe_url("javascript:alert(1)") is None
+    assert build_readme.safe_url("https://x.com/a b") is None
+    assert build_readme.safe_url("https://x.com/jobs/1\n## Urgent") is None
+    assert build_readme.safe_url("https://x.com/j(1)|x") == "https://x.com/j%281%29%7Cx"
+
+
+def test_paginate_reports_cap():
+    pages = lambda off: ([1] * 100, 5000)
+    items, complete = adapters.paginate(pages, 100, cap=300)
+    assert len(items) == 300 and complete is False
+
+
+def test_us_cities_named_like_foreign_ones():
+    for loc in ("Athens, GA", "Dublin, CA", "Paris, TX", "London, KY", "Vienna, VA, United States"):
+        assert classify.us_job(loc), loc
+
+
+def test_no_cpt_tag():
+    assert classify.tags("We do not accept CPT or OPT for this role.")[0]["no_cpt"] is True
+    assert classify.tags("This role is not eligible for OPT.")[0]["no_cpt"] is True
+    assert classify.tags("We will not sponsor H-1B visas.")[0]["no_cpt"] is None

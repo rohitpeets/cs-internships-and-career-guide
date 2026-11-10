@@ -31,10 +31,12 @@ jobs:
     env:
       FULL_RUN: ${{ github.event_name != 'push' }}
     steps:
-      # Before launch: pin both actions to a full commit SHA (keep the version as a comment).
-      - uses: actions/checkout@v4
+      # Actions pinned to full commit SHAs, so a moved tag can't change what runs with write access.
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 8 # validate.py compares against the last 7 commits of postings.json
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
         with:
           python-version: "3.12"
           cache: pip
@@ -42,7 +44,7 @@ jobs:
       - run: pip install -r requirements.txt
 
       # Greenhouse, Lever, Ashby (more sources added in later steps).
-      # Workday and Oracle come from the laptop's nightly run (data/checks.json).
+      # Workday and Oracle come from the laptop's nightly run (data/local.json).
       - name: Fetch company job boards
         if: env.FULL_RUN == 'true'
         run: python scripts/fetch_ats.py --cloud
@@ -65,8 +67,8 @@ jobs:
       - name: Run tests
         run: python -m pytest -q
 
-      # Schema check, plus fail if open postings dropped more than 50% since the last commit
-      # (skipped on the first run, when there is nothing to compare against).
+      # Schema check, plus fail if open postings fell below half of the 7-commit high
+      # (an intended drop is committed with [reset-baseline] in the message).
       - name: Validate data
         run: python scripts/validate.py
 

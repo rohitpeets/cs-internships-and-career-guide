@@ -94,7 +94,7 @@ mcneese-jobs/
 │   └── eval/labeled.csv          ~150 hand-labeled postings for section and tag accuracy *(planned)*
 ├── docs/
 │   ├── WRITEUP.md                design tradeoffs (portfolio)
-│   └── MAINTAINING.md            runbook for officers *(planned)*
+│   └── MAINTAINING.md            runbook for officers
 ├── .github/workflows/daily.yml
 └── .github/workflows/tests.yml   run tests on every push *(planned)*
 ```

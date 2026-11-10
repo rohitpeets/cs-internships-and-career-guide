@@ -1,5 +1,6 @@
 """Shared helpers: paths, JSON/YAML I/O, URL keys, polite HTTP."""
 import json
+import os
 import threading
 import time
 from datetime import date, datetime, timezone
@@ -34,7 +35,15 @@ def load_json(path: Path, default):
 
 
 def save_json(path: Path, obj) -> None:
-    path.write_text(json.dumps(obj, indent=1, ensure_ascii=False, sort_keys=True) + "\n", encoding="utf-8")
+    """Atomic write (temp file + rename), so a crash never leaves half a file. Lists are written one record per line,
+    so the daily commit's diff is only the rows that changed."""
+    if isinstance(obj, list):
+        text = "[\n" + ",\n".join(json.dumps(r, ensure_ascii=False, sort_keys=True) for r in obj) + "\n]\n"
+    else:
+        text = json.dumps(obj, indent=1, ensure_ascii=False, sort_keys=True) + "\n"
+    tmp = path.with_suffix(path.suffix + ".tmp")
+    tmp.write_text(text, encoding="utf-8")
+    os.replace(tmp, path)
 
 
 def load_yaml(path: Path, default):
@@ -77,11 +86,11 @@ class Http:
         host = urlsplit(url).netloc
         for attempt in range(self.retries + 1):
             self._wait_turn(host)
-            r = self.s.request(method, url, timeout=self.timeout, **kw)
+            r = self.s.request(method, url, timeout=self.timeout, **kw)  # sleeping happens outside the host lock
             if r.status_code not in (429, 503) or attempt == self.retries:
                 return r
             try:
-                delay = min(float(r.headers.get("Retry-After", "")), 60)
+                delay = max(0.0, min(float(r.headers.get("Retry-After", "")), 60))
             except ValueError:
                 delay = 5 * (attempt + 1)
             time.sleep(delay)
