@@ -30,6 +30,8 @@ A blank tag means the posting doesn't say. The grey line under a title is the se
 > 🛂❌ usually means no visa sponsorship later (for example H-1B). Unless the row also shows 🚫, CPT or OPT may still work. Check with the recruiter and your DSO."""
 START_HERE = """## New to internships? Start here
 
+**📘 [Student guides](guides/README.md):** short how-tos for CS and CE students on GitHub, LinkedIn, your first resume, projects, networking, applying and interviews, and a 4-year timeline.
+
 - **Apply early.** Most summer internships open between August and October of the year before, and many fill by winter.
 - **Freshmen and sophomores:** start with 🌱 Early Programs. In the other lists, open the posting and check the qualifications for class year and GPA.
 - **Internship vs. co-op:** an internship is usually a summer. A co-op is usually a full semester or more of full-time work, often with a break from classes.
