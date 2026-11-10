@@ -46,6 +46,15 @@ def table(rows) -> str:
     return "\n".join(lines)
 
 
+def new_section(new) -> str:
+    if not new:
+        return "_Nothing new this week yet._"
+    if len(new) > 150:  # launch week (or a big new source): everything is "new", so point to the sections instead
+        return "_Lots of postings were added this week, so browse the sections above. This list shows the newest additions once things settle._"
+    shown = table(new[:75])
+    return shown if len(new) <= 75 else shown + f"\n\nShowing the 75 newest of {len(new)}. The rest are in the section pages above."
+
+
 def main():
     rows = load_json(POSTINGS, [])
     counts = Counter(r["section"] for r in rows)
@@ -70,8 +79,7 @@ This board isn't the most complete one out there. It focuses on tags you can tru
 
 ## 🆕 New this week ({len(new)})
 
-{table(new[:75]) if new else "_Nothing new this week yet._"}
-{"" if len(new) <= 75 else chr(10) + f"_…and {len(new) - 75} more in the section pages._"}
+{new_section(new)}
 
 ---
 Found a posting that should be here? Tell an ACM officer.

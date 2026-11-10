@@ -1,12 +1,13 @@
 # Laptop job: fetch Workday + Oracle boards, commit data/local.json, push.
 # Scheduled nightly by Task Scheduler (see docs/MAINTAINING.md). Touches only data/local.json.
-$ErrorActionPreference = "Stop"
+# Continue, not Stop: git writes normal progress to stderr, which PowerShell would otherwise treat as an error
+$ErrorActionPreference = "Continue"
 Set-Location (Join-Path $PSScriptRoot "..\..")
 New-Item -ItemType Directory -Force logs | Out-Null
 $log = "logs\nightly-$(Get-Date -Format yyyy-MM-dd).log"
 
 git pull --rebase *>> $log
-python scripts/fetch_ats.py --local *>> $log
+python scripts/fetch_ats.py --local --workers 16 *>> $log
 if ($LASTEXITCODE -ne 0) { "fetch failed" >> $log; exit 1 }
 
 git add data/local.json
