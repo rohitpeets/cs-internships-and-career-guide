@@ -8,6 +8,7 @@ Only reads robots.txt files (one per site). Boards listed as BLOCKED will be ski
 import argparse
 import sys
 from collections import Counter
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
@@ -36,12 +37,20 @@ def main():
     boards = [c for c in load_yaml(COMPANIES, {"companies": []})["companies"] if c["ats"] in ROBOTS_ATS]
     if a.limit:
         boards = boards[: a.limit]
-    http, tally = Http(gap=1.0), Counter()
-    for c in boards:
-        ok = http.robots_allow(api_url(c))
-        tally[(c["ats"], ok)] += 1
-        if not ok:
-            print(f"BLOCKED  {c['ats']:<10} {c['name']}")
+    print(f"checking robots.txt for {len(boards)} boards (8 at a time)...", flush=True)
+    tally = Counter()
+
+    def check(c):
+        return c, Http(gap=1.0, timeout=10).robots_allow(api_url(c))
+
+    with ThreadPoolExecutor(max_workers=8) as pool:
+        for i, f in enumerate(as_completed([pool.submit(check, c) for c in boards]), 1):
+            c, ok = f.result()
+            tally[(c["ats"], ok)] += 1
+            if not ok:
+                print(f"BLOCKED  {c['ats']:<10} {c['name']}", flush=True)
+            if i % 50 == 0:
+                print(f"  {i}/{len(boards)} checked", flush=True)
     for (ats, ok), n in sorted(tally.items()):
         print(f"{ats:<10} {'allowed' if ok else 'blocked'}: {n}")
 
