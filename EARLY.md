@@ -1,6 +1,6 @@
 # Early Programs (freshmen & sophomores)
 
-[⬅ Back to the main page](README.md) · 5 open · updated 2026-11-10
+[⬅ Back to the main page](README.md) · 0 open · updated 2026-11-09
 
 Postings that say freshmen or sophomores can apply, or programs built for them. The grey line under each title is the sentence from the posting, so you can check it.
 
@@ -16,8 +16,3 @@ A blank tag means the posting doesn't say. The grey line under a title is the se
 
 | Company | Role | Location | Tags |
 |---|---|---|---|
-| Emerson | [Software Engineering Co-Op \(Jan-Aug 2027\)](https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26010048) | Eden Prairie, MN, United States |  |
-| Emerson | [Software Engineering Co-op \(Jun-Dec 2027\)](https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26010738) | Eden Prairie, MN, United States |  |
-| First National Bank | [Summer 2027 - Technology Intern](https://firstnational.wd12.myworkdayjobs.com/fnbocareers/job/Omaha---FN-Tower/Summer-2027---Technology-Intern_R-20261653) | Omaha - FN Tower |  |
-| TruStage | [Information Technology - Development and Infrastructure Internship \(hybrid\)](https://trustage.wd1.myworkdayjobs.com/TruStage/job/Wisconsin---Remote/Enterprise-Information---Technology-Internship--Hybrid-_R-012155) | Wisconsin - Remote | 🌐 |
-| Venerable | [IT Internship - Summer 2027](https://venerable.wd5.myworkdayjobs.com/venerablecareers/job/PA-West-Chester---Dunwoody-Dr/IT-Internship---Summer-2027_REQ778) | PA-West Chester - Dunwoody Dr |  |
