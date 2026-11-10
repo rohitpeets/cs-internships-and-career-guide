@@ -15,9 +15,13 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 import adapters  # noqa: E402
 from classify import early_evidence, keep_title, section, tags, us_job  # noqa: E402
-from common import COMPANIES, LOCAL, POSTINGS, REMOVED, Http, load_json, load_yaml, now_iso, save_json, today, url_key  # noqa: E402
+from common import COMPANIES, DATA, LOCAL, POSTINGS, REMOVED, Blocked, Http, load_json, load_yaml, now_iso, save_json, today, url_key  # noqa: E402
 
 MAX_FAIL_SHARE = 0.3  # more failing boards than this means something is wrong on our side
+BLOCKED = DATA / "blocked.json"  # boards that said no (robots.txt, 401, 403); skipped until --retry-blocked
+# These sources' JSON endpoints aren't documented for third parties, so we follow each site's robots.txt.
+# Greenhouse, Lever, Ashby and SmartRecruiters publish their job-board APIs for exactly this use.
+ROBOTS_ATS = {"workday", "oracle", "amazon", "eightfold"}
 
 
 def to_row(company, ats, board, j):
@@ -33,7 +37,8 @@ def to_row(company, ats, board, j):
 
 
 def fetch_one(c, fns):
-    return c, fns[c["ats"]](c["board"], Http(gap=1.0))  # pacing is shared per host across all Http objects
+    # pacing is shared per host across all Http objects
+    return c, fns[c["ats"]](c["board"], Http(gap=1.0, check_robots=c["ats"] in ROBOTS_ATS))
 
 
 def board_of(r, by_name):
@@ -48,7 +53,8 @@ def main():
     mode.add_argument("--local", action="store_true")
     ap.add_argument("--only", help="one ats name")
     ap.add_argument("--limit", type=int, help="first N boards (testing)")
-    ap.add_argument("--workers", type=int, default=8, help="boards fetched in parallel (local mode)")
+    ap.add_argument("--workers", type=int, default=4, help="boards fetched in parallel (local mode)")
+    ap.add_argument("--retry-blocked", action="store_true", help="try boards that blocked us before (only after checking they allow it)")
     a = ap.parse_args()
 
     fns = adapters.LOCAL if a.local else adapters.CLOUD
@@ -62,12 +68,18 @@ def main():
         boards = boards[: a.limit]
 
     state = load_json(target, {"rows": []} if a.local else [])
+    blocked = state.get("blocked", {}) if a.local else load_json(BLOCKED, {})
+    if a.retry_blocked:
+        blocked = {k: v for k, v in blocked.items() if not any(f'{c["ats"]}|{c["board"]}' == k for c in boards)}
     rows = {r["id"]: r for r in (state["rows"] if a.local else state)}
     # the laptop keeps its own closed list inside local.json, so it never edits a file the Action also writes
     removed = state.get("removed", []) if a.local else load_json(REMOVED, [])
     removed_ids = {r["id"] for r in removed}
     failed, gone, unsure, seen = [], [], set(), {}
     by_name = {(c["name"], c["ats"]): c["board"] for c in boards}
+    for c in [c for c in boards if f'{c["ats"]}|{c["board"]}' in blocked]:  # it said no before: don't ask again
+        unsure.add((c["ats"], c["board"]))  # its rows show ⚠ and leave after 7 days
+        boards.remove(c)
 
     with ThreadPoolExecutor(max_workers=a.workers if a.local else 1) as pool:
         futures = [pool.submit(fetch_one, c, fns) for c in boards]
@@ -76,6 +88,10 @@ def main():
             key = (c["ats"], c["board"])
             try:
                 _, jobs = f.result()
+            except Blocked as e:  # robots.txt, 401 or 403: stop asking this site, never work around it
+                blocked[f'{c["ats"]}|{c["board"]}'] = {"name": c["name"], "reason": str(e)[:150], "since": today()}
+                unsure.add(key)
+                continue
             except adapters.BoardGone as e:  # renamed/deleted board: flag its rows, never treat as "zero jobs"
                 gone.append(f'{c["name"]} ({c["ats"]}/{c["board"]}): {e}')
                 unsure.add(key)
@@ -130,11 +146,12 @@ def main():
 
     out = sorted(rows.values(), key=lambda r: (r["company"].lower(), r["title"].lower()))
     if a.local:
-        save_json(target, {"fetched_at": now_iso(), "rows": out, "removed": removed[-2000:]})
+        save_json(target, {"fetched_at": now_iso(), "rows": out, "removed": removed[-2000:], "blocked": blocked})
     else:
         save_json(REMOVED, removed[-5000:])  # first: a crash before the next line leaves a closed row in both files, never in neither
         save_json(target, out)
-    print(f"{now_iso()} boards={len(boards)} failed={len(failed)} gone={len(gone)} unsure={len(unsure)} open={len(rows)} closed_now={closed}")
+        save_json(BLOCKED, blocked)
+    print(f"{now_iso()} boards={len(boards)} failed={len(failed)} blocked={len(blocked)} gone={len(gone)} unsure={len(unsure)} open={len(rows)} closed_now={closed}")
     for f in failed[:20]:
         print("  FAILED", f)
     for g in gone[:40]:

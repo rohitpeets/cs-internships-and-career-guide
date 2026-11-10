@@ -7,7 +7,7 @@ New-Item -ItemType Directory -Force logs | Out-Null
 $log = "logs\nightly-$(Get-Date -Format yyyy-MM-dd).log"
 
 git pull --rebase --autostash *>> $log
-python scripts/fetch_ats.py --local --workers 16 *>> $log
+python scripts/fetch_ats.py --local --workers 4 *>> $log
 if ($LASTEXITCODE -ne 0) { "fetch failed" >> $log; exit 1 }
 
 git add data/local.json

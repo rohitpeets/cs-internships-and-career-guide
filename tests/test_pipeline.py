@@ -24,7 +24,8 @@ def board(tmp_path, monkeypatch):
     """A one-company world: companies.yaml with board 'acme', fake greenhouse adapter, temp data files."""
     comp = tmp_path / "companies.yaml"
     comp.write_text("companies:\n  - {name: Acme, ats: greenhouse, board: acme}\n")
-    for name, path in (("COMPANIES", comp), ("POSTINGS", tmp_path / "postings.json"), ("REMOVED", tmp_path / "removed.json")):
+    for name, path in (("COMPANIES", comp), ("POSTINGS", tmp_path / "postings.json"), ("REMOVED", tmp_path / "removed.json"),
+                       ("BLOCKED", tmp_path / "blocked.json")):
         monkeypatch.setattr(fetch_ats, name, path)
     state = {"jobs": [job(1), job(2)], "error": None}
 
@@ -202,3 +203,50 @@ def test_clearance_wording():
     assert t("Upon start, you will be sponsored for a TS/SCI clearance.")[0]["sponsor"] is None
     assert t("A security clearance is not required for this role.")[0]["clearance"] is None
     assert t("This position is not eligible for sponsorship, OPT, or CPT.")[0]["no_cpt"] is True
+
+
+def test_city_region_country_code_locations():
+    # "City, Region, CC" (SmartRecruiters style): the last code is a country, even when it looks like a state
+    assert not classify.us_job("Sofia, Bosch Digital, Sofia City Province, BG")
+    assert not classify.us_job("Bengaluru, KA, IN")
+    assert not classify.us_job("Toronto, ON, CA")
+    assert classify.us_job("Austin, TX, US")
+    assert classify.us_job("Indianapolis, Marion County, IN")
+    assert classify.us_job("Dublin, CA") and classify.us_job("Athens, GA")
+
+
+class _Resp:
+    def __init__(self, code, text=""):
+        self.status_code, self.text, self.headers, self.ok = code, text, {}, code < 400
+
+
+def test_http_stops_on_403_and_never_retries(monkeypatch):
+    import common
+    calls = []
+    h = common.Http(gap=0)
+    monkeypatch.setattr(h.s, "request", lambda m, u, **k: calls.append(u) or _Resp(403))
+    with pytest.raises(common.Blocked):
+        h.get("https://blocked.example/jobs")
+    assert len(calls) == 1
+
+
+def test_http_follows_robots_txt_when_asked(monkeypatch):
+    import common
+    h = common.Http(gap=0, check_robots=True)
+    monkeypatch.setattr(h.s, "get", lambda u, **k: _Resp(200, "User-agent: *\nDisallow: /api/\n"))
+    monkeypatch.setattr(h.s, "request", lambda m, u, **k: _Resp(200))
+    with pytest.raises(common.Blocked):
+        h.get("https://robots.example/api/jobs")
+    assert h.get("https://robots.example/careers").status_code == 200
+    # documented APIs (Greenhouse, Lever...) don't check robots.txt
+    plain = common.Http(gap=0)
+    monkeypatch.setattr(plain.s, "request", lambda m, u, **k: _Resp(200))
+    assert plain.get("https://robots.example/api/jobs").status_code == 200
+
+
+def test_missing_robots_txt_means_allowed(monkeypatch):
+    import common
+    h = common.Http(gap=0, check_robots=True)
+    monkeypatch.setattr(h.s, "get", lambda u, **k: _Resp(404))
+    monkeypatch.setattr(h.s, "request", lambda m, u, **k: _Resp(200))
+    assert h.get("https://norobots.example/api/jobs").status_code == 200

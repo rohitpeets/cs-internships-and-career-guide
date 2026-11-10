@@ -38,3 +38,12 @@ To check a guess before adding it, put it in `GUESSES` in `scripts/probe_sources
 
 - **GitHub Action, daily** (`.github/workflows/daily.yml`): Greenhouse, Lever, Ashby, SmartRecruiters, Amazon and Netflix, then merge, classify, test, validate, and build the pages. Failures email the repo owner. The log is in the Actions tab.
 - **Laptop, nightly** (`scripts/local/nightly.ps1`, Windows Task Scheduler): Workday and Oracle, written to `data/local.json`. Any machine with Python and push access can run it. If it stops, those rows show ⚠ after 3 days and leave after 7.
+
+## Fetching politely
+
+- The board reads only public pages and APIs, without logging in, and identifies itself in its user-agent with a link to this repo's issues.
+- Workday, Oracle, Amazon and Eightfold (Netflix) don't document their JSON endpoints for outside use, so for those the fetcher follows each site's robots.txt. Greenhouse, Lever, Ashby and SmartRecruiters publish their job-board APIs for this purpose.
+- A site that answers 401 or 403, or whose robots.txt disallows the path, is recorded in `data/blocked.json` (cloud) or under `blocked` in `data/local.json` (laptop) and skipped from then on. Its rows show ⚠ and leave after 7 days. Never work around a block: no proxies, no fake browser headers, no logins.
+- To see what robots.txt allows for every board: `python scripts/check_robots.py`.
+- Only after a site has changed its rules to allow it: `python scripts/fetch_ats.py --local --retry-blocked`.
+- The laptop job runs 4 boards in parallel and waits about a second between requests to the same host.

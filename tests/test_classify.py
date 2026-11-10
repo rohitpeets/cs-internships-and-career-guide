@@ -100,10 +100,32 @@ def test_sponsor_regressions_from_audit():
 
 def test_export_control_alone_is_not_citizenship():
     assert tags("You must comply with U.S. Export Control Laws.")[0]["citizen"] is None
-    assert tags("This position is subject to ITAR.")[0]["citizen"] is True
+    # a bare ITAR mention gets its own "mentions ITAR" tag, not "citizens only"
+    t, ev = tags("This position is subject to ITAR.")
+    assert t["citizen"] is None and t["itar"] is True and ev["itar"] == "This position is subject to ITAR."
     assert tags("Applicants must be U.S. persons under ITAR.")[0]["citizen"] is True
 
 
 def test_evidence_not_cut_at_abbreviation():
     _, ev = tags("Must be a U.S. citizen to apply. Great team.")
     assert ev["citizen"] == "Must be a U.S. citizen to apply."
+
+
+def test_heading_is_read_with_the_line_after_it():
+    # "ITAR Requirement:" alone says nothing; the next line decides the tag and is shown as evidence
+    t, ev = tags("ITAR Requirement:\nApplicants must be U.S. persons.")
+    assert t["citizen"] is True and ev["citizen"] == "ITAR Requirement: Applicants must be U.S. persons."
+    t, ev = tags("ITAR Requirement:\nThis role works with export-controlled data.")
+    assert t["citizen"] is None and t["itar"] is True and ev["itar"].startswith("ITAR Requirement: This role")
+
+
+def test_clearance_none_is_not_a_clearance():
+    assert tags("Minimum Clearance Required to Start: None")[0]["clearance"] is None
+    assert tags("Security Clearance:\nNone required.")[0]["clearance"] is None
+    assert tags("Minimum Clearance Required to Start: TS/SCI")[0]["clearance"] is True
+    assert tags("Security Clearance:\nActive Secret clearance required.")[0]["clearance"] is True
+
+
+def test_quote_not_cut_at_e_g_across_a_line_break():
+    _, ev = tags("We do not provide sponsorship for employment visa status (e.\ng., H-1B). Thanks.")
+    assert ev["sponsor"] == "We do not provide sponsorship for employment visa status (e. g., H-1B)."

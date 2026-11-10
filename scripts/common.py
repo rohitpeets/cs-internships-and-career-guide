@@ -5,6 +5,7 @@ import threading
 import time
 from datetime import date, datetime, timezone
 from pathlib import Path
+from urllib import robotparser
 from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 
 import requests
@@ -18,7 +19,8 @@ COMPANIES = DATA / "companies.yaml"
 MANUAL = DATA / "manual.yaml"
 LOCAL = DATA / "local.json"  # written only by the laptop job (Workday, Oracle)
 
-USER_AGENT = "cs-internships-and-career-guide/1.0 (student job board; github.com/rohitpeets/cs-internships-and-career-guide)"
+BOT_NAME = "cs-internships-and-career-guide"
+USER_AGENT = f"{BOT_NAME}/1.0 (free student job board; contact: https://github.com/rohitpeets/cs-internships-and-career-guide/issues)"
 TRACKING = ("utm_", "source", "ref", "gh_src", "lever-source")
 
 
@@ -59,6 +61,12 @@ def url_key(url: str) -> str:
     return urlunsplit((s.scheme.lower(), s.netloc.lower(), s.path.rstrip("/"), urlencode(q), "")).lower()
 
 
+class Blocked(Exception):
+    """The site said no: robots.txt disallows the path, or it answered 401/403. We stop; we never work around it."""
+
+
+_ROBOTS: dict = {}
+_ROBOTS_LOCK = threading.Lock()
 _HOST_LAST: dict = {}
 _HOST_LOCKS: dict = {}
 _LOCKS_LOCK = threading.Lock()
@@ -68,10 +76,34 @@ class Http:
     """requests session; every Http object shares one pacing clock per host, so boards on the
     same host (boards-api.greenhouse.io) never go back-to-back. 429/503 are retried with backoff."""
 
-    def __init__(self, gap: float = 1.0, timeout: float = 20.0, retries: int = 3):
+    def __init__(self, gap: float = 1.0, timeout: float = 20.0, retries: int = 3, check_robots: bool = False):
         self.s = requests.Session()
         self.s.headers["User-Agent"] = USER_AGENT
-        self.gap, self.timeout, self.retries = gap, timeout, retries
+        self.gap, self.timeout, self.retries, self.check_robots = gap, timeout, retries, check_robots
+
+    def robots_allow(self, url: str) -> bool:
+        """robots.txt for the URL's site, read once per run. Missing (404) means allowed;
+        401/403 on robots.txt itself means everything is off limits."""
+        s = urlsplit(url)
+        root = f"{s.scheme}://{s.netloc}"
+        with _ROBOTS_LOCK:
+            rp = _ROBOTS.get(root)
+        if rp is None:
+            rp = robotparser.RobotFileParser()
+            try:
+                self._wait_turn(s.netloc)
+                r = self.s.get(root + "/robots.txt", timeout=self.timeout)
+                if r.status_code in (401, 403):
+                    rp.disallow_all = True
+                elif r.status_code >= 400:
+                    rp.allow_all = True
+                else:
+                    rp.parse(r.text.splitlines())
+            except requests.RequestException:
+                rp.allow_all = True  # robots.txt unreachable: the usual rule is to treat it as allowed
+            with _ROBOTS_LOCK:
+                _ROBOTS[root] = rp
+        return rp.can_fetch(BOT_NAME, url)
 
     def _wait_turn(self, host: str) -> None:
         with _LOCKS_LOCK:
@@ -84,9 +116,13 @@ class Http:
 
     def _call(self, method: str, url: str, **kw) -> requests.Response:
         host = urlsplit(url).netloc
+        if self.check_robots and not self.robots_allow(url):
+            raise Blocked(f"robots.txt disallows {urlsplit(url).path}")
         for attempt in range(self.retries + 1):
             self._wait_turn(host)
             r = self.s.request(method, url, timeout=self.timeout, **kw)  # sleeping happens outside the host lock
+            if r.status_code in (401, 403):
+                raise Blocked(f"HTTP {r.status_code} from {host}")
             if r.status_code not in (429, 503) or attempt == self.retries:
                 return r
             try:

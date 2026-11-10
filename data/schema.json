@@ -18,7 +18,7 @@
           "sponsor": {"type": ["boolean", "null"]},
           "citizen": {"type": ["boolean", "null"]},
           "clearance": {"type": ["boolean", "null"]},
-          "no_cpt": {"type": ["boolean", "null"]},
+          "no_cpt": {"type": ["boolean", "null"]}, "itar": {"type": ["boolean", "null"]},
           "remote": {"type": "boolean"}
         }
       },

@@ -32,3 +32,7 @@ Looking for clubs, programs, free courses, or project ideas? See [resources](res
 - [Applying and interviews](applying.md)
 - [4-year timeline](timeline.md)
 - [**Resources**: communities, programs, courses, hackathons, tools, and more](resources.md)
+
+---
+
+These guides are licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/): share and adapt them with credit. They're general advice, not legal or immigration advice.

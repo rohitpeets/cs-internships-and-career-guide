@@ -37,11 +37,13 @@ SPONSOR_HEDGE = re.compile(r"clearance|(available|offered|provided|sponsor)\s+(o
 CITIZEN = re.compile(
     r"u\.?s\.? citizen(ship)?[^.]{0,60}(required|only|must)|(must|required to) be (a )?u\.?s\.? (citizen|person)|(only|limited to) u\.?s\.? (citizens|persons)"
     r"|(must|required to|requires?|need to)[^.]{0,40}\bu\.?s\.? persons?\b|\bu\.?s\.? persons?\b[^.]{0,40}\b(required|only)"
-    r"|\bitar\b", re.I)  # ITAR roles are limited to U.S. persons; generic "comply with export control laws" doesn't count
+    , re.I)
+# a bare ITAR mention is shown as its own tag ("mentions ITAR"): ITAR roles are often, not always, limited to U.S. persons
+ITAR = re.compile(r"\bitar\b", re.I)
 CLEARANCE = re.compile(r"(security|secret|top secret|ts/sci|dod) clearance|clearance (is )?required|(obtain|maintain|hold) (an? |active )?(security )?clearance|\bts/sci\b", re.I)
 REMOTE = re.compile(r"\bremote\b", re.I)
 # F-1 students need CPT (during school) or OPT: a posting that rules those out is closed to them right now, not just later
-NOT_REQUIRED = re.compile(r"\b(not|no)\b[^.]{0,20}\b(required|needed|necessary)\b|\bno (security )?clearance\b", re.I)
+NOT_REQUIRED = re.compile(r"\b(not|no)\b[^.]{0,20}\b(required|needed|necessary)\b|\bno (security )?clearance\b|:\s*none\b|^none\b", re.I)
 NO_CPT = re.compile(r"(does not|doesn't|do not|don't|will not|won't|not|cannot|can't|unable to|no)\s+(\w+\s+){0,3}(accept|consider|support|eligible|available|allow|offer|provide|sponsor)\w*[^.]{0,40}\b(cpt|opt|curricular practical|optional practical|f-?1)\b"
                     r"|\b(cpt|opt|f-?1)\b[^.]{0,40}\b(not (be )?(accepted|eligible|considered|supported)|ineligible)"
                     r"|\bno (cpt|opt)\b", re.I)
@@ -97,6 +99,14 @@ def us_job(location: str) -> bool:
     "Blumenau, SC, Brazil" isn't South Carolina, because the code isn't at the end. Otherwise a location naming another
     country or city counts as US only if it also says "United States"/"US" (multi-location postings)."""
     loc = (location or "").strip()
+    parts = [p.strip() for p in loc.split(",") if p.strip()]
+    if ";" not in loc and "|" not in loc and len(parts) >= 3 and re.fullmatch(r"[A-Z]{2}", parts[-1]):
+        # "City, Region, CC": the last code is a country ("Toronto, ON, CA" is Canada, "Bengaluru, KA, IN" is India),
+        # unless it's US, or a state after a county-style name ("Indianapolis, Marion County, IN")
+        if parts[-1] == "US":
+            return True
+        if re.fullmatch(r"[A-Z]{2}", parts[-2]) or not US_STATE_END.search(loc):
+            return False
     if US_STATE_END.search(loc):
         return True
     return not (NON_US.search(loc) or COUNTRY_CODE.search(loc)) or bool(US_MARK.search(loc))
@@ -179,7 +189,26 @@ SENT_END = re.compile(r"(?<=[.!?])(?<!\b[A-Za-z]\.)(?<!e\.g\.)(?<!i\.e\.)(?<!etc
 
 
 def sentences(text: str) -> list[str]:
-    return [" ".join(x.split()) for x in SENT_END.split(text or "") if x and x.strip()]
+    out = []
+    for x in SENT_END.split(text or ""):
+        x = " ".join(x.split())
+        if not x:
+            continue
+        if out and re.search(r"(^|[\s(])[A-Za-z]\.$", out[-1]):  # a line break inside "e.g." or "U.S.": rejoin
+            out[-1] += " " + x
+        else:
+            out.append(x)
+    return out
+
+
+def _hit(sents, rx, skip=None):
+    """First sentence matching rx. A heading ("ITAR Requirement:") is read together with the line after it,
+    since the heading alone doesn't say what's required. skip(text) rejects a match (e.g. "Clearance: None")."""
+    for i, x in enumerate(sents):
+        full = f"{x} {sents[i + 1]}" if x.endswith(":") and i + 1 < len(sents) else x
+        if rx.search(full) and not (skip and skip(full)):
+            return full
+    return None
 
 
 def tags(text: str, location: str = "") -> tuple[dict, dict]:
@@ -192,9 +221,14 @@ def tags(text: str, location: str = "") -> tuple[dict, dict]:
     elif yes:
         t["sponsor"], ev["sponsor"] = True, yes[:300]
     for name, rx in (("citizen", CITIZEN), ("clearance", CLEARANCE), ("no_cpt", NO_CPT)):
-        hit = next((x for x in sents if rx.search(x) and not (name == "clearance" and NOT_REQUIRED.search(x))), None)
+        hit = _hit(sents, rx, NOT_REQUIRED.search if name == "clearance" else None)
         if hit:
             t[name], ev[name] = True, hit[:300]
+    t["itar"] = None
+    if not t["citizen"]:
+        hit = _hit(sents, ITAR)
+        if hit:
+            t["itar"], ev["itar"] = True, hit[:300]
     return t, ev
 
 

@@ -24,11 +24,22 @@ def today() -> str:
 SECTIONS = [("internship", "Internships", "INTERNSHIPS.md"),
             ("new_grad", "New Grad", "NEW_GRAD.md"),
             ("early", "Early Programs (freshmen & sophomores)", "EARLY.md")]
-LEGEND = """**Tags.** 🛂✅ the posting says it sponsors visas · 🛂❌ it says it doesn't · 🚫 it says it won't take CPT/OPT · 🇺🇸 limited to U.S. citizens, green-card holders or U.S. persons (often ITAR) · 🔒 security clearance · 🏛 government or national-lab role, often U.S.-only (check) · 🌐 remote · ⚠ link couldn't be verified recently · ⏳ listed for 60+ days.
-A blank tag means the posting doesn't say. The grey line under a title is the sentence a tag came from.
+LEGEND = """**Tags.** Each tag comes from a sentence in the posting, shown in grey under the job title. A blank tag means the posting doesn't say.
+
+- 🛂✅ **sponsors**: the posting says it sponsors visas
+- 🛂❌ **no sponsor**: it says it doesn't sponsor visas
+- 🚫 **no CPT/OPT**: it says it won't take CPT or OPT
+- 🇺🇸 **citizens**: limited to U.S. citizens, green-card holders or U.S. persons
+- 📜 **ITAR**: mentions ITAR export rules, often limited to U.S. persons (check)
+- 🔒 **clearance**: needs a security clearance
+- 🏛 **gov**: government or national-lab role, often U.S.-only (check)
+- 🌐 **remote** · ⚠ **unverified**: link couldn't be verified recently · ⏳ **60+ days**: listed for 60+ days
+
 **Posted** is the date the company posted the job. A date with * is when this board first saw it, because that company's job site doesn't give one. Companies sometimes re-post a job, which resets its date.
 
-> 🛂❌ usually means no visa sponsorship later (for example H-1B). Unless the row also shows 🚫, CPT or OPT may still work. Check with the recruiter and your DSO."""
+> 🛂❌ usually means no visa sponsorship later (for example H-1B). Unless the row also shows 🚫, CPT or OPT may still work. Check with the recruiter and your DSO.
+
+> **Disclaimer:** listings and tags are generated automatically from employers' public job postings and can be wrong, incomplete or out of date. Always read the full posting on the employer's site. Visa, CPT, OPT and citizenship notes are general information, not legal or immigration advice; confirm your situation with your school's DSO or an immigration attorney. This board is not affiliated with or endorsed by any employer listed."""
 GOV = re.compile(r"\b(u\.?s\.? government|government|federal|national lab\w*|laborator(y|ies)|jpl|jet propulsion|nasa|dod|department of (defense|energy)|"
                  r"navy|naval|army|air force|space force|missile|defense)\b", re.I)
 
@@ -53,31 +64,34 @@ def safe_url(u: str) -> str | None:
 
 
 def tag_str(r) -> str:
+    """Each tag is an emoji plus a short word, so it reads the same to a screen reader as it looks."""
     t, out = r.get("tags") or {}, []
     if t.get("sponsor") is True:
-        out.append("🛂✅")
+        out.append("🛂✅ sponsors")
     elif t.get("sponsor") is False:
-        out.append("🛂❌")
+        out.append("🛂❌ no sponsor")
     if t.get("no_cpt"):
-        out.append("🚫")
+        out.append("🚫 no CPT/OPT")
     if t.get("citizen"):
-        out.append("🇺🇸")
+        out.append("🇺🇸 citizens")
+    elif t.get("itar"):
+        out.append("📜 ITAR")
     if t.get("clearance"):
-        out.append("🔒")
-    if GOV.search(r.get("title", "")) and not (t.get("citizen") or t.get("clearance")):
-        out.append("🏛")
+        out.append("🔒 clearance")
+    if GOV.search(r.get("title", "")) and not (t.get("citizen") or t.get("clearance") or t.get("itar")):
+        out.append("🏛 gov")
     if t.get("remote"):
-        out.append("🌐")
+        out.append("🌐 remote")
     if r.get("status") == "uncertain" or r.get("misses", 0) > 0:  # missed its company's feed at least once
-        out.append("⚠")
+        out.append("⚠ unverified")
     if date.fromisoformat(when(r)) < date.today() - timedelta(days=60):
-        out.append("⏳")
-    return " ".join(out)
+        out.append("⏳ 60+ days")
+    return "<br>".join(out)
 
 
 def evidence(r, early=False) -> str:
     ev = r.get("tag_evidence") or {}
-    keys = ("early",) if early else ("no_cpt", "sponsor", "citizen", "clearance")
+    keys = ("early",) if early else ("no_cpt", "sponsor", "citizen", "itar", "clearance")
     s = next((ev[k] for k in keys if ev.get(k)), "")
     return f"<br><sub>“{text(s[:140])}{'…' if len(s) > 140 else ''}”</sub>" if s else ""
 
@@ -184,28 +198,28 @@ Last updated **{today()}**.
 
 ## 💼 Find jobs
 
-| | What's inside | |
-|---|---|---|
-| 💼 **Internships** | {counts.get("internship", 0):,} open roles, newest first | **[Open internships →](INTERNSHIPS.md)** |
-| 🎓 **New grad** | {counts.get("new_grad", 0):,} full-time roles for graduating students | **[Open new grad →](NEW_GRAD.md)** |
-| 🌱 **Early programs** | For freshmen and sophomores. {early_note} | **[Open early programs →](EARLY.md)** |
-| 🆕 **New this week** | {len(new):,} roles posted in the last 7 days | **[Open new this week →](NEW_THIS_WEEK.md)** |
+| List | What's inside |
+|---|---|
+| 💼 **[Internships](INTERNSHIPS.md)** | {counts.get("internship", 0):,} open roles, newest first |
+| 🎓 **[New grad](NEW_GRAD.md)** | {counts.get("new_grad", 0):,} full-time roles for graduating students |
+| 🌱 **[Early programs](EARLY.md)** | For freshmen and sophomores. {early_note} |
+| 🆕 **[New this week](NEW_THIS_WEEK.md)** | {len(new):,} roles posted in the last 7 days |
 
 Every row links straight to the company's application page. International students: each posting is tagged for visa sponsorship, CPT/OPT and citizenship rules, with the sentence from the posting that the tag came from.
 
 ## 📘 Guides
 
-| Guide | Read it if... | |
-|---|---|---|
-| 🧭 **Start here** | You're a freshman or sophomore and don't know where to begin | **[Read →](guides/README.md)** |
-| 📝 **Your first resume** | You need a resume, or yours isn't getting replies | **[Read →](guides/resume.md)** |
-| 🛠️ **Your first projects** | You don't know what to build or how to finish it | **[Read →](guides/projects.md)** |
-| 📨 **Applying and interviews** | You're about to apply: timing, referrals, coding tests, interviews | **[Read →](guides/applying.md)** |
-| 🤝 **Networking and getting involved** | You want clubs, research, hackathons, contests, programs | **[Read →](guides/networking.md)** |
-| 🗓️ **4-year timeline** | You want to know what to do each semester (and F-1 rules) | **[Read →](guides/timeline.md)** |
-| 🐙 **GitHub** | You need to set up GitHub or make your repos look good | **[Read →](guides/github.md)** |
-| 💼 **LinkedIn** | You need a LinkedIn profile or want to reach alumni | **[Read →](guides/linkedin.md)** |
-| 🧰 **Resources** | You want free courses, communities, scholarships, and tools | **[Read →](guides/resources.md)** |
+| Guide | Read it if... |
+|---|---|
+| 🧭 **[Start here](guides/README.md)** | You're a freshman or sophomore and don't know where to begin |
+| 📝 **[Your first resume](guides/resume.md)** | You need a resume, or yours isn't getting replies |
+| 🛠️ **[Your first projects](guides/projects.md)** | You don't know what to build or how to finish it |
+| 📨 **[Applying and interviews](guides/applying.md)** | You're about to apply: timing, referrals, coding tests, interviews |
+| 🤝 **[Networking and getting involved](guides/networking.md)** | You want clubs, research, hackathons, contests, programs |
+| 🗓️ **[4-year timeline](guides/timeline.md)** | You want to know what to do each semester (and F-1 rules) |
+| 🐙 **[GitHub](guides/github.md)** | You need to set up GitHub or make your repos look good |
+| 💼 **[LinkedIn](guides/linkedin.md)** | You need a LinkedIn profile or want to reach alumni |
+| 🧰 **[Resources](guides/resources.md)** | You want free courses, communities, scholarships, and tools |
 
 ## 🚀 New here? Do these 3 things
 
@@ -218,6 +232,16 @@ Every row links straight to the company's application page. International studen
 - **{len(rows):,} open roles** from **{boards} company job boards**, checked every day with automated tests on every run. How it works and how accurate it is: [docs/WRITEUP.md](docs/WRITEUP.md).
 - It doesn't catch everything. Also check Handshake, LinkedIn, and [Simplify's internship list](https://github.com/SimplifyJobs/Summer2027-Internships).
 - Found a missing posting, a broken link, or a mistake? [Open an issue](https://github.com/rohitpeets/cs-internships-and-career-guide/issues).
+
+## ⚖️ Disclaimer
+
+This board is provided as is, without warranty of any kind. Listings and tags are generated automatically from employers' public job postings and can be wrong, incomplete or out of date. Always read the full posting on the employer's site. Visa, CPT, OPT and citizenship notes are general information, not legal or immigration advice; confirm your situation with your school's DSO or an immigration attorney. This project is free, non-commercial, and not affiliated with or endorsed by any employer listed or any university.
+
+## License
+
+- **Code:** [MIT](LICENSE).
+- **Guides** (`guides/`): [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Share and adapt them with credit.
+- **Job listings:** titles, links and short quotes come from employers' public postings. They belong to those employers and aren't covered by either license.
 """
     (ROOT / "README.md").write_text(readme, encoding="utf-8")
     # numbers for the GitHub Pages home page (index.html reads them as site.data.stats)

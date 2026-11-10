@@ -59,7 +59,7 @@ Most internship applications include an online coding test or interview.
 
 ## Note for F-1 students
 
-Rules depend on your situation, so check everything with your DSO (Designated School Official, the person at your school who handles F-1 rules).
+> This is general information, not legal or immigration advice. Rules change and depend on your situation, so check everything with your DSO (Designated School Official, the person at your school who handles F-1 rules) or an immigration attorney.
 
 - **On-campus jobs** are allowed with hour limits during the semester. Ask your DSO first.
 - **CPT** (Curricular Practical Training) lets you work off campus in your field while you study. It usually needs one full academic year of study first and is often tied to a course or credit. Your DSO must approve it, for that specific employer and dates, **before** you start. Never start early.

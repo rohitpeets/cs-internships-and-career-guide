@@ -4,86 +4,87 @@ home: true
 title: "Things I Wish I Knew: CS Edition"
 ---
 {% assign s = site.data.stats %}
-<main class="wrap">
-  <section class="hero">
+<main id="main" class="wrap">
+  <section class="hero" aria-labelledby="hero-title">
     <p class="eyebrow">For CS &amp; CE students in the U.S.</p>
-    <h1>The internship board and guide I <mark>wish I'd had</mark> as a freshman.</h1>
+    <h1 id="hero-title">The internship board and guide I <mark>wish I'd had</mark> as a freshman.</h1>
     <p class="lede">Internships, new-grad jobs and freshman programs pulled straight from company career sites every day, plus plain-English guides on resumes, projects, networking and interviews.</p>
     <div class="actions">
-      <a class="btn primary" href="{{ '/INTERNSHIPS.html' | relative_url }}">Browse {{ s.internships | default: "all" }} internships →</a>
+      <a class="btn primary" href="{{ '/INTERNSHIPS.html' | relative_url }}">Browse {{ s.internships | default: "all" }} internships <span aria-hidden="true">→</span></a>
       <a class="btn" href="{{ '/guides/' | relative_url }}">New here? Start here</a>
     </div>
     <p class="meta">Updated {{ s.updated | date: "%B %-d, %Y" }} · {{ s.boards }} company career sites checked daily · Free, no sign-up</p>
   </section>
 
-  <section class="block" id="jobs">
-    <h2>Find jobs</h2>
+  <section class="block" id="jobs" aria-labelledby="jobs-title">
+    <h2 id="jobs-title">Find jobs</h2>
     <p class="sub">Every job links straight to the company's application page. Newest first.</p>
     <div class="grid jobs">
       <a class="card featured" href="{{ '/INTERNSHIPS.html' | relative_url }}">
-        <div class="icon">💼</div>
+        <div class="icon" aria-hidden="true">💼</div>
         <div class="num">{{ s.internships }}</div>
         <h3>Internships</h3>
         <p>Summer and semester software, data, hardware and IT roles.</p>
-        <span class="go">Open the list →</span>
+        <span class="go" aria-hidden="true">Open the list →</span>
       </a>
       <a class="card" href="{{ '/NEW_GRAD.html' | relative_url }}">
-        <div class="icon">🎓</div>
+        <div class="icon" aria-hidden="true">🎓</div>
         <div class="num">{{ s.new_grad }}</div>
         <h3>New grad</h3>
         <p>Full-time roles for students graduating soon.</p>
-        <span class="go">Open the list →</span>
+        <span class="go" aria-hidden="true">Open the list →</span>
       </a>
       <a class="card" href="{{ '/EARLY.html' | relative_url }}">
-        <div class="icon">🌱</div>
+        <div class="icon" aria-hidden="true">🌱</div>
         <div class="num">{{ s.early }}</div>
         <h3>Early programs</h3>
         <p>{% if s.early > 0 %}Programs open to freshmen and sophomores.{% else %}For freshmen and sophomores. None listed right now, check back soon.{% endif %}</p>
-        <span class="go">Open the list →</span>
+        <span class="go" aria-hidden="true">Open the list →</span>
       </a>
       <a class="card" href="{{ '/NEW_THIS_WEEK.html' | relative_url }}">
-        <div class="icon">🆕</div>
+        <div class="icon" aria-hidden="true">🆕</div>
         <div class="num">{{ s.new_week }}</div>
         <h3>New this week</h3>
         <p>Roles companies posted in the last 7 days.</p>
-        <span class="go">Open the list →</span>
+        <span class="go" aria-hidden="true">Open the list →</span>
       </a>
     </div>
   </section>
 
-  <section class="block">
+  <section class="block" aria-labelledby="intl-title">
     <div class="tags-strip">
-      <h3>🌍 Built with international students in mind</h3>
+      <h2 id="intl-title" class="h3"><span aria-hidden="true">🌍</span> Built with international students in mind</h2>
       <p>Each posting is tagged from its own text, with the exact sentence the tag came from, so you can see the visa rules before you apply.</p>
-      <div class="chips">
-        <span class="chip">🛂✅ sponsors visas</span>
-        <span class="chip">🛂❌ won't sponsor</span>
-        <span class="chip">🚫 no CPT/OPT</span>
-        <span class="chip">🇺🇸 U.S. citizens only</span>
-        <span class="chip">🔒 clearance</span>
-        <span class="chip">🌐 remote</span>
-      </div>
+      <ul class="chips" aria-label="Tags used on the job lists">
+        <li class="chip"><span aria-hidden="true">🛂✅</span> sponsors visas</li>
+        <li class="chip"><span aria-hidden="true">🛂❌</span> won't sponsor</li>
+        <li class="chip"><span aria-hidden="true">🚫</span> no CPT/OPT</li>
+        <li class="chip"><span aria-hidden="true">🇺🇸</span> U.S. citizens only</li>
+        <li class="chip"><span aria-hidden="true">📜</span> mentions ITAR</li>
+        <li class="chip"><span aria-hidden="true">🔒</span> clearance</li>
+        <li class="chip"><span aria-hidden="true">🌐</span> remote</li>
+      </ul>
     </div>
   </section>
 
-  <section class="block" id="guides">
-    <h2>Guides</h2>
+  <section class="block" id="guides" aria-labelledby="guides-title">
+    <h2 id="guides-title">Guides</h2>
     <p class="sub">Short, honest how-tos. Each one ends with a list of free resources.</p>
     <div class="grid guides">
-      <a class="card" href="{{ '/guides/' | relative_url }}"><div class="icon">🧭</div><h3>Start here</h3><p>Freshman or sophomore and don't know where to begin.</p></a>
-      <a class="card" href="{{ '/guides/resume.html' | relative_url }}"><div class="icon">📝</div><h3>Your first resume</h3><p>Need a resume, or yours isn't getting replies.</p></a>
-      <a class="card" href="{{ '/guides/projects.html' | relative_url }}"><div class="icon">🛠️</div><h3>Your first projects</h3><p>What to build, and how to actually finish it.</p></a>
-      <a class="card" href="{{ '/guides/applying.html' | relative_url }}"><div class="icon">📨</div><h3>Applying and interviews</h3><p>Timing, referrals, coding tests and interviews.</p></a>
-      <a class="card" href="{{ '/guides/networking.html' | relative_url }}"><div class="icon">🤝</div><h3>Networking and getting involved</h3><p>Professors, clubs, research, hackathons, programs.</p></a>
-      <a class="card" href="{{ '/guides/timeline.html' | relative_url }}"><div class="icon">🗓️</div><h3>4-year timeline</h3><p>What to do each semester, plus F-1 rules.</p></a>
-      <a class="card" href="{{ '/guides/github.html' | relative_url }}"><div class="icon">🐙</div><h3>GitHub</h3><p>Set it up and make your repos look cared for.</p></a>
-      <a class="card" href="{{ '/guides/linkedin.html' | relative_url }}"><div class="icon">💼</div><h3>LinkedIn</h3><p>A simple profile and how to reach alumni.</p></a>
-      <a class="card" href="{{ '/guides/resources.html' | relative_url }}"><div class="icon">🧰</div><h3>Resources</h3><p>Communities, programs, free courses and tools.</p></a>
+      <a class="card" href="{{ '/guides/' | relative_url }}"><div class="icon" aria-hidden="true">🧭</div><h3>Start here</h3><p>Freshman or sophomore and don't know where to begin.</p></a>
+      <a class="card" href="{{ '/guides/resume.html' | relative_url }}"><div class="icon" aria-hidden="true">📝</div><h3>Your first resume</h3><p>Need a resume, or yours isn't getting replies.</p></a>
+      <a class="card" href="{{ '/guides/projects.html' | relative_url }}"><div class="icon" aria-hidden="true">🛠️</div><h3>Your first projects</h3><p>What to build, and how to actually finish it.</p></a>
+      <a class="card" href="{{ '/guides/applying.html' | relative_url }}"><div class="icon" aria-hidden="true">📨</div><h3>Applying and interviews</h3><p>Timing, referrals, coding tests and interviews.</p></a>
+      <a class="card" href="{{ '/guides/networking.html' | relative_url }}"><div class="icon" aria-hidden="true">🤝</div><h3>Networking and getting involved</h3><p>Professors, clubs, research, hackathons, programs.</p></a>
+      <a class="card" href="{{ '/guides/timeline.html' | relative_url }}"><div class="icon" aria-hidden="true">🗓️</div><h3>4-year timeline</h3><p>What to do each semester, plus F-1 rules.</p></a>
+      <a class="card" href="{{ '/guides/github.html' | relative_url }}"><div class="icon" aria-hidden="true">🐙</div><h3>GitHub</h3><p>Set it up and make your repos look cared for.</p></a>
+      <a class="card" href="{{ '/guides/linkedin.html' | relative_url }}"><div class="icon" aria-hidden="true">💼</div><h3>LinkedIn</h3><p>A simple profile and how to reach alumni.</p></a>
+      <a class="card" href="{{ '/guides/resources.html' | relative_url }}"><div class="icon" aria-hidden="true">🧰</div><h3>Resources</h3><p>Communities, programs, free courses and tools.</p></a>
     </div>
   </section>
 
-  <section class="block">
-    <h2>New here? Do these 3 things</h2>
+  <section class="block" aria-labelledby="steps-title">
+    <h2 id="steps-title">New here? Do these 3 things</h2>
     <p class="sub">That's enough to get started.</p>
     <ol class="steps">
       <li><strong><a href="{{ '/guides/' | relative_url }}">Read Start here</a></strong><span>Five steps for your first year, nothing more.</span></li>
@@ -92,8 +93,10 @@ title: "Things I Wish I Knew: CS Edition"
     </ol>
   </section>
 
-  <section class="block">
-    <h2>About</h2>
-    <p class="sub">{{ s.total }} open roles from {{ s.boards }} company career sites, checked every day with automated tests on every run. It doesn't catch everything, so also check Handshake, LinkedIn and <a href="https://github.com/SimplifyJobs/Summer2027-Internships">Simplify's list</a>. How it works and how accurate it is: <a href="https://github.com/rohitpeets/cs-internships-and-career-guide/blob/main/docs/WRITEUP.md">the write-up</a>.</p>
+  <section class="block" aria-labelledby="about-title">
+    <h2 id="about-title">About</h2>
+    <p class="sub">{{ s.total }} open roles from {{ s.boards }} company career sites, checked every day with automated tests on every run. It doesn't catch everything, so also check Handshake, LinkedIn and <a href="https://github.com/SimplifyJobs/Summer2027-Internships">Simplify's internship list</a>. How it works and how accurate it is: <a href="https://github.com/rohitpeets/cs-internships-and-career-guide/blob/main/docs/WRITEUP.md">the write-up</a>.</p>
+    <p class="disclaimer"><strong>Disclaimer.</strong> This board is provided as is, without warranty of any kind. Listings and tags are generated automatically from employers' public job postings and can be wrong, incomplete or out of date. Always read the full posting on the employer's site. Visa, CPT, OPT and citizenship notes are general information, not legal or immigration advice; confirm your situation with your school's DSO or an immigration attorney. This project is free, non-commercial, and not affiliated with or endorsed by any employer listed or any university.</p>
+    <p class="disclaimer"><strong>License.</strong> Code: <a href="https://github.com/rohitpeets/cs-internships-and-career-guide/blob/main/LICENSE">MIT</a>. Guides: <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Job listings belong to the employers who posted them and aren't covered by either license. Fonts: Inter and Fraunces, SIL Open Font License.</p>
   </section>
 </main>

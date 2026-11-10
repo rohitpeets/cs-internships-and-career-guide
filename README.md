@@ -8,28 +8,28 @@ Last updated **2026-11-10**.
 
 ## 💼 Find jobs
 
-| | What's inside | |
-|---|---|---|
-| 💼 **Internships** | 1,379 open roles, newest first | **[Open internships →](INTERNSHIPS.md)** |
-| 🎓 **New grad** | 102 full-time roles for graduating students | **[Open new grad →](NEW_GRAD.md)** |
-| 🌱 **Early programs** | For freshmen and sophomores. None listed right now, check back soon | **[Open early programs →](EARLY.md)** |
-| 🆕 **New this week** | 51 roles posted in the last 7 days | **[Open new this week →](NEW_THIS_WEEK.md)** |
+| List | What's inside |
+|---|---|
+| 💼 **[Internships](INTERNSHIPS.md)** | 1,379 open roles, newest first |
+| 🎓 **[New grad](NEW_GRAD.md)** | 102 full-time roles for graduating students |
+| 🌱 **[Early programs](EARLY.md)** | For freshmen and sophomores. None listed right now, check back soon |
+| 🆕 **[New this week](NEW_THIS_WEEK.md)** | 51 roles posted in the last 7 days |
 
 Every row links straight to the company's application page. International students: each posting is tagged for visa sponsorship, CPT/OPT and citizenship rules, with the sentence from the posting that the tag came from.
 
 ## 📘 Guides
 
-| Guide | Read it if... | |
-|---|---|---|
-| 🧭 **Start here** | You're a freshman or sophomore and don't know where to begin | **[Read →](guides/README.md)** |
-| 📝 **Your first resume** | You need a resume, or yours isn't getting replies | **[Read →](guides/resume.md)** |
-| 🛠️ **Your first projects** | You don't know what to build or how to finish it | **[Read →](guides/projects.md)** |
-| 📨 **Applying and interviews** | You're about to apply: timing, referrals, coding tests, interviews | **[Read →](guides/applying.md)** |
-| 🤝 **Networking and getting involved** | You want clubs, research, hackathons, contests, programs | **[Read →](guides/networking.md)** |
-| 🗓️ **4-year timeline** | You want to know what to do each semester (and F-1 rules) | **[Read →](guides/timeline.md)** |
-| 🐙 **GitHub** | You need to set up GitHub or make your repos look good | **[Read →](guides/github.md)** |
-| 💼 **LinkedIn** | You need a LinkedIn profile or want to reach alumni | **[Read →](guides/linkedin.md)** |
-| 🧰 **Resources** | You want free courses, communities, scholarships, and tools | **[Read →](guides/resources.md)** |
+| Guide | Read it if... |
+|---|---|
+| 🧭 **[Start here](guides/README.md)** | You're a freshman or sophomore and don't know where to begin |
+| 📝 **[Your first resume](guides/resume.md)** | You need a resume, or yours isn't getting replies |
+| 🛠️ **[Your first projects](guides/projects.md)** | You don't know what to build or how to finish it |
+| 📨 **[Applying and interviews](guides/applying.md)** | You're about to apply: timing, referrals, coding tests, interviews |
+| 🤝 **[Networking and getting involved](guides/networking.md)** | You want clubs, research, hackathons, contests, programs |
+| 🗓️ **[4-year timeline](guides/timeline.md)** | You want to know what to do each semester (and F-1 rules) |
+| 🐙 **[GitHub](guides/github.md)** | You need to set up GitHub or make your repos look good |
+| 💼 **[LinkedIn](guides/linkedin.md)** | You need a LinkedIn profile or want to reach alumni |
+| 🧰 **[Resources](guides/resources.md)** | You want free courses, communities, scholarships, and tools |
 
 ## 🚀 New here? Do these 3 things
 
@@ -42,3 +42,13 @@ Every row links straight to the company's application page. International studen
 - **1,481 open roles** from **965 company job boards**, checked every day with automated tests on every run. How it works and how accurate it is: [docs/WRITEUP.md](docs/WRITEUP.md).
 - It doesn't catch everything. Also check Handshake, LinkedIn, and [Simplify's internship list](https://github.com/SimplifyJobs/Summer2027-Internships).
 - Found a missing posting, a broken link, or a mistake? [Open an issue](https://github.com/rohitpeets/cs-internships-and-career-guide/issues).
+
+## ⚖️ Disclaimer
+
+This board is provided as is, without warranty of any kind. Listings and tags are generated automatically from employers' public job postings and can be wrong, incomplete or out of date. Always read the full posting on the employer's site. Visa, CPT, OPT and citizenship notes are general information, not legal or immigration advice; confirm your situation with your school's DSO or an immigration attorney. This project is free, non-commercial, and not affiliated with or endorsed by any employer listed or any university.
+
+## License
+
+- **Code:** [MIT](LICENSE).
+- **Guides** (`guides/`): [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Share and adapt them with credit.
+- **Job listings:** titles, links and short quotes come from employers' public postings. They belong to those employers and aren't covered by either license.
