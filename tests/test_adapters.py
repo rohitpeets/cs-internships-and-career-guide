@@ -10,7 +10,7 @@ FIX = Path(__file__).parent / "fixtures"
 
 class FakeResp:
     def __init__(self, data, status=200):
-        self._d, self.status_code = data, status
+        self._d, self.status_code, self.ok = data, status, status < 400
 
     def json(self):
         return self._d
@@ -41,5 +41,15 @@ def test_unexpected_shape_fails_loudly(name, bad):
         adapters.CLOUD[name]("demo", FakeHttp(bad))
 
 
-def test_missing_board_is_empty():
-    assert adapters.CLOUD["greenhouse"]("gone", FakeHttp({}, 404)) == []
+def test_smartrecruiters_parses():
+    class H:
+        def get(self, url, params=None, **k):
+            if params:  # list call
+                data = {"content": [{"id": "1", "name": "Software Engineer Intern", "location": {"city": "Austin", "region": "TX", "country": "us"}}],
+                        "totalFound": 1} if params["q"] == "intern" else {"content": [], "totalFound": 0}
+            else:  # detail call
+                data = {"postingUrl": "https://jobs.smartrecruiters.com/acme/1",
+                        "jobAd": {"sections": {"qualifications": {"text": "<p>We are unable to sponsor visas.</p>"}}}}
+            return FakeResp(data)
+    jobs = adapters.CLOUD["smartrecruiters"]("acme", H())
+    assert [j["location"] for j in jobs] == ["Austin, TX, US"] and "unable to sponsor" in jobs[0]["text"]

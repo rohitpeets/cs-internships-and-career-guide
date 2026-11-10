@@ -14,21 +14,31 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
 import adapters  # noqa: E402
-from classify import keep_title, section, tags, us_job  # noqa: E402
+from classify import early_evidence, keep_title, section, tags, us_job  # noqa: E402
 from common import COMPANIES, LOCAL, POSTINGS, REMOVED, Http, load_json, load_yaml, now_iso, save_json, today, url_key  # noqa: E402
 
 MAX_FAIL_SHARE = 0.3  # more failing boards than this means something is wrong on our side
 
 
-def to_row(company, ats, j):
+def to_row(company, ats, board, j):
     t, ev = tags(j["text"], j["location"])
-    return {"id": url_key(j["url"]), "company": company, "title": j["title"].strip(), "url": j["url"],
-            "location": j["location"], "source": ats, "section": section(j["title"], j["text"]), "tags": t, "tag_evidence": ev,
+    sec = section(j["title"], j["text"])
+    if sec == "early":
+        why = early_evidence(j["title"], j["text"])
+        if why:
+            ev["early"] = why
+    return {"id": url_key(j["url"]), "company": company, "board": board, "title": j["title"].strip(), "url": j["url"],
+            "location": j["location"], "source": ats, "section": sec, "tags": t, "tag_evidence": ev,
             "status": "open", "misses": 0, "first_seen": today(), "last_seen": today()}
 
 
 def fetch_one(c, fns):
-    return c, fns[c["ats"]](c["board"], Http(gap=1.0))  # one session per board: hosts never share a rate limit
+    return c, fns[c["ats"]](c["board"], Http(gap=1.0))  # pacing is shared per host across all Http objects
+
+
+def board_of(r, by_name):
+    """Rows are matched to their board by (ats, board); rows from before the board field existed fall back to company name."""
+    return (r["source"], r.get("board") or by_name.get((r["company"], r["source"])))
 
 
 def main():
@@ -43,7 +53,11 @@ def main():
 
     fns = adapters.LOCAL if a.local else adapters.CLOUD
     target = LOCAL if a.local else POSTINGS
-    boards = [c for c in load_yaml(COMPANIES, {"companies": []})["companies"] if c["ats"] in fns and (not a.only or c["ats"] == a.only)]
+    every = load_yaml(COMPANIES, {"companies": []})["companies"]
+    skipped = sorted({c["ats"] for c in every} - set(adapters.CLOUD) - set(adapters.LOCAL))
+    if skipped:
+        print(f"no reader yet for: {', '.join(skipped)} ({sum(c['ats'] in skipped for c in every)} boards skipped)")
+    boards = [c for c in every if c["ats"] in fns and (not a.only or c["ats"] == a.only)]
     if a.limit:
         boards = boards[: a.limit]
 
@@ -52,22 +66,30 @@ def main():
     # the laptop keeps its own closed list inside local.json, so it never edits a file the Action also writes
     removed = state.get("removed", []) if a.local else load_json(REMOVED, [])
     removed_ids = {r["id"] for r in removed}
-    failed, seen_by_company = [], {}
+    failed, gone, unsure, seen = [], [], set(), {}
+    by_name = {(c["name"], c["ats"]): c["board"] for c in boards}
 
     with ThreadPoolExecutor(max_workers=a.workers if a.local else 1) as pool:
         futures = [pool.submit(fetch_one, c, fns) for c in boards]
         for i, f in enumerate(as_completed(futures), 1):
             c = boards[futures.index(f)]
+            key = (c["ats"], c["board"])
             try:
                 _, jobs = f.result()
+            except adapters.BoardGone as e:  # renamed/deleted board: flag its rows, never treat as "zero jobs"
+                gone.append(f'{c["name"]} ({c["ats"]}/{c["board"]}): {e}')
+                unsure.add(key)
+                continue
             except Exception as e:  # network error, HTTP error or ShapeError
                 failed.append(f'{c["name"]} ({c["ats"]}/{c["board"]}): {str(e)[:150]}')
                 continue
+            if not getattr(jobs, "complete", True) or (not jobs and any(board_of(r, by_name) == key for r in rows.values())):
+                unsure.add(key)  # capped or suddenly empty: don't count its missing rows as closed
             ids = set()
             for j in jobs:
                 if not keep_title(j["title"]) or not us_job(j["location"]):
                     continue
-                new = to_row(c["name"], c["ats"], j)
+                new = to_row(c["name"], c["ats"], c["board"], j)
                 if not new["section"]:
                     continue
                 ids.add(new["id"])
@@ -76,15 +98,26 @@ def main():
                 elif new["id"] in removed_ids:  # reopened
                     removed[:] = [r for r in removed if r["id"] != new["id"]]
                 rows[new["id"]] = new
-            seen_by_company[(c["name"], c["ats"])] = ids
+            seen[key] = ids
             if i % 25 == 0:
                 print(f"  {i}/{len(boards)} boards", flush=True)
 
+    if boards and len(failed) / len(boards) > MAX_FAIL_SHARE:  # checked before anything is written
+        for f in failed[:20]:
+            print("  FAILED", f)
+        sys.exit(f"{len(failed)}/{len(boards)} boards failed; not trusting this run, nothing saved")
+
     closed = 0
     for rid, r in list(rows.items()):
-        key = (r["company"], r["source"])
-        if key in seen_by_company and rid not in seen_by_company[key]:
-            r["misses"] = r.get("misses", 0) + 1
+        key = board_of(r, by_name)
+        if key in unsure:
+            r["status"] = "uncertain"
+            r["uncertain_since"] = r.get("uncertain_since") or today()
+            continue
+        if key in seen and rid not in seen[key]:
+            if r.get("last_miss") == today():  # strikes count days, not runs: two runs on one day are one strike
+                continue
+            r["misses"], r["last_miss"] = r.get("misses", 0) + 1, today()
             if r["misses"] >= 2:
                 removed.append({**r, "removed_on": today(), "reason": "no longer in company feed"})
                 del rows[rid]
@@ -96,11 +129,11 @@ def main():
     else:
         save_json(target, out)
         save_json(REMOVED, removed)
-    print(f"{now_iso()} boards={len(boards)} failed={len(failed)} open={len(rows)} closed_now={closed}")
+    print(f"{now_iso()} boards={len(boards)} failed={len(failed)} gone={len(gone)} unsure={len(unsure)} open={len(rows)} closed_now={closed}")
     for f in failed[:20]:
         print("  FAILED", f)
-    if boards and len(failed) / len(boards) > MAX_FAIL_SHARE:
-        sys.exit(f"{len(failed)}/{len(boards)} boards failed; not trusting this run")
+    for g in gone[:40]:
+        print("  GONE (fix the slug in companies.yaml)", g)
 
 
 if __name__ == "__main__":

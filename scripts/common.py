@@ -1,5 +1,6 @@
 """Shared helpers: paths, JSON/YAML I/O, URL keys, polite HTTP."""
 import json
+import threading
 import time
 from datetime import date, datetime, timezone
 from pathlib import Path
@@ -49,23 +50,42 @@ def url_key(url: str) -> str:
     return urlunsplit((s.scheme.lower(), s.netloc.lower(), s.path.rstrip("/"), urlencode(q), "")).lower()
 
 
-class Http:
-    """requests session that waits at least `gap` seconds between calls to the same host."""
+_HOST_LAST: dict = {}
+_HOST_LOCKS: dict = {}
+_LOCKS_LOCK = threading.Lock()
 
-    def __init__(self, gap: float = 1.0, timeout: float = 20.0):
+
+class Http:
+    """requests session; every Http object shares one pacing clock per host, so boards on the
+    same host (boards-api.greenhouse.io) never go back-to-back. 429/503 are retried with backoff."""
+
+    def __init__(self, gap: float = 1.0, timeout: float = 20.0, retries: int = 3):
         self.s = requests.Session()
         self.s.headers["User-Agent"] = USER_AGENT
-        self.gap, self.timeout, self.last = gap, timeout, {}
+        self.gap, self.timeout, self.retries = gap, timeout, retries
+
+    def _wait_turn(self, host: str) -> None:
+        with _LOCKS_LOCK:
+            lock = _HOST_LOCKS.setdefault(host, threading.Lock())
+        with lock:
+            wait = self.gap - (time.monotonic() - _HOST_LAST.get(host, 0))
+            if wait > 0:
+                time.sleep(wait)
+            _HOST_LAST[host] = time.monotonic()
 
     def _call(self, method: str, url: str, **kw) -> requests.Response:
         host = urlsplit(url).netloc
-        wait = self.gap - (time.monotonic() - self.last.get(host, 0))
-        if wait > 0:
-            time.sleep(wait)
-        try:
-            return self.s.request(method, url, timeout=self.timeout, **kw)
-        finally:
-            self.last[host] = time.monotonic()
+        for attempt in range(self.retries + 1):
+            self._wait_turn(host)
+            r = self.s.request(method, url, timeout=self.timeout, **kw)
+            if r.status_code not in (429, 503) or attempt == self.retries:
+                return r
+            try:
+                delay = min(float(r.headers.get("Retry-After", "")), 60)
+            except ValueError:
+                delay = 5 * (attempt + 1)
+            time.sleep(delay)
+        return r
 
     def get(self, url: str, **kw) -> requests.Response:
         return self._call("GET", url, **kw)

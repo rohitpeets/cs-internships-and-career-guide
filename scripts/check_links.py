@@ -36,6 +36,10 @@ def main():
     rows, removed, http = load_json(POSTINGS, []), load_json(REMOVED, []), Http(gap=1.0)
     keep = []
     for r in rows:
+        since = r.get("uncertain_since")
+        if r.get("status") == "uncertain" and since and (date.today() - date.fromisoformat(since)).days >= 7:
+            removed.append({**r, "removed_on": today(), "reason": "unverifiable for 7 days"})  # any source, not just manual
+            continue
         if a.stale_only and r.get("source") != "manual":
             keep.append(r)
             continue

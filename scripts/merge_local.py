@@ -21,8 +21,11 @@ def main():
         return
     rows = [r for r in load_json(POSTINGS, []) if r.get("source") not in adapters.LOCAL]
     age = (datetime.now(timezone.utc) - datetime.fromisoformat(local["fetched_at"])).days
+    stale_since = local["fetched_at"][:10]
     for r in local["rows"]:
-        rows.append({**r, "status": "uncertain" if age >= STALE_DAYS else r.get("status", "open")})
+        if age >= STALE_DAYS:  # laptop off: rows show ⚠, and check_links drops them a week after the last laptop run
+            r = {**r, "status": "uncertain", "uncertain_since": r.get("uncertain_since") or stale_since}
+        rows.append(r)
     save_json(POSTINGS, sorted(rows, key=lambda r: (r["company"].lower(), r["title"].lower())))
     print(f"merged {len(local['rows'])} laptop rows (fetched {age} day(s) ago)")
 

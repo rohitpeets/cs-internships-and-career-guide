@@ -10,8 +10,8 @@ from datetime import date
 sys.path.insert(0, str(__import__("pathlib").Path(__file__).parent))
 from common import POSTINGS, load_json, save_json  # noqa: E402
 
-TITLE_KEEP = re.compile(r"\b(intern(ship)?s?|co-?op|new grad(uate)?|entry[- ]level|early career|university grad(uate)?|graduate program|apprentice(ship)?|explore program|freshm[ae]n|sophomore)\b", re.I)
-TITLE_DROP = re.compile(r"\b(senior|sr\.?|staff|principal|director|manager(?!\s*intern)|lead(?!ership)|phd|ph\.d|postdoc|mba|student worker)\b", re.I)
+TITLE_KEEP = re.compile(r"\b(intern(ship)?s?|co-?op|new grad(uate)?|entry[- ]level|early career|university grad(uate)?|graduate program|graduate (software|engineer\w*|developer|program\w*|analyst)|apprentice(ship)?|explore program|freshm[ae]n|sophomore)\b", re.I)
+TITLE_DROP = re.compile(r"\b(senior|sr\.?|staff(?! augmentation)|principal|director|manager(?!\s*intern)|lead(?!ership)|phd|ph\.d|postdoc|mba|student worker)\b", re.I)
 
 EARLY = re.compile(r"\b(freshm[ae]n|sophomores?|first[- ]year|second[- ]year|explore (intern|program)|step intern|engineering practicum)\b", re.I)
 EARLY_TEXT = re.compile(r"\b(freshm[ae]n|sophomores?)\b[^.]{0,60}\b(eligible|encouraged|welcome|open to|apply|students)\b|\b(open to|for|eligible:?)\s+(current\s+)?(freshm[ae]n|sophomores?)\b|\b(open to|for|eligible:?)\s+(current\s+)?(first[- ]year|second[- ]year)\b[^.]{0,40}\b(students|undergrad\w*)", re.I)
@@ -46,9 +46,9 @@ REMOTE = re.compile(r"\bremote\b", re.I)
 TECH = re.compile(r"\b(robotic\w*|applied scientist|gpu|cuda|dft|(software|hardware|electrical|silicon|firmware|design) (validation|verification)|validation engineer\w*|fpga|asic|test automation|automation test\w*|erp|telecom\w*|software|developer|engineer(ing)?|data|machine learning|ml|a\.?i\.?|artificial intelligence|computer|cyber|security|"
                   r"it|information technology|network|cloud|devops|sre|site reliability|infrastructure|platform|embedded|firmware|hardware|"
                   r"electrical|robotics|autonomy|computer vision|systems|research|analytics|analyst|quant(itative)?|product manag\w*|"
-                  r"technical program|qa|test|automation|web|mobile|android|ios|full[- ]?stack|front[- ]?end|back[- ]?end|game|graphics|"
+                  r"technical program|qa|test|automation|web|mobile (app\w*|developer|software|engineer\w*)|android|ios|full[- ]?stack|front[- ]?end|back[- ]?end|game|graphics|"
                   r"database|bioinformatics|scientist|technology|tech|slam|mapping|perception|estimation|autonomous|controls?|tooling|simulation)\b", re.I)
-NON_TECH = re.compile(r"\b(marketing|sales|account (executive|manager)|finance|accounting|human resources|hr|recruit\w*|legal|paralegal|"
+NON_TECH = re.compile(r"\b(tax|compliance|audit|pricing|actuarial|underwriting|marketing|sales|account (executive|manager)|finance|accounting|human resources|hr|recruit\w*|legal|paralegal|"
                       r"communications|public relations|customer (experience|success|service)|corporate strategy|supply chain|procurement|"
                       r"artist|graphic design|content|social media|events?|administrative|operations intern|game presentation|"
                       r"civil|geotechnical|structural|traffic|transportation|mechanical|environmental|chemical|process engineer|"
@@ -57,23 +57,34 @@ NON_TECH = re.compile(r"\b(marketing|sales|account (executive|manager)|finance|a
                       r"game design|game economy|tech art|fuel|trim|field manager)\b", re.I)
 
 
-FIELD_DROP = re.compile(r"\b(facilit(y|ies)|civil|geotechnical|structural|traffic|transportation|mechanical|environmental|chemical|process|manufacturing|industrial|ehs|safety|construction|mining|petroleum|materials|warhead|harness|propulsion|thermal|fluids|surveying|water resources|game presentation|game design|game economy|tech art|fuel|trim|field engineer)\b", re.I)
+FIELD_DROP = re.compile(r"\b(facilit(y|ies)|mechanic|diesel|maintenance|technician|civil|geotechnical|structural|traffic|transportation|mechanical|environmental|chemical|process|manufacturing|industrial|ehs|safety|construction|mining|petroleum|materials|warhead|harness|propulsion|thermal|fluids|surveying|water resources|game presentation|game design|game economy|tech art|fuel|trim|field engineer)\b", re.I)
 STRONG_TECH = re.compile(r"\b(engineer(ing)?|developer|software|data scien\w*|data analy\w*|analytics|machine learning|information technology|it|erp)\b(?!.*\b(sales|marketing)\b)", re.I)
 GRAD_ONLY = re.compile(r"\b(ms|m\.s\.|masters?|master's)\b", re.I)
 UNDERGRAD = re.compile(r"\b(bs|b\.s\.|bachelor'?s?|undergrad\w*)\b", re.I)
 
 
-NON_US = re.compile(r"\b(united kingdom|uk|england|london|ireland|dublin|netherlands|amsterdam|germany|berlin|munich|france|paris|spain|"
-                    r"italy|switzerland|zurich|india|bangalore|bengaluru|hyderabad|pune|canada|toronto|vancouver|montreal|ontario|"
-                    r"singapore|hong kong|china|shanghai|beijing|japan|tokyo|korea|seoul|australia|sydney|israel|tel aviv|poland|"
-                    r"mexico|brazil|argentina|philippines|emea|apac|europe)\b", re.I)
-US = re.compile(r"\b(united states|usa|u\.s\.|us|remote|[A-Z][a-z]+,\s*[A-Z]{2})\b")
+NON_US = re.compile(r"\b(united kingdom|uk|england|scotland|wales|london|glasgow|edinburgh|belfast|northampton|ireland|dublin|cork|galway|"
+    r"netherlands|amsterdam|eindhoven|rotterdam|germany|berlin|munich|hamburg|frankfurt|stuttgart|cologne|france|paris|lyon|toulouse|grenoble|suresnes|aubervilliers|"
+    r"spain|madrid|barcelona|portugal|lisbon|italy|milan|rome|switzerland|zurich|geneva|belgium|brussels|austria|vienna|denmark|copenhagen|"
+    r"sweden|stockholm|norway|oslo|finland|helsinki|poland|warsaw|krakow|wroclaw|gdansk|czech\w*|prague|brno|romania|bucharest|hungary|budapest|"
+    r"greece|athens|turkey|istanbul|ukraine|kyiv|lithuania|vilnius|estonia|tallinn|latvia|riga|serbia|belgrade|croatia|bulgaria|"
+    r"india|bangalore|bengaluru|hyderabad|pune|chennai|mumbai|delhi|noida|gurgaon|gurugram|kolkata|ahmedabad|sri lanka|colombo|pakistan|bangladesh|"
+    r"canada|canadian|cad|toronto|vancouver|montreal|montréal|quebec|québec|ontario|ottawa|calgary|edmonton|mississauga|winnipeg|halifax|"
+    r"singapore|malaysia|penang|kuala lumpur|vietnam|ho chi minh|hanoi|thailand|bangkok|indonesia|jakarta|philippines|manila|cebu|"
+    r"hong kong|china|shanghai|beijing|shenzhen|guangzhou|chengdu|hangzhou|suzhou|taiwan|taipei|hsinchu|japan|tokyo|osaka|kyoto|korea|seoul|"
+    r"australia|sydney|melbourne|brisbane|new zealand|auckland|israel|tel aviv|haifa|herzliya|jerusalem|"
+    r"uae|dubai|abu dhabi|qatar|doha|saudi\w*|riyadh|egypt|cairo|nigeria|lagos|kenya|nairobi|south africa|johannesburg|cape town|"
+    r"mexico|guadalajara|monterrey|brazil|são paulo|sao paulo|blumenau|argentina|buenos aires|chile|colombia|bogota|bogotá|peru|costa rica|guatemala|"
+    r"lausanne|valbonne|sophia antipolis|knutsford|sgp|"
+    r"emea|apac|latam|europe)\b", re.I)
+US_MARK = re.compile(r"(?i:\b(united states|usa|u\.s\.a?\.?)(?!\w))|\bUS\b")
 
 
 def us_job(location: str) -> bool:
-    """Drop clearly non-US jobs; keep US, US-remote and blank locations."""
+    """Drop non-US jobs. A location naming another country/city counts as US only if it also says "United States"/"US"
+    (multi-location postings). Two-letter codes aren't trusted: "Blumenau, SC, Brazil" isn't South Carolina."""
     loc = location or ""
-    return not NON_US.search(loc) or bool(US.search(loc))
+    return not NON_US.search(loc) or bool(US_MARK.search(loc))
 
 
 # campus-specific reqs ("HEC Engineer Intern - LSU") are only open to that school's students
@@ -83,14 +94,14 @@ OTHER_SCHOOL = re.compile(r"-\s*(colorado school of mines|montana( state| tech)?
 
 # Allow-list: the title has to name CS or computer-engineering work. "Engineer" or "analyst" alone isn't enough.
 CS_TITLE = re.compile(
-    r"\b(robotic\w*|applied scientist|gpu|cuda|dft|(software|hardware|electrical|silicon|firmware|design) (validation|verification)|validation engineer\w*|fpga|asic|test automation|automation test\w*|erp|telecom\w*|software|developer|programm\w*|coding|data|machine learning|deep learning|ml|ai|a\.i\.|artificial intelligence|llm|nlp|"
-    r"computer|cs|cyber\w*|security|information technology|it|information systems|network\w*|cloud|devops|sre|site reliability|"
-    r"web|mobile|android|ios|full[- ]?stack|front[- ]?end|back[- ]?end|firmware|embedded|database|analytics|bioinformatics|"
+    r"\b(robotic\w*|applied scientist|gpu|cuda|dft|(software|hardware|electrical|silicon|firmware|design) (validation|verification)|validation engineer\w*|fpga|asic|test automation|automation test\w*|erp|telecom\w*|software|developer|programmer\w*|programming|coding|data|machine learning|deep learning|ml|ai|a\.i\.|artificial intelligence|llm|nlp|"
+    r"computer|cs|swe|cyber\w*|(information|network|cloud|application|product|software|it|data) security|security (engineer\w*|analyst|operations|research\w*|intern\w*)|offensive security|appsec|penetration test\w*|pentest\w*|information technology|it|information systems|network (engineer\w*|administrat\w*|operations|infrastructure|analyst)|networking|cloud|devops|sre|site reliability|"
+    r"web|mobile (app\w*|developer|software|engineer\w*)|android|ios|full[- ]?stack|front[- ]?end|back[- ]?end|firmware|embedded|database|analytics|bioinformatics|"
     r"quant\w*|automation engineer\w*|robotics software|autonomy|computer vision|perception|slam|infrastructure engineer\w*|"
     r"platform engineer\w*|systems? administrat\w*|help ?desk|technical support|qa|quality assurance|sdet|test automation|"
     r"technology intern\w*|tech intern\w*|technology (analyst|associate|program)|digital (design|technology)|"
     r"hardware|asic|fpga|vlsi|chip|silicon|semiconductor|soc|digital design|verification|signal processing|dsp|"
-    r"computer engineering|electrical (and|&) computer|game (developer|engine|programmer)|gameplay|graphics|simulation software)\b", re.I)
+    r"computer engineering|electrical (and|&) computer|game (developer|engine|programmer)|gameplay|(computer|real-time) graphics|graphics (software|engineer\w*|programmer)|simulation software|solutions engineer\w*)\b", re.I)
 INTERNAL_ONLY = re.compile(r"\b(current|previous|recent|returning)\b[^)]{0,40}\binterns?\b[^)]{0,20}\bonly\b|\bfor current\b", re.I)
 
 
@@ -104,9 +115,19 @@ def keep_title(title: str) -> bool:
     if not TITLE_KEEP.search(title) or TITLE_DROP.search(title):  # CS_TITLE above already requires technical work
         return False
     # "Supply Chain Tooling Engineer Intern" is technical even though it names a business area
-    if FIELD_DROP.search(title):
+    if FIELD_DROP.search(title) and not re.search(r"\b(software|developer|programmer|firmware|data scien\w*|it)\b", title, re.I):
         return False
     return not NON_TECH.search(title) or (bool(STRONG_TECH.search(title)) and not re.search(r"\bsales\b", title, re.I))
+
+
+def early_evidence(title: str, text: str = "") -> str | None:
+    """The sentence (or title) that makes a posting an early program; shown on EARLY.md so students can check it."""
+    if EARLY.search(title):
+        return title
+    m = EARLY_TEXT.search((text or "")[:3000])
+    if not m:
+        return None
+    return next((x for x in sentences(text[:3000]) if EARLY_TEXT.search(x)), m.group(0))[:300]
 
 
 def section(title: str, text: str = "") -> str | None:
@@ -153,7 +174,9 @@ def strip_html(html: str) -> str:
 
 
 if __name__ == "__main__":
-    rows = load_json(POSTINGS, [])
+    before = load_json(POSTINGS, [])
+    rows = [r for r in before if r.get("source") == "manual" or (keep_title(r["title"]) and us_job(r.get("location", "")))]
+    print(f"filter: {len(before)} -> {len(rows)}")
     for r in rows:  # sections are set at fetch time from the full description; only fill gaps here
         r["section"] = r.get("section") or section(r["title"]) or "internship"
     save_json(POSTINGS, rows)

@@ -9,20 +9,24 @@ Pulled straight from companies' own job boards and refreshed daily. **Last updat
 
 | Section | Open roles | Link |
 |---|---|---|
-| 💼 **Internships** | 1548 | **[👉 Open the list](INTERNSHIPS.md)** |
-| 🎓 **New Grad** | 110 | **[👉 Open the list](NEW_GRAD.md)** |
+| 💼 **Internships** | 1279 | **[👉 Open the list](INTERNSHIPS.md)** |
+| 🎓 **New Grad** | 87 | **[👉 Open the list](NEW_GRAD.md)** |
 | 🌱 **Early Programs (freshmen & sophomores)** | 5 | **[👉 Open the list](EARLY.md)** |
 
-This board isn't the most complete one out there. It focuses on tags you can trust, Gulf Coast and local companies, and programs for freshmen and sophomores. For more breadth, also check Handshake, LinkedIn, and the community internship lists on GitHub.
+Each list is grouped by state, with Louisiana and the Gulf Coast first. Tags come only from a sentence in the posting itself. A blank tag means the posting doesn't say, not "no".
+
+This board doesn't cover everything. It reads about half of what paid job aggregators list. For more, also check Handshake, LinkedIn, and the community internship lists on GitHub.
+
+**Not on this board yet:** Meta, Microsoft, Amazon, Google, Netflix, AMD, Qualcomm, Cisco, IBM, Oracle, ExxonMobil, Phillips 66, Chevron, Shell, Entergy, Lockheed Martin, Capital One, JPMorgan Chase, Goldman Sachs, Bloomberg, Stripe, Databricks, Snowflake, Uber, Airbnb, LinkedIn, Tesla, SpaceX, ServiceNow, Intuit, PayPal, Mastercard, Target. These companies hire CS interns, but their job sites aren't read here yet. Check their careers pages directly.
 
 **Tags.** 🛂✅ the posting says it sponsors visas · 🛂❌ it says it doesn't · 🇺🇸 limited to U.S. citizens, green-card holders or U.S. persons (often ITAR) · 🔒 security clearance · 🌐 remote · ⚠ link couldn't be verified recently · ⏳ listed for 60+ days.
 A blank tag means the posting doesn't say.
 
 > 🛂❌ usually refers to future visa sponsorship (for example H-1B). It doesn't necessarily mean CPT or OPT can't be used. Check with the recruiter and your DSO.
 
-## 🆕 New this week (1663)
+## 🆕 New this week
 
-_Lots of postings were added this week, so browse the sections above. This list shows the newest additions once things settle._
+_The board started on Nov 9. From Nov 16, this list shows postings added in the past 7 days._
 
 ---
 Found a posting that should be here? Tell an ACM officer.

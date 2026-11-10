@@ -1,12 +1,14 @@
 # McNeese ACM Job Board: Design
 
+> This is the original plan. Parts not built yet are marked *(planned)*. [WRITEUP.md](WRITEUP.md) describes what's built and what was measured.
+
 A public GitHub repo that lists internships, new-grad roles and early-career programs for McNeese computer science and computer engineering students, refreshed daily. Built and owned by Rohitpreet Singh as a portfolio project. Only the maintainers (Rohit and the ACM officers) can change it; everyone else has read access.
 
 ## 1. Goals and constraints
 
 | | |
 |---|---|
-| Audience | About 200 McNeese students, mostly CS, some computer engineering, from freshmen to seniors |
+| Audience | About 300 McNeese students, mostly CS, some computer engineering, from freshmen to seniors |
 | Content | Three sections: Summer internships, New-grad roles, Early programs for freshmen and sophomores, plus a "New this week" section at the top |
 | Refresh | Daily (scheduled GitHub Action), plus an immediate run when a maintainer adds postings by hand |
 | Freshness | Postings confirmed closed twice in a row are removed; postings that can't be verified are flagged ⚠ instead of removed |
@@ -28,7 +30,7 @@ A public GitHub repo that lists internships, new-grad roles and early-career pro
 | **Company job boards** in `companies.yaml` (955 boards: 523 Workday, 158 Greenhouse, 153 Oracle, 53 SmartRecruiters, 36 Ashby, 32 Lever) | Every open role at each company, with full descriptions | Each company's own public board feed. The list was built from the apply links of Rohit's Nov 5 scan (company name and its own board address only). Coverage check against that scan: Greenhouse + Lever + Ashby + Workday reach about 44% of postings and 42% of companies |
 | **More ATS feeds:** Workable, Recruitee, Breezy HR, HireHive, Manatal | Startups and small companies, especially YC companies | Each has a documented public JSON endpoint per company; same adapter pattern as Greenhouse |
 | **YC company pass** (`scripts/find_boards.py`, monthly) | Y Combinator startups | YC's own job site has no public API and needs a login, so it isn't used. Instead, YC company names are checked against Ashby, Greenhouse, Lever and Workable; boards that exist are added to `companies.yaml` |
-| **Hacker News "Who is hiring"** (`scripts/adapters/hn.py`, monthly) | Startup roles posted in the monthly thread | Official HN API / Algolia HN search API; only top-level comments mentioning intern, new grad or similar; each becomes a row linking to its HN comment |
+| **Hacker News "Who is hiring"** (`scripts/adapters/hn.py`, monthly) | Startup roles posted in the monthly thread | Official HN API / Algolia HN search API; only top-level comments mentioning intern, new grad or similar; each becomes a row linking to its HN comment | *(planned)*
 | **Big-company adapters** (`scripts/adapters/`) | Meta, Microsoft, Amazon, Google, Netflix, Qualcomm, Cisco and similar companies on their own career sites | One small adapter per company, using its public job-search endpoint. Brings coverage to an estimated 60–65% of postings, including the names students search for first |
 | Public ATS job feeds for a hand-picked company list (`companies.yaml`) | Companies the lists miss: Gulf Coast energy, local employers, semiconductor and instrumentation firms | Greenhouse, Lever and Ashby have public JSON job-board endpoints. Workday has a per-tenant job-search endpoint, but it is undocumented, so use it sparingly. Send a descriptive User-Agent with a contact email, and keep to about 1 request per second per host. |
 | Maintainer additions (`manual.yaml`) | One-off postings a maintainer finds or a student mentions to an officer | Added by a maintainer, committed directly, picked up by the next run |
@@ -41,12 +43,12 @@ A public GitHub repo that lists internships, new-grad roles and early-career pro
 |---|---|---|
 | Workday, Greenhouse, Lever, Ashby, SmartRecruiters, Workable and other v1 ATS feeds | 2,571 | 47.8% |
 | + Oracle | 3,025 | 56.3% |
-| + big-company adapters (Meta, Microsoft, Amazon, Qualcomm, Cisco, Google, Netflix) | 3,133 | 58.3% |
-| **+ Eightfold and ADP adapters (v1 final)** | **3,478** | **64.7%** |
+| + big-company adapters (Meta, Microsoft, Amazon, Qualcomm, Cisco, Google, Netflix) | 3,133 | 58.3% | *(planned)*
+| **+ Eightfold and ADP adapters (v1 final)** | **3,478** | **64.7%** | *(planned)*
 
 **v1 final, by quality and lane:** best fits (4.5+) 72%; top 1,900 queue 70% (SWE 70%, AI/ML 70%, Embedded 80%, Business 67%); 1,098 of 1,726 companies. Coverage is higher for strong postings than weak ones, so the gaps are not concentrated in the important roles.
 
-**Must-have companies check (monthly):** `data/must_have.yaml` lists ~50 well-known CS internship employers. A monthly run confirms each one has a working source; any that don't are flagged in the run log for a maintainer to add an adapter or a `manual.yaml` row.
+**Must-have companies check (monthly):** `data/must_have.yaml` lists ~50 well-known CS internship employers. A monthly run confirms each one has a working source; any that don't are flagged in the run log for a maintainer to add an adapter or a `manual.yaml` row. *(planned)*
 
 Hacker News and the YC company pass add startup roles that weren't in that scan at all, so they aren't counted above.
 
@@ -86,15 +88,15 @@ mcneese-jobs/
 │   ├── build_readme.py           write README.md and the three table files
 │   └── local/
 │       ├── nightly.ps1           laptop job: run checks, commit data/checks.json, push
-│       └── fetch_workday.py      Workday fetch in a real browser (Playwright)
+│       └── fetch_workday.py      Workday fetch in a real browser (Playwright) *(planned)*
 ├── tests/
 │   ├── fixtures/                 saved Greenhouse, Lever, Ashby, Workday, SmartRecruiters, Oracle and big-company responses
-│   └── eval/labeled.csv          ~150 hand-labeled postings for section and tag accuracy
+│   └── eval/labeled.csv          ~150 hand-labeled postings for section and tag accuracy *(planned)*
 ├── docs/
 │   ├── WRITEUP.md                design tradeoffs (portfolio)
-│   └── MAINTAINING.md            runbook for officers
+│   └── MAINTAINING.md            runbook for officers *(planned)*
 ├── .github/workflows/daily.yml
-└── .github/workflows/tests.yml   run tests on every push
+└── .github/workflows/tests.yml   run tests on every push *(planned)*
 ```
 
 ## 4. The daily run
@@ -155,12 +157,12 @@ The heavy and fragile work runs on Rohit's laptop; the GitHub Action stays light
 
 | Runs where | Job | Why |
 |---|---|---|
-| Laptop, nightly (Windows Task Scheduler, ~2 a.m.) | Link checks for `companies.yaml` and `manual.yaml` rows; Workday fetching in a real browser | No 30-minute limit, so it can stay slow and polite; Workday renders with JavaScript; a home connection is blocked less than cloud IPs |
+| Laptop, nightly (Windows Task Scheduler, ~2 a.m.) | Link checks for `companies.yaml` and `manual.yaml` rows; Workday and Oracle fetching through their public JSON search | No 30-minute limit, so it can stay slow and polite; Workday renders with JavaScript; and it isn't limited by a free cloud run's time budget |
 | GitHub Action, daily | Upstream fetch, merge, classify, test, validate, build, commit | Light; always runs |
 
 **How the laptop job works (`scripts/local/nightly.ps1`):**
 1. `git pull`
-2. Run `check_links.py --local` and `fetch_workday.py`; they write only `data/checks.json` (and Workday postings into it).
+2. Run `check_links.py --local` and `fetch_workday.py`; they write only `data/checks.json` (and Workday postings into it). *(planned)*
 3. Commit `data/checks.json` and push; if the push is rejected because the Action pushed first, `git pull --rebase` and push again (up to 3 tries). It never touches generated files or `postings.json`, so the rebase can't conflict.
 
 **If the laptop is off,** the Action still runs and uses the last `checks.json`. Rows checked more than 3 days ago show ⚠. Nothing breaks; the data just gets less fresh.
@@ -200,7 +202,7 @@ The heavy and fragile work runs on Rohit's laptop; the GitHub Action stays light
 
 - **Account:** the repo lives under Rohit's account, with ACM officers as collaborators.
 - **Succession:** before Rohit graduates, transfer the repo to an ACM GitHub organization. GitHub keeps stars and redirects the old URL.
-- **Failures:** failed scheduled runs email the owner. `docs/MAINTAINING.md` covers re-running, adding a posting or company, handling a source that changes its format, and setting up the laptop job.
+- **Failures:** failed scheduled runs email the owner. `docs/MAINTAINING.md` covers re-running, adding a posting or company, handling a source that changes its format, and setting up the laptop job. *(planned)*
 - **Rule for maintainers:** edit only `manual.yaml` and `companies.yaml`. Everything else is generated; hand edits to generated files cause rebase conflicts and are overwritten.
 - **Schedule pauses:** GitHub pauses scheduled workflows on public repos after 60 days without repository activity. Daily bot commits should count as activity; if the board ever goes quiet, re-enable the workflow from the Actions tab.
 - **Action pinning:** third-party actions in the workflows are pinned to a full commit SHA, updated deliberately.
@@ -208,7 +210,7 @@ The heavy and fragile work runs on Rohit's laptop; the GitHub Action stays light
 
 ## 9. Portfolio value
 
-- **Tag accuracy:** precision and recall per tag on `tests/eval/labeled.csv`, reported in the README. Especially the rate of false 🛂✅ tags, the error that costs international students the most.
+- **Tag accuracy:** precision and recall per tag on `tests/eval/labeled.csv`, reported in the README. Especially the rate of false 🛂✅ tags, the error that costs international students the most. *(planned)*
 - **Metrics:** auto-generated weekly numbers in the README — postings tracked, added, removed and flagged uncertain.
 - **Tests:** fixtures for every source, run on every push.
 - **Write-up:** `docs/WRITEUP.md` on the tradeoffs: daily refresh, ⚠ instead of deletion, three-state tags, maintainer-only writes.
@@ -232,7 +234,7 @@ The heavy and fragile work runs on Rohit's laptop; the GitHub Action stays light
 - weekly metrics
 
 **v1.2:**
-- the evaluation set (~150 hand-labeled postings) and per-tag accuracy in the README
+- the evaluation set (~150 hand-labeled postings) and per-tag accuracy in the README *(planned)*
 - description-based dedup for ATS postings
 
 **Later:**
