@@ -7,7 +7,7 @@ Pulled straight from companies' own job boards and refreshed daily. **Last updat
 
 **Click "👉 Open the list"** next to a section to see its jobs. Each job title in a list is a link to the company's application page.
 
-| Section | Open roles | |
+| Section | Open roles | Link |
 |---|---|---|
 | 💼 **Internships** | 1504 | **[👉 Open the list](INTERNSHIPS.md)** |
 | 🎓 **New Grad** | 109 | **[👉 Open the list](NEW_GRAD.md)** |
