@@ -24,7 +24,7 @@ A referral means someone at the company submits your name. It's the best way to 
 
 ## Online assessments (OAs)
 
-Many companies send a timed coding test (HackerRank, CodeSignal, or similar) right after you apply, often before a person looks at your resume.
+Many companies send a timed coding test ([HackerRank](https://www.hackerrank.com), [CodeSignal](https://codesignal.com), or similar) right after you apply, often before a person looks at your resume.
 
 - 60 to 90 minutes, 2 to 4 problems.
 - Practice timed problems ([coding practice](timeline.md#coding-interview-practice)).
@@ -57,13 +57,13 @@ You will get many. Every person who got an internship also got rejections. After
 ## Resources
 
 **Interview prep**
-- [Tech Interview Handbook](https://www.techinterviewhandbook.org): coding, behavioral, and negotiation guides, plus the Grind 75 study plan.
+- [Tech Interview Handbook](https://www.techinterviewhandbook.org): coding, behavioral, and negotiation guides, plus the [Grind 75](https://www.techinterviewhandbook.org/grind75/) study plan.
 - [NeetCode](https://neetcode.io) and [LeetCode](https://leetcode.com): the NeetCode 150 list, videos, and practice.
 - [Kattis](https://open.kattis.com) and [Codeforces](https://codeforces.com): contest-style practice.
 
 **More job lists** (this board doesn't catch everything)
 - [Simplify's Summer 2027 internship list](https://github.com/SimplifyJobs/Summer2027-Internships) and [new-grad list](https://github.com/SimplifyJobs/New-Grad-Positions).
-- Handshake (through your school) and LinkedIn Jobs.
+- [Handshake](https://joinhandshake.com) (through your school) and LinkedIn Jobs.
 
 **No internship yet?** [Extern](https://www.extern.com), [Forage](https://www.theforage.com), [Parker Dewey](https://www.parkerdewey.com), undergrad research, and campus jobs all count as experience.
 

@@ -15,7 +15,7 @@ A resume is a one-page summary of what you've done. Recruiters spend a few secon
 2. **Education:** school, major, expected graduation, GPA if 3.0 or higher (many applications ask for it anyway), Dean's List or honors, relevant classes.
 3. **Projects:** your best 2 or 3. This is the main section when you have no experience.
 4. **Experience:** any job counts, including retail, food service, campus jobs, or a family business. It shows you show up.
-5. **Leadership and activities:** club roles, competitions (ICPC, hackathons), tutoring, volunteering, events you organized.
+5. **Leadership and activities:** club roles, competitions ([ICPC](https://icpc.global), hackathons), tutoring, volunteering, events you organized.
 6. **Skills:** languages, tools, and frameworks you have really used.
 
 ## Bullet formula
@@ -48,7 +48,7 @@ Read the job posting. If it asks for skills you really have (say, Java and SQL),
 ## Tools
 
 - **Google Docs or Word** with a plain one-column template is all you need.
-- **Optional:** Overleaf with the "Jake's Resume" template, a free LaTeX template many CS students use. Only if you're curious about LaTeX.
+- **Optional:** [Overleaf](https://www.overleaf.com) with the "Jake's Resume" template, a free LaTeX template many CS students use. Only if you're curious about LaTeX.
 
 ## Common mistakes
 

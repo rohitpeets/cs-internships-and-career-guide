@@ -53,9 +53,9 @@ Most internship applications include an online coding test or interview.
 - Start after you've taken Data Structures (or while taking it).
 - Learn the patterns: arrays, strings, hash maps, two pointers, recursion, trees, graphs.
 - Use one language you know well (Java, Python, or C++).
-- Follow NeetCode's list of 150 problems and practice them on LeetCode.
+- Follow [NeetCode](https://neetcode.io)'s list of 150 problems and practice them on [LeetCode](https://leetcode.com).
 - Time yourself, and practice explaining out loud as you code.
-- ICPC practice and contests count as practice too.
+- [ICPC](https://icpc.global) practice and contests count as practice too.
 
 ## Note for F-1 students
 

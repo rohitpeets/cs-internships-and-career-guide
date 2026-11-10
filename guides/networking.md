@@ -6,7 +6,7 @@ Networking means getting to know people who can teach you, vouch for you, or tel
 
 - **Go to office hours,** even with a small question. Professors write recommendation letters, know about research spots, and hear about jobs.
 - **Ask about research.** "Are you working on anything a student could help with? I'm happy to start with small tasks." Many undergrad research jobs are never posted.
-- **Summer research (REUs):** the National Science Foundation funds paid summer research programs for undergrads at universities across the country. Search "NSF REU sites". Most deadlines are January to March. Freshmen and sophomores do get in.
+- **Summer research (REUs):** the National Science Foundation funds paid summer research programs for undergrads at universities across the country. Search "[NSF REU sites](https://www.nsf.gov/funding/initiatives/reu)". Most deadlines are January to March. Freshmen and sophomores do get in.
 
 ## 2. Upperclassmen
 
@@ -15,8 +15,8 @@ The most useful people you can know are juniors and seniors who already had inte
 ## 3. Clubs, teams, and leadership
 
 - **ACM chapter or CS club.** Go to a meeting this month. Once you've been around for a semester, volunteer to run one thing: a workshop, a study session, an event. A year later, run for an officer role. Leading something real gives you the best answers to "tell me about a time you..." interview questions.
-- **ICPC and programming contests.** If your school sends teams to the ICPC (a team programming contest), join the practice sessions. It's the best coding interview practice there is, and it goes on your resume.
-- **Hackathons.** Weekend events where teams build something fast. Beginners are welcome, many are free, and some are online. For your first one: go with a friend or join a team there, finish something small, and ignore the prizes. Find them on Major League Hacking (MLH) and Devpost.
+- **[ICPC](https://icpc.global) and programming contests.** If your school sends teams to the [ICPC](https://icpc.global) (a team programming contest), join the practice sessions. It's the best coding interview practice there is, and it goes on your resume.
+- **Hackathons.** Weekend events where teams build something fast. Beginners are welcome, many are free, and some are online. For your first one: go with a friend or join a team there, finish something small, and ignore the prizes. Find them on [Major League Hacking (MLH)](https://mlh.com) and [Devpost](https://devpost.com).
 - **Other clubs.** A cybersecurity, robotics, or engineering club, if your school has one.
 
 ## 4. Campus jobs
@@ -35,10 +35,10 @@ Big companies' reps often just say "apply online." That's normal. **Local and re
 
 Read the official pages; dates and rules change every year.
 
-- **Early internships for first-years and sophomores** (Google STEP, Explore Microsoft, and similar programs at banks and tech companies). Very competitive, so treat them as long shots. Apply, but don't count on them.
-- **CodePath:** free courses for college CS students.
-- **Communities:** ColorStack (Black and Latinx students in computing), SWE (women in engineering), NSBE, SHPE, and others. Many give free conference trips and job connections.
-- **Conferences:** Grace Hopper Celebration and the Tapia Conference offer travel scholarships. Apply early.
+- **Early internships for first-years and sophomores** ([Google STEP](https://www.google.com/about/careers/applications/students/), [Explore Microsoft](https://careers.microsoft.com/v2/global/en/exploremicrosoft), and similar programs at banks and tech companies). Very competitive, so treat them as long shots. Apply, but don't count on them.
+- **[CodePath](https://www.codepath.org):** free courses for college CS students.
+- **Communities:** [ColorStack](https://www.colorstack.org) (Black and Latinx students in computing), [SWE](https://swe.org) (women in engineering), [NSBE](https://www.nsbe.org), [SHPE](https://www.shpe.org), and others. Many give free conference trips and job connections.
+- **Conferences:** [Grace Hopper Celebration](https://ghc.anitab.org) and the [Tapia Conference](https://tapiaconference.cmd-it.org) offer travel scholarships. Apply early.
 
 ## Reaching out to strangers
 
@@ -68,10 +68,10 @@ Expect fewer than 1 in 10 to reply. That's normal, not personal.
 - [SHPE](https://www.shpe.org): Hispanic engineers and CS students; big national convention and career fair.
 - [SWE](https://swe.org): women in engineering and CS.
 - [Rewriting the Code](https://rewritingthecode.org): women in college studying tech.
-- [AnitaB.org](https://anitab.org): women in tech; runs the Grace Hopper Celebration.
+- [AnitaB.org](https://anitab.org): women in tech; runs the [Grace Hopper Celebration](https://ghc.anitab.org).
 - [Out in Tech](https://outintech.com) and [oSTEM](https://ostem.org): LGBTQ+ people in tech and STEM.
 - [AISES](https://www.aises.org): Indigenous students in STEM.
-- (Women Who Code closed in 2024. Rewriting the Code and AnitaB.org are good alternatives.)
+- (Women Who Code closed in 2024. [Rewriting the Code](https://rewritingthecode.org) and [AnitaB.org](https://anitab.org) are good alternatives.)
 
 **Programs**
 - [CodePath](https://www.codepath.org): free courses for college students (interview prep, web, mobile, AI), with company connections.
@@ -79,7 +79,7 @@ Expect fewer than 1 in 10 to reply. That's normal, not personal.
 - [SEO Tech Developer](https://tech.seo-usa.org): free training and internship placement for students from underrepresented groups, including a first-year academy.
 - [Break Through Tech](https://breakthroughtech.org): free AI/ML program for undergrads from underrepresented groups.
 - [Explore Microsoft](https://careers.microsoft.com/v2/global/en/exploremicrosoft) and [Google students](https://www.google.com/about/careers/applications/students/): early programs for first-years and sophomores (long shots).
-- Summer research: search "NSF REU sites" (deadlines usually January to March).
+- Summer research: search "[NSF REU sites](https://www.nsf.gov/funding/initiatives/reu)" (deadlines usually January to March).
 
 **Hackathons and contests**
 - [Major League Hacking (MLH)](https://mlh.com) and [Devpost](https://devpost.com): hackathon calendars, in person and online.

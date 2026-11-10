@@ -26,7 +26,7 @@ Your **second project** should solve a real problem for real people. Ideas:
 - [ ] Write down 3 features. Build only those.
 - [ ] Put the code on GitHub from day one ([GitHub guide](github.md)).
 - [ ] Write a README with a screenshot and how to run it.
-- [ ] Put it online if it's a website (GitHub Pages is free for simple sites). A dead link is worse than no link.
+- [ ] Put it online if it's a website ([GitHub Pages](https://pages.github.com) is free for simple sites). A dead link is worse than no link.
 - [ ] Ask two people to try it. Fix what confuses them.
 - [ ] Write down one bug you fixed or one thing you measured. That's your interview story.
 - [ ] Add it to your [resume](resume.md) with an honest bullet.
@@ -37,8 +37,8 @@ A finished small project beats five half-finished big ones.
 
 Pick one and stick with it:
 
-- **Never coded outside class:** CS50x (Harvard's intro course).
-- **Terminal, Git, and tools:** The Missing Semester (MIT).
+- **Never coded outside class:** [CS50x](https://cs50.harvard.edu/x/) (Harvard's intro course).
+- **Terminal, Git, and tools:** [The Missing Semester](https://missing.csail.mit.edu) (MIT).
 
 Two evenings a week is plenty. Your classes come first.
 

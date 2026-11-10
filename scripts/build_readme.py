@@ -41,6 +41,36 @@ GOV = re.compile(r"\b(u\.?s\.? government|government|federal|national lab\w*|lab
                  r"navy|naval|army|air force|space force|missile|defense)\b", re.I)
 
 
+GUIDES = [("resume.md", "📝 Your first resume"), ("projects.md", "🛠️ Your first projects"),
+          ("applying.md", "📨 Applying and interviews"), ("networking.md", "🤝 Networking, clubs, and programs"),
+          ("timeline.md", "🗓️ 4-year timeline (and F-1 rules)"), ("github.md", "🐙 GitHub setup"),
+          ("linkedin.md", "💼 LinkedIn setup")]
+
+
+def guides_section() -> str:
+    """Embed each guide in the README as a click-to-open section, so nobody has to leave the page."""
+    gdir = ROOT / "guides"
+    if not gdir.is_dir():
+        return ""
+    start = (gdir / "README.md").read_text(encoding="utf-8") if (gdir / "README.md").exists() else ""
+    m = re.search(r"## Year 1: start here\n(.*?)\n## All guides", start, re.S)
+    out = ["## 📘 Guides: things I wish I knew", "",
+           "Click a guide to open it right here. Each one ends with its own list of free resources.", ""]
+    if m:
+        out += ["### Start here (year 1)", "", re.sub(r"^## ", "### ", re.sub(r"\]\((?!https?:|#)([^)]+)\)", r"](guides/\1)", re.sub(r"\n+Looking for clubs.*$", "", m.group(1).strip())), flags=re.M), ""]
+    for fname, label in GUIDES:
+        f = gdir / fname
+        if not f.exists():
+            continue
+        body = f.read_text(encoding="utf-8")
+        body = re.sub(r"^# .*\n", "", body, count=1)                      # its title becomes the summary
+        body = re.sub(r"^(#{2,5}) ", lambda h: "#" + h.group(1) + " ", body, flags=re.M)   # nest headings
+        body = re.sub(r"\]\((?!https?:|#)([^)]+)\)", r"](guides/\1)", body)          # links work from the repo root
+        body = re.sub(r"\n+Next: .*$", "", body.rstrip(), flags=re.S)
+        out += ["<details>", f"<summary><b>{label}</b></summary>", "", body.strip(), "", "</details>", ""]
+    return "\n".join(out)
+
+
 def text(s: str) -> str:
     """Escape untrusted text for a markdown table cell: no HTML, no links or emphasis, no new rows or columns."""
     s = " ".join((s or "").split())  # \r, \n and tabs can't start a new line or heading
@@ -182,7 +212,7 @@ def main():
 Internships, new-grad roles and early programs in the **United States** for computer science and computer engineering students, plus the guides and resources I wish I'd had as a freshman.
 Pulled straight from companies' own job boards and refreshed daily. **Last updated {today()}.**
 
-> **📘 New to internships? Read the [student guides](guides/README.md)** (resume, projects, applying, interviews, 4-year plan) **and [resources](guides/resources.md)** (ColorStack, NSBE, SHPE, CodePath, hackathons, free courses, project ideas, and more).
+> **📘 New to internships? [Open the guides below](#-guides-things-i-wish-i-knew)** (resume, projects, applying, interviews, 4-year plan) **and [resources](guides/resources.md)** ([ColorStack](https://www.colorstack.org), [NSBE](https://www.nsbe.org), [SHPE](https://www.shpe.org), [CodePath](https://www.codepath.org), [hackathons](https://mlh.com), [free courses](guides/projects.md#resources), [project ideas](https://github.com/codecrafters-io/build-your-own-x), and [more](guides/resources.md)).
 
 ## Find jobs
 
@@ -197,6 +227,8 @@ Each list shows the newest postings first. Tags come only from a sentence in the
 **{len(rows):,} open roles** from **{boards} company job boards**, checked every day, with automated tests on every run. How it works and how accurate it is: [docs/WRITEUP.md](docs/WRITEUP.md).
 
 This board doesn't cover everything. It reads about half of what paid job aggregators list. For more, also check Handshake, LinkedIn, and the community internship lists on GitHub.
+
+{guides_section()}
 
 {not_yet}
 
