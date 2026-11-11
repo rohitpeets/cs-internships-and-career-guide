@@ -34,6 +34,8 @@ To check a guess before adding it, put it in `GUESSES` in `scripts/probe_sources
 
 **Change what counts as a CS job or a tag.** The rules are in `scripts/classify.py`. Add a test for the case in `tests/test_classify.py` first, then change the rule, then run the tests.
 
+**Tracks and terms.** Each job's track (software, embedded, hardware, security, IT, data) and term (co-op, fall, spring, part-time) is read from its title at build time by `track()` and `terms()` in `classify.py`; government/defense is a second flag (`is_gov()`). `build_readme.py` writes `track-*.md` from them. The OA, minimum GPA and clearance-level tags come from the posting text at fetch time, so older rows only get them after the next fetch. To fix a wrong track, add the title to `test_track_from_title` first.
+
 ## How it runs
 
 - **GitHub Action, daily** (`.github/workflows/daily.yml`): Greenhouse, Lever, Ashby, SmartRecruiters, Amazon and Netflix, then merge, classify, test, validate, and build the pages. Failures email the repo owner. The log is in the Actions tab.

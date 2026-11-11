@@ -40,7 +40,8 @@ CITIZEN = re.compile(
     , re.I)
 # a bare ITAR mention is shown as its own tag ("mentions ITAR"): ITAR roles are often, not always, limited to U.S. persons
 ITAR = re.compile(r"\bitar\b", re.I)
-CLEARANCE = re.compile(r"(security|secret|top secret|ts/sci|dod) clearance|clearance (is )?required|(obtain|maintain|hold) (an? |active )?(security )?clearance|\bts/sci\b", re.I)
+CLEARANCE = re.compile(r"(security|secret|top secret|ts/sci|dod|public trust) clearance|clearance (is )?required|(obtain|maintain|hold) (an? |active )?(security )?clearance|\bts/sci\b"
+                       r"|public trust (position|background|investigation|eligib\w*)", re.I)
 REMOTE = re.compile(r"\bremote\b", re.I)
 # F-1 students need CPT (during school) or OPT: a posting that rules those out is closed to them right now, not just later
 NOT_REQUIRED = re.compile(r"\b(not|no)\b[^.]{0,20}\b(required|needed|necessary)\b|\bno (security )?clearance\b|:\s*none\b|^none\b", re.I)
@@ -211,6 +212,107 @@ def _hit(sents, rx, skip=None):
     return None
 
 
+# ---- tracks and terms: read from the title only, so they're set at build time for every stored row ----
+# One primary track per row, first match wins. Specific roles (security, embedded, hardware, a named data or IT role)
+# beat "software"; a passing mention ("Software Engineer, AI Platform") stays software. Anything else CS-generic is software.
+TRACKS = [("software", "Software"), ("embedded", "Embedded and firmware"), ("hardware", "Hardware and chips"),
+          ("security", "Security"), ("it", "IT and networking"), ("data", "Data, ML and AI"), ("gov", "Government and defense")]
+SECURITY_T = re.compile(r"\b(cyber\w*|security|pen(etration)?[- ]?test\w*|pentest\w*|soc analyst|security operations|appsec|red team|blue team|threat|vulnerabilit\w*|malware|forensic\w*)\b", re.I)
+EMBEDDED_T = re.compile(r"\b(firmware|embedded|rtos|real[- ]time operating|micro-?controllers?|bare[- ]metal)\b", re.I)
+HARDWARE_T = re.compile(r"\b(fpga|asic|rtl|vlsi|silicon|chips?|semiconductor|soc|system[- ]on[- ]chip|dft|digital design|physical design|"
+                        r"(design|hardware|pre-?silicon|post-?silicon) (verification|validation)|verification engineer\w*|hardware)\b", re.I)
+SOFTWARE_T = re.compile(r"\b(software|developer|programmer|swe|sde|full[- ]?stack|front[- ]?end|back[- ]?end|web|mobile|ios|android|game)\b", re.I)
+DATA_STRONG = re.compile(r"\b(data scien\w*|data analy\w*|data engineer\w*|machine learning|ml engineer\w*|ai engineer\w*|ai/ml|ml/ai|"
+                         r"applied scientist|research scientist|deep learning|computer vision|nlp|business intelligence|analytics)\b", re.I)
+DATA_WEAK = re.compile(r"\b(data|ml|ai|a\.i\.|artificial intelligence|llm|generative|agentic|scientist|statistic\w*)\b", re.I)
+IT_STRONG = re.compile(r"(?<![\w-])IT(?![\w-])|\b(information technology|information systems|help ?desk|service desk|desktop support|technical support|"
+                       r"network (engineer\w*|administrat\w*|operations|analyst|infrastructure)|networking|system(s)? administrat\w*|sysadmin|"
+                       r"data center|cloud (engineer\w*|operations|infrastructure)|infrastructure (engineer\w*|operations|analyst))\b")
+IT_WEAK = re.compile(r"\b(cloud|infrastructure|devops|site reliability|sre|network\w*|systems engineer\w*)\b", re.I)
+IT_STRONG_I = re.compile(IT_STRONG.pattern.split("|", 1)[1], re.I)  # everything but the bare "IT", case-insensitive
+
+# rows on the gov page: a government/lab/defense title, or a posting that requires clearance or U.S. citizenship
+GOV = re.compile(r"\b(u\.?s\.? government|government|federal|national lab\w*|laborator(y|ies)|jpl|jet propulsion|nasa|dod|department of (defense|energy)|"
+                 r"navy|naval|army|air force|space force|missile|defense)\b", re.I)
+
+TERMS = [("co_op", re.compile(r"\b(co-?op|co-?operative education)\b", re.I)), ("fall", re.compile(r"\b(fall|autumn)\b", re.I)),
+         ("spring", re.compile(r"\bspring\b", re.I)), ("part_time", re.compile(r"\bpart[- ]?time\b", re.I))]
+
+
+def track(title: str) -> str:
+    """The posting's main track, from its title. Used for the track-*.md pages."""
+    t = title or ""
+    if SECURITY_T.search(t) and not re.search(r"\bsoc\b(?! analyst)", t, re.I):  # "SoC" is a chip, "SOC analyst" is security
+        return "security"
+    if EMBEDDED_T.search(t):
+        return "embedded"
+    if HARDWARE_T.search(t) and not re.search(r"\bsoftware (verification|validation)\b", t, re.I):
+        return "hardware"
+    if DATA_STRONG.search(t):
+        return "data"
+    if IT_STRONG.search(t) or IT_STRONG_I.search(t):
+        return "it"
+    if SOFTWARE_T.search(t):
+        return "software"
+    if DATA_WEAK.search(t):
+        return "data"
+    if IT_WEAK.search(t):
+        return "it"
+    return "software"
+
+
+def is_gov(r) -> bool:
+    t = r.get("tags") or {}
+    return bool(GOV.search(r.get("title", "")) or t.get("clearance") or t.get("citizen"))
+
+
+def terms(title: str) -> list[str]:
+    """Non-summer terms named in the title. Summer is the default and isn't tagged."""
+    return [k for k, rx in TERMS if rx.search(title or "")]
+
+
+# ---- text tags that need the description (set at fetch time) ----
+OA = re.compile(r"\b(hackerrank|hacker rank|codesignal|code signal|codility|online (coding )?assessments?)\b", re.I)
+GPA_NUM = re.compile(r"(?<![\d./])([234]\.\d{1,2})(?![\d])")  # not the "4.0" in "3.0/4.0"
+GPA_MIN_WORD = re.compile(r"\b(minimum|min\.?|at least|no less than|or (higher|above|better|greater)|required|requires?|must)\b|\d\s*\+", re.I)
+PREFERRED = re.compile(r"\b(preferred|prefer|desired|a plus|ideally)\b", re.I)
+CLEARANCE_LEVELS = [("ts/sci", re.compile(r"\bts\s*/\s*sci\b|\btop secret\s*/\s*sci\b|\bts\s*sci\b", re.I)),
+                    ("top secret", re.compile(r"\btop[- ]secret\b|\bTS\b(?!/)", re.I)),
+                    ("secret", re.compile(r"\bsecret\b", re.I)),
+                    ("public trust", re.compile(r"\bpublic trust\b", re.I))]
+POLY = re.compile(r"\b(poly|polygraph|ci[- ]poly|full[- ]scope)\b", re.I)
+
+
+def min_gpa(sents) -> tuple[float | None, str | None]:
+    """The lowest GPA a posting says it requires ("minimum 3.0 GPA", "GPA of 3.5 or higher"). A GPA that's only preferred doesn't count."""
+    for x in sents:
+        if not re.search(r"\bgpa\b|grade point average", x, re.I) or not GPA_MIN_WORD.search(x):
+            continue
+        nums = []
+        for m in GPA_NUM.finditer(x):
+            near = x[max(0, m.start() - 40): m.end() + 40]
+            after = x[m.end(): m.end() + 20]
+            if not re.search(r"\bgpa\b|grade point", near, re.I) or PREFERRED.search(after):
+                continue
+            if re.search(r"\bon a\s*$", x[max(0, m.start() - 6): m.start()]) or re.match(r"\s*scale", after):
+                continue  # "on a 4.0 scale"
+            nums.append(float(m.group(1)))
+        if nums:
+            return min(nums), x
+    return None, None
+
+
+def clearance_level(text: str) -> str | None:
+    """The clearance level named in a sentence: public trust, secret, top secret or ts/sci, plus "+ poly" for a polygraph.
+    The first level mentioned wins, so "Secret required; Top Secret preferred" is secret."""
+    # earliest mention wins; at the same spot the more specific level wins ("Top Secret/SCI" is ts/sci, not top secret)
+    found = [(m.start(), i, name) for i, (name, rx) in enumerate(CLEARANCE_LEVELS) for m in [rx.search(text or "")] if m]
+    if not found:
+        return None
+    name = min(found)[2]
+    return name + (" + poly" if POLY.search(text) else "")
+
+
 def tags(text: str, location: str = "") -> tuple[dict, dict]:
     t, ev = {"sponsor": None, "citizen": None, "clearance": None, "no_cpt": None, "remote": bool(REMOTE.search(location))}, {}
     sents = [x for x in sentences(text) if not re.search(r"export licen[cs]e", x, re.I)]
@@ -229,6 +331,20 @@ def tags(text: str, location: str = "") -> tuple[dict, dict]:
         hit = _hit(sents, ITAR)
         if hit:
             t["itar"], ev["itar"] = True, hit[:300]
+    t["clearance_level"] = None
+    if t["clearance"]:  # the level from the tagged sentence, else from another sentence about clearance
+        for x in [ev["clearance"]] + [x for x in sents if re.search(r"clearance|ts\s*/\s*sci|polygraph|\bsecret\b|public trust", x, re.I)]:
+            lvl = clearance_level(x)
+            if lvl:
+                t["clearance_level"] = lvl
+                break
+    t["oa"] = None
+    hit = _hit(sents, OA)
+    if hit:
+        t["oa"], ev["oa"] = True, hit[:300]
+    t["min_gpa"], hit = min_gpa(sents)
+    if hit:
+        ev["min_gpa"] = hit[:300]
     return t, ev
 
 

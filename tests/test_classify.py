@@ -129,3 +129,128 @@ def test_clearance_none_is_not_a_clearance():
 def test_quote_not_cut_at_e_g_across_a_line_break():
     _, ev = tags("We do not provide sponsorship for employment visa status (e.\ng., H-1B). Thanks.")
     assert ev["sponsor"] == "We do not provide sponsorship for employment visa status (e. g., H-1B)."
+
+
+# ---- tracks and terms (from the title, applied at build time) ----
+
+def test_track_from_title():
+    from classify import track
+    cases = {
+        "Software Engineering Intern - Summer 2027": "software",
+        "Backend Developer Intern": "software",
+        "2027 Intern - Software Engineer": "software",
+        "Summer 2027 - Technology Intern": "software",  # CS-generic defaults to software
+        "Embedded Software Intern": "embedded",
+        "Firmware Engineering Intern": "embedded",
+        "RTOS Development Co-op": "embedded",
+        "Microcontroller Applications Intern": "embedded",
+        "FPGA Design Intern": "hardware",
+        "ASIC Engineer Intern, Annapurna Labs - 2027": "hardware",
+        "RTL Design Intern": "hardware",
+        "Design Verification Intern": "hardware",
+        "Silicon Validation Intern": "hardware",
+        "VLSI Physical Design Intern": "hardware",
+        "CSG Hardware Engineering Intern": "hardware",
+        "Cybersecurity Analyst Intern": "security",
+        "Intern/Co-op - Cyber Security (Spring & Summer 2027)": "security",
+        "Penetration Testing Intern": "security",
+        "SOC Analyst Intern": "security",
+        "Software Engineer Intern - Product Security": "security",
+        "Intern, Information Technology": "it",
+        "IT Help Desk Intern": "it",
+        "Network Engineer Intern": "it",
+        "Systems Administrator Intern": "it",
+        "Co-op, IT Analyst: Spring": "it",
+        "2027 Business Technology Solutions Intern - Cloud Engineering (Undergraduate)": "it",
+        "Data Center Operations Intern": "it",
+        "Data Engineer Intern": "data",
+        "Financial Data Analyst Intern": "data",
+        "Advertising & Partnerships: Data Science Internship – Summer 2027": "data",
+        "Machine Learning Engineer, Applied AI Co-Op Intern, Winter 2027": "data",
+        "Summer 2027: Data Analytics Intern": "data",
+        "Agentic AI Engineer Co-Op": "data",
+        "Software Engineer Internship – AI Platform Team": "software",  # a software role on an AI team
+        "Summer Intern - Software Engineering - Quality Assurance": "software",
+    }
+    for title, want in cases.items():
+        assert track(title) == want, (title, track(title))
+
+
+def test_soc_chip_is_not_a_security_operations_center():
+    from classify import track
+    assert track("SoC Design Verification Intern") == "hardware"
+
+
+def test_gov_flag_from_title_or_tags():
+    from classify import is_gov
+    assert is_gov({"title": "Software Intern - Department of Energy National Laboratory", "tags": {}})
+    assert is_gov({"title": "Software Engineering Intern", "tags": {"clearance": True}})
+    assert is_gov({"title": "Software Engineering Intern", "tags": {"citizen": True}})
+    assert not is_gov({"title": "Software Engineering Intern", "tags": {"itar": True}})  # a bare ITAR mention isn't enough
+    assert not is_gov({"title": "Software Engineering Intern", "tags": {}})
+
+
+def test_terms_from_title():
+    from classify import terms
+    assert terms("Software Engineering Intern - Summer 2027") == []  # summer is the default, not tagged
+    assert terms("Wabtec Spring 2027 Software Engineering Co-Op (10-Week)") == ["co_op", "spring"]
+    assert terms("Intern/Co-op - Cyber Security (Spring & Summer 2027)") == ["co_op", "spring"]
+    assert terms("Software Engineering Intern - Fall 2027") == ["fall"]
+    assert terms("Autumn 2027 Data Intern") == ["fall"]
+    assert terms("Part-Time IT Intern") == ["part_time"]
+    assert terms("Part Time Software Developer Intern (Spring)") == ["spring", "part_time"]
+    assert terms("Cooperative Education Student - Software") == ["co_op"]
+
+
+# ---- text tags (set at fetch time from the posting description) ----
+
+def test_oa_platforms():
+    t, ev = tags("Candidates will complete a HackerRank challenge. Great team.")
+    assert t["oa"] is True and "HackerRank" in ev["oa"]
+    assert tags("Next step is a CodeSignal General Coding Assessment.")[0]["oa"] is True
+    assert tags("You will receive a Codility test.")[0]["oa"] is True
+    assert tags("Selected applicants complete an online assessment.")[0]["oa"] is True
+    assert tags("Interviews are held on campus.")[0]["oa"] is None
+
+
+def test_min_gpa():
+    cases = {
+        "Minimum 3.0 GPA.": 3.0,
+        "Must have a GPA of 3.5 or higher.": 3.5,
+        "Cumulative GPA of 3.2 or above required.": 3.2,
+        "Minimum cumulative GPA of 2.75 on a 4.0 scale.": 2.75,
+        "3.0/4.0 GPA or better.": 3.0,
+        "GPA: 3.0+": 3.0,
+        "Requires at least a 2.8 GPA.": 2.8,
+        "Minimum GPA of 3.0 required; 3.5 preferred.": 3.0,
+    }
+    for s, want in cases.items():
+        t, ev = tags(s)
+        assert t["min_gpa"] == want, (s, t["min_gpa"])
+        assert ev["min_gpa"] == s
+    for s in ["A 3.5 GPA is preferred.", "Strong academic record.", "Please include your GPA on your resume.",
+              "Version 3.0 of our GPA calculator.", "We have 4.0 stars on Glassdoor."]:
+        assert tags(s)[0]["min_gpa"] is None, s
+
+
+def test_clearance_level():
+    def lvl(s):
+        t, _ = tags(s)
+        return t["clearance_level"]
+    assert lvl("Must be able to obtain a Secret clearance.") == "secret"
+    assert lvl("Active Top Secret clearance required.") == "top secret"
+    assert lvl("Minimum Clearance Required to Start: TS/SCI") == "ts/sci"
+    assert lvl("Must hold an active TS/SCI clearance with polygraph.") == "ts/sci + poly"
+    assert lvl("Requires an active security clearance. Secret level.") == "secret"
+    assert lvl("Must be able to obtain a Public Trust clearance.") == "public trust"
+    assert lvl("Ability to obtain a security clearance.") is None  # clearance, level not stated
+    assert lvl("Secret clearance required; Top Secret preferred.") == "secret"  # the required level, not the preferred one
+    assert lvl("We keep trade secrets safe. Great team.") is None  # no clearance tag, no level
+    from classify import clearance_level
+    assert clearance_level("This role requires an active Top Secret/SCI clearance.") == "ts/sci"  # build time, from stored evidence
+
+
+def test_public_trust_counts_as_clearance():
+    assert tags("Must be able to obtain a Public Trust clearance.")[0]["clearance"] is True
+    assert tags("This is a public trust position requiring a background investigation.")[0]["clearance"] is True
+    assert tags("We value public trust in our products.")[0]["clearance"] is None

@@ -19,7 +19,10 @@
           "citizen": {"type": ["boolean", "null"]},
           "clearance": {"type": ["boolean", "null"]},
           "no_cpt": {"type": ["boolean", "null"]}, "itar": {"type": ["boolean", "null"]},
-          "remote": {"type": "boolean"}
+          "remote": {"type": "boolean"},
+          "clearance_level": {"type": ["string", "null"]},
+          "oa": {"type": ["boolean", "null"]},
+          "min_gpa": {"type": ["number", "null"]}
         }
       },
       "tag_evidence": {"type": "object"},

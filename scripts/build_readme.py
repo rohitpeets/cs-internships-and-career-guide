@@ -15,6 +15,7 @@ from urllib.parse import quote, urlsplit
 
 sys.path.insert(0, str(Path(__file__).parent))
 from common import COMPANIES, DATA, POSTINGS, ROOT, load_json, load_yaml  # noqa: E402
+from classify import TRACKS, clearance_level, is_gov, terms, track  # noqa: E402
 
 
 def today() -> str:
@@ -31,8 +32,11 @@ LEGEND = """**Tags.** Each tag comes from a sentence in the posting, shown in gr
 - 🚫 **no CPT/OPT**: it says it won't take CPT or OPT
 - 🇺🇸 **citizens**: limited to U.S. citizens, green-card holders or U.S. persons
 - 📜 **ITAR**: mentions ITAR export rules, often limited to U.S. persons (check)
-- 🔒 **clearance**: needs a security clearance
+- 🔒 **clearance**: needs a security clearance (🔒 secret, 🔒 top secret, 🔒 ts/sci and 🔒 public trust show the level when the posting names it)
 - 🏛 **gov**: government or national-lab role, often U.S.-only (check)
+- 🧪 **OA**: the posting mentions an online coding test (HackerRank, CodeSignal, Codility or an "online assessment")
+- 🎓 **3.0+ GPA**: the posting asks for a minimum GPA (the number shown is the minimum it states)
+- 🔄 **co-op** · 🍂 **fall** · 🌱 **spring** · ⏱ **part-time**: the term or schedule named in the job title. No tag means summer or not stated
 - 🌐 **remote** · ⚠ **unverified**: link couldn't be verified recently · ⏳ **60+ days**: listed for 60+ days
 
 **Posted** is the date the company posted the job. A date with * is when this board first saw it, because that company's job site doesn't give one. Companies sometimes re-post a job, which resets its date.
@@ -40,9 +44,6 @@ LEGEND = """**Tags.** Each tag comes from a sentence in the posting, shown in gr
 > 🛂❌ usually means no visa sponsorship later (for example H-1B). Unless the row also shows 🚫, CPT or OPT may still work. Check with the recruiter and your DSO.
 
 > **Disclaimer:** listings and tags are generated automatically from employers' public job postings and can be wrong, incomplete or out of date. Always read the full posting on the employer's site. Visa, CPT, OPT and citizenship notes are general information, not legal or immigration advice; confirm your situation with your school's DSO or an immigration attorney. This board is not affiliated with or endorsed by any employer listed."""
-GOV = re.compile(r"\b(u\.?s\.? government|government|federal|national lab\w*|laborator(y|ies)|jpl|jet propulsion|nasa|dod|department of (defense|energy)|"
-                 r"navy|naval|army|air force|space force|missile|defense)\b", re.I)
-
 
 def text(s: str) -> str:
     """Escape untrusted text for a markdown table cell: no HTML, no links or emphasis, no new rows or columns."""
@@ -63,6 +64,9 @@ def safe_url(u: str) -> str | None:
     return quote(u, safe=":/?#@!$&'*+,;=%~.-_")  # ( ) < > | " ` and spaces get encoded
 
 
+TERM_TAGS = {"co_op": "🔄 co-op", "fall": "🍂 fall", "spring": "🌱 spring", "part_time": "⏱ part-time"}
+
+
 def tag_str(r) -> str:
     """Each tag is an emoji plus a short word, so it reads the same to a screen reader as it looks."""
     t, out = r.get("tags") or {}, []
@@ -77,9 +81,15 @@ def tag_str(r) -> str:
     elif t.get("itar"):
         out.append("📜 ITAR")
     if t.get("clearance"):
-        out.append("🔒 clearance")
-    if GOV.search(r.get("title", "")) and not (t.get("citizen") or t.get("clearance") or t.get("itar")):
+        lvl = t.get("clearance_level") or clearance_level((r.get("tag_evidence") or {}).get("clearance", ""))
+        out.append(f"🔒 {lvl}" if lvl else "🔒 clearance")
+    if is_gov({"title": r.get("title", ""), "tags": {}}) and not (t.get("citizen") or t.get("clearance") or t.get("itar")):
         out.append("🏛 gov")
+    if t.get("oa"):
+        out.append("🧪 OA")
+    if t.get("min_gpa"):
+        out.append(f"🎓 {t['min_gpa']:.1f}+ GPA")
+    out += [TERM_TAGS[k] for k in terms(r.get("title", ""))]
     if t.get("remote"):
         out.append("🌐 remote")
     if r.get("status") == "uncertain" or r.get("misses", 0) > 0:  # missed its company's feed at least once
@@ -134,6 +144,47 @@ def table(rows, early=False) -> tuple[str, int]:
     return "\n".join(lines), skipped
 
 
+TRACK_GUIDE = {"software": "guides/tracks.md#software", "embedded": "guides/tracks.md#embedded-and-firmware",
+               "hardware": "guides/tracks.md#hardware-and-chips", "security": "guides/tracks.md#security",
+               "it": "guides/tracks.md#it-and-networking", "data": "guides/tracks.md#data-and-ml", "gov": "guides/government.md"}
+TRACK_BLURB = {"software": "Web, mobile, backend, full-stack and general software roles.",
+               "embedded": "Firmware, microcontroller and real-time software that runs on devices.",
+               "hardware": "Chip design, FPGA and ASIC work, and design verification.",
+               "security": "Cybersecurity, security analyst and penetration testing roles.",
+               "it": "IT support, networking, systems administration and cloud operations.",
+               "data": "Data analysis, data engineering, machine learning and AI roles.",
+               "gov": "Government, national-lab and defense roles, plus any posting that asks for a clearance or U.S. citizenship."}
+
+
+def track_rows(rows, slug):
+    if slug == "gov":
+        return [r for r in rows if is_gov(r)]
+    return [r for r in rows if track(r["title"]) == slug]
+
+
+def write_track_pages(rows) -> int:
+    """One page per track: internships and new-grad roles, newest first. Early programs are listed with the internships.
+    A government/defense row also stays on its main track's page; the gov page is the second way in."""
+    skipped = 0
+    for slug, name in TRACKS:
+        part = track_rows(rows, slug)
+        interns = [r for r in part if r["section"] in ("internship", "early")]
+        grads = [r for r in part if r["section"] == "new_grad"]
+        blocks = []
+        for title, group in (("Internships", interns), ("New grad", grads)):
+            body, n = table(group)
+            skipped += n
+            blocks.append(f"## {title} ({len(group)})\n\n" + (body if group else "_Nothing open in this track right now._"))
+        why = ("A posting is on this page if its title names government, a national lab or defense, or the posting asks for a clearance or U.S. citizenship. "
+               "The same job can also appear on its main track's page.\n\n" if slug == "gov" else
+               "The track comes from the words in the job title, so a few jobs may land in the wrong one. If a title doesn't say, it goes under Software.\n\n")
+        (ROOT / f"track-{slug}.md").write_text(
+            f"# {name}\n\n[⬅ Back to the main page](README.md) · {len(part)} open · updated {today()}\n\n"
+            f"{TRACK_BLURB[slug]} New to this track? Read the [{name.lower()} section of the tracks guide]({TRACK_GUIDE[slug]}).\n\n{why}"
+            f"**Click a job title to open the company's application page.**\n\n{LEGEND}\n\n" + "\n\n".join(blocks) + "\n", encoding="utf-8")
+    return skipped
+
+
 def new_section(new) -> str:
     if not new:
         return "_Nothing new this week yet._"
@@ -180,11 +231,16 @@ def main():
                                   + (f"\n{not_yet}\n" if key != "early" and not_yet else ""), encoding="utf-8")
 
 
+    skipped += write_track_pages(rows)
+
     # postings from this week get their own page, so the landing page stays short
     (ROOT / "NEW_THIS_WEEK.md").write_text(
         f"# 🆕 New this week\n\n[⬅ Back to the main page](README.md) · {len(new)} posted in the last 7 days · updated {today()}\n\n"
         f"**Click a job title to open the company's application page.**\n\n{LEGEND}\n\n{new_section(new)}\n", encoding="utf-8")
 
+    track_counts = {slug: len(track_rows(rows, slug)) for slug, _ in TRACKS}
+    term_counts = {k: sum(1 for r in rows if k in terms(r["title"])) for k in ("co_op", "fall", "spring", "part_time")}
+    track_table = "\n".join(f"| [{name}](track-{slug}.md) | {track_counts[slug]:,} |" for slug, name in TRACKS)
     boards = len((load_yaml(COMPANIES, {}) or {}).get("companies") or [])
     early = counts.get("early", 0)
     early_note = f"{early} open right now" if early else "None listed right now, check back soon"
@@ -205,6 +261,12 @@ Last updated **{today()}**.
 | 🌱 **[Early programs](EARLY.md)** | For freshmen and sophomores. {early_note} |
 | 🆕 **[New this week](NEW_THIS_WEEK.md)** | {len(new):,} roles posted in the last 7 days |
 
+### Find jobs by track
+
+| Track | Open roles |
+|---|---|
+{track_table}
+
 Every row links straight to the company's application page. International students: each posting is tagged for visa sponsorship, CPT/OPT and citizenship rules, with the sentence from the posting that the tag came from.
 
 ## 📘 Guides
@@ -216,6 +278,9 @@ Every row links straight to the company's application page. International studen
 | 🛠️ **[Your first projects](guides/projects.md)** | You don't know what to build or how to finish it |
 | 📨 **[Applying and interviews](guides/applying.md)** | You're about to apply: timing, referrals, coding tests, interviews |
 | 🤝 **[Networking and getting involved](guides/networking.md)** | You want clubs, research, hackathons, contests, programs |
+| 🎤 **[Interviews](guides/interviews.md)** | You have a recruiter call, coding round or behavioral interview coming up |
+| 🧩 **[Career tracks](guides/tracks.md)** | You're curious about embedded, hardware, security, IT, data or software, and what each takes |
+| 🏛️ **[Government and defense jobs](guides/government.md)** | You want federal, national-lab or defense jobs, or wonder how clearances work |
 | 🗓️ **[4-year timeline](guides/timeline.md)** | You want to know what to do each semester (and F-1 rules) |
 | 🐙 **[GitHub](guides/github.md)** | You need to set up GitHub or make your repos look good |
 | 💼 **[LinkedIn](guides/linkedin.md)** | You need a LinkedIn profile or want to reach alumni |
@@ -225,7 +290,7 @@ Every row links straight to the company's application page. International studen
 
 1. **Read [Start here](guides/README.md).** Five steps for your first year, nothing more.
 2. **Make a one-page resume** with the [resume guide](guides/resume.md).
-3. **Apply early.** Big-company summer internships open about **July to September of the year before**. Open the [internships list](INTERNSHIPS.md) and apply in the first two weeks.
+3. **Apply as early as you can.** Big-company summer internships open about **July to September of the year before**, and many are rolling, so earlier is better. Local employers often hire into spring. Open the [internships list](INTERNSHIPS.md) and start applying.
 
 ## ℹ️ About
 
@@ -248,7 +313,7 @@ This board is provided as is, without warranty of any kind. Listings and tags ar
     (ROOT / "_data").mkdir(exist_ok=True)
     (ROOT / "_data" / "stats.json").write_text(json.dumps({"updated": today(), "internships": counts.get("internship", 0),
         "new_grad": counts.get("new_grad", 0), "early": counts.get("early", 0), "new_week": len(new), "total": len(rows),
-        "boards": boards}, indent=2) + "\n", encoding="utf-8")
+        "boards": boards, "tracks": track_counts, "terms": term_counts}, indent=2) + "\n", encoding="utf-8")
     print(f"built: {dict(counts)}, new this week {len(new)}, rows left out for unsafe links {skipped}")
 
 

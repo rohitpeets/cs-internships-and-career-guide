@@ -250,3 +250,29 @@ def test_missing_robots_txt_means_allowed(monkeypatch):
     monkeypatch.setattr(h.s, "get", lambda u, **k: _Resp(404))
     monkeypatch.setattr(h.s, "request", lambda m, u, **k: _Resp(200))
     assert h.get("https://norobots.example/api/jobs").status_code == 200
+
+
+def _row(title, **tags):
+    return {"company": "Acme", "title": title, "url": "https://x.com/1", "section": "internship", "tags": tags,
+            "first_seen": date.today().isoformat(), "status": "open"}
+
+
+def test_tag_str_shows_new_tags():
+    s = build_readme.tag_str(_row("Software Intern - Fall 2027 Co-op", oa=True, min_gpa=3.0, clearance=True, clearance_level="secret"))
+    for want in ("🧪 OA", "🎓 3.0+ GPA", "🔒 secret", "🔄 co-op", "🍂 fall"):
+        assert want in s
+    assert "🌱 spring" in build_readme.tag_str(_row("Spring Data Intern")) and "⏱ part-time" in build_readme.tag_str(_row("Part-Time IT Intern"))
+    assert "🔒 clearance" in build_readme.tag_str(_row("Intern", clearance=True))  # no level stated
+
+
+def test_clearance_level_filled_from_stored_evidence():
+    r = _row("Intern", clearance=True)
+    r["tag_evidence"] = {"clearance": "Active Top Secret clearance required."}
+    assert "🔒 top secret" in build_readme.tag_str(r)
+
+
+def test_track_rows_and_gov_overlap():
+    rows = [_row("Firmware Intern"), _row("Software Intern", clearance=True), _row("Cybersecurity Intern")]
+    assert [r["title"] for r in build_readme.track_rows(rows, "embedded")] == ["Firmware Intern"]
+    assert [r["title"] for r in build_readme.track_rows(rows, "gov")] == ["Software Intern"]
+    assert len(build_readme.track_rows(rows, "software")) == 1  # a gov row also stays on its main track

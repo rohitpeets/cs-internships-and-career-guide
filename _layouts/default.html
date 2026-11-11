@@ -12,10 +12,11 @@
     {% assign u = page.url %}
     <header class="site-header">
       <div class="inner">
-        <a class="brand" href="{{ '/' | relative_url }}" aria-label="Things I Wish I Knew: CS Edition, home">
+        <a class="brand" href="{{ '/' | relative_url }}">
           <span class="mark">Things I Wish I Knew</span><span class="pill">CS Edition</span>
         </a>
         <nav class="nav" aria-label="Main">
+          <a href="{{ '/where.html' | relative_url }}"{% if u contains 'where' %} aria-current="page"{% endif %}>Where am I?</a>
           <a href="{{ '/INTERNSHIPS.html' | relative_url }}"{% if u contains 'INTERNSHIPS' %} aria-current="page"{% endif %}>Internships</a>
           <a href="{{ '/NEW_GRAD.html' | relative_url }}"{% if u contains 'NEW_GRAD' %} aria-current="page"{% endif %}>New grad</a>
           <a href="{{ '/guides/' | relative_url }}"{% if u contains '/guides/' and u != '/guides/resources.html' %} aria-current="page"{% endif %}>Guides</a>

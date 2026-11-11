@@ -80,7 +80,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
-          git add README.md INTERNSHIPS.md NEW_GRAD.md EARLY.md NEW_THIS_WEEK.md _data/ data/
+          git add README.md INTERNSHIPS.md NEW_GRAD.md EARLY.md NEW_THIS_WEEK.md track-*.md _data/ data/
           if git diff --cached --quiet; then
             echo "No changes."
           else

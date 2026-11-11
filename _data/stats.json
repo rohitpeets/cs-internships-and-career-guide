@@ -5,5 +5,20 @@
   "early": 0,
   "new_week": 61,
   "total": 1488,
-  "boards": 965
+  "boards": 965,
+  "tracks": {
+    "software": 627,
+    "embedded": 53,
+    "hardware": 80,
+    "security": 101,
+    "it": 213,
+    "data": 414,
+    "gov": 162
+  },
+  "terms": {
+    "co_op": 93,
+    "fall": 2,
+    "spring": 44,
+    "part_time": 1
+  }
 }

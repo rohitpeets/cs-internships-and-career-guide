@@ -15,6 +15,18 @@ Last updated **2026-11-10**.
 | 🌱 **[Early programs](EARLY.md)** | For freshmen and sophomores. None listed right now, check back soon |
 | 🆕 **[New this week](NEW_THIS_WEEK.md)** | 61 roles posted in the last 7 days |
 
+### Find jobs by track
+
+| Track | Open roles |
+|---|---|
+| [Software](track-software.md) | 627 |
+| [Embedded and firmware](track-embedded.md) | 53 |
+| [Hardware and chips](track-hardware.md) | 80 |
+| [Security](track-security.md) | 101 |
+| [IT and networking](track-it.md) | 213 |
+| [Data, ML and AI](track-data.md) | 414 |
+| [Government and defense](track-gov.md) | 162 |
+
 Every row links straight to the company's application page. International students: each posting is tagged for visa sponsorship, CPT/OPT and citizenship rules, with the sentence from the posting that the tag came from.
 
 ## 📘 Guides
@@ -26,6 +38,9 @@ Every row links straight to the company's application page. International studen
 | 🛠️ **[Your first projects](guides/projects.md)** | You don't know what to build or how to finish it |
 | 📨 **[Applying and interviews](guides/applying.md)** | You're about to apply: timing, referrals, coding tests, interviews |
 | 🤝 **[Networking and getting involved](guides/networking.md)** | You want clubs, research, hackathons, contests, programs |
+| 🎤 **[Interviews](guides/interviews.md)** | You have a recruiter call, coding round or behavioral interview coming up |
+| 🧩 **[Career tracks](guides/tracks.md)** | You're curious about embedded, hardware, security, IT, data or software, and what each takes |
+| 🏛️ **[Government and defense jobs](guides/government.md)** | You want federal, national-lab or defense jobs, or wonder how clearances work |
 | 🗓️ **[4-year timeline](guides/timeline.md)** | You want to know what to do each semester (and F-1 rules) |
 | 🐙 **[GitHub](guides/github.md)** | You need to set up GitHub or make your repos look good |
 | 💼 **[LinkedIn](guides/linkedin.md)** | You need a LinkedIn profile or want to reach alumni |
@@ -35,7 +50,7 @@ Every row links straight to the company's application page. International studen
 
 1. **Read [Start here](guides/README.md).** Five steps for your first year, nothing more.
 2. **Make a one-page resume** with the [resume guide](guides/resume.md).
-3. **Apply early.** Big-company summer internships open about **July to September of the year before**. Open the [internships list](INTERNSHIPS.md) and apply in the first two weeks.
+3. **Apply as early as you can.** Big-company summer internships open about **July to September of the year before**, and many are rolling, so earlier is better. Local employers often hire into spring. Open the [internships list](INTERNSHIPS.md) and start applying.
 
 ## ℹ️ About
 
