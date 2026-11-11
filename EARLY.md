@@ -1,6 +1,6 @@
 # Early Programs (freshmen & sophomores)
 
-[⬅ Back to the main page](README.md) · 0 open · updated 2026-11-10
+[⬅ Back to the main page](README.md) · 5 open · updated 2026-11-11
 
 Postings that say freshmen or sophomores can apply, or programs built for them. The grey line under each title is the sentence from the posting, so you can check it.
 
@@ -30,5 +30,10 @@ Big-company programs like Google STEP, Microsoft Explore and Meta University are
 
 <div class="job-filter" id="job-filter"></div>
 
-| Company | Role | Location | Tags |
-|---|---|---|---|
+| Company | Role | Location | Tags | Posted |
+|---|---|---|---|---|
+| Venerable | [IT Internship - Summer 2027](https://venerable.wd5.myworkdayjobs.com/venerablecareers/job/PA-West-Chester---Dunwoody-Dr/IT-Internship---Summer-2027_REQ778)<br><sub>“This program is designed for current sophomores, juniors and seniors, enrolled in a four-year bachelor's degree program.”</sub> | PA-West Chester - Dunwoody Dr | 🎓 3.5+ GPA | Oct 29 |
+| TruStage | [Information Technology - Development and Infrastructure Internship \(hybrid\)](https://trustage.wd1.myworkdayjobs.com/TruStage/job/Wisconsin---Remote/Enterprise-Information---Technology-Internship--Hybrid-_R-012155)<br><sub>“Most appropriate for freshmen and sophomores.”</sub> | Wisconsin - Remote | 🌐 remote | Oct 20 |
+| Emerson | [Software Engineering Co-Op \(Jan-Aug 2027\)](https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26010048)<br><sub>“Junior or senior standing is preferred; sophomore students will also be considered.”</sub> | Eden Prairie, MN, United States | 🔄 co-op | Sep 14 |
+| First National Bank | [Summer 2027 - Technology Intern](https://firstnational.wd12.myworkdayjobs.com/fnbocareers/job/Omaha---FN-Tower/Summer-2027---Technology-Intern_R-20261653)<br><sub>“Currently pursuing a degree in Computer Science, Information Technology, or a related field — rising sophomores, juniors, and seniors are en…”</sub> | Omaha - FN Tower |  | Sep 14 |
+| Emerson | [Software Engineering Co-op \(Jun-Dec 2027\)](https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26010738)<br><sub>“Junior or senior standing is preferred; sophomore students will also be considered.”</sub> | Eden Prairie, MN, United States | 🔄 co-op<br>⏳ 60+ days | Sep 10 |
