@@ -4,14 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 {% seo %}
-    <meta name="theme-color" content="#1f6f50" media="(prefers-color-scheme: light)">
-    <meta name="theme-color" content="#141412" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#fdfdfb" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#132039" media="(prefers-color-scheme: dark)">
     <link rel="icon" href="{{ '/assets/favicon.svg' | relative_url }}" type="image/svg+xml">
     <link rel="apple-touch-icon" href="{{ '/assets/apple-touch-icon.png' | relative_url }}">
     {%- comment -%} Preload the fonts used above the fold, so they're ready before first paint and nothing shifts. {%- endcomment %}
-    <link rel="preload" href="{{ '/assets/fonts/inter-latin-400-normal.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
-    <link rel="preload" href="{{ '/assets/fonts/inter-latin-700-normal.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
-    <link rel="preload" href="{{ '/assets/fonts/fraunces-latin-600-normal.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="{{ '/assets/fonts/atkinson-hyperlegible-latin-400-normal.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="{{ '/assets/fonts/kalam-latin-700-normal.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" href="{{ '/assets/css/site.css?v=' | append: site.github.build_revision | relative_url }}">
     <script src="{{ '/assets/js/site.js?v=' | append: site.github.build_revision | relative_url }}" defer></script>
   </head>
@@ -21,7 +20,7 @@
     <header class="site-header">
       <div class="inner">
         <a class="brand" href="{{ '/' | relative_url }}">
-          <span class="mark">Things I Wish I Knew</span><span class="pill">CS Edition</span>
+          <span class="mark">Things I Wish I Knew</span><span class="pill">CS edition</span>
         </a>
         <nav class="nav" aria-label="Main">
           <a href="{{ '/where.html' | relative_url }}"{% if u contains 'where' %} aria-current="page"{% endif %}>Where am I?</a>
