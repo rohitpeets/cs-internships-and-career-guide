@@ -53,8 +53,7 @@ img { max-width: 100%; }
 /* header */
 .site-header {
   position: sticky; top: 0; z-index: 10;
-  background: color-mix(in srgb, var(--bg) 88%, transparent);
-  backdrop-filter: blur(8px);
+  background: var(--bg);
   border-bottom: 1px solid var(--line);
 }
 .site-header .inner {
@@ -93,6 +92,7 @@ img { max-width: 100%; }
   display: inline-flex; align-items: center; gap: 8px; text-decoration: none; font-weight: 700;
   padding: 12px 20px; border-radius: 10px; border: 1px solid var(--line); color: var(--ink); background: var(--surface);
 }
+.btn { transition: transform .12s ease-out; }
 .btn.primary { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
 .btn:hover { text-decoration: none; transform: translateY(-1px); }
 .meta { margin-top: 22px; color: var(--muted); font-size: .92rem; }
@@ -245,4 +245,55 @@ section.block .sub { color: var(--muted); margin: 0 0 22px; }
   .wrap { padding: 0 16px; }
   .choice span { padding: 10px 14px; }
   .prose table { font-size: .86rem; }
+}
+
+/* ---------- long job tables: keep paint cheap ---------- */
+/* A shadow and rounded clipping on a ~60,000px-tall table is expensive to paint; long lists get a flat border instead. */
+.page.wide .prose table, .prose.wide table { box-shadow: none; border-radius: 8px; }
+
+/* ---------- job list filter ---------- */
+/* The slot is written into the page at build time with the bar's height reserved,
+   so filling it in doesn't move the 1,000+ row table below (no layout shift, no re-layout). */
+.job-filter { margin: 18px 0 8px; min-height: 276px; contain: layout; }
+@media (min-width: 600px) { .job-filter { min-height: 222px; } }
+@media (min-width: 1000px) { .job-filter { min-height: 184px; } }
+
+.filter-bar {
+  background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
+  box-shadow: var(--shadow); padding: 14px 16px; margin: 0;
+  display: grid; gap: 10px;
+}
+.filter-field { display: grid; gap: 4px; }
+.filter-field label { font-weight: 700; font-size: .92rem; }
+.filter-field input {
+  font: inherit; color: var(--ink); background: var(--bg);
+  border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; min-height: 44px; width: 100%;
+}
+.filter-field input:focus-visible { outline: 3px solid var(--accent); outline-offset: 1px; }
+.filter-toggles { display: flex; flex-wrap: wrap; gap: 6px 18px; }
+.toggle { display: inline-flex; align-items: center; gap: 8px; font-size: .92rem; min-height: 32px; cursor: pointer; }
+.toggle input { width: 18px; height: 18px; accent-color: var(--accent); }
+.filter-status { margin: 0; color: var(--muted); font-size: .88rem; font-variant-numeric: tabular-nums; }
+.prose tr[hidden] { display: none; }
+
+/* ---------- copy template buttons ---------- */
+.copy-row { display: flex; align-items: center; flex-wrap: wrap; gap: 10px; margin: -6px 0 18px; }
+.copy-btn {
+  font: inherit; font-size: .88rem; font-weight: 700; cursor: pointer;
+  color: var(--accent); background: var(--surface); border: 1px solid var(--line);
+  border-radius: 8px; padding: 6px 12px; min-height: 36px;
+}
+.copy-btn:hover { border-color: var(--accent); }
+.copy-status { font-size: .88rem; color: var(--muted); }
+
+/* ---------- print: guides as clean handouts ---------- */
+@media print {
+  .site-header, .site-footer, .skip-link, .filter-bar, .copy-row, .actions { display: none !important; }
+  body { background: #fff; color: #000; }
+  .page, .wrap { max-width: none; padding: 0; }
+  .card, .prose table, .tags-strip, .steps li { box-shadow: none; }
+  a { color: #000; }
+  .prose a[href^="http"]::after { content: " (" attr(href) ")"; font-size: .8em; word-break: break-all; }
+  h2, h3 { break-after: avoid; }
+  pre, blockquote, table, .card { break-inside: avoid; }
 }

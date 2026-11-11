@@ -25,6 +25,8 @@ def today() -> str:
 SECTIONS = [("internship", "Internships", "INTERNSHIPS.md"),
             ("new_grad", "New Grad", "NEW_GRAD.md"),
             ("early", "Early Programs (freshmen & sophomores)", "EARLY.md")]
+# Empty, fixed-size spot the site's filter bar fills in, so adding it never shifts the long table (GitHub shows nothing).
+FILTER_SLOT = '<div class="job-filter" id="job-filter"></div>'
 LEGEND = """**Tags.** Each tag comes from a sentence in the posting, shown in grey under the job title. A blank tag means the posting doesn't say.
 
 - 🛂✅ **sponsors**: the posting says it sponsors visas
@@ -181,7 +183,7 @@ def write_track_pages(rows) -> int:
         (ROOT / f"track-{slug}.md").write_text(
             f"# {name}\n\n[⬅ Back to the main page](README.md) · {len(part)} open · updated {today()}\n\n"
             f"{TRACK_BLURB[slug]} New to this track? Read the [{name.lower()} section of the tracks guide]({TRACK_GUIDE[slug]}).\n\n{why}"
-            f"**Click a job title to open the company's application page.**\n\n{LEGEND}\n\n" + "\n\n".join(blocks) + "\n", encoding="utf-8")
+            f"**Click a job title to open the company's application page.**\n\n{LEGEND}\n\n{FILTER_SLOT}\n\n" + "\n\n".join(blocks) + "\n", encoding="utf-8")
     return skipped
 
 
@@ -227,7 +229,7 @@ def main():
         body, n = table(part, early=(key == "early"))
         skipped += n
         (ROOT / fname).write_text(f"# {name}\n\n[⬅ Back to the main page](README.md) · {len(part)} open · updated {today()}\n\n"
-                                  f"{intro.get(key, '')}**Click a job title to open the company's application page.**\n\n{LEGEND}\n\n{body}\n"
+                                  f"{intro.get(key, '')}**Click a job title to open the company's application page.**\n\n{LEGEND}\n\n{FILTER_SLOT}\n\n{body}\n"
                                   + (f"\n{not_yet}\n" if key != "early" and not_yet else ""), encoding="utf-8")
 
 
@@ -236,7 +238,7 @@ def main():
     # postings from this week get their own page, so the landing page stays short
     (ROOT / "NEW_THIS_WEEK.md").write_text(
         f"# 🆕 New this week\n\n[⬅ Back to the main page](README.md) · {len(new)} posted in the last 7 days · updated {today()}\n\n"
-        f"**Click a job title to open the company's application page.**\n\n{LEGEND}\n\n{new_section(new)}\n", encoding="utf-8")
+        f"**Click a job title to open the company's application page.**\n\n{LEGEND}\n\n{FILTER_SLOT}\n\n{new_section(new)}\n", encoding="utf-8")
 
     track_counts = {slug: len(track_rows(rows, slug)) for slug, _ in TRACKS}
     term_counts = {k: sum(1 for r in rows if k in terms(r["title"])) for k in ("co_op", "fall", "spring", "part_time")}

@@ -28,6 +28,8 @@ A posting is on this page if its title names government, a national lab or defen
 
 > **Disclaimer:** listings and tags are generated automatically from employers' public job postings and can be wrong, incomplete or out of date. Always read the full posting on the employer's site. Visa, CPT, OPT and citizenship notes are general information, not legal or immigration advice; confirm your situation with your school's DSO or an immigration attorney. This board is not affiliated with or endorsed by any employer listed.
 
+<div class="job-filter" id="job-filter"></div>
+
 ## Internships (124)
 
 | Company | Role | Location | Tags | Posted |

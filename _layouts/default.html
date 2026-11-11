@@ -4,8 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 {% seo %}
+    <meta name="theme-color" content="#1f6f50" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#141412" media="(prefers-color-scheme: dark)">
+    <link rel="icon" href="{{ '/assets/favicon.svg' | relative_url }}" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="{{ '/assets/apple-touch-icon.png' | relative_url }}">
+    {%- comment -%} Preload the fonts used above the fold, so they're ready before first paint and nothing shifts. {%- endcomment %}
     <link rel="preload" href="{{ '/assets/fonts/inter-latin-400-normal.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="{{ '/assets/fonts/inter-latin-700-normal.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="{{ '/assets/fonts/fraunces-latin-600-normal.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" href="{{ '/assets/css/site.css?v=' | append: site.github.build_revision | relative_url }}">
+    <script src="{{ '/assets/js/site.js?v=' | append: site.github.build_revision | relative_url }}" defer></script>
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
@@ -30,7 +38,7 @@
       {{ content }}
     {% else %}
       {% assign is_table = false %}
-      {% if u contains 'INTERNSHIPS' or u contains 'NEW_GRAD' or u contains 'EARLY' or u contains 'NEW_THIS_WEEK' %}{% assign is_table = true %}{% endif %}
+      {% if u contains 'INTERNSHIPS' or u contains 'NEW_GRAD' or u contains 'EARLY' or u contains 'NEW_THIS_WEEK' or u contains '/track-' %}{% assign is_table = true %}{% endif %}
       <main id="main" class="page prose{% if is_table %} wide{% endif %}">
         {{ content }}
       </main>

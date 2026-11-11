@@ -1,8 +1,15 @@
 title: "Things I Wish I Knew: CS Edition"
-description: "Daily-updated CS internships, new grad jobs and freshman programs in the U.S., with visa/CPT tags for international students, plus free guides on resumes, projects, LeetCode, networking and interviews."
+description: "Free, daily-updated CS internships, new-grad jobs and early programs in the U.S., plus plain-English guides on resumes, projects, applying, interviews and picking a track."
+url: "https://rohitpeets.github.io"
+baseurl: "/cs-internships-and-career-guide"
+lang: en-US
+logo: /assets/icon-512.png
+twitter:
+  card: summary_large_image
 plugins:
   - jekyll-relative-links
   - jekyll-seo-tag
+  - jekyll-sitemap
   - jekyll-optional-front-matter
   - jekyll-readme-index
   - jekyll-titles-from-headings
@@ -18,3 +25,88 @@ exclude:
   - .github/
   - docs/
   - "*.ps1"
+
+# Search titles, descriptions and the social preview image, per page.
+# Markdown pages have no front matter (GitHub would show it as a table), so they get it here.
+defaults:
+  - scope: { path: "" }
+    values:
+      image: /assets/og.png
+  - scope: { path: "guides/README.md" }
+    values:
+      title: "Start Here: A CS Student's Guide to Internships"
+      description: "Where you are, what to do this month, how internships work, and a plain-English glossary for CS and CE students."
+  - scope: { path: "guides/resume.md" }
+    values:
+      title: "Your First CS Resume (With a Sample and a 10-Point Audit)"
+      description: "How to write a one-page software engineering resume with no experience: bullet formula, a full sample, tailoring and a self-audit."
+  - scope: { path: "guides/projects.md" }
+    values:
+      title: "CS Project Ideas and How to Actually Finish Them"
+      description: "Find a project idea people will use, scope it, ship it, and turn it into an interview story. Three project levels, with free resources."
+  - scope: { path: "guides/applying.md" }
+    values:
+      title: "How to Apply for CS Internships (and What to Do When You Hear Nothing)"
+      description: "Timing, where to apply from any school, referrals, online assessments, a funnel check for stalled searches, a 6-week catch-up plan, offers and scams."
+  - scope: { path: "guides/interviews.md" }
+    values:
+      title: "What Software Engineering Interviewers Actually Look For"
+      description: "Recruiter calls, technical rounds, take-homes, project deep dives and behavioral STAR answers, with templates and questions to ask."
+  - scope: { path: "guides/networking.md" }
+    values:
+      title: "Networking for CS Students Who Know Nobody"
+      description: "A 3-week cold start, office-hours and alumni scripts, clubs, contests, hackathons and career fairs, written for shy and busy students."
+  - scope: { path: "guides/timeline.md" }
+    values:
+      title: "4-Year CS Internship Timeline (Semester by Semester)"
+      description: "What to do each semester and summer from freshman to senior year, coding interview prep pacing, return offers and co-ops."
+  - scope: { path: "guides/github.md" }
+    values:
+      title: "GitHub for CS Students: Git Basics and a Profile That Backs Up Your Resume"
+      description: "Install Git, push your first repo, write a good README, and clean up your GitHub before you apply."
+  - scope: { path: "guides/linkedin.md" }
+    values:
+      title: "LinkedIn for CS Students: Example Profile and Alumni Outreach"
+      description: "A full example student profile, a connection note that fits, and step-by-step alumni search."
+  - scope: { path: "guides/tracks.md" }
+    values:
+      title: "CS Career Tracks: Software, Embedded, Hardware, Security, IT, Data, Government"
+      description: "Not sure software is your path? Classes, starter projects, certifications, contests and job titles for seven CS and CE tracks."
+  - scope: { path: "guides/government.md" }
+    values:
+      title: "Government, Defense and National Lab Internships for CS Students"
+      description: "USAJOBS Pathways, SMART, CyberCorps, DOE lab programs, security clearances in plain English, and when to apply."
+  - scope: { path: "guides/resources.md" }
+    values:
+      title: "Free Resources for CS Students"
+      description: "Top free picks for learning, building projects, getting experience, interview prep, communities and funding."
+  - scope: { path: "INTERNSHIPS.md" }
+    values:
+      title: "CS Internships (U.S.), Updated Daily"
+      description: "Software, data, hardware, security and IT internships in the U.S., pulled daily from company career sites, with sponsorship, citizenship and clearance tags."
+  - scope: { path: "NEW_GRAD.md" }
+    values:
+      title: "New Grad Software Engineering Jobs (U.S.), Updated Daily"
+      description: "Entry-level and new-grad CS jobs in the U.S., pulled daily from company career sites."
+  - scope: { path: "EARLY.md" }
+    values:
+      title: "Internships for Freshmen and Sophomores (CS)"
+      description: "Programs and internships open to first- and second-year CS students, with the sentence from each posting that says so."
+  - scope: { path: "NEW_THIS_WEEK.md" }
+    values:
+      title: "New CS Internships This Week"
+      description: "CS internships and new-grad roles companies posted in the last 7 days."
+  - scope: { path: "track-software.md" }
+    values: { title: "Software Engineering Internships (U.S.)", description: "Software engineering internships and new-grad roles, updated daily." }
+  - scope: { path: "track-embedded.md" }
+    values: { title: "Embedded and Firmware Internships (U.S.)", description: "Embedded, firmware and microcontroller internships and new-grad roles, updated daily." }
+  - scope: { path: "track-hardware.md" }
+    values: { title: "Hardware, FPGA and Chip Internships (U.S.)", description: "Hardware, FPGA, ASIC and verification internships and new-grad roles, updated daily." }
+  - scope: { path: "track-security.md" }
+    values: { title: "Cybersecurity Internships (U.S.)", description: "Security and cybersecurity internships and new-grad roles, updated daily." }
+  - scope: { path: "track-it.md" }
+    values: { title: "IT and Networking Internships (U.S.)", description: "IT, help desk, networking and infrastructure internships and new-grad roles, updated daily." }
+  - scope: { path: "track-data.md" }
+    values: { title: "Data, AI and Machine Learning Internships (U.S.)", description: "Data science, analytics, AI and machine learning internships and new-grad roles, updated daily." }
+  - scope: { path: "track-gov.md" }
+    values: { title: "Government, Defense and Clearance Internships (U.S.)", description: "Government, defense contractor and national lab internships, many needing U.S. citizenship or a clearance." }

@@ -24,6 +24,8 @@
 
 > **Disclaimer:** listings and tags are generated automatically from employers' public job postings and can be wrong, incomplete or out of date. Always read the full posting on the employer's site. Visa, CPT, OPT and citizenship notes are general information, not legal or immigration advice; confirm your situation with your school's DSO or an immigration attorney. This board is not affiliated with or endorsed by any employer listed.
 
+<div class="job-filter" id="job-filter"></div>
+
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
 | Adobe | [2027 University Graduate - Data Engineer](https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2027-University-Graduate---Data-Engineer_R173455) | San Jose |  | Nov 9* |
