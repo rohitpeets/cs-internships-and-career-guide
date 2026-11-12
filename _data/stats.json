@@ -1,24 +1,24 @@
 {
-  "updated": "2026-11-11",
-  "internships": 1527,
+  "updated": "2026-11-12",
+  "internships": 1531,
   "new_grad": 104,
   "early": 5,
-  "new_week": 205,
-  "total": 1636,
+  "new_week": 187,
+  "total": 1640,
   "boards": 965,
   "tracks": {
-    "software": 665,
-    "embedded": 53,
-    "hardware": 92,
-    "security": 123,
-    "it": 246,
-    "data": 457,
-    "gov": 147
+    "software": 664,
+    "embedded": 54,
+    "hardware": 95,
+    "security": 125,
+    "it": 244,
+    "data": 458,
+    "gov": 148
   },
   "terms": {
-    "co_op": 106,
+    "co_op": 105,
     "fall": 3,
-    "spring": 49,
+    "spring": 48,
     "part_time": 2
   }
 }

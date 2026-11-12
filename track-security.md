@@ -1,6 +1,6 @@
 # Security
 
-[⬅ Back to the main page](README.md) · 123 open · updated 2026-11-11
+[⬅ Back to the main page](README.md) · 125 open · updated 2026-11-12
 
 Cybersecurity, security analyst and penetration testing roles. New to this track? Read the [security section of the tracks guide](guides/tracks.md#security).
 
@@ -30,10 +30,13 @@ The track comes from the words in the job title, so a few jobs may land in the w
 
 <div class="job-filter" id="job-filter"></div>
 
-## Internships (115)
+## Internships (117)
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
+| ServiceNow | [Assoc AI Engineering \(Cloud Security Automation\) Intern](https://jobs.smartrecruiters.com/ServiceNow/744000161209600-assoc-ai-engineering-cloud-security-automation-intern) | Santa Clara, CALIFORNIA, US |  | Nov 12 |
+| ServiceNow | [Assoc Information Security Engineer Intern](https://jobs.smartrecruiters.com/ServiceNow/744000161204235-assoc-information-security-engineer-intern) | San Diego, CALIFORNIA, US |  | Nov 12 |
+| ServiceNow | [Assoc Security Engineering &amp; Automation Intern](https://jobs.smartrecruiters.com/ServiceNow/744000161209810-assoc-security-engineering-automation-intern-) | Santa Clara, CALIFORNIA, US |  | Nov 12 |
 | Daimler Truck AG | [Cybersecurity Intern: Governance, Risk, and Compliance \(GRC\) Analyst](https://dtna.wd5.myworkdayjobs.com/DTNA_external/job/Detroit-MI-US/Cybersecurity-Intern--Governance--Risk--and-Compliance--GRC--Analyst_DT-20656) | Detroit, MI US |  | Nov 11 |
 | REGENT | [Cybersecurity &amp; IT Operations Intern \(Summer\)](https://jobs.ashbyhq.com/REGENT/dfdbb28f-f289-45b9-a2e5-158d81b93524) | North Kingstown, Rhode Island, USA |  | Nov 11 |
 | Minitab | [Cybersecurity Intern \(Summer 2027\)](https://job-boards.greenhouse.io/minitab/jobs/8200356003) | State College, Pennsylvania, United States |  | Nov 10 |
@@ -76,7 +79,6 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Leidos | [Cybersecurity Engineer Co-op](https://leidos.wd5.myworkdayjobs.com/External/job/Bethesda-MD/Cybersecurity-Engineer-Co-op_R-00190764)<br><sub>“Citizenship: You MUST have U.S. Citizenship and be eligible to obtain a U.S. Government granted security clearance.”</sub> | Bethesda, MD | 🔒 secret<br>🎓 3.2+ GPA<br>🔄 co-op | Oct 28 |
 | Regeneron | [2027 Summer Intern IT, Digital Enablement &amp; Information Security](https://regeneron.wd1.myworkdayjobs.com/US_Only_University_Relations_Career/job/TARRYTOWN/XMLNAME-2027-Summer-Intern-IT--Digital-Enablement---Information-Security_R52561) | TARRYTOWN |  | Oct 28 |
 | Regeneron Pharmaceuticals | [2027 Summer Intern IT, Digital Enablement &amp; Information Security](https://regeneron.wd1.myworkdayjobs.com/Careers/job/TARRYTOWN/XMLNAME-2027-Summer-Intern-IT--Digital-Enablement---Information-Security_R52561-1) | TARRYTOWN |  | Oct 28 |
-| AbbVie | [2027 Business Technology Solutions Intern - Cybersecurity \(Undergraduate\)](https://jobs.smartrecruiters.com/AbbVie/3743990016414086-2027-business-technology-solutions-intern-cybersecurity-undergraduate-) | North Chicago, IL, US | ⚠ unverified | Oct 26 |
 | C3 Integrated Solutions | [SOC Analyst Internship Program - LSU Students Only](https://job-boards.greenhouse.io/c3integratedsolutions/jobs/5274847007) | United States |  | Oct 26 |
 | C.H. Robinson | [Cyber Security Internship 2027](https://chrobinson.wd5.myworkdayjobs.com/CHRobinson/job/Eden-Prairie-MN-United-States-of-America/Security-Internship-2027_R49322) | Eden Prairie, MN United States of America |  | Oct 22 |
 | Langan Engineering &amp; Environmental Services | [Intern/Co-op - Cyber Security \(Spring &amp; Summer 2027\)](https://job-boards.greenhouse.io/langanengineeringandenvironmentalservicesllc/jobs/4451342009) | Parsippany, NJ | 🎓 3.0+ GPA<br>🔄 co-op<br>🌱 spring | Oct 22 |
@@ -95,7 +97,7 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Bosch Group | [Information Security and Privacy Intern](https://jobs.smartrecruiters.com/BoschGroup/744000155120934-information-security-and-privacy-intern) | Farmington Hills, MI, US | 🎓 3.0+ GPA<br>⚠ unverified | Oct 12 |
 | UL Solutions | [2027 Summer Intern: Cyber Security Intern](https://fa-eups-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/ULSolutionsCareers/job/11186) | Northbrook, IL, United States |  | Oct 12 |
 | Allison Transmission | [IT Security Analyst Internship - Summer 2027](https://allisontransmission.wd1.myworkdayjobs.com/ATI-External/job/Indianapolis-IN/IT-Security-Analyst-Internship---Summer-2027_R008295) | Indianapolis, IN |  | Oct 9 |
-| Brain Co | [Security Engineer Co-Op Intern, Winter 2027](https://jobs.ashbyhq.com/brainco/c93cdb4a-1ca8-40e0-b49c-205922772930) | San Francisco Bay Area | 🔄 co-op | Oct 9 |
+| Brain Co | [Security Engineer Co-Op Intern, Winter 2027](https://jobs.ashbyhq.com/brainco/c93cdb4a-1ca8-40e0-b49c-205922772930) | San Francisco Bay Area | 🔄 co-op<br>⚠ unverified | Oct 9 |
 | CACI International | [Cyber Security Intern - Summer 2027](https://caci.wd1.myworkdayjobs.com/External/job/Springfield-VA-US/Cyber-Security-Intern---Summer-2027_333046)<br><sub>“Must be legally authorized to work in the United States without the need for employer sponsorship, now or at any time in the future.”</sub> | Springfield, VA, US | 🛂❌ no sponsor<br>🔒 ts/sci<br>⚠ unverified | Oct 9 |
 | Workday | [Cybersecurity Engineer Intern](https://workday.wd5.myworkdayjobs.com/Workday_Early_Career/job/USA-CA-Pleasanton/Cybersecurity-Engineer-Intern_JR-0110809)<br><sub>“Visa sponsorship is not available for this role.”</sub> | USA, CA, Pleasanton | 🛂❌ no sponsor | Oct 9 |
 | Apple Bank | [2027 Summer Intern- Information Security](https://applebank.wd5.myworkdayjobs.com/applebankcareers/job/New-York-NY/XMLNAME-2027-Summer-Intern--Information-Security_2026-1416)<br><sub>“You are currently authorized to work in the United States with no restrictions; please note that we are unable to sponsor visas for this pos…”</sub> | New York, NY | 🛂❌ no sponsor<br>🎓 3.0+ GPA | Oct 7 |
@@ -134,7 +136,7 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Guardian Life Insurance | [2027 Guardian Summer Intern, Digital &amp; Technology, Cybersecurity](https://guardianlife.wd5.myworkdayjobs.com/Guardian-Life-Careers/job/New-York/XMLNAME-2027-Guardian-Summer-Intern--Digital---Technology--Cybersecurity_R000110211)<br><sub>“H1-B and green card sponsorship are not available for this position.”</sub> | New York | 🛂❌ no sponsor | Sep 14 |
 | Tencent | [Cyber Security Engineer Intern](https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/US-California-Palo-Alto/Cyber-Security-Engineer-Intern_R108141-2) | US-California-Palo Alto |  | Sep 14 |
 | Walmart | [Summer 2027 Intern: Cybersecurity Undergrad](https://walmart.wd504.myworkdayjobs.com/WalmartExternal/job/USA-ISD-Office---DGTC-AR-BENTONVILLE-Home-Office/Summer-2027-Intern--Cybersecurity-Undergrad_R-2630025) | \(USA\) ISD Office - DGTC AR BENTONVILLE Home O… |  | Sep 14 |
-| Brain Co | [Security Engineer Intern \(Summer 2027\)](https://jobs.ashbyhq.com/brainco/b697421a-4a50-4028-9832-6798132e327a) | San Francisco Bay Area |  | Sep 12 |
+| Brain Co | [Security Engineer Intern \(Summer 2027\)](https://jobs.ashbyhq.com/brainco/b697421a-4a50-4028-9832-6798132e327a) | San Francisco Bay Area | ⚠ unverified<br>⏳ 60+ days | Sep 12 |
 | Vanguard | [College to Corporate IT Internship - Risk &amp; Security - Analyst \(NC\)](https://vanguard.wd5.myworkdayjobs.com/vanguard_external/job/Charlotte-NC/College-to-Corporate-IT-Internship---Risk---Security---Analyst---NC-_181764)<br><sub>“Vanguard does not offer visa sponsorship for this role”</sub> | Charlotte, NC | 🛂❌ no sponsor<br>⏳ 60+ days | Sep 11 |
 | Vanguard | [College to Corporate IT Internship - Risk &amp; Security - Analyst \(PA\)](https://vanguard.wd5.myworkdayjobs.com/vanguard_external/job/Malvern-PA/College-to-Corporate-IT-Internship---Risk---Security---Analyst---PA-_181762)<br><sub>“Vanguard does not offer visa sponsorship for this role”</sub> | Malvern, PA | 🛂❌ no sponsor<br>⏳ 60+ days | Sep 11 |
 | National Information Solutions Cooperative \(NISC\) | [Intern - Information Security \(Cybersecurity\)](https://job-boards.greenhouse.io/nisc/jobs/8191724) | Lake Saint Louis, MO or Mandan, ND | ⏳ 60+ days | Sep 10 |

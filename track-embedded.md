@@ -1,6 +1,6 @@
 # Embedded and firmware
 
-[⬅ Back to the main page](README.md) · 53 open · updated 2026-11-11
+[⬅ Back to the main page](README.md) · 54 open · updated 2026-11-12
 
 Firmware, microcontroller and real-time software that runs on devices. New to this track? Read the [embedded and firmware section of the tracks guide](guides/tracks.md#embedded-and-firmware).
 
@@ -30,10 +30,11 @@ The track comes from the words in the job title, so a few jobs may land in the w
 
 <div class="job-filter" id="job-filter"></div>
 
-## Internships (52)
+## Internships (53)
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
+| SK hynix memory solutions America Inc | [Embedded Software Engineer Intern](https://job-boards.greenhouse.io/skhynixmemorysolutionsamericainc/jobs/4504499009) | San Jose |  | Nov 11 |
 | REGENT | [Embedded Software Engineering Intern \(Summer\)](https://jobs.ashbyhq.com/REGENT/9f25824f-486e-4d3a-b444-116b474619d7) | North Kingstown, Rhode Island, USA |  | Nov 10 |
 | Resideo | [Embedded Firmware Engineering Intern - Summer 2027](https://ehtl.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/19812) | Melville, NY, United States | ⚠ unverified | Nov 9* |
 | Resideo | [Firmware Engineering Intern - Summer 2027](https://ehtl.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/19813) | Aurora, IL, United States | ⚠ unverified | Nov 9* |

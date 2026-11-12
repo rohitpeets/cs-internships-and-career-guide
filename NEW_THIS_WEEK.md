@@ -1,6 +1,6 @@
 # 🆕 New this week
 
-[⬅ Back to the main page](README.md) · 205 posted in the last 7 days · updated 2026-11-11
+[⬅ Back to the main page](README.md) · 187 posted in the last 7 days · updated 2026-11-12
 
 **Click a job title to open the company's application page.**
 
@@ -26,4 +26,4 @@
 
 <div class="job-filter" id="job-filter"></div>
 
-_205 postings were added this week (a new source was connected). Browse the sections above._
+_187 postings were added this week (a new source was connected). Browse the sections above._

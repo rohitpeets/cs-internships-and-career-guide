@@ -1,6 +1,6 @@
 # Hardware and chips
 
-[⬅ Back to the main page](README.md) · 92 open · updated 2026-11-11
+[⬅ Back to the main page](README.md) · 95 open · updated 2026-11-12
 
 Chip design, FPGA and ASIC work, and design verification. New to this track? Read the [hardware and chips section of the tracks guide](guides/tracks.md#hardware-and-chips).
 
@@ -30,14 +30,17 @@ The track comes from the words in the job title, so a few jobs may land in the w
 
 <div class="job-filter" id="job-filter"></div>
 
-## Internships (88)
+## Internships (91)
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
+| Formlabs Internships | [Hardware R&amp;D Engineering Intern \(Summer 2027\)](https://job-boards.greenhouse.io/formlabsinternships/jobs/8381593) | Somerville, MA |  | Nov 11 |
+| Formlabs Internships | [Hardware Reliability Intern \(Summer 2027\)](https://job-boards.greenhouse.io/formlabsinternships/jobs/8381587) | Somerville, MA |  | Nov 11 |
+| Formlabs Internships | [Hardware Systems Integration Intern \(Summer 2027\)](https://job-boards.greenhouse.io/formlabsinternships/jobs/8381595) | Somerville, MA |  | Nov 11 |
+| NBCUniversal | [NBC News Creative &amp; Digital Design Internships – Summer 2027](https://jobs.smartrecruiters.com/NBCUniversal3/744000161096049-nbc-news-creative-digital-design-internships-summer-2027)<br><sub>“For further clarification, candidates currently on any student or exchange visa \(e.g. F-1 CPT, F-1 OPT, J-1, M-1\) are not eligible to apply…”</sub> | New York, NY, US | 🚫 no CPT/OPT<br>🎓 3.0+ GPA | Nov 11 |
 | Etched | [Chip Simulation Software Intern](https://jobs.ashbyhq.com/Etched/27e5bd6b-9357-45f0-9e79-cfa2bf4eeba8) | San Jose |  | Nov 10 |
 | Marvell Technology | [Design Verification Intern](https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Petah-Tikva/Design-Verification-Intern_2604492) | Petah-Tikva |  | Nov 10 |
 | Skydio | [Hardware In Loop \(HIL\) Software Engineer Intern - Winter 2027](https://jobs.ashbyhq.com/skydio/add7fd86-78e6-483e-98cd-cdfc1029fded) | San Mateo, California, United States |  | Nov 10 |
-| NBCUniversal | [NBC News Creative &amp; Digital Design Internships – Summer 2027](https://jobs.smartrecruiters.com/NBCUniversal3/744000160731587-nbc-news-creative-digital-design-internships-summer-2027)<br><sub>“For further clarification, candidates currently on any student or exchange visa \(e.g. F-1 CPT, F-1 OPT, J-1, M-1\) are not eligible to apply…”</sub> | New York, NY, US | 🚫 no CPT/OPT<br>⚠ unverified | Nov 9 |
 | Dell Technologies | [CSG Hardware Engineering Intern](https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/298216) | TX, United States |  | Nov 3 |
 | Trimble Inc | [Hardware/Software Testing Intern](https://trimble.wd1.myworkdayjobs.com/TrimbleCareers/job/US---CO-Westminster/Hardware-Software-Testing-Intern_R57677-1)<br><sub>“Visa sponsorship is not available for this position.”</sub> | US - CO, Westminster | 🛂❌ no sponsor | Nov 3 |
 | Draper | [Analog ASIC Design Intern \(Summer 2027\)](https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Analog-ASIC-Design-Intern--Summer-2027-_JR003085)<br><sub>“Applicants selected for this position may be required to obtain and maintain a government security clearance”</sub> | Cambridge, MA | 🔒 clearance | Nov 2 |
@@ -58,7 +61,7 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Intel Corporation | [Design Verification Graduate Intern 2027](https://intel.wd1.myworkdayjobs.com/External/job/US-Colorado-Fort-Collins/Design-Verification-Graduate-Intern-2027_JR0287651) | US, Colorado, Fort Collins | 🎓 3.0+ GPA | Oct 20 |
 | Micron Technology | [Intern - Semiconductor Global Category Supplier Management](https://micron.wd1.myworkdayjobs.com/External/job/San-Jose-CA/Intern---Semiconductor-Global-Category-Supplier-Management_JR114763) | San Jose, CA | ⚠ unverified | Oct 20 |
 | Rockwell Automation | [Intern, Hardware Development Engineer \(May - Aug 2027\)](https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers/job/Mayfield-Heights-Ohio-United-States/Intern--Hardware-Development-Engineer--May---Aug-2027-_R26-6892-2)<br><sub>“We will not sponsor individuals for employment visas for this internship.”</sub> | Mayfield Heights, Ohio, United States | 🛂❌ no sponsor | Oct 20 |
-| SK hynix memory solutions America Inc | [ASIC Design Intern](https://job-boards.greenhouse.io/skhynixmemorysolutionsamericainc/jobs/4460200009) | San Jose |  | Oct 20 |
+| SK hynix memory solutions America Inc | [ASIC Design Intern](https://job-boards.greenhouse.io/skhynixmemorysolutionsamericainc/jobs/4460200009) | San Jose | ⚠ unverified | Oct 20 |
 | Skydio | [Hardware Test and Reliability Intern - Summer 2027](https://jobs.ashbyhq.com/skydio/36d75e36-eeb2-4399-8887-37c4a5ff5800) | San Mateo, California, United States |  | Oct 20 |
 | Skydio | [Wireless Hardware Engineer Intern - Summer 2027](https://jobs.ashbyhq.com/skydio/1ac972b1-8094-4765-8869-63e1c4d50dea) | San Mateo, California, United States |  | Oct 20 |
 | Hewlett Packard Enterprise | [ASIC Intern](https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Roseville-California-United-States-of-America/ASIC-Intern_1214020) | Roseville, California, United States of Ameri… |  | Oct 19 |
