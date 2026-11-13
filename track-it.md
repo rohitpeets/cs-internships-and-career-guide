@@ -1,6 +1,6 @@
 # IT and networking
 
-[⬅ Back to the main page](README.md) · 244 open · updated 2026-11-12
+[⬅ Back to the main page](./) · 242 open · updated 2026-11-13
 
 IT support, networking, systems administration and cloud operations. New to this track? Read the [it and networking section of the tracks guide](guides/tracks.md#it-and-networking).
 
@@ -30,10 +30,11 @@ The track comes from the words in the job title, so a few jobs may land in the w
 
 <div class="job-filter" id="job-filter"></div>
 
-## Internships (236)
+## Internships (234)
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
+| Muon Space | [Software Engineering Intern-Information Systems \(Summer 2027\)](https://job-boards.greenhouse.io/muonspace/jobs/5293973007)<br><sub>“To conform to U.S. Government export regulations applicable to that information, applicant must either be \(A\) a U.S. person, defined as a \(i…”</sub> | San Jose, CA | 🇺🇸 citizens | Nov 12 |
 | Arch Insurance Group Inc | [IT Intern](https://archgroup.wd1.myworkdayjobs.com/Careers/job/Jersey-City-NJ-United-States-of-America/IT-Intern_R26_1092) | Jersey City, NJ United States of America | 🎓 3.0+ GPA | Nov 10 |
 | Arch Insurance Group Inc | [Originations Portal IT Intern](https://archgroup.wd1.myworkdayjobs.com/Careers/job/Greensboro-NC-United-States-of-America/Originations-Portal-IT-Intern_R26_1135) | Greensboro, NC United States of America | 🎓 3.0+ GPA | Nov 10 |
 | Clarios | [IT Digital/AI Intern \(Summer 2027\)](https://clarios.wd5.myworkdayjobs.com/clarioscareers/job/United-States-Wisconsin-Milwaukee/IT-Digital-AI-Intern--Summer-2027-_WD49910)<br><sub>“PLEASE NOTE that applicants must be authorized to work for any employer in the US without the need for sponsorship, now or in the future.”</sub> | United States, Wisconsin, Milwaukee | 🛂❌ no sponsor | Nov 10 |
@@ -168,7 +169,7 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | General Matter | [Summer 2027 Internship - Information Technology](https://job-boards.greenhouse.io/generalmatter/jobs/5440483008) | Los Angeles, CA |  | Oct 5 |
 | Howmet Aerospace | [Intern - Corporate Applications \(IT\)](https://fa-exty-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/119657)<br><sub>“Visa sponsorship is not available for this position.”</sub> | Pittsburgh, PA, United States | 🛂❌ no sponsor<br>🎓 3.0+ GPA | Oct 5 |
 | INFICON | [Information Technology Intern](https://jobs.smartrecruiters.com/INFICON2/744000153618979-information-technology-intern) | East Syracuse, NY, US |  | Oct 5 |
-| JetZero | [2027 IT Summer Internship](https://job-boards.greenhouse.io/jetzero/jobs/5437118008)<br><sub>“JetZero does not sponsor visas for US positions unless specified.”</sub> | Long Beach, CA | 🛂❌ no sponsor<br>🎓 3.0+ GPA | Oct 5 |
+| JetZero | [2027 IT Summer Internship](https://job-boards.greenhouse.io/jetzero/jobs/5437118008)<br><sub>“JetZero does not sponsor visas for US positions unless specified.”</sub> | Long Beach, CA | 🛂❌ no sponsor<br>🎓 3.0+ GPA<br>⚠ unverified | Oct 5 |
 | Manitowoc | [Summer 2027 Intern - IT/IS/MIS](https://fda.fa.us1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/3318) | Shady Grove, PA, United States |  | Oct 5 |
 | Midland States Bank | [Intern - Financial Services Cloud Admin - Salesforce](https://midlandsb.wd1.myworkdayjobs.com/msbcareers/job/St-Louis-MO/Intern---Financial-Services-Cloud-Admin---Salesforce_JR1470) | St. Louis, MO |  | Oct 5 |
 | Midland States Bank | [Intern - IT Infrastructure](https://midlandsb.wd1.myworkdayjobs.com/msbcareers/job/Effingham-IL/Intern---IT-Infrastructure_JR1471) | Effingham, IL |  | Oct 5 |
@@ -223,7 +224,6 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | NJM Insurance Group | [IT QA Automation Intern](https://njm.wd1.myworkdayjobs.com/njm/job/NJM---Trenton/IT-QA-Automation-Intern_R2008283) | NJM - Trenton | 🎓 3.0+ GPA | Sep 15 |
 | NJM Insurance Group | [IT Workstation Support Intern](https://njm.wd1.myworkdayjobs.com/njm/job/NJM---Trenton/IT-Workstation-Support--Intern_R2008273) | NJM - Trenton | 🎓 3.0+ GPA | Sep 15 |
 | NYISO Internship Program | [Intern - IT Service Delivery](https://job-boards.greenhouse.io/nyisointernships/jobs/5236071007) | Rensselaer, New York, United States |  | Sep 15 |
-| NYISO Internship Program | [Intern - IT Software Development](https://job-boards.greenhouse.io/nyisointernships/jobs/5236084007) | Rensselaer, New York, United States | ⚠ unverified | Sep 15 |
 | AtkinsRéalis | [Water Infrastructure Engineering Intern - Summer 2027](https://slihrms.wd3.myworkdayjobs.com/Careers/job/USNVHenderson/Water-Infrastructure-Engineering-Intern---Summer-2027_R-160500-2) | US.NV.Henderson |  | Sep 14 |
 | Campbell's | [Information Technology Internship Program - Summer 2027](https://campbellsoup.wd5.myworkdayjobs.com/ExternalCareers_GlobalSite/job/USA---NJ---Camden/Information-Technology-Internship-Program---Summer-2027_Req-68193) | USA - NJ - Camden | 🎓 3.0+ GPA | Sep 14 |
 | Guardian Life Insurance | [2027 Guardian Summer Intern, Digital &amp; Technology, Cloud &amp; DevOps](https://guardianlife.wd5.myworkdayjobs.com/Guardian-Life-Careers/job/Bethlehem/XMLNAME-2027-Guardian-Summer-Intern--Digital---Technology--Cloud---DevOps_R000110210)<br><sub>“H1-B and green card sponsorship are not available for this position.”</sub> | Bethlehem | 🛂❌ no sponsor | Sep 14 |
@@ -267,8 +267,6 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Vertiv | [IT Systems Product Management Intern \(Summer 2027\)](https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20279239) | Westerville, OH, United States | ⚠ unverified<br>⏳ 60+ days | Aug 12 |
 | Varda Space Industries | [Site Reliability Internship - Spring 2027](https://job-boards.greenhouse.io/vardaspace/jobs/7824814003)<br><sub>“ITAR Requirements”</sub> | El Segundo, California, United States | 📜 ITAR<br>🌱 spring<br>⏳ 60+ days | Aug 7 |
 | Solar Turbines | [2027 IT Intern](https://cat.wd5.myworkdayjobs.com/SolarTurbines/job/San-Diego-California/XMLNAME-2027-IT-Intern_R0000381898)<br><sub>“Visa Sponsorship is not available for this position.”</sub> | San Diego, California | 🛂❌ no sponsor<br>🎓 2.8+ GPA<br>⏳ 60+ days | Jul 23 |
-| Palantir Technologies | [Forward Deployed Infrastructure Engineer, Internship - US Government](https://jobs.lever.co/palantir/3db7e40a-28e0-4ad1-96c5-93de5bc96aa9)<br><sub>“What We Require: Active US Security clearance, or eligibility and willingness to obtain a US Security clearance prior to start of internship”</sub> | Washington, D.C. | 🔒 clearance<br>⚠ unverified<br>⏳ 60+ days | Jul 10 |
-| Palantir Technologies | [Forward Deployed Infrastructure Engineer, Internship - US Government](https://jobs.lever.co/palantir/8f362a1f-1eff-4327-94c1-ff46e2101c69)<br><sub>“What We Require: Active US Security clearance, or eligibility and willingness to obtain a US Security clearance prior to start of internship”</sub> | Palo Alto, CA | 🔒 clearance<br>⚠ unverified<br>⏳ 60+ days | Jul 10 |
 | University of Arkansas for Medical Sciences \(UAMS\) | [CW IT Intern](https://uasys.wd5.myworkdayjobs.com/UAMS_CW_Career_Site/job/UAMS/CW-IT-Intern_R0056484) | UAMS | ⏳ 60+ days | May 17 |
 
 ## New grad (8)

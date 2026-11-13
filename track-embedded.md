@@ -1,6 +1,6 @@
 # Embedded and firmware
 
-[⬅ Back to the main page](README.md) · 54 open · updated 2026-11-12
+[⬅ Back to the main page](./) · 54 open · updated 2026-11-13
 
 Firmware, microcontroller and real-time software that runs on devices. New to this track? Read the [embedded and firmware section of the tracks guide](guides/tracks.md#embedded-and-firmware).
 

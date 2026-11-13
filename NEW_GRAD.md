@@ -1,6 +1,6 @@
 # New Grad
 
-[⬅ Back to the main page](README.md) · 104 open · updated 2026-11-12
+[⬅ Back to the main page](./) · 104 open · updated 2026-11-13
 
 **Click a job title to open the company's application page.**
 
@@ -37,13 +37,13 @@
 | Amentum | [Software Tools Developer, Entry Level](https://pae.wd1.myworkdayjobs.com/Amentum_Careers/job/US-AL-Huntsville/Software-Tools-Developer--Entry-Level_R0174727)<br><sub>“Proof of U.S. Citizenship is required.”</sub> | US-AL-Huntsville | 🇺🇸 citizens<br>⚠ unverified | Nov 3 |
 | Nextens | [Tech Accelerate Graduate Program - Software Engineer I](https://relx.wd3.myworkdayjobs.com/RiskSolutions/job/Alpharetta-GA/Tech-Accelerate-Graduate-Program_R120836) | Alpharetta, GA |  | Nov 3 |
 | Verkada | [Backend Software Engineer - University Graduate 2027](https://job-boards.greenhouse.io/verkada/jobs/5280545007)<br><sub>“We do sponsor and take over sponsorship of employment visas for this role.”</sub> | San Mateo, CA United States | 🛂✅ sponsors | Nov 2 |
-| Shield AI | [Engineer I, Software - Autonomous Pilot Integration - New Grad - 6125](https://jobs.lever.co/shieldai/af183d8c-51d0-40df-9c04-fbddae0d83aa)<br><sub>“Ability to obtain a SECRET clearance.”</sub> | Washington, D.C. | 🔒 secret | Oct 27 |
-| Shield AI | [Engineer I, Software - Autonomy Capabilities - New Grad - 6129](https://jobs.lever.co/shieldai/f8e0f87f-0e12-4e05-a491-4e8272494896)<br><sub>“Ability to obtain a SECRET clearance.”</sub> | United States | 🔒 secret | Oct 27 |
-| Shield AI | [Engineer I, Software - Perception - New Grad - 6135](https://jobs.lever.co/shieldai/cd641bcb-f613-44dd-b66d-2df360067319)<br><sub>“Ability to obtain a SECRET clearance.”</sub> | Washington, D.C. | 🔒 secret | Oct 27 |
-| Shield AI | [Engineer II, Software - Autonomous Pilot Integration - New Grad - 6127](https://jobs.lever.co/shieldai/d2beda9f-f7f1-46ca-86d6-5bbbd52fbe50)<br><sub>“\* Ability to obtain a SECRET clearance.”</sub> | Washington, D.C. | 🔒 secret | Oct 27 |
-| Shield AI | [Engineer II, Software - Autonomy Capabilities - New Grad - 6131](https://jobs.lever.co/shieldai/d2050861-fd48-4ac6-9606-e1e502a817af)<br><sub>“\* Ability to obtain a SECRET clearance.”</sub> | United States | 🔒 secret | Oct 27 |
-| Shield AI | [Engineer II, Software - Ground Control Station - Full Stack - New Grad - 6140](https://jobs.lever.co/shieldai/88f7b66e-3412-40c8-b74d-aafc462405ff)<br><sub>“Ability to obtain a SECRET clearance.”</sub> | Washington, D.C. | 🔒 secret | Oct 27 |
-| Shield AI | [Engineer II, Software - Perception \(SD/DC/Bos\) - New Grad - 6139](https://jobs.lever.co/shieldai/9017c8c2-2668-45d6-aff5-a7e348107c12)<br><sub>“\* Ability to obtain a SECRET clearance.”</sub> | United States | 🔒 secret | Oct 27 |
+| Shield AI | [Engineer I, Software - Autonomous Pilot Integration - New Grad - 6125](https://jobs.lever.co/shieldai/af183d8c-51d0-40df-9c04-fbddae0d83aa)<br><sub>“Ability to obtain a SECRET clearance.”</sub> | Washington, D.C. | 🔒 secret<br>⚠ unverified | Oct 27 |
+| Shield AI | [Engineer I, Software - Autonomy Capabilities - New Grad - 6129](https://jobs.lever.co/shieldai/f8e0f87f-0e12-4e05-a491-4e8272494896)<br><sub>“Ability to obtain a SECRET clearance.”</sub> | United States | 🔒 secret<br>⚠ unverified | Oct 27 |
+| Shield AI | [Engineer I, Software - Perception - New Grad - 6135](https://jobs.lever.co/shieldai/cd641bcb-f613-44dd-b66d-2df360067319)<br><sub>“Ability to obtain a SECRET clearance.”</sub> | Washington, D.C. | 🔒 secret<br>⚠ unverified | Oct 27 |
+| Shield AI | [Engineer II, Software - Autonomous Pilot Integration - New Grad - 6127](https://jobs.lever.co/shieldai/d2beda9f-f7f1-46ca-86d6-5bbbd52fbe50)<br><sub>“\* Ability to obtain a SECRET clearance.”</sub> | Washington, D.C. | 🔒 secret<br>⚠ unverified | Oct 27 |
+| Shield AI | [Engineer II, Software - Autonomy Capabilities - New Grad - 6131](https://jobs.lever.co/shieldai/d2050861-fd48-4ac6-9606-e1e502a817af)<br><sub>“\* Ability to obtain a SECRET clearance.”</sub> | United States | 🔒 secret<br>⚠ unverified | Oct 27 |
+| Shield AI | [Engineer II, Software - Ground Control Station - Full Stack - New Grad - 6140](https://jobs.lever.co/shieldai/88f7b66e-3412-40c8-b74d-aafc462405ff)<br><sub>“Ability to obtain a SECRET clearance.”</sub> | Washington, D.C. | 🔒 secret<br>⚠ unverified | Oct 27 |
+| Shield AI | [Engineer II, Software - Perception \(SD/DC/Bos\) - New Grad - 6139](https://jobs.lever.co/shieldai/9017c8c2-2668-45d6-aff5-a7e348107c12)<br><sub>“\* Ability to obtain a SECRET clearance.”</sub> | United States | 🔒 secret<br>⚠ unverified | Oct 27 |
 | Motorola Solutions | [Entry Level Control Hardware Development Engineer](https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Schaumburg-IL/Entry-Level-Control-Hardware-Development-Engineer_R67706)<br><sub>“Employer work permit sponsorship is not available for this position”</sub> | Schaumburg, IL | 🛂❌ no sponsor | Oct 22 |
 | Palantir Technologies | [Forward Deployed Software Engineer, New Grad - Warp Speed](https://jobs.lever.co/palantir/66b495eb-aaf9-4bf9-a759-41854534add7)<br><sub>“What We Require: U.S. Person Required”</sub> | New York, NY | 🇺🇸 citizens | Oct 22 |
 | Rendezvous Robotics | [Flight Software Engineer \(Early Career\)](https://job-boards.greenhouse.io/rendezvousrobotics/jobs/4464270009)<br><sub>“ITAR Requirements”</sub> | Golden, CO | 📜 ITAR | Oct 22 |
@@ -60,7 +60,7 @@
 | Olsson | [Entry-Level Power Systems Studies Engineer - Data Centers](https://job-boards.greenhouse.io/olsson/jobs/5446995008) | Overland Park, KS |  | Oct 7 |
 | Affirm | [Software Engineer, Early Career \(NYC\)](https://job-boards.greenhouse.io/affirm/jobs/8008649003) | New York, New York, United States |  | Oct 6 |
 | Affirm | [Software Engineer, Early Career \(SF\)](https://job-boards.greenhouse.io/affirm/jobs/8010617003) | San Francisco, California, United States |  | Oct 6 |
-| Shield AI | [Software Development Engineer - New Graduate](https://jobs.lever.co/shieldai/79c3b65f-ce0c-4868-bedf-4ddcc4cfe583) | San Diego, California |  | Oct 6 |
+| Shield AI | [Software Development Engineer - New Graduate](https://jobs.lever.co/shieldai/79c3b65f-ce0c-4868-bedf-4ddcc4cfe583) | San Diego, California | ⚠ unverified | Oct 6 |
 | Relling | [Robotics Software Engineer - New Grad](https://jobs.ashbyhq.com/Relling/a31f91ae-30f9-4e36-b9d2-2cb74c398d2e) | San Francisco |  | Oct 2 |
 | Brain Co | [AI Platform Engineer, 2027 New Grad](https://jobs.ashbyhq.com/brainco/4d39773e-f4c3-49c1-87c3-812a9804fb15) | San Francisco Bay Area |  | Oct 1 |
 | Brain Co | [AI Security Engineer, 2027 New Grad](https://jobs.ashbyhq.com/brainco/32c4e1c9-ccd1-4dca-a68b-31ad1b868030) | San Francisco Bay Area |  | Oct 1 |

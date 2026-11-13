@@ -1,6 +1,6 @@
 # Data, ML and AI
 
-[⬅ Back to the main page](README.md) · 458 open · updated 2026-11-12
+[⬅ Back to the main page](./) · 450 open · updated 2026-11-13
 
 Data analysis, data engineering, machine learning and AI roles. New to this track? Read the [data, ml and ai section of the tracks guide](guides/tracks.md#data-and-ml).
 
@@ -30,7 +30,7 @@ The track comes from the words in the job title, so a few jobs may land in the w
 
 <div class="job-filter" id="job-filter"></div>
 
-## Internships (447)
+## Internships (439)
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
@@ -244,7 +244,7 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Exol | [Co-op- Machine Learning Ops](https://symbotic.wd504.myworkdayjobs.com/Symbotic/job/USA-Wilmington--MA---HQ/Co-op--Machine-Learning-Ops_R8327) | USA Wilmington, MA - HQ | 🔄 co-op | Oct 22 |
 | Insperity | [Rotational AI Intern](https://insperity.wd12.myworkdayjobs.com/NSP/job/Kingwood-TX/Rotational-AI-Intern_JR103460) | Kingwood, TX |  | Oct 22 |
 | Insperity | [Rotational Data Analytics Intern](https://insperity.wd12.myworkdayjobs.com/NSP/job/Kingwood-TX/Rotational-Data-Analytics-Intern_JR103458) | Kingwood, TX |  | Oct 22 |
-| National Information Solutions Cooperative \(NISC\) | [Intern - Operations Analytics Implementations](https://job-boards.greenhouse.io/nisc/jobs/8312757) | Any NISC Location |  | Oct 22 |
+| National Information Solutions Cooperative \(NISC\) | [Intern - Operations Analytics Implementations](https://job-boards.greenhouse.io/nisc/jobs/8312757) | Any NISC Location | ⚠ unverified | Oct 22 |
 | Rivian and Volkswagen Group Technologies | [Data Engineering Intern - AI &amp; Analytics \(Summer 2027\)](https://jobs.ashbyhq.com/rivianvw.tech/7967cd44-5469-48b8-b69f-f036e4098464) | Palo Alto, California |  | Oct 22 |
 | Trimble Inc | [People Development AI &amp; Digital Learning Intern](https://trimble.wd1.myworkdayjobs.com/TrimbleCareers/job/US---CO-Westminster/People-Development-AI---Digital-Learning-Intern_R57819) | US - CO, Westminster |  | Oct 22 |
 | Applied Materials | [2027 Data Analytics &amp; Business Operations Spring Co-Op or Summer Intern- Bachelor's/Master's \(Austin, TX\)](https://amat.wd1.myworkdayjobs.com/External/job/AustinTX/XMLNAME-2027-Data-Analytics---Business-Operations-Spring-Co-Op-or-Summer-Intern--Bachelor-s-Master-s--Austin--TX-_R2626381) | Austin,TX | 🔄 co-op<br>🌱 spring | Oct 21 |
@@ -273,7 +273,7 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Cambridge Investment Research, Inc | [Consulting Services AI &amp; Automation Intern](https://cir.wd108.myworkdayjobs.com/CIR_External_Career_Site/job/Fairfield-IA/Consulting-Services-AI---Automation-Intern_R-2025-223) | Fairfield, IA |  | Oct 19 |
 | Cambridge Investment Research, Inc | [Data Engineering Intern](https://cir.wd108.myworkdayjobs.com/CIR_External_Career_Site/job/Phoenix-AZ/Data-Engineering-Intern_R-2025-221) | Phoenix, AZ |  | Oct 19 |
 | Legend Biotech US | [Data Intern](https://job-boards.greenhouse.io/legendcareers/jobs/4745118005) | Bridgewater, New Jersey, United States |  | Oct 19 |
-| MakiPeople | [AI Implementation Intern](https://jobs.ashbyhq.com/maki/e315491d-2c1d-4656-a5a2-07ce158d5d40)<br><sub>“- Must be authorized to work in the US without employer sponsorship”</sub> | New York | 🛂❌ no sponsor | Oct 19 |
+| MakiPeople | [AI Implementation Intern](https://jobs.ashbyhq.com/maki/e315491d-2c1d-4656-a5a2-07ce158d5d40)<br><sub>“- Must be authorized to work in the US without employer sponsorship”</sub> | New York | 🛂❌ no sponsor<br>⚠ unverified | Oct 19 |
 | Manitowoc | [Summer 2027 Intern - Data Analyst - Aftermarket](https://fda.fa.us1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/3371) | Shady Grove, PA, United States |  | Oct 19 |
 | Maricopa Association of Governments \(MAG\) | [Socioeconomic Data Intern](https://azmag.wd108.myworkdayjobs.com/magcareers/job/Phoenix-AZ/Socioeconomic-Data-Intern_JR24) | Phoenix, AZ |  | Oct 19 |
 | Navy Federal Credit Union | [Intern - Year Round \(AI Engineering\)](https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/32645) | Vienna, VA, United States |  | Oct 19 |
@@ -284,7 +284,6 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Eulerity | [AI Intern - Office of CEO &amp; Head of Product](https://job-boards.greenhouse.io/eulerity/jobs/4722871006) | New York, NY |  | Oct 17 |
 | Hilb Group | [Benefits Analytics Intern](https://hilbgroup.wd5.myworkdayjobs.com/HG-Careers/job/Hunt-Valley-MD/Benefits-Analytics-Intern_JR100866) | Hunt Valley MD |  | Oct 16 |
 | Invesco Ltd | [Quantitative Intern - Portfolio Engineering and Analytics](https://invesco.wd1.myworkdayjobs.com/IVZearlycareers/job/Boston-Massachusetts/Quantitative-Intern---Portfolio-Engineering-and-Analytics_R-15665-1) | Boston, Massachusetts |  | Oct 16 |
-| Pattern | [AI Automation Engineer Intern](https://jobs.lever.co/pattern/48945dce-b5ef-43cd-9d85-f8b26ce5b43e) | Lehi, UT, US | ⚠ unverified | Oct 16 |
 | QuEra Computing, Inc | [QPU Build Co-Op – Optics &amp; Data Analysis](https://job-boards.greenhouse.io/queracomputinginc/jobs/5455950008) | Boston, MA, USA | 🔄 co-op | Oct 16 |
 | Veeam Software | [Data &amp; Analytics Engineering Intern - Summer 2027](https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4996533101)<br><sub>“Applicants must be authorized to work in the U.S. We are unable to sponsor or take over sponsorship of an employment Visa now or in the futu…”</sub> | Alpharetta, GA, USA | 🛂❌ no sponsor | Oct 16 |
 | Zoetis | [Chemistry Data Science Intern - Digital CMC Workflows](https://zoetis.wd5.myworkdayjobs.com/broadbean_external/job/Kalamazoo---Downtown-Portage-Street/Chemistry-Data-Science-Intern---Digital-CMC-Workflows_JR00021822-1) | Kalamazoo - Downtown Portage Street |  | Oct 16 |
@@ -313,9 +312,6 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Gartner | [Data Analyst Internship \(2028 Graduates\)](https://gartner.wd5.myworkdayjobs.com/EXT/job/Irving-TX/Data-Analyst-Internship--2028-Graduates-_113297) | Irving, TX |  | Oct 10 |
 | Amgen | [Undergrad Co-op - Accelerating Attribute Sciences’ Data Compilation Capabilities &amp; Agility](https://amgen.wd1.myworkdayjobs.com/Careers/job/US---Massachusetts---Cambridge/Undergrad-Co-op---Accelerating-Attribute-Sciences--Data-Compilation-Capabilities---Agility_R-258090) | US - Massachusetts - Cambridge | 🎓 3.0+ GPA<br>🔄 co-op | Oct 9 |
 | Bosch Group | [Artificial Intelligence / Machine Learning: Foundation Models - Intern](https://jobs.smartrecruiters.com/BoschGroup/744000154759734-artificial-intelligence-machine-learning-foundation-models-intern) | Sunnyvale, CA, US | 🎓 3.0+ GPA<br>⚠ unverified | Oct 9 |
-| Brain Co | [AI Platform Engineer Co-Op Intern, Winter 2027](https://jobs.ashbyhq.com/brainco/aadc490a-0d72-4be0-891b-4c362d491c3a) | San Francisco Bay Area | 🔄 co-op<br>⚠ unverified | Oct 9 |
-| Brain Co | [AI Product Engineer Co-Op Intern, Winter 2027](https://jobs.ashbyhq.com/brainco/7ce0af56-d15e-4fc8-91a5-9e56cdb9cf42) | San Francisco Bay Area | 🔄 co-op<br>⚠ unverified | Oct 9 |
-| Brain Co | [Machine Learning Engineer, Applied AI Co-Op Intern, Winter 2027](https://jobs.ashbyhq.com/brainco/b6adda4c-490c-4e9e-8354-e55c05d3c6ac) | San Francisco Bay Area | 🔄 co-op<br>⚠ unverified | Oct 9 |
 | BWE | [Summer 2027 Internship - Agency Analytics - Birmingham](https://bwe.wd12.myworkdayjobs.com/BWECareers/job/AL---Birmingham/Summer-2027-Internship---Agency-Analytics---Birmingham_REQ2447)<br><sub>“Please note, BWE will not sponsor applicants for this position for immigration benefits, including but not limited to assisting with obtaini…”</sub> | AL - Birmingham | 🛂❌ no sponsor | Oct 9 |
 | General Motors | [2027 Summer Intern, Data Scaling, Embodied AI](https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Data-Scaling--Embodied-AI_JR-202622132) | Sunnyvale, California, United States of Ameri… |  | Oct 9 |
 | Papa Johns | [2027 Summer Intern - Data Science](https://papajohns.wd1.myworkdayjobs.com/PapaJohnsCareers/job/HQ_Atlanta/XMLNAME-2027-Summer-Intern---Data-Science_R26_0000002157) | HQ\_Atlanta |  | Oct 9 |
@@ -338,7 +334,7 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Midland States Bank | [Intern - AI Solutions Engineer](https://midlandsb.wd1.myworkdayjobs.com/msbcareers/job/Effingham-IL/Intern---AI-Solutions-Engineer_JR1461) | Effingham, IL |  | Oct 5 |
 | Midland States Bank | [Intern - Associate Solutions Engineer - Data Warehouse](https://midlandsb.wd1.myworkdayjobs.com/msbcareers/job/Effingham-IL/Intern---Associate-Solutions-Engineer---Data-Warehouse_JR1462) | Effingham, IL |  | Oct 5 |
 | New York Mets | [Intern, Data Science](https://sterlingmets.wd5.myworkdayjobs.com/Mets/job/Citi-Field--Queens-New-York/Intern--Data-Science_R1508) | Citi Field – Queens, New York |  | Oct 5 |
-| Affirm | [Software Engineer \(Machine Learning\) Intern \(Summer 2027\)](https://job-boards.greenhouse.io/affirm/jobs/8008645003)<br><sub>“Please note that visa sponsorship is not available for this position.”</sub> | San Francisco, California, United States | 🛂❌ no sponsor | Oct 2 |
+| Affirm | [Software Engineer \(Machine Learning\) Intern \(Summer 2027\)](https://job-boards.greenhouse.io/affirm/jobs/8008645003)<br><sub>“Please note that visa sponsorship is not available for this position.”</sub> | San Francisco, California, United States | 🛂❌ no sponsor<br>⚠ unverified | Oct 2 |
 | Bedrock Robotics Inc | [2027 Internship Behavior ML Engineer, Learned Manipulation Policies](https://jobs.ashbyhq.com/bedrock-robotics/96a6423e-7439-4cb4-9109-117b14e47f7c) | San Francisco, CA |  | Oct 2 |
 | Cboe Global Markets | [Quant &amp; Data Analytics Intern](https://cboe.wd1.myworkdayjobs.com/External_Career_CBOE/job/Chicago-IL/Quant---Data-Analytics-Intern_R-4708)<br><sub>“This position is not eligible for visa sponsorship.”</sub> | Chicago, IL | 🛂❌ no sponsor | Oct 2 |
 | Leidos | [Business Systems AI Intern](https://leidos.wd5.myworkdayjobs.com/External/job/6314-RemoteTeleworker-US/Business-Systems-AI-Intern_R-00193770)<br><sub>“Candidates must be US citizens able to obtain and/or maintain a Department of Defense Secret security clearance as a condition of employment”</sub> | 6314 Remote/Teleworker US | 🇺🇸 citizens<br>🔒 secret<br>🌐 remote | Oct 2 |
@@ -403,12 +399,9 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Texas Instruments | [Information Technology Intern – Data Engineering](https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25017978)<br><sub>“Texas Instruments will not sponsor job applicants for visas or work authorization for this position.”</sub> | Dallas, TX, United States | 🛂❌ no sponsor<br>🎓 3.0+ GPA | Sep 15 |
 | The Toro Company | [ISC Analytics Intern - The Toro Company](https://ttc.wd1.myworkdayjobs.com/Toro_External_Careers/job/Bloomington-MN/ISC-Analytics-Intern---The-Toro-Company_JR17246)<br><sub>“We are unable to sponsor or take over sponsorship of a school/employment or any other visa, regardless of expiration date, now or in the fut…”</sub> | Bloomington, MN | 🛂❌ no sponsor | Sep 15 |
 | 3M | [Internship - 2027 Undergraduate Business Analytics Intern – Consumer Business Group \(CBG\)](https://3m.wd1.myworkdayjobs.com/Search/job/US-Minnesota-Maplewood/Internship---2027-Undergraduate-Business-Analytics-Intern---Consumer-Business-Group--CBG-_R01171049)<br><sub>“Must be legally authorized to work in country of employment without sponsorship for employment visa status \(e.g., H1B status\).”</sub> | US, Minnesota, Maplewood | 🛂❌ no sponsor<br>🎓 3.0+ GPA | Sep 14 |
-| Brain Co | [Machine Learning Engineer, Applied AI Intern \(Summer 2027\)](https://jobs.ashbyhq.com/brainco/a4bdb254-8007-4142-bf36-a3e8622b1ed9) | San Francisco Bay Area | ⚠ unverified | Sep 14 |
 | Greystar \(International\) | [Data Engineering Intern](https://greystar.wd1.myworkdayjobs.com/Campus/job/Remote-Michigan-Remote-Michigan-MI/Data-Engineering-Intern_R0200240) | Remote Michigan, Remote Michigan, MI | 🌐 remote | Sep 14 |
 | Guardian Life Insurance | [2027 Guardian Summer Intern, Digital &amp; Technology – AI &amp; Machine Learning](https://guardianlife.wd5.myworkdayjobs.com/Guardian-Life-Careers/job/New-York/XMLNAME-2027-Guardian-Summer-Intern--Digital---Technology---AI---Machine-Learning_R000110205)<br><sub>“H1-B and green card sponsorship are not available for this position.”</sub> | New York | 🛂❌ no sponsor | Sep 14 |
 | Guardian Life Insurance | [2027 Guardian Summer Intern, Digital &amp; Technology – Data Engineering](https://guardianlife.wd5.myworkdayjobs.com/Guardian-Life-Careers/job/New-York/XMLNAME-2027-Guardian-Summer-Intern--Digital---Technology---Data-Engineering_R000110202)<br><sub>“H1-B and green card sponsorship are not available for this position.”</sub> | New York | 🛂❌ no sponsor | Sep 14 |
-| Brain Co | [AI Platform Engineer Intern \(Summer 2027\)](https://jobs.ashbyhq.com/brainco/2db4339e-79c8-4e97-9c94-92753b49e20a) | San Francisco Bay Area | ⚠ unverified<br>⏳ 60+ days | Sep 12 |
-| Brain Co | [AI Product Engineer Intern \(Summer 2027\)](https://jobs.ashbyhq.com/brainco/28c6cd2f-b609-4ca6-a2f6-adfa3d679d0b) | San Francisco Bay Area | ⚠ unverified<br>⏳ 60+ days | Sep 12 |
 | NewsBreak | [Nearby AI Internship Program - Engineering Track](https://job-boards.greenhouse.io/newsbreak/jobs/4712896006) | Mountain View, California, United States | ⏳ 60+ days | Sep 11 |
 | The Toro Company | [Enterprise Analytics Intern - The Toro Company](https://ttc.wd1.myworkdayjobs.com/Toro_External_Careers/job/Bloomington-MN/Enterprise-Analytics-Intern---The-Toro-Company_JR17104)<br><sub>“We are unable to sponsor or take over sponsorship of a school/employment or any other visa, regardless of expiration date, now or in the fut…”</sub> | Bloomington, MN | 🛂❌ no sponsor<br>⏳ 60+ days | Sep 11 |
 | The Toro Company | [Spatial Data R&amp;D Intern - The Toro Company](https://ttc.wd1.myworkdayjobs.com/Toro_External_Careers/job/Bloomington-MN/Spatial-Data-R-D-Intern---The-Toro-Company_JR17187)<br><sub>“We are unable to sponsor or take over sponsorship of a school/employment or any other visa, regardless of expiration date, now or in the fut…”</sub> | Bloomington, MN | 🛂❌ no sponsor<br>⏳ 60+ days | Sep 11 |
@@ -425,7 +418,6 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Navy Federal Credit Union | [Summer Associate Internship \(Data Scientist\)](https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/32337) | Vienna, VA, United States | ⏳ 60+ days | Sep 9 |
 | Navy Federal Credit Union | [Summer Associate Internship \(Fraud Data Governance\)](https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/32310) | Vienna, VA, United States | ⏳ 60+ days | Sep 9 |
 | Navy Federal Credit Union | [Summer Associate Internship \(Payments AI Engineer\)](https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/32400) | Vienna, VA, United States | ⏳ 60+ days | Sep 9 |
-| Pilot Company | [Program Intern, Data Governance](https://jobs.smartrecruiters.com/PilotCompany/744000148572871-program-intern-data-governance) | Knoxville, TN, US | ⚠ unverified<br>⏳ 60+ days | Sep 9 |
 | Saronic Technologies | [Enterprise Technology Intern - AI and Automation \(Summer 2027\)](https://jobs.ashbyhq.com/saronic/6118e5ce-36b0-4f9a-a0c4-34dceb46b9c1)<br><sub>“If this role is based in the United States, it requires access to export-controlled information or items that require “U.S. Person” status.”</sub> | Austin, TX | 🇺🇸 citizens<br>⏳ 60+ days | Sep 9 |
 | Allen Control Systems | [Computer Vision/Machine Learning Intern, 2027](https://jobs.ashbyhq.com/allen-control-systems/a7831fef-7125-4c03-b828-5f0472989037) | Austin, TX | ⏳ 60+ days | Sep 8 |
 | DraftKings Inc | [Data Science Intern \(Summer 2027\)](https://draftkings.wd1.myworkdayjobs.com/Campus_Career_Portal/job/Boston-MA/Data-Science-Intern--Summer-2027-_JR14958) | Boston, MA | ⏳ 60+ days | Sep 8 |
