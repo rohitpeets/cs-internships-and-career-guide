@@ -1,12 +1,15 @@
 # Security
 
-[⬅ Back to the main page](./) · 129 open · updated 2026-11-13
+[⬅ Back to the main page](./) · 139 open · updated 2026-11-13
 
 Cybersecurity, security analyst and penetration testing roles. New to this track? Read the [security section of the tracks guide](guides/tracks.md#security).
 
 The track comes from the words in the job title, so a few jobs may land in the wrong one. If a title doesn't say, it goes under Software.
 
 **Click a job title to open the company's application page.**
+
+<details markdown="1">
+<summary>What the tags and dates mean</summary>
 
 **Tags.** Each tag comes from a sentence in the posting, shown in grey under the job title. A blank tag means the posting doesn't say.
 
@@ -26,31 +29,40 @@ The track comes from the words in the job title, so a few jobs may land in the w
 
 > 🛂❌ usually means no visa sponsorship later (for example H-1B). Unless the row also shows 🚫, CPT or OPT may still work. Check with the recruiter and your DSO.
 
-> **Disclaimer:** listings and tags are generated automatically from employers' public job postings and can be wrong, incomplete or out of date. Always read the full posting on the employer's site. Visa, CPT, OPT and citizenship notes are general information, not legal or immigration advice; confirm your situation with your school's DSO or an immigration attorney. This board is not affiliated with or endorsed by any employer listed.
+</details>
 
 <div class="job-filter" id="job-filter"></div>
 
-## Internships (121)
+## Internships (131)
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
+| Austal USA | [Cybersecurity Intern](https://austalusa.wd1.myworkdayjobs.com/austal/job/Mobile-AL/Cybersecurity-Intern_R0012221) | Mobile, AL | 🎓 2.0+ GPA | Nov 13 |
+| Carnegie Mellon University | [Cyber AI Engineering Intern \(Spring 2027\)](https://cmu.wd115.myworkdayjobs.com/CMU/job/Pittsburgh-PA/Cyber-AI-Engineering-Intern--Spring-2027-_2025346-1)<br><sub>“• You will be subject to a background check and must be eligible to work in the United States without Visa sponsorship.”</sub> | Pittsburgh, PA | 🛂❌ no sponsor<br>🌱 spring | Nov 13 |
+| Molina Healthcare | [Cybersecurity Internship \(Remote\) – Summer 2027 \(Undergraduate\)](https://hckd.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/2040172) | United States | 🎓 3.0+ GPA | Nov 13 |
 | ServiceNow | [AI Security Engineer Intern](https://jobs.smartrecruiters.com/ServiceNow/744000161548289-ai-security-engineer-intern) | San Diego, California, US |  | Nov 13 |
 | ServiceNow | [Information Security Analyst Intern](https://jobs.smartrecruiters.com/ServiceNow/744000161550869-information-security-analyst-intern) | San Diego, CALIFORNIA, US |  | Nov 13 |
 | ServiceNow | [Security Engineering &amp; Automation Intern](https://jobs.smartrecruiters.com/ServiceNow/744000161548528-security-engineering-automation-intern-) | Kirkland, Washington, US |  | Nov 13 |
+| Software Engineering Institute / Carnegie Mellon University | [Cyber AI Engineering Intern \(Spring 2027\)](https://cmu.wd115.myworkdayjobs.com/SEI/job/Pittsburgh-PA/Cyber-AI-Engineering-Intern--Spring-2027-_2025346-2)<br><sub>“• You will be subject to a background check and must be eligible to work in the United States without Visa sponsorship.”</sub> | Pittsburgh, PA | 🛂❌ no sponsor<br>🌱 spring | Nov 13 |
+| Software Engineering Institute / Carnegie Mellon University | [Cybersecurity Engineer Intern \(Spring 2027\)](https://cmu.wd115.myworkdayjobs.com/SEI/job/Pittsburgh-PA/Cybersecurity-Engineer-Intern--Spring-2027-_2025347-1)<br><sub>“You can pass a background check, obtain and maintain a DoW security clearance, and other customer-required background checks as needed.”</sub> | Pittsburgh, PA | 🔒 clearance<br>🌱 spring | Nov 13 |
+| State Street | [Cyber Security Operations Center Analyst, Full-time Internship \(Jan - June 2027\)](https://statestreet.wd1.myworkdayjobs.com/Global/job/Quincy-Massachusetts/Cyber-Security-Operations-Center-Analyst--Full-time-Internship--Jan---June-2027-_R-801091) | Quincy, Massachusetts |  | Nov 13 |
+| American Electric Power | [Cybersecurity Intern - Summer 2027](https://aep.wd1.myworkdayjobs.com/AEPCareerSite/job/Columbus-OH/Cybersecurity-Intern---Summer-2027_R21158)<br><sub>“This position is not eligible for sponsorship \(OPT, CPT not eligible\).”</sub> | Columbus, OH | 🛂❌ no sponsor<br>🚫 no CPT/OPT | Nov 12 |
+| Idaho National Laboratory | [Cybersecurity Vulnerability Assessment Internship - Summer 2027](https://elhe.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/pro/job/2328) | Idaho Falls, ID, United States | 🎓 3.0+ GPA | Nov 12 |
 | Muon Space | [Security Engineering Intern \(Summer 2027\)](https://job-boards.greenhouse.io/muonspace/jobs/5294028007)<br><sub>“To conform to U.S. Government export regulations applicable to that information, applicant must either be \(A\) a U.S. person, defined as a \(i…”</sub> | Mountain View, CA | 🇺🇸 citizens | Nov 12 |
 | ServiceNow | [Assoc AI Engineering \(Cloud Security Automation\) Intern](https://jobs.smartrecruiters.com/ServiceNow/744000161209600-assoc-ai-engineering-cloud-security-automation-intern) | Santa Clara, CALIFORNIA, US |  | Nov 12 |
 | ServiceNow | [Assoc Information Security Engineer Intern](https://jobs.smartrecruiters.com/ServiceNow/744000161204235-assoc-information-security-engineer-intern) | San Diego, CALIFORNIA, US |  | Nov 12 |
 | ServiceNow | [Assoc Security Engineering &amp; Automation Intern](https://jobs.smartrecruiters.com/ServiceNow/744000161209810-assoc-security-engineering-automation-intern-) | Santa Clara, CALIFORNIA, US |  | Nov 12 |
 | ServiceNow | [Product Security Intern](https://jobs.smartrecruiters.com/ServiceNow/744000161385779-product-security-intern) | San Diego, CALIFORNIA, US |  | Nov 12 |
 | Daimler Truck AG | [Cybersecurity Intern: Governance, Risk, and Compliance \(GRC\) Analyst](https://dtna.wd5.myworkdayjobs.com/DTNA_external/job/Detroit-MI-US/Cybersecurity-Intern--Governance--Risk--and-Compliance--GRC--Analyst_DT-20656) | Detroit, MI US |  | Nov 11 |
+| Grant Thornton | [Cybersecurity and Privacy Intern - Summer 2027](https://ehzq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/115637)<br><sub>“No visa sponsorship is available for this position.”</sub> | New York, NY, United States | 🛂❌ no sponsor | Nov 11 |
 | REGENT | [Cybersecurity &amp; IT Operations Intern \(Summer\)](https://jobs.ashbyhq.com/REGENT/dfdbb28f-f289-45b9-a2e5-158d81b93524) | North Kingstown, Rhode Island, USA |  | Nov 11 |
 | Minitab | [Cybersecurity Intern \(Summer 2027\)](https://job-boards.greenhouse.io/minitab/jobs/8200356003) | State College, Pennsylvania, United States |  | Nov 10 |
 | CACI International | [Cyber Security Intern - Summer 2027](https://caci.wd1.myworkdayjobs.com/External/job/Sterling-VA-US/Cyber-Security-Intern---Summer-2027_334812)<br><sub>“Must be legally authorized to work in the United States without the need for employer sponsorship, now or at any me in the future”</sub> | Sterling, VA, US | 🛂❌ no sponsor<br>⚠ unverified | Nov 9 |
 | NBCUniversal | [Media Tech: Cybersecurity, Governance &amp; Security Engineering Internships – Summer 2027](https://jobs.smartrecruiters.com/NBCUniversal3/744000160654878-media-tech-cybersecurity-governance-security-engineering-internships-summer-2027)<br><sub>“For further clarification, candidates currently on any student or exchange visa \(e.g. F-1 CPT, F-1 OPT, J-1, M-1\) are not eligible to apply…”</sub> | New York, NY, US | 🚫 no CPT/OPT<br>🎓 3.0+ GPA | Nov 9 |
-| Zoetis | [Information Security Intern](https://zoetis.wd5.myworkdayjobs.com/broadbean_external/job/Parsippany/Information-Security-Intern_JR00021994) | Parsippany |  | Nov 9 |
-| Zoetis | [IT/OT Security Intern](https://zoetis.wd5.myworkdayjobs.com/broadbean_external/job/Kalamazoo---Kilgore-Road/IT-OT-Security-Intern_JR00021980) | Kalamazoo - Kilgore Road |  | Nov 9 |
+| Zoetis | [Information Security Intern](https://zoetis.wd5.myworkdayjobs.com/broadbean_external/job/Parsippany/Information-Security-Intern_JR00021994) | Parsippany | ⚠ unverified | Nov 9 |
+| Zoetis | [IT/OT Security Intern](https://zoetis.wd5.myworkdayjobs.com/broadbean_external/job/Kalamazoo---Kilgore-Road/IT-OT-Security-Intern_JR00021980) | Kalamazoo - Kilgore Road | ⚠ unverified | Nov 9 |
 | ProPetro Services, Inc | [Cybersecurity Intern \(on-site\)](https://propetroservices.wd5.myworkdayjobs.com/ProPetro_Careers/job/Midland-TX/Cybersecurity-Intern_R-101177) | Midland, TX |  | Nov 8 |
-| ATC | [Intern - Cyber Security Summer 2027](https://atcllc.wd5.myworkdayjobs.com/atcllc/job/Pewaukee-WI/Intern---Cyber-Security-Summer-2027_R0003307) | Pewaukee, WI |  | Nov 5 |
+| ATC | [Intern - Cyber Security Summer 2027](https://atcllc.wd5.myworkdayjobs.com/atcllc/job/Pewaukee-WI/Intern---Cyber-Security-Summer-2027_R0003307) | Pewaukee, WI | ⚠ unverified | Nov 5 |
 | Federal Reserve System | [2027 Summer Internship Program - Information Security Intern](https://rb.wd5.myworkdayjobs.com/FRS/job/Atlanta-GA/XMLNAME-2027-Summer-Internship-Program---Information-Security-Intern_R-0000033910)<br><sub>“Applicants must be currently authorized to work in the United States without the need for visa sponsorship now or in the future.”</sub> | Atlanta, GA | 🛂❌ no sponsor | Nov 5 |
 | Howmet Aerospace | [Cybersecurity Intern](https://fa-exty-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/119551)<br><sub>“Visa sponsorship is not available for this position.”</sub> | Pittsburgh, PA, United States | 🛂❌ no sponsor<br>🎓 3.0+ GPA | Nov 4 |
 | LLNL | [Critical Infrastructure Analysis Graduate Intern - Cyber and Critical Infrastructure Summer Institute - Summer 2027](https://jobs.smartrecruiters.com/LLNL/3743990016610216-critical-infrastructure-analysis-graduate-intern-cyber-and-critical-infrastructure-summer-institute-summer-2027)<br><sub>“However, this position involves U.S. Export Control; this work must be performed by a U.S. person \(U.S. citizen, U.S. lawful permanent resid…”</sub> | Livermore, CA, US | 🇺🇸 citizens<br>🔒 clearance<br>🎓 3.0+ GPA | Nov 4 |
@@ -64,11 +76,11 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | EMC Insurance Companies | [Cybersecurity Intern](https://emcins.wd5.myworkdayjobs.com/EMC_Careers/job/Iowa/Cybersecurity-Intern_R6590) | Iowa |  | Nov 3 |
 | FHLBank Chicago | [Summer Internship - Cybersecurity](https://fhlbc.wd1.myworkdayjobs.com/Search/job/Chicago/Summer-Internship---Cybersecurity_R2600513) | Chicago | 🎓 3.0+ GPA | Nov 3 |
 | Insmed Incorporated | [Summer Intern – Cybersecurity Operations &amp; AI Automation](https://insmed.wd504.myworkdayjobs.com/EXTERNAL/job/NJ-Corporate-Headquarters/Summer-Intern---Cybersecurity-Operations---AI-Automation_R3894) | NJ Corporate Headquarters |  | Nov 3 |
-| Netsmart | [Security Analyst Future \(Summer 2027 Internship\)](https://ntst.wd1.myworkdayjobs.com/Careers/job/Overland-Park-KS/Security-Analyst-Future--Summer-2027-Internship-_R015669)<br><sub>“Netsmart does not provide work visa sponsorship for this position.”</sub> | Overland Park, KS | 🛂❌ no sponsor | Nov 3 |
+| Netsmart | [Security Analyst Future \(Summer 2027 Internship\)](https://ntst.wd1.myworkdayjobs.com/Careers/job/Overland-Park-KS/Security-Analyst-Future--Summer-2027-Internship-_R015669)<br><sub>“Netsmart does not provide work visa sponsorship for this position.”</sub> | Overland Park, KS | 🛂❌ no sponsor<br>⚠ unverified | Nov 3 |
 | Tradeweb | [Summer 2027 Cyber Security Internship](https://ecnf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/301991) | New York, NY, United States |  | Nov 3 |
 | ID.me University Recruiting | [Summer Intern 2027 - Product Security Engineering Intern](https://job-boards.greenhouse.io/idmeuniversityrecruiting/jobs/8076649003) | Mountain View, CA |  | Nov 2 |
 | Insmed Incorporated | [Summer Intern – Cloud/Application Security](https://insmed.wd504.myworkdayjobs.com/EXTERNAL/job/NJ-Corporate-Headquarters/Summer-Intern---Cloud-Application-Security_R3879) | NJ Corporate Headquarters |  | Nov 2 |
-| JM&amp;A Group | [Offensive Security Intern](https://jmfamily.wd1.myworkdayjobs.com/JMFamily_External/job/Florida---Deerfield-Beach/Offensive-Security-Intern_JR105164) | Florida - Deerfield Beach |  | Nov 2 |
+| JM&amp;A Group | [Offensive Security Intern](https://jmfamily.wd1.myworkdayjobs.com/JMFamily_External/job/Florida---Deerfield-Beach/Offensive-Security-Intern_JR105164) | Florida - Deerfield Beach | ⚠ unverified | Nov 2 |
 | Novacore | [IT/Security Intern](https://nsminc.wd1.myworkdayjobs.com/Novacore_Careers/job/Conshohocken-PA/IT-Security-Intern_JR-000102) | Conshohocken-PA |  | Nov 2 |
 | Tevora | [Cybersecurity Internship Summer 2027 - Enterprise Risk Management](https://jobs.lever.co/tevora/fb3b174b-07ac-410d-9c44-53c70793635c) | Irvine, CA |  | Oct 31 |
 | Tevora | [Cybersecurity Internship Summer 2027 - Healthcare](https://jobs.lever.co/tevora/a18eeda5-4b39-4e8f-b3b3-e4d80e3601b0) | Irvine, CA |  | Oct 31 |
@@ -83,8 +95,9 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Health Care Service Corporation | [Early Careers - Cybersecurity Operations Intern](https://hcsc.wd1.myworkdayjobs.com/HCSC_External/job/IL---Chicago/Early-Careers---Cybersecurity-Operations-Intern_R0059508)<br><sub>“Unrestricted authorization to work in the United States; sponsorship is not available for this role.”</sub> | IL - Chicago | 🛂❌ no sponsor<br>🎓 3.0+ GPA | Oct 29 |
 | Leidos | [Cybersecurity Engineer Co-op](https://leidos.wd5.myworkdayjobs.com/External/job/Bethesda-MD/Cybersecurity-Engineer-Co-op_R-00190764)<br><sub>“Citizenship: You MUST have U.S. Citizenship and be eligible to obtain a U.S. Government granted security clearance.”</sub> | Bethesda, MD | 🔒 secret<br>🎓 3.2+ GPA<br>🔄 co-op | Oct 28 |
 | Regeneron | [2027 Summer Intern IT, Digital Enablement &amp; Information Security](https://regeneron.wd1.myworkdayjobs.com/US_Only_University_Relations_Career/job/TARRYTOWN/XMLNAME-2027-Summer-Intern-IT--Digital-Enablement---Information-Security_R52561) | TARRYTOWN |  | Oct 28 |
-| Regeneron Pharmaceuticals | [2027 Summer Intern IT, Digital Enablement &amp; Information Security](https://regeneron.wd1.myworkdayjobs.com/Careers/job/TARRYTOWN/XMLNAME-2027-Summer-Intern-IT--Digital-Enablement---Information-Security_R52561-1) | TARRYTOWN |  | Oct 28 |
+| Regeneron Pharmaceuticals | [2027 Summer Intern IT, Digital Enablement &amp; Information Security](https://regeneron.wd1.myworkdayjobs.com/Careers/job/TARRYTOWN/XMLNAME-2027-Summer-Intern-IT--Digital-Enablement---Information-Security_R52561-1) | TARRYTOWN | ⚠ unverified | Oct 28 |
 | C3 Integrated Solutions | [SOC Analyst Internship Program - LSU Students Only](https://job-boards.greenhouse.io/c3integratedsolutions/jobs/5274847007) | United States |  | Oct 26 |
+| Highmark Health | [Summer 2027 Cyber Risk Management Analyst Undergraduate Intern](https://highmarkhealth.wd1.myworkdayjobs.com/highmark/job/Camp-Hill-PA-17011-Center-Street-Building-1B/Summer-2027-Cyber-Risk-Management-Analyst-Undergraduate-Intern_J286841)<br><sub>“At this time, we do not offer visa sponsorship for this role.”</sub> | Camp Hill PA, 17011, Center Street Building 1… | 🛂❌ no sponsor | Oct 26 |
 | C.H. Robinson | [Cyber Security Internship 2027](https://chrobinson.wd5.myworkdayjobs.com/CHRobinson/job/Eden-Prairie-MN-United-States-of-America/Security-Internship-2027_R49322) | Eden Prairie, MN United States of America |  | Oct 22 |
 | Langan Engineering &amp; Environmental Services | [Intern/Co-op - Cyber Security \(Spring &amp; Summer 2027\)](https://job-boards.greenhouse.io/langanengineeringandenvironmentalservicesllc/jobs/4451342009) | Parsippany, NJ | 🎓 3.0+ GPA<br>🔄 co-op<br>🌱 spring | Oct 22 |
 | Nissan Motor Corporation | [Cyber Security Intern - Summer 2027 - Smyrna, TN](https://alliance.wd3.myworkdayjobs.com/nissanjobs/job/Smyrna-Tennessee---United-States-of-America/Cyber-Security-Intern---Summer-2027---Smyrna--TN_R00214879) | Smyrna, Tennessee - United States of America | 🎓 3.0+ GPA | Oct 22 |
@@ -100,13 +113,13 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | IAT Insurance Group | [Cyber Security Internship](https://iatinsurancegroup.wd1.myworkdayjobs.com/iat/job/Raleigh-NC/Cyber-Security-Internship_JR100410)<br><sub>“Must be authorized to work in the United States without visa sponsorship by employer, now or in the future.”</sub> | Raleigh NC | 🛂❌ no sponsor | Oct 13 |
 | Papa Johns | [2027 Summer Intern - Cyber Security](https://papajohns.wd1.myworkdayjobs.com/PapaJohnsCareers/job/HQ_Atlanta/XMLNAME-2027-Summer-Intern---Cyber-Security_R26_0000002175) | HQ\_Atlanta |  | Oct 13 |
 | Bosch Group | [Information Security and Privacy Intern](https://jobs.smartrecruiters.com/BoschGroup/744000155120934-information-security-and-privacy-intern) | Farmington Hills, MI, US | 🎓 3.0+ GPA<br>⚠ unverified | Oct 12 |
-| UL Solutions | [2027 Summer Intern: Cyber Security Intern](https://fa-eups-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/ULSolutionsCareers/job/11186) | Northbrook, IL, United States |  | Oct 12 |
+| UL Solutions | [2027 Summer Intern: Cyber Security Intern](https://fa-eups-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/ULSolutionsCareers/job/11186) | Northbrook, IL, United States | ⚠ unverified | Oct 12 |
 | Allison Transmission | [IT Security Analyst Internship - Summer 2027](https://allisontransmission.wd1.myworkdayjobs.com/ATI-External/job/Indianapolis-IN/IT-Security-Analyst-Internship---Summer-2027_R008295) | Indianapolis, IN |  | Oct 9 |
 | CACI International | [Cyber Security Intern - Summer 2027](https://caci.wd1.myworkdayjobs.com/External/job/Springfield-VA-US/Cyber-Security-Intern---Summer-2027_333046)<br><sub>“Must be legally authorized to work in the United States without the need for employer sponsorship, now or at any time in the future.”</sub> | Springfield, VA, US | 🛂❌ no sponsor<br>🔒 ts/sci<br>⚠ unverified | Oct 9 |
 | Workday | [Cybersecurity Engineer Intern](https://workday.wd5.myworkdayjobs.com/Workday_Early_Career/job/USA-CA-Pleasanton/Cybersecurity-Engineer-Intern_JR-0110809)<br><sub>“Visa sponsorship is not available for this role.”</sub> | USA, CA, Pleasanton | 🛂❌ no sponsor | Oct 9 |
 | Apple Bank | [2027 Summer Intern- Information Security](https://applebank.wd5.myworkdayjobs.com/applebankcareers/job/New-York-NY/XMLNAME-2027-Summer-Intern--Information-Security_2026-1416)<br><sub>“You are currently authorized to work in the United States with no restrictions; please note that we are unable to sponsor visas for this pos…”</sub> | New York, NY | 🛂❌ no sponsor<br>🎓 3.0+ GPA | Oct 7 |
 | Vulcan Materials Company | [2027 Summer Internship-Cybersecurity](https://vmcfa-prod-iccgjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1267) | Birmingham, AL, United States |  | Oct 7 |
-| DMA - DuCharme, McMillen &amp; Associates, Inc | [Cybersecurity Intern - Summer 2027](https://dmainc.wd5.myworkdayjobs.com/DMA/job/Fort-Wayne-IN/Cybersecurity-Intern---Summer-2027_REQ742) | Fort Wayne, IN |  | Oct 6 |
+| DMA - DuCharme, McMillen &amp; Associates, Inc | [Cybersecurity Intern - Summer 2027](https://dmainc.wd5.myworkdayjobs.com/DMA/job/Fort-Wayne-IN/Cybersecurity-Intern---Summer-2027_REQ742) | Fort Wayne, IN | ⚠ unverified | Oct 6 |
 | Manitowoc | [Summer 2027 Intern - Cybersecurity](https://fda.fa.us1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/3330) | Shady Grove, PA, United States |  | Oct 6 |
 | Tevora | [Cybersecurity Internship Winter 2027 - Threat](https://jobs.lever.co/tevora/1048eaf2-66b6-466d-bb59-8a75d7f5c968) | Irvine, CA |  | Oct 6 |
 | Tevora | [Cybersecurity Internship Winter 2027 - Enterprise Risk Management](https://jobs.lever.co/tevora/6038cf01-750c-44dd-8f8d-86e20b22c73c) | Irvine, CA |  | Oct 6 |
@@ -168,3 +181,5 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | SpaceX | [New Graduate Engineer, Software Security - '26/'27 \(Starlink\)](https://boards.greenhouse.io/spacex/jobs/8696156002?gh_jid=8696156002)<br><sub>“ITAR REQUIREMENTS: To conform to U.S. Government export regulations, applicant must be a \(i\) U.S. citizen or national, \(ii\) U.S. lawful, per…”</sub> | Bastrop, TX | 📜 ITAR<br>⏳ 60+ days | Aug 14 |
 | SpaceX | [New Graduate Engineer, Software Security - '26/'27 \(Starlink\)](https://boards.greenhouse.io/spacex/jobs/8696158002?gh_jid=8696158002)<br><sub>“ITAR REQUIREMENTS: To conform to U.S. Government export regulations, applicant must be a \(i\) U.S. citizen or national, \(ii\) U.S. lawful, per…”</sub> | Palo Alto, CA | 📜 ITAR<br>⏳ 60+ days | Aug 14 |
 | SpaceX | [New Graduate Engineer, Software Security - '26/'27 \(Starlink\)](https://boards.greenhouse.io/spacex/jobs/8696143002?gh_jid=8696143002)<br><sub>“ITAR REQUIREMENTS: To conform to U.S. Government export regulations, applicant must be a \(i\) U.S. citizen or national, \(ii\) U.S. lawful, per…”</sub> | Redmond, WA | 📜 ITAR<br>⏳ 60+ days | Aug 14 |
+
+> **Disclaimer:** listings and tags are generated automatically from employers' public job postings and can be wrong, incomplete or out of date. Always read the full posting on the employer's site. Visa, CPT, OPT and citizenship notes are general information, not legal or immigration advice; confirm your situation with your school's DSO or an immigration attorney. This board is not affiliated with or endorsed by any employer listed.

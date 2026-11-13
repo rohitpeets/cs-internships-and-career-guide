@@ -1,8 +1,11 @@
 # New Grad
 
-[⬅ Back to the main page](./) · 104 open · updated 2026-11-13
+[⬅ Back to the main page](./) · 106 open · updated 2026-11-13
 
 **Click a job title to open the company's application page.**
+
+<details markdown="1">
+<summary>What the tags and dates mean</summary>
 
 **Tags.** Each tag comes from a sentence in the posting, shown in grey under the job title. A blank tag means the posting doesn't say.
 
@@ -22,18 +25,22 @@
 
 > 🛂❌ usually means no visa sponsorship later (for example H-1B). Unless the row also shows 🚫, CPT or OPT may still work. Check with the recruiter and your DSO.
 
-> **Disclaimer:** listings and tags are generated automatically from employers' public job postings and can be wrong, incomplete or out of date. Always read the full posting on the employer's site. Visa, CPT, OPT and citizenship notes are general information, not legal or immigration advice; confirm your situation with your school's DSO or an immigration attorney. This board is not affiliated with or endorsed by any employer listed.
+</details>
 
 <div class="job-filter" id="job-filter"></div>
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
+| Marsh McLennan | [Public Cloud Administrator \(Entry Level\)](https://mmc.wd1.myworkdayjobs.com/MMC/job/Louisville---West-Market/Public-Cloud-Administrator--Entry-Level-_R_368461) | Louisville - West Market |  | Nov 13 |
+| Adobe | [2027 University Graduate - Data Scientist](https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2027-University-Graduate---Data-Scientist_R173462) | San Jose |  | Nov 12 |
+| General Motors | [Entry-Level - Compute Platforms &amp; SoC/MCU Semiconductor Systems Researcher](https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Warren-Michigan-United-States-of-America/Entry-Level---Compute-Platforms---SoC-MCU-Semiconductor-Systems-Researcher_JR-202621829)<br><sub>“The position is subject to export control restrictions and requires the successful candidate to be a U.S. Person \(U.S. citizen, U.S. permane…”</sub> | Warren, Michigan, United States of America | 🇺🇸 citizens | Nov 12 |
 | SpaceX | [New Graduate Engineer, Aerospace Software \(Starfall\)](https://boards.greenhouse.io/spacex/jobs/8939697002?gh_jid=8939697002)<br><sub>“ITAR REQUIREMENTS: To conform to U.S. Government export regulations, applicant must be a \(i\) U.S. citizen or national, \(ii\) U.S. lawful, per…”</sub> | Hawthorne, CA | 📜 ITAR | Nov 12 |
+| Exol | [New Grad- Robotics Software Engineer](https://symbotic.wd504.myworkdayjobs.com/Symbotic/job/USA-Wilmington--MA---HQ/New-Grad--Robotics-Software-Engineer_R8496) | USA Wilmington, MA - HQ |  | Nov 11 |
 | Anduril Industries | [2027 New Grad Information Security Engineer](https://boards.greenhouse.io/andurilindustries/jobs/5270839007?gh_jid=5270839007)<br><sub>“Must be a U.S. Person due to required access to U.S. export-controlled information or facilities; U.S. clearance eligibility may be required…”</sub> | Costa Mesa, California, United States | 🇺🇸 citizens | Nov 10 |
 | GE Aerospace | [Entry Level - FPGA Design/Verification Engineer](https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Grand-Rapids/Entry-Level---FPGA-Design-Verification-Engineer_R5041307-1) | Grand Rapids |  | Nov 10 |
 | Leidos | [Entry-Level Electrical Hardware Design Engineer](https://leidos.wd5.myworkdayjobs.com/External/job/Huntsville-AL/Entry-Level-Electrical-Hardware-Design-Engineer_R-00194096)<br><sub>“Security Requirements: Candidate must be a US Citizen and possess \(and be able to maintain\) a Final Secret Clearance or meet the eligibility…”</sub> | Huntsville, AL | 🇺🇸 citizens<br>🔒 secret<br>🎓 3.0+ GPA | Nov 9 |
 | Leidos | [Entry Level Software Tester](https://leidos.wd5.myworkdayjobs.com/External/job/Huntsville-AL/Entry-Level-Software-Tester_R-00196288)<br><sub>“Candidate must be a US Citizen and possess \(and be able to maintain\) a Final Top Secret/SCI clearance or meet the eligibility to obtain \(and…”</sub> | Huntsville, AL | 🇺🇸 citizens | Nov 5 |
-| General Motors | [Software Systems Engineer, Data Labeling Engineering - Early Career](https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Sunnyvale-California-United-States-of-America/ML-Systems-Engineer--Data-Labeling-Engineering---Early-Career_JR-202619939) | Sunnyvale, California, United States of Ameri… |  | Nov 4 |
+| General Motors | [Software Systems Engineer, Data Labeling Engineering - Early Career](https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Sunnyvale-California-United-States-of-America/ML-Systems-Engineer--Data-Labeling-Engineering---Early-Career_JR-202619939) | Sunnyvale, California, United States of Ameri… | ⚠ unverified | Nov 4 |
 | Amentum | [Software Tools Developer, Entry Level](https://pae.wd1.myworkdayjobs.com/Amentum_Careers/job/US-AL-Huntsville/Software-Tools-Developer--Entry-Level_R0174727)<br><sub>“Proof of U.S. Citizenship is required.”</sub> | US-AL-Huntsville | 🇺🇸 citizens<br>⚠ unverified | Nov 3 |
 | Nextens | [Tech Accelerate Graduate Program - Software Engineer I](https://relx.wd3.myworkdayjobs.com/RiskSolutions/job/Alpharetta-GA/Tech-Accelerate-Graduate-Program_R120836) | Alpharetta, GA |  | Nov 3 |
 | Verkada | [Backend Software Engineer - University Graduate 2027](https://job-boards.greenhouse.io/verkada/jobs/5280545007)<br><sub>“We do sponsor and take over sponsorship of employment visas for this role.”</sub> | San Mateo, CA United States | 🛂✅ sponsors | Nov 2 |
@@ -51,12 +58,10 @@
 | Brain Co | [AI Product Engineer, 2027 New Grad](https://jobs.ashbyhq.com/brainco/c1788246-305f-4e4f-8b03-8444c76a466e) | San Francisco Bay Area |  | Oct 20 |
 | Palantir Technologies | [Software Engineer, New Grad - Query Engines](https://jobs.lever.co/palantir/90329118-d9b7-4b96-acdf-13377e3196ac) | New York, NY |  | Oct 19 |
 | Vulcan Materials Company | [2027 New Graduate Information Technology Development Program](https://vmcfa-prod-iccgjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1252) | Birmingham, AL, United States |  | Oct 13 |
-| General Motors | [Entry-Level - Compute Platforms &amp; SoC/MCU Semiconductor Systems Researcher](https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Warren-Michigan-United-States-of-America/Entry-Level---Compute-Platforms---SoC-MCU-Semiconductor-Systems-Researcher_JR-202621829)<br><sub>“The position is subject to export control restrictions and requires the successful candidate to be a U.S. Person \(U.S. citizen, U.S. permane…”</sub> | Warren, Michigan, United States of America | 🇺🇸 citizens | Oct 12 |
-| General Motors | [Entry-Level – AI and Machine Learning for Automation Researcher](https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Warren-Michigan-United-States-of-America/Entry-Level---AI-and-Machine-Learning-for-Automation-Researcher_JR-202621769)<br><sub>“The position is subject to export control restrictions and requires the successful candidate to be a U.S. Person \(U.S. citizen, U.S. permane…”</sub> | Warren, Michigan, United States of America | 🇺🇸 citizens | Oct 12 |
-| General Motors | [Entry-Level – AI/Machine Learning Researcher](https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Mountain-View-California-United-States-of-America/Entry-Level---AI-Machine-Learning-Researcher_JR-202621753)<br><sub>“The position is subject to export control restrictions and requires the successful candidate to be a U.S. Person \(U.S. citizen, U.S. permane…”</sub> | Mountain View, California, United States of A… | 🇺🇸 citizens | Oct 12 |
+| General Motors | [Entry-Level – AI and Machine Learning for Automation Researcher](https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Warren-Michigan-United-States-of-America/Entry-Level---AI-and-Machine-Learning-for-Automation-Researcher_JR-202621769)<br><sub>“The position is subject to export control restrictions and requires the successful candidate to be a U.S. Person \(U.S. citizen, U.S. permane…”</sub> | Warren, Michigan, United States of America | 🇺🇸 citizens<br>⚠ unverified | Oct 12 |
+| General Motors | [Entry-Level – AI/Machine Learning Researcher](https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Mountain-View-California-United-States-of-America/Entry-Level---AI-Machine-Learning-Researcher_JR-202621753)<br><sub>“The position is subject to export control restrictions and requires the successful candidate to be a U.S. Person \(U.S. citizen, U.S. permane…”</sub> | Mountain View, California, United States of A… | 🇺🇸 citizens<br>⚠ unverified | Oct 12 |
 | CACI International | [Entry Level C\# Software Engineer](https://caci.wd1.myworkdayjobs.com/External/job/Virginia-Beach-VA-US/Entry-Level-C--Software-Engineer_333249)<br><sub>“• Candidate must be a US Citizen, and able to obtain a DoD Secret Clearance.”</sub> | Virginia Beach, VA, US | 🇺🇸 citizens<br>🔒 secret<br>⚠ unverified | Oct 7 |
 | CACI International | [Web Application Developer – Early Career](https://caci.wd1.myworkdayjobs.com/External/job/Chantilly-VA-US/Web-Application-Developer---Early-Career_333158) | Chantilly, VA, US | ⚠ unverified | Oct 7 |
-| Marsh McLennan | [Public Cloud Administrator \(Entry Level\)](https://mmc.wd1.myworkdayjobs.com/MMC/job/Louisville---West-Market/Public-Cloud-Administrator--Entry-Level-_R_368461) | Louisville - West Market |  | Oct 7 |
 | Olsson | [Entry-Level Power Systems Studies Engineer - Data Centers](https://job-boards.greenhouse.io/olsson/jobs/5446995008) | Overland Park, KS |  | Oct 7 |
 | Affirm | [Software Engineer, Early Career \(NYC\)](https://job-boards.greenhouse.io/affirm/jobs/8008649003) | New York, New York, United States |  | Oct 6 |
 | Affirm | [Software Engineer, Early Career \(SF\)](https://job-boards.greenhouse.io/affirm/jobs/8010617003) | San Francisco, California, United States |  | Oct 6 |
@@ -134,3 +139,5 @@
 | Palantir Technologies | [Software Engineer, New Grad](https://jobs.lever.co/palantir/c34b424e-caf2-455a-b104-ae1096ccca29)<br><sub>“Active US Security clearance, or eligibility and willingness to obtain a US Security clearance.”</sub> | Denver, CO | 🔒 clearance<br>⏳ 60+ days | Oct 27 |
 
 **Not on this board yet:** Meta, Microsoft, Google, AMD, Qualcomm, Cisco, IBM, Oracle, ExxonMobil, Phillips 66, Chevron, Shell, Entergy, Lockheed Martin, Capital One, JPMorgan Chase, Goldman Sachs, Bloomberg, Uber, Tesla, PayPal, Visa, Mastercard, Target. These companies hire CS interns, but their job sites aren't read here yet. Check their careers pages directly.
+
+> **Disclaimer:** listings and tags are generated automatically from employers' public job postings and can be wrong, incomplete or out of date. Always read the full posting on the employer's site. Visa, CPT, OPT and citizenship notes are general information, not legal or immigration advice; confirm your situation with your school's DSO or an immigration attorney. This board is not affiliated with or endorsed by any employer listed.

@@ -4,9 +4,12 @@
 
 Postings that say freshmen or sophomores can apply, or programs built for them. The grey line under each title is the sentence from the posting, so you can check it.
 
-Big-company programs like Google STEP, Microsoft Explore and Meta University aren't read by this board yet. Check their student career pages directly in the fall.
+Big tech programs for first- and second-years, like Microsoft Explore and NVIDIA Ignite, usually open in September and close in October, so check their student pages in late summer. Programs are added here only while they're open.
 
 **Click a job title to open the company's application page.**
+
+<details markdown="1">
+<summary>What the tags and dates mean</summary>
 
 **Tags.** Each tag comes from a sentence in the posting, shown in grey under the job title. A blank tag means the posting doesn't say.
 
@@ -26,7 +29,7 @@ Big-company programs like Google STEP, Microsoft Explore and Meta University are
 
 > 🛂❌ usually means no visa sponsorship later (for example H-1B). Unless the row also shows 🚫, CPT or OPT may still work. Check with the recruiter and your DSO.
 
-> **Disclaimer:** listings and tags are generated automatically from employers' public job postings and can be wrong, incomplete or out of date. Always read the full posting on the employer's site. Visa, CPT, OPT and citizenship notes are general information, not legal or immigration advice; confirm your situation with your school's DSO or an immigration attorney. This board is not affiliated with or endorsed by any employer listed.
+</details>
 
 <div class="job-filter" id="job-filter"></div>
 
@@ -37,3 +40,5 @@ Big-company programs like Google STEP, Microsoft Explore and Meta University are
 | Emerson | [Software Engineering Co-Op \(Jan-Aug 2027\)](https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26010048)<br><sub>“Junior or senior standing is preferred; sophomore students will also be considered.”</sub> | Eden Prairie, MN, United States | 🔄 co-op | Sep 14 |
 | First National Bank | [Summer 2027 - Technology Intern](https://firstnational.wd12.myworkdayjobs.com/fnbocareers/job/Omaha---FN-Tower/Summer-2027---Technology-Intern_R-20261653)<br><sub>“Currently pursuing a degree in Computer Science, Information Technology, or a related field — rising sophomores, juniors, and seniors are en…”</sub> | Omaha - FN Tower |  | Sep 14 |
 | Emerson | [Software Engineering Co-op \(Jun-Dec 2027\)](https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26010738)<br><sub>“Junior or senior standing is preferred; sophomore students will also be considered.”</sub> | Eden Prairie, MN, United States | 🔄 co-op<br>⏳ 60+ days | Sep 10 |
+
+> **Disclaimer:** listings and tags are generated automatically from employers' public job postings and can be wrong, incomplete or out of date. Always read the full posting on the employer's site. Visa, CPT, OPT and citizenship notes are general information, not legal or immigration advice; confirm your situation with your school's DSO or an immigration attorney. This board is not affiliated with or endorsed by any employer listed.

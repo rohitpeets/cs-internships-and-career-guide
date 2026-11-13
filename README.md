@@ -10,22 +10,22 @@ Last updated **2026-11-13**.
 
 | List | What's inside |
 |---|---|
-| 💼 **[Internships](INTERNSHIPS.md)** | 1,521 open roles, newest first |
-| 🎓 **[New grad](NEW_GRAD.md)** | 104 full-time roles for graduating students |
+| 💼 **[Internships](INTERNSHIPS.md)** | 1,582 open roles, newest first |
+| 🎓 **[New grad](NEW_GRAD.md)** | 106 full-time roles for graduating students |
 | 🌱 **[Early programs](EARLY.md)** | For freshmen and sophomores. 5 open right now |
-| 🆕 **[New this week](NEW_THIS_WEEK.md)** | 161 roles posted in the last 7 days |
+| 🆕 **[New this week](NEW_THIS_WEEK.md)** | 231 roles posted in the last 7 days |
 
 ### Find jobs by track
 
 | Track | Open roles |
 |---|---|
-| [Software](track-software.md) | 661 |
-| [Embedded and firmware](track-embedded.md) | 54 |
+| [Software](track-software.md) | 673 |
+| [Embedded and firmware](track-embedded.md) | 56 |
 | [Hardware and chips](track-hardware.md) | 94 |
-| [Security](track-security.md) | 129 |
-| [IT and networking](track-it.md) | 242 |
-| [Data, ML and AI](track-data.md) | 450 |
-| [Government and defense](track-gov.md) | 148 |
+| [Security](track-security.md) | 139 |
+| [IT and networking](track-it.md) | 250 |
+| [Data, ML and AI](track-data.md) | 481 |
+| [Government and defense](track-gov.md) | 155 |
 
 Every row links straight to the company's application page. International students: each posting is tagged for visa sponsorship, CPT/OPT and citizenship rules, with the sentence from the posting that the tag came from.
 
@@ -40,7 +40,6 @@ Every row links straight to the company's application page. International studen
 | 🤝 **[Networking and getting involved](guides/networking.md)** | You want clubs, research, hackathons, contests, programs |
 | 🎤 **[Interviews](guides/interviews.md)** | You have a recruiter call, coding round or behavioral interview coming up |
 | 🧩 **[Career tracks](guides/tracks.md)** | You're curious about embedded, hardware, security, IT, data or software, and what each takes |
-| 🏛️ **[Government and defense jobs](guides/government.md)** | You want federal, national-lab or defense jobs, or wonder how clearances work |
 | 🗓️ **[4-year timeline](guides/timeline.md)** | You want to know what to do each semester (and F-1 rules) |
 | 🐙 **[GitHub](guides/github.md)** | You need to set up GitHub or make your repos look good |
 | 💼 **[LinkedIn](guides/linkedin.md)** | You need a LinkedIn profile or want to reach alumni |
@@ -54,7 +53,7 @@ Every row links straight to the company's application page. International studen
 
 ## ℹ️ About
 
-- **1,630 open roles** from **965 company job boards**, checked every day with automated tests on every run. How it works and how accurate it is: [docs/WRITEUP.md](docs/WRITEUP.md).
+- **1,693 open roles** from **965 company job boards**, checked every day with automated tests on every run. How it works and how accurate it is: [docs/WRITEUP.md](docs/WRITEUP.md).
 - It doesn't catch everything. Also check Handshake, LinkedIn, and [Simplify's internship list](https://github.com/SimplifyJobs/Summer2027-Internships).
 - Found a missing posting, a broken link, or a mistake? [Open an issue](https://github.com/rohitpeets/cs-internships-and-career-guide/issues).
 

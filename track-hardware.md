@@ -8,6 +8,9 @@ The track comes from the words in the job title, so a few jobs may land in the w
 
 **Click a job title to open the company's application page.**
 
+<details markdown="1">
+<summary>What the tags and dates mean</summary>
+
 **Tags.** Each tag comes from a sentence in the posting, shown in grey under the job title. A blank tag means the posting doesn't say.
 
 - 🛂✅ **sponsors**: the posting says it sponsors visas
@@ -26,7 +29,7 @@ The track comes from the words in the job title, so a few jobs may land in the w
 
 > 🛂❌ usually means no visa sponsorship later (for example H-1B). Unless the row also shows 🚫, CPT or OPT may still work. Check with the recruiter and your DSO.
 
-> **Disclaimer:** listings and tags are generated automatically from employers' public job postings and can be wrong, incomplete or out of date. Always read the full posting on the employer's site. Visa, CPT, OPT and citizenship notes are general information, not legal or immigration advice; confirm your situation with your school's DSO or an immigration attorney. This board is not affiliated with or endorsed by any employer listed.
+</details>
 
 <div class="job-filter" id="job-filter"></div>
 
@@ -37,11 +40,10 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Formlabs Internships | [Hardware R&amp;D Engineering Intern \(Summer 2027\)](https://job-boards.greenhouse.io/formlabsinternships/jobs/8381593) | Somerville, MA |  | Nov 11 |
 | Formlabs Internships | [Hardware Reliability Intern \(Summer 2027\)](https://job-boards.greenhouse.io/formlabsinternships/jobs/8381587) | Somerville, MA |  | Nov 11 |
 | Formlabs Internships | [Hardware Systems Integration Intern \(Summer 2027\)](https://job-boards.greenhouse.io/formlabsinternships/jobs/8381595) | Somerville, MA |  | Nov 11 |
-| NBCUniversal | [NBC News Creative &amp; Digital Design Internships – Summer 2027](https://jobs.smartrecruiters.com/NBCUniversal3/744000161096049-nbc-news-creative-digital-design-internships-summer-2027)<br><sub>“For further clarification, candidates currently on any student or exchange visa \(e.g. F-1 CPT, F-1 OPT, J-1, M-1\) are not eligible to apply…”</sub> | New York, NY, US | 🚫 no CPT/OPT<br>🎓 3.0+ GPA | Nov 11 |
 | Etched | [Chip Simulation Software Intern](https://jobs.ashbyhq.com/Etched/27e5bd6b-9357-45f0-9e79-cfa2bf4eeba8) | San Jose |  | Nov 10 |
 | Marvell Technology | [Design Verification Intern](https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Petah-Tikva/Design-Verification-Intern_2604492) | Petah-Tikva |  | Nov 10 |
 | Skydio | [Hardware In Loop \(HIL\) Software Engineer Intern - Winter 2027](https://jobs.ashbyhq.com/skydio/add7fd86-78e6-483e-98cd-cdfc1029fded) | San Mateo, California, United States |  | Nov 10 |
-| Dell Technologies | [CSG Hardware Engineering Intern](https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/298216) | TX, United States |  | Nov 3 |
+| Dell Technologies | [CSG Hardware Engineering Intern](https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/298216) | TX, United States | ⚠ unverified | Nov 3 |
 | Trimble Inc | [Hardware/Software Testing Intern](https://trimble.wd1.myworkdayjobs.com/TrimbleCareers/job/US---CO-Westminster/Hardware-Software-Testing-Intern_R57677-1)<br><sub>“Visa sponsorship is not available for this position.”</sub> | US - CO, Westminster | 🛂❌ no sponsor | Nov 3 |
 | Draper | [Analog ASIC Design Intern \(Summer 2027\)](https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Analog-ASIC-Design-Intern--Summer-2027-_JR003085)<br><sub>“Applicants selected for this position may be required to obtain and maintain a government security clearance”</sub> | Cambridge, MA | 🔒 clearance | Nov 2 |
 | Tevora | [Cybersecurity Internship Summer 2027 - Systems and Organizations Controls \(SOC\)](https://jobs.lever.co/tevora/4e3b7ae3-cb18-4c76-815c-0014e3c7598c) | Irvine, CA |  | Oct 31 |
@@ -87,7 +89,7 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Base Power Company | [Hardware Reliability &amp; Test Engineering Intern](https://jobs.ashbyhq.com/base-power/fbb553e1-5fb8-49a1-b5a5-9c7dde6b4406) | Austin, TX |  | Sep 30 |
 | Muon Space | [GNC Hardware Engineering Intern \(Summer 2027\)](https://job-boards.greenhouse.io/muonspace/jobs/5252677007)<br><sub>“To conform to U.S. Government export regulations applicable to that information, applicant must either be \(A\) a U.S. person, defined as a \(i…”</sub> | Mountain View, CA | 🇺🇸 citizens | Sep 29 |
 | Oceaneering | [CyberSecurity SOC Intern](https://ebfr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/jobs/job/11594) | Houston, TX, United States | 🎓 3.0+ GPA | Sep 29 |
-| BorgWarner | [Electronics Hardware Design Intern](https://borgwarner.wd5.myworkdayjobs.com/BorgWarner_Careers/job/Kokomo-Technical-Center---Indiana---USA/Electronics-Hardware-Design-Intern_R2026-3787)<br><sub>“However, for this role, sponsorship is not available.”</sub> | Kokomo Technical Center - Indiana - USA | 🛂❌ no sponsor | Sep 28 |
+| BorgWarner | [Electronics Hardware Design Intern](https://borgwarner.wd5.myworkdayjobs.com/BorgWarner_Careers/job/Kokomo-Technical-Center---Indiana---USA/Electronics-Hardware-Design-Intern_R2026-3787)<br><sub>“However, for this role, sponsorship is not available.”</sub> | Kokomo Technical Center - Indiana - USA | 🛂❌ no sponsor<br>⚠ unverified | Sep 28 |
 | Marvell Technology | [System Chip Validation Intern](https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Petah-Tikva/System-Chip-Validation-Intern_2604495) | Petah-Tikva |  | Sep 24 |
 | Exol | [Co-op- Hardware Engineer](https://symbotic.wd504.myworkdayjobs.com/Symbotic/job/USA-Wilmington-MA---ITC/Hardware-Engineer_R7976) | USA Wilmington, MA - ITC | 🔄 co-op | Sep 22 |
 | Base Power Company | [Hardware Sourcing Intern](https://jobs.ashbyhq.com/base-power/7ba325d9-4256-4567-83a4-8dd9c72a0d10) | Austin, TX |  | Sep 18 |
@@ -100,10 +102,11 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Bedrock Robotics Inc | [2027 Internship Sensor Hardware Test Engineer](https://jobs.ashbyhq.com/bedrock-robotics/1f413f83-b897-4938-a19e-ab91bd326c51) | San Francisco, CA | ⏳ 60+ days | Sep 10 |
 | The Toro Company | [Hardware and Software Engineering Intern - Ditch Witch](https://ttc.wd1.myworkdayjobs.com/Toro_External_Careers/job/Perry-OK/Hardware-and-Software-Engineering-Intern---Ditch-Witch_JR17183)<br><sub>“We are unable to sponsor or take over sponsorship of a school/employment or any other visa, regardless of expiration date, now or in the fut…”</sub> | Perry, OK | 🛂❌ no sponsor<br>⏳ 60+ days | Sep 10 |
 | Amazon | [Hardware Development Engineer Intern/Co-Op, ROBOTICS - 2027](https://www.amazon.jobs/en/jobs/10535282/hardware-development-engineer-intern-co-op-robotics-2027) | North Reading, Massachusetts, USA | 🔄 co-op<br>⏳ 60+ days | Sep 9 |
+| Motorola Solutions | [FPGA Design Engineering Intern - Summer 2027](https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Schaumburg-IL/FPGA-Design-Engineering-Intern---Summer-2027_R68401)<br><sub>“Must be a US Citizen, permanent resident, or an MS student with work authorization \(F1 Visa on CPT accepted only for master 's-level student…”</sub> | Schaumburg, IL | 🇺🇸 citizens<br>⏳ 60+ days | Sep 9 |
 | RF-SMART | [Hardware Support Internship - Summer 2027](https://job-boards.greenhouse.io/rfsmart/jobs/5407220008)<br><sub>“Employer does not sponsor applicants for employment visa status \(e.g. H-1B visa status\).”</sub> | Jacksonville, Florida, United States | 🛂❌ no sponsor<br>⏳ 60+ days | Sep 8 |
 | Solidigm | [2027 Graduate Hardware, Validation, and Product Engineering Internships - US](https://jobs.smartrecruiters.com/Solidigm/744000147613779-2027-graduate-hardware-validation-and-product-engineering-internships-us) | Rancho Cordova, CA, US | ⏳ 60+ days | Sep 5 |
 | Solidigm | [2027 Undergraduate Hardware &amp; Product Development Engineering Internships – US](https://jobs.smartrecruiters.com/Solidigm/744000147613839-2027-undergraduate-hardware-product-development-engineering-internships-us) | Rancho Cordova, CA, US | ⏳ 60+ days | Sep 5 |
-| Marvell Technology | [Design Verification Intern, BS - Summer 2027](https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Design-Verification-Intern--BS---Summer-2027_2604505-1) | Santa Clara, CA | ⏳ 60+ days | Sep 4 |
+| Marvell Technology | [Design Verification Intern, BS - Summer 2027](https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Design-Verification-Intern--BS---Summer-2027_2604505-1) | Santa Clara, CA | ⚠ unverified<br>⏳ 60+ days | Sep 4 |
 | Hewlett Packard Enterprise | [Hardware Engineering Intern](https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Spring-Texas-United-States-of-America/Hardware-Engineering-Intern_1213408) | Spring, Texas, United States of America | ⏳ 60+ days | Sep 2 |
 | Intel Corporation | [Platform Hardware and Systems Engineering - Intern, Bachelor’s](https://intel.wd1.myworkdayjobs.com/External/job/US-Oregon-Hillsboro/Platform-Hardware-and-Systems-Engineering---Intern--Bachelor-s_JR0286827)<br><sub>“This position does not qualify for Intel sponsorship because it is either a non-STEM position, or a STEM position that only requires a Bache…”</sub> | US, Oregon, Hillsboro | 🛂❌ no sponsor<br>⏳ 60+ days | Sep 2 |
 | Intel Corporation | [Platform Hardware and Systems Engineering - Intern, Graduate](https://intel.wd1.myworkdayjobs.com/External/job/US-Oregon-Hillsboro/Platform-Hardware-and-Systems-Engineering---Intern--Graduate_JR0286828)<br><sub>“This position does not qualify for Intel sponsorship because it is either a non-STEM position, or a STEM position that only requires a Bache…”</sub> | US, Oregon, Hillsboro | 🛂❌ no sponsor<br>⏳ 60+ days | Sep 2 |
@@ -129,7 +132,9 @@ The track comes from the words in the job title, so a few jobs may land in the w
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
+| General Motors | [Entry-Level - Compute Platforms &amp; SoC/MCU Semiconductor Systems Researcher](https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Warren-Michigan-United-States-of-America/Entry-Level---Compute-Platforms---SoC-MCU-Semiconductor-Systems-Researcher_JR-202621829)<br><sub>“The position is subject to export control restrictions and requires the successful candidate to be a U.S. Person \(U.S. citizen, U.S. permane…”</sub> | Warren, Michigan, United States of America | 🇺🇸 citizens | Nov 12 |
 | GE Aerospace | [Entry Level - FPGA Design/Verification Engineer](https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Grand-Rapids/Entry-Level---FPGA-Design-Verification-Engineer_R5041307-1) | Grand Rapids |  | Nov 10 |
 | Leidos | [Entry-Level Electrical Hardware Design Engineer](https://leidos.wd5.myworkdayjobs.com/External/job/Huntsville-AL/Entry-Level-Electrical-Hardware-Design-Engineer_R-00194096)<br><sub>“Security Requirements: Candidate must be a US Citizen and possess \(and be able to maintain\) a Final Secret Clearance or meet the eligibility…”</sub> | Huntsville, AL | 🇺🇸 citizens<br>🔒 secret<br>🎓 3.0+ GPA | Nov 9 |
 | Motorola Solutions | [Entry Level Control Hardware Development Engineer](https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Schaumburg-IL/Entry-Level-Control-Hardware-Development-Engineer_R67706)<br><sub>“Employer work permit sponsorship is not available for this position”</sub> | Schaumburg, IL | 🛂❌ no sponsor | Oct 22 |
-| General Motors | [Entry-Level - Compute Platforms &amp; SoC/MCU Semiconductor Systems Researcher](https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Warren-Michigan-United-States-of-America/Entry-Level---Compute-Platforms---SoC-MCU-Semiconductor-Systems-Researcher_JR-202621829)<br><sub>“The position is subject to export control restrictions and requires the successful candidate to be a U.S. Person \(U.S. citizen, U.S. permane…”</sub> | Warren, Michigan, United States of America | 🇺🇸 citizens | Oct 12 |
+
+> **Disclaimer:** listings and tags are generated automatically from employers' public job postings and can be wrong, incomplete or out of date. Always read the full posting on the employer's site. Visa, CPT, OPT and citizenship notes are general information, not legal or immigration advice; confirm your situation with your school's DSO or an immigration attorney. This board is not affiliated with or endorsed by any employer listed.
