@@ -1,3 +1,5 @@
 # Postings added by hand by a maintainer. Edit this file (and companies.yaml) only; everything else is generated.
 # Fields: company, title, url (required); location, section (internship | new_grad | early), notes (optional).
+# An early program also needs evidence: the eligibility sentence from its own page, quoted exactly. Add a program only
+# while its official page says applications are open, and delete it when they close.
 postings: []

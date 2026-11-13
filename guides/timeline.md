@@ -72,7 +72,7 @@ That is the early path, not the only one. Many roles are rolling, which means th
 
 - **Fall:** Apply as early as you can, from July on. Roles at big companies fill, but many stay open for months. This internship often leads to a full-time offer.
 - **Spring:** Interviews and offers. If nothing comes through, plan a summer of research, a serious project, or a local job. That still counts, and you can apply again in the fall.
-- **Government, defense, and labs:** these often open in the fall for the next summer, because background checks and clearances take months. Don't wait until spring. See [government and defense](government.md).
+- **Government, defense, and labs:** these often open in the fall for the next summer, because background checks and clearances take months. Don't wait until spring. See [tracks: government and defense](tracks.md#government-and-defense).
 
 ## Senior year
 

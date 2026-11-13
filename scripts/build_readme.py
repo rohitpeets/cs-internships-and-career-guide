@@ -152,7 +152,7 @@ def table(rows, early=False) -> tuple[str, int]:
 
 TRACK_GUIDE = {"software": "guides/tracks.md#software", "embedded": "guides/tracks.md#embedded-and-firmware",
                "hardware": "guides/tracks.md#hardware-and-chips", "security": "guides/tracks.md#security",
-               "it": "guides/tracks.md#it-and-networking", "data": "guides/tracks.md#data-and-ml", "gov": "guides/government.md"}
+               "it": "guides/tracks.md#it-and-networking", "data": "guides/tracks.md#data-and-ml", "gov": "guides/tracks.md#government-and-defense"}
 TRACK_BLURB = {"software": "Web, mobile, backend, full-stack and general software roles.",
                "embedded": "Firmware, microcontroller and real-time software that runs on devices.",
                "hardware": "Chip design, FPGA and ASIC work, and design verification.",
@@ -217,8 +217,8 @@ def main():
 
     intro = {"early": "Postings that say freshmen or sophomores can apply, or programs built for them. "
                       "The grey line under each title is the sentence from the posting, so you can check it.\n\n"
-                      "Big-company programs like Google STEP, Microsoft Explore and Meta University aren't read by this board yet. "
-                      "Check their student career pages directly in the fall.\n\n"}
+                      "Big tech programs for first- and second-years, like Microsoft Explore and NVIDIA Ignite, usually open in September "
+                      "and close in October, so check their student pages in late summer. Programs are added here only while they're open.\n\n"}
     must = (load_yaml(DATA / "must_have.yaml", {}) or {}).get("companies") or []
     names = " ".join(r["company"].lower() for r in rows)
     missing = [m for m in must if m.lower() not in names]
@@ -284,7 +284,6 @@ Every row links straight to the company's application page. International studen
 | 🤝 **[Networking and getting involved](guides/networking.md)** | You want clubs, research, hackathons, contests, programs |
 | 🎤 **[Interviews](guides/interviews.md)** | You have a recruiter call, coding round or behavioral interview coming up |
 | 🧩 **[Career tracks](guides/tracks.md)** | You're curious about embedded, hardware, security, IT, data or software, and what each takes |
-| 🏛️ **[Government and defense jobs](guides/government.md)** | You want federal, national-lab or defense jobs, or wonder how clearances work |
 | 🗓️ **[4-year timeline](guides/timeline.md)** | You want to know what to do each semester (and F-1 rules) |
 | 🐙 **[GitHub](guides/github.md)** | You need to set up GitHub or make your repos look good |
 | 💼 **[LinkedIn](guides/linkedin.md)** | You need a LinkedIn profile or want to reach alumni |

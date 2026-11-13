@@ -10,6 +10,17 @@ def test_titles_kept_and_dropped():
     assert not keep_title("Summer 2027: Marketing Intern")
     assert not keep_title("Summer 2027: Corporate Strategy Intern")
     assert not keep_title("Technical Design Artist, Intern 2027")
+    # visual and creative design roles are not CS/CE work, even when they say "digital design" or "web"
+    assert not keep_title("NBC News Creative & Digital Design Internships – Summer 2027")
+    assert not keep_title("Product & Web Designer Intern (2027)")
+    assert not keep_title("UX/UI Designer Intern")
+    assert keep_title("Digital Design Engineer Intern")
+    assert keep_title("Analog ASIC Design Intern (Summer 2027)")
+    assert keep_title("Electronics Hardware Design Intern")
+    assert keep_title("Web Developer Intern")
+    assert not keep_title("Firmware Engineer Intern (Graduate Level) (Summer 2027)")
+    assert not keep_title("Tencent Cloud CPaaS Product Management Intern")
+    assert keep_title("Software Product Management Intern")
     assert keep_title("Summer 2027: Data Analytics Intern")
     assert not keep_title("Electrical Engineering Intern, 2027")  # plain EE: not CS/CE work in the title
     assert keep_title("Summer 2027: IT Services Intern")

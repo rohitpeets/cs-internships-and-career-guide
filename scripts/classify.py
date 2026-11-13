@@ -56,7 +56,7 @@ NON_TECH = re.compile(r"\b(operations research|financial analy\w*|risk|tax|compl
                       r"civil|geotechnical|structural|traffic|transportation|mechanical|environmental|chemical|process engineer|"
                       r"manufacturing|industrial|ehs|health and safety|safety engineer|construction|mining|petroleum|materials|"
                       r"warhead|harness|propulsion|thermal|fluids|geolog\w*|surveying|architect(ure)? intern|water resources|"
-                      r"game design|game economy|tech art|fuel|trim|field manager)\b", re.I)
+                      r"game design|game economy|tech art|fuel|trim|field manager|product manag\w*)\b", re.I)
 
 
 FIELD_DROP = re.compile(r"\b(facilit(y|ies)|electrical engineer\w*|packaging|photonics|mechanic|diesel|maintenance|technician|civil|geotechnical|structural|traffic|transportation|mechanical|environmental|chemical|process|manufacturing|industrial|ehs|safety|construction|mining|petroleum|materials|warhead|harness|propulsion|thermal|fluids|surveying|water resources|game presentation|game design|game economy|tech art|fuel|trim|field engineer)\b", re.I)
@@ -64,7 +64,7 @@ STRONG_TECH = re.compile(r"\b(engineer(ing)?|developer|software|data scien\w*|da
 # business areas a technical word can't rescue: "Tax & Data Analytics Intern" is a tax job
 NO_RESCUE = re.compile(r"\b(sales|marketing|tax|audit|accounting|actuarial|operations research)\b", re.I)
 PAST_TERM = re.compile(r"\b(spring|summer|fall|autumn|winter)?\s*[-–]?\s*(20\d\d)\s*[-–]?\s*(spring|summer|fall|autumn|winter)?\b", re.I)
-GRAD_ONLY = re.compile(r"\b(ms|m\.s\.|masters?|master's|graduate students?)\b", re.I)
+GRAD_ONLY = re.compile(r"\b(ms|m\.s\.|masters?|master's|graduate (students?|level))\b", re.I)
 UNDERGRAD = re.compile(r"\b(bs|b\.s\.|bachelor'?s?|undergrad\w*)\b", re.I)
 
 
@@ -128,6 +128,10 @@ CS_TITLE = re.compile(
     r"technology intern\w*|tech intern\w*|technology (analyst|associate|program)|digital (design|technology)|"
     r"hardware|asic|fpga|vlsi|chip|silicon|semiconductor|soc|digital design|verification|signal processing|dsp|"
     r"computer engineering|electrical (and|&) computer|game (developer|engine|programmer)|gameplay|(computer|real-time) graphics|graphics (software|engineer\w*|programmer)|simulation software|solutions engineer\w*)\b", re.I)
+# Visual and creative design roles ("Creative & Digital Design", "Web Designer") aren't CS/CE work.
+# Chip and circuit design ("Digital Design Engineer", "ASIC Design") is, so those words keep a title.
+VISUAL_DESIGN = re.compile(r"\b(creative|(product|web|ux|ui|ux/ui|ui/ux|visual|graphic|brand|interaction|motion) designers?)\b", re.I)
+CHIP_DESIGN = re.compile(r"\b(engineer\w*|asic|fpga|rtl|vlsi|silicon|chip|circuit|analog|electronics|hardware|pcb|ic|soc)\b", re.I)
 INTERNAL_ONLY = re.compile(r"\b(current|previous|recent|returning)\b[^)]{0,40}\binterns?\b[^)]{0,20}\bonly\b|\bfor current\b", re.I)
 
 
@@ -144,6 +148,8 @@ def keep_title(title: str) -> bool:
     if FIELD_DROP.search(title) and not re.search(r"\b(software|developer|programmer|firmware|embedded|computer|data scien\w*|it)\b", title, re.I):
         return False
     if expired_term(title):
+        return False
+    if VISUAL_DESIGN.search(title) and not CHIP_DESIGN.search(title):
         return False
     return not NON_TECH.search(title) or (bool(STRONG_TECH.search(title)) and not NO_RESCUE.search(title))
 

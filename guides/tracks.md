@@ -90,7 +90,7 @@ Job list: [hardware track](../track-hardware.md).
 
 **How interviews differ.** Scenario questions: "You see odd traffic on a server. What do you check first?" Networking basics, Linux, and one CTF or lab you can talk about.
 
-**Money.** CyberCorps Scholarship for Service pays tuition and a stipend for cybersecurity students, in exchange for government work after. Your school must take part. See [government](government.md#programs-to-know).
+**Money.** CyberCorps Scholarship for Service pays tuition and a stipend for cybersecurity students, in exchange for government work after. Your school must take part.
 
 Job list: [security track](../track-security.md).
 
@@ -144,9 +144,9 @@ Job list: [data track](../track-data.md).
 
 **Job titles to search.** Pathways Intern, Student Trainee, Cyber Intern, Software Engineer Intern with "defense," "aerospace," or "national lab" in the company name.
 
-**How interviews differ.** Often a panel or a phone interview with a manager, plus questions about teamwork and following rules. Honest answers on forms matter a lot. See [government](government.md).
+**How interviews differ.** Often a panel or a phone interview with a manager, plus questions about teamwork and following rules. Honest answers on forms matter a lot.
 
-**Timing.** These open in the fall, not spring. See [when to apply](government.md#when-to-apply).
+**Timing.** These jobs often open in the fall, because clearances take months. Do not wait for spring.
 
 Job list: [government track](../track-gov.md).
 
@@ -157,6 +157,6 @@ Co-op programs vary by school, so ask your career office early. A co-op may take
 ## Resources
 
 - Practice sites and courses for data, hardware and security: [resources by situation](resources.md#by-situation).
-- [USAJOBS](https://www.usajobs.gov): federal job search. See [government](government.md).
+- [USAJOBS](https://www.usajobs.gov): federal job search.
 
-Next: [government and defense](government.md).
+Next: [resources](resources.md).

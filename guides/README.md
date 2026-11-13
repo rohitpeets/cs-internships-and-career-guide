@@ -66,7 +66,6 @@ Your resume, LinkedIn, and interview stories all come from this file, so you nev
 - [Applying](applying.md): where to apply, how many, referrals, and what to do when you're stuck.
 - [Interviews](interviews.md): online assessments, technical rounds, behavioral questions, and offers.
 - [Tracks](tracks.md): paths beyond software engineering, like embedded, security, IT, and data.
-- [Government and defense](government.md): federal programs, national labs, and clearances.
 - [Resources](resources.md): communities, programs, free courses, hackathons, and tools.
 
 F-1 student? Read the [note for F-1 students](timeline.md#note-for-f-1-students) before you accept any job, even on campus.

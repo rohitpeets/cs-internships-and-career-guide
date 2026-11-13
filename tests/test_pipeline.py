@@ -117,6 +117,22 @@ def test_stale_laptop_rows_marked_uncertain(tmp_path, monkeypatch):
     assert r["status"] == "uncertain" and r["uncertain_since"] == "2026-01-01"
 
 
+def test_manual_early_program_keeps_its_section(tmp_path, monkeypatch):
+    import load_manual
+    man, p = tmp_path / "m.yaml", tmp_path / "p.json"
+    man.write_text('postings:\n  - {company: X, title: "Explore Program", url: "https://x.com/p", section: early,'
+                   ' evidence: "Open to first- and second-year students."}\n')
+    p.write_text("[]")
+    monkeypatch.setattr(load_manual, "MANUAL", man)
+    monkeypatch.setattr(load_manual, "POSTINGS", p)
+    load_manual.main()
+    r = json.loads(p.read_text())[0]
+    assert r["section"] == "early" and r["tag_evidence"]["early"].startswith("Open to first")
+    man.write_text('postings:\n  - {company: X, title: "Explore", url: "https://x.com/p", section: early}\n')
+    with pytest.raises(SystemExit):
+        load_manual.main()
+
+
 def test_shrink_guard_uses_7_commit_high_and_reset(tmp_path, monkeypatch):
     monkeypatch.chdir(tmp_path)
     (tmp_path / "data").mkdir()

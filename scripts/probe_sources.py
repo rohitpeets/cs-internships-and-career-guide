@@ -10,10 +10,31 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 import adapters  # noqa: E402
 from classify import keep_title, us_job  # noqa: E402
-from common import Http  # noqa: E402
+from common import Blocked, Http  # noqa: E402
 
-# (company, ats, board) guesses. Workday entries are tenant names: the probe finds the wdN host and site itself.
+# (company, ats, board) guesses. A Workday board is either a tenant name (the probe finds the wdN host and site)
+# or an exact "tenant.wdN/site" taken from the company's own apply links. Several guesses per company are fine:
+# the first one that answers wins.
 GUESSES = [
+    # Exact Workday sites (from the companies' own apply links); checked first
+    ("Chevron", "workday", "chevron.wd5/jobs"), ("Mastercard", "workday", "mastercard.wd1/CorporateCareers"),
+    ("Capital One", "workday", "capitalone.wd12/Capital_One"), ("Target", "workday", "target.wd5/targetcareers"),
+    ("PayPal", "workday", "paypal.wd1/jobs"), ("Northrop Grumman", "workday", "ngc.wd1/Northrop_Grumman_External_Site"),
+    ("RTX", "workday", "globalhr.wd5/REC_RTX_Ext_Gateway"), ("SAIC", "workday", "saic.wd1/SAIC"),
+    ("MITRE", "workday", "mitre.wd5/MITRE"), ("BAE Systems", "workday", "baesystems.wd3/BAE_Systems_External"),
+    ("General Dynamics Information Technology", "workday", "gdit.wd5/External_Career_Site"),
+    ("General Dynamics Electric Boat", "workday", "gdeb.wd1/EB_Careers"),
+    ("Leidos", "workday", "leidos.wd5/External"), ("Booz Allen", "workday", "bah.wd1/BAH_Jobs"),
+    ("Cisco", "workday", "cisco.wd5/Cisco_Careers"), ("AMD", "workday", "amd.wd1/External"),
+    ("Shell", "workday", "shell.wd3/ShellCareers"), ("Phillips 66", "workday", "phillips66.wd5/Phillips66"),
+    ("Lumen", "workday", "lumen.wd5/External"), ("Westlake", "workday", "westlake.wd5/Westlake_Careers"),
+    ("Cheniere", "workday", "cheniere.wd1/Cheniere"), ("Ochsner Health", "workday", "ochsner.wd1/Ochsner"),
+    ("Entergy", "workday", "entergy.wd1/Entergy"), ("Intuit", "workday", "intuit.wd1/Intuit"),
+    ("Visa", "workday", "visa.wd5/Visa"), ("Lockheed Martin", "workday", "lmco.wd1/LMCareers"),
+    ("L3Harris", "workday", "l3harris.wd1/L3HarrisCareers"), ("Huntington Ingalls", "workday", "hii.wd1/External"),
+    ("Sandia National Laboratories", "workday", "sandia.wd1/External"),
+    ("Oak Ridge National Laboratory", "workday", "ornl.wd1/ORNL_Careers"),
+    # Name-only guesses
     ("Amazon", "amazon", "amazon"),
     ("Microsoft", "eightfold", "apply.careers.microsoft.com|microsoft.com"),
     ("Microsoft", "eightfold", "jobs.careers.microsoft.com|microsoft.com"),
@@ -46,6 +67,8 @@ WD_HOSTS = ("wd1", "wd5", "wd3", "wd12", "wd10", "wd103", "wd108", "wd501", "wd2
 
 
 def find_workday(tenant, http):
+    if "/" in tenant:  # already an exact tenant.wdN/site
+        return tenant
     for n in WD_HOSTS:
         try:
             r = http.get(f"https://{tenant}.{n}.myworkdayjobs.com/", allow_redirects=True)
@@ -58,10 +81,12 @@ def find_workday(tenant, http):
 
 
 def main():
-    http = Http(gap=0.5, timeout=15, retries=1)
+    http = Http(gap=1.0, timeout=15, retries=1, check_robots=True)  # same manners as the nightly job
     fns = {**adapters.CLOUD, **adapters.LOCAL}
-    found, missing = [], []
+    found, missing, done = [], [], set()
     for name, ats, board in GUESSES:
+        if name in done:  # an earlier guess for this company already worked
+            continue
         if ats == "workday":
             board = find_workday(board, http)
             if not board:
@@ -69,9 +94,13 @@ def main():
                 continue
         try:
             jobs = fns[ats](board, http)
+        except Blocked as e:
+            missing.append(f"{name} ({ats}/{board}): blocked by the site ({str(e)[:60]}); leave it out")
+            continue
         except Exception as e:
             missing.append(f"{name} ({ats}/{board}): {type(e).__name__} {str(e)[:80]}")
             continue
+        done.add(name)
         cs = [j for j in jobs if keep_title(j["title"]) and us_job(j["location"])]
         found.append((name, ats, board, len(jobs), len(cs)))
         print(f"  ok  {name:28} {ats:15} {board:45} all={len(jobs):4} cs_us={len(cs)}", flush=True)
@@ -80,6 +109,8 @@ def main():
         print(f'  - {{name: "{name}", ats: {ats}, board: "{board}"}}   # {cs} CS/CE postings now')
     print("\n# not found (needs a manual check):")
     for m in missing:
+        if m.split(" (")[0] in done:  # another guess for the same company worked
+            continue
         print("  -", m)
 
 

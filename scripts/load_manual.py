@@ -7,6 +7,7 @@ manual.yaml:
       url: https://example.com/jobs/123
       location: Houston, TX          # optional
       section: internship            # optional: internship | new_grad | early
+      evidence: "Open to first- and second-year students."   # required for early: the sentence from the program page
       notes: sponsors F-1 per recruiter   # optional, shown nowhere, for maintainers
 """
 import sys
@@ -25,11 +26,15 @@ def main():
         rid = url_key(m["url"])
         live.add(rid)
         t, ev = tags(m.get("notes", ""), m.get("location", ""))
+        if m.get("section") == "early":  # an early program shows the page's own eligibility sentence, like fetched ones
+            if not m.get("evidence"):
+                sys.exit(f"manual.yaml: {m['company']} is marked early but has no evidence sentence")
+            ev = {**ev, "early": m["evidence"]}
         old = rows.get(rid, {})
         rows[rid] = {**old, "id": rid, "company": m["company"], "title": m["title"], "url": m["url"],
                      "location": m.get("location", ""), "source": "manual",
                      "section": m.get("section") or section(m["title"]) or "internship",
-                     "tags": old.get("tags") or t, "tag_evidence": old.get("tag_evidence") or ev,
+                     "tags": old.get("tags") or t, "tag_evidence": {**(old.get("tag_evidence") or {}), **ev},
                      "status": old.get("status", "open"), "misses": old.get("misses", 0),
                      "first_seen": old.get("first_seen", today()), "last_seen": today()}
     # a row deleted from manual.yaml leaves the board

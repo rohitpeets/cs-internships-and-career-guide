@@ -31,10 +31,10 @@ Too many lists make it hard to start. Begin with the 15 picks below. Use the gro
 **More job lists**
 - [Simplify's internship list](https://github.com/SimplifyJobs/Summer2027-Internships): a community-kept list of postings.
 - [Handshake](https://joinhandshake.com) (through your school) and your career center.
-- [USAJOBS](https://www.usajobs.gov): federal jobs. See [government](government.md).
+- [USAJOBS](https://www.usajobs.gov): federal jobs.
 
 **Money**
-- [DoD SMART](https://www.smartscholarship.org) and [CyberCorps SFS](https://www.sfs.opm.gov): scholarships that lead to government jobs. See [government](government.md#programs-to-know).
+- [DoD SMART](https://www.smartscholarship.org) and [CyberCorps SFS](https://www.sfs.opm.gov): scholarships that lead to government jobs.
 - Ask your financial aid office, your department, and your campus student government about travel grants and emergency funds.
 
 ## By situation

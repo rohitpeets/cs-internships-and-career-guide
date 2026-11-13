@@ -72,10 +72,6 @@ defaults:
     values:
       title: "CS Career Tracks: Software, Embedded, Hardware, Security, IT, Data, Government"
       description: "Not sure software is your path? Classes, starter projects, certifications, contests and job titles for seven CS and CE tracks."
-  - scope: { path: "guides/government.md" }
-    values:
-      title: "Government, Defense and National Lab Internships for CS Students"
-      description: "USAJOBS Pathways, SMART, CyberCorps, DOE lab programs, security clearances in plain English, and when to apply."
   - scope: { path: "guides/resources.md" }
     values:
       title: "Free Resources for CS Students"
