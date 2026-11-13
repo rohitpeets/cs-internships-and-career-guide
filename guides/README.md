@@ -27,7 +27,7 @@ Find the row that fits you best. "Hours" means hours a week on top of your class
 - Big companies hire summer interns almost a year ahead (fall for the next summer). Smaller and local companies often hire in spring. Government and defense roles often open early in the fall because of background checks.
 - Most freshmen don't get an internship. That's normal. A campus job, research, or a project is a good first summer.
 - Aim for **any** internship by the end of sophomore year, even a small or local one. Then climb: local company, then a mid-size one, then a big one if you want. Each one makes the next easier.
-- Skim the [job board](../README.md) once a month, even before you apply. Note the skills and languages that keep showing up, and learn one of them.
+- Skim the [job board](../INTERNSHIPS.md) once a month, even before you apply. Note the skills and languages that keep showing up, and learn one of them.
 
 ## Year 1 checklist
 
@@ -96,7 +96,7 @@ F-1 student? Read the [note for F-1 students](timeline.md#note-for-f-1-students)
 ## Resources
 
 - [Resources](resources.md): the full list of clubs, programs, courses, and tools.
-- [Job board](../README.md): current internships, new-grad roles, and early programs.
+- [Job board](../): current internships, new-grad roles, and early programs.
 
 Next: [4-year timeline](timeline.md)
 

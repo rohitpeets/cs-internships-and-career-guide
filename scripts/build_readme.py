@@ -181,7 +181,7 @@ def write_track_pages(rows) -> int:
                "The same job can also appear on its main track's page.\n\n" if slug == "gov" else
                "The track comes from the words in the job title, so a few jobs may land in the wrong one. If a title doesn't say, it goes under Software.\n\n")
         (ROOT / f"track-{slug}.md").write_text(
-            f"# {name}\n\n[⬅ Back to the main page](README.md) · {len(part)} open · updated {today()}\n\n"
+            f"# {name}\n\n[⬅ Back to the main page](./) · {len(part)} open · updated {today()}\n\n"
             f"{TRACK_BLURB[slug]} New to this track? Read the [{name.lower()} section of the tracks guide]({TRACK_GUIDE[slug]}).\n\n{why}"
             f"**Click a job title to open the company's application page.**\n\n{LEGEND}\n\n{FILTER_SLOT}\n\n" + "\n\n".join(blocks) + "\n", encoding="utf-8")
     return skipped
@@ -190,15 +190,13 @@ def write_track_pages(rows) -> int:
 def new_section(new) -> str:
     if not new:
         return "_Nothing new this week yet._"
-    if len(new) > 150:  # a big new source was added this week
-        return f"_{len(new)} postings were added this week (a new source was connected). Browse the sections above._"
     per, capped = Counter(), []
     for r in sorted(new, key=lambda r: when(r), reverse=True):  # at most 3 per company, so one big poster can't fill the list
         per[r["company"]] += 1
         if per[r["company"]] <= 3:
             capped.append(r)
     shown, _ = table(capped[:75])
-    return shown + f"\n\n_{len(new)} postings were posted this week. This list shows up to 3 per company; the rest are in the section pages above._"
+    return shown + f"\n\n_{len(new)} postings were posted this week. This list shows up to 3 per company; the rest are in the [internships](INTERNSHIPS.md) and [new grad](NEW_GRAD.md) lists._"
 
 
 def main():
@@ -228,7 +226,7 @@ def main():
         part = [r for r in rows if r["section"] == key]
         body, n = table(part, early=(key == "early"))
         skipped += n
-        (ROOT / fname).write_text(f"# {name}\n\n[⬅ Back to the main page](README.md) · {len(part)} open · updated {today()}\n\n"
+        (ROOT / fname).write_text(f"# {name}\n\n[⬅ Back to the main page](./) · {len(part)} open · updated {today()}\n\n"
                                   f"{intro.get(key, '')}**Click a job title to open the company's application page.**\n\n{LEGEND}\n\n{FILTER_SLOT}\n\n{body}\n"
                                   + (f"\n{not_yet}\n" if key != "early" and not_yet else ""), encoding="utf-8")
 
@@ -237,7 +235,7 @@ def main():
 
     # postings from this week get their own page, so the landing page stays short
     (ROOT / "NEW_THIS_WEEK.md").write_text(
-        f"# 🆕 New this week\n\n[⬅ Back to the main page](README.md) · {len(new)} posted in the last 7 days · updated {today()}\n\n"
+        f"# 🆕 New this week\n\n[⬅ Back to the main page](./) · {len(new)} posted in the last 7 days · updated {today()}\n\n"
         f"**Click a job title to open the company's application page.**\n\n{LEGEND}\n\n{FILTER_SLOT}\n\n{new_section(new)}\n", encoding="utf-8")
 
     track_counts = {slug: len(track_rows(rows, slug)) for slug, _ in TRACKS}

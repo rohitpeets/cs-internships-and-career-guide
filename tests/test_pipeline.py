@@ -149,6 +149,16 @@ def test_board_dedupes():
     assert build_readme.dedupe([a, b]) == [b]
 
 
+def test_new_this_week_always_lists_jobs():
+    # a busy week (over 150 new rows) used to show no table at all
+    today = date.today().isoformat()
+    new = [{"company": f"Co{i}", "title": "SWE Intern", "location": "Austin, TX", "url": f"https://x.com/{i}",
+            "first_seen": today, "posted": today, "section": "internship"} for i in range(200)]
+    out = build_readme.new_section(new)
+    assert out.count("](https://x.com/") == 75
+    assert "above" not in out
+
+
 def test_untrusted_text_cannot_inject_markdown_or_html():
     evil = 'Software Intern](https://evil.example/login) [Apply <img src=x onerror=alert(1)> | x\r\r# Fake'
     out = build_readme.text(evil)
