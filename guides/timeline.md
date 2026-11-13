@@ -26,6 +26,18 @@ That is the early path, not the only one. Many roles are rolling, which means th
 **Summer**
 - Any job is a good summer (international students: check your work rules first). If you have spare time, build a project or take a free course.
 
+**Done by the end of freshman year**
+
+| Step | Done looks like |
+|---|---|
+| Go to class and office hours | A professor or TA knows your name, and you've asked at least three questions in office hours. |
+| Join a CS club ([networking](networking.md)) | You've been to three meetings and know two upperclassmen well enough to ask a question. |
+| Build one small [project](projects.md) | A repo a stranger can run by following the README, plus a one-line result ("Used by 12 classmates to split rent"). |
+| Put it on [GitHub](github.md) | Your profile has your real name, and the project is pinned with a clear README. |
+| Write a [resume](resume.md) | One page, saved as a PDF, reviewed by at least one person (career center, upperclassman, or professor). |
+| Start your [wins file](README.md#start-a-wins-file) | One doc with every project, job, and result so far. |
+| First summer | Any job counts, and it goes on your resume. Research or a finished project is great. |
+
 ## Sophomore year
 
 **Fall**
@@ -43,6 +55,18 @@ That is the early path, not the only one. Many roles are rolling, which means th
 **Summer** (before junior year)
 - [ ] Build up to about 5 timed problems a week (see below).
 - [ ] Polish your resume and apply the week postings open.
+
+**Done by the end of sophomore year**
+
+| Step | Done looks like |
+|---|---|
+| Data Structures | You can explain and code a hash map lookup, a stack, and a breadth-first search without notes. |
+| Bigger team [project](projects.md) | Two or more people committed code, it runs or is live, and you can name one number (users, speed, data size). |
+| Coding practice ([plan](#coding-interview-practice)) | 2-3 problems a week, every week, from one list. |
+| [Apply](applying.md) | Applications tracked in a spreadsheet, including local and mid-size companies, plus one career fair where you talked to five employers. |
+| [LinkedIn](linkedin.md) | Profile matches your resume, with a photo and your project links. |
+| Research or campus job | You asked one professor about research, or you hold a campus job you can describe in one bullet. |
+| Second summer | An internship of any size, or research, or a job plus one finished project. |
 
 ## Junior year
 

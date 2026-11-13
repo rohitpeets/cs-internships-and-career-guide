@@ -40,7 +40,7 @@ title: "Things I Wish I Knew: CS Edition"
         <p>Full-time jobs for students finishing their degree.</p>
       </a>
       <a class="card" href="{% if s.early > 0 %}{{ '/EARLY.html' | relative_url }}{% else %}{{ '/guides/#where-are-you' | relative_url }}{% endif %}">
-        <h3>Freshman and sophomore programs</h3>
+        <h3>Early programs</h3>
         <div class="num">{{ s.early | default: 0 }}</div>
         <p>{% if s.early > 0 %}Programs and internships open to first- and second-years.{% else %}None open right now. See what first- and second-years can do instead.{% endif %}</p>
       </a>
@@ -54,7 +54,7 @@ title: "Things I Wish I Knew: CS Edition"
 
   <section class="block" id="lanes" aria-labelledby="lanes-title">
     <span class="margin-note" aria-hidden="true">not everyone wants web dev, and that's fine</span>
-    <h2 id="lanes-title"><span class="mark-h">Pick your lane</span></h2>
+    <h2 id="lanes-title"><span class="mark-h">Pick your track</span></h2>
     <p class="sub">The same jobs, sorted by the kind of work. <a href="{{ '/guides/tracks.html' | relative_url }}">Not sure which fits?</a> The tracks guide covers classes, starter projects and how interviews differ.</p>
     <div class="grid lanes">
       <a class="card lane" href="{{ '/track-software.html' | relative_url }}"><h3>Software</h3><div class="num">{{ t.software | default: "–" }}</div><p>Web, backend, mobile, tools.</p></a>
@@ -115,7 +115,7 @@ title: "Things I Wish I Knew: CS Edition"
   </section>
 
   <section class="block" aria-labelledby="about-title">
-    <h2 id="about-title"><span class="mark-h">About this notebook</span></h2>
+    <h2 id="about-title"><span class="mark-h">About this board</span></h2>
     <p class="sub">{{ s.total }} open roles from {{ s.boards }} company career sites, checked every day with automated tests on every run. It won't catch everything, so also check Handshake, LinkedIn and <a href="https://github.com/SimplifyJobs/Summer2027-Internships">Simplify's internship list</a>. How the board works and how accurate it is: <a href="https://github.com/rohitpeets/cs-internships-and-career-guide/blob/main/docs/WRITEUP.md">the write-up</a>.</p>
     <p class="disclaimer"><strong>Disclaimer.</strong> This board is provided as is, without warranty of any kind. Listings and tags are generated automatically from employers' public job postings and can be wrong, incomplete or out of date. Always read the full posting on the employer's site. Visa, CPT, OPT and citizenship notes are general information, not legal or immigration advice; confirm your situation with your school's DSO or an immigration attorney. This project is free, non-commercial, and not affiliated with or endorsed by any employer listed or any university.</p>
     <p class="disclaimer"><strong>License.</strong> Code: <a href="https://github.com/rohitpeets/cs-internships-and-career-guide/blob/main/LICENSE">MIT</a>. Guides: <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Job listings belong to the employers who posted them. Fonts: Kalam and Atkinson Hyperlegible, SIL Open Font License.</p>

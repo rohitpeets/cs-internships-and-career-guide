@@ -27,7 +27,10 @@ SECTIONS = [("internship", "Internships", "INTERNSHIPS.md"),
             ("early", "Early Programs (freshmen & sophomores)", "EARLY.md")]
 # Empty, fixed-size spot the site's filter bar fills in, so adding it never shifts the long table (GitHub shows nothing).
 FILTER_SLOT = '<div class="job-filter" id="job-filter"></div>'
-LEGEND = """**Tags.** Each tag comes from a sentence in the posting, shown in grey under the job title. A blank tag means the posting doesn't say.
+LEGEND = """<details markdown="1">
+<summary>What the tags and dates mean</summary>
+
+**Tags.** Each tag comes from a sentence in the posting, shown in grey under the job title. A blank tag means the posting doesn't say.
 
 - 🛂✅ **sponsors**: the posting says it sponsors visas
 - 🛂❌ **no sponsor**: it says it doesn't sponsor visas
@@ -45,7 +48,8 @@ LEGEND = """**Tags.** Each tag comes from a sentence in the posting, shown in gr
 
 > 🛂❌ usually means no visa sponsorship later (for example H-1B). Unless the row also shows 🚫, CPT or OPT may still work. Check with the recruiter and your DSO.
 
-> **Disclaimer:** listings and tags are generated automatically from employers' public job postings and can be wrong, incomplete or out of date. Always read the full posting on the employer's site. Visa, CPT, OPT and citizenship notes are general information, not legal or immigration advice; confirm your situation with your school's DSO or an immigration attorney. This board is not affiliated with or endorsed by any employer listed."""
+</details>"""
+DISCLAIMER = """> **Disclaimer:** listings and tags are generated automatically from employers' public job postings and can be wrong, incomplete or out of date. Always read the full posting on the employer's site. Visa, CPT, OPT and citizenship notes are general information, not legal or immigration advice; confirm your situation with your school's DSO or an immigration attorney. This board is not affiliated with or endorsed by any employer listed."""
 
 def text(s: str) -> str:
     """Escape untrusted text for a markdown table cell: no HTML, no links or emphasis, no new rows or columns."""
@@ -183,7 +187,7 @@ def write_track_pages(rows) -> int:
         (ROOT / f"track-{slug}.md").write_text(
             f"# {name}\n\n[⬅ Back to the main page](./) · {len(part)} open · updated {today()}\n\n"
             f"{TRACK_BLURB[slug]} New to this track? Read the [{name.lower()} section of the tracks guide]({TRACK_GUIDE[slug]}).\n\n{why}"
-            f"**Click a job title to open the company's application page.**\n\n{LEGEND}\n\n{FILTER_SLOT}\n\n" + "\n\n".join(blocks) + "\n", encoding="utf-8")
+            f"**Click a job title to open the company's application page.**\n\n{LEGEND}\n\n{FILTER_SLOT}\n\n" + "\n\n".join(blocks) + f"\n\n{DISCLAIMER}\n", encoding="utf-8")
     return skipped
 
 
@@ -228,7 +232,7 @@ def main():
         skipped += n
         (ROOT / fname).write_text(f"# {name}\n\n[⬅ Back to the main page](./) · {len(part)} open · updated {today()}\n\n"
                                   f"{intro.get(key, '')}**Click a job title to open the company's application page.**\n\n{LEGEND}\n\n{FILTER_SLOT}\n\n{body}\n"
-                                  + (f"\n{not_yet}\n" if key != "early" and not_yet else ""), encoding="utf-8")
+                                  + (f"\n{not_yet}\n" if key != "early" and not_yet else "") + f"\n{DISCLAIMER}\n", encoding="utf-8")
 
 
     skipped += write_track_pages(rows)
@@ -236,7 +240,7 @@ def main():
     # postings from this week get their own page, so the landing page stays short
     (ROOT / "NEW_THIS_WEEK.md").write_text(
         f"# 🆕 New this week\n\n[⬅ Back to the main page](./) · {len(new)} posted in the last 7 days · updated {today()}\n\n"
-        f"**Click a job title to open the company's application page.**\n\n{LEGEND}\n\n{FILTER_SLOT}\n\n{new_section(new)}\n", encoding="utf-8")
+        f"**Click a job title to open the company's application page.**\n\n{LEGEND}\n\n{FILTER_SLOT}\n\n{new_section(new)}\n\n{DISCLAIMER}\n", encoding="utf-8")
 
     track_counts = {slug: len(track_rows(rows, slug)) for slug, _ in TRACKS}
     term_counts = {k: sum(1 for r in rows if k in terms(r["title"])) for k in ("co_op", "fall", "spring", "part_time")}

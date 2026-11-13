@@ -50,14 +50,13 @@ Most will say yes. Later, do the same for the people behind you. That's how this
 
 Alumni are friendly to students from their own school. Steps:
 
-1. Search your school's page on LinkedIn, open **Alumni**, and filter by company, city, or what they studied. See [LinkedIn: finding alumni](linkedin.md#find-alumni).
-2. Pick people who graduated in the last 3 to 8 years. They remember what you're going through.
-3. Send one short message (under 100 words, one question):
+1. Find alumni on LinkedIn and send a short connection note. The search steps and a note that fits LinkedIn's limit are in [LinkedIn: find alumni](linkedin.md#find-alumni).
+2. Once they accept, send one short message (under 100 words, one question):
 
 > Hi [Name], I'm a [year] CS student at [School]. I saw you went there too and now work at [Company] as a [role]. I'm trying to learn how people get into [field]. Could I ask you one question: [specific question, like "what did you do before your first internship that mattered most?"]? Thanks either way.
 
-4. If they reply, ask for 15 minutes. Come with 3 questions.
-5. Expect about 1 reply for every 5 to 10 messages. That's normal, not personal.
+3. If they reply, ask for 15 minutes. Come with 3 questions.
+4. Expect about 1 reply for every 5 to 10 messages. That's normal, not personal.
 
 **Follow-up template** (send within 24 hours of any chat):
 

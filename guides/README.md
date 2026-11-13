@@ -13,9 +13,9 @@ Find the row that fits you best. "Hours" means hours a week on top of your class
 | You are... | Do these this month | Hours | Read |
 |---|---|---|---|
 | **Freshman who has never coded** | 1. Keep up in your intro class and go to office hours once a week. 2. Join one CS club and go to a meeting. 3. Start a [wins file](#start-a-wins-file). | 2-4 | [Networking](networking.md), [projects](projects.md) |
-| **Freshman or sophomore with some coding, no projects** | 1. Pick one small project that fixes a real annoyance and finish a first version in 4 weeks. 2. Put it on GitHub with a README. 3. Write a one-page resume. | 4-6 | [Projects](projects.md), [GitHub](github.md), [resume](resume.md) |
-| **Sophomore ready to apply** | 1. Get your resume reviewed by one person. 2. Apply to 5-10 internships a week, including local and mid-size companies, and use Handshake and the career fair. 3. Do 2-3 coding problems a week. | 6-8 | [Applying](applying.md), [coding practice](timeline.md#coding-interview-practice) |
-| **Transfer or late-start junior** | 1. Visit your new school's career center and set up Handshake in your first month. 2. Build one project in 4-6 weeks. 3. Apply now, aiming at companies that hire into spring. | 8-10 | [Behind? Start here](applying.md#behind-start-here), [tracks](tracks.md) |
+| **Freshman or sophomore with some coding, no projects** | 1. Pick one small project that fixes a real annoyance and finish a first version in 2 to 4 weeks. 2. Put it on GitHub with a README. 3. Write a one-page resume. | 4-6 | [Projects](projects.md), [GitHub](github.md), [resume](resume.md) |
+| **Sophomore ready to apply** | 1. Get your resume reviewed by one person. 2. Apply to 10-15 internships a week, including local and mid-size companies, and use Handshake and the career fair. 3. Do 2-3 coding problems a week. | 6-8 | [Applying](applying.md), [coding practice](timeline.md#coding-interview-practice) |
+| **Transfer or late-start junior** | 1. Visit your new school's career center and set up Handshake in your first month. 2. Build one project in 2 to 4 weeks. 3. Apply now, aiming at companies that hire into spring. | 8-10 | [Behind? Start here](applying.md#behind-start-here), [tracks](tracks.md) |
 | **Junior with lots of applications and no interviews** | 1. Run the funnel check to find where you're stuck. 2. Rewrite your resume and tailor it for your top 10 roles. 3. Ask 3 people for referrals before you apply anywhere new. | 6-10 | [Funnel check](applying.md#funnel-check), [resume](resume.md), [networking](networking.md) |
 | **Senior** | 1. Apply for new-grad roles now (big companies open in late summer and fall; smaller ones hire through spring). 2. Practice interviews every week. 3. If you interned, ask about a [return offer](timeline.md#return-offers). | 6-10 | [Interviews](interviews.md), [senior year](timeline.md#senior-year) |
 
@@ -29,29 +29,7 @@ Find the row that fits you best. "Hours" means hours a week on top of your class
 - Aim for **any** internship by the end of sophomore year, even a small or local one. Then climb: local company, then a mid-size one, then a big one if you want. Each one makes the next easier.
 - Skim the [job board](../INTERNSHIPS.md) once a month, even before you apply. Note the skills and languages that keep showing up, and learn one of them.
 
-## Year 1 checklist
-
-| Step | Done looks like |
-|---|---|
-| Go to class and office hours | A professor or TA knows your name, and you've asked at least three questions in office hours. |
-| Join a CS club ([networking](networking.md)) | You've been to three meetings and know two upperclassmen well enough to ask a question. |
-| Build one small [project](projects.md) | A repo a stranger can run by following the README, plus a one-line result ("Used by 12 classmates to split rent"). |
-| Put it on [GitHub](github.md) | Your profile has your real name, and the project is pinned with a clear README. |
-| Write a [resume](resume.md) | One page, saved as a PDF, reviewed by at least one person (career center, upperclassman, or professor). |
-| Start your [wins file](#start-a-wins-file) | One doc with every project, job, and result so far. |
-| First summer | Any job counts, and it goes on your resume. Research or a finished project is great. |
-
-## Year 2 checklist
-
-| Step | Done looks like |
-|---|---|
-| Data Structures | You can explain and code a hash map lookup, a stack, and a breadth-first search without notes. |
-| Bigger team [project](projects.md) | Two or more people committed code, it runs or is live, and you can name one number (users, speed, data size). |
-| Coding practice ([plan](timeline.md#coding-interview-practice)) | 2-3 problems a week, every week, from one list. |
-| [Apply](applying.md) | Applications tracked in a spreadsheet, including local and mid-size companies, plus one career fair where you talked to five employers. |
-| [LinkedIn](linkedin.md) | Profile matches your resume, with a photo and your project links. |
-| Research or campus job | You asked one professor about research, or you hold a campus job you can describe in one bullet. |
-| Second summer | An internship of any size, or research, or a job plus one finished project. |
+Semester-by-semester steps, with what "done" looks like for years 1 and 2, are in the [4-year timeline](timeline.md).
 
 ## Start a wins file
 

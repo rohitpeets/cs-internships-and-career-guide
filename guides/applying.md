@@ -162,8 +162,7 @@ You will get many. Every person who got an internship also got rejections.
 - [Handshake](https://joinhandshake.com) (through your school) and LinkedIn Jobs.
 
 **Coding tests**
-- [Tech Interview Handbook: Grind 75](https://www.techinterviewhandbook.org/grind75/): a week-by-week study plan.
-- [NeetCode](https://neetcode.io) and [LeetCode](https://leetcode.com): problem lists, videos, and practice.
+- Pacing, problem lists and study plans: [coding interview practice](timeline.md#coding-interview-practice).
 
 **Scams**
 - [FTC: Job scams](https://consumer.ftc.gov/articles/job-scams): official warning signs and what to do if you've paid.

@@ -83,20 +83,6 @@ Job searching is stressful. Rejections are normal and say little about you.
 - Ask your department, your ACM chapter, and student government for travel money. Say what you will learn and how you will share it with others at school.
 - Many conferences have volunteer or student-rate options. Ask the organizers.
 
-## Every guide's resources
-
-- [Start here](README.md#resources): the guide map, glossary, and job board.
-- [Timeline](timeline.md#resources)
-- [Projects](projects.md#resources)
-- [GitHub](github.md#resources)
-- [Resume](resume.md#resources)
-- [LinkedIn](linkedin.md#resources)
-- [Networking](networking.md#resources)
-- [Applying](applying.md#resources)
-- [Interviews](interviews.md#resources)
-- [Tracks](tracks.md#resources)
-- [Government and defense](government.md#resources)
-
 Back to [all guides](README.md).
 
 Next: [start with the 4-year timeline](timeline.md).

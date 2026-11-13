@@ -115,7 +115,6 @@ These also count as project experience. Some need more background, so they are l
 ## Resources
 
 **Start**
-- [CS50x](https://cs50.harvard.edu/x/): Harvard's free intro to CS. The best place to start if you've never coded.
 - [The Missing Semester](https://missing.csail.mit.edu): the terminal, Git, and editor skills classes skip.
 - [The Odin Project](https://www.theodinproject.com): free web development path, project-based.
 
@@ -126,13 +125,9 @@ These also count as project experience. Some need more background, so they are l
 - [Crafting Interpreters](https://craftinginterpreters.com): build a programming language; free to read online.
 - [Exercism](https://exercism.org): practice exercises in many languages with free mentoring.
 
-**Data and ML**
-- [Kaggle Learn](https://www.kaggle.com/learn): short free courses on Python, pandas, SQL, and machine learning.
-
 **Hardware**
-- [Nand2Tetris](https://www.nand2tetris.org): build a computer from logic gates up.
 - [Adafruit Learn](https://learn.adafruit.com): step-by-step electronics and microcontroller projects.
 
-More lists are in [resources](resources.md).
+Never coded? Start with CS50x. It and the data and hardware courses are in [resources](resources.md).
 
 Next: [find people](networking.md) to build with.

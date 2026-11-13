@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Where am I?"
+title: "Your 30-day plan"
 description: "Answer four questions and get a plan for your next 30 days, plus a quick check for when applications aren't working."
 ---
 {% assign s = site.data.stats %}
@@ -15,7 +15,7 @@ description: "Answer four questions and get a plan for your next 30 days, plus a
   data-spring="{{ s.terms.spring | default: 0 }}"
   data-part-time="{{ s.terms.part_time | default: 0 }}">
 
-<h1>Where am I?</h1>
+<h1>Your 30-day plan</h1>
 <p class="lead">Answer four questions. You'll get 2 to 4 things to do in the next 30 days and the job lists that fit you. Nothing is saved or sent anywhere.</p>
 
 <noscript>
@@ -71,7 +71,7 @@ description: "Answer four questions and get a plan for your next 30 days, plus a
 
 <section class="lanes-mini" aria-labelledby="lanes-title">
   <h2 id="lanes-title">Lists by track</h2>
-  <p>Not everyone wants a software job. Each list holds internships and new-grad roles for one kind of work. Not sure which fits? Read <a href="{{ '/guides/tracks.html' | relative_url }}">Pick your lane</a>.</p>
+  <p>Not everyone wants a software job. Each list holds internships and new-grad roles for one kind of work. Not sure which fits? Read <a href="{{ '/guides/tracks.html' | relative_url }}">Pick your track</a>.</p>
   <ul class="chips" role="list">
     <li><a class="chip" href="{{ '/track-software.html' | relative_url }}">Software <span class="count">{{ s.tracks.software | default: "" }}</span></a></li>
     <li><a class="chip" href="{{ '/track-embedded.html' | relative_url }}">Embedded <span class="count">{{ s.tracks.embedded | default: "" }}</span></a></li>
@@ -114,10 +114,10 @@ description: "Answer four questions and get a plan for your next 30 days, plus a
   // Each action: [what to do, how / why, link path, link label]
   var A = {
     resume: ['Make (or update) a one-page resume.', 'Class projects, part-time jobs and clubs all count. Plain format, no objective line.', 'guides/resume.html', 'Resume guide'],
-    project: ['Start one small project you can explain line by line.', 'Build something that annoys you or a friend. Finish a small version in 2 to 3 weeks before adding features.', 'guides/projects.html', 'Projects guide'],
+    project: ['Start one small project you can explain line by line.', 'Build something that annoys you or a friend. Finish a small version in 2 to 4 weeks before adding features.', 'guides/projects.html', 'Projects guide'],
     people: ['Talk to one professor and one upperclassman.', 'Bring one question to office hours. Ask an upperclassman how they found their first role.', 'guides/networking.html', 'Networking guide'],
     codeStart: ['Start easy coding problems, 2 or 3 a week.', 'Use the language from your classes. You don\'t need Data Structures to begin.', 'guides/interviews.html', 'Interviews guide'],
-    codePrep: ['Practice coding problems 3 to 5 times a week.', 'Time yourself and say your thinking out loud, like in a real interview. Hardware and security roles test differently; check your track.', 'guides/interviews.html', 'Interviews guide'],
+    codePrep: ['Build up to 4 or 5 timed coding problems a week.', 'Time yourself and say your thinking out loud, like in a real interview. Hardware and security roles test differently; check your track.', 'guides/interviews.html', 'Interviews guide'],
     early: ['Apply to 5 roles open to first- and second-years.', 'Early programs, research (REUs) and local companies all count. Aim for any internship by the end of sophomore year, then move up.', 'guides/#where-are-you', 'What fits your year'],
     weekly: ['Apply to 10 to 15 roles a week.', 'Ask for referrals first, then apply to the closest deadlines. Tailor only your top picks.', 'guides/applying.html', 'Applying guide'],
     sprint: ['Do the 6-week catch-up plan.', 'One resume, one project, a steady applying routine, in that order. Late is normal; plenty of students start here.', 'guides/applying.html#behind-start-here', 'Behind? Start here'],
@@ -128,7 +128,7 @@ description: "Answer four questions and get a plan for your next 30 days, plus a
     newgrad: ['Apply to new-grad roles every week.', 'Big companies fill many of these in the fall. Smaller and local employers keep hiring through spring.', 'NEW_GRAD.html', 'New-grad list'],
     stories: ['Prepare 3 stories and one project you can defend.', 'A problem you solved, a conflict, a mistake you fixed. Know every line of your best project.', 'guides/interviews.html', 'Interviews guide'],
     funnel: ['Sent 40 or more applications? Run the funnel check.', 'It tells you whether the resume, the coding tests or the interviews are the problem.', '#funnel', 'Funnel check below'],
-    tracks: ['Pick a lane.', 'Software, embedded, hardware, security, IT, data and government each prep a bit differently.', 'guides/tracks.html', 'Pick your lane']
+    tracks: ['Pick a track.', 'Software, embedded, hardware, security, IT, data and government each prep a bit differently.', 'guides/tracks.html', 'Pick your track']
   };
 
   function actions(a) {

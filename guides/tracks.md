@@ -146,7 +146,7 @@ Job list: [data track](../track-data.md).
 
 **How interviews differ.** Often a panel or a phone interview with a manager, plus questions about teamwork and following rules. Honest answers on forms matter a lot. See [government](government.md).
 
-**Timing.** These jobs often open in the fall, because clearances take months. Do not wait for spring.
+**Timing.** These open in the fall, not spring. See [when to apply](government.md#when-to-apply).
 
 Job list: [government track](../track-gov.md).
 
@@ -156,14 +156,7 @@ Co-op programs vary by school, so ask your career office early. A co-op may take
 
 ## Resources
 
-- [CyberSeek](https://www.cyberseek.org): a map of cybersecurity jobs and career paths.
-- [picoCTF](https://picoctf.org): Carnegie Mellon's free security learning site, with beginner challenges.
-- [OverTheWire](https://overthewire.org/wargames/): Linux and security games.
-- [National Cyber League](https://www.nationalcyberleague.org): online cyber competition for students.
-- [HDLBits](https://hdlbits.01xz.net/wiki/Main_Page): Verilog practice, one small circuit at a time.
-- [Nand2Tetris](https://www.nand2tetris.org): build a computer from logic gates up.
-- [Kaggle Learn](https://www.kaggle.com/learn): free short courses in Python and data.
-- [Hugging Face Learn](https://huggingface.co/learn): free courses on machine learning.
+- Practice sites and courses for data, hardware and security: [resources by situation](resources.md#by-situation).
 - [USAJOBS](https://www.usajobs.gov): federal job search. See [government](government.md).
 
 Next: [government and defense](government.md).

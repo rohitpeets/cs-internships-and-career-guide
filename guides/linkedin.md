@@ -69,7 +69,7 @@ Template that fits (under 200 characters once you fill it in):
 
 > Hi [Name], I'm a [Year] CS student at [School]. I saw you went here too. Could I ask you one quick question about your work at [Company]?
 
-Aim for about 5 requests a week. When someone replies, ask your one question. If they're friendly, ask for 15 minutes. After any chat, follow up the next day with thanks. If they don't answer, send **one** nudge a week later ("Just checking in. No worries if you're busy.") and then stop. Full scripts, including a follow-up, are in [networking](networking.md#alumni).
+Aim for about 5 requests a week. If they don't answer, send **one** nudge a week later ("Just checking in. No worries if you're busy.") and then stop. What to send once they accept, and how to follow up after a chat: [networking: alumni](networking.md#alumni).
 
 After you apply to a company, it's fine to message an alum there with one line saying you applied and why. See [applying: referrals](applying.md#referrals).
 
