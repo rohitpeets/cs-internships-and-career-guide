@@ -1,6 +1,6 @@
 # Hardware and chips
 
-[⬅ Back to the main page](./) · 94 open · updated 2026-11-13
+[⬅ Back to the main page](./) · 94 open · updated 2026-11-14
 
 Chip design, FPGA and ASIC work, and design verification. New to this track? Read the [hardware and chips section of the tracks guide](guides/tracks.md#hardware-and-chips).
 
@@ -94,8 +94,8 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Exol | [Co-op- Hardware Engineer](https://symbotic.wd504.myworkdayjobs.com/Symbotic/job/USA-Wilmington-MA---ITC/Hardware-Engineer_R7976) | USA Wilmington, MA - ITC | 🔄 co-op | Sep 22 |
 | Base Power Company | [Hardware Sourcing Intern](https://jobs.ashbyhq.com/base-power/7ba325d9-4256-4567-83a4-8dd9c72a0d10) | Austin, TX |  | Sep 18 |
 | Insulet Corporation | [Co-op, Systems Engineering - Design Verification: January - June 2027 \(Onsite\)](https://insulet.wd5.myworkdayjobs.com/insuletcareers/job/Acton-Massachusetts/Co-op--Systems-Engineering---Design-Verification--January---June-2027--Onsite-_REQ-2026-18144-1)<br><sub>“Candidates must have authorization to work in the U.S. without current or future sponsorship needs.”</sub> | Acton, Massachusetts | 🛂❌ no sponsor<br>🔄 co-op | Sep 17 |
-| Bedrock Robotics Inc | [2027 Internship Hardware Engineer, Machine Integration &amp; Test](https://jobs.ashbyhq.com/bedrock-robotics/c9c08251-6a42-4f9c-be4d-2621995cc8f9) | San Francisco, CA |  | Sep 14 |
-| Emerson | [Analog Hardware Design Intern](https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26010830)<br><sub>“Authorized to work in the United States without sponsorship now or in the future”</sub> | Austin, TX, United States | 🛂❌ no sponsor | Sep 14 |
+| Bedrock Robotics Inc | [2027 Internship Hardware Engineer, Machine Integration &amp; Test](https://jobs.ashbyhq.com/bedrock-robotics/c9c08251-6a42-4f9c-be4d-2621995cc8f9) | San Francisco, CA | ⏳ 60+ days | Sep 14 |
+| Emerson | [Analog Hardware Design Intern](https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26010830)<br><sub>“Authorized to work in the United States without sponsorship now or in the future”</sub> | Austin, TX, United States | 🛂❌ no sponsor<br>⏳ 60+ days | Sep 14 |
 | Allegion | [Summer Intern - Hardware Engineering - Indianapolis, Indiana](https://allegion.wd5.myworkdayjobs.com/careers/job/Indianapolis-IN---Hague-Rd/Summer-Intern---Hardware-Engineering---Indianapolis--Indiana_JR37467-1)<br><sub>“The company does not intend to provide sponsorship for employment visa status \(e.g., H-1B, TN, etc.\) for this employment position.”</sub> | Indianapolis, IN - Hague Rd | 🛂❌ no sponsor<br>🎓 3.0+ GPA<br>⏳ 60+ days | Sep 11 |
 | National Laboratory of the Rockies | [Graduate \(Year-Round\) Intern – Modeling, Real-Time Simulation and Hardware in the Loop \(HIL\) Testing of Distribution Systems](https://nrel.wd5.myworkdayjobs.com/NLR/job/Golden-CO/Graduate--Year-Round--Intern---Modeling--Real-Time-Simulation-and-Hardware-in-the-Loop--HIL--Testing-of-Distribution-Systems_R14483) | Golden, CO | 🎓 3.0+ GPA<br>⏳ 60+ days | Sep 11 |
 | Bedrock Robotics Inc | [2027 Internship Hardware Engineer](https://jobs.ashbyhq.com/bedrock-robotics/949feb1b-c60f-43c5-94de-7dd9cd70ba4a) | San Francisco, CA | ⏳ 60+ days | Sep 10 |

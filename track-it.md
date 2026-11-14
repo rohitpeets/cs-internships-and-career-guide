@@ -1,6 +1,6 @@
 # IT and networking
 
-[⬅ Back to the main page](./) · 250 open · updated 2026-11-13
+[⬅ Back to the main page](./) · 252 open · updated 2026-11-14
 
 IT support, networking, systems administration and cloud operations. New to this track? Read the [it and networking section of the tracks guide](guides/tracks.md#it-and-networking).
 
@@ -33,10 +33,12 @@ The track comes from the words in the job title, so a few jobs may land in the w
 
 <div class="job-filter" id="job-filter"></div>
 
-## Internships (242)
+## Internships (244)
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
+| Amazon | [Data Center Infrastructure Engineer Intern, Summer 2027 - East](https://www.amazon.jobs/en/jobs/10605141/data-center-infrastructure-engineer-intern-summer-2027-east) | Herndon, Virginia, USA |  | Nov 14 |
+| Amazon | [Data Center Infrastructure Engineer Intern, Summer 2027 - West Coast](https://www.amazon.jobs/en/jobs/10605132/data-center-infrastructure-engineer-intern-summer-2027-west-coast) | Umatilla, Oregon, USA |  | Nov 14 |
 | Arch Insurance Group Inc | [Originations Portal IT Intern](https://archgroup.wd1.myworkdayjobs.com/Careers/job/Greensboro-NC-United-States-of-America/Originations-Portal-IT-Intern_R26_1135) | Greensboro, NC United States of America | 🎓 3.0+ GPA | Nov 13 |
 | Daimler Truck | [IT Developer Analyst Intern](https://dtna.wd5.myworkdayjobs.com/DTNA_affiliate/job/Mount-Holly-NC-US/IT-Developer-Analyst-Intern_DT-20681-1) | Mount Holly, NC US |  | Nov 13 |
 | Daimler Truck AG | [IT Developer Analyst Intern](https://dtna.wd5.myworkdayjobs.com/DTNA_external/job/Mount-Holly-NC-US/IT-Developer-Analyst-Intern_DT-20681) | Mount Holly, NC US |  | Nov 13 |
@@ -237,11 +239,11 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | NJM Insurance Group | [IT QA Automation Intern](https://njm.wd1.myworkdayjobs.com/njm/job/NJM---Trenton/IT-QA-Automation-Intern_R2008283) | NJM - Trenton | 🎓 3.0+ GPA | Sep 15 |
 | NJM Insurance Group | [IT Workstation Support Intern](https://njm.wd1.myworkdayjobs.com/njm/job/NJM---Trenton/IT-Workstation-Support--Intern_R2008273) | NJM - Trenton | 🎓 3.0+ GPA | Sep 15 |
 | NYISO Internship Program | [Intern - IT Service Delivery](https://job-boards.greenhouse.io/nyisointernships/jobs/5236071007) | Rensselaer, New York, United States |  | Sep 15 |
-| AtkinsRéalis | [Water Infrastructure Engineering Intern - Summer 2027](https://slihrms.wd3.myworkdayjobs.com/Careers/job/USNVHenderson/Water-Infrastructure-Engineering-Intern---Summer-2027_R-160500-2) | US.NV.Henderson |  | Sep 14 |
-| Campbell's | [Information Technology Internship Program - Summer 2027](https://campbellsoup.wd5.myworkdayjobs.com/ExternalCareers_GlobalSite/job/USA---NJ---Camden/Information-Technology-Internship-Program---Summer-2027_Req-68193) | USA - NJ - Camden | 🎓 3.0+ GPA | Sep 14 |
-| Guardian Life Insurance | [2027 Guardian Summer Intern, Digital &amp; Technology, Cloud &amp; DevOps](https://guardianlife.wd5.myworkdayjobs.com/Guardian-Life-Careers/job/Bethlehem/XMLNAME-2027-Guardian-Summer-Intern--Digital---Technology--Cloud---DevOps_R000110210)<br><sub>“H1-B and green card sponsorship are not available for this position.”</sub> | Bethlehem | 🛂❌ no sponsor | Sep 14 |
-| National Life Group - Interns | [IT Application Development Intern \(Inforce\) – Summer 2027](https://job-boards.greenhouse.io/nlginterns/jobs/4402185009)<br><sub>“Please note that we do not offer visa sponsorship for this position.”</sub> | Addison, TX; Montpelier, VT | 🛂❌ no sponsor | Sep 14 |
-| National Life Insurance Company | [IT Application Development Intern \(Inforce\) – Summer 2027](https://job-boards.greenhouse.io/nationallifeinsurancecompany/jobs/4402184009)<br><sub>“Please note that we do not offer visa sponsorship for this position.”</sub> | Addison, TX; Montpelier, VT | 🛂❌ no sponsor | Sep 14 |
+| AtkinsRéalis | [Water Infrastructure Engineering Intern - Summer 2027](https://slihrms.wd3.myworkdayjobs.com/Careers/job/USNVHenderson/Water-Infrastructure-Engineering-Intern---Summer-2027_R-160500-2) | US.NV.Henderson | ⏳ 60+ days | Sep 14 |
+| Campbell's | [Information Technology Internship Program - Summer 2027](https://campbellsoup.wd5.myworkdayjobs.com/ExternalCareers_GlobalSite/job/USA---NJ---Camden/Information-Technology-Internship-Program---Summer-2027_Req-68193) | USA - NJ - Camden | 🎓 3.0+ GPA<br>⏳ 60+ days | Sep 14 |
+| Guardian Life Insurance | [2027 Guardian Summer Intern, Digital &amp; Technology, Cloud &amp; DevOps](https://guardianlife.wd5.myworkdayjobs.com/Guardian-Life-Careers/job/Bethlehem/XMLNAME-2027-Guardian-Summer-Intern--Digital---Technology--Cloud---DevOps_R000110210)<br><sub>“H1-B and green card sponsorship are not available for this position.”</sub> | Bethlehem | 🛂❌ no sponsor<br>⏳ 60+ days | Sep 14 |
+| National Life Group - Interns | [IT Application Development Intern \(Inforce\) – Summer 2027](https://job-boards.greenhouse.io/nlginterns/jobs/4402185009)<br><sub>“Please note that we do not offer visa sponsorship for this position.”</sub> | Addison, TX; Montpelier, VT | 🛂❌ no sponsor<br>⏳ 60+ days | Sep 14 |
+| National Life Insurance Company | [IT Application Development Intern \(Inforce\) – Summer 2027](https://job-boards.greenhouse.io/nationallifeinsurancecompany/jobs/4402184009)<br><sub>“Please note that we do not offer visa sponsorship for this position.”</sub> | Addison, TX; Montpelier, VT | 🛂❌ no sponsor<br>⏳ 60+ days | Sep 14 |
 | Allegion | [Summer Intern - IT Manufacturing Systems](https://allegion.wd5.myworkdayjobs.com/careers/job/Carmel-IN/Summer-Intern---IT-Manufacturing-Systems_JR37409-1)<br><sub>“The company does not intend to provide sponsorship for employment visa status \(e.g., H-1B, TN, etc.\) for this employment position.”</sub> | Carmel, IN | 🛂❌ no sponsor<br>⏳ 60+ days | Sep 11 |
 | Faith Technologies | [IT Internships -Summer 2027](https://faithtechnologies.wd1.myworkdayjobs.com/FTI/job/WI---Menasha/IT-Internship-Summer-2027_R12062-1) | WI - Menasha | ⏳ 60+ days | Sep 11 |
 | Faith Technologies Incorporated \(FTI\) | [IT Internships -Summer 2027](https://faithtechnologies.wd1.myworkdayjobs.com/FTI_Intern/job/WI---Menasha/IT-Internship-Summer-2027_R12062) | WI - Menasha | ⏳ 60+ days | Sep 11 |

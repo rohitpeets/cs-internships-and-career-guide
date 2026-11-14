@@ -1,6 +1,6 @@
 # Embedded and firmware
 
-[⬅ Back to the main page](./) · 56 open · updated 2026-11-13
+[⬅ Back to the main page](./) · 56 open · updated 2026-11-14
 
 Firmware, microcontroller and real-time software that runs on devices. New to this track? Read the [embedded and firmware section of the tracks guide](guides/tracks.md#embedded-and-firmware).
 
@@ -81,7 +81,7 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Insulet Corporation | [Co-op, Embedded Software Engineering: January-June 2027 \(Onsite\)](https://insulet.wd5.myworkdayjobs.com/insuletcareers/job/Acton-Massachusetts/Co-op--Embedded-Software-Engineering--January-June-2027--Onsite-_REQ-2026-17966)<br><sub>“Candidates must have authorization to work in the U.S. without current or future sponsorship needs.”</sub> | Acton, Massachusetts | 🛂❌ no sponsor<br>🔄 co-op | Sep 15 |
 | Insulet Corporation | [Co-op, Embedded Software Test Engineering: January-June 2027 \(Onsite\)](https://insulet.wd5.myworkdayjobs.com/insuletcareers/job/Acton-Massachusetts/Co-op--Embedded-Software-Test-Engineering--January-June-2027--Onsite-_REQ-2026-17986)<br><sub>“Candidates must have authorization to work in the U.S. without current or future sponsorship needs.”</sub> | Acton, Massachusetts | 🛂❌ no sponsor<br>🔄 co-op | Sep 15 |
 | Penn State University | [Embedded Systems and Hardware Co-Op](https://psu.wd1.myworkdayjobs.com/PSU_Staff/job/Warminster-PA/Embedded-Systems-and-Hardware-Co-Op_REQ_0000066566-2)<br><sub>“You will be subject to a government security investigation, and you must be a U.S. citizen to apply.”</sub> | Warminster, PA | 🇺🇸 citizens<br>🔒 clearance<br>🔄 co-op | Sep 15 |
-| Base Power Company | [Embedded Software Engineering Intern](https://jobs.ashbyhq.com/base-power/a8ee9a66-e90b-42c2-a4a2-28d997c3e8c7) | Austin, TX |  | Sep 14 |
+| Base Power Company | [Embedded Software Engineering Intern](https://jobs.ashbyhq.com/base-power/a8ee9a66-e90b-42c2-a4a2-28d997c3e8c7) | Austin, TX | ⏳ 60+ days | Sep 14 |
 | Solidigm | [2027 Graduate Software, Firmware &amp; AI Engineering Internships - US](https://jobs.smartrecruiters.com/Solidigm/744000147613769-2027-graduate-software-firmware-ai-engineering-internships-us) | Rancho Cordova, CA, US | ⏳ 60+ days | Sep 5 |
 | Solidigm | [2027 Undergraduate Software Development &amp; Firmware Engineering Internships – US](https://jobs.smartrecruiters.com/Solidigm/744000147613629-2027-undergraduate-software-development-firmware-engineering-internships-us) | Rancho Cordova, CA, US | ⏳ 60+ days | Sep 4 |
 | General Matter | [Summer 2027 Internship - Embedded Software Engineering](https://job-boards.greenhouse.io/generalmatter/jobs/5377131008) | Los Angeles, CA | ⏳ 60+ days | Sep 2 |

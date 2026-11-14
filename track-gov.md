@@ -1,6 +1,6 @@
 # Government and defense
 
-[⬅ Back to the main page](./) · 155 open · updated 2026-11-13
+[⬅ Back to the main page](./) · 153 open · updated 2026-11-14
 
 Government, national-lab and defense roles, plus any posting that asks for a clearance or U.S. citizenship. New to this track? Read the [government and defense section of the tracks guide](guides/tracks.md#government-and-defense).
 
@@ -33,7 +33,7 @@ A posting is on this page if its title names government, a national lab or defen
 
 <div class="job-filter" id="job-filter"></div>
 
-## Internships (115)
+## Internships (113)
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
@@ -120,10 +120,8 @@ A posting is on this page if its title names government, a national lab or defen
 | Saronic Technologies | [Enterprise Technology Intern - AI and Automation \(Summer 2027\)](https://jobs.ashbyhq.com/saronic/6118e5ce-36b0-4f9a-a0c4-34dceb46b9c1)<br><sub>“If this role is based in the United States, it requires access to export-controlled information or items that require “U.S. Person” status.”</sub> | Austin, TX | 🇺🇸 citizens<br>⏳ 60+ days | Sep 9 |
 | Saronic Technologies | [Information Technology Intern \(Summer 2027\)](https://jobs.ashbyhq.com/saronic/0fa1ca8f-0dca-43cc-a5fa-59c40840986f)<br><sub>“If this role is based in the United States, it requires access to export-controlled information or items that require “U.S. Person” status.”</sub> | Austin, TX | 🇺🇸 citizens<br>⏳ 60+ days | Sep 9 |
 | Saronic Technologies | [Software Engineer Intern \(Summer 2027\)](https://jobs.ashbyhq.com/saronic/60afb634-5515-4347-824a-3816735541c2)<br><sub>“If this role is based in the United States, it requires access to export-controlled information or items that require “U.S. Person” status.”</sub> | Austin, TX | 🇺🇸 citizens<br>⏳ 60+ days | Sep 9 |
-| K2 Space | [Simulation Software Engineering Intern - Summer 2027](https://job-boards.greenhouse.io/k2spacecorporation/jobs/5418727008)<br><sub>“The person hired for this role must therefore either be a “U.S. person” as defined by&amp;nbsp; 22 C.F.R. § 120.15 or otherwise eligible for a f…”</sub> | Los Angeles, CA | 🇺🇸 citizens<br>⚠ unverified<br>⏳ 60+ days | Sep 8 |
 | Arconic | [IT Infrastructure Observability Intern](https://hdnn.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/114157)<br><sub>“Visa sponsorship is not available for this position.”</sub> | Davenport, IA, United States | 🛂❌ no sponsor<br>🇺🇸 citizens<br>🎓 3.0+ GPA<br>⏳ 60+ days | Sep 4 |
 | PwC | [Salesforce Developer - Intern - Napoli \[ADV\]](https://pwc.wd3.myworkdayjobs.com/NonPublic_Postings/job/Naples/Salesforce-Developer---Intern---Napoli--ADV-_684823WD)<br><sub>“Government Clearance Required?”</sub> | Naples | 🔒 clearance<br>⚠ unverified<br>⏳ 60+ days | Sep 4 |
-| K2 Space | [Software Engineering Intern – Summer 2027](https://job-boards.greenhouse.io/k2spacecorporation/jobs/5411920008)<br><sub>“The person hired for this role must therefore either be a “U.S. person” as defined by&amp;nbsp; 22 C.F.R. § 120.15 or otherwise eligible for a f…”</sub> | Los Angeles, CA | 🇺🇸 citizens<br>⚠ unverified<br>⏳ 60+ days | Sep 1 |
 | 3M | [Internship - 2027 Undergraduate IT Intern](https://3m.wd1.myworkdayjobs.com/Search/job/US-Minnesota-Maplewood/Internship---2027-Undergraduate-IT-Intern_R01170403-1)<br><sub>“Must be legally authorized to work in country of employment without sponsorship for employment visa status \(e.g., H1B status\).”</sub> | US, Minnesota, Maplewood | 🛂❌ no sponsor<br>🇺🇸 citizens<br>🎓 3.0+ GPA<br>⏳ 60+ days | Aug 31 |
 | Motorola Solutions | [Android Applications Developer Intern - Summer 2027](https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Chicago-IL/Android-Applications-Developer-Intern---Summer-2027_R67740)<br><sub>“Must be a US Citizen, permanent resident or be an MS student with work authorization \(F1 Visa on CPT accepted only for masters-level student…”</sub> | Chicago, IL | 🇺🇸 citizens<br>⏳ 60+ days | Aug 24 |
 | LLNL | [National Security Engineering Division \(NSED\) Graduate Intern - Summer 2027](https://jobs.smartrecruiters.com/LLNL/3743990014731646-national-security-engineering-division-nsed-graduate-intern-summer-2027)<br><sub>“Security Clearance”</sub> | Livermore, CA, US | 🔒 clearance<br>🎓 3.5+ GPA<br>⏳ 60+ days | Aug 21 |
