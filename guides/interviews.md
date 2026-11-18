@@ -87,7 +87,7 @@ Be ready for:
 - **"Why did you do it this way?"** Know the alternatives.
 - **"What did the AI get wrong?"** Have a real example: a bug it introduced, an outdated library it suggested, code that worked but was slow. A good answer shows you check its output.
 
-During interviews and online assessments, follow each company's rules. Most ban AI help unless they say otherwise.
+During interviews and online assessments, follow each company's rules. Most ban AI help unless they say otherwise. Some companies now run a coding round where you're expected to use AI, at intern and new-grad level too: Meta, Stripe, DoorDash and LinkedIn among them. If your invite mentions AI, check [which companies run these rounds](https://nyrion.ai/companies/interns-and-new-grads).
 
 ## Behavioral
 

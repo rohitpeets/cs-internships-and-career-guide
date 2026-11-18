@@ -27,6 +27,7 @@ Too many lists make it hard to start. Begin with the top picks below. Use the gr
 - [NeetCode](https://neetcode.io): coding problem lists with video explanations.
 - [Tech Interview Handbook](https://www.techinterviewhandbook.org): free guides to coding and behavioral rounds.
 - [Pramp](https://www.pramp.com): free peer mock interviews with other students.
+- [Nyrion](https://nyrion.ai): practice for coding rounds where you work with an AI assistant. Free plan; Pro is $19 a month.
 
 **More job lists**
 - [Simplify's internship and new-grad lists](https://github.com/SimplifyJobs): community-kept lists of postings.
