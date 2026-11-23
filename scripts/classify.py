@@ -141,7 +141,7 @@ def us_job(location: str) -> bool:
 # campus-specific reqs ("HEC Engineer Intern - LSU") are only open to that school's students.
 # HOME_SCHOOL is the one exception: the board started at McNeese, and McNeese students still use it.
 # Change it (or set it to None) if you fork the board for another school.
-HOME_SCHOOL = re.compile(r"mcneese", re.I)
+HOME_SCHOOL = None
 OTHER_SCHOOL = re.compile(r"-\s*(colorado school of mines|montana( state| tech)?|lsu|texas a&m|a&m|ou|clemson|ut|tulsa|purdue|georgia tech|"
                           r"[a-z .&]+ (university|college|state))\s*$"
                           # "SOC Analyst Internship Program - LSU Students Only", "... - Texas Tech University Only"

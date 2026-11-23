@@ -87,7 +87,7 @@ def test_school_specific_reqs_dropped():
     assert not keep_title("I-26002 - HEC Engineer Intern - LSU")
     assert not keep_title("I - 27002 - AK Field Engineer Intern - Colorado School of Mines")
     assert keep_title("Software Engineering Co-op (Jun-Dec 2027)")
-    assert keep_title("Software Engineering Intern - McNeese State University")
+    assert not  keep_title("Software Engineering Intern - McNeese State University")
 
 
 def test_allow_list_needs_cs_work_in_title():
@@ -276,7 +276,7 @@ def test_chip_and_test_titles_still_kept():
 
 def test_home_school_is_the_only_campus_exception():
     import classify
-    assert classify.HOME_SCHOOL.search("McNeese")
+    assert classify.HOME_SCHOOL is None
     assert not keep_title("Software Engineering Intern - Tulsa University")
 
 
@@ -305,7 +305,7 @@ def test_non_cs_titles_that_look_technical_are_dropped():
 def test_campus_only_anywhere_in_title():
     assert not keep_title("SOC Analyst Internship Program - LSU Students Only")
     assert not keep_title("Software Engineering Intern - Texas Tech University Only")
-    assert keep_title("Software Engineering Intern - McNeese State University Students Only")
+    assert not keep_title("Software Engineering Intern - McNeese State University Students Only")
     assert keep_title("Software Engineering Intern (Only Summer 2027)")
 
 
