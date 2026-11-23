@@ -1,6 +1,7 @@
 # Each company's own careers page, for the ones this board can't read. Shown as links under "Not on this board yet".
 # Keep every company in must_have.yaml here (a test checks). Use the company's official site, never a job aggregator.
 pages:
+  Capital One: https://www.capitalonecareers.com/students
   Meta: https://www.metacareers.com/
   Microsoft: https://careers.microsoft.com/
   Amazon: https://www.amazon.jobs/
@@ -25,7 +26,6 @@ pages:
   Shell: https://www.shell.com/careers.html
   Lockheed Martin: https://www.lockheedmartinjobs.com/
   Boeing: https://jobs.boeing.com/
-  Capital One: https://www.capitalonecareers.com/
   JPMorgan Chase: https://careers.jpmorgan.com/
   Goldman Sachs: https://www.goldmansachs.com/careers/
   Bloomberg: https://careers.bloomberg.com/
