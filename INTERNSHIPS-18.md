@@ -1,6 +1,6 @@
 # Internships
 
-[⬅ Back to the main page](./) · 2209 open · page 18 of 19 · updated 2026-11-23
+[⬅ Back to the main page](./) · 2204 open · page 18 of 19 · updated 2026-11-23
 
 [⬅ INTERNSHIPS page 17](INTERNSHIPS-17.md) · page 18 of 19 · [INTERNSHIPS page 19 ➡](INTERNSHIPS-19.md)
 
@@ -34,11 +34,6 @@
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
-| Verkada | [Embedded Software Engineering Intern 2027](https://job-boards.greenhouse.io/verkada/jobs/5211595007)<br><sub>“We do sponsor and take over sponsorship of employment visas for this role.”</sub> | San Mateo, CA | 🛂✅ sponsors<br>⏳ 60+ days | Aug 25 |
-| Verkada | [Frontend Software Engineering Intern 2027](https://job-boards.greenhouse.io/verkada/jobs/5210942007)<br><sub>“We do sponsor and take over sponsorship of employment visas for this role.”</sub> | San Mateo, CA | 🛂✅ sponsors<br>⏳ 60+ days | Aug 25 |
-| Verkada | [Mobile Software Engineering Intern 2027](https://job-boards.greenhouse.io/verkada/jobs/5219131007)<br><sub>“We do sponsor and take over sponsorship of employment visas for this role.”</sub> | San Mateo, CA | 🛂✅ sponsors<br>⏳ 60+ days | Aug 25 |
-| Verkada | [Security Software Engineering Intern 2027](https://job-boards.greenhouse.io/verkada/jobs/5213881007)<br><sub>“We do sponsor and take over sponsorship of employment visas for this role.”</sub> | San Mateo, CA | 🛂✅ sponsors<br>⏳ 60+ days | Aug 25 |
-| Analog Devices | [Digital Design Engineer Intern](https://analogdevices.wd1.myworkdayjobs.com/External/job/US-NC-Durham/Digital-Design-Engineer-Intern_R265298) | US, NC, Durham | ⏳ 60+ days | Aug 24 |
 | BNY | [2027 BNY Summer Internship Program - Engineering \(Data Science\) - Jersey City, NJ](https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/81238)<br><sub>“Does not require sponsorship for employment visa status \(now or in the future\) in the country where applying.”</sub> | Jersey City, NJ | 🛂❌ no sponsor<br>🎓 3.0+ GPA<br>⏳ 60+ days | Aug 24 |
 | BNY | [2027 BNY Summer Internship Program - Engineering \(Data Science\) - Lake Mary, FL](https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/81239)<br><sub>“Does not require sponsorship for employment visa status \(now or in the future\) in the country where applying.”</sub> | Lake Mary, FL | 🛂❌ no sponsor<br>🎓 3.0+ GPA<br>⏳ 60+ days | Aug 24 |
 | BNY | [2027 BNY Summer Internship Program - Engineering \(Data Science\) - New York, NY](https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/81240)<br><sub>“Does not require sponsorship for employment visa status \(now or in the future\) in the country where applying.”</sub> | New York, NY | 🛂❌ no sponsor<br>🎓 3.0+ GPA<br>⏳ 60+ days | Aug 24 |
@@ -130,7 +125,7 @@
 | IMC | [Quantitative Research Intern \(BS/MS\) - Summer 2027](https://job-boards.eu.greenhouse.io/imc/jobs/4907399101) | Chicago | ⏳ 60+ days | Jul 1 |
 | IMC | [Quantitative Trader Intern - Summer 2027](https://job-boards.eu.greenhouse.io/imc/jobs/4823923101) | Chicago | ⏳ 60+ days | Jul 1 |
 | IMC | [Software Engineer Intern - Summer 2027](https://job-boards.eu.greenhouse.io/imc/jobs/4823924101)<br><sub>“Please note that immigration sponsorship is not offered for this specific opening.”</sub> | Chicago | 🛂❌ no sponsor<br>⏳ 60+ days | Jul 1 |
-| Palantir Technologies | [Forward Deployed Software Engineer, Internship - Commercial](https://jobs.lever.co/palantir/d5486403-c050-4920-b2e0-91b69b61ebb2) | Chicago, IL | ⏳ 60+ days | Jun 30 |
+| Palantir Technologies | [Forward Deployed Software Engineer, Internship - Commercial](https://jobs.lever.co/palantir/d5486403-c050-4920-b2e0-91b69b61ebb2) | Chicago, IL | ⚠ unverified<br>⏳ 60+ days | Jun 30 |
 | Mayo Clinic | [AI/ML Intern - Radiation Oncology](https://fa-euwp-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/385703)<br><sub>“This vacancy is not eligible for sponsorship/we will not sponsor or transfer visas for this position.”</sub> | Rochester, MN | 🛂❌ no sponsor<br>⏳ 60+ days | Jun 25 |
 | Palantir Technologies | [Year at Palantir - Forward Deployed Software Engineer, Internship - Commercial](https://jobs.lever.co/palantir/75cc1c09-8ebd-44c8-b3bc-d122cd1fecb3)<br><sub>“For USG: An active U.S. security clearance, or eligibility and willingness to obtain one, is required”</sub> | Chicago, IL | 🔒 clearance<br>⏳ 60+ days | Jun 24 |
 | Thales | [AI Engineer - Internship \(Open also to Protected Categories, Law 68/99\)](https://thales.wd3.myworkdayjobs.com/Careers/job/Gorgonzola/AI-Engineer---Internship--Open-also-to-Protected-Categories--Law-68-99-_R0332137) | Gorgonzola | ⚠ unverified<br>⏳ 60+ days | Jun 18 |
@@ -154,6 +149,11 @@
 | Ramp | [Software Engineering Intern, Backend](https://jobs.ashbyhq.com/ramp/acf6b28d-767f-483f-8ff2-114620cd7e04) | New York, NY \(HQ\) | ⏳ 60+ days | Apr 9 |
 | Eulerity | [Mobile iOS Developer Intern](https://job-boards.greenhouse.io/eulerity/jobs/4671025006) | New York, NY | ⏳ 60+ days | Apr 7 |
 | Cloudflare | [People Team: Software Engineer Intern \(Winter 2027\)](https://boards.greenhouse.io/cloudflare/jobs/7774167?gh_jid=7774167) | Hybrid | ⚠ unverified<br>⏳ 60+ days | Apr 2 |
+| Aquatic Capital Management | [Software Engineer, Intern \(Summer 2027\)](https://job-boards.greenhouse.io/aquaticcapitalmanagement/jobs/8489233002) | Chicago | ⏳ 60+ days | Apr 1 |
+| PwC | [Consulting - Internship - AI &amp; Data Science](https://pwc.wd3.myworkdayjobs.com/NonPublic_Postings/job/Yogyakarta/Consulting---Internship---Strategy---Operations--AI---Data-Science-_718300WD)<br><sub>“Government Clearance Required?”</sub> | Yogyakarta | 🔒 clearance<br>🎓 3.0+ GPA<br>⚠ unverified<br>⏳ 60+ days | Apr 1 |
+| Palantir Technologies | [Year at Palantir - Forward Deployed Software Engineer, Internship - Commercial](https://jobs.lever.co/palantir/e6789b17-62fb-4226-a079-f8c17ff19e2d)<br><sub>“For USG: An active U.S. security clearance, or eligibility and willingness to obtain one, is required”</sub> | New York, NY | 🔒 clearance<br>⏳ 60+ days | Mar 20 |
+| Palantir Technologies | [Year at Palantir - Forward Deployed Software Engineer, Internship - USG](https://jobs.lever.co/palantir/5c7bb70c-83ea-43e7-8055-0c8f319f4333)<br><sub>“For USG: An active U.S. security clearance, or eligibility and willingness to obtain one, is required”</sub> | New York, NY | 🔒 clearance<br>⏳ 60+ days | Mar 20 |
+| Palantir Technologies | [Year at Palantir - Software Engineer, Internship](https://jobs.lever.co/palantir/655f9937-a4ce-4e7d-80e2-a6659af07329)<br><sub>“For USG: An active U.S. security clearance, or eligibility and willingness to obtain one, is required”</sub> | New York, NY | 🔒 clearance<br>⏳ 60+ days | Mar 20 |
 
 [⬅ INTERNSHIPS page 17](INTERNSHIPS-17.md) · page 18 of 19 · [INTERNSHIPS page 19 ➡](INTERNSHIPS-19.md)
 

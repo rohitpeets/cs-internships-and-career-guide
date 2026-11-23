@@ -1,6 +1,6 @@
 # Internships
 
-[⬅ Back to the main page](./) · 2209 open · page 13 of 19 · updated 2026-11-23
+[⬅ Back to the main page](./) · 2204 open · page 13 of 19 · updated 2026-11-23
 
 [⬅ INTERNSHIPS page 12](INTERNSHIPS-12.md) · page 13 of 19 · [INTERNSHIPS page 14 ➡](INTERNSHIPS-14.md)
 
@@ -34,11 +34,6 @@
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
-| Hewlett Packard Enterprise | [Hardware Tools and Libraries Intern](https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Sunnyvale-California-United-States-of-America/Hardware-Tools-and-Libraries-Intern_1214085) | Sunnyvale, CA | ⚠ unverified | Oct 4 |
-| Affirm | [Software Engineer Intern \(Summer 2027\)](https://job-boards.greenhouse.io/affirm/jobs/8011590003) | San Francisco, CA |  | Oct 2 |
-| Amazon | [Software Development Engineer Intern \(Embedded Systems\) - Summer 2027 \(USA\)](https://www.amazon.jobs/en/jobs/10567914/software-development-engineer-intern-embedded-systems-summer-2027-usa) | Seattle, WA |  | Oct 2 |
-| Arc Boat Company | [Electrical Hardware Engineering Intern](https://job-boards.greenhouse.io/arcboatcompany/jobs/5442853008) | Torrance, CA |  | Oct 2 |
-| Arc Boat Company | [Software Engineering Intern](https://job-boards.greenhouse.io/arcboatcompany/jobs/5442881008) | Torrance, CA |  | Oct 2 |
 | Bedrock Robotics Inc | [2027 Internship Behavior ML Engineer, Learned Manipulation Policies](https://jobs.ashbyhq.com/bedrock-robotics/96a6423e-7439-4cb4-9109-117b14e47f7c) | San Francisco, CA |  | Oct 2 |
 | Cboe Global Markets | [Quant &amp; Data Analytics Intern](https://cboe.wd1.myworkdayjobs.com/External_Career_CBOE/job/Chicago-IL/Quant---Data-Analytics-Intern_R-4708)<br><sub>“This position is not eligible for visa sponsorship.”</sub> | Chicago, IL | 🛂❌ no sponsor | Oct 2 |
 | Hewlett Packard Enterprise | [ASIC Engineering Intern](https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Durham-North-Carolina-United-States-of-America/ASIC-Engineering-Intern_1214213) | Durham, NC | ⚠ unverified | Oct 2 |
@@ -154,6 +149,11 @@
 | LLNL | [Defense Science and Technology Internship Graduate Computer Student - Summer 2027](https://jobs.smartrecruiters.com/LLNL/3743990015740696-defense-science-and-technology-internship-graduate-computer-student-summer-2027)<br><sub>“Security Clearance is not required however due to federal requirements applicable to this position, US citizenship is required.”</sub> | Livermore, CA | 🗽 citizens<br>🔒 clearance<br>🎓 3.5+ GPA | Sep 28 |
 | South Jersey Gas | [Data Analytics Intern](https://sjindustries.wd1.myworkdayjobs.com/SJI/job/Folsom-NJ/Engineering-Design-Intern_R4369)<br><sub>“At this time, SJI is only considering applicants authorized to work in the United States currently and in the future without the need for vi…”</sub> | Folsom, NJ | 🛂❌ no sponsor | Sep 28 |
 | Voyager Technologies | [2027 Software Engineering Intern](https://job-boards.greenhouse.io/voyagertechnologiesinc/jobs/4423330009)<br><sub>“To conform to U.S. Government space technology export regulations, including the International Traffic in Arms Regulations \(ITAR\) you must b…”</sub> | Long Beach | 🗽 citizens | Sep 28 |
+| QuEra Computing, Inc | [Internship - Quantum Applications Research](https://job-boards.greenhouse.io/queracomputinginc/jobs/5435901008) | Boston, MA |  | Sep 27 |
+| QuEra Computing, Inc | [Internship - Quantum Error Correction Research](https://job-boards.greenhouse.io/queracomputinginc/jobs/5435899008) | Boston, MA |  | Sep 27 |
+| QuEra Computing, Inc | [Internship - Scientific Software and Compilation](https://job-boards.greenhouse.io/queracomputinginc/jobs/5435902008) | Boston, MA |  | Sep 27 |
+| Vertiv | [IT Intern \(Summer 2027\)](https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20279839) | Westerville, OH | ⚠ unverified | Sep 27 |
+| Vertiv | [Software Engineering Test Intern \(Summer 2027\)](https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20279305) | Delaware, OH | ⚠ unverified | Sep 27 |
 
 [⬅ INTERNSHIPS page 12](INTERNSHIPS-12.md) · page 13 of 19 · [INTERNSHIPS page 14 ➡](INTERNSHIPS-14.md)
 

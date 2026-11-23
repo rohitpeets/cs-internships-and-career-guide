@@ -1,6 +1,6 @@
 # Internships
 
-[⬅ Back to the main page](./) · 2209 open · page 5 of 19 · updated 2026-11-23
+[⬅ Back to the main page](./) · 2204 open · page 5 of 19 · updated 2026-11-23
 
 [⬅ INTERNSHIPS page 4](INTERNSHIPS-4.md) · page 5 of 19 · [INTERNSHIPS page 6 ➡](INTERNSHIPS-6.md)
 
@@ -34,11 +34,6 @@
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
-| ServiceNow | [Security Engineer Intern](https://jobs.smartrecruiters.com/ServiceNow/744000161592679-security-engineer-intern) | Kirkland, WA |  | Nov 13 |
-| Software Engineering Institute / Carnegie Mellon University | [Cyber AI Engineering Intern \(Spring 2027\)](https://cmu.wd115.myworkdayjobs.com/SEI/job/Pittsburgh-PA/Cyber-AI-Engineering-Intern--Spring-2027-_2025346-2)<br><sub>“• You will be subject to a background check and must be eligible to work in the United States without Visa sponsorship.”</sub> | Pittsburgh, PA | 🛂❌ no sponsor<br>🌱 spring | Nov 13 |
-| Software Engineering Institute / Carnegie Mellon University | [Cybersecurity Engineer Intern \(Spring 2027\)](https://cmu.wd115.myworkdayjobs.com/SEI/job/Pittsburgh-PA/Cybersecurity-Engineer-Intern--Spring-2027-_2025347-1)<br><sub>“You can pass a background check, obtain and maintain a DoW security clearance, and other customer-required background checks as needed.”</sub> | Pittsburgh, PA | 🔒 clearance<br>🌱 spring | Nov 13 |
-| State Street | [Cyber Security Operations Center Analyst, Full-time Internship \(Jan - June 2027\)](https://statestreet.wd1.myworkdayjobs.com/Global/job/Quincy-Massachusetts/Cyber-Security-Operations-Center-Analyst--Full-time-Internship--Jan---June-2027-_R-801091) | Quincy, MA | ⚠ unverified | Nov 13 |
-| Tapestry | [Summer IT, Digital &amp; Data Analytics Internship](https://tapestry.wd108.myworkdayjobs.com/Tapestry_Careers/job/New-York-New-York-USA-Corporate-Headquarters/Summer-IT--Digital---Data-Analytics-Internship_JR20965)<br><sub>“Please note: Visa sponsorship is not offered for this position.”</sub> | New York, New York, USA \(Corporate Headquarte… | 🛂❌ no sponsor<br>⚠ unverified | Nov 13 |
 | The Allen Institute for Artificial Intelligence | [Research Internship, AI for Neuroscience](https://job-boards.greenhouse.io/thealleninstitute/jobs/8293636) | Seattle, WA |  | Nov 13 |
 | Thermo Fisher Scientific | [2027 IT &amp; Digital Internship](https://thermofisher.wd5.myworkdayjobs.com/ThermoFisherCareers/job/Pittsburgh-Pennsylvania-USA/XMLNAME-2027-IT---Digital-Internship_R-01366217) | Pittsburgh, PA | ⚠ unverified | Nov 13 |
 | Toyota Research Institute | [Research Intern, Continual Adaptation for Robotics](https://jobs.lever.co/tri/6c9002a1-6ed1-42b7-829c-5ba6661446ac) | Cambridge, MA |  | Nov 13 |
@@ -154,6 +149,11 @@
 | SAP IT Business Systeme | [SAP iXp Intern - Full-Stack Software Engineer](https://jobs.smartrecruiters.com/SAPITBusinessSysteme/744000160967354-sap-ixp-intern-full-stack-software-engineer) | Palo Alto, CA |  | Nov 10 |
 | SAP IT Business Systeme | [SAP iXp Intern – Concur Travel Core &amp; AI Software Developer](https://jobs.smartrecruiters.com/SAPITBusinessSysteme/744000160955034-sap-ixp-intern-concur-travel-core-ai-software-developer) | Vancouver, British Columbia, CA |  | Nov 10 |
 | Skydio | [Hardware In Loop \(HIL\) Software Engineer Intern - Winter 2027](https://jobs.ashbyhq.com/skydio/add7fd86-78e6-483e-98cd-cdfc1029fded) | San Mateo, CA |  | Nov 10 |
+| Skydio | [Middleware Software Engineer Intern - Summer 2027](https://jobs.ashbyhq.com/skydio/c85af510-9fe4-4167-a914-c3ab344bef03) | San Mateo, CA |  | Nov 10 |
+| T-Mobile | [Summer 2027 Business Analytics &amp; Reporting Internship](https://tmobile.wd1.myworkdayjobs.com/External/job/Bellevue-Washington/Summer-2027-Business-Analytics---Reporting-Internship_REQ381319) | Bellevue, WA | ⚠ unverified | Nov 10 |
+| The Hartford | [Data Science Intern - Summer 2027](https://thehartford.wd5.myworkdayjobs.com/Careers_External/job/Hartford-CT/Data-Science-Intern---Summer-2027_R2627114)<br><sub>“Must be authorized to work in the United States without sponsorship now, or in the future”</sub> | Hartford, CT | 🛂❌ no sponsor | Nov 10 |
+| Thomson Reuters | [Software Engineer Co-Op](https://thomsonreuters.wd5.myworkdayjobs.com/External_Career_Site/job/United-States-of-America-Rochester-New-York/Software-Engineer-Co-Op_JREQ203587)<br><sub>“Ability to obtain and maintain a U.S. national security clearance”</sub> | United States of America, Rochester, NY | 🔒 clearance<br>🔄 co-op | Nov 10 |
+| Toyota Research Institute | [Human-Centered AI Research Intern, Causal Reasoning Models \(Summer 2027\)](https://jobs.lever.co/tri/be41a03c-460e-4ff7-b817-f012aa1c4b37) | Los Altos, CA |  | Nov 10 |
 
 [⬅ INTERNSHIPS page 4](INTERNSHIPS-4.md) · page 5 of 19 · [INTERNSHIPS page 6 ➡](INTERNSHIPS-6.md)
 

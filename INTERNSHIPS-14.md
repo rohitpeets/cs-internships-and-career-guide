@@ -1,6 +1,6 @@
 # Internships
 
-[⬅ Back to the main page](./) · 2209 open · page 14 of 19 · updated 2026-11-23
+[⬅ Back to the main page](./) · 2204 open · page 14 of 19 · updated 2026-11-23
 
 [⬅ INTERNSHIPS page 13](INTERNSHIPS-13.md) · page 14 of 19 · [INTERNSHIPS page 15 ➡](INTERNSHIPS-15.md)
 
@@ -34,11 +34,6 @@
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
-| QuEra Computing, Inc | [Internship - Quantum Applications Research](https://job-boards.greenhouse.io/queracomputinginc/jobs/5435901008) | Boston, MA |  | Sep 27 |
-| QuEra Computing, Inc | [Internship - Quantum Error Correction Research](https://job-boards.greenhouse.io/queracomputinginc/jobs/5435899008) | Boston, MA |  | Sep 27 |
-| QuEra Computing, Inc | [Internship - Scientific Software and Compilation](https://job-boards.greenhouse.io/queracomputinginc/jobs/5435902008) | Boston, MA |  | Sep 27 |
-| Vertiv | [IT Intern \(Summer 2027\)](https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20279839) | Westerville, OH | ⚠ unverified | Sep 27 |
-| Vertiv | [Software Engineering Test Intern \(Summer 2027\)](https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20279305) | Delaware, OH | ⚠ unverified | Sep 27 |
 | Allegion | [Summer Intern - Software Engineering](https://allegion.wd5.myworkdayjobs.com/careers/job/Golden-CO/Summer-Intern---Software-Engineering_JR37795-1)<br><sub>“The company does not intend to provide sponsorship for employment visa status \(e.g., H-1B, TN, etc.\) for this employment position.”</sub> | Golden, CO | 🛂❌ no sponsor | Sep 25 |
 | Bedrock Robotics Inc | [2027 Internship State Estimation, Learned Mapping &amp; Semantic SLAM](https://jobs.ashbyhq.com/bedrock-robotics/8c7bad61-50e3-4702-be36-72e9b72a9760) | San Francisco, CA |  | Sep 25 |
 | Copart | [Data &amp; AI Intern](https://copart.wd12.myworkdayjobs.com/Copart/job/Dallas-TX---Headquarters/Data---AI-Intern_JR111596) | Dallas, TX - Headquarters |  | Sep 25 |
@@ -154,6 +149,11 @@
 | ITW | [Software Engineering Intern](https://itw.wd5.myworkdayjobs.com/External/job/Appleton-1635-W-Spencer/Software-Engineering-Intern_JR10122) | Appleton-1635 W Spencer | 🎓 3.0+ GPA<br>⏳ 60+ days | Sep 18 |
 | Motorola Solutions | [DSP \(Digital Signal Processing\) Software Engineering Intern - Summer 2027](https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Plantation-FL/DSP--Digital-Signal-Processing--Software-Engineering-Intern---Summer-2027_R68734) | Plantation, FL | ⚠ unverified<br>⏳ 60+ days | Sep 18 |
 | OCC | [Year-Round Intern - Application Security](https://theocc.wd5.myworkdayjobs.com/careers/job/Dallas-TX/Year-Round-Intern---Application-Security_REQ-4838) | Dallas, TX | ⏳ 60+ days | Sep 18 |
+| Stantec | [Technology Intern/Co-op - Buildings \(Summer 2027\)](https://hdhl.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1007834) | New York, NY | 🔄 co-op<br>⏳ 60+ days | Sep 18 |
+| ACI Worldwide | [Technology Internships](https://ebwg.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/19943) | Norcross, GA | ⚠ unverified<br>⏳ 60+ days | Sep 17 |
+| Amazon | [Software Development Engineer Intern - Summer 2027 \(USA\)](https://www.amazon.jobs/en/jobs/10552937/software-development-engineer-intern-summer-2027-usa) | Seattle, WA | ⏳ 60+ days | Sep 17 |
+| Amperesand | [Software Intern, Factory &amp; Ops](https://job-boards.greenhouse.io/amperesand/jobs/4409254009) | Reno, NV | ⏳ 60+ days | Sep 17 |
+| Church &amp; Dwight | [AI Developer Co-op - Graduate Program \(9 Months\)](https://churchdwight.wd1.myworkdayjobs.com/chdcareers/job/USA-Ewing-NJ/AI-Developer-Co-op---Graduate-Program--9-Months-_R2026-15686)<br><sub>“· US work authorization required; candidates must be a U.S. citizen, permanent resident, or green card holder.”</sub> | USA, Ewing, NJ | 🗽 citizens<br>🔄 co-op<br>⏳ 60+ days | Sep 17 |
 
 [⬅ INTERNSHIPS page 13](INTERNSHIPS-13.md) · page 14 of 19 · [INTERNSHIPS page 15 ➡](INTERNSHIPS-15.md)
 

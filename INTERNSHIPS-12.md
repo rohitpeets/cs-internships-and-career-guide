@@ -1,6 +1,6 @@
 # Internships
 
-[⬅ Back to the main page](./) · 2209 open · page 12 of 19 · updated 2026-11-23
+[⬅ Back to the main page](./) · 2204 open · page 12 of 19 · updated 2026-11-23
 
 [⬅ INTERNSHIPS page 11](INTERNSHIPS-11.md) · page 12 of 19 · [INTERNSHIPS page 13 ➡](INTERNSHIPS-13.md)
 
@@ -34,11 +34,6 @@
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
-| BWE | [Summer 2027 Internship - Information Technology - Cleveland](https://bwe.wd12.myworkdayjobs.com/BWECareers/job/OH---Cleveland/Summer-2027-Internship---Information-Technology---Cleveland_REQ2450)<br><sub>“Applicants must be currently authorized to work in the United States without the need for visa sponsorship now or in the future”</sub> | OH - Cleveland | 🛂❌ no sponsor | Oct 9 |
-| CACI International | [Cyber Security Intern - Summer 2027](https://caci.wd1.myworkdayjobs.com/External/job/Springfield-VA-US/Cyber-Security-Intern---Summer-2027_333046)<br><sub>“Must be legally authorized to work in the United States without the need for employer sponsorship, now or at any time in the future.”</sub> | Springfield, VA | 🛂❌ no sponsor<br>🔒 ts/sci<br>⚠ unverified | Oct 9 |
-| Capstone Investment Advisors | [Summer 2027 - Execution Tech Internship](https://job-boards.greenhouse.io/capstoneinvestmentadvisors/jobs/8882130002) | New York, NY |  | Oct 9 |
-| Cboe Global Markets | [Software Engineer Intern](https://cboe.wd1.myworkdayjobs.com/External_Career_CBOE/job/Chicago-IL/Software-Engineer-Intern_R-4654)<br><sub>“This position is not eligible for visa sponsorship.”</sub> | Chicago, IL | 🛂❌ no sponsor | Oct 9 |
-| Danaher Corporation | [Software Engineering Intern](https://danaher.wd1.myworkdayjobs.com/DanaherJobs/job/Vista-California-United-States/Software-Engineering-Intern_R1315719) | Vista, CA | ⚠ unverified | Oct 9 |
 | First National Bank | [Banking Automation Engineer Intern](https://firstnational.wd12.myworkdayjobs.com/fnbocareers/job/Omaha---FN-Tower/Banking-Automation-Engineer-Intern_R-20261800) | Omaha - FN Tower | ⚠ unverified | Oct 9 |
 | GCM Grosvenor | [2027 IT-Product &amp; Strategy Summer Intern](https://job-boards.greenhouse.io/gcmgrosvenor/jobs/8015835003)<br><sub>“Applicants requiring future sponsorship for continued work authorization \(for example, following F-1 OPT/CPT, or J-1 status\) are not eligibl…”</sub> | Chicago, IL | 🛂❌ no sponsor<br>🚫 no CPT/OPT | Oct 9 |
 | GCM Grosvenor | [2027 Software Engineering Summer Intern](https://job-boards.greenhouse.io/gcmgrosvenor/jobs/8015792003)<br><sub>“Applicants requiring future sponsorship for continued work authorization \(for example, following F-1 OPT/CPT, or J-1 status\) are not eligibl…”</sub> | Chicago, IL | 🛂❌ no sponsor<br>🚫 no CPT/OPT<br>🎓 3.5+ GPA | Oct 9 |
@@ -154,6 +149,11 @@
 | RosaicLabs | [AI Accelerator Design Verification Engineer - Intern](https://jobs.lever.co/rosaiclabs/8e3e00f8-5b06-450c-bb63-5cc4fc3136ab) | Santa Clara, CA |  | Oct 5 |
 | RosaicLabs | [CPU Design Verification Engineer - Intern](https://jobs.lever.co/rosaiclabs/11a93b50-2472-4ec9-85d9-c99a3a17405e) | Santa Clara, CA |  | Oct 5 |
 | Hewlett Packard Enterprise | [Electric Hardware Engineering Intern](https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Chippewa-Falls-Wisconsin-United-States-of-America/Electric-Hardware-Engineering-Intern_1213414) | Chippewa Falls, WI | ⚠ unverified | Oct 4 |
+| Hewlett Packard Enterprise | [Hardware Tools and Libraries Intern](https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Sunnyvale-California-United-States-of-America/Hardware-Tools-and-Libraries-Intern_1214085) | Sunnyvale, CA | ⚠ unverified | Oct 4 |
+| Affirm | [Software Engineer Intern \(Summer 2027\)](https://job-boards.greenhouse.io/affirm/jobs/8011590003) | San Francisco, CA |  | Oct 2 |
+| Amazon | [Software Development Engineer Intern \(Embedded Systems\) - Summer 2027 \(USA\)](https://www.amazon.jobs/en/jobs/10567914/software-development-engineer-intern-embedded-systems-summer-2027-usa) | Seattle, WA |  | Oct 2 |
+| Arc Boat Company | [Electrical Hardware Engineering Intern](https://job-boards.greenhouse.io/arcboatcompany/jobs/5442853008) | Torrance, CA |  | Oct 2 |
+| Arc Boat Company | [Software Engineering Intern](https://job-boards.greenhouse.io/arcboatcompany/jobs/5442881008) | Torrance, CA |  | Oct 2 |
 
 [⬅ INTERNSHIPS page 11](INTERNSHIPS-11.md) · page 12 of 19 · [INTERNSHIPS page 13 ➡](INTERNSHIPS-13.md)
 

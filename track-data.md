@@ -1,6 +1,6 @@
 # Data and ML
 
-[⬅ Back to the main page](./) · 655 open · updated 2026-11-23
+[⬅ Back to the main page](./) · 654 open · updated 2026-11-23
 
 Data analysis, data engineering, machine learning and AI roles. New to this track? Read the [Data and ML section of the Career tracks guide](guides/tracks.md#data-and-ml).
 
@@ -34,13 +34,12 @@ The track comes from the words in the job title, so a few jobs may land in the w
 
 <div class="job-filter" id="job-filter"></div>
 
-## Internships (640)
+## Internships (639)
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
-| Springs Window Fashions | [Dealer Business Operations &amp; Analytics Internship - Summer 2027](https://careers-springswindowfashions.icims.com/jobs/12886/dealer-business-operations-%26-analytics-internship---summer-2027/job) | MIDDLETON, WI | ⚠ unverified | — |
-| V2X | [Artificial Intelligence Intern 2027](https://careers.gov2x.com/why-gov2x/jobs/62843) | Indianapolis, IN | ⚠ unverified | — |
-| Waymo | [2027 Summer Intern, BS, Waymo ML Ops &amp; Automation](https://careers.withwaymo.com/jobs?gh_jid=8257237) | Mountain View, CA | ⚠ unverified | — |
+| Samsung Research America | [2027 Spring/Summer Intern, Computer Vision](https://job-boards.greenhouse.io/samsungresearchamericainternship/jobs/8955802002) | 665 Clyde Avenue, Mountain View, CA | 🌱 spring | Nov 23 |
+| SAP IT Business Systeme | [SAP iXp Intern - Strategic AI Initiatives](https://jobs.smartrecruiters.com/SAPITBusinessSysteme/744000163268054-sap-ixp-intern-strategic-ai-initiatives) | New York – Hudson Yards, NY |  | Nov 23 |
 | ASML | [Internship - Contract Management and AI](https://asml.wd3.myworkdayjobs.com/ASMLEXT1/job/San-Diego-CA-USA/Internship---Contract-Management-and-AI_J-00357971) | San Diego, CA |  | Nov 20 |
 | Bristol Myers Squibb | [Data Science Intern \(Undergrad\)-Summer 2027](https://bristolmyerssquibb.wd5.myworkdayjobs.com/BMS/job/Remote---United-States---US/Data-Science-Intern--Undergrad--Summer-2027_R1608665)<br><sub>“-Please note that immigration or visa sponsorship is not available for this position”</sub> | Remote - United States - | 🛂❌ no sponsor<br>🌐 remote | Nov 20 |
 | Centene Corporation | [Analytics Summer 2027 Intern \(Graduate\)](https://centene.wd5.myworkdayjobs.com/Centene_External/job/Remote-FL/Centene-2027-Graduate-Summer-Intern_1660479)<br><sub>“Sponsorship and future sponsorship are not available for this opportunity, including employment-based visa types H-1B, L-1, O-1, H-1B1, F-1,…”</sub> | Remote-FL | 🛂❌ no sponsor<br>🌐 remote | Nov 20 |
@@ -158,7 +157,7 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | International | [AI/ML Intern](https://careers.international.com/jobs/60456) | Lisle, IL | ⚠ unverified | — |
 | International | [Digital &amp; AI Intern for Service Solutions](https://careers.international.com/jobs/60706) | Lisle, IL | ⚠ unverified | — |
 | Keysight Technologies | [Data Scientist, Intern](https://jobs.keysight.com/external/jobs/54570) | Santa Rosa, CA |  | — |
-| Keysight Technologies | [EDA AI/ML Layout Engineering Intern](https://jobs.keysight.com/external/jobs/54606) | Calabasas, CA |  | — |
+| Keysight Technologies | [EDA AI/ML Layout Engineering Intern](https://jobs.keysight.com/external/jobs/54606) | Calabasas, CA | ⚠ unverified | — |
 | Keysight Technologies | [EDA AI/ML Software Intern](https://jobs.keysight.com/external/jobs/54582) | Calabasas, CA |  | — |
 | KLA | [Computer Vision/Machine Learning Intern](https://kla.wd1.myworkdayjobs.com/UR/job/Milpitas-CA/Computer-Vision-Machine-Learning-Intern_2641921) | Milpitas, CA |  | Nov 16 |
 | Meta | [Computer Vision Engineer Intern, Advanced Manufacturing \(Reality Labs\)](https://www.metacareers.com/profile/job_details/1758435721926913/) | Sunnyvale, CA | ⚠ unverified | — |
@@ -559,7 +558,7 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Zekelman Industries | [AI Intern](https://zekelman.wd12.myworkdayjobs.com/Careers/job/Wheatland-PA---Council-Ave/AI-Intern_JR002752) | Wheatland, PA - Council Ave | ⏳ 60+ days | Sep 17 |
 | Blue Cross and Blue Shield of Louisiana | [CW Healthcare Data Science Intern \(Spring 2027\)](https://bcbsla.wd1.myworkdayjobs.com/Generation_Blue/job/Corporate---Baton-Rouge-LA/CW-Healthcare-Data-Science-Intern--Spring-2027-_R12151) | Corporate - Baton Rouge, LA | 🎓 3.0+ GPA<br>🌱 spring<br>⏳ 60+ days | Sep 16 |
 | CoVar | [Machine Learning Internship Summer 2027](https://job-boards.greenhouse.io/covar/jobs/5240360007) | Durham, NC | ⏳ 60+ days | Sep 16 |
-| EQT Corporation | [Data Engineering Intern](https://job-boards.greenhouse.io/eqtcorporation/jobs/5422414008) | Canonsburg, PA | ⏳ 60+ days | Sep 16 |
+| EQT Corporation | [Data Engineering Intern](https://job-boards.greenhouse.io/eqtcorporation/jobs/5422414008) | Canonsburg, PA | ⚠ unverified<br>⏳ 60+ days | Sep 16 |
 | GM Financial | [Intern - Data Science](https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/260839) | Fort Worth, TX | 🎓 3.0+ GPA<br>⏳ 60+ days | Sep 16 |
 | Greystar \(International\) | [Analytics Engineering Intern](https://greystar.wd1.myworkdayjobs.com/Campus/job/Remote-Texas-Remote-Texas-TX/Analytics-Engineering-Intern_R0201258) | Remote Texas, Remote Texas, TX | 🌐 remote<br>⏳ 60+ days | Sep 16 |
 | KBR, Inc. | [Data Processing Systems Engineer Intern](https://kbr.wd5.myworkdayjobs.com/KBR_Careers/job/Sioux-Falls-South-Dakota/Data-Processing-Systems-Engineer-Intern_R2130060) | Sioux Falls, SD | ⚠ unverified<br>⏳ 60+ days | Sep 16 |

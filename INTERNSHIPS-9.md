@@ -1,6 +1,6 @@
 # Internships
 
-[⬅ Back to the main page](./) · 2209 open · page 9 of 19 · updated 2026-11-23
+[⬅ Back to the main page](./) · 2204 open · page 9 of 19 · updated 2026-11-23
 
 [⬅ INTERNSHIPS page 8](INTERNSHIPS-8.md) · page 9 of 19 · [INTERNSHIPS page 10 ➡](INTERNSHIPS-10.md)
 
@@ -34,11 +34,6 @@
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
-| USAFacts | [AI &amp; Software Engineering Intern](https://job-boards.greenhouse.io/usafacts/jobs/4472154009) | Bellevue, WA |  | Oct 28 |
-| Valmont Industries, Inc | [AI &amp; Data Engineering Intern](https://valmont.wd1.myworkdayjobs.com/ValmontCareers/job/Omaha-NE/AI---Data-Engineering-Intern_R29310) | Omaha NE |  | Oct 28 |
-| Victaulic | [2027 Summer Internship – Information Technology](https://victaulic.wd1.myworkdayjobs.com/victaulic_careers/job/Easton-Pennsylvania/XMLNAME-2027-Summer-Internship---Information-Technology_R0005962)<br><sub>“Victaulic does not provide immigration sponsorship \(e.g., H-1B, TN, or other work visa sponsorship\) for this position.”</sub> | Easton, PA | 🛂❌ no sponsor | Oct 28 |
-| Wabtec | [Wabtec Spring 2027 Software Engineering Co-Op \(10-Week\)](https://jobs.smartrecruiters.com/Wabtec/3743990016452226-wabtec-spring-2027-software-engineering-co-op-10-week-) | Schenectady, NY | 🎓 3.0+ GPA<br>🔄 co-op<br>🌱 spring | Oct 28 |
-| WorldEngine AI | [Research Intern, Robotics Data &amp; Real-to-Sim](https://jobs.ashbyhq.com/worldengine/ba22a6ae-9b75-4078-83c4-d908a29ccdd9) | SF Bay Area |  | Oct 28 |
 | ABB | [Automation Engineer Intern - Summer 2027](https://abb.wd3.myworkdayjobs.com/External_Career_Page/job/New-Berlin-Wisconsin-United-States-of-America/Automation-Engineer-Intern---Summer-2027_JR00049934) | New Berlin, WI | ⚠ unverified | Oct 27 |
 | ASML | [Internship - Frontend Developer](https://asml.wd3.myworkdayjobs.com/ASMLEXT1/job/San-Jose-CA-USA/Internship---Frontend-Developer_J-00354852) | San Jose, CA |  | Oct 27 |
 | ASML | [Internship- Platform Software Engineer In Test](https://asml.wd3.myworkdayjobs.com/ASMLEXT1/job/San-Jose-CA-USA/Platform-Software-Engineer-In-Test---Internship-_J-00354558) | San Jose, CA |  | Oct 27 |
@@ -66,7 +61,7 @@
 | Procter &amp; Gamble | [Analytics &amp; Insights Internship \(m/f/d\)](https://pg.wd5.myworkdayjobs.com/1000/job/Schwalbach-Am-Taunus/Analytics---Insights-Internship--m-f-d-_R000150319) | Schwalbach Am Taun | 🧪 OA | Oct 27 |
 | Protagonist | [Software Engineering Intern](https://job-boards.greenhouse.io/protagonist/jobs/6236620004)<br><sub>“Must meet applicable U.S. Government contract eligibility requirements, including any citizenship or security clearance requirements associa…”</sub> | Washington DC | 🔒 clearance | Oct 27 |
 | Rockwell Automation | [Co-op, Embedded Software Engineer](https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers/job/Milwaukee-Wisconsin-United-States/Spring-2027-Co-op--Embedded-Software-Engineer--January-2027---August-2027-_R26-3473)<br><sub>“We will not sponsor individuals for employment visas, now or in the future, for this job opening.”</sub> | Milwaukee, WI | 🛂❌ no sponsor<br>🔄 co-op | Oct 27 |
-| RR Donnelley | [IT Support Engineer Intern](https://jobs.smartrecruiters.com/RRDonnelley/744000158084729-it-support-engineer-intern) | Warrenville, IL |  | Oct 27 |
+| RR Donnelley | [IT Support Engineer Intern](https://jobs.smartrecruiters.com/RRDonnelley/744000158084729-it-support-engineer-intern) | Warrenville, IL | ⚠ unverified | Oct 27 |
 | Samsung Semiconductor | [Intern, Power-Thermal Simulation Software Engineer](https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8046795003) | San Jose, CA |  | Oct 27 |
 | Sherwin-Williams | [R&amp;D GSC Product Technology Internship- Brecksville, OH](https://ejhp.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/2627596) | Brecksville, OH | 🎓 2.8+ GPA<br>⚠ unverified | Oct 27 |
 | Sherwin-Williams | [R&amp;D IT Summer Internship- Brecksville, OH](https://ejhp.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/2627637) | Brecksville, OH | 🎓 2.8+ GPA<br>⚠ unverified | Oct 27 |
@@ -137,7 +132,7 @@
 | Suntory | [IT Intern](https://pbv.wd503.myworkdayjobs.com/external/job/Raleigh-NC/IT-Intern_R-2026-4641)<br><sub>“Unfortunately, we will be unable to offer visa sponsorships to candidates.”</sub> | Raleigh, NC | 🛂❌ no sponsor | Oct 23 |
 | AbbVie | [2027 Validation Engineer Co-Op \(July - Dec\) \(Undergraduate\)](https://jobs.smartrecruiters.com/AbbVie/3743990016346156-2027-validation-engineer-co-op-july-dec-undergraduate-) | Worcester, MA | 🔄 co-op | Oct 22 |
 | AbbVie | [2027 Validation Engineering Co-Op \(Jan-July\) \(Undergraduate\)](https://jobs.smartrecruiters.com/AbbVie/3743990016344666-2027-validation-engineering-co-op-jan-july-undergraduate-) | Worcester, MA | 🔄 co-op | Oct 22 |
-| Allen Control Systems | [Android Developer Intern, 2027](https://jobs.ashbyhq.com/allen-control-systems/1cd2b432-9a01-4ae0-8eb2-6ebd9c278b94) | Austin, TX |  | Oct 22 |
+| Allen Control Systems | [Android Developer Intern, 2027](https://jobs.ashbyhq.com/allen-control-systems/1cd2b432-9a01-4ae0-8eb2-6ebd9c278b94) | Austin, TX | ⚠ unverified | Oct 22 |
 | Allstate | [Arity - Data Analytics Engineer Intern](https://allstate.wd5.myworkdayjobs.com/sourcing_event/job/USA---IL-Remote/Arity---Data-Analytics-Engineer-Intern_R36286)<br><sub>“Allstate generally does not sponsor individuals for employment-based visas for this position.”</sub> | USA - IL \(Remote\) | 🛂❌ no sponsor<br>🌐 remote | Oct 22 |
 | Allstate | [Arity - Data Science Intern \(Core Telematics\)](https://allstate.wd5.myworkdayjobs.com/sourcing_event/job/USA---IL-Remote/Arity---Data-Science-Intern--Core-Telematics-_R36285)<br><sub>“Allstate generally does not sponsor individuals for employment-based visas for this position.”</sub> | USA - IL \(Remote\) | 🛂❌ no sponsor<br>🌐 remote | Oct 22 |
 | Allstate | [Arity - Software Engineer Intern](https://allstate.wd5.myworkdayjobs.com/sourcing_event/job/USA---NC-Remote/Arity---Software-Engineer-Intern_R36266)<br><sub>“Allstate generally does not sponsor individuals for employment-based visas for this position.”</sub> | USA - NC \(Remote\) | 🛂❌ no sponsor<br>🌐 remote | Oct 22 |
@@ -154,6 +149,11 @@
 | Hewlett Packard Enterprise | [Electrical Hardware Engineering Intern](https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Chippewa-Falls-Wisconsin-United-States-of-America/Electrical-Hardware-Engineering-Intern_1213409) | Chippewa Falls, WI | ⚠ unverified | Oct 22 |
 | InfiniteQuant | [Quantitative Researcher - Internship - Summer 2027](https://jobs.smartrecruiters.com/InfiniteQuant/744000157170821-quantitative-researcher-internship-summer-2027) | New York, NY |  | Oct 22 |
 | Insperity | [Rotational AI Intern](https://insperity.wd12.myworkdayjobs.com/NSP/job/Kingwood-TX/Rotational-AI-Intern_JR103460) | Kingwood, TX |  | Oct 22 |
+| Insperity | [Rotational Data Analytics Intern](https://insperity.wd12.myworkdayjobs.com/NSP/job/Kingwood-TX/Rotational-Data-Analytics-Intern_JR103458) | Kingwood, TX |  | Oct 22 |
+| Insperity | [Rotational Technology Intern](https://insperity.wd12.myworkdayjobs.com/NSP/job/Kingwood-TX/Rotational-Technology-Intern_JR103457) | Kingwood, TX |  | Oct 22 |
+| KION Group | [Software Analytics Co-op](https://kiongroup.wd3.myworkdayjobs.com/KIONGroup/job/Grand-Rapids-MI-United-States/Software-Analytics-Co-op_JR-0096723-1) | Grand Rapids, MI | 🔄 co-op | Oct 22 |
+| Langan Engineering &amp; Environmental Services | [Intern/Co-op - Cyber Security \(Spring &amp; Summer 2027\)](https://job-boards.greenhouse.io/langanengineeringandenvironmentalservicesllc/jobs/4451342009) | Parsippany, NJ | 🎓 3.0+ GPA<br>🔄 co-op<br>🌱 spring | Oct 22 |
+| M&amp;T Bank | [Technology Intern - Software Engineering \(Enterprise API Services Development Team\)](https://mtb.wd5.myworkdayjobs.com/Campus/job/Buffalo-NY/Technology-Intern---Software-Engineering--Enterprise-API-Services-Development-Team-_R90812) | Buffalo, NY | 🎓 3.0+ GPA | Oct 22 |
 
 [⬅ INTERNSHIPS page 8](INTERNSHIPS-8.md) · page 9 of 19 · [INTERNSHIPS page 10 ➡](INTERNSHIPS-10.md)
 

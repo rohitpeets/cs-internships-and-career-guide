@@ -1,6 +1,6 @@
 # 🆕 New this week
 
-[⬅ Back to the main page](./) · 457 posted in the last 7 days · updated 2026-11-23
+[⬅ Back to the main page](./) · 452 posted in the last 7 days · updated 2026-11-23
 
 **Click a job title to open the company's application page.**
 
@@ -34,16 +34,14 @@
 |---|---|---|---|---|
 | Barclays | [Markets Quantitative Analyst Summer Internship Program 2028 New York](https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/New-York-745-7th-Avenue/Markets-Quantitative-Analyst-Summer-Internship-Program-2028-New-York_JR-0000139049) | New York, 745 7th Avenue | 🎓 3.4+ GPA | Nov 23 |
 | Google | [STEP \(Student Training in Engineering Program\)](https://buildyourfuture.withgoogle.com/programs/step) |  |  | — |
+| GrayMatter Robotics | [Robotics Engineering Intern: Systems &amp; Applications - Winter '27 - January Start](https://jobs.ashbyhq.com/graymatter-robotics/347cbb66-c542-4c41-bdfc-3f9fa242b20b) | Los Angeles - HQ |  | Nov 23 |
 | Microsoft | [Explore Microsoft Internship](https://careers.microsoft.com/students/us/en/ur-lp-united-states) |  |  | — |
 | Northrop Grumman | [2027 Software Test Engineering Intern - Roy UT](https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Utah-Roy/XMLNAME-2027-Software-Test-Engineering-Intern---Roy-UT_R10261728)<br><sub>“U.S. Citizenship is required for all positions with a government clearance and certain other restricted positions.”</sub> | United States-Utah-Roy | 🗽 citizens<br>🔒 secret<br>🎓 3.7+ GPA<br>⚠ unverified | Nov 23 |
 | NVIDIA | [Ignite Pre-Internship Program](https://www.nvidia.com/en-us/about-nvidia/university-recruiting/) |  | ⚠ unverified | — |
-| SAS | [Summer 2027 - Software Developer Intern \(Go/Golang Experience\)](https://careers-sas.icims.com/jobs/42797/summer-2027---software-developer-intern-%28go-golang-experience%29/job) | Cary HQ, NC | ⚠ unverified | — |
-| Springs Window Fashions | [Dealer Business Operations &amp; Analytics Internship - Summer 2027](https://careers-springswindowfashions.icims.com/jobs/12886/dealer-business-operations-%26-analytics-internship---summer-2027/job) | MIDDLETON, WI | ⚠ unverified | — |
-| V2X | [Artificial Intelligence Intern 2027](https://careers.gov2x.com/why-gov2x/jobs/62843) | Indianapolis, IN | ⚠ unverified | — |
+| Samsung Research America | [2027 Spring/Summer Intern, Computer Vision](https://job-boards.greenhouse.io/samsungresearchamericainternship/jobs/8955802002) | 665 Clyde Avenue, Mountain View, CA | 🌱 spring | Nov 23 |
+| SAP IT Business Systeme | [SAP iXp Intern - Strategic AI Initiatives](https://jobs.smartrecruiters.com/SAPITBusinessSysteme/744000163268054-sap-ixp-intern-strategic-ai-initiatives) | New York – Hudson Yards, NY |  | Nov 23 |
+| Shure | [Mobile Applications \(Android\) Intern](https://careersus-shure.icims.com/jobs/5006/mobile-applications-%28android%29-intern/job) | Niles, IL | ⚠ unverified | — |
 | Walmart | [Summer 2027 Corporate Intern: APD Automation Engineer](https://walmart.wd504.myworkdayjobs.com/WalmartExternal/job/USA-Together-Building-AR-Bentonville-Home-Office/Summer-2027-Corporate-Intern--APD-Automation-Engineer_R-2630170)<br><sub>“IMMIGRATION SPONSORSHIP IS NOT AVAILABLE FOR THIS ROLE”</sub> | \(USA\) Together Building AR Bentonville Home O… | 🛂❌ no sponsor<br>⚠ unverified | Nov 23 |
-| Waymo | [2027 Summer Intern, BS, Software Engineering, Labeling](https://careers.withwaymo.com/jobs?gh_jid=8238525) | Mountain View, CA | ⚠ unverified | — |
-| Waymo | [2027 Summer Intern, BS, Waymo ML Ops &amp; Automation](https://careers.withwaymo.com/jobs?gh_jid=8257237) | Mountain View, CA | ⚠ unverified | — |
-| Waymo | [2027 Summer Intern, BS/MS, Software Engineering, Maneuvering Tech](https://careers.withwaymo.com/jobs?gh_jid=8203200) | San Francisco, CA | ⚠ unverified | — |
 | Hewlett Packard Enterprise | [Networking &amp; Cybersecurity Intern](https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Westford-Massachusetts-United-States-of-America/Networking---Cybersecurity-Intern_1214057) | Westford, MA | ⚠ unverified | Nov 22 |
 | Hewlett Packard Enterprise | [Networking &amp; Cybersecurity Intern](https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/San-Jose-California-United-States-of-America/Networking---Cybersecurity-Intern_1214058) | San Jose, CA | ⚠ unverified | Nov 22 |
 | The Aerospace Corporation | [2027 Defensive Cyber Operations Undergrad Intern](https://aero.wd5.myworkdayjobs.com/External/job/El-Segundo-CA/XMLNAME-2027-Defensive-Cyber-Operations-Undergrad-Intern_R017011)<br><sub>“U.S citizenship is required to obtain a security clearance.”</sub> | El Segundo, CA | 🗽 citizens<br>🔒 clearance<br>🎓 3.0+ GPA | Nov 22 |
@@ -73,7 +71,7 @@
 | Otis Elevator Co | [Data Science &amp; Analytics Intern](https://otis.wd504.myworkdayjobs.com/REC_Ext_Gateway/job/OTCTH-Connecticut-Home-Offices-Remote-Location-Remote-City-CT-06032-USA/Data-Science---Analytics-Intern_20168987-1) | OTCTH: Connecticut Home Offices Remote Locati… | 🌐 remote<br>⚠ unverified | Nov 20 |
 | Ralliant | [Software Design Engineer Intern \(Summer 2027\)](https://ibwujb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/11154)<br><sub>“Note that US Citizenship is not required for most positions.”</sub> | Beaverton, OR | 🗽 citizens | Nov 20 |
 | Ralliant | [Software Engineering \(AI Building\) Intern \(Summer 2027\)](https://ibwujb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/11324) | Beaverton, OR |  | Nov 20 |
-| Renesas Electronics | [Firmware Engineering Intern](https://jobs.smartrecruiters.com/RenesasElectronics/744000162784555-firmware-engineering-intern) | Austin, TX |  | Nov 20 |
+| Renesas Electronics | [Firmware Engineering Intern](https://jobs.smartrecruiters.com/RenesasElectronics/744000162784555-firmware-engineering-intern) | Austin, TX | ⚠ unverified | Nov 20 |
 | Resultant | [Data &amp; Analytics Consultant Intern - Summer 2027 \(Hybrid in Indianapolis\)](https://jobs.smartrecruiters.com/Resultant/744000162782371-data-analytics-consultant-intern-summer-2027-hybrid-in-indianapolis-)<br><sub>“﻿﻿Must be legally authorized to work in the United States for any employer without sponsorship.”</sub> | Indianapolis, IN | 🛂❌ no sponsor | Nov 20 |
 | Rockwell Automation | [Intern - Embedded Controls Engineering](https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers/job/Orlando-Florida-United-States/Intern---Embedded-Controls-Engineering_R26-5043-1)<br><sub>“Legal authorization to work in the U.S. We will not sponsor individuals for employment visas, now or in the future”</sub> | Orlando, FL | 🛂❌ no sponsor<br>🎓 3.0+ GPA | Nov 20 |
 | Rockwell Automation | [Intern - ISM, Cyber Security and AI](https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers/job/Mayfield-Heights-Ohio-United-States/Intern---ISM--Cyber-Security-and-AI_R26-5040-1)<br><sub>“Legal authorization to work in the U.S. We will not sponsor individuals for employment visas, now or in the future”</sub> | Mayfield Heights, OH | 🛂❌ no sponsor | Nov 20 |
@@ -107,7 +105,9 @@
 | Leidos | [Software Developer Intern](https://leidos.wd5.myworkdayjobs.com/External/job/Fort-Belvoir-VA/Software-Developer-Intern_R-00197399-1)<br><sub>“• US Citizen required.”</sub> | Fort Belvoir, VA | 🗽 citizens<br>🔒 secret<br>⚠ unverified | Nov 19 |
 | Lightmatter | [Silicon Validation &amp; Test Automation, Intern Summer 2027](https://boards.greenhouse.io/lightmatter/jobs/5473832008?gh_jid=5473832008) | Mountain View, CA |  | Nov 19 |
 | LLNL | [Cybersecurity Undergraduate Intern - Cyber and Critical Infrastructure Summer Institute - Summer 2027](https://jobs.smartrecruiters.com/LLNL/3743990016984696-cybersecurity-undergraduate-intern-cyber-and-critical-infrastructure-summer-institute-summer-2027)<br><sub>“However, this position involves U.S. Export Control; this work must be performed by a U.S. person \(U.S. citizen, U.S. lawful permanent resid…”</sub> | Livermore, CA | 🗽 citizens<br>🔒 clearance<br>🎓 3.0+ GPA | Nov 19 |
+| LLNL | [Livermore Center for Quantum Science \(LCQS\) Undergraduate Internship - Summer 2027](https://jobs.smartrecruiters.com/LLNL/3743990016983456-livermore-center-for-quantum-science-lcqs-undergraduate-internship-summer-2027)<br><sub>“Security Clearance”</sub> | Livermore, CA | 🔒 clearance<br>🎓 3.0+ GPA | Nov 19 |
+| Minitab | [Data Privacy Intern \(Summer 2027\)](https://job-boards.greenhouse.io/minitab/jobs/8200490003) | State College, PA |  | Nov 19 |
 
-_457 postings were posted this week. This list shows up to 3 per company; the rest are in the [internships](INTERNSHIPS.md) and [new grad](NEW_GRAD.md) lists._
+_452 postings were posted this week. This list shows up to 3 per company; the rest are in the [internships](INTERNSHIPS.md) and [new grad](NEW_GRAD.md) lists._
 
 _Listings and tags are generated automatically from employers' postings and can be wrong or out of date. Always read the full posting._

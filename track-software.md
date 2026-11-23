@@ -1,6 +1,6 @@
 # Software
 
-[⬅ Back to the main page](./) · 925 open · updated 2026-11-23
+[⬅ Back to the main page](./) · 921 open · updated 2026-11-23
 
 Web, mobile, backend, full-stack and general software roles. New to this track? Read the [Software section of the Career tracks guide](guides/tracks.md#software).
 
@@ -34,19 +34,18 @@ The track comes from the words in the job title, so a few jobs may land in the w
 
 <div class="job-filter" id="job-filter"></div>
 
-## Internships (853)
+## Internships (849)
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
 | Barclays | [Markets Quantitative Analyst Summer Internship Program 2028 New York](https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/New-York-745-7th-Avenue/Markets-Quantitative-Analyst-Summer-Internship-Program-2028-New-York_JR-0000139049) | New York, 745 7th Avenue | 🎓 3.4+ GPA | Nov 23 |
 | Google | [STEP \(Student Training in Engineering Program\)](https://buildyourfuture.withgoogle.com/programs/step) |  |  | — |
+| GrayMatter Robotics | [Robotics Engineering Intern: Systems &amp; Applications - Winter '27 - January Start](https://jobs.ashbyhq.com/graymatter-robotics/347cbb66-c542-4c41-bdfc-3f9fa242b20b) | Los Angeles - HQ |  | Nov 23 |
 | Microsoft | [Explore Microsoft Internship](https://careers.microsoft.com/students/us/en/ur-lp-united-states) |  |  | — |
 | Northrop Grumman | [2027 Software Test Engineering Intern - Roy UT](https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Utah-Roy/XMLNAME-2027-Software-Test-Engineering-Intern---Roy-UT_R10261728)<br><sub>“U.S. Citizenship is required for all positions with a government clearance and certain other restricted positions.”</sub> | United States-Utah-Roy | 🗽 citizens<br>🔒 secret<br>🎓 3.7+ GPA<br>⚠ unverified | Nov 23 |
 | NVIDIA | [Ignite Pre-Internship Program](https://www.nvidia.com/en-us/about-nvidia/university-recruiting/) |  | ⚠ unverified | — |
-| SAS | [Summer 2027 - Software Developer Intern \(Go/Golang Experience\)](https://careers-sas.icims.com/jobs/42797/summer-2027---software-developer-intern-%28go-golang-experience%29/job) | Cary HQ, NC | ⚠ unverified | — |
+| Shure | [Mobile Applications \(Android\) Intern](https://careersus-shure.icims.com/jobs/5006/mobile-applications-%28android%29-intern/job) | Niles, IL | ⚠ unverified | — |
 | Walmart | [Summer 2027 Corporate Intern: APD Automation Engineer](https://walmart.wd504.myworkdayjobs.com/WalmartExternal/job/USA-Together-Building-AR-Bentonville-Home-Office/Summer-2027-Corporate-Intern--APD-Automation-Engineer_R-2630170)<br><sub>“IMMIGRATION SPONSORSHIP IS NOT AVAILABLE FOR THIS ROLE”</sub> | \(USA\) Together Building AR Bentonville Home O… | 🛂❌ no sponsor<br>⚠ unverified | Nov 23 |
-| Waymo | [2027 Summer Intern, BS, Software Engineering, Labeling](https://careers.withwaymo.com/jobs?gh_jid=8238525) | Mountain View, CA | ⚠ unverified | — |
-| Waymo | [2027 Summer Intern, BS/MS, Software Engineering, Maneuvering Tech](https://careers.withwaymo.com/jobs?gh_jid=8203200) | San Francisco, CA | ⚠ unverified | — |
 | ASML | [Internship- Chandler CS DUV / EUV](https://asml.wd3.myworkdayjobs.com/ASMLEXT1/job/Chandler-AZ-USA/Internship--Chandler-CS-DUV---EUV_J-00357416) | Chandler, AZ |  | Nov 20 |
 | Carrier | [Digital Technology Intern - Summer](https://carrier.wd5.myworkdayjobs.com/jobs/job/CAF77-CCS---CIB-13995-Pasteur-Boulevard-Palm-Beach-Gardens-FL-33418-USA/Digital-Technology-Intern---Summer_30222631)<br><sub>“Must be eligible to work in the US without sponsorship”</sub> | CAF77: CCS - CIB, 13995 Pasteur Boulevard, Pa… | 🛂❌ no sponsor<br>🎓 3.0+ GPA | Nov 20 |
 | Exol | [Intern- Software Engineer, Front-End](https://symbotic.wd504.myworkdayjobs.com/Symbotic/job/USA-Austin-TX/Intern--Software-Engineer--Front-End_R8567-1) | USA Austin, TX |  | Nov 20 |
@@ -79,11 +78,11 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Ralliant | [Software Engineering Intern \(Summer 2027\)](https://ibwujb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/11167) | Beaverton, OR |  | Nov 19 |
 | RTX | [Software Engineering Intern \(Summer 2027\)](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IN-INDIANAPOLIS-206--3939-Priority-Way-S-Dr--PRIORITY-BLDG-6/Software-Engineering-Intern--Summer-2027-_01890571)<br><sub>“U.S. Citizen, U.S. Person, or Immigration Status Requirements: U.S. citizenship is required, as only U.S. citizens are authorized to access…”</sub> | US-IN-INDIANAPOLIS-206 \~ 3939 Priority Way S… | 🗽 citizens<br>🔒 clearance<br>⚠ unverified | Nov 19 |
 | Signet Jewelers | [Application Management Software Intern](https://signetjewelers.wd1.myworkdayjobs.com/SignetCorporateCareers/job/Support-Center---Akron-OH/Application-Management-Software-Intern_REQ_84419) | Support Center - Akron, OH |  | Nov 19 |
-| Snowflake | [Software Engineer Intern \(AI / ML\) - Summer 2027](https://jobs.ashbyhq.com/snowflake/185d165c-09c7-4b57-9281-ff7c2c541907) | US-CA-Menlo Park |  | Nov 19 |
-| Snowflake | [Software Engineer Intern \(Database Engineering\) - Summer 2027](https://jobs.ashbyhq.com/snowflake/0223923d-4f0f-44e6-9649-0d1a9eda950d) | US-CA-Menlo Park |  | Nov 19 |
+| Snowflake | [Software Engineer Intern \(AI / ML\) - Summer 2027](https://jobs.ashbyhq.com/snowflake/185d165c-09c7-4b57-9281-ff7c2c541907) | US-CA-Menlo Park | ⚠ unverified | Nov 19 |
+| Snowflake | [Software Engineer Intern \(Database Engineering\) - Summer 2027](https://jobs.ashbyhq.com/snowflake/0223923d-4f0f-44e6-9649-0d1a9eda950d) | US-CA-Menlo Park | ⚠ unverified | Nov 19 |
 | T-Mobile | [Summer 2027 Software Engineering AI Internship](https://tmobile.wd1.myworkdayjobs.com/External/job/Atlanta-Georgia/Summer-2027-Software-Engineering-AI-Internship_REQ382067) | Atlanta, GA | ⚠ unverified | Nov 19 |
 | T-Mobile | [Summer 2027 Software Engineering Internship](https://tmobile.wd1.myworkdayjobs.com/External/job/Overland-Park-Kansas/Summer-2027-Software-Engineering-Internship_REQ381366) | Overland Park, KS | ⚠ unverified | Nov 19 |
-| Veolia Environnement SA | [Manufacturing Software Engineer Intern](https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000162593839-manufacturing-software-engineer-intern) | Boulder, CO |  | Nov 19 |
+| Veolia Environnement SA | [Manufacturing Software Engineer Intern](https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000162593839-manufacturing-software-engineer-intern) | Boulder, CO | ⚠ unverified | Nov 19 |
 | Airbnb | [Software Engineering Intern \(BS/MS\)](https://careers.airbnb.com/positions/8360478?gh_jid=8360478) | San Francisco, CA |  | Nov 18 |
 | Bose Corporation | [Software Engineer Co-op](https://boseallaboutme.wd503.myworkdayjobs.com/Bose_Careers/job/US-MA---Framingham/Software-Engineer-Co-op_R29387) | US, MA - Framingham | 🔄 co-op | Nov 18 |
 | HP | [Software and Engineering Intern Roles - Imaging and Print](https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Corvallis-Oregon-United-States-of-America/Software-and-Engineering-Intern-Roles---Imaging-and-Print_3168142-1)<br><sub>“This opportunity is intended for conversion to a full-time role that will not offer work authorization sponsorship in the future \(full-time…”</sub> | Corvallis, OR | 🛂❌ no sponsor | Nov 18 |
@@ -103,6 +102,7 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | U-Haul | [Software Development Spring Internship](https://uhaul.wd1.myworkdayjobs.com/UhaulJobs/job/Phoenix-Arizona/Software-Development-Spring-Internship_R259167)<br><sub>“Applicants must be legally authorized to work and must not require employer sponsorship.”</sub> | Phoenix, AZ | 🛂❌ no sponsor<br>🎓 3.5+ GPA<br>🌱 spring<br>⚠ unverified | Nov 18 |
 | Valeris | [Software Engineer Intern](https://valeris.wd108.myworkdayjobs.com/Valeris/job/Louisville-KY/Software-Engineer-Intern_JR1044) | Louisville, KY | ⚠ unverified | Nov 18 |
 | Zillow | [Software Development Engineer - Intern](https://zillow.wd5.myworkdayjobs.com/Zillow_Group_External/job/Seattle-WA-2nd-Ave/Software-Development-Engineer---Intern_P751630) | Seattle-WA-2nd Ave |  | Nov 18 |
+| Amazon | [Software Development Engineer Intern - Artificial General Intelligence \(Summer 2027\)](https://www.amazon.jobs/en/jobs/10606968/software-development-engineer-intern-artificial-general-intelligence-summer-2027) | Sunnyvale, CA |  | Nov 17 |
 | Amentum | [Software Programmer Intern](https://pae.wd1.myworkdayjobs.com/Amentum_Careers/job/US-TN-Tullahoma/Software-Programmer-Intern_R0169775) | US-TN-Tullahoma | ⚠ unverified | Nov 17 |
 | Amentum | [Software Programmer Intern](https://pae.wd1.myworkdayjobs.com/Amentum_Careers/job/US-MI-Detroit/Software-Programmer-Intern_R0169773) | US-MI-Detroit | ⚠ unverified | Nov 17 |
 | American Electric Power | [Technology Intern - Columbus, OH and nearby areas](https://aep.wd1.myworkdayjobs.com/AEPCareerSite/job/Columbus-OH/Technology-Intern---Columbus--OH-and-nearby-areas_R18961) | Columbus, OH | 🎓 3.0+ GPA | Nov 17 |
@@ -155,7 +155,6 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Booz Allen | [University, Applied AI Software Development Intern](https://careers.boozallen.com/careers/JobDetail/131621) | McLean, VA | ⚠ unverified | — |
 | Booz Allen | [University, Software Engineer Intern](https://careers.boozallen.com/careers/JobDetail/131951) | Fayetteville, NC | ⚠ unverified | — |
 | BorgWarner | [Software Test Intern](https://borgwarner.wd5.myworkdayjobs.com/BorgWarner_Careers/job/Auburn-Hills---Michigan---USA/Software-Test-Intern_R2026-4385-1) | Auburn Hills - Michigan - |  | Nov 16 |
-| Brex | [Software Engineer, Intern \(Summer 2027\)](https://www.brex.com/careers/8936403002?gh_jid=8936403002) | San Francisco, CA | ⚠ unverified | — |
 | Burns Engineering | [Software Engineering Intern - Summer 2027](https://www.burns-group.com/careers/current-openings/?gh_jid=4467848009) | Pittsburgh, PA | ⚠ unverified | — |
 | CACI | [Software Engineering Co-op/Intern - Summer 2027](https://searchcareers.caci.com/careers/job/1443154261084-software-engineering-co-op-intern-summer-2027-rochester-ny-us) | Rochester, NY | 🔄 co-op<br>⚠ unverified | — |
 | Cirrus Logic | [2027 Internship - Validation Engineer](https://jobs.eu.lever.co/cirrus/89813bb2-94fb-42f6-aec2-03154cfde027) | Austin, TX |  | — |
@@ -165,13 +164,10 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Eaton | [Internship Program: Digital Integrated Solutions Engineer](https://eaton.eightfold.ai/careers/job/687238085352-internship-program-digital-integrated-solutions-engineer-moon-township-pennsylvania-usa-15108) | Littleton, CO | ⚠ unverified | — |
 | Elire | [Summer 2027 AI Full Stack Developer Consulting Intern](https://jobs.jobvite.com/elire/job/oM5LAfwW) | Minneapolis, MN |  | — |
 | Exol | [Intern- Software Engineer](https://symbotic.wd504.myworkdayjobs.com/Symbotic/job/USA-Wilmington--MA---HQ/Software-Engineer_R7963) | USA Wilmington, MA - HQ |  | Nov 16 |
-| Formlabs | [2027 \(Summer\) - Manufacturing - Manufacturing Test Software Intern](https://careers.formlabs.com/job/8374598/apply/?gh_jid=8374598) | Somerville, MA | ⚠ unverified | — |
 | Genuine Parts Company | [Technology Intern 2027](https://genpt.wd1.myworkdayjobs.com/Careers/job/Atlanta-GA-USA/Technology-Intern-2027_R26_0000037382) | Atlanta, GA | 🧪 OA<br>🎓 3.6+ GPA<br>⚠ unverified | Nov 16 |
 | GM Financial | [Intern - Software Development Engineer](https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/261292) | Irving, TX | 🎓 3.0+ GPA | Nov 16 |
 | Huntington Ingalls Industries | [Software Engineer Intern \(Multiple Levels\) - 30069](https://jobs.hii-tsd.com/job/Columbia%2C-MD-Software-Engineer-Intern-%28Multiple-Levels%29-30069-Mary/1425423000/) | Columbia, MD |  | — |
 | Huntington Ingalls Industries | [Summer 2027 Internship - Software Engineer \(Hybrid\) - 30189](https://jobs.hii-tsd.com/job/Greenville%2C-SC-Summer-2027-Internship-Software-Engineer-%28Hybrid%29-30189-Sout/1430373400/) | Greenville, SC | ⚠ unverified | — |
-| IDEMIA | [Cloud Software Engineering Internship](https://uscareers-idemia.icims.com/jobs/8707/cloud-software-engineering-internship/job) | Reston, VA | ⚠ unverified | — |
-| IDEMIA | [Full Stack Software Engineering Internship](https://uscareers-idemia.icims.com/jobs/8708/full-stack-software-engineering-internship/job) | Eden Prairie, MN | ⚠ unverified | — |
 | IDEMIA | [Software Engineer Internship - Summer 2027](https://uscareers-idemia.icims.com/jobs/8650/software-engineer-internship---summer-2027/job) | Reston, VA |  | — |
 | IDEMIA | [Software Engineering Internship - Enrollment and Credentialing Services](https://uscareers-idemia.icims.com/jobs/8642/software-engineering-internship---enrollment-and-credentialing-services/job) | Brentwood, TN |  | — |
 | Infleqtion | [Summer 2027 Internship - Quantum Software \(QSW\)](https://jobs.workable.com/view/dYzgxY7wmFJihiibcmCfAB/summer-2027-internship---quantum-software-%28qsw%29-in-chicago-at-infleqtion) | Chicago, IL |  | — |
@@ -182,7 +178,7 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Keysight Technologies | [R&amp;D Software Engineer, Intern](https://jobs.keysight.com/external/jobs/56415) | Colorado Springs, CO |  | — |
 | Keysight Technologies | [R&amp;D Software Engineer, Intern](https://jobs.keysight.com/external/jobs/54848) | Austin, TX |  | — |
 | Keysight Technologies | [R&amp;D Software Engineer, Intern](https://jobs.keysight.com/external/jobs/54673) | Santa Rosa, CA |  | — |
-| Keysight Technologies | [R&amp;D Software Engineering Internship](https://jobs.keysight.com/external/jobs/54724) | Colorado Springs, CO |  | — |
+| Keysight Technologies | [R&amp;D Software Engineering Internship](https://jobs.keysight.com/external/jobs/54724) | Colorado Springs, CO | ⚠ unverified | — |
 | Keysight Technologies | [R&amp;D Software Engineering, Intern](https://jobs.keysight.com/external/jobs/55110) | Santa Rosa, CA |  | — |
 | Keysight Technologies | [R&amp;D Software Engineering, Intern](https://jobs.keysight.com/external/jobs/54388) | Atlanta, GA |  | — |
 | McDonald's | [Software Development Engineer Intern](https://jobs.mcdonalds.com/job/Chicago-Software-Development-Engineer-Intern-IL-60607/1449052900/) | Chicago, IL | ⚠ unverified | — |
@@ -372,7 +368,7 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | HP | [Software Quality Assurance Intern](https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/San-Francisco-California-United-States-of-America/Software-Quality-Assurance-Intern_UNI4802-1) | San Francisco, CA |  | Oct 28 |
 | HP | [Software Systems Intern - HP IQ](https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/San-Francisco-California-United-States-of-America/Software-Systems-Intern_UNI4801-1) | San Francisco, CA |  | Oct 28 |
 | Intuitive | [Manufacturing Software Engineering Intern](https://jobs.smartrecruiters.com/Intuitive/744000158313919-manufacturing-software-engineering-intern) | Sunnyvale, CA |  | Oct 28 |
-| Intuitive | [Robotics Engineering Intern](https://jobs.smartrecruiters.com/Intuitive/744000158313717-robotics-engineering-intern) | Sunnyvale, CA |  | Oct 28 |
+| Intuitive | [Robotics Engineering Intern](https://jobs.smartrecruiters.com/Intuitive/744000158313717-robotics-engineering-intern) | Sunnyvale, CA | ⚠ unverified | Oct 28 |
 | LinkedIn | [Software Engineer Intern \(First Play\) - Summer 2027 \(Mountain View, CA\)](https://jobs.smartrecruiters.com/LinkedIn3/744000158394370-software-engineer-intern-first-play-summer-2027-mountain-view-ca-) | Mountain View, CA | 🧪 OA<br>⚠ unverified | Oct 28 |
 | Q2 | [2027 Summer Internship - Software Engineer](https://q2ebanking.wd5.myworkdayjobs.com/Q2/job/Austin-Texas/XMLNAME-2027-Summer-Internship---Software-Engineer_REQ-12794)<br><sub>“Applicants must be authorized to work for any employer in the U.S. We are unable to sponsor or take over sponsorship of an employment Visa a…”</sub> | Austin, TX | 🛂❌ no sponsor | Oct 28 |
 | Q2 | [2027 Summer Internship - Software Engineer](https://q2ebanking.wd5.myworkdayjobs.com/Q2/job/Cary-North-Carolina/XMLNAME-2027-Summer-Internship---Software-Engineer_REQ-12798)<br><sub>“Applicants must be authorized to work for any employer in the U.S. We are unable to sponsor or take over sponsorship of an employment Visa a…”</sub> | Cary, NC | 🛂❌ no sponsor | Oct 28 |
@@ -416,7 +412,7 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | ProPetro Services, Inc | [Engineering Technology Intern](https://propetroservices.wd5.myworkdayjobs.com/ProPetro_Careers/job/Midland-TX/Engineering-Technology-Intern_R-101170) | Midland, TX |  | Oct 23 |
 | AbbVie | [2027 Validation Engineer Co-Op \(July - Dec\) \(Undergraduate\)](https://jobs.smartrecruiters.com/AbbVie/3743990016346156-2027-validation-engineer-co-op-july-dec-undergraduate-) | Worcester, MA | 🔄 co-op | Oct 22 |
 | AbbVie | [2027 Validation Engineering Co-Op \(Jan-July\) \(Undergraduate\)](https://jobs.smartrecruiters.com/AbbVie/3743990016344666-2027-validation-engineering-co-op-jan-july-undergraduate-) | Worcester, MA | 🔄 co-op | Oct 22 |
-| Allen Control Systems | [Android Developer Intern, 2027](https://jobs.ashbyhq.com/allen-control-systems/1cd2b432-9a01-4ae0-8eb2-6ebd9c278b94) | Austin, TX |  | Oct 22 |
+| Allen Control Systems | [Android Developer Intern, 2027](https://jobs.ashbyhq.com/allen-control-systems/1cd2b432-9a01-4ae0-8eb2-6ebd9c278b94) | Austin, TX | ⚠ unverified | Oct 22 |
 | Allstate | [Arity - Software Engineer Intern](https://allstate.wd5.myworkdayjobs.com/sourcing_event/job/USA---NC-Remote/Arity---Software-Engineer-Intern_R36266)<br><sub>“Allstate generally does not sponsor individuals for employment-based visas for this position.”</sub> | USA - NC \(Remote\) | 🛂❌ no sponsor<br>🌐 remote | Oct 22 |
 | Amazon | [System Development Engineer Intern/Co-op, ROBOTICS - 2027](https://www.amazon.jobs/en/jobs/10587087/system-development-engineer-intern-co-op-robotics-2027) | North Reading, MA | 🔄 co-op | Oct 22 |
 | Aptiv | [Software Development Intern](https://aptiv.wd5.myworkdayjobs.com/APTIV_CAREERS/job/Troy-MI---USA/Software-Development-Intern_J000704861) | Troy, MI - |  | Oct 22 |
@@ -437,7 +433,7 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Uline | [Database Administrator Internship - Summer 2027](https://uline.wd1.myworkdayjobs.com/Uline_Careers/job/Pleasant-Prairie-WI/Database-Administrator-Internship---Summer-2027_R268538) | Pleasant Prairie, WI |  | Oct 22 |
 | Uline | [Software Development Internship - Summer 2027](https://uline.wd1.myworkdayjobs.com/Uline_Careers/job/Pleasant-Prairie-WI/Software-Development-Internship---Summer-2027_R268537) | Pleasant Prairie, WI |  | Oct 22 |
 | AeroVironment | [Summer 2027 Software Engineering Intern](https://avav.wd1.myworkdayjobs.com/AVAV/job/Melbourne-FL/Summer-2027-Software-Engineering-Intern_8550)<br><sub>“ITAR Requirement: This position requires access to information that is subject to compliance with the International Traffic Arms Regulations…”</sub> | Melbourne, FL | 📜 ITAR<br>🎓 3.0+ GPA | Oct 21 |
-| Anduril Industries | [Winter 2027 Robotics Engineer Co-op](https://boards.greenhouse.io/andurilindustries/jobs/5271842007?gh_jid=5271842007)<br><sub>“Must be a U.S. Person due to required access to U.S. export-controlled information or facilities; U.S. clearance eligibility may be required…”</sub> | Quincy, MA | 🗽 citizens<br>🔄 co-op | Oct 21 |
+| Anduril Industries | [Winter 2027 Robotics Engineer Co-op](https://boards.greenhouse.io/andurilindustries/jobs/5271842007?gh_jid=5271842007)<br><sub>“Must be a U.S. Person due to required access to U.S. export-controlled information or facilities; U.S. clearance eligibility may be required…”</sub> | Quincy, MA | 🗽 citizens<br>🔄 co-op<br>⚠ unverified | Oct 21 |
 | GlobalFoundries | [AI Software Intern \(Summer 2027\)](https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---California---Santa-Clara/AI-Software-Intern--Summer-2027-_JR-2604029) | USA - California - Santa Clara | 🎓 3.0+ GPA | Oct 21 |
 | Hilcorp | [I-27005 - HNS Automation Tech Intern](https://hec.wd5.myworkdayjobs.com/CollegeRecruiting/job/Deadhorse-AK/I-27005---HNS-Automation-Tech-Intern_R006505) | Deadhorse, AK | 🎓 3.0+ GPA | Oct 21 |
 | Rhoda AI | [Software Engineer Intern, Inference](https://jobs.ashbyhq.com/rhoda-ai/2de33083-782f-489e-9b91-f40761a36bf4) | Sunnyvale, CA |  | Oct 21 |
@@ -680,7 +676,7 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | NOV | [Software Engineering Intern](https://egay.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_xx/job/44449) | Houston, TX | ⏳ 60+ days | Sep 15 |
 | Oshkosh Corporation | [Software Engineering Intern](https://oshkoshcorporation.wd5.myworkdayjobs.com/Oshkosh/job/San-Francisco-California-United-States/Software-Engineering-Intern_R49493)<br><sub>“Applicants for these positions may need to be "U.S. Persons," as defined in these regulations.”</sub> | San Francisco, CA | 🗽 citizens<br>⚠ unverified<br>⏳ 60+ days | Sep 15 |
 | SingleStore | [Software Engineer Intern- Helios- 2027](https://job-boards.greenhouse.io/singlestore/jobs/8205514)<br><sub>“Sponsorship is available for this position and other select roles.”</sub> |  | 🛂✅ sponsors<br>⏳ 60+ days | Sep 15 |
-| Base Power Company | [Quantitative Developer Intern](https://jobs.ashbyhq.com/base-power/b6b2332e-1226-4575-b2c9-9e5258f2540e) | Austin, TX | ⏳ 60+ days | Sep 14 |
+| Base Power Company | [Quantitative Developer Intern](https://jobs.ashbyhq.com/base-power/b6b2332e-1226-4575-b2c9-9e5258f2540e) | Austin, TX | ⚠ unverified<br>⏳ 60+ days | Sep 14 |
 | Base Power Company | [Software Engineering Intern](https://jobs.ashbyhq.com/base-power/5353ea33-57d4-46fa-9a96-e392a3f841bc) | Austin, TX | ⏳ 60+ days | Sep 14 |
 | Cyvl | [Software Engineering Intern - SWE/ML \(Summer 2027\)](https://jobs.ashbyhq.com/cyvl/8bfc4116-b0bb-47f8-bca1-7069a37db328) | Boston, MA | ⏳ 60+ days | Sep 14 |
 | DoorDash USA | [Software Engineer, Intern \(Summer 2027\) - US](https://job-boards.greenhouse.io/doordashusa/jobs/8171041) | New York, NY; San Francisco, CA; Sunnyvale, C… | ⏳ 60+ days | Sep 14 |
@@ -719,7 +715,7 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Auto-Owners Insurance | [Intelligent Automation Developer Internship - Summer 2027](https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Lansing-MI/Intelligent-Automation-Developer-Internship---Summer-2027_R_14474)<br><sub>“\*Please note that the ability to work in the U.S. without current or future sponsorship is a requirement.”</sub> | Lansing, MI | 🛂❌ no sponsor<br>⏳ 60+ days | Sep 9 |
 | Rocket Lab USA | [Flight Software Intern Summer 2027](https://job-boards.greenhouse.io/rocketlab/jobs/7989722003)<br><sub>“FOR CANDIDATES SEEKING TO WORK IN US OFFICES ONLY: To conform to U.S. Government space technology export regulations, including the Internat…”</sub> | Littleton, CO | 🗽 citizens<br>🎓 3.0+ GPA<br>⏳ 60+ days | Sep 9 |
 | Saronic Technologies | [Software Engineer Intern \(Summer 2027\)](https://jobs.ashbyhq.com/saronic/60afb634-5515-4347-824a-3816735541c2)<br><sub>“If this role is based in the United States, it requires access to export-controlled information or items that require “U.S. Person” status.”</sub> | Austin, TX | 🗽 citizens<br>⏳ 60+ days | Sep 9 |
-| Allen Control Systems | [Software Engineering Intern, 2027](https://jobs.ashbyhq.com/allen-control-systems/ed5c58a7-6a3c-474b-aa07-43ff2051cb5c) | Austin, TX | ⏳ 60+ days | Sep 8 |
+| Allen Control Systems | [Software Engineering Intern, 2027](https://jobs.ashbyhq.com/allen-control-systems/ed5c58a7-6a3c-474b-aa07-43ff2051cb5c) | Austin, TX | ⚠ unverified<br>⏳ 60+ days | Sep 8 |
 | AnaVation | [Computer Science Internship Summer 2027](https://jobs.lever.co/anavationllc/a5c70b6a-2d16-4774-9043-677456614b1b)<br><sub>“Qualifications: : Must be a US citizen with ability to obtain a US Government security clearance.”</sub> | San Antonio, TX | 🗽 citizens<br>🔒 clearance<br>🎓 3.0+ GPA<br>⏳ 60+ days | Sep 8 |
 | C.H. Robinson | [Software Engineering Internship 2027](https://chrobinson.wd5.myworkdayjobs.com/CHRobinson/job/Eden-Prairie-MN-United-States-of-America/Software-Engineering-Internship-2027_R49323) | Eden Prairie, MN | ⏳ 60+ days | Sep 8 |
 | FUTO | [Software Engineer - Internship 2027](https://jobs.lever.co/futo-org/7dd9877a-9009-408d-aa50-623cd5153f70) | Austin, TX | ⏳ 60+ days | Sep 8 |
@@ -844,7 +840,7 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | IMC | [Quantitative Research Intern \(BS/MS\) - Summer 2027](https://job-boards.eu.greenhouse.io/imc/jobs/4907399101) | Chicago | ⏳ 60+ days | Jul 1 |
 | IMC | [Quantitative Trader Intern - Summer 2027](https://job-boards.eu.greenhouse.io/imc/jobs/4823923101) | Chicago | ⏳ 60+ days | Jul 1 |
 | IMC | [Software Engineer Intern - Summer 2027](https://job-boards.eu.greenhouse.io/imc/jobs/4823924101)<br><sub>“Please note that immigration sponsorship is not offered for this specific opening.”</sub> | Chicago | 🛂❌ no sponsor<br>⏳ 60+ days | Jul 1 |
-| Palantir Technologies | [Forward Deployed Software Engineer, Internship - Commercial](https://jobs.lever.co/palantir/d5486403-c050-4920-b2e0-91b69b61ebb2) | Chicago, IL | ⏳ 60+ days | Jun 30 |
+| Palantir Technologies | [Forward Deployed Software Engineer, Internship - Commercial](https://jobs.lever.co/palantir/d5486403-c050-4920-b2e0-91b69b61ebb2) | Chicago, IL | ⚠ unverified<br>⏳ 60+ days | Jun 30 |
 | Palantir Technologies | [Year at Palantir - Forward Deployed Software Engineer, Internship - Commercial](https://jobs.lever.co/palantir/75cc1c09-8ebd-44c8-b3bc-d122cd1fecb3)<br><sub>“For USG: An active U.S. security clearance, or eligibility and willingness to obtain one, is required”</sub> | Chicago, IL | 🔒 clearance<br>⏳ 60+ days | Jun 24 |
 | Quantiq | [Software Developer Internship \(Summer 2027\)](https://job-boards.greenhouse.io/quantiq/jobs/4287936009) | Austin, TX | ⏳ 60+ days | Jun 17 |
 | Voloridge Investment Management | [Quantitative Research Intern 2027](https://job-boards.greenhouse.io/voloridgeinvestmentmanagement/jobs/4226247009) | Jupiter, FL | ⏳ 60+ days | Jun 11 |
@@ -890,7 +886,7 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Palantir Technologies | [Software Engineer, Internship](https://jobs.lever.co/palantir/bdcfb29f-4f27-42de-933f-7f83a359b9f0)<br><sub>“Active US Security clearance, or eligibility and willingness to obtain a US Security clearance.”</sub> | Washington, D.C. | 🔒 clearance<br>⏳ 60+ days | Jul 1 |
 | Palantir Technologies | [Software Engineer, Internship](https://jobs.lever.co/palantir/e27af7ab-41fc-40c9-b31d-02c6cb1c505c)<br><sub>“Active US Security clearance, or eligibility and willingness to obtain a US Security clearance.”</sub> | Palo Alto, CA | 🔒 clearance<br>⏳ 60+ days | Jul 1 |
 | Palantir Technologies | [Privacy and Civil Liberties Software Engineer, Internship](https://jobs.lever.co/palantir/09846827-b931-4a9f-bd64-c3bb8860187b) | New York, NY | ⏳ 60+ days | Oct 6 |
-| Palantir Technologies | [Forward Deployed Software Engineer, Internship - Commercial](https://jobs.lever.co/palantir/4d29249a-d7e8-4c39-880d-3b35d7b2f6f6) | New York, NY | ⏳ 60+ days | Feb 24 |
+| Palantir Technologies | [Forward Deployed Software Engineer, Internship - Commercial](https://jobs.lever.co/palantir/4d29249a-d7e8-4c39-880d-3b35d7b2f6f6) | New York, NY | ⚠ unverified<br>⏳ 60+ days | Feb 24 |
 
 ## New grad (72)
 

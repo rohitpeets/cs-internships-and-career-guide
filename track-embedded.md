@@ -38,7 +38,7 @@ The track comes from the words in the job title, so a few jobs may land in the w
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
-| Renesas Electronics | [Firmware Engineering Intern](https://jobs.smartrecruiters.com/RenesasElectronics/744000162784555-firmware-engineering-intern) | Austin, TX |  | Nov 20 |
+| Renesas Electronics | [Firmware Engineering Intern](https://jobs.smartrecruiters.com/RenesasElectronics/744000162784555-firmware-engineering-intern) | Austin, TX | ⚠ unverified | Nov 20 |
 | Rockwell Automation | [Intern - Embedded Controls Engineering](https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers/job/Orlando-Florida-United-States/Intern---Embedded-Controls-Engineering_R26-5043-1)<br><sub>“Legal authorization to work in the U.S. We will not sponsor individuals for employment visas, now or in the future”</sub> | Orlando, FL | 🛂❌ no sponsor<br>🎓 3.0+ GPA | Nov 20 |
 | Neogen Corporation | [Software or Firmware Engineer Intern](https://neogen.wd5.myworkdayjobs.com/neogencareers/job/Oakdale/Software-or-Firmware-Engineer-Intern_REQ-11064) | Oakdale |  | Nov 19 |
 | Analog Devices | [Embedded Software Engineer Intern](https://analogdevices.wd1.myworkdayjobs.com/External/job/US-TX-Austin-Plaza-on-the-Lake/Embedded-Software-Engineer-Intern_R269548) | US, TX, Austin, Plaza on the Lake |  | Nov 18 |

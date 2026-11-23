@@ -1,6 +1,6 @@
 # Internships
 
-[⬅ Back to the main page](./) · 2209 open · page 8 of 19 · updated 2026-11-23
+[⬅ Back to the main page](./) · 2204 open · page 8 of 19 · updated 2026-11-23
 
 [⬅ INTERNSHIPS page 7](INTERNSHIPS-7.md) · page 8 of 19 · [INTERNSHIPS page 9 ➡](INTERNSHIPS-9.md)
 
@@ -34,11 +34,6 @@
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
-| Jain Global | [Data Engineer Intern](https://jainglobal.wd5.myworkdayjobs.com/ExternalSite/job/New-York-New-York/Data-Engineer-Intern_JR100605-1) | New York, NY |  | Oct 30 |
-| Jain Global | [Quant Modelling Intern](https://jainglobal.wd5.myworkdayjobs.com/ExternalSite/job/New-York-New-York/Quant-Modelling-Intern_JR100616) | New York, NY |  | Oct 30 |
-| Jain Global | [Quant Research Intern, Systematic Trading](https://jainglobal.wd5.myworkdayjobs.com/ExternalSite/job/New-York-New-York/Quant-Research-Intern--Systematic-Trading_JR100603-1) | New York, NY |  | Oct 30 |
-| Jain Global | [Quantitative Research Intern – Equity Arbitrage](https://jainglobal.wd5.myworkdayjobs.com/ExternalSite/job/New-York-New-York/Quantitative-Research-Intern---Equity-Arbitrage_JR100617-1) | New York, NY |  | Oct 30 |
-| Kimball Electronics | [Automation Engineer Intern](https://kei.wd1.myworkdayjobs.com/GlobalKimballCareers/job/Kimball-Electronics-Indianapolis/Automation-Engineer-Intern_R20261584) | Kimball Electronics Indianapolis |  | Oct 30 |
 | Life Fitness | [IT Intern](https://lifefitness.wd1.myworkdayjobs.com/searchLFN/job/Rosemont-IL/IT-Intern_JR-025323) | Rosemont, IL | 🎓 3.2+ GPA | Oct 30 |
 | Molina Healthcare | [Healthcare Quality Analytics Internship \(Kentucky Health Plan\) – Summer 2027 \(Undergraduate\)](https://hckd.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/2040139) | KY | 🎓 3.0+ GPA | Oct 30 |
 | Molina Healthcare | [Healthcare Quality Analytics Internship \(Massachusetts\) – Summer 2027 \(Undergraduate\)](https://hckd.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/2040154) |  | 🎓 3.0+ GPA | Oct 30 |
@@ -127,7 +122,7 @@
 | HP | [Software Systems Intern - HP IQ](https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/San-Francisco-California-United-States-of-America/Software-Systems-Intern_UNI4801-1) | San Francisco, CA |  | Oct 28 |
 | Intuitive | [AI Research Intern](https://jobs.smartrecruiters.com/Intuitive/744000158312151-ai-research-intern) | Sunnyvale, CA |  | Oct 28 |
 | Intuitive | [Manufacturing Software Engineering Intern](https://jobs.smartrecruiters.com/Intuitive/744000158313919-manufacturing-software-engineering-intern) | Sunnyvale, CA |  | Oct 28 |
-| Intuitive | [Robotics Engineering Intern](https://jobs.smartrecruiters.com/Intuitive/744000158313717-robotics-engineering-intern) | Sunnyvale, CA |  | Oct 28 |
+| Intuitive | [Robotics Engineering Intern](https://jobs.smartrecruiters.com/Intuitive/744000158313717-robotics-engineering-intern) | Sunnyvale, CA | ⚠ unverified | Oct 28 |
 | Leidos | [Cybersecurity Engineer Co-op](https://leidos.wd5.myworkdayjobs.com/External/job/Bethesda-MD/Cybersecurity-Engineer-Co-op_R-00190764)<br><sub>“Citizenship: You MUST have U.S. Citizenship and be eligible to obtain a U.S. Government granted security clearance.”</sub> | Bethesda, MD | 🔒 secret<br>🎓 3.2+ GPA<br>🔄 co-op<br>⚠ unverified | Oct 28 |
 | Leidos | [Systems Administration Intern](https://leidos.wd5.myworkdayjobs.com/External/job/Arlington-VA/Systems-Administration-Intern_R-00195528)<br><sub>“U.S. Citizenship is required.”</sub> | Arlington, VA | 🗽 citizens<br>🔒 secret<br>⚠ unverified | Oct 28 |
 | LinkedIn | [Software Engineer Intern \(First Play\) - Summer 2027 \(Mountain View, CA\)](https://jobs.smartrecruiters.com/LinkedIn3/744000158394370-software-engineer-intern-first-play-summer-2027-mountain-view-ca-) | Mountain View, CA | 🧪 OA<br>⚠ unverified | Oct 28 |
@@ -154,6 +149,11 @@
 | Subtotal | [Software Engineering Intern](https://jobs.ashbyhq.com/subtotal/3891929c-0ee6-46ea-a833-4efba2862801) |  |  | Oct 28 |
 | T-Mobile | [Summer 2027 Assoc AI Engineer Internship](https://tmobile.wd1.myworkdayjobs.com/External/job/Overland-Park-Kansas/Summer-2027-Assoc-AI-Engineer-Internship_REQ380492) | Overland Park, KS | ⚠ unverified | Oct 28 |
 | The Nuclear Company | [Spring 2027 Security Engineer Intern](https://job-boards.greenhouse.io/thenuclearcompany/jobs/5466153008)<br><sub>“U.S. Person status \(U.S. citizen or lawful permanent resident\) is required , and the Company does not sponsor visas for this role.”</sub> | Washington, DC | 🛂❌ no sponsor<br>🗽 citizens<br>🌱 spring | Oct 28 |
+| USAFacts | [AI &amp; Software Engineering Intern](https://job-boards.greenhouse.io/usafacts/jobs/4472154009) | Bellevue, WA |  | Oct 28 |
+| Valmont Industries, Inc | [AI &amp; Data Engineering Intern](https://valmont.wd1.myworkdayjobs.com/ValmontCareers/job/Omaha-NE/AI---Data-Engineering-Intern_R29310) | Omaha NE |  | Oct 28 |
+| Victaulic | [2027 Summer Internship – Information Technology](https://victaulic.wd1.myworkdayjobs.com/victaulic_careers/job/Easton-Pennsylvania/XMLNAME-2027-Summer-Internship---Information-Technology_R0005962)<br><sub>“Victaulic does not provide immigration sponsorship \(e.g., H-1B, TN, or other work visa sponsorship\) for this position.”</sub> | Easton, PA | 🛂❌ no sponsor | Oct 28 |
+| Wabtec | [Wabtec Spring 2027 Software Engineering Co-Op \(10-Week\)](https://jobs.smartrecruiters.com/Wabtec/3743990016452226-wabtec-spring-2027-software-engineering-co-op-10-week-) | Schenectady, NY | 🎓 3.0+ GPA<br>🔄 co-op<br>🌱 spring | Oct 28 |
+| WorldEngine AI | [Research Intern, Robotics Data &amp; Real-to-Sim](https://jobs.ashbyhq.com/worldengine/ba22a6ae-9b75-4078-83c4-d908a29ccdd9) | SF Bay Area |  | Oct 28 |
 
 [⬅ INTERNSHIPS page 7](INTERNSHIPS-7.md) · page 8 of 19 · [INTERNSHIPS page 9 ➡](INTERNSHIPS-9.md)
 

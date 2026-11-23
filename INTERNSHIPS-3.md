@@ -1,6 +1,6 @@
 # Internships
 
-[⬅ Back to the main page](./) · 2209 open · page 3 of 19 · updated 2026-11-23
+[⬅ Back to the main page](./) · 2204 open · page 3 of 19 · updated 2026-11-23
 
 [⬅ INTERNSHIPS page 2](INTERNSHIPS-2.md) · page 3 of 19 · [INTERNSHIPS page 4 ➡](INTERNSHIPS-4.md)
 
@@ -34,7 +34,6 @@
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
-| State Street | [Full Stack Development Intern, Full-time Internship \(Jan - June 2027\)](https://statestreet.wd1.myworkdayjobs.com/Global/job/Quincy-Massachusetts/Full-Stack-Development-Intern--Full-time-Internship--Jan---June-2027-_R-801232) | Quincy, MA | ⚠ unverified | Nov 17 |
 | State Street | [Software Engineer \(Intergration Services\) - Full-time Internship \(Jan - June 2027\)](https://statestreet.wd1.myworkdayjobs.com/Global/job/Quincy-Massachusetts/Software-Engineer--Intergration-Services----Full-time-Internship--Jan---June-2027-_R-801234) | Quincy, MA | ⚠ unverified | Nov 17 |
 | State Street | [Software Engineering Intern - Full-time Internship \(Jan - June 2027\)](https://statestreet.wd1.myworkdayjobs.com/Global/job/Quincy-Massachusetts/Software-Engineering-Intern---Full-time-Internship--Jan---June-2027-_R-801236) | Quincy, MA | ⚠ unverified | Nov 17 |
 | State Street | [State Street Investment Management - Data Scientist - Summer Internship 2027](https://statestreet.wd1.myworkdayjobs.com/Global/job/Boston-Massachusetts/State-Street-Investment-Management---Data-Scientist---Summer-Internship-2027_R-801213) | Boston, MA | ⚠ unverified | Nov 17 |
@@ -89,14 +88,13 @@
 | Booz Allen | [University - Summer 2027 - Quantum Research Intern](https://careers.boozallen.com/careers/JobDetail/130907) | Washington, DC | ⚠ unverified | — |
 | Booz Allen | [University - Summer 2027, Software Engineer Intern](https://careers.boozallen.com/careers/JobDetail/130289) | Fayetteville, NC | ⚠ unverified | — |
 | Booz Allen | [University – Summer 27, Enterprise Cybersecurity Data Loss Prevention Intern](https://careers.boozallen.com/careers/JobDetail/130179) | McLean, VA |  | — |
-| Booz Allen | [University, 2027 Summer Games Cyber Security Intern](https://careers.boozallen.com/careers/JobDetail/129563) | Colorado Springs, CO |  | — |
+| Booz Allen | [University, 2027 Summer Games Cyber Security Intern](https://careers.boozallen.com/careers/JobDetail/129563) | Colorado Springs, CO | ⚠ unverified | — |
 | Booz Allen | [University, 2027 Summer Games Data Scientist Intern](https://careers.boozallen.com/careers/JobDetail/129577) | Colorado Springs, CO |  | — |
 | Booz Allen | [University, 2027 Summer Games Software Developer Intern](https://careers.boozallen.com/careers/JobDetail/129562) | Colorado Springs, CO |  | — |
 | Booz Allen | [University, 2027 Summer Games Software Developer Intern - McLean, VA](https://careers.boozallen.com/careers/JobDetail/129513) | McLean, VA | ⚠ unverified | — |
 | Booz Allen | [University, Applied AI Software Development Intern](https://careers.boozallen.com/careers/JobDetail/131621) | McLean, VA | ⚠ unverified | — |
 | Booz Allen | [University, Software Engineer Intern](https://careers.boozallen.com/careers/JobDetail/131951) | Fayetteville, NC | ⚠ unverified | — |
 | BorgWarner | [Software Test Intern](https://borgwarner.wd5.myworkdayjobs.com/BorgWarner_Careers/job/Auburn-Hills---Michigan---USA/Software-Test-Intern_R2026-4385-1) | Auburn Hills - Michigan - |  | Nov 16 |
-| Brex | [Software Engineer, Intern \(Summer 2027\)](https://www.brex.com/careers/8936403002?gh_jid=8936403002) | San Francisco, CA | ⚠ unverified | — |
 | Burns Engineering | [Software Engineering Intern - Summer 2027](https://www.burns-group.com/careers/current-openings/?gh_jid=4467848009) | Pittsburgh, PA | ⚠ unverified | — |
 | CACI | [Software Engineering Co-op/Intern - Summer 2027](https://searchcareers.caci.com/careers/job/1443154261084-software-engineering-co-op-intern-summer-2027-rochester-ny-us) | Rochester, NY | 🔄 co-op<br>⚠ unverified | — |
 | Carnegie Mellon University | [AI Engineer Intern - Mission Innovation Lab \(Summer 2027\)](https://cmu.wd115.myworkdayjobs.com/CMU/job/Pittsburgh-PA/AI-Engineer-Intern---Mission-Innovation-Lab--Summer-2027-_2025364)<br><sub>“· You will be subject to a background check and must be eligible to work in the United States without Visa sponsorship.”</sub> | Pittsburgh, PA | 🛂❌ no sponsor | Nov 16 |
@@ -123,7 +121,6 @@
 | Erie Insurance Group | [Intern II \(Claims Systems &amp; AI\)](https://jobs.erieinsurance.com/job/Erie-Intern-II-%28Claims-Systems-&-AI%29-PA-16506/1447480500/) | Millcreek Township, PA | ⚠ unverified | — |
 | Exol | [Intern- Software Engineer](https://symbotic.wd504.myworkdayjobs.com/Symbotic/job/USA-Wilmington--MA---HQ/Software-Engineer_R7963) | USA Wilmington, MA - HQ |  | Nov 16 |
 | Federal Reserve System | [2027 Summer Internship Program - IT Portfolio Analyst Intern](https://rb.wd5.myworkdayjobs.com/FRS/job/Atlanta-GA/XMLNAME-2027-Summer-Internship-Program---IT-Portfolio-Analyst-Intern_R-0000034092)<br><sub>“Applicants must be currently authorized to work in the United States without the need for visa sponsorship now or in the future.”</sub> | Atlanta, GA | 🛂❌ no sponsor | Nov 16 |
-| Formlabs | [2027 \(Summer\) - Manufacturing - Manufacturing Test Software Intern](https://careers.formlabs.com/job/8374598/apply/?gh_jid=8374598) | Somerville, MA | ⚠ unverified | — |
 | Genuine Parts Company | [Technology Intern 2027](https://genpt.wd1.myworkdayjobs.com/Careers/job/Atlanta-GA-USA/Technology-Intern-2027_R26_0000037382) | Atlanta, GA | 🧪 OA<br>🎓 3.6+ GPA<br>⚠ unverified | Nov 16 |
 | GM Financial | [Intern - Software Development Engineer](https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/261292) | Irving, TX | 🎓 3.0+ GPA | Nov 16 |
 | Great American Insurance Group | [Predictive Analytics Intern - Summer 2027](https://gaig.wd1.myworkdayjobs.com/GAIG_External/job/Cincinnati-OH-USA/Predictive-Analytics-Intern---Summer-2027_R9904)<br><sub>“Applicants must be authorized to work in the United States without the need for current or future sponsorship.”</sub> | Cincinnati, OH \(USA\) | 🛂❌ no sponsor<br>⚠ unverified | Nov 16 |
@@ -131,8 +128,6 @@
 | Huntington Ingalls Industries | [SPRING 2027 IT CO-OP](https://careers.huntingtoningalls.com/job/Newport-News-SPRING-2027-IT-CO-OP-Virg/1434270100/) | Newport News, VA | 🔄 co-op<br>🌱 spring | — |
 | Huntington Ingalls Industries | [Summer 2027 Internship - DevOps Engineer \(Hybrid\) - 30230](https://jobs.hii-tsd.com/job/Columbia%2C-MD-Summer-2027-Internship-DevOps-Engineer-%28Hybrid%29-30230-Mary/1430966800/) | Columbia, MD |  | — |
 | Huntington Ingalls Industries | [Summer 2027 Internship - Software Engineer \(Hybrid\) - 30189](https://jobs.hii-tsd.com/job/Greenville%2C-SC-Summer-2027-Internship-Software-Engineer-%28Hybrid%29-30189-Sout/1430373400/) | Greenville, SC | ⚠ unverified | — |
-| IDEMIA | [Cloud Software Engineering Internship](https://uscareers-idemia.icims.com/jobs/8707/cloud-software-engineering-internship/job) | Reston, VA | ⚠ unverified | — |
-| IDEMIA | [Full Stack Software Engineering Internship](https://uscareers-idemia.icims.com/jobs/8708/full-stack-software-engineering-internship/job) | Eden Prairie, MN | ⚠ unverified | — |
 | IDEMIA | [Software Engineer Internship - Summer 2027](https://uscareers-idemia.icims.com/jobs/8650/software-engineer-internship---summer-2027/job) | Reston, VA |  | — |
 | IDEMIA | [Software Engineering Internship - Enrollment and Credentialing Services](https://uscareers-idemia.icims.com/jobs/8642/software-engineering-internship---enrollment-and-credentialing-services/job) | Brentwood, TN |  | — |
 | Infleqtion | [Summer 2027 Internship - Quantum Software \(QSW\)](https://jobs.workable.com/view/dYzgxY7wmFJihiibcmCfAB/summer-2027-internship---quantum-software-%28qsw%29-in-chicago-at-infleqtion) | Chicago, IL |  | — |
@@ -145,7 +140,7 @@
 | International | [General IT Intern](https://careers.international.com/jobs/60707) | Lisle, IL | ⚠ unverified | — |
 | International | [IT Security Intern](https://careers.international.com/jobs/60661) | Lisle, IL | ⚠ unverified | — |
 | Keysight Technologies | [Data Scientist, Intern](https://jobs.keysight.com/external/jobs/54570) | Santa Rosa, CA |  | — |
-| Keysight Technologies | [EDA AI/ML Layout Engineering Intern](https://jobs.keysight.com/external/jobs/54606) | Calabasas, CA |  | — |
+| Keysight Technologies | [EDA AI/ML Layout Engineering Intern](https://jobs.keysight.com/external/jobs/54606) | Calabasas, CA | ⚠ unverified | — |
 | Keysight Technologies | [EDA AI/ML Software Intern](https://jobs.keysight.com/external/jobs/54582) | Calabasas, CA |  | — |
 | Keysight Technologies | [Embedded Software Engineer Intern](https://jobs.keysight.com/external/jobs/55093) | Cambridge, MA |  | — |
 | Keysight Technologies | [Quantum Application Engineering &amp; Business Development Intern](https://jobs.keysight.com/external/jobs/54643) | Santa Rosa, CA |  | — |
@@ -154,6 +149,11 @@
 | Keysight Technologies | [R&amp;D Software Engineer Intern](https://jobs.keysight.com/external/jobs/54414) | Santa Rosa, CA |  | — |
 | Keysight Technologies | [R&amp;D Software Engineer, Intern](https://jobs.keysight.com/external/jobs/56415) | Colorado Springs, CO |  | — |
 | Keysight Technologies | [R&amp;D Software Engineer, Intern](https://jobs.keysight.com/external/jobs/54848) | Austin, TX |  | — |
+| Keysight Technologies | [R&amp;D Software Engineer, Intern](https://jobs.keysight.com/external/jobs/54673) | Santa Rosa, CA |  | — |
+| Keysight Technologies | [R&amp;D Software Engineering Internship](https://jobs.keysight.com/external/jobs/54724) | Colorado Springs, CO | ⚠ unverified | — |
+| Keysight Technologies | [R&amp;D Software Engineering, Intern](https://jobs.keysight.com/external/jobs/55110) | Santa Rosa, CA |  | — |
+| Keysight Technologies | [R&amp;D Software Engineering, Intern](https://jobs.keysight.com/external/jobs/54388) | Atlanta, GA |  | — |
+| KLA | [Computer Vision/Machine Learning Intern](https://kla.wd1.myworkdayjobs.com/UR/job/Milpitas-CA/Computer-Vision-Machine-Learning-Intern_2641921) | Milpitas, CA |  | Nov 16 |
 
 [⬅ INTERNSHIPS page 2](INTERNSHIPS-2.md) · page 3 of 19 · [INTERNSHIPS page 4 ➡](INTERNSHIPS-4.md)
 

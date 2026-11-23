@@ -1,6 +1,6 @@
 # Internships
 
-[⬅ Back to the main page](./) · 2209 open · page 2 of 19 · updated 2026-11-23
+[⬅ Back to the main page](./) · 2204 open · page 2 of 19 · updated 2026-11-23
 
 [⬅ INTERNSHIPS page 1](INTERNSHIPS.md) · page 2 of 19 · [INTERNSHIPS page 3 ➡](INTERNSHIPS-3.md)
 
@@ -34,8 +34,6 @@
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
-| Trimble Inc | [Workplace Experience Data and Automation Intern](https://trimble.wd1.myworkdayjobs.com/TrimbleCareers/job/US---CO-Westminster/Workplace-Experience-Data-and-Automation-Intern_R58488-1) | US - CO, Westminster |  | Nov 19 |
-| Veolia Environnement SA | [Manufacturing Software Engineer Intern](https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000162593839-manufacturing-software-engineer-intern) | Boulder, CO |  | Nov 19 |
 | Vertiv | [AI Intern \(Summer 2027\)](https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20286620) | Huntsville, AL | ⚠ unverified | Nov 19 |
 | Airbnb | [Software Engineering Intern \(BS/MS\)](https://careers.airbnb.com/positions/8360478?gh_jid=8360478) | San Francisco, CA |  | Nov 18 |
 | Analog Devices | [Digital Design Engineering Intern - Summer 2027](https://analogdevices.wd1.myworkdayjobs.com/External/job/US-TX-Austin-Plaza-on-the-Lake/Digital-Design-Engineering-Intern---Summer-2027_R268548) | US, TX, Austin, Plaza on the Lake |  | Nov 18 |
@@ -89,6 +87,7 @@
 | Zillow | [Applied Scientist \(Economics\) Intern](https://zillow.wd5.myworkdayjobs.com/Zillow_Group_External/job/Seattle-WA-2nd-Ave/Applied-Scientist--Economics--Intern_P751642-1) | Seattle-WA-2nd Ave |  | Nov 18 |
 | Zillow | [Data Science Intern](https://zillow.wd5.myworkdayjobs.com/Zillow_Group_External/job/Seattle-WA-2nd-Ave/Data-Science-Intern_P751677-1) | Seattle-WA-2nd Ave |  | Nov 18 |
 | Zillow | [Software Development Engineer - Intern](https://zillow.wd5.myworkdayjobs.com/Zillow_Group_External/job/Seattle-WA-2nd-Ave/Software-Development-Engineer---Intern_P751630) | Seattle-WA-2nd Ave |  | Nov 18 |
+| Amazon | [Software Development Engineer Intern - Artificial General Intelligence \(Summer 2027\)](https://www.amazon.jobs/en/jobs/10606968/software-development-engineer-intern-artificial-general-intelligence-summer-2027) | Sunnyvale, CA |  | Nov 17 |
 | Amentum | [DoD SkillBridge Internship - Cybersecurity Software and Systems Engineer](https://pae.wd1.myworkdayjobs.com/Amentum_Careers/job/US-TX-Houston/DoD-SkillBridge-Internship---Cybersecurity-Software-and-Systems-Engineer_R0175558-1) | US-TX-Houston | 🏛 gov<br>⚠ unverified | Nov 17 |
 | Amentum | [Software Programmer Intern](https://pae.wd1.myworkdayjobs.com/Amentum_Careers/job/US-TN-Tullahoma/Software-Programmer-Intern_R0169775) | US-TN-Tullahoma | ⚠ unverified | Nov 17 |
 | Amentum | [Software Programmer Intern](https://pae.wd1.myworkdayjobs.com/Amentum_Careers/job/US-MI-Detroit/Software-Programmer-Intern_R0169773) | US-MI-Detroit | ⚠ unverified | Nov 17 |
@@ -154,6 +153,7 @@
 | Springs Window Fashions | [Information Technology Internship - summer 2027](https://careers-springswindowfashions.icims.com/jobs/12908/information-technology-internship---summer-2027/job) | MIDDLETON, WI |  | — |
 | Springs Window Fashions | [Software Engineering Internship - Summer 2027](https://careers-springswindowfashions.icims.com/jobs/12891/software-engineering-internship---summer-2027/job) | LONG ISLAND CITY, NY |  | — |
 | Springs Window Fashions | [Textile Engineering Analytics &amp; Software Internship - summer 2027](https://careers-springswindowfashions.icims.com/jobs/12881/textile-engineering-analytics-%26-software-internship---summer-2027/job) | MIDDLETON, WI |  | — |
+| State Street | [Full Stack Development Intern, Full-time Internship \(Jan - June 2027\)](https://statestreet.wd1.myworkdayjobs.com/Global/job/Quincy-Massachusetts/Full-Stack-Development-Intern--Full-time-Internship--Jan---June-2027-_R-801232) | Quincy, MA | ⚠ unverified | Nov 17 |
 
 [⬅ INTERNSHIPS page 1](INTERNSHIPS.md) · page 2 of 19 · [INTERNSHIPS page 3 ➡](INTERNSHIPS-3.md)
 

@@ -1,6 +1,6 @@
 # Internships
 
-[⬅ Back to the main page](./) · 2209 open · page 15 of 19 · updated 2026-11-23
+[⬅ Back to the main page](./) · 2204 open · page 15 of 19 · updated 2026-11-23
 
 [⬅ INTERNSHIPS page 14](INTERNSHIPS-14.md) · page 15 of 19 · [INTERNSHIPS page 16 ➡](INTERNSHIPS-16.md)
 
@@ -34,11 +34,6 @@
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
-| Stantec | [Technology Intern/Co-op - Buildings \(Summer 2027\)](https://hdhl.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1007834) | New York, NY | 🔄 co-op<br>⏳ 60+ days | Sep 18 |
-| ACI Worldwide | [Technology Internships](https://ebwg.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/19943) | Norcross, GA | ⚠ unverified<br>⏳ 60+ days | Sep 17 |
-| Amazon | [Software Development Engineer Intern - Summer 2027 \(USA\)](https://www.amazon.jobs/en/jobs/10552937/software-development-engineer-intern-summer-2027-usa) | Seattle, WA | ⏳ 60+ days | Sep 17 |
-| Amperesand | [Software Intern, Factory &amp; Ops](https://job-boards.greenhouse.io/amperesand/jobs/4409254009) | Reno, NV | ⏳ 60+ days | Sep 17 |
-| Church &amp; Dwight | [AI Developer Co-op - Graduate Program \(9 Months\)](https://churchdwight.wd1.myworkdayjobs.com/chdcareers/job/USA-Ewing-NJ/AI-Developer-Co-op---Graduate-Program--9-Months-_R2026-15686)<br><sub>“· US work authorization required; candidates must be a U.S. citizen, permanent resident, or green card holder.”</sub> | USA, Ewing, NJ | 🗽 citizens<br>🔄 co-op<br>⏳ 60+ days | Sep 17 |
 | Danaher Corporation | [Hardware Engineering Intern](https://danaher.wd1.myworkdayjobs.com/DanaherJobs/job/Vista-California-United-States/Hardware-Engineering-Intern_R1315720) | Vista, CA | ⚠ unverified<br>⏳ 60+ days | Sep 17 |
 | Gordon Food Service | [Human Resource Information Systems Internship](https://gfs.wd5.myworkdayjobs.com/usjobs-gen-gfs/job/Wyoming-Michigan/Human-Resource-Information-Systems-Internship_R-57339) | Wyoming, MI | 🎓 3.0+ GPA<br>⏳ 60+ days | Sep 17 |
 | Honeywell | [Software Engineer Co-Op - Spring/Summer 2027](https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/158088)<br><sub>“Candidates must be authorized to legally work in the United States without current or future sponsorship requirements.”</sub> | Pittsford, NY | 🛂❌ no sponsor<br>🗽 citizens<br>🔄 co-op<br>🌱 spring<br>⚠ unverified<br>⏳ 60+ days | Sep 17 |
@@ -63,7 +58,7 @@
 | Cloudflare | [Software Engineer Intern \(2027\) - Austin, TX](https://boards.greenhouse.io/cloudflare/jobs/8199958?gh_jid=8199958) | In-Office | ⏳ 60+ days | Sep 16 |
 | CoVar | [Machine Learning Internship Summer 2027](https://job-boards.greenhouse.io/covar/jobs/5240360007) | Durham, NC | ⏳ 60+ days | Sep 16 |
 | Emergent Labs | [Software Engineering Intern](https://job-boards.greenhouse.io/emergentlabsinc/jobs/4323651009) | San Francisco | ⏳ 60+ days | Sep 16 |
-| EQT Corporation | [Data Engineering Intern](https://job-boards.greenhouse.io/eqtcorporation/jobs/5422414008) | Canonsburg, PA | ⏳ 60+ days | Sep 16 |
+| EQT Corporation | [Data Engineering Intern](https://job-boards.greenhouse.io/eqtcorporation/jobs/5422414008) | Canonsburg, PA | ⚠ unverified<br>⏳ 60+ days | Sep 16 |
 | GM Financial | [Intern - Data Science](https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/260839) | Fort Worth, TX | 🎓 3.0+ GPA<br>⏳ 60+ days | Sep 16 |
 | GM Financial | [Intern - IT Support Technician](https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/260834) | Arlington, TX | 🎓 3.0+ GPA<br>⏳ 60+ days | Sep 16 |
 | Greystar \(International\) | [Analytics Engineering Intern](https://greystar.wd1.myworkdayjobs.com/Campus/job/Remote-Texas-Remote-Texas-TX/Analytics-Engineering-Intern_R0201258) | Remote Texas, Remote Texas, TX | 🌐 remote<br>⏳ 60+ days | Sep 16 |
@@ -118,7 +113,7 @@
 | Baird | [Internship – IT AI &amp; Automation \(Year-Round\)](https://wd1.myworkdaysite.com/recruiting/baird/Careers/job/WI-Milwaukee/Internship---IT-Operations-Automation---AI--Year-Round-_R2026986-1) | WI-Milwaukee | ⏳ 60+ days | Sep 14 |
 | Baird | [Internship – IT Business Analyst \(Year-Round\)](https://wd1.myworkdaysite.com/recruiting/baird/Careers/job/WI-Milwaukee/Internship---IT-Business-Analyst--Year-Round-_R20261022-2) | WI-Milwaukee | ⏳ 60+ days | Sep 14 |
 | Base Power Company | [Embedded Software Engineering Intern](https://jobs.ashbyhq.com/base-power/a8ee9a66-e90b-42c2-a4a2-28d997c3e8c7) | Austin, TX | ⏳ 60+ days | Sep 14 |
-| Base Power Company | [Quantitative Developer Intern](https://jobs.ashbyhq.com/base-power/b6b2332e-1226-4575-b2c9-9e5258f2540e) | Austin, TX | ⏳ 60+ days | Sep 14 |
+| Base Power Company | [Quantitative Developer Intern](https://jobs.ashbyhq.com/base-power/b6b2332e-1226-4575-b2c9-9e5258f2540e) | Austin, TX | ⚠ unverified<br>⏳ 60+ days | Sep 14 |
 | Base Power Company | [Software Engineering Intern](https://jobs.ashbyhq.com/base-power/5353ea33-57d4-46fa-9a96-e392a3f841bc) | Austin, TX | ⏳ 60+ days | Sep 14 |
 | Bedrock Robotics Inc | [2027 Internship Hardware Engineer, Machine Integration &amp; Test](https://jobs.ashbyhq.com/bedrock-robotics/c9c08251-6a42-4f9c-be4d-2621995cc8f9) | San Francisco, CA | ⏳ 60+ days | Sep 14 |
 | Campbell's | [Information Technology Internship Program - Summer 2027](https://campbellsoup.wd5.myworkdayjobs.com/ExternalCareers_GlobalSite/job/USA---NJ---Camden/Information-Technology-Internship-Program---Summer-2027_Req-68193) | USA - NJ - Camden | 🎓 3.0+ GPA<br>⏳ 60+ days | Sep 14 |
@@ -154,6 +149,11 @@
 | Faith Technologies Incorporated \(FTI\) | [IT Internships -Summer 2027](https://faithtechnologies.wd1.myworkdayjobs.com/FTI_Intern/job/WI---Menasha/IT-Internship-Summer-2027_R12062) | WI - Menasha | ⏳ 60+ days | Sep 11 |
 | Motorola Solutions | [2027 Software Engineering Summer Internship](https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Plantation-FL/XMLNAME-2027-Software-Engineering-Summer-Internship_R68125)<br><sub>“Must be a US Citizen, permanent resident or be an MS student with work authorization \(F1 Visa on CPT accepted only for masters-level student…”</sub> | Plantation, FL | 🗽 citizens<br>⚠ unverified<br>⏳ 60+ days | Sep 11 |
 | National Laboratory of the Rockies | [Graduate \(Year-Round\) Intern – Modeling, Real-Time Simulation and Hardware in the Loop \(HIL\) Testing of Distribution Systems](https://nrel.wd5.myworkdayjobs.com/NLR/job/Golden-CO/Graduate--Year-Round--Intern---Modeling--Real-Time-Simulation-and-Hardware-in-the-Loop--HIL--Testing-of-Distribution-Systems_R14483) | Golden, CO | 🎓 3.0+ GPA<br>⚠ unverified<br>⏳ 60+ days | Sep 11 |
+| NewsBreak | [Nearby AI Internship Program - Engineering Track](https://job-boards.greenhouse.io/newsbreak/jobs/4712896006) | Mountain View, CA | ⏳ 60+ days | Sep 11 |
+| Oshkosh Corporation | [Cyber Security Intern](https://oshkoshcorporation.wd5.myworkdayjobs.com/Oshkosh/job/Oshkosh-Wisconsin-United-States/Cyber-Security-Intern_R50267)<br><sub>“Applicants for these positions may need to be "U.S. Persons," as defined in these regulations.”</sub> | Oshkosh, WI | 🗽 citizens<br>⏳ 60+ days | Sep 11 |
+| The Toro Company | [Spatial Data R&amp;D Intern - The Toro Company](https://ttc.wd1.myworkdayjobs.com/Toro_External_Careers/job/Bloomington-MN/Spatial-Data-R-D-Intern---The-Toro-Company_JR17187)<br><sub>“We are unable to sponsor or take over sponsorship of a school/employment or any other visa, regardless of expiration date, now or in the fut…”</sub> | Bloomington, MN | 🛂❌ no sponsor<br>⏳ 60+ days | Sep 11 |
+| Vanguard | [College to Corporate IT Internship - Risk &amp; Security - Analyst \(NC\)](https://vanguard.wd5.myworkdayjobs.com/vanguard_external/job/Charlotte-NC/College-to-Corporate-IT-Internship---Risk---Security---Analyst---NC-_181764)<br><sub>“Vanguard does not offer visa sponsorship for this role”</sub> | Charlotte, NC | 🛂❌ no sponsor<br>⏳ 60+ days | Sep 11 |
+| Vanguard | [College to Corporate IT Internship - Risk &amp; Security - Analyst \(PA\)](https://vanguard.wd5.myworkdayjobs.com/vanguard_external/job/Malvern-PA/College-to-Corporate-IT-Internship---Risk---Security---Analyst---PA-_181762)<br><sub>“Vanguard does not offer visa sponsorship for this role”</sub> | Malvern, PA | 🛂❌ no sponsor<br>⏳ 60+ days | Sep 11 |
 
 [⬅ INTERNSHIPS page 14](INTERNSHIPS-14.md) · page 15 of 19 · [INTERNSHIPS page 16 ➡](INTERNSHIPS-16.md)
 

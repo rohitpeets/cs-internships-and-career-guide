@@ -1,6 +1,6 @@
 # Internships
 
-[⬅ Back to the main page](./) · 2209 open · page 4 of 19 · updated 2026-11-23
+[⬅ Back to the main page](./) · 2204 open · page 4 of 19 · updated 2026-11-23
 
 [⬅ INTERNSHIPS page 3](INTERNSHIPS-3.md) · page 4 of 19 · [INTERNSHIPS page 5 ➡](INTERNSHIPS-5.md)
 
@@ -34,11 +34,6 @@
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
-| Keysight Technologies | [R&amp;D Software Engineer, Intern](https://jobs.keysight.com/external/jobs/54673) | Santa Rosa, CA |  | — |
-| Keysight Technologies | [R&amp;D Software Engineering Internship](https://jobs.keysight.com/external/jobs/54724) | Colorado Springs, CO |  | — |
-| Keysight Technologies | [R&amp;D Software Engineering, Intern](https://jobs.keysight.com/external/jobs/55110) | Santa Rosa, CA |  | — |
-| Keysight Technologies | [R&amp;D Software Engineering, Intern](https://jobs.keysight.com/external/jobs/54388) | Atlanta, GA |  | — |
-| KLA | [Computer Vision/Machine Learning Intern](https://kla.wd1.myworkdayjobs.com/UR/job/Milpitas-CA/Computer-Vision-Machine-Learning-Intern_2641921) | Milpitas, CA |  | Nov 16 |
 | KLA | [Firmware Intern](https://kla.wd1.myworkdayjobs.com/UR/job/Milpitas-CA/Firmware-Intern_2642154) | Milpitas, CA |  | Nov 16 |
 | Leidos | [Cybersecurity Intern](https://leidos.wd5.myworkdayjobs.com/External/job/Fort-Belvoir-VA/Cybersecurity-Intern_R-00197087)<br><sub>“U.S. citizenship required.”</sub> | Fort Belvoir, VA | 🗽 citizens<br>🔒 secret<br>⚠ unverified | Nov 16 |
 | McDonald's | [Cybersecurity Intern](https://jobs.mcdonalds.com/job/Chicago-Cybersecurity-Intern-IL-60607/1449564700/) | Chicago, IL | ⚠ unverified | — |
@@ -154,6 +149,11 @@
 | ServiceNow | [AI Identity Intern](https://jobs.smartrecruiters.com/ServiceNow/744000161594249-ai-identity-intern) | Kirkland, WA |  | Nov 13 |
 | ServiceNow | [AI Security Engineer Intern](https://jobs.smartrecruiters.com/ServiceNow/744000161548289-ai-security-engineer-intern) | San Diego, CA |  | Nov 13 |
 | ServiceNow | [Information Security Analyst Intern](https://jobs.smartrecruiters.com/ServiceNow/744000161550869-information-security-analyst-intern) | San Diego, CA |  | Nov 13 |
+| ServiceNow | [Security Engineer Intern](https://jobs.smartrecruiters.com/ServiceNow/744000161592679-security-engineer-intern) | Kirkland, WA |  | Nov 13 |
+| Software Engineering Institute / Carnegie Mellon University | [Cyber AI Engineering Intern \(Spring 2027\)](https://cmu.wd115.myworkdayjobs.com/SEI/job/Pittsburgh-PA/Cyber-AI-Engineering-Intern--Spring-2027-_2025346-2)<br><sub>“• You will be subject to a background check and must be eligible to work in the United States without Visa sponsorship.”</sub> | Pittsburgh, PA | 🛂❌ no sponsor<br>🌱 spring | Nov 13 |
+| Software Engineering Institute / Carnegie Mellon University | [Cybersecurity Engineer Intern \(Spring 2027\)](https://cmu.wd115.myworkdayjobs.com/SEI/job/Pittsburgh-PA/Cybersecurity-Engineer-Intern--Spring-2027-_2025347-1)<br><sub>“You can pass a background check, obtain and maintain a DoW security clearance, and other customer-required background checks as needed.”</sub> | Pittsburgh, PA | 🔒 clearance<br>🌱 spring | Nov 13 |
+| State Street | [Cyber Security Operations Center Analyst, Full-time Internship \(Jan - June 2027\)](https://statestreet.wd1.myworkdayjobs.com/Global/job/Quincy-Massachusetts/Cyber-Security-Operations-Center-Analyst--Full-time-Internship--Jan---June-2027-_R-801091) | Quincy, MA | ⚠ unverified | Nov 13 |
+| Tapestry | [Summer IT, Digital &amp; Data Analytics Internship](https://tapestry.wd108.myworkdayjobs.com/Tapestry_Careers/job/New-York-New-York-USA-Corporate-Headquarters/Summer-IT--Digital---Data-Analytics-Internship_JR20965)<br><sub>“Please note: Visa sponsorship is not offered for this position.”</sub> | New York, New York, USA \(Corporate Headquarte… | 🛂❌ no sponsor<br>⚠ unverified | Nov 13 |
 
 [⬅ INTERNSHIPS page 3](INTERNSHIPS-3.md) · page 4 of 19 · [INTERNSHIPS page 5 ➡](INTERNSHIPS-5.md)
 

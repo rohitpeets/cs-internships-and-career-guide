@@ -1,6 +1,6 @@
 # Internships
 
-[⬅ Back to the main page](./) · 2209 open · page 17 of 19 · updated 2026-11-23
+[⬅ Back to the main page](./) · 2204 open · page 17 of 19 · updated 2026-11-23
 
 [⬅ INTERNSHIPS page 16](INTERNSHIPS-16.md) · page 17 of 19 · [INTERNSHIPS page 18 ➡](INTERNSHIPS-18.md)
 
@@ -34,11 +34,6 @@
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
-| Momentive | [Summer 2027 Intern - Enterprise Reporting &amp; Analytics - Data Science](https://momentive.wd1.myworkdayjobs.com/MC/job/US-NY-Niskayuna/Summer-2027-Intern---Enterprise-Reporting---Analytics---Data-Science_R9807-1) | US NY Niskayuna | ⏳ 60+ days | Sep 3 |
-| Sierra Nevada Corporation | [Software Engineering Intern \(Summer 2027\)](https://snc.wd1.myworkdayjobs.com/SNC_External_Career_Site/job/Folsom-CA/Software-Engineering-Intern--Summer-2027-_R0030761-1)<br><sub>“U.S. Citizenship status is required as this position needs an active U.S. Security Clearance for employment.”</sub> | Folsom, CA | 🗽 citizens<br>🔒 secret<br>⏳ 60+ days | Sep 3 |
-| Skydio | [Autonomy Engineer Intern, Computer Vision / Deep Learning, 2027](https://jobs.ashbyhq.com/skydio/ae4a6f7d-a240-4fa2-8c8e-04cc906e4ef9) | San Mateo, CA | ⏳ 60+ days | Sep 3 |
-| Thomson Reuters | [Applied Scientist Intern](https://thomsonreuters.wd5.myworkdayjobs.com/External_Career_Site/job/United-States-of-America-San-Francisco-California/Applied-Scientist-Intern_JREQ203428) | United States of America, San Francisco, CA | ⏳ 60+ days | Sep 3 |
-| Blue Cross Blue Shield of Michigan | [2027 Summer Intern-Information Technology](https://ejko.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/14706) | Detroit, MI | 🎓 3.0+ GPA<br>⏳ 60+ days | Sep 2 |
 | F.N.B. Corporation | [Summer 2027 Enterprise Data Governance Intern](https://fnbcorp.wd501.myworkdayjobs.com/FNBCORP/job/Pittsburgh-PA/Summer-2027-Enterprise-Data-Governance-Intern_2026-01835-1)<br><sub>“FNB will not provide sponsorship for employment-based visas for this position; only candidates who are legally authorized to work in the U.S…”</sub> | Pittsburgh, PA | 🛂❌ no sponsor<br>⏳ 60+ days | Sep 2 |
 | Genuine Parts Company | [Software Engineer - QA Analyst Intern](https://genpt.wd1.myworkdayjobs.com/Careers/job/Birmingham-AL-USA/Software-Engineer---QA-Analyst-Intern_R26_0000029236) | Birmingham, AL | ⚠ unverified<br>⏳ 60+ days | Sep 2 |
 | Genuine Parts Company | [Web Developer Intern](https://genpt.wd1.myworkdayjobs.com/Careers/job/Birmingham-AL-USA/Web-Developer-Intern_R26_0000029238) | Birmingham, AL | ⚠ unverified<br>⏳ 60+ days | Sep 2 |
@@ -154,6 +149,11 @@
 | Procter &amp; Gamble | [Intelligent Controls and Automation Engineer Internship](https://pg.wd5.myworkdayjobs.com/1000/job/POMEZIA-PLANT--TECH-CENTER/Intelligent-Controls-and-Automation-Engineer-Internship_R000157957) | POMEZIA PLANT &amp; TECH CENTER | 🧪 OA<br>⏳ 60+ days | Aug 25 |
 | Tenet Healthcare Corporation | [Analytics Intern - Hybrid in Dallas, TX](https://eodr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/2603021209) | Dallas, TX | 🎓 3.0+ GPA<br>⚠ unverified<br>⏳ 60+ days | Aug 25 |
 | Verkada | [Backend Software Engineering Intern 2027](https://job-boards.greenhouse.io/verkada/jobs/5210813007)<br><sub>“We do sponsor and take over sponsorship of employment visas for this role.”</sub> | San Mateo, CA | 🛂✅ sponsors<br>⏳ 60+ days | Aug 25 |
+| Verkada | [Embedded Software Engineering Intern 2027](https://job-boards.greenhouse.io/verkada/jobs/5211595007)<br><sub>“We do sponsor and take over sponsorship of employment visas for this role.”</sub> | San Mateo, CA | 🛂✅ sponsors<br>⏳ 60+ days | Aug 25 |
+| Verkada | [Frontend Software Engineering Intern 2027](https://job-boards.greenhouse.io/verkada/jobs/5210942007)<br><sub>“We do sponsor and take over sponsorship of employment visas for this role.”</sub> | San Mateo, CA | 🛂✅ sponsors<br>⏳ 60+ days | Aug 25 |
+| Verkada | [Mobile Software Engineering Intern 2027](https://job-boards.greenhouse.io/verkada/jobs/5219131007)<br><sub>“We do sponsor and take over sponsorship of employment visas for this role.”</sub> | San Mateo, CA | 🛂✅ sponsors<br>⏳ 60+ days | Aug 25 |
+| Verkada | [Security Software Engineering Intern 2027](https://job-boards.greenhouse.io/verkada/jobs/5213881007)<br><sub>“We do sponsor and take over sponsorship of employment visas for this role.”</sub> | San Mateo, CA | 🛂✅ sponsors<br>⏳ 60+ days | Aug 25 |
+| Analog Devices | [Digital Design Engineer Intern](https://analogdevices.wd1.myworkdayjobs.com/External/job/US-NC-Durham/Digital-Design-Engineer-Intern_R265298) | US, NC, Durham | ⏳ 60+ days | Aug 24 |
 
 [⬅ INTERNSHIPS page 16](INTERNSHIPS-16.md) · page 17 of 19 · [INTERNSHIPS page 18 ➡](INTERNSHIPS-18.md)
 

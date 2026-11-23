@@ -1,6 +1,6 @@
 # Internships
 
-[⬅ Back to the main page](./) · 2209 open · page 7 of 19 · updated 2026-11-23
+[⬅ Back to the main page](./) · 2204 open · page 7 of 19 · updated 2026-11-23
 
 [⬅ INTERNSHIPS page 6](INTERNSHIPS-6.md) · page 7 of 19 · [INTERNSHIPS page 8 ➡](INTERNSHIPS-8.md)
 
@@ -34,11 +34,6 @@
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
-| LLNL | [Power Systems Undergraduate Intern - Cyber and Critical Infrastructure Summer Institute - Summer 2027](https://jobs.smartrecruiters.com/LLNL/3743990016610446-power-systems-undergraduate-intern-cyber-and-critical-infrastructure-summer-institute-summer-2027)<br><sub>“However, this position involves U.S. Export Control; this work must be performed by a U.S. person \(U.S. citizen, U.S. lawful permanent resid…”</sub> | Livermore, CA | 🗽 citizens<br>🔒 clearance<br>🎓 3.0+ GPA | Nov 4 |
-| NASA Jet Propulsion Laboratory | [Electrical &amp; Computer Engineering Academic Part Time Intern](https://citjpl.wd5.myworkdayjobs.com/Jobs/job/JPL-Campus/Academic-Part-Time-Intern_R6220) | JPL Camp | 🎓 3.0+ GPA<br>⏱ part-time | Nov 4 |
-| Palantir Technologies | [Software Engineer, Internship - Connectivity Platform and Product](https://jobs.lever.co/palantir/130ee501-bd22-4d44-b651-39581ef97743) | New York, NY |  | Nov 4 |
-| Palantir Technologies | [Software Engineer, Internship - Data Connectors](https://jobs.lever.co/palantir/45e4617d-d658-4b30-8dc9-378ca84a027a) | New York, NY |  | Nov 4 |
-| Procter &amp; Gamble | [Intern, Talent Analytics &amp; Assessment Science](https://pg.wd5.myworkdayjobs.com/1000/job/CINCINNATI-GENERAL-OFFICES/Intern--Talent-Analytics---Assessment-Science_R000162095)<br><sub>“Immigration Sponsorship is not available for this role.”</sub> | CINCINNATI GENERAL OFFICES | 🛂❌ no sponsor | Nov 4 |
 | Samsung Research America | [2027 Spring Intern, Robotics Lab](https://job-boards.greenhouse.io/samsungresearchamericainternship/jobs/8927812002) | 665 Clyde Avenue, Mountain View, CA | 🌱 spring | Nov 4 |
 | Sanofi | [Analytics and PowerBI Development Intern](https://sanofi.wd3.myworkdayjobs.com/SanofiCareers/job/Praha/Analytics-and-PowerBI-Development-Intern_R2868855) | Praha | ⚠ unverified | Nov 4 |
 | Toyota Research Institute | [Human-Centered AI Research Intern, Human Language Models](https://jobs.lever.co/tri/d4184c04-b963-489a-9a0b-91bc57d6267e) | Los Altos, CA |  | Nov 4 |
@@ -154,6 +149,11 @@
 | General Motors | [2027 Summer Intern – Research and Development – Vehicle Aerodynamics and Machine Learning](https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern---Research-and-Development---Vehicle-Aerodynamics-and-Machine-Learning_JR-202622746) | Warren, MI |  | Oct 30 |
 | Great American Insurance Group | [IT Intern - Summer 2027](https://gaig.wd1.myworkdayjobs.com/GAIG_External/job/Cincinnati-OH-USA/IT-Intern---Summer-2027_R9816-1) | Cincinnati, OH \(USA\) | 🎓 3.2+ GPA | Oct 30 |
 | Hunt | [IT Business Analyst Intern - Summer 2027](https://fa-eqcd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1100) | Dallas, TX | 🎓 3.0+ GPA | Oct 30 |
+| Jain Global | [Data Engineer Intern](https://jainglobal.wd5.myworkdayjobs.com/ExternalSite/job/New-York-New-York/Data-Engineer-Intern_JR100605-1) | New York, NY |  | Oct 30 |
+| Jain Global | [Quant Modelling Intern](https://jainglobal.wd5.myworkdayjobs.com/ExternalSite/job/New-York-New-York/Quant-Modelling-Intern_JR100616) | New York, NY |  | Oct 30 |
+| Jain Global | [Quant Research Intern, Systematic Trading](https://jainglobal.wd5.myworkdayjobs.com/ExternalSite/job/New-York-New-York/Quant-Research-Intern--Systematic-Trading_JR100603-1) | New York, NY |  | Oct 30 |
+| Jain Global | [Quantitative Research Intern – Equity Arbitrage](https://jainglobal.wd5.myworkdayjobs.com/ExternalSite/job/New-York-New-York/Quantitative-Research-Intern---Equity-Arbitrage_JR100617-1) | New York, NY |  | Oct 30 |
+| Kimball Electronics | [Automation Engineer Intern](https://kei.wd1.myworkdayjobs.com/GlobalKimballCareers/job/Kimball-Electronics-Indianapolis/Automation-Engineer-Intern_R20261584) | Kimball Electronics Indianapolis |  | Oct 30 |
 
 [⬅ INTERNSHIPS page 6](INTERNSHIPS-6.md) · page 7 of 19 · [INTERNSHIPS page 8 ➡](INTERNSHIPS-8.md)
 

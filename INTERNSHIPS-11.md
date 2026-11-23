@@ -1,6 +1,6 @@
 # Internships
 
-[⬅ Back to the main page](./) · 2209 open · page 11 of 19 · updated 2026-11-23
+[⬅ Back to the main page](./) · 2204 open · page 11 of 19 · updated 2026-11-23
 
 [⬅ INTERNSHIPS page 10](INTERNSHIPS-10.md) · page 11 of 19 · [INTERNSHIPS page 12 ➡](INTERNSHIPS-12.md)
 
@@ -34,11 +34,6 @@
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
-| Jasper Engines &amp; Transmissions | [IT Full Stack Developer Internship: Summer 2027](https://jasperholdings.wd504.myworkdayjobs.com/JET_Careers/job/Jasper-IN/IT-Full-Stack-Developer-Internship--Summer-2027_R-100857) | Jasper, IN |  | Oct 16 |
-| Nissan Motor Corporation | [Robotics Programmer Intern - Summer 2027 - Smyrna, TN](https://alliance.wd3.myworkdayjobs.com/nissanjobs/job/Smyrna-Tennessee---United-States-of-America/Robotics-Programmer-Intern---Summer-2027---Smyrna--TN_R00214302) | Smyrna, Tennessee - | 🎓 3.0+ GPA | Oct 16 |
-| QuEra Computing, Inc | [QPU Build Co-Op – Optics &amp; Data Analysis](https://job-boards.greenhouse.io/queracomputinginc/jobs/5455950008) | Boston, MA | 🔄 co-op | Oct 16 |
-| Veeam Software | [Data &amp; Analytics Engineering Intern - Summer 2027](https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4996533101)<br><sub>“Applicants must be authorized to work in the U.S. We are unable to sponsor or take over sponsorship of an employment Visa now or in the futu…”</sub> | Alpharetta, GA | 🛂❌ no sponsor | Oct 16 |
-| Wellmark, Inc | [Software Engineer Internship – Technology Health Plan](https://jobs.smartrecruiters.com/WellmarkInc/744000156043218-software-engineer-internship-technology-health-plan) | Des Moines, IA |  | Oct 16 |
 | AiDASH, Inc | [Software Engineering Intern, Backend](https://job-boards.greenhouse.io/aidashinc/jobs/4436057009) | Palo Alto, CA |  | Oct 15 |
 | American Family Insurance | [Enterprise Data Intern](https://amfam.wd1.myworkdayjobs.com/Careers/job/WI-Madison/Enterprise-Data-Intern_R39510)<br><sub>“Sponsorship will not be considered for this position unless specified in the posting”</sub> | WI Madison | 🛂❌ no sponsor | Oct 15 |
 | Axiom Space | [Software Engineering Intern \(Summer 2027\)](https://axiomspace.wd5.myworkdayjobs.com/External_Career_Site/job/Houston/Software-Engineering-Intern--Summer-2027-_JR100767)<br><sub>“This position may require access to export controlled technical data or technology subject to NASA regulations, International Traffic in Arm…”</sub> | Houston | 📜 ITAR<br>🎓 3.0+ GPA<br>⚠ unverified | Oct 15 |
@@ -154,6 +149,11 @@
 | Arcesium LLC | [Software Engineer Intern](https://job-boards.greenhouse.io/arcesiumllc/jobs/5257176007) | NY |  | Oct 9 |
 | Bosch Group | [Artificial Intelligence / Machine Learning: Foundation Models - Intern](https://jobs.smartrecruiters.com/BoschGroup/744000154759734-artificial-intelligence-machine-learning-foundation-models-intern) | Sunnyvale, CA | 🎓 3.0+ GPA<br>⚠ unverified | Oct 9 |
 | BWE | [Summer 2027 Internship - Agency Analytics - Birmingham](https://bwe.wd12.myworkdayjobs.com/BWECareers/job/AL---Birmingham/Summer-2027-Internship---Agency-Analytics---Birmingham_REQ2447)<br><sub>“Please note, BWE will not sponsor applicants for this position for immigration benefits, including but not limited to assisting with obtaini…”</sub> | AL - Birmingham | 🛂❌ no sponsor | Oct 9 |
+| BWE | [Summer 2027 Internship - Information Technology - Cleveland](https://bwe.wd12.myworkdayjobs.com/BWECareers/job/OH---Cleveland/Summer-2027-Internship---Information-Technology---Cleveland_REQ2450)<br><sub>“Applicants must be currently authorized to work in the United States without the need for visa sponsorship now or in the future”</sub> | OH - Cleveland | 🛂❌ no sponsor | Oct 9 |
+| CACI International | [Cyber Security Intern - Summer 2027](https://caci.wd1.myworkdayjobs.com/External/job/Springfield-VA-US/Cyber-Security-Intern---Summer-2027_333046)<br><sub>“Must be legally authorized to work in the United States without the need for employer sponsorship, now or at any time in the future.”</sub> | Springfield, VA | 🛂❌ no sponsor<br>🔒 ts/sci<br>⚠ unverified | Oct 9 |
+| Capstone Investment Advisors | [Summer 2027 - Execution Tech Internship](https://job-boards.greenhouse.io/capstoneinvestmentadvisors/jobs/8882130002) | New York, NY |  | Oct 9 |
+| Cboe Global Markets | [Software Engineer Intern](https://cboe.wd1.myworkdayjobs.com/External_Career_CBOE/job/Chicago-IL/Software-Engineer-Intern_R-4654)<br><sub>“This position is not eligible for visa sponsorship.”</sub> | Chicago, IL | 🛂❌ no sponsor | Oct 9 |
+| Danaher Corporation | [Software Engineering Intern](https://danaher.wd1.myworkdayjobs.com/DanaherJobs/job/Vista-California-United-States/Software-Engineering-Intern_R1315719) | Vista, CA | ⚠ unverified | Oct 9 |
 
 [⬅ INTERNSHIPS page 10](INTERNSHIPS-10.md) · page 11 of 19 · [INTERNSHIPS page 12 ➡](INTERNSHIPS-12.md)
 

@@ -1,6 +1,6 @@
 # Internships
 
-[⬅ Back to the main page](./) · 2209 open · page 6 of 19 · updated 2026-11-23
+[⬅ Back to the main page](./) · 2204 open · page 6 of 19 · updated 2026-11-23
 
 [⬅ INTERNSHIPS page 5](INTERNSHIPS-5.md) · page 6 of 19 · [INTERNSHIPS page 7 ➡](INTERNSHIPS-7.md)
 
@@ -34,11 +34,6 @@
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
-| Skydio | [Middleware Software Engineer Intern - Summer 2027](https://jobs.ashbyhq.com/skydio/c85af510-9fe4-4167-a914-c3ab344bef03) | San Mateo, CA |  | Nov 10 |
-| T-Mobile | [Summer 2027 Business Analytics &amp; Reporting Internship](https://tmobile.wd1.myworkdayjobs.com/External/job/Bellevue-Washington/Summer-2027-Business-Analytics---Reporting-Internship_REQ381319) | Bellevue, WA | ⚠ unverified | Nov 10 |
-| The Hartford | [Data Science Intern - Summer 2027](https://thehartford.wd5.myworkdayjobs.com/Careers_External/job/Hartford-CT/Data-Science-Intern---Summer-2027_R2627114)<br><sub>“Must be authorized to work in the United States without sponsorship now, or in the future”</sub> | Hartford, CT | 🛂❌ no sponsor | Nov 10 |
-| Thomson Reuters | [Software Engineer Co-Op](https://thomsonreuters.wd5.myworkdayjobs.com/External_Career_Site/job/United-States-of-America-Rochester-New-York/Software-Engineer-Co-Op_JREQ203587)<br><sub>“Ability to obtain and maintain a U.S. national security clearance”</sub> | United States of America, Rochester, NY | 🔒 clearance<br>🔄 co-op | Nov 10 |
-| Toyota Research Institute | [Human-Centered AI Research Intern, Causal Reasoning Models \(Summer 2027\)](https://jobs.lever.co/tri/be41a03c-460e-4ff7-b817-f012aa1c4b37) | Los Altos, CA |  | Nov 10 |
 | Walmart | [Summer 2027 Corporate Intern: Data Science &amp; Data Analytics – Last Mile Delivery](https://walmart.wd504.myworkdayjobs.com/WalmartExternal/job/Bentonville-AR/Summer-2027-Corporate-Intern--Data-Science---Data-Analytics---Last-Mile-Delivery_R-2690193) | Bentonville, AR | ⚠ unverified | Nov 10 |
 | We One | [AI &amp; Analytics \(Talent Management\) Intern](https://ehpv.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/WeOneCareers/job/27855)<br><sub>“Please note : This position does not offer sponsorship for employment visas.”</sub> | Charlotte, NC | 🛂❌ no sponsor | Nov 10 |
 | Analog Devices | [Machine Learning for Computational Sensing Research Intern](https://analogdevices.wd1.myworkdayjobs.com/External/job/US-MA-Boston/Machine-Learning-for-Computational-Sensing-Research-Intern_R268371) | US, MA, Boston |  | Nov 9 |
@@ -154,6 +149,11 @@
 | Hewlett Packard Enterprise | [Systems/Software Testing Engineer Cloud &amp; On-Premise Intern](https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/San-Juan-Puerto-Rico-Puerto-Rico/Systems-Software-Testing-Engineer-Cloud---On-Premise-Intern_1218105) | San Juan, Puerto Rico, Puerto Rico | ⚠ unverified | Nov 4 |
 | Howmet Aerospace | [Cybersecurity Intern](https://fa-exty-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/119551)<br><sub>“Visa sponsorship is not available for this position.”</sub> | Pittsburgh, PA | 🛂❌ no sponsor<br>🎓 3.0+ GPA | Nov 4 |
 | LLNL | [Critical Infrastructure Analysis Undergraduate Intern - Cyber and Critical Infrastructure Summer Institute - Summer 2027](https://jobs.smartrecruiters.com/LLNL/3743990016610426-critical-infrastructure-analysis-undergraduate-intern-cyber-and-critical-infrastructure-summer-institute-summer-2027)<br><sub>“However, this position involves U.S. Export Control; this work must be performed by a U.S. person \(U.S. citizen, U.S. lawful permanent resid…”</sub> | Livermore, CA | 🗽 citizens<br>🔒 clearance<br>🎓 3.0+ GPA | Nov 4 |
+| LLNL | [Power Systems Undergraduate Intern - Cyber and Critical Infrastructure Summer Institute - Summer 2027](https://jobs.smartrecruiters.com/LLNL/3743990016610446-power-systems-undergraduate-intern-cyber-and-critical-infrastructure-summer-institute-summer-2027)<br><sub>“However, this position involves U.S. Export Control; this work must be performed by a U.S. person \(U.S. citizen, U.S. lawful permanent resid…”</sub> | Livermore, CA | 🗽 citizens<br>🔒 clearance<br>🎓 3.0+ GPA | Nov 4 |
+| NASA Jet Propulsion Laboratory | [Electrical &amp; Computer Engineering Academic Part Time Intern](https://citjpl.wd5.myworkdayjobs.com/Jobs/job/JPL-Campus/Academic-Part-Time-Intern_R6220) | JPL Camp | 🎓 3.0+ GPA<br>⏱ part-time | Nov 4 |
+| Palantir Technologies | [Software Engineer, Internship - Connectivity Platform and Product](https://jobs.lever.co/palantir/130ee501-bd22-4d44-b651-39581ef97743) | New York, NY |  | Nov 4 |
+| Palantir Technologies | [Software Engineer, Internship - Data Connectors](https://jobs.lever.co/palantir/45e4617d-d658-4b30-8dc9-378ca84a027a) | New York, NY |  | Nov 4 |
+| Procter &amp; Gamble | [Intern, Talent Analytics &amp; Assessment Science](https://pg.wd5.myworkdayjobs.com/1000/job/CINCINNATI-GENERAL-OFFICES/Intern--Talent-Analytics---Assessment-Science_R000162095)<br><sub>“Immigration Sponsorship is not available for this role.”</sub> | CINCINNATI GENERAL OFFICES | 🛂❌ no sponsor | Nov 4 |
 
 [⬅ INTERNSHIPS page 5](INTERNSHIPS-5.md) · page 6 of 19 · [INTERNSHIPS page 7 ➡](INTERNSHIPS-7.md)
 

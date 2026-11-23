@@ -1,6 +1,6 @@
 # Internships
 
-[⬅ Back to the main page](./) · 2209 open · page 19 of 19 · updated 2026-11-23
+[⬅ Back to the main page](./) · 2204 open · page 19 of 19 · updated 2026-11-23
 
 [⬅ INTERNSHIPS page 18](INTERNSHIPS-18.md) · page 19 of 19
 
@@ -34,11 +34,6 @@
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
-| Aquatic Capital Management | [Software Engineer, Intern \(Summer 2027\)](https://job-boards.greenhouse.io/aquaticcapitalmanagement/jobs/8489233002) | Chicago | ⏳ 60+ days | Apr 1 |
-| PwC | [Consulting - Internship - AI &amp; Data Science](https://pwc.wd3.myworkdayjobs.com/NonPublic_Postings/job/Yogyakarta/Consulting---Internship---Strategy---Operations--AI---Data-Science-_718300WD)<br><sub>“Government Clearance Required?”</sub> | Yogyakarta | 🔒 clearance<br>🎓 3.0+ GPA<br>⚠ unverified<br>⏳ 60+ days | Apr 1 |
-| Palantir Technologies | [Year at Palantir - Forward Deployed Software Engineer, Internship - Commercial](https://jobs.lever.co/palantir/e6789b17-62fb-4226-a079-f8c17ff19e2d)<br><sub>“For USG: An active U.S. security clearance, or eligibility and willingness to obtain one, is required”</sub> | New York, NY | 🔒 clearance<br>⏳ 60+ days | Mar 20 |
-| Palantir Technologies | [Year at Palantir - Forward Deployed Software Engineer, Internship - USG](https://jobs.lever.co/palantir/5c7bb70c-83ea-43e7-8055-0c8f319f4333)<br><sub>“For USG: An active U.S. security clearance, or eligibility and willingness to obtain one, is required”</sub> | New York, NY | 🔒 clearance<br>⏳ 60+ days | Mar 20 |
-| Palantir Technologies | [Year at Palantir - Software Engineer, Internship](https://jobs.lever.co/palantir/655f9937-a4ce-4e7d-80e2-a6659af07329)<br><sub>“For USG: An active U.S. security clearance, or eligibility and willingness to obtain one, is required”</sub> | New York, NY | 🔒 clearance<br>⏳ 60+ days | Mar 20 |
 | Etched | [Firmware Intern](https://jobs.ashbyhq.com/Etched/699f3ab2-07e4-466c-9d76-3d4a3abb4ebc) | San Jose | ⏳ 60+ days | Feb 7 |
 | Ginkgo Bioworks Inc | [Software Intern, Autonomous Lab](https://job-boards.greenhouse.io/ginkgobioworks/jobs/5033167007) | Emeryville, CA | ⏳ 60+ days | Jan 28 |
 | Atoms | [Software Engineering Intern - 2027 Winter Term](https://job-boards.greenhouse.io/atoms/jobs/8356071002) | Los Angeles, CA | 🎓 3.7+ GPA<br>⏳ 60+ days | Jan 6 |
@@ -82,7 +77,7 @@
 | Palantir Technologies | [Software Engineer, Internship](https://jobs.lever.co/palantir/bdcfb29f-4f27-42de-933f-7f83a359b9f0)<br><sub>“Active US Security clearance, or eligibility and willingness to obtain a US Security clearance.”</sub> | Washington, D.C. | 🔒 clearance<br>⏳ 60+ days | Jul 1 |
 | Palantir Technologies | [Software Engineer, Internship](https://jobs.lever.co/palantir/e27af7ab-41fc-40c9-b31d-02c6cb1c505c)<br><sub>“Active US Security clearance, or eligibility and willingness to obtain a US Security clearance.”</sub> | Palo Alto, CA | 🔒 clearance<br>⏳ 60+ days | Jul 1 |
 | Palantir Technologies | [Privacy and Civil Liberties Software Engineer, Internship](https://jobs.lever.co/palantir/09846827-b931-4a9f-bd64-c3bb8860187b) | New York, NY | ⏳ 60+ days | Oct 6 |
-| Palantir Technologies | [Forward Deployed Software Engineer, Internship - Commercial](https://jobs.lever.co/palantir/4d29249a-d7e8-4c39-880d-3b35d7b2f6f6) | New York, NY | ⏳ 60+ days | Feb 24 |
+| Palantir Technologies | [Forward Deployed Software Engineer, Internship - Commercial](https://jobs.lever.co/palantir/4d29249a-d7e8-4c39-880d-3b35d7b2f6f6) | New York, NY | ⚠ unverified<br>⏳ 60+ days | Feb 24 |
 
 [⬅ INTERNSHIPS page 18](INTERNSHIPS-18.md) · page 19 of 19
 

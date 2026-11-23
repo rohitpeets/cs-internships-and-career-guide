@@ -1,6 +1,6 @@
 # Internships
 
-[⬅ Back to the main page](./) · 2209 open · page 16 of 19 · updated 2026-11-23
+[⬅ Back to the main page](./) · 2204 open · page 16 of 19 · updated 2026-11-23
 
 [⬅ INTERNSHIPS page 15](INTERNSHIPS-15.md) · page 16 of 19 · [INTERNSHIPS page 17 ➡](INTERNSHIPS-17.md)
 
@@ -34,11 +34,6 @@
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
-| NewsBreak | [Nearby AI Internship Program - Engineering Track](https://job-boards.greenhouse.io/newsbreak/jobs/4712896006) | Mountain View, CA | ⏳ 60+ days | Sep 11 |
-| Oshkosh Corporation | [Cyber Security Intern](https://oshkoshcorporation.wd5.myworkdayjobs.com/Oshkosh/job/Oshkosh-Wisconsin-United-States/Cyber-Security-Intern_R50267)<br><sub>“Applicants for these positions may need to be "U.S. Persons," as defined in these regulations.”</sub> | Oshkosh, WI | 🗽 citizens<br>⏳ 60+ days | Sep 11 |
-| The Toro Company | [Spatial Data R&amp;D Intern - The Toro Company](https://ttc.wd1.myworkdayjobs.com/Toro_External_Careers/job/Bloomington-MN/Spatial-Data-R-D-Intern---The-Toro-Company_JR17187)<br><sub>“We are unable to sponsor or take over sponsorship of a school/employment or any other visa, regardless of expiration date, now or in the fut…”</sub> | Bloomington, MN | 🛂❌ no sponsor<br>⏳ 60+ days | Sep 11 |
-| Vanguard | [College to Corporate IT Internship - Risk &amp; Security - Analyst \(NC\)](https://vanguard.wd5.myworkdayjobs.com/vanguard_external/job/Charlotte-NC/College-to-Corporate-IT-Internship---Risk---Security---Analyst---NC-_181764)<br><sub>“Vanguard does not offer visa sponsorship for this role”</sub> | Charlotte, NC | 🛂❌ no sponsor<br>⏳ 60+ days | Sep 11 |
-| Vanguard | [College to Corporate IT Internship - Risk &amp; Security - Analyst \(PA\)](https://vanguard.wd5.myworkdayjobs.com/vanguard_external/job/Malvern-PA/College-to-Corporate-IT-Internship---Risk---Security---Analyst---PA-_181762)<br><sub>“Vanguard does not offer visa sponsorship for this role”</sub> | Malvern, PA | 🛂❌ no sponsor<br>⏳ 60+ days | Sep 11 |
 | Veeam Software | [AI &amp; Automation Engineering Intern - Summer 2027](https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4955296101) | Remote, GA | 🌐 remote<br>⏳ 60+ days | Sep 11 |
 | Veeam Software | [AI/ML Intern Summer 2027](https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4971207101) | San Jose, CA | ⏳ 60+ days | Sep 11 |
 | Veeam Software | [Customer Care AI Analyst Intern - Summer 2027](https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4972324101) | Columbus, OH | ⏳ 60+ days | Sep 11 |
@@ -105,7 +100,7 @@
 | Saronic Technologies | [Software Engineer Intern \(Summer 2027\)](https://jobs.ashbyhq.com/saronic/60afb634-5515-4347-824a-3816735541c2)<br><sub>“If this role is based in the United States, it requires access to export-controlled information or items that require “U.S. Person” status.”</sub> | Austin, TX | 🗽 citizens<br>⏳ 60+ days | Sep 9 |
 | Tanium | [Technical Support Engineer \(TSE\) Intern](https://job-boards.greenhouse.io/tanium/jobs/8176322) | Addison, TX \(Hybrid\) | 🎓 3.5+ GPA<br>⏳ 60+ days | Sep 9 |
 | Allen Control Systems | [Computer Vision/Machine Learning Intern, 2027](https://jobs.ashbyhq.com/allen-control-systems/a7831fef-7125-4c03-b828-5f0472989037) | Austin, TX | ⏳ 60+ days | Sep 8 |
-| Allen Control Systems | [Software Engineering Intern, 2027](https://jobs.ashbyhq.com/allen-control-systems/ed5c58a7-6a3c-474b-aa07-43ff2051cb5c) | Austin, TX | ⏳ 60+ days | Sep 8 |
+| Allen Control Systems | [Software Engineering Intern, 2027](https://jobs.ashbyhq.com/allen-control-systems/ed5c58a7-6a3c-474b-aa07-43ff2051cb5c) | Austin, TX | ⚠ unverified<br>⏳ 60+ days | Sep 8 |
 | AnaVation | [Computer Science Internship Summer 2027](https://jobs.lever.co/anavationllc/a5c70b6a-2d16-4774-9043-677456614b1b)<br><sub>“Qualifications: : Must be a US citizen with ability to obtain a US Government security clearance.”</sub> | San Antonio, TX | 🗽 citizens<br>🔒 clearance<br>🎓 3.0+ GPA<br>⏳ 60+ days | Sep 8 |
 | AtkinsRéalis | [Water Infrastructure Engineering Intern - Summer 2027](https://slihrms.wd3.myworkdayjobs.com/Careers/job/USGAAtlanta2018-Powers-Ferry-Rd/Water-Infrastructure-Engineering-Intern---Summer-2027_R-163480-1) | US.GA.Atlanta.2018 Powers Ferry Rd | ⚠ unverified<br>⏳ 60+ days | Sep 8 |
 | Auto-Owners Insurance | [IT Security Engineer Internship - Summer 2027](https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Lansing-MI/IT-Security-Engineer-Internship---Summer-2027_R_14477)<br><sub>“\*Please note that the ability to work in the U.S. without current or future sponsorship is a requirement.”</sub> | Lansing, MI | 🛂❌ no sponsor<br>⏳ 60+ days | Sep 8 |
@@ -154,6 +149,11 @@
 | Hermeus | [Software Engineering Intern \(Command &amp; Control\) - Spring/Summer 2027](https://jobs.lever.co/hermeus/5b08e2df-c9db-4831-aece-67d89e744796)<br><sub>“The person hired will have access to information and items subject to U.S. export controls, and therefore, must either be a “U.S. person” as…”</sub> | Atlanta, GA | 🗽 citizens<br>🎓 3.0+ GPA<br>🌱 spring<br>⏳ 60+ days | Sep 3 |
 | Hewlett Packard Enterprise | [Pre-Silicon Diagnostics Intern](https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Ft-Collins-Colorado-United-States-of-America/Pre-Silicon-Diagnostics-Intern_1213394) | Ft. Collins, CO | ⚠ unverified<br>⏳ 60+ days | Sep 3 |
 | InfiniteQuant | [Quantitative Developer - Internship - Summer 2027](https://jobs.smartrecruiters.com/InfiniteQuant/744000147163879-quantitative-developer-internship-summer-2027) | New York, New York, US \(Remote\) | 🌐 remote<br>⏳ 60+ days | Sep 3 |
+| Momentive | [Summer 2027 Intern - Enterprise Reporting &amp; Analytics - Data Science](https://momentive.wd1.myworkdayjobs.com/MC/job/US-NY-Niskayuna/Summer-2027-Intern---Enterprise-Reporting---Analytics---Data-Science_R9807-1) | US NY Niskayuna | ⏳ 60+ days | Sep 3 |
+| Sierra Nevada Corporation | [Software Engineering Intern \(Summer 2027\)](https://snc.wd1.myworkdayjobs.com/SNC_External_Career_Site/job/Folsom-CA/Software-Engineering-Intern--Summer-2027-_R0030761-1)<br><sub>“U.S. Citizenship status is required as this position needs an active U.S. Security Clearance for employment.”</sub> | Folsom, CA | 🗽 citizens<br>🔒 secret<br>⏳ 60+ days | Sep 3 |
+| Skydio | [Autonomy Engineer Intern, Computer Vision / Deep Learning, 2027](https://jobs.ashbyhq.com/skydio/ae4a6f7d-a240-4fa2-8c8e-04cc906e4ef9) | San Mateo, CA | ⏳ 60+ days | Sep 3 |
+| Thomson Reuters | [Applied Scientist Intern](https://thomsonreuters.wd5.myworkdayjobs.com/External_Career_Site/job/United-States-of-America-San-Francisco-California/Applied-Scientist-Intern_JREQ203428) | United States of America, San Francisco, CA | ⏳ 60+ days | Sep 3 |
+| Blue Cross Blue Shield of Michigan | [2027 Summer Intern-Information Technology](https://ejko.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/14706) | Detroit, MI | 🎓 3.0+ GPA<br>⏳ 60+ days | Sep 2 |
 
 [⬅ INTERNSHIPS page 15](INTERNSHIPS-15.md) · page 16 of 19 · [INTERNSHIPS page 17 ➡](INTERNSHIPS-17.md)
 
