@@ -2,6 +2,9 @@ from classify import keep_title, section, tags
 
 
 def test_titles_kept_and_dropped():
+    assert not keep_title("Digital Design Intern")
+    assert not keep_title("Intern, Digital Design")
+    assert keep_title("Digital Design Engineer Intern")
     assert keep_title("Software Engineering Intern - Summer 2027")
     assert keep_title("New Grad Software Engineer")
     assert not keep_title("Senior Software Engineer")

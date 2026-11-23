@@ -160,7 +160,7 @@ CS_TITLE = re.compile(
     r"computer engineering|electrical (and|&) computer|game (developer|engine|programmer)|gameplay|(computer|real-time) graphics|graphics (software|engineer\w*|programmer)|simulation software|solutions engineer\w*)\b", re.I)
 # Visual and creative design roles ("Creative & Digital Design", "Web Designer") aren't CS/CE work.
 # Chip and circuit design ("Digital Design Engineer", "ASIC Design") is, so those words keep a title.
-VISUAL_DESIGN = re.compile(r"\b(creative|(product|web|ux|ui|ux/ui|ui/ux|visual|graphic|brand|interaction|motion) designers?)\b", re.I)
+VISUAL_DESIGN = re.compile(r"\b(creative|digital design|(product|web|ux|ui|ux/ui|ui/ux|visual|graphic|brand|interaction|motion) designers?)\b", re.I)
 CHIP_DESIGN = re.compile(r"\b(engineer\w*|asic|fpga|rtl|vlsi|silicon|chip|circuit|analog|electronics|hardware|pcb|ic|soc)\b", re.I)
 INTERNAL_ONLY = re.compile(r"\b(current|previous|recent|returning)\b[^)]{0,40}\binterns?\b[^)]{0,20}\bonly\b|\bfor current\b", re.I)
 
