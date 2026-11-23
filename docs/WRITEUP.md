@@ -19,7 +19,7 @@ After the CS/CE-only, U.S.-only filters (below), roughly 1,900 to 2,100 roles ar
 
 ## Decisions and trade-offs
 
-**Company feeds instead of community lists.** The biggest open internship list on GitHub has no license, so its data isn't free to copy. Reading companies' own feeds avoids that and gives full job descriptions, which the tags need. The cost is coverage: when I measured against a larger aggregator's data, the five job systems the board read at the time reached about 54% of postings, and 58% of the postings that fit a CS student best (versus 53% of the weakest fits), so the gaps aren't concentrated in the roles that matter most. That was an early measurement; the board now reads eight job systems across about 1,080 boards, so current coverage is higher.
+**Company feeds instead of community lists.** The biggest open internship list on GitHub has no license, so its data isn't free to copy. Reading companies' own feeds avoids that and gives full job descriptions, which the tags need. The cost is coverage: when I measured against a larger aggregator's data, the five job systems the board read at the time reached about 54% of postings, and 58% of the postings that fit a CS student best (versus 53% of the weakest fits), so the gaps aren't concentrated in the roles that matter most. That was an early measurement; the board now reads eight job systems across about 1,080 boards, so current coverage is higher. A proper re-measurement against the same aggregator is planned.
 
 **Three-state tags with evidence.** Each posting gets sponsorship (yes / no / not mentioned), citizenship-required and clearance-required tags. "Not mentioned" is the default; a tag is set only on an explicit sentence, and that sentence is saved with the posting so anyone can check it. The sponsorship rule is negation-aware ("unable to sponsor" is a no), and a sentence about export licenses is ignored, because "without sponsorship for an export license" has nothing to do with visas. A wrong "sponsors" tag costs an international student the most, so the classifier errs toward saying nothing.
 
@@ -99,4 +99,4 @@ Every wrong row in that sample became a test case and a rule fix (bare "QA", "se
 
 ## Stack
 
-Python 3.12, `requests`, PyYAML, JSON Schema and pytest; GitHub Actions for the daily run; Windows Task Scheduler and PowerShell for the laptop job.
+Python 3.12, `requests`, PyYAML, JSON Schema and pytest (134 tests); GitHub Actions for the daily run; Windows Task Scheduler and PowerShell for the laptop job.
