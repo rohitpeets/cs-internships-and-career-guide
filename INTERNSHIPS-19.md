@@ -1,6 +1,6 @@
 # Internships
 
-[⬅ Back to the main page](./) · 2195 open · page 19 of 19 · updated 2026-11-19
+[⬅ Back to the main page](./) · 2209 open · page 19 of 19 · updated 2026-11-23
 
 [⬅ INTERNSHIPS page 18](INTERNSHIPS-18.md) · page 19 of 19
 
@@ -34,6 +34,20 @@
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
+| Aquatic Capital Management | [Software Engineer, Intern \(Summer 2027\)](https://job-boards.greenhouse.io/aquaticcapitalmanagement/jobs/8489233002) | Chicago | ⏳ 60+ days | Apr 1 |
+| PwC | [Consulting - Internship - AI &amp; Data Science](https://pwc.wd3.myworkdayjobs.com/NonPublic_Postings/job/Yogyakarta/Consulting---Internship---Strategy---Operations--AI---Data-Science-_718300WD)<br><sub>“Government Clearance Required?”</sub> | Yogyakarta | 🔒 clearance<br>🎓 3.0+ GPA<br>⚠ unverified<br>⏳ 60+ days | Apr 1 |
+| Palantir Technologies | [Year at Palantir - Forward Deployed Software Engineer, Internship - Commercial](https://jobs.lever.co/palantir/e6789b17-62fb-4226-a079-f8c17ff19e2d)<br><sub>“For USG: An active U.S. security clearance, or eligibility and willingness to obtain one, is required”</sub> | New York, NY | 🔒 clearance<br>⏳ 60+ days | Mar 20 |
+| Palantir Technologies | [Year at Palantir - Forward Deployed Software Engineer, Internship - USG](https://jobs.lever.co/palantir/5c7bb70c-83ea-43e7-8055-0c8f319f4333)<br><sub>“For USG: An active U.S. security clearance, or eligibility and willingness to obtain one, is required”</sub> | New York, NY | 🔒 clearance<br>⏳ 60+ days | Mar 20 |
+| Palantir Technologies | [Year at Palantir - Software Engineer, Internship](https://jobs.lever.co/palantir/655f9937-a4ce-4e7d-80e2-a6659af07329)<br><sub>“For USG: An active U.S. security clearance, or eligibility and willingness to obtain one, is required”</sub> | New York, NY | 🔒 clearance<br>⏳ 60+ days | Mar 20 |
+| Etched | [Firmware Intern](https://jobs.ashbyhq.com/Etched/699f3ab2-07e4-466c-9d76-3d4a3abb4ebc) | San Jose | ⏳ 60+ days | Feb 7 |
+| Ginkgo Bioworks Inc | [Software Intern, Autonomous Lab](https://job-boards.greenhouse.io/ginkgobioworks/jobs/5033167007) | Emeryville, CA | ⏳ 60+ days | Jan 28 |
+| Atoms | [Software Engineering Intern - 2027 Winter Term](https://job-boards.greenhouse.io/atoms/jobs/8356071002) | Los Angeles, CA | 🎓 3.7+ GPA<br>⏳ 60+ days | Jan 6 |
+| Palantir Technologies | [Forward Deployed Software Engineer, Internship - US Government](https://jobs.lever.co/palantir/315f695d-04d1-4a9a-848e-cb2bec7a997e) | Honolulu, HI | 🏛 gov<br>⏳ 60+ days | Dec 11 |
+| First Quality | [INTERN OR CO-OP - Analytics Engineer](https://firstquality.wd5.myworkdayjobs.com/FIRSTQUALITY/job/US-SC-Anderson/INTERN-OR-CO-OP---Analytics-Engineer_R9813) | US SC Anderson | 🎓 3.2+ GPA<br>🔄 co-op<br>⏳ 60+ days | Dec 8 |
+| Toyota Research Institute | [Automated Driving Advanced Development Intern, Machine Learning Research \(Explainable AI\)](https://jobs.lever.co/tri/62b161d6-21e0-4d10-9997-ff7ae91a2ff4) | Los Altos, CA | ⏳ 60+ days | Nov 4 |
+| Point72 | [Micro-Intern: Research Technology Developer \(IAP\)](https://boards.greenhouse.io/point72/jobs/8236734002?gh_jid=8236734002) | NY | ⏳ 60+ days | Oct 31 |
+| Figure | [Validation Engineering Intern \[Winter 2027\]](https://job-boards.greenhouse.io/figureai/jobs/4606072006) | San Jose, CA | ⏳ 60+ days | Oct 1 |
+| Marmon Holdings | [Data Engineering Intern OR Student Co-Op](https://marmon.wd501.myworkdayjobs.com/Marmon_Careers/job/Milwaukee-WI/Data-Engineering-Intern-OR-Student-Co-Op_JR0000037453-1) | Milwaukee, WI | 🔄 co-op<br>⏳ 60+ days | Sep 18 |
 | Figure | [Firmware Engineering Intern \[Winter 2027\]](https://job-boards.greenhouse.io/figureai/jobs/4601309006) | San Jose, CA | ⏳ 60+ days | Sep 12 |
 | Seven Research | [Algorithmic Developer - Summer Intern](https://job-boards.greenhouse.io/sevenresearch/jobs/4895082008) | NY | ⏳ 60+ days | Aug 26 |
 | Seven Research | [Core Developer - Summer Intern](https://job-boards.greenhouse.io/sevenresearch/jobs/4895047008) | NY | ⏳ 60+ days | Aug 26 |
@@ -72,6 +86,6 @@
 
 [⬅ INTERNSHIPS page 18](INTERNSHIPS-18.md) · page 19 of 19
 
-**Not on this board yet:** [Microsoft](https://careers.microsoft.com/), [Google](https://www.google.com/about/careers/applications/), [Apple](https://jobs.apple.com/), [Netflix](https://jobs.netflix.com/), [AMD](https://careers.amd.com/), [Qualcomm](https://careers.qualcomm.com/), [IBM](https://www.ibm.com/careers), [ExxonMobil](https://jobs.exxonmobil.com/), [Phillips 66](https://www.phillips66.com/careers/), [Chevron](https://careers.chevron.com/), [Shell](https://www.shell.com/careers.html), [Lockheed Martin](https://www.lockheedmartinjobs.com/), [Boeing](https://jobs.boeing.com/), [Capital One](https://www.capitalonecareers.com/), [JPMorgan Chase](https://careers.jpmorgan.com/), [Goldman Sachs](https://www.goldmansachs.com/careers/), [Bloomberg](https://careers.bloomberg.com/), [Uber](https://www.uber.com/us/en/careers/), [Tesla](https://www.tesla.com/careers), [Dell Technologies](https://jobs.dell.com/), [Intuit](https://jobs.intuit.com/), [Visa](https://corporate.visa.com/en/jobs/), [Mastercard](https://careers.mastercard.com/us/en), [Target](https://corporate.target.com/careers). These companies hire CS interns, but their job sites aren't read here yet. The links go to each company's own careers page.
+**Not on this board yet:** [Apple](https://jobs.apple.com/), [Netflix](https://jobs.netflix.com/), [AMD](https://careers.amd.com/), [Qualcomm](https://careers.qualcomm.com/), [IBM](https://www.ibm.com/careers), [ExxonMobil](https://jobs.exxonmobil.com/), [Phillips 66](https://www.phillips66.com/careers/), [Chevron](https://careers.chevron.com/), [Shell](https://www.shell.com/careers.html), [Lockheed Martin](https://www.lockheedmartinjobs.com/), [Boeing](https://jobs.boeing.com/), [Capital One](https://www.capitalonecareers.com/students), [JPMorgan Chase](https://careers.jpmorgan.com/), [Goldman Sachs](https://www.goldmansachs.com/careers/), [Bloomberg](https://careers.bloomberg.com/), [Uber](https://www.uber.com/us/en/careers/), [Tesla](https://www.tesla.com/careers), [Dell Technologies](https://jobs.dell.com/), [Intuit](https://jobs.intuit.com/), [Visa](https://corporate.visa.com/en/jobs/), [Mastercard](https://careers.mastercard.com/us/en), [Target](https://corporate.target.com/careers). These companies hire CS interns, but their job sites aren't read here yet. The links go to each company's own careers page.
 
 _Listings and tags are generated automatically from employers' postings and can be wrong or out of date. Always read the full posting._
