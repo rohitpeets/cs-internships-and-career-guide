@@ -89,7 +89,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
           auth="AUTHORIZATION: basic $(printf 'x-access-token:%s' "$GH_TOKEN" | base64 -w0)"
-          git add -A README.md INTERNSHIPS*.md NEW_GRAD*.md EARLY*.md NEW_THIS_WEEK.md track-*.md _data/ data/
+          git add -A README.md INTERNSHIPS*.md NEW_GRAD*.md EARLY*.md NEW_THIS_WEEK.md track-*.md _data/ data/ assets/search-index.json
           if git diff --cached --quiet; then
             echo "No changes."
             exit 0
