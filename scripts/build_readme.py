@@ -292,8 +292,11 @@ def main():
                       "Only a few programs are open at a time. Freshmen and sophomores should also check the full [internships list](INTERNSHIPS.md) — most roles there don't require a class year.\n\n"}
     must = (load_yaml(DATA / "must_have.yaml", {}) or {}).get("companies") or []
     have = {company_key(r["company"]) for r in rows}
-    missing = [m for m in must if company_key(m) not in have]
     pages = (load_yaml(DATA / "career_pages.yaml", {}) or {}).get("pages") or {}
+    must_missing = [m for m in must if company_key(m) not in have]
+    must_keys = {company_key(m) for m in must_missing}
+    extra = sorted(name for name in pages if company_key(name) not in have and company_key(name) not in must_keys)
+    missing = must_missing + extra
     def not_yet(roles):
         return (f"**Not on this board yet:** {career_links(missing, pages)}. These companies hire {roles}, but their job sites aren't read here yet. "
                 f"The links go to each company's own careers page.") if missing else ""
