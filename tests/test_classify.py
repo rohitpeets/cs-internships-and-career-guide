@@ -8,6 +8,7 @@ def test_titles_kept_and_dropped():
     assert not keep_title("Engineering Manager")
     assert not keep_title("PhD Research Intern")
     assert not keep_title("Summer 2027: Marketing Intern")
+    assert not keep_title("Intern - People Analytics")
     assert not keep_title("Summer 2027: Corporate Strategy Intern")
     assert not keep_title("Technical Design Artist, Intern 2027")
     # visual and creative design roles are not CS/CE work, even when they say "digital design" or "web"

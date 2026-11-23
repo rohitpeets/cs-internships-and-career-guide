@@ -59,7 +59,7 @@ NON_TECH = re.compile(r"\b(operations research|financial analy\w*|risk|tax|compl
                       r"civil|geotechnical|structural|traffic|transportation|mechanical|environmental|chemical|process engineer|"
                       r"manufacturing|industrial|ehs|health and safety|safety engineer|construction|mining|petroleum|materials|"
                       r"warhead|harness|propulsion|thermal|fluids|geolog\w*|surveying|architect(ure)? intern|water resources|"
-                      r"game design|game economy|tech art|fuel|trim|field manager|product manag\w*)\b", re.I)
+                      r"game design|game economy|tech art|fuel|trim|field manager|people analytics|product manag\w*)\b", re.I)
 
 
 FIELD_DROP = re.compile(r"\b(radiolog\w*|surg(ical|ery|eon)\w*|sonograph\w*|phlebotom\w*|nurs(e|es|ing)|pharmacy tech\w*|respiratory|dental|veterinar\w*|patient care|sterile processing|"

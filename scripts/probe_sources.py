@@ -48,6 +48,7 @@ GUESSES = [
     ("Venture Global LNG", "greenhouse", "venturegloballng"), ("Lamar Advertising", "greenhouse", "lamar"),
     ("ServiceNow", "smartrecruiters", "ServiceNow"), ("Visa", "smartrecruiters", "Visa"), ("Bosch", "smartrecruiters", "BoschGroup"),
     ("JPMorgan Chase", "oracle", "jpmc.fa/CX_1001"), ("Oracle", "oracle", "eeho.fa.us2/CX_45001"),
+    ("Dell", "workday", "dell"),
     ("Capital One", "workday", "capitalone"), ("PayPal", "workday", "paypal"), ("Mastercard", "workday", "mastercard"),
     ("Target", "workday", "target"), ("Chevron", "workday", "chevron"), ("Shell", "workday", "shell"),
     ("ExxonMobil", "workday", "exxonmobil"), ("Phillips 66", "workday", "phillips66"), ("Lockheed Martin", "workday", "lmco"),
