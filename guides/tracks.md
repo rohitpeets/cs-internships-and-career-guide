@@ -105,7 +105,7 @@ Job list: [security track](../track-security.md).
 
 **4-week starter project.** Build a home lab. Week 1: install Linux in a virtual machine. Week 2: set up a file server and two user accounts. Week 3: set up a small network in a free simulator such as Cisco Packet Tracer. Week 4: write a 1-page runbook (steps for fixing common problems). For more things to run on your lab, see [awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) and [awesome-sysadmin](https://github.com/awesome-foss/awesome-sysadmin).
 
-**Certs.** More useful here than in other tracks. CompTIA A+ (basics) and Network+ help for help-desk jobs. CCNA (Cisco's networking cert) lists at US$300 for the exam on Cisco's page. Cisco's page didn't state how long it stays valid, so check before you plan a renewal. Take one only after you have seen the topic in class or in your lab, and ask your department if it offers discounts.
+**Certs.** More useful here than in other tracks. CompTIA A+ (basics) and Network+ help for help-desk jobs. CCNA (Cisco's networking cert) lists at US$300 for the exam on Cisco's page. It's valid for three years; renew by retaking the exam or earning CE credits before it expires. Take one only after you have seen the topic in class or in your lab, and ask your department if it offers discounts.
 
 **Contests and clubs.** Cyber defense teams, IT or networking clubs, campus IT help desk (a paid student job).
 
