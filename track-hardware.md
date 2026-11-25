@@ -1,6 +1,6 @@
 # Hardware and chips
 
-[⬅ Back to the main page](./) · 142 open · updated 2026-11-24
+[⬅ Back to the main page](./) · 143 open · updated 2026-11-25
 
 Chip design, FPGA and ASIC work, and design verification. New to this track? Read the [Hardware and chips section of the Career tracks guide](guides/tracks.md#hardware-and-chips).
 
@@ -34,10 +34,12 @@ The track comes from the words in the job title, so a few jobs may land in the w
 
 <div class="job-filter" id="job-filter"></div>
 
-## Internships (135)
+## Internships (136)
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
+| Lightmatter | [Design Verification, Intern Summer 2027](https://boards.greenhouse.io/lightmatter/jobs/5493962008?gh_jid=5493962008) | Boston, MA |  | Nov 24 |
+| Lightmatter | [Design Verification, Intern Summer 2027](https://boards.greenhouse.io/lightmatter/jobs/5474684008?gh_jid=5474684008) | Mountain View, CA |  | Nov 24 |
 | RTX | [Semiconductor Foundry Intern \(Summer 2027\)](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-MA-ANDOVER-AR2--362-Lowell-St--AR2-PLYMOUTH-BLDG/Semiconductor-Foundry-Intern--Summer-2027-_01875840)<br><sub>“U.S. Citizen, U.S. Person, or Immigration Status Requirements: U.S. citizenship is required, as only U.S. citizens are authorized to access…”</sub> | US-MA-ANDOVER-AR2 \~ 362 Lowell St \~ AR2 PLYMO… | 🗽 citizens<br>⚠ unverified | Nov 23 |
 | Lightmatter | [Silicon Validation &amp; Test Automation, Intern Summer 2027](https://boards.greenhouse.io/lightmatter/jobs/5473832008?gh_jid=5473832008) | Mountain View, CA |  | Nov 19 |
 | NVIDIA | [NVIDIA 2027 Internships: Hardware ASIC Design](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-ASIC-Design_JR2023486) | US, CA, Santa Clara | ⚠ unverified | Nov 19 |
@@ -91,7 +93,6 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | onsemi | [Spring 2027 - Semiconductor AI Specialist Intern](https://hctz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2506918) | Gresham, OR | 🌱 spring | Oct 23 |
 | Hewlett Packard Enterprise | [Electrical Hardware Engineering Intern](https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Chippewa-Falls-Wisconsin-United-States-of-America/Electrical-Hardware-Engineering-Intern_1213409) | Chippewa Falls, WI | ⚠ unverified | Oct 22 |
 | Marvell Technology | [Silicon Validation Intern, BS - Summer 2027](https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Silicon-Validation-Intern--BS---Summer-2027_2603850-1) | Santa Clara, CA |  | Oct 21 |
-| Amazon | [Hardware Development Engineer Intern , Winter 2027](https://www.amazon.jobs/en/jobs/10584121/hardware-development-engineer-intern-winter-2027) | Bellevue, WA | ⚠ unverified | Oct 20 |
 | Micron Technology | [Intern - Semiconductor Global Category Supplier Management](https://micron.wd1.myworkdayjobs.com/External/job/San-Jose-CA/Intern---Semiconductor-Global-Category-Supplier-Management_JR114763) | San Jose, CA | ⚠ unverified | Oct 20 |
 | Rockwell Automation | [Intern, Hardware Development Engineer \(May - Aug 2027\)](https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers/job/Mayfield-Heights-Ohio-United-States/Intern--Hardware-Development-Engineer--May---Aug-2027-_R26-6892-2)<br><sub>“We will not sponsor individuals for employment visas for this internship.”</sub> | Mayfield Heights, OH | 🛂❌ no sponsor | Oct 20 |
 | Skydio | [Hardware Test and Reliability Intern - Summer 2027](https://jobs.ashbyhq.com/skydio/36d75e36-eeb2-4399-8887-37c4a5ff5800) | San Mateo, CA |  | Oct 20 |
@@ -121,7 +122,7 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Hewlett Packard Enterprise | [Hardware Engineering Intern](https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Sunnyvale-California-United-States-of-America/Hardware-Engineering-Intern_1214064) | Sunnyvale, CA | ⚠ unverified | Oct 6 |
 | BorgWarner | [Electronics Hardware Design Intern](https://borgwarner.wd5.myworkdayjobs.com/BorgWarner_Careers/job/Kokomo-Technical-Center---Indiana---USA/Electronics-Hardware-Design-Intern_R2026-3941)<br><sub>“However, for this role, sponsorship is not available.”</sub> | Kokomo Technical Center - Indiana - | 🛂❌ no sponsor | Oct 5 |
 | Marvell Technology | [Hardware Engineer Intern, BS - Summer 2027](https://marvell.wd1.myworkdayjobs.com/MarvellCareers2/job/Santa-Clara-CA/Hardware-Engineer-Intern--BS---Summer-2027_2604975) | Santa Clara, CA |  | Oct 5 |
-| RosaicLabs | [AI Accelerator Design Verification Engineer - Intern](https://jobs.lever.co/rosaiclabs/8e3e00f8-5b06-450c-bb63-5cc4fc3136ab) | Santa Clara, CA |  | Oct 5 |
+| RosaicLabs | [AI Accelerator Design Verification Engineer - Intern](https://jobs.lever.co/rosaiclabs/8e3e00f8-5b06-450c-bb63-5cc4fc3136ab) | Santa Clara, CA | ⚠ unverified | Oct 5 |
 | RosaicLabs | [CPU Design Verification Engineer - Intern](https://jobs.lever.co/rosaiclabs/11a93b50-2472-4ec9-85d9-c99a3a17405e) | Santa Clara, CA |  | Oct 5 |
 | Hewlett Packard Enterprise | [Electric Hardware Engineering Intern](https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Chippewa-Falls-Wisconsin-United-States-of-America/Electric-Hardware-Engineering-Intern_1213414) | Chippewa Falls, WI | ⚠ unverified | Oct 4 |
 | Hewlett Packard Enterprise | [Hardware Tools and Libraries Intern](https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Sunnyvale-California-United-States-of-America/Hardware-Tools-and-Libraries-Intern_1214085) | Sunnyvale, CA | ⚠ unverified | Oct 4 |

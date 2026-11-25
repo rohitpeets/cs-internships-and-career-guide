@@ -1,6 +1,6 @@
 # Internships
 
-[⬅ Back to the main page](./) · 2155 open · page 7 of 18 · updated 2026-11-24
+[⬅ Back to the main page](./) · 2122 open · page 7 of 18 · updated 2026-11-25
 
 [⬅ INTERNSHIPS page 6](INTERNSHIPS-6.md) · page 7 of 18 · [INTERNSHIPS page 8 ➡](INTERNSHIPS-8.md)
 
@@ -34,11 +34,6 @@
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
-| Toyota Research Institute | [Robotics Intern, Human-Robot Interaction](https://jobs.lever.co/tri/11da7518-14d4-4960-a3aa-57dc010f3642) | Cambridge, MA |  | Nov 5 |
-| Vizient | [2027 Summer Internship - Research Analytics &amp; Insights](https://vizient.wd1.myworkdayjobs.com/Vizient_Careers/job/Chicago-IL-60607/XMLNAME-2027-Summer-Internship---Research-Analytics---Insights_36064R-2) | Chicago, IL 60607 |  | Nov 5 |
-| Walmart | [\(USA\) Summer 2027 Corporate Intern: Last Mile Delivery Data Science Intern](https://walmart.wd504.myworkdayjobs.com/WalmartExternal/job/USA-J-Street-Offices-Suite-2-AR-BENTONVILLE-Home-Office/XMLNAME--USA--Summer-2027-Corporate-Intern---Last-Mile-Delivery-Data-Science-Intern_R-2686828) | \(USA\) J Street Offices, Suite \#2 AR BENTONVIL… | ⚠ unverified | Nov 5 |
-| ABB | [AI Engineering, Business Systems Intern- Summer 2027](https://abb.wd3.myworkdayjobs.com/External_Career_Page/job/USA-NC-Cary/AI-Engineering--Business-Systems-Intern--Summer-2027_JR00048714) | USA, NC, Cary | ⚠ unverified | Nov 4 |
-| ABB | [AI Engineering, ERP Intern- Summer 2027](https://abb.wd3.myworkdayjobs.com/External_Career_Page/job/USA-NC-Cary/AI-Engineering--ERP-Intern--Summer-2027_JR00048711) | USA, NC, Cary | ⚠ unverified | Nov 4 |
 | AeroVironment | [Software Engineering Intern](https://avav.wd1.myworkdayjobs.com/AVAV/job/Melbourne-FL/Software-Engineering-Intern_8613)<br><sub>“U.S. Citizenship required”</sub> | Melbourne, FL | 🗽 citizens<br>🎓 3.0+ GPA | Nov 4 |
 | Amgen | [Grad Intern – R&amp;D TSRS Data Sciences Operations &amp; Analytic \(Summer 2027\)](https://amgen.wd1.myworkdayjobs.com/Careers/job/United-States---Remote/Grad-Intern---R-D-TSRS-Data-Sciences-Operations---Analytic--Summer-2027-_R-260585) | United States - Remote | 🌐 remote<br>⚠ unverified | Nov 4 |
 | Badger Meter | [Firmware Test Engineer Intern](https://badgermeter.wd5.myworkdayjobs.com/US_CareerSite/job/US---WI---Milwaukee-HQ/Firmware-Test-Engineer-Intern_4675) | US - WI - Milwaukee HQ |  | Nov 4 |
@@ -58,6 +53,7 @@
 | Procter &amp; Gamble | [Intern, Talent Analytics &amp; Assessment Science](https://pg.wd5.myworkdayjobs.com/1000/job/CINCINNATI-GENERAL-OFFICES/Intern--Talent-Analytics---Assessment-Science_R000162095)<br><sub>“Immigration Sponsorship is not available for this role.”</sub> | CINCINNATI GENERAL OFFICES | 🛂❌ no sponsor | Nov 4 |
 | Samsung Research America | [2027 Spring Intern, Robotics Lab](https://job-boards.greenhouse.io/samsungresearchamericainternship/jobs/8927812002) | 665 Clyde Avenue, Mountain View, CA | 🌱 spring | Nov 4 |
 | Sanofi | [Analytics and PowerBI Development Intern](https://sanofi.wd3.myworkdayjobs.com/SanofiCareers/job/Praha/Analytics-and-PowerBI-Development-Intern_R2868855) | Praha | ⚠ unverified | Nov 4 |
+| Toyota Research Institute | [Automated Driving Advanced Development Intern, Machine Learning Research \(Explainable AI\)](https://jobs.lever.co/tri/e7cc38d2-2b08-4349-b322-4d56cac9fb1b) | Los Altos, CA |  | Nov 4 |
 | Toyota Research Institute | [Human-Centered AI Research Intern, Human Language Models](https://jobs.lever.co/tri/d4184c04-b963-489a-9a0b-91bc57d6267e) | Los Altos, CA |  | Nov 4 |
 | Toyota Research Institute | [Robotics Research Intern, Manipulation](https://jobs.lever.co/tri/17acdd1f-f234-4a30-a313-34be94a1adcd) | Los Altos, CA |  | Nov 4 |
 | Vizient | [2027 Summer Internship - Digital Collaboration &amp; Data Insights](https://vizient.wd1.myworkdayjobs.com/Vizient_Careers/job/Chicago-IL-60607/XMLNAME-2027-Summer-Internship---Digital-Collaboration---Data-Insights_35969R) | Chicago, IL 60607 |  | Nov 4 |
@@ -154,6 +150,10 @@
 | Tevora | [Cybersecurity Internship Summer 2027 - Systems and Organizations Controls \(SOC\)](https://jobs.lever.co/tevora/4e3b7ae3-cb18-4c76-815c-0014e3c7598c) | Irvine, CA |  | Oct 31 |
 | Tevora | [Cybersecurity Internship Summer 2027 - Threat](https://jobs.lever.co/tevora/5acd8859-ba7f-4996-9503-13a231376758) | Irvine, CA |  | Oct 31 |
 | Tevora | [Cybersecurity Internship Summer2027 - Federal](https://jobs.lever.co/tevora/2ad5ba33-3c2a-4e51-a5ab-e5632adb0e0d) | Fairfax, VA | 🏛 gov | Oct 31 |
+| Amazon | [Software Development Engineer Intern, Machine Learning/Automated Reasoning- Summer 2027](https://www.amazon.jobs/en/jobs/10593521/software-development-engineer-intern-machine-learning-automated-reasoning-summer-2027) | Seattle, WA |  | Oct 30 |
+| Astera Institute | [Robotics Systems Intern](https://jobs.ashbyhq.com/astera/59578b73-571f-462d-a3d2-5f19b1ee6ed8) | Emeryville HQ |  | Oct 30 |
+| Carnegie Mellon University | [Cyber Range Development Intern](https://cmu.wd115.myworkdayjobs.com/CMU/job/Pittsburgh-PA/Cyber-Range-Development-Intern_2025291)<br><sub>“You will be subject to a background check and must be eligible to work in the United States without Visa sponsorship.”</sub> | Pittsburgh, PA | 🛂❌ no sponsor | Oct 30 |
+| Carnegie Mellon University | [Full-Stack Software Development Intern](https://cmu.wd115.myworkdayjobs.com/CMU/job/Pittsburgh-PA/Full-Stack-Software-Development-Intern_2025287-1)<br><sub>“You will be subject to a background check and must be eligible to work in the United States without Visa sponsorship.”</sub> | Pittsburgh, PA | 🛂❌ no sponsor | Oct 30 |
 
 [⬅ INTERNSHIPS page 6](INTERNSHIPS-6.md) · page 7 of 18 · [INTERNSHIPS page 8 ➡](INTERNSHIPS-8.md)
 

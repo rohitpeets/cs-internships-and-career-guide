@@ -1,6 +1,6 @@
 # Data and ML
 
-[⬅ Back to the main page](./) · 644 open · updated 2026-11-24
+[⬅ Back to the main page](./) · 637 open · updated 2026-11-25
 
 Data analysis, data engineering, machine learning and AI roles. New to this track? Read the [Data and ML section of the Career tracks guide](guides/tracks.md#data-and-ml).
 
@@ -34,13 +34,13 @@ The track comes from the words in the job title, so a few jobs may land in the w
 
 <div class="job-filter" id="job-filter"></div>
 
-## Internships (631)
+## Internships (625)
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
-| Springs Window Fashions | [Dealer Business Operations &amp; Analytics Internship - Summer 2027](https://careers-springswindowfashions.icims.com/jobs/12886/dealer-business-operations-%26-analytics-internship---summer-2027/job) | MIDDLETON, WI | ⚠ unverified | — |
-| V2X | [Artificial Intelligence Intern 2027](https://careers.gov2x.com/why-gov2x/jobs/62843) | Indianapolis, IN | ⚠ unverified | — |
-| Waymo | [2027 Summer Intern, BS, Waymo ML Ops &amp; Automation](https://careers.withwaymo.com/jobs?gh_jid=8257237) | Mountain View, CA | ⚠ unverified | — |
+| International | [AI/ML Intern](https://careers.international.com/jobs/60456) | Lisle, IL | ⚠ unverified | — |
+| Keysight Technologies | [EDA AI/ML Layout Engineering Intern](https://jobs.keysight.com/external/jobs/54606) | Calabasas, CA | ⚠ unverified | — |
+| Samsung Semiconductor | [Intern, LLM Inference Acceleration Architecture \(MoE &amp; Attention–FFN Disaggregation\)](https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8216717003) | San Jose, CA |  | Nov 24 |
 | Amgen | [Grad Intern - siRNA Stability and Data Science \(Summer 2027\)](https://amgen.wd1.myworkdayjobs.com/Careers/job/US---California---Thousand-Oaks/Grad-Intern---siRNA-Stability-and-Data-Science--Summer-2027-_R-261404) | US - California - Thousand Oaks | ⚠ unverified | Nov 23 |
 | ASML | [Internship-Data &amp; AI, Controls](https://asml.wd3.myworkdayjobs.com/ASMLEXT1/job/San-Diego-CA-USA/Internship-Data---AI--Controls_J-00357861) | San Diego, CA |  | Nov 23 |
 | ASML | [Internship/Co-Op: AI Engineer](https://asml.wd3.myworkdayjobs.com/ASMLEXT1/job/San-Jose-CA-USA/Internship-Co-Op--AI-Engineer_J-00358477) | San Jose, CA | 🔄 co-op | Nov 23 |
@@ -142,8 +142,6 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | S&amp;P Global | [Summer Intern, Client Services, Equity Analytics Products](https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/New-York-NY/Summer-Intern--Client-Services--Equity-Analytics-Products_332606-1) | New York, NY |  | Nov 17 |
 | Shure | [AI Specialist \(Operations\) Intern](https://careersus-shure.icims.com/jobs/5029/ai-specialist-%28operations%29-intern/job) | Niles, IL |  | — |
 | Shure | [Web Analytics Intern](https://careersus-shure.icims.com/jobs/5027/web-analytics-intern/job) | Niles, IL |  | — |
-| Springs Window Fashions | [Consumer Business Unit - AI Analyst Internship - Summer 2027](https://careers-springswindowfashions.icims.com/jobs/12875/consumer-business-unit---ai-analyst-internship---summer-2027/job) | MIDDLETON, WI | ⚠ unverified | — |
-| Springs Window Fashions | [Consumer Business Unit - Data Analyst Internship - Summer 2027](https://careers-springswindowfashions.icims.com/jobs/12874/consumer-business-unit---data-analyst-internship---summer-2027/job) | MIDDLETON, WI | ⚠ unverified | — |
 | Springs Window Fashions | [Textile Engineering Analytics &amp; Software Internship - summer 2027](https://careers-springswindowfashions.icims.com/jobs/12881/textile-engineering-analytics-%26-software-internship---summer-2027/job) | MIDDLETON, WI |  | — |
 | State Street | [State Street Investment Management - Data Scientist - Summer Internship 2027](https://statestreet.wd1.myworkdayjobs.com/Global/job/Boston-Massachusetts/State-Street-Investment-Management---Data-Scientist---Summer-Internship-2027_R-801213) | Boston, MA | ⚠ unverified | Nov 17 |
 | Texas Instruments | [Analog IC Design \(AI/ML\) Engineering Intern](https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25020319) | Dallas, TX | 🎓 3.0+ GPA | Nov 17 |
@@ -158,7 +156,6 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Biodesix | [AI Research &amp; Development Internship \(Undergraduate\)](https://www.biodesix.com/careers/current-openings?gh_jid=4485306009) | Louisville, CO | ⚠ unverified | — |
 | Biodesix | [Data Analytics &amp; Business Intelligence Internship \(Undergrad/Graduate\)](https://www.biodesix.com/careers/current-openings?gh_jid=4485182009) | Louisville, CO | ⚠ unverified | — |
 | Blizzard Entertainment | [Blizzard 2027 Summer Internships - Data Platform Engineering](https://xboxgaming.wd1.myworkdayjobs.com/Blizzard_External_Careers/job/Irvine---Blizzard---Blizzard-Way/Blizzard-2027-Summer-Internships---Data-Platform-Engineering_R028358) | Irvine - Blizzard - Blizzard Way |  | Nov 16 |
-| Bloomberg Industry Group | [Data Analyst Intern](https://bloomberg.wd1.myworkdayjobs.com/Bloombergindustrygroup_External_Career_Site/job/Arlington-VA---1801-S-Bell-INDG/Data-Analyst-Intern_145487) | Arlington, VA - 1801 S Bell \(INDG\) | ⚠ unverified | Nov 16 |
 | Booz Allen | [University - 2027 Summer Games Data Scientist Intern - Annapolis Junction, MD](https://careers.boozallen.com/careers/JobDetail/129753) | Annapolis Junction, MD |  | — |
 | Booz Allen | [University - 2027 Summer Games Data Scientist Intern - Ft. Walton Beach, FL](https://careers.boozallen.com/careers/JobDetail/129748) | Fort Walton Beach, FL |  | — |
 | Booz Allen | [University - 2027 Summer Games Data Scientist Intern - Huntsville, AL](https://careers.boozallen.com/careers/JobDetail/129755) | Huntsville, AL |  | — |
@@ -300,6 +297,7 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Constellation Brands | [Intern, AI &amp; Automation Engineering](https://cbrands.wd5.myworkdayjobs.com/CBI_External_Careers/job/Rochester-New-York/Intern--AI---Automation-Engineering_R-41655) | Rochester, NY |  | Nov 4 |
 | Procter &amp; Gamble | [Intern, Talent Analytics &amp; Assessment Science](https://pg.wd5.myworkdayjobs.com/1000/job/CINCINNATI-GENERAL-OFFICES/Intern--Talent-Analytics---Assessment-Science_R000162095)<br><sub>“Immigration Sponsorship is not available for this role.”</sub> | CINCINNATI GENERAL OFFICES | 🛂❌ no sponsor | Nov 4 |
 | Sanofi | [Analytics and PowerBI Development Intern](https://sanofi.wd3.myworkdayjobs.com/SanofiCareers/job/Praha/Analytics-and-PowerBI-Development-Intern_R2868855) | Praha | ⚠ unverified | Nov 4 |
+| Toyota Research Institute | [Automated Driving Advanced Development Intern, Machine Learning Research \(Explainable AI\)](https://jobs.lever.co/tri/e7cc38d2-2b08-4349-b322-4d56cac9fb1b) | Los Altos, CA |  | Nov 4 |
 | Toyota Research Institute | [Human-Centered AI Research Intern, Human Language Models](https://jobs.lever.co/tri/d4184c04-b963-489a-9a0b-91bc57d6267e) | Los Altos, CA |  | Nov 4 |
 | Vizient | [2027 Summer Internship - Digital Collaboration &amp; Data Insights](https://vizient.wd1.myworkdayjobs.com/Vizient_Careers/job/Chicago-IL-60607/XMLNAME-2027-Summer-Internship---Digital-Collaboration---Data-Insights_35969R) | Chicago, IL 60607 |  | Nov 4 |
 | AstraZeneca | [US Medical Affairs, AI &amp; Knowledge Experience Intern](https://astrazeneca.wd3.myworkdayjobs.com/Careers/job/US---Gaithersburg---MD/US-Medical-Affairs--AI---Knowledge-Experience-Intern_R-263260) | US - Gaithersburg - MD | ⚠ unverified | Nov 3 |
@@ -336,7 +334,6 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Salesforce | [AI Labs Summer Internship, Emerging Talent](https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/AI-Labs-Summer-Internship--Emerging-Talent_JR366248) | California - San Francisco | ⚠ unverified | Oct 30 |
 | Toyota Research Institute | [Accelerated Science Intern, Machine Learning/Agentic AI](https://jobs.lever.co/tri/f8c9ed26-4574-4ad2-954b-b7f5ec365495) | Cambridge, MA |  | Oct 30 |
 | University of Miami | [Data Science &amp; AI Intern](https://umiami.wd1.myworkdayjobs.com/UMCareerStaff/job/Miami-FL/Data-Science---AI-Intern_R100102549) | Miami, FL | ⚠ unverified | Oct 30 |
-| Axiom Space | [Enterprise Data Analyst Intern, Power BI &amp; Data Quality \(Summer 2027\)](https://axiomspace.wd5.myworkdayjobs.com/External_Career_Site/job/Houston/Enterprise-Data-Analyst-Intern--Power-BI---Data-Quality--Summer-2027-_JR100823)<br><sub>“Must qualify as a “U.S. person” under U.S. export control laws \(U.S. citizen, lawful permanent resident, or protected individual\)”</sub> | Houston | 🗽 citizens<br>🎓 3.0+ GPA<br>⚠ unverified | Oct 29 |
 | General Motors | [2027 Summer Intern - AI/ML Engineer - Autonomous Vehicles](https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---AI-ML-Engineer---Autonomous-Vehicles_JR-202623439) | Sunnyvale, CA |  | Oct 29 |
 | GM Financial | [Intern - Data Engineer](https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/261197) | Arlington, TX | 🎓 3.0+ GPA | Oct 29 |
 | IAT Insurance Group | [Data Engineering &amp; Visualization Internship](https://iatinsurancegroup.wd1.myworkdayjobs.com/iat/job/Raleigh-NC/Data-Engineering---Visualization-Internship_JR100441)<br><sub>“To qualify, applicants must be authorized to work in the United States and must not require VISA sponsorship, now or in the future, for empl…”</sub> | Raleigh NC | 🛂❌ no sponsor | Oct 29 |
@@ -472,7 +469,6 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Unity Technologies | [Machine Learning Engineer-Internship](https://unitytech.wd1.myworkdayjobs.com/Unity/job/Mountain-View-CA-USA/XMLNAME--Req-6087--Software-Developer_JOBREQ-2615965) | Mountain View, CA |  | Oct 13 |
 | Vertiv | [Data Analytics Intern \(Summer 2027\)](https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20278852) | Delaware, OH | ⚠ unverified | Oct 13 |
 | Zekelman Industries | [Intern, Production Analytics](https://zekelman.wd12.myworkdayjobs.com/Careers/job/Wheatland-PA---Council-Ave/Intern--Production-Analytics_JR002898) | Wheatland, PA - Council Ave |  | Oct 13 |
-| CapTech Consulting | [Consulting Internship: Data Analysis/Data Engineering \(Summer 2027\)](https://jobs.smartrecruiters.com/CapTechConsulting/744000155023169-consulting-internship-data-analysis-data-engineering-summer-2027-)<br><sub>“At this time, CapTech cannot transfer nor sponsor a work visa for this position.”</sub> | Richmond, VA | 🛂❌ no sponsor<br>⚠ unverified | Oct 12 |
 | Exol | [Intern- Data Engineer](https://symbotic.wd504.myworkdayjobs.com/Symbotic/job/USA-Wilmington--MA---HQ/Data-Engineer_R7967) | USA Wilmington, MA - HQ |  | Oct 12 |
 | Hewlett Packard Enterprise | [HPC/AI System Admin HW/SW Service Engineer Intern](https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/All-Tennessee-United-States-of-America/HPC-AI-System-Admin-HW-SW-Service-Engineer-Intern_1213404) | All, TN | ⚠ unverified | Oct 12 |
 | Lithium Americas | [Data Analyst Intern](https://lithiumamericas.wd108.myworkdayjobs.com/External_Careers_SG/job/Reno-Business-Office/Data-Analyst-Intern_JR100113) | Reno Business Office |  | Oct 12 |
@@ -536,8 +532,8 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Watts Water Technologies | [E-Commerce Analytics &amp; Web Intern, Summer 2027](https://wattswater.wd5.myworkdayjobs.com/Intern-External/job/North-Andover-MA/B2C-E-Commerce-Analytics---Website-Intern--Summer-2027_10017536) | North Andover, MA |  | Sep 29 |
 | Fox Corporation | [Summer 2027 FOX News Media Internship Program - Data Analytics - New York](https://fox.wd1.myworkdayjobs.com/Domestic/job/New-York-New-York-USA/Summer-2027-FOX-News-Media-Internship-Program---Data-Analytics---New-York_R50033981) | New York, NY |  | Sep 28 |
 | South Jersey Gas | [Data Analytics Intern](https://sjindustries.wd1.myworkdayjobs.com/SJI/job/Folsom-NJ/Engineering-Design-Intern_R4369)<br><sub>“At this time, SJI is only considering applicants authorized to work in the United States currently and in the future without the need for vi…”</sub> | Folsom, NJ | 🛂❌ no sponsor | Sep 28 |
-| Copart | [Data &amp; AI Intern](https://copart.wd12.myworkdayjobs.com/Copart/job/Dallas-TX---Headquarters/Data---AI-Intern_JR111596) | Dallas, TX - Headquarters |  | Sep 25 |
-| Pacific Life | [Summer 2027 Data Engineering Internship](https://pacificlife.wd1.myworkdayjobs.com/PacificLifeCareers/job/Newport-Beach-CA-700/Summer-2027-Data-Engineering-Internship_R17828) | Newport Beach CA-700 |  | Sep 25 |
+| Copart | [Data &amp; AI Intern](https://copart.wd12.myworkdayjobs.com/Copart/job/Dallas-TX---Headquarters/Data---AI-Intern_JR111596) | Dallas, TX - Headquarters | ⏳ 60+ days | Sep 25 |
+| Pacific Life | [Summer 2027 Data Engineering Internship](https://pacificlife.wd1.myworkdayjobs.com/PacificLifeCareers/job/Newport-Beach-CA-700/Summer-2027-Data-Engineering-Internship_R17828) | Newport Beach CA-700 | ⏳ 60+ days | Sep 25 |
 | Radiance Technologies | [2027 Modeling, Analytics, &amp; Simulation Sciences \(MASS\) Engineer Intern](https://radiancetech.wd12.myworkdayjobs.com/Radiance_External/job/Beavercreek-OH/XMLNAME-2027-Modeling--Analytics----Simulation-Sciences--MASS--Engineer-Intern_HR102439)<br><sub>“US citizenship with the ability to obtain a security clearance”</sub> | Beavercreek, OH | 🔒 clearance<br>🎓 3.5+ GPA<br>⏳ 60+ days | Sep 24 |
 | Brunswick | [Mercury Marine: Data Analytics Internship](https://brunswick.wd1.myworkdayjobs.com/search/job/Fond-du-Lac-WI/Data-Analytics-Co-Op_JR-051119) | Fond du Lac, WI | ⚠ unverified<br>⏳ 60+ days | Sep 23 |
 | Clearwater Analytics | [Data Management &amp; Reporting Intern](https://clearwateranalytics.wd1.myworkdayjobs.com/Clearwater_Analytics_Careers/job/Office---New-York/Data-Management---Reporting-Intern_R12095) | Office - NY | ⏳ 60+ days | Sep 23 |
@@ -623,7 +619,6 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | GrayMatter Robotics | [AI Research Intern: Foundation Models - IMMEDIATE START](https://jobs.ashbyhq.com/graymatter-robotics/dea0f08d-ebf5-4e55-b9cb-e6302014f429) | Los Angeles - HQ | ⏳ 60+ days | Aug 26 |
 | Penn State University | [AI/ML Research Support Intern](https://psu.wd1.myworkdayjobs.com/PSU_Staff/job/Penn-State-University-Park/AI-ML-Research-Support-Intern_REQ_0000080506-1)<br><sub>“You must be a U.S. citizen to apply.”</sub> | Penn State University Park | 🗽 citizens<br>🔒 clearance<br>⚠ unverified<br>⏳ 60+ days | Aug 26 |
 | WhiteWater Midstream | [Data Science Intern - Summer 2027](https://job-boards.greenhouse.io/whitewatermidstream/jobs/5217853007) | Austin, TX | ⏳ 60+ days | Aug 26 |
-| Conifer Health Solutions | [Analytics Intern - Hybrid in Dallas, TX](https://eodr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/2603021209) | Dallas, TX | 🎓 3.0+ GPA<br>⚠ unverified<br>⏳ 60+ days | Aug 25 |
 | DTCC | [Data Solutions Intern \[2027 Internship Program\]](https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/214478)<br><sub>“Authorization to work permanently in the United States without current or future sponsorship.”</sub> | Tampa, FL | 🛂❌ no sponsor<br>🎓 3.2+ GPA<br>⏳ 60+ days | Aug 25 |
 | Emery Sapp &amp; Sons, Inc. \(ESS\) | [Data Prep Intern](https://emerysapp.wd501.myworkdayjobs.com/ESS/job/Columbia-MO/Data-Prep-Intern_JR3279) | Columbia, MO | ⏳ 60+ days | Aug 25 |
 | Emery Sapp &amp; Sons, Inc. \(ESS\) | [Data Prep Intern](https://emerysapp.wd501.myworkdayjobs.com/ESS/job/Kansas-City-MO/Data-Prep-Intern_JR3280) | Kansas City, MO | ⏳ 60+ days | Aug 25 |
@@ -661,7 +656,6 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Campbell's | [Data Science Intern](https://campbellsoup.wd5.myworkdayjobs.com/ExternalCareers_GlobalSite/job/USA---NJ---Camden/Data-Science-Intern_Req-65845) | USA - NJ - Camden | ⏳ 60+ days | Jun 12 |
 | PwC | [Consulting - Internship - AI &amp; Data Science](https://pwc.wd3.myworkdayjobs.com/NonPublic_Postings/job/Yogyakarta/Consulting---Internship---Strategy---Operations--AI---Data-Science-_718300WD)<br><sub>“Government Clearance Required?”</sub> | Yogyakarta | 🔒 clearance<br>🎓 3.0+ GPA<br>⚠ unverified<br>⏳ 60+ days | Apr 1 |
 | First Quality | [INTERN OR CO-OP - Analytics Engineer](https://firstquality.wd5.myworkdayjobs.com/FIRSTQUALITY/job/US-SC-Anderson/INTERN-OR-CO-OP---Analytics-Engineer_R9813) | US SC Anderson | 🎓 3.2+ GPA<br>🔄 co-op<br>⏳ 60+ days | Dec 8 |
-| Toyota Research Institute | [Automated Driving Advanced Development Intern, Machine Learning Research \(Explainable AI\)](https://jobs.lever.co/tri/62b161d6-21e0-4d10-9997-ff7ae91a2ff4) | Los Altos, CA | ⏳ 60+ days | Nov 4 |
 | Marmon Holdings | [Data Engineering Intern OR Student Co-Op](https://marmon.wd501.myworkdayjobs.com/Marmon_Careers/job/Milwaukee-WI/Data-Engineering-Intern-OR-Student-Co-Op_JR0000037453-1) | Milwaukee, WI | 🔄 co-op<br>⏳ 60+ days | Sep 18 |
 | Seven Research | [Deep Learning Researcher - Summer Intern](https://job-boards.greenhouse.io/sevenresearch/jobs/4895007008) | NY | ⏳ 60+ days | Aug 26 |
 | Point72 | [Quantitative Research Intern \(NLP\)](https://boards.greenhouse.io/point72/jobs/8018862002?gh_jid=8018862002) | NY | ⏳ 60+ days | May 31 |
@@ -670,7 +664,7 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Perpay | [Analytics Internship, Summer 2027](https://job-boards.greenhouse.io/perpay/jobs/4076934007) | Philadelphia, PA | ⏳ 60+ days | Sep 12 |
 | Databricks | [Data Science Intern \(2027 Start\)](https://databricks.com/company/careers/open-positions/job?gh_jid=6866538002) | Mountain View, California; San Francisco, CA | ⏳ 60+ days | Aug 17 |
 
-## New grad (13)
+## New grad (12)
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
@@ -679,7 +673,6 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Kyndryl | [Early Career Consult Program - Associate Data Engineer](https://kyndryl.wd5.myworkdayjobs.com/KyndrylEarlyCareers/job/Dallas-USDALFRI-Frisco-AI-HUB/Data-Engineer_R-66870-1)<br><sub>“The company will not sponsor employment visas for this role.”</sub> | Dallas \(USDALFRI\) Frisco AI HUB | 🛂❌ no sponsor | Nov 9 |
 | Brain Co | [AI Product Engineer, 2027 New Grad](https://jobs.ashbyhq.com/brainco/c1788246-305f-4e4f-8b03-8444c76a466e) | San Francisco Bay Area |  | Oct 20 |
 | Olsson | [Entry-Level Power Systems Studies Engineer - Data Centers](https://job-boards.greenhouse.io/olsson/jobs/5446995008) | Overland Park, KS |  | Oct 7 |
-| Brain Co | [AI Platform Engineer, 2027 New Grad](https://jobs.ashbyhq.com/brainco/4d39773e-f4c3-49c1-87c3-812a9804fb15) | San Francisco Bay Area | ⚠ unverified | Oct 1 |
 | Brain Co | [Machine Learning Engineer, 2027 New Grad](https://jobs.ashbyhq.com/brainco/4c9f8f00-0caf-4927-80da-02a3e53cb0cd) | San Francisco Bay Area |  | Oct 1 |
 | Adobe | [2027 University Graduate - Machine Learning Engineer](https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2027-University-Graduate---Machine-Learning-Engineer_R172085) | San Jose | ⏳ 60+ days | Sep 24 |
 | ID.me University Recruiting | [Summer 2027 - Data Scientist \(New Grad\)](https://job-boards.greenhouse.io/idmeuniversityrecruiting/jobs/7986505003) | Mountain View, CA | ⏳ 60+ days | Sep 8 |

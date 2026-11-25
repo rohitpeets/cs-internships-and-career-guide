@@ -1,6 +1,6 @@
 # Internships
 
-[⬅ Back to the main page](./) · 2155 open · page 12 of 18 · updated 2026-11-24
+[⬅ Back to the main page](./) · 2122 open · page 12 of 18 · updated 2026-11-25
 
 [⬅ INTERNSHIPS page 11](INTERNSHIPS-11.md) · page 12 of 18 · [INTERNSHIPS page 13 ➡](INTERNSHIPS-13.md)
 
@@ -34,20 +34,6 @@
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
-| Papa Johns | [2027 Summer Intern - Data Science](https://papajohns.wd1.myworkdayjobs.com/PapaJohnsCareers/job/HQ_Atlanta/XMLNAME-2027-Summer-Intern---Data-Science_R26_0000002157) | HQ\_Atlanta | ⚠ unverified | Oct 9 |
-| Wintrust Financial Corporation | [Wintrust 2027 Summer Internship: Information Technology](https://wintrust.wd1.myworkdayjobs.com/Search/job/Rosemont-IL/Wintrust-2027-Summer-Internship--Information-Technology_261943)<br><sub>“Due to the high volume of applicants we receive, we do not offer immigration sponsorship \(including OPT and CPT\) for this program.”</sub> | Rosemont, IL | 🛂❌ no sponsor<br>🚫 no CPT/OPT<br>🎓 3.0+ GPA | Oct 9 |
-| Amazon | [Embedded Firmware Co-op, Amazon Robotics - Spring 2027](https://www.amazon.jobs/en/jobs/10573570/embedded-firmware-co-op-amazon-robotics-spring-2027) | North Reading, MA | 🔄 co-op<br>🌱 spring | Oct 8 |
-| Baird | [Internship – Quality Assurance Automation Engineer \(Year-Round\)](https://wd1.myworkdaysite.com/recruiting/baird/Careers/job/WI-Milwaukee/Internship---Quality-Assurance-Automation-Engineer--Year-Round-_R20261143-1) | WI-Milwaukee |  | Oct 8 |
-| Blue Cross Blue Shield of Michigan | [2027 Summer Intern - Service Analytics &amp; Insights](https://ejko.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/14781) | Detroit, MI | 🎓 3.0+ GPA | Oct 8 |
-| DoorDash USA | [Software Engineer, Intern - Labs \(Summer 2027\)](https://job-boards.greenhouse.io/doordashusa/jobs/8263774) | San Francisco, CA; Sunnyvale, CA |  | Oct 8 |
-| Exol | [Intern- Machine Learning Ops](https://symbotic.wd504.myworkdayjobs.com/Symbotic/job/USA-Wilmington--MA---HQ/Intern--Machine-Learning-Ops_R8202) | USA Wilmington, MA - HQ |  | Oct 8 |
-| GenBio AI | [Research Scientist Intern, AI Molecular Design \(Winter/Spring\)](https://jobs.lever.co/genbio/7d0b5764-48ce-4d06-93d2-431742d35604) | Palo Alto, CA | 🌱 spring | Oct 8 |
-| General Motors | [2027 Summer Intern – Autonomous Driving Software Engineer \(Bachelor's &amp; Master's\)](https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Autonomous-Driving-Software-Engineer--Bachelor-s---Master-s-_JR-202622064) | Sunnyvale, CA |  | Oct 8 |
-| GlobalFoundries | [APL Quantum Intern \(Summer 2027\)](https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---New-York---Malta/APL-Quantum-Intern--Summer-2027-_JR-2604434) | USA - New York - Malta | 🎓 3.0+ GPA | Oct 8 |
-| Hewlett Packard Enterprise | [ASIC Verification/Design Engineering Intern](https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Roseville-California-United-States-of-America/ASIC-Verification-Design-Engineering-Intern_1214211) | Roseville, CA | ⚠ unverified | Oct 8 |
-| Hewlett Packard Enterprise | [Wireless Networking Intern](https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/San-Jose-California-United-States-of-America/Wireless-Networking-Intern_1214969) | San Jose, CA | ⚠ unverified | Oct 8 |
-| IMC | [Machine Learning Engineer Intern - Summer 2027](https://job-boards.eu.greenhouse.io/imc/jobs/4962456101) | NY |  | Oct 8 |
-| Leidos | [Systems, Integration and Software Engineer Intern](https://leidos.wd5.myworkdayjobs.com/External/job/Atlantic-City-NJ/Systems--Integration-and-Software-Engineer-Intern_R-00194152)<br><sub>“- Candidates must be US Citizens”</sub> | Atlantic City, NJ | 🗽 citizens<br>🔒 public trust<br>⚠ unverified | Oct 8 |
 | ModMed | [Software Engineering Intern](https://modmed.wd501.myworkdayjobs.com/ModMed12/job/Boca-Raton-FL/Software-Engineering-Intern_R5148) | Boca Raton, FL | 🎓 3.5+ GPA | Oct 8 |
 | Oceaneering | [Azure AKS DevOps Intern](https://ebfr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/jobs/job/11636)<br><sub>“Ability to obtain and maintain a security clearance if required.”</sub> | Houston, TX | 🔒 clearance<br>🎓 3.0+ GPA | Oct 8 |
 | Rugged Robotics | [Robotic Software Intern/Co-op \(Spring or Summer 2027\)](https://job-boards.greenhouse.io/ruggedrobotics/jobs/4730908005) | Houston, TX | 🔄 co-op<br>🌱 spring | Oct 8 |
@@ -65,7 +51,7 @@
 | Jabil | [Computer Systems Analyst Intern](https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/St-PetersburgTampa-FL/Computer-Systems-Analyst-Intern_J2464586-1) | St. Petersburg/Tampa, FL | 🎓 3.0+ GPA<br>⚠ unverified | Oct 7 |
 | Lansing Board of Water &amp; Light | [Intern, IT](https://lbwl.wd12.myworkdayjobs.com/BWLCareers/job/Lansing-MI/Intern--IT_JR100466) | Lansing, MI | 🎓 3.0+ GPA | Oct 7 |
 | LIGHTSPEED STUDIOS | [ゲームAIリサーチインターン｜Game AI Research Intern](https://tencent.wd1.myworkdayjobs.com/Lightspeed/job/AI-Game-AI-Research-Intern_R106377) |  |  | Oct 7 |
-| Mirakl - AMER | [IT Technician Co-op](https://job-boards.greenhouse.io/miraklamer/jobs/6218387004) | Boston, MA | 🔄 co-op | Oct 7 |
+| Mirakl - AMER | [IT Technician Co-op](https://job-boards.greenhouse.io/miraklamer/jobs/6218387004) | Boston, MA | 🔄 co-op<br>⚠ unverified | Oct 7 |
 | Nissan Motor Corporation | [Digital Products &amp; AI Strategy Intern - Summer 2027 - Franklin, TN](https://alliance.wd3.myworkdayjobs.com/nissanjobs/job/Franklin-Tennessee---United-States-of-America/Digital-Products---AI-Strategy-Intern---Summer-2027---Franklin--TN_R00214215) | Franklin, Tennessee - | 🎓 3.0+ GPA | Oct 7 |
 | Nissan Motor Corporation | [IS/IT Intern - Summer 2027 - Franklin, TN](https://alliance.wd3.myworkdayjobs.com/nissanjobs/job/Franklin-Tennessee---United-States-of-America/IS-IT-Intern---Summer-2027---Franklin--TN_R00214212) | Franklin, Tennessee - | 🎓 3.0+ GPA | Oct 7 |
 | Permian Resources | [Summer 2027 IT Internship](https://permianres.wd12.myworkdayjobs.com/Permian_Resources_Careers/job/Midland-Texas/Summer-2027-IT-Internship_R-100404) | Midland, TX | 🎓 3.0+ GPA | Oct 7 |
@@ -91,18 +77,9 @@
 | Oceaneering | [IT SCM Business Analyst Intern](https://ebfr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/jobs/job/11640) | Houston, TX | 🎓 3.0+ GPA | Oct 6 |
 | OxyChem | [IT Intern](https://oxychem.wd504.myworkdayjobs.com/Corporate/job/Dallas-Texas/IT-Intern_JR110339) | Dallas, TX | 🎓 2.9+ GPA | Oct 6 |
 | Pure Storage | [Software Engineer Intern \(Summer 2027\)](https://job-boards.greenhouse.io/purestorage/jobs/8249749) | Santa Clara, CA |  | Oct 6 |
-| Revel | [Internship: Forward Deployed Engineer, Software](https://jobs.ashbyhq.com/revel/34f97b81-c981-4c4b-9f4d-d471c33b46cc)<br><sub>“- US citizen, lawful permanent resident, refugee, or asylee \(ITAR requirement\)”</sub> | Los Angeles | 📜 ITAR<br>⚠ unverified | Oct 6 |
 | Rockwell Automation | [Intern, Firmware and Software Test Development](https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers/job/Mequon-Wisconsin-United-States/Intern--Firmware-and-Software-Test-Development_R26-7568)<br><sub>“Legal authorization to work in the U.S. We will not sponsor individuals for employment visas, now or in the future, for this job opening.”</sub> | Mequon, WI | 🛂❌ no sponsor<br>🎓 2.8+ GPA | Oct 6 |
 | Sigma Computing | [Software Engineering Intern \(Summer 2027\)](https://job-boards.greenhouse.io/sigmacomputing/jobs/7850795003)<br><sub>“Visa sponsorship is not available for our internship positions”</sub> | San Francisco, CA | 🛂❌ no sponsor | Oct 6 |
 | Sigma Computing | [Software Engineering Intern \(Summer 2027\)](https://job-boards.greenhouse.io/sigmacomputing/jobs/8001295003)<br><sub>“Visa sponsorship is not available for our internship positions”</sub> | New York, NY | 🛂❌ no sponsor | Oct 6 |
-| Tevora | [Cybersecurity Internship Winter 2027 - Threat](https://jobs.lever.co/tevora/1048eaf2-66b6-466d-bb59-8a75d7f5c968) | Irvine, CA | ⚠ unverified | Oct 6 |
-| Tevora | [Cybersecurity Internship Winter 2027 - Enterprise Risk Management](https://jobs.lever.co/tevora/6038cf01-750c-44dd-8f8d-86e20b22c73c) | Irvine, CA | ⚠ unverified | Oct 6 |
-| Tevora | [Cybersecurity Internship Winter 2027 - Federal](https://jobs.lever.co/tevora/6d569b10-339d-4b86-9ae1-17ee462948a1) | Fairfax, VA | 🏛 gov<br>⚠ unverified | Oct 6 |
-| Tevora | [Cybersecurity Internship Winter 2027 - Healthcare](https://jobs.lever.co/tevora/8732b469-4b50-4d5f-b75f-cee074ebfb22) | Irvine, CA | ⚠ unverified | Oct 6 |
-| Tevora | [Cybersecurity Internship Winter 2027 - International Organization for Standardization \(ISO\)](https://jobs.lever.co/tevora/461e8bec-806c-4de1-8ace-0f0246b06def) | Irvine, CA | ⚠ unverified | Oct 6 |
-| Tevora | [Cybersecurity Internship Winter 2027 - Payments](https://jobs.lever.co/tevora/dfbebff1-fca0-49a4-a06d-f6f18118000a) | Fairfax, VA | ⚠ unverified | Oct 6 |
-| Tevora | [Cybersecurity Internship Winter 2027 - Solutions](https://jobs.lever.co/tevora/68afa3e4-7068-418f-858d-2a306795d7d3) | Irvine, CA | ⚠ unverified | Oct 6 |
-| Tevora | [Cybersecurity Internship Winter 2027 - Systems and Organizations Controls \(SOC\)](https://jobs.lever.co/tevora/f73a1676-ca54-45a5-a657-1fb81bf0dc76) | Irvine, CA | ⚠ unverified | Oct 6 |
 | Vertiv | [Software Engineering Intern \(Summer 2027\)](https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20278777) | Delaware, OH | ⚠ unverified | Oct 6 |
 | Vulcan Materials Company | [2027 Summer Internship- Data &amp; Analytics \(Bham\)](https://vmcfa-prod-iccgjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1256) | Birmingham, AL |  | Oct 6 |
 | Yanfeng | [Information Technology \(MES\) Intern - Summer 2027](https://fa-epuh-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/20263459) | Fountain Inn, SC | 🎓 3.0+ GPA | Oct 6 |
@@ -128,7 +105,7 @@
 | Midland States Bank | [Intern - Security Analyst](https://midlandsb.wd1.myworkdayjobs.com/msbcareers/job/St-Louis-MO/Intern---Security-Analyst_JR1473) | St. Louis, MO | ⚠ unverified | Oct 5 |
 | National Laboratory of the Rockies | [Undergraduate / Graduate \(Spring / Summer\) Intern - Cyber Security Research – 5G](https://nrel.wd5.myworkdayjobs.com/NLR/job/Golden-CO/Undergraduate---Graduate--Spring---Summer--Intern---Cyber-Security-Research---5G_R14555) | Golden, CO | 🎓 3.0+ GPA<br>🌱 spring | Oct 5 |
 | New York Mets | [Intern, Data Science](https://sterlingmets.wd5.myworkdayjobs.com/Mets/job/Citi-Field--Queens-New-York/Intern--Data-Science_R1508) | Citi Field – Queens, NY |  | Oct 5 |
-| RosaicLabs | [AI Accelerator Design Verification Engineer - Intern](https://jobs.lever.co/rosaiclabs/8e3e00f8-5b06-450c-bb63-5cc4fc3136ab) | Santa Clara, CA |  | Oct 5 |
+| RosaicLabs | [AI Accelerator Design Verification Engineer - Intern](https://jobs.lever.co/rosaiclabs/8e3e00f8-5b06-450c-bb63-5cc4fc3136ab) | Santa Clara, CA | ⚠ unverified | Oct 5 |
 | RosaicLabs | [CPU Design Verification Engineer - Intern](https://jobs.lever.co/rosaiclabs/11a93b50-2472-4ec9-85d9-c99a3a17405e) | Santa Clara, CA |  | Oct 5 |
 | Hewlett Packard Enterprise | [Electric Hardware Engineering Intern](https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Chippewa-Falls-Wisconsin-United-States-of-America/Electric-Hardware-Engineering-Intern_1213414) | Chippewa Falls, WI | ⚠ unverified | Oct 4 |
 | Hewlett Packard Enterprise | [Hardware Tools and Libraries Intern](https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Sunnyvale-California-United-States-of-America/Hardware-Tools-and-Libraries-Intern_1214085) | Sunnyvale, CA | ⚠ unverified | Oct 4 |
@@ -154,6 +131,29 @@
 | Vanguard | [College to Corporate IT Internship-Application Development \(PA\)](https://vanguard.wd5.myworkdayjobs.com/vanguard_external/job/Malvern-PA/College-to-Corporate-IT-Internship-Application-Development--PA-_182757)<br><sub>“Vanguard does not offer visa sponsorship for this role”</sub> | Malvern, PA | 🛂❌ no sponsor<br>🎓 3.2+ GPA | Oct 2 |
 | Vanguard | [College to Corporate IT Internship-Investment Systems \(PA\)](https://vanguard.wd5.myworkdayjobs.com/vanguard_external/job/Malvern-PA/College-to-Corporate-IT-Internship-Investment-Systems--PA-_182782)<br><sub>“Vanguard does not offer visa sponsorship for this role”</sub> | Malvern, PA | 🛂❌ no sponsor<br>🎓 3.2+ GPA | Oct 2 |
 | Vanguard | [College to Corporate IT Internship-Risk &amp; Security Engineer \(PA\)](https://vanguard.wd5.myworkdayjobs.com/vanguard_external/job/Malvern-PA/College-to-Corporate-IT-Internship-Risk---Security-Engineer--PA-_182784) | Malvern, PA |  | Oct 2 |
+| Vanguard | [College to Corporate IT Internship-Risk &amp; Security-Engineer \(NC\)](https://vanguard.wd5.myworkdayjobs.com/vanguard_external/job/Charlotte-NC/College-to-Corporate-IT-Internship-Risk---Security-Engineer--NC-_182785) | Charlotte, NC |  | Oct 2 |
+| xAI | [Spring 2027 Software Engineering Internship/Co-op](https://job-boards.greenhouse.io/xai/jobs/5252108007) | Palo Alto, CA | 🎓 3.5+ GPA<br>🔄 co-op<br>🌱 spring | Oct 2 |
+| xAI | [Summer 2027 Software Engineering Internship/Co-op](https://job-boards.greenhouse.io/xai/jobs/5255111007) | Palo Alto, CA | 🎓 3.5+ GPA<br>🔄 co-op | Oct 2 |
+| Yanfeng | [Information Technology Operations Intern - Summer 2027](https://fa-epuh-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/20263451) | Bryan, OH | 🎓 3.0+ GPA | Oct 2 |
+| Adobe | [2027 Intern - Machine Learning Engineer](https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2027-Intern---Machine-Learning-Engineer_R171519) | San Jose |  | Oct 1 |
+| Cisco | [Hardware Engineer I \(Co-op\) - United States](https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/Hardware-Engineer-I--Co-op----United-States_2025369) | San Jose, CA | 🔄 co-op<br>⚠ unverified | Oct 1 |
+| Cisco | [Software Consulting Engineer I \(Intern\) United States](https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/USA-RESEARCH-TRIANGLE-PARK/Software-Consulting-Engineer-I--Intern--United-States_2025180) | USA-RESEARCH TRIANGLE PARK | ⚠ unverified | Oct 1 |
+| Datacor | [Summer 2027 AI Engineer Intern](https://job-boards.greenhouse.io/datacor/jobs/5242412007) | Remote | 🌐 remote | Oct 1 |
+| DMA - DuCharme, McMillen &amp; Associates, Inc | [IT Quality Assurance Intern - Spring 2027](https://dmainc.wd5.myworkdayjobs.com/DMA/job/Lisle-IL/IT-Quality-Assurance-Intern---Spring-2027_REQ656) | Lisle, IL | 🌱 spring | Oct 1 |
+| DMA - DuCharme, McMillen &amp; Associates, Inc | [IT Quality Assurance Intern - Summer 2027](https://dmainc.wd5.myworkdayjobs.com/DMA/job/Lisle-IL/IT-Quality-Assurance-Intern---Summer-2027_REQ657) | Lisle, IL |  | Oct 1 |
+| Federal Reserve System | [Summer 2027 Intern-Cloud Engineering](https://rb.wd5.myworkdayjobs.com/FRS/job/Chicago-IL/Summer-2027-Intern-Cloud-Engineering_R-0000033614)<br><sub>“Applicants must be currently authorized to work in the United States without the need for visa sponsorship now or in the future.”</sub> | Chicago, IL | 🛂❌ no sponsor | Oct 1 |
+| Federal Reserve System | [Summer 2027 Intern-Computer Science and Software Engineering](https://rb.wd5.myworkdayjobs.com/FRS/job/Chicago-IL/Summer-2027-Intern-Computer-Science-and-Software-Engineering_R-0000033637)<br><sub>“Applicants must be currently authorized to work in the United States without the need for visa sponsorship now or in the future.”</sub> | Chicago, IL | 🛂❌ no sponsor | Oct 1 |
+| Federal Reserve System | [Summer 2027 Intern-Cybersecurity and Information Security](https://rb.wd5.myworkdayjobs.com/FRS/job/Chicago-IL/Summer-2027-Intern-Cybersecurity-and-Information-Security_R-0000033612-1)<br><sub>“Applicants must be currently authorized to work in the United States without the need for visa sponsorship now or in the future.”</sub> | Chicago, IL | 🛂❌ no sponsor | Oct 1 |
+| Federal Reserve System | [Summer 2027 Intern-Data Science and Business Analytics](https://rb.wd5.myworkdayjobs.com/FRS/job/Chicago-IL/Summer-2027-Intern-Data-Science-and-Business-Analytics_R-0000033609)<br><sub>“Applicants must be currently authorized to work in the United States without the need for visa sponsorship now or in the future.”</sub> | Chicago, IL | 🛂❌ no sponsor | Oct 1 |
+| Federal Reserve System | [Summer 2027 Intern-Networking and Computer Engineering](https://rb.wd5.myworkdayjobs.com/FRS/job/Chicago-IL/Summer-2027-Intern-Networking-and-Computer-Engineering_R-0000033610)<br><sub>“Applicants must be currently authorized to work in the United States without the need for visa sponsorship now or in the future.”</sub> | Chicago, IL | 🛂❌ no sponsor | Oct 1 |
+| First Bank &amp; Trust | [Software Development Intern](https://bankeasy.wd5.myworkdayjobs.com/bank-easy-job-openings/job/Sioux-Falls-SD-I-229/Software-Development-Intern_R-100829) | Sioux Falls, SD \(I-229\) |  | Oct 1 |
+| General Motors | [2027 Summer Intern - AI/ML Engineer, Autonomous Vehicle: Simulation](https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---AI-ML-Engineer--Autonomous-Vehicle--Simulation_JR-202621508) | Sunnyvale, CA |  | Oct 1 |
+| Life Fitness | [Revenue Operations Intern \(Data Analytics\)](https://lifefitness.wd1.myworkdayjobs.com/searchLFN/job/Rosemont-IL/Revenue-Operations-Intern--Data-Analytics-_JR-025264) | Rosemont, IL |  | Oct 1 |
+| Micron Technology | [Intern - Semiconductor Research &amp; Technology Development](https://micron.wd1.myworkdayjobs.com/External/job/Albany-NY/Intern---Semiconductor-Research---Technology-Development_JR110876) | Albany, NY | ⚠ unverified | Oct 1 |
+| NJM Insurance Group | [I.T. Data Administration Intern](https://njm.wd1.myworkdayjobs.com/njm/job/NJM---Trenton/IT-Data-Administration-Intern_R2008309) | NJM - Trenton | 🎓 3.0+ GPA | Oct 1 |
+| Oceaneering | [IT/OT CyberSecurity Intern](https://ebfr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/jobs/job/11623) | Houston, TX | 🎓 3.0+ GPA | Oct 1 |
+| PROCON | [IT Intern - Local Candidates only](https://jobs.smartrecruiters.com/PROCON/744000153017330-it-intern-local-candidates-only) | Hooksett, NH |  | Oct 1 |
+| Radiance Technologies | [Software Engineer Intern Spring/Summer 2027](https://radiancetech.wd12.myworkdayjobs.com/Radiance_External/job/Dayton-Office/Software-Engineer-Intern-Spring-Summer-2027_HR102443)<br><sub>“US Citizenship with the ability to obtain a security clearance”</sub> | Dayton Office | 🔒 clearance<br>🎓 3.0+ GPA<br>🌱 spring | Oct 1 |
 
 [⬅ INTERNSHIPS page 11](INTERNSHIPS-11.md) · page 12 of 18 · [INTERNSHIPS page 13 ➡](INTERNSHIPS-13.md)
 

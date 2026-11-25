@@ -1,6 +1,6 @@
 # Internships
 
-[⬅ Back to the main page](./) · 2155 open · page 9 of 18 · updated 2026-11-24
+[⬅ Back to the main page](./) · 2122 open · page 9 of 18 · updated 2026-11-25
 
 [⬅ INTERNSHIPS page 8](INTERNSHIPS-8.md) · page 9 of 18 · [INTERNSHIPS page 10 ➡](INTERNSHIPS-10.md)
 
@@ -34,15 +34,6 @@
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
-| Regeneron | [2027 Summer Intern IT &amp; Systems \(IOPS\)](https://regeneron.wd1.myworkdayjobs.com/US_Only_University_Relations_Career/job/RENSSELAER/XMLNAME-2027-Summer-Intern-IT---Systems--IOPS-_R51822-1) | RENSSELAER |  | Oct 28 |
-| Regeneron | [2027 Summer Intern IT, Digital Enablement &amp; Information Security](https://regeneron.wd1.myworkdayjobs.com/US_Only_University_Relations_Career/job/TARRYTOWN/XMLNAME-2027-Summer-Intern-IT--Digital-Enablement---Information-Security_R52561) | TARRYTOWN |  | Oct 28 |
-| Sierra Nevada Corporation | [Network Engineer Intern \(Summer 2027\)](https://snc.wd1.myworkdayjobs.com/SNC_External_Career_Site/job/Hagerstown-MD/Network-Engineer-Intern--Summer-2027-_R0031232)<br><sub>“IMPORTANT NOTICE: To conform to U.S. Government international trade regulations, applicant must be a U.S. Citizen, lawful permanent resident…”</sub> | Hagerstown, MD | 🗽 citizens<br>🔒 clearance | Oct 28 |
-| Standard Aero | [Co-op, IT Analyst: Spring](https://cva.fa.us1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/10255) | Cincinnati, OH | 🔄 co-op<br>🌱 spring | Oct 28 |
-| Standard Aero | [Intern, IT Analyst: Summer](https://cva.fa.us1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/10479) | Cincinnati, OH |  | Oct 28 |
-| Strada Education Foundation | [Strada Education Foundation: Information Technology Intern](https://jobs.lever.co/stradaeducation/d9d6301a-3fac-4389-b820-3115dfe20a13) | Indianapolis, IN |  | Oct 28 |
-| Subtotal | [Software Engineering Intern](https://jobs.ashbyhq.com/subtotal/3891929c-0ee6-46ea-a833-4efba2862801) |  |  | Oct 28 |
-| T-Mobile | [Summer 2027 Assoc AI Engineer Internship](https://tmobile.wd1.myworkdayjobs.com/External/job/Overland-Park-Kansas/Summer-2027-Assoc-AI-Engineer-Internship_REQ380492) | Overland Park, KS | ⚠ unverified | Oct 28 |
-| The Nuclear Company | [Spring 2027 Security Engineer Intern](https://job-boards.greenhouse.io/thenuclearcompany/jobs/5466153008)<br><sub>“U.S. Person status \(U.S. citizen or lawful permanent resident\) is required , and the Company does not sponsor visas for this role.”</sub> | Washington, DC | 🛂❌ no sponsor<br>🗽 citizens<br>🌱 spring | Oct 28 |
 | USAFacts | [AI &amp; Software Engineering Intern](https://job-boards.greenhouse.io/usafacts/jobs/4472154009) | Bellevue, WA |  | Oct 28 |
 | Valmont Industries, Inc | [AI &amp; Data Engineering Intern](https://valmont.wd1.myworkdayjobs.com/ValmontCareers/job/Omaha-NE/AI---Data-Engineering-Intern_R29310) | Omaha NE |  | Oct 28 |
 | Victaulic | [2027 Summer Internship – Information Technology](https://victaulic.wd1.myworkdayjobs.com/victaulic_careers/job/Easton-Pennsylvania/XMLNAME-2027-Summer-Internship---Information-Technology_R0005962)<br><sub>“Victaulic does not provide immigration sponsorship \(e.g., H-1B, TN, or other work visa sponsorship\) for this position.”</sub> | Easton, PA | 🛂❌ no sponsor | Oct 28 |
@@ -154,6 +145,15 @@
 | Langan Engineering &amp; Environmental Services | [Intern/Co-op - Cyber Security \(Spring &amp; Summer 2027\)](https://job-boards.greenhouse.io/langanengineeringandenvironmentalservicesllc/jobs/4451342009) | Parsippany, NJ | 🎓 3.0+ GPA<br>🔄 co-op<br>🌱 spring | Oct 22 |
 | M&amp;T Bank | [Technology Intern - Software Engineering \(Enterprise API Services Development Team\)](https://mtb.wd5.myworkdayjobs.com/Campus/job/Buffalo-NY/Technology-Intern---Software-Engineering--Enterprise-API-Services-Development-Team-_R90812) | Buffalo, NY | 🎓 3.0+ GPA | Oct 22 |
 | Martin Marietta | [Intern, Geographic Information Systems \(Summer 2027\)](https://martinmarietta.wd5.myworkdayjobs.com/Martin_Marietta_Careers/job/Raleigh-NC/Intern--Geographic-Information-Systems--Summer-2027-_JR023605) | Raleigh, NC |  | Oct 22 |
+| Nissan Motor Corporation | [Cyber Security Intern - Summer 2027 - Smyrna, TN](https://alliance.wd3.myworkdayjobs.com/nissanjobs/job/Smyrna-Tennessee---United-States-of-America/Cyber-Security-Intern---Summer-2027---Smyrna--TN_R00214879) | Smyrna, Tennessee - | 🎓 3.0+ GPA | Oct 22 |
+| Oshkosh Corporation | [Digital Technology Intern](https://oshkoshcorporation.wd5.myworkdayjobs.com/Oshkosh/job/Spartanburg-South-Carolina-United-States/Digital-Technology-Intern_R51072)<br><sub>“Applicants for these positions may need to be "U.S. Persons," as defined in these regulations.”</sub> | Spartanburg, SC | 🗽 citizens<br>🎓 3.0+ GPA | Oct 22 |
+| Palantir Technologies | [Forward Deployed Software Engineer, Internship - Warp Speed](https://jobs.lever.co/palantir/b3d81928-6c26-432f-8a0a-36602c2eefcb)<br><sub>“What We Require: U.S. Person Required”</sub> | New York, NY | 🗽 citizens | Oct 22 |
+| Rivian and Volkswagen Group Technologies | [Data Engineering Intern - AI &amp; Analytics \(Summer 2027\)](https://jobs.ashbyhq.com/rivianvw.tech/7967cd44-5469-48b8-b69f-f036e4098464) | Palo Alto, CA |  | Oct 22 |
+| Rivian and Volkswagen Group Technologies | [Software Engineering Intern - Applications \(Summer 2027\)](https://jobs.ashbyhq.com/rivianvw.tech/7cc3dd48-631f-45ec-ae95-46c7cf05b160) | Palo Alto, CA |  | Oct 22 |
+| Rivian and Volkswagen Group Technologies | [Software Engineering Intern - Connected Systems \(Summer 2027\)](https://jobs.ashbyhq.com/rivianvw.tech/62e45b20-cbdc-4d16-9466-00bc158b7a7f) | Palo Alto, CA |  | Oct 22 |
+| Rivian and Volkswagen Group Technologies | [Software Engineering Intern - Embedded Platforms \(Summer 2027\)](https://jobs.ashbyhq.com/rivianvw.tech/30c3af69-2dfc-4224-9abc-b2d9c0c41048) | Palo Alto, CA |  | Oct 22 |
+| Rivian and Volkswagen Group Technologies | [Software Engineering Intern - Vehicle Controls \(Summer 2027\)](https://jobs.ashbyhq.com/rivianvw.tech/cb3559f0-2514-45f1-8d36-a11fa1dded0c) | Palo Alto, CA |  | Oct 22 |
+| Rockwell Automation | [Intern, Firmware Engineer](https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers/job/Mequon-Wisconsin-United-States/Firmware-Engineer-Intern_R26-8321-2)<br><sub>“Legal authorization to work in the U.S. We will not sponsor individuals for employment visas, now or in the future, for this job opening.”</sub> | Mequon, WI | 🛂❌ no sponsor<br>🎓 2.8+ GPA | Oct 22 |
 
 [⬅ INTERNSHIPS page 8](INTERNSHIPS-8.md) · page 9 of 18 · [INTERNSHIPS page 10 ➡](INTERNSHIPS-10.md)
 

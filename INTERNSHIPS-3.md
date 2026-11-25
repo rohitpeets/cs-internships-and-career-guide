@@ -1,6 +1,6 @@
 # Internships
 
-[⬅ Back to the main page](./) · 2155 open · page 3 of 18 · updated 2026-11-24
+[⬅ Back to the main page](./) · 2122 open · page 3 of 18 · updated 2026-11-25
 
 [⬅ INTERNSHIPS page 2](INTERNSHIPS-2.md) · page 3 of 18 · [INTERNSHIPS page 4 ➡](INTERNSHIPS-4.md)
 
@@ -34,6 +34,8 @@
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
+| Blackhawk Network Holdings | [Technology Intern](https://careers-blackhawknetwork.icims.com/jobs/26866/technology-intern/job) | Coppell, TX |  | — |
+| Bosch Group | [AI Application Intern \(8 months/40 hours per week\)](https://jobs.smartrecruiters.com/BoschGroup/744000162076254-ai-application-intern-8-months-40-hours-per-week-) | Farmington Hills, MI | 🎓 3.0+ GPA<br>⚠ unverified | Nov 17 |
 | Bose Corporation | [Data Science Co-Op \(NLP &amp; GenAI\)](https://boseallaboutme.wd503.myworkdayjobs.com/Bose_Careers/job/US-MA---Framingham/Data-Science-Co-Op--NLP---GenAI-_R29251) | US, MA - Framingham | 🔄 co-op | Nov 17 |
 | CACI International | [Cybersecurity Intern - Summer 2027](https://caci.wd1.myworkdayjobs.com/External/job/Remote-Any-State/Cybersecurity-Intern---Summer-2027_335105)<br><sub>“Must be legally authorized to work in the United States without the need for employer sponsorship, now or at any time in the future.”</sub> | Remote \(Any State\) | 🛂❌ no sponsor<br>🌐 remote<br>⚠ unverified | Nov 17 |
 | CACI International | [Junior Operations and Technology Intern - Spring 2027](https://caci.wd1.myworkdayjobs.com/External/job/Ashburn-VA-US/Junior-Operations-and-Technology-Intern---Spring-2027_334935)<br><sub>“Required: • U.S. citizenship and ability to obtain a TS/SCI clearance.”</sub> | Ashburn, VA | 🔒 ts/sci<br>🌱 spring<br>⚠ unverified | Nov 17 |
@@ -47,7 +49,6 @@
 | General Dynamics Mission Systems | [Ontology Data Analysis and Validation Intern, Summer 2027](https://careers-gdms.icims.com/jobs/76095/ontology-data-analysis-and-validation-intern%2c-summer-2027/job) | Pittsfield, MA, US; Scottsdale, AZ, US; Chant… | ⚠ unverified | — |
 | General Dynamics Mission Systems | [Software Asset Management Intern Administrative](https://careers-gdms.icims.com/jobs/76780/software-asset-management-intern-administrative/job) | Pittsfield, MA | ⚠ unverified | — |
 | General Dynamics Mission Systems | [Software Engineer Intern](https://careers-gdms.icims.com/jobs/75637/software-engineer-intern/job) | Pittsburgh, PA | ⚠ unverified | — |
-| General Dynamics Mission Systems | [Software Test Engineering Intern - Space and Embedded Crypto](https://careers-gdms.icims.com/jobs/75632/software-test-engineering-intern---space-and-embedded-crypto/job) | Scottsdale, AZ, US; Remote | 🌐 remote<br>⚠ unverified | — |
 | General Dynamics Mission Systems | [Software/Systems Engineering Intern \(Summer 2027\)](https://careers-gdms.icims.com/jobs/75808/software-systems-engineering-intern-%28summer-2027%29/job) | Middletown, RI | ⚠ unverified | — |
 | General Dynamics Mission Systems | [Systems and Software Development Intern](https://careers-gdms.icims.com/jobs/76099/systems-and-software-development-intern/job) | San Antonio, TX, US; Scottsdale, AZ, US; Remo… | 🌐 remote<br>⚠ unverified | — |
 | General Dynamics Mission Systems | [Systems Intern \(Cybersecurity and Linux Administration\)](https://careers-gdms.icims.com/jobs/76103/systems-intern-%28cybersecurity-and-linux-administration%29/job) | San Antonio, TX | ⚠ unverified | — |
@@ -79,11 +80,8 @@
 | Shure | [Unified Communication \(UC\) Technology Intern](https://careersus-shure.icims.com/jobs/5002/unified-communication-%28uc%29-technology-intern/job) | Skokie, IL |  | — |
 | Shure | [Web Analytics Intern](https://careersus-shure.icims.com/jobs/5027/web-analytics-intern/job) | Niles, IL |  | — |
 | Signify | [Firmware Development Engineer Intern, Cooper Lighting Solutions - Spring 2027](https://lighting.wd3.myworkdayjobs.com/jobs-and-careers/job/Atlanta/Firmware-Development-Engineer-Intern--Cooper-Lighting-Solutions---Spring-2027_367134) | Atlanta | 🌱 spring | Nov 17 |
-| Springs Window Fashions | [Consumer Business Unit - AI Analyst Internship - Summer 2027](https://careers-springswindowfashions.icims.com/jobs/12875/consumer-business-unit---ai-analyst-internship---summer-2027/job) | MIDDLETON, WI | ⚠ unverified | — |
-| Springs Window Fashions | [Consumer Business Unit - Data Analyst Internship - Summer 2027](https://careers-springswindowfashions.icims.com/jobs/12874/consumer-business-unit---data-analyst-internship---summer-2027/job) | MIDDLETON, WI | ⚠ unverified | — |
 | Springs Window Fashions | [Information Technology - AI Internship - summer 2027](https://careers-springswindowfashions.icims.com/jobs/12945/information-technology---ai-internship---summer-2027/job) | MIDDLETON, WI |  | — |
 | Springs Window Fashions | [Information Technology Internship - summer 2027](https://careers-springswindowfashions.icims.com/jobs/12908/information-technology-internship---summer-2027/job) | MIDDLETON, WI |  | — |
-| Springs Window Fashions | [Software Engineering Internship - Summer 2027](https://careers-springswindowfashions.icims.com/jobs/12891/software-engineering-internship---summer-2027/job) | LONG ISLAND CITY, NY | ⚠ unverified | — |
 | Springs Window Fashions | [Textile Engineering Analytics &amp; Software Internship - summer 2027](https://careers-springswindowfashions.icims.com/jobs/12881/textile-engineering-analytics-%26-software-internship---summer-2027/job) | MIDDLETON, WI |  | — |
 | State Street | [Full Stack Development Intern, Full-time Internship \(Jan - June 2027\)](https://statestreet.wd1.myworkdayjobs.com/Global/job/Quincy-Massachusetts/Full-Stack-Development-Intern--Full-time-Internship--Jan---June-2027-_R-801232) | Quincy, MA | ⚠ unverified | Nov 17 |
 | State Street | [Software Engineer \(Intergration Services\) - Full-time Internship \(Jan - June 2027\)](https://statestreet.wd1.myworkdayjobs.com/Global/job/Quincy-Massachusetts/Software-Engineer--Intergration-Services----Full-time-Internship--Jan---June-2027-_R-801234) | Quincy, MA | ⚠ unverified | Nov 17 |
@@ -117,7 +115,6 @@
 | Biodesix | [IT Service Desk Internship \(Undergrad/Graduate\)](https://www.biodesix.com/careers/current-openings?gh_jid=4485323009) | Louisville, CO | ⚠ unverified | — |
 | Biodesix | [Software Development &amp; AI Internship \(Undergrad/Graduate\)](https://www.biodesix.com/careers/current-openings?gh_jid=4485410009) | Louisville, CO | ⚠ unverified | — |
 | Blizzard Entertainment | [Blizzard 2027 Summer Internships - Data Platform Engineering](https://xboxgaming.wd1.myworkdayjobs.com/Blizzard_External_Careers/job/Irvine---Blizzard---Blizzard-Way/Blizzard-2027-Summer-Internships---Data-Platform-Engineering_R028358) | Irvine - Blizzard - Blizzard Way |  | Nov 16 |
-| Bloomberg Industry Group | [Data Analyst Intern](https://bloomberg.wd1.myworkdayjobs.com/Bloombergindustrygroup_External_Career_Site/job/Arlington-VA---1801-S-Bell-INDG/Data-Analyst-Intern_145487) | Arlington, VA - 1801 S Bell \(INDG\) | ⚠ unverified | Nov 16 |
 | Booz Allen | [University - 2027 Summer Games Cyber Security Intern - Annapolis Junction, MD](https://careers.boozallen.com/careers/JobDetail/129762) | Annapolis Junction, MD | ⚠ unverified | — |
 | Booz Allen | [University - 2027 Summer Games Cyber Security Intern - Atlanta, GA](https://careers.boozallen.com/careers/JobDetail/129576) | Atlanta, GA | ⚠ unverified | — |
 | Booz Allen | [University - 2027 Summer Games Cyber Security Intern - Charleston, SC](https://careers.boozallen.com/careers/JobDetail/129570) | Charleston, SC | ⚠ unverified | — |
@@ -154,6 +151,9 @@
 | Cirrus Logic | [2027 Internship - Embedded Firmware Engineer](https://jobs.eu.lever.co/cirrus/0af920c1-6ecb-447f-9b22-3eda6b8d4ed8) | Phoenix, AZ |  | — |
 | Cirrus Logic | [2027 Internship - Embedded Software Engineer](https://jobs.eu.lever.co/cirrus/f8d30ab0-8c95-4c83-8188-fb45a2cfc9ec) | Austin, TX |  | — |
 | Cirrus Logic | [2027 Internship - Embedded Software Test Engineer](https://jobs.eu.lever.co/cirrus/db51b041-8f20-48e0-af08-be71201a8175) | Austin, TX |  | — |
+| Cirrus Logic | [2027 Internship - Formal Verification Engineer](https://jobs.eu.lever.co/cirrus/533c9938-3d35-48a6-b08b-1dd1675d2bdf) | Austin, TX |  | — |
+| Cirrus Logic | [2027 Internship - Validation Engineer](https://jobs.eu.lever.co/cirrus/89813bb2-94fb-42f6-aec2-03154cfde027) | Austin, TX |  | — |
+| Constellation Brands | [Intern, Data and AI Enablement](https://cbrands.wd5.myworkdayjobs.com/CBI_External_Careers/job/Rochester-New-York/Intern--Data-and-AI-Enablement_R-41721) | Rochester, NY |  | Nov 16 |
 
 [⬅ INTERNSHIPS page 2](INTERNSHIPS-2.md) · page 3 of 18 · [INTERNSHIPS page 4 ➡](INTERNSHIPS-4.md)
 

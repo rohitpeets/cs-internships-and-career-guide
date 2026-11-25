@@ -1,6 +1,6 @@
 # Internships
 
-[⬅ Back to the main page](./) · 2155 open · page 6 of 18 · updated 2026-11-24
+[⬅ Back to the main page](./) · 2122 open · page 6 of 18 · updated 2026-11-25
 
 [⬅ INTERNSHIPS page 5](INTERNSHIPS-5.md) · page 6 of 18 · [INTERNSHIPS page 7 ➡](INTERNSHIPS-7.md)
 
@@ -34,11 +34,6 @@
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
-| Carlisle | [AI &amp; Data Science Intern](https://jobs.smartrecruiters.com/Carlisle/3743990016774046-ai-data-science-intern) | Carlisle, PA | 🎓 3.0+ GPA | Nov 10 |
-| Cisco | [Hardware Engineer I \(Intern\) - United States](https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/Hardware-Engineer-I--Intern----United-States_2024756) | San Jose, CA | ⚠ unverified | Nov 10 |
-| Cisco | [Software Engineer Embedded Systems I \(Intern\) - United States](https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/Software-Engineer-Embedded-Systems-I--Intern----United-States_2024641-1) | San Jose, CA | ⚠ unverified | Nov 10 |
-| Clarios | [IT Digital/AI Intern \(Summer 2027\)](https://clarios.wd5.myworkdayjobs.com/clarioscareers/job/United-States-Wisconsin-Milwaukee/IT-Digital-AI-Intern--Summer-2027-_WD49910)<br><sub>“PLEASE NOTE that applicants must be authorized to work for any employer in the US without the need for sponsorship, now or in the future.”</sub> | United States, Wisconsin, Milwaukee | 🛂❌ no sponsor | Nov 10 |
-| DP World | [AI &amp; Analytics \(Talent Management\) Intern](https://ehpv.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/27855)<br><sub>“Please note : This position does not offer sponsorship for employment visas.”</sub> | Charlotte, NC | 🛂❌ no sponsor | Nov 10 |
 | Entegris | [Solutions Engineering Intern](https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Billerica-MA/Solutions-Engineering-Intern_REQ-15884) | Billerica, MA |  | Nov 10 |
 | Etched | [Chip Simulation Software Intern](https://jobs.ashbyhq.com/Etched/27e5bd6b-9357-45f0-9e79-cfa2bf4eeba8) | San Jose |  | Nov 10 |
 | First Quality | [INTERN OR CO-OP - Information Technology](https://firstquality.wd5.myworkdayjobs.com/FIRSTQUALITY/job/US-SC-Anderson/INTERN-OR-CO-OP---Information-Technology_R10403) | US SC Anderson | 🎓 2.8+ GPA<br>🔄 co-op | Nov 10 |
@@ -154,6 +149,11 @@
 | RR Donnelley | [IT Support Engineer Summer Intern](https://jobs.smartrecruiters.com/RRDonnelley/744000159878934-it-support-engineer-summer-intern) | Wheeling, WV |  | Nov 5 |
 | Ryan | [Summer 2027 Intern, Software Engineering](https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Summer-2027-Intern--Software-Engineering_R0020806-1) |  |  | Nov 5 |
 | Tenet Healthcare Corporation | [Data Engineer Intern – Summer 2027 – Onsite in Dallas, TX](https://eodr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/2603028291) | Dallas, TX | ⚠ unverified | Nov 5 |
+| Toyota Research Institute | [Robotics Intern, Human-Robot Interaction](https://jobs.lever.co/tri/11da7518-14d4-4960-a3aa-57dc010f3642) | Cambridge, MA |  | Nov 5 |
+| Vizient | [2027 Summer Internship - Research Analytics &amp; Insights](https://vizient.wd1.myworkdayjobs.com/Vizient_Careers/job/Chicago-IL-60607/XMLNAME-2027-Summer-Internship---Research-Analytics---Insights_36064R-2) | Chicago, IL 60607 |  | Nov 5 |
+| Walmart | [\(USA\) Summer 2027 Corporate Intern: Last Mile Delivery Data Science Intern](https://walmart.wd504.myworkdayjobs.com/WalmartExternal/job/USA-J-Street-Offices-Suite-2-AR-BENTONVILLE-Home-Office/XMLNAME--USA--Summer-2027-Corporate-Intern---Last-Mile-Delivery-Data-Science-Intern_R-2686828) | \(USA\) J Street Offices, Suite \#2 AR BENTONVIL… | ⚠ unverified | Nov 5 |
+| ABB | [AI Engineering, Business Systems Intern- Summer 2027](https://abb.wd3.myworkdayjobs.com/External_Career_Page/job/USA-NC-Cary/AI-Engineering--Business-Systems-Intern--Summer-2027_JR00048714) | USA, NC, Cary | ⚠ unverified | Nov 4 |
+| ABB | [AI Engineering, ERP Intern- Summer 2027](https://abb.wd3.myworkdayjobs.com/External_Career_Page/job/USA-NC-Cary/AI-Engineering--ERP-Intern--Summer-2027_JR00048711) | USA, NC, Cary | ⚠ unverified | Nov 4 |
 
 [⬅ INTERNSHIPS page 5](INTERNSHIPS-5.md) · page 6 of 18 · [INTERNSHIPS page 7 ➡](INTERNSHIPS-7.md)
 

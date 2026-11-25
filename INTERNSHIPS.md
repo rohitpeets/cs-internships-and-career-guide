@@ -1,6 +1,6 @@
 # Internships
 
-[⬅ Back to the main page](./) · 2155 open · page 1 of 18 · updated 2026-11-24
+[⬅ Back to the main page](./) · 2122 open · page 1 of 18 · updated 2026-11-25
 
 page 1 of 18 · [INTERNSHIPS page 2 ➡](INTERNSHIPS-2.md)
 
@@ -34,20 +34,21 @@ page 1 of 18 · [INTERNSHIPS page 2 ➡](INTERNSHIPS-2.md)
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
-| Brex | [Software Engineer, Intern \(Summer 2027\)](https://www.brex.com/careers/8936403002?gh_jid=8936403002) | San Francisco, CA | ⚠ unverified | — |
-| Formlabs | [2027 \(Summer\) - Manufacturing - Manufacturing Test Software Intern](https://careers.formlabs.com/job/8374598/apply/?gh_jid=8374598) | Somerville, MA | ⚠ unverified | — |
-| IDEMIA | [Cloud Software Engineering Internship](https://uscareers-idemia.icims.com/jobs/8707/cloud-software-engineering-internship/job) | Reston, VA | ⚠ unverified | — |
-| IDEMIA | [Full Stack Software Engineering Internship](https://uscareers-idemia.icims.com/jobs/8708/full-stack-software-engineering-internship/job) | Eden Prairie, MN | ⚠ unverified | — |
+| Base Power Company | [Quantitative Developer Intern](https://jobs.ashbyhq.com/base-power/b6b2332e-1226-4575-b2c9-9e5258f2540e) | Austin, TX |  | Nov 25 |
+| International | [AI/ML Intern](https://careers.international.com/jobs/60456) | Lisle, IL | ⚠ unverified | — |
+| International | [IT Security Intern](https://careers.international.com/jobs/60661) | Lisle, IL | ⚠ unverified | — |
+| Keysight Technologies | [EDA AI/ML Layout Engineering Intern](https://jobs.keysight.com/external/jobs/54606) | Calabasas, CA | ⚠ unverified | — |
+| Keysight Technologies | [R&amp;D Software Engineering Internship](https://jobs.keysight.com/external/jobs/54724) | Colorado Springs, CO | ⚠ unverified | — |
+| Lightmatter | [Firmware Intern – Summer 2027](https://boards.greenhouse.io/lightmatter/jobs/5492829008?gh_jid=5492829008) | Boston, MA |  | Nov 25 |
+| Schneider Electric | [Technical Support Engineering Intern](https://careers.se.com/jobs/134954) | Irvine, CA | ⚠ unverified | — |
+| Shure | [Mobile Applications \(Android\) Intern](https://careersus-shure.icims.com/jobs/5006/mobile-applications-%28android%29-intern/job) | Niles, IL | ⚠ unverified | — |
+| Lightmatter | [Design Verification, Intern Summer 2027](https://boards.greenhouse.io/lightmatter/jobs/5493962008?gh_jid=5493962008) | Boston, MA |  | Nov 24 |
+| Lightmatter | [Design Verification, Intern Summer 2027](https://boards.greenhouse.io/lightmatter/jobs/5474684008?gh_jid=5474684008) | Mountain View, CA |  | Nov 24 |
 | QuEra Computing, Inc | [Site Reliability Engineer Co-op](https://job-boards.greenhouse.io/queracomputinginc/jobs/5493521008) | Boston, MA | 🔄 co-op | Nov 24 |
 | Renesas Electronics | [Intern, Validation Engineering](https://jobs.smartrecruiters.com/RenesasElectronics/744000163443250-intern-validation-engineering) | Dresden, DE |  | Nov 24 |
-| SAS | [Summer 2027 - Software Developer Intern \(Go/Golang Experience\)](https://careers-sas.icims.com/jobs/42797/summer-2027---software-developer-intern-%28go-golang-experience%29/job) | Cary HQ, NC | ⚠ unverified | — |
-| Springs Window Fashions | [Dealer Business Operations &amp; Analytics Internship - Summer 2027](https://careers-springswindowfashions.icims.com/jobs/12886/dealer-business-operations-%26-analytics-internship---summer-2027/job) | MIDDLETON, WI | ⚠ unverified | — |
-| V2X | [Artificial Intelligence Intern 2027](https://careers.gov2x.com/why-gov2x/jobs/62843) | Indianapolis, IN | ⚠ unverified | — |
-| Veolia Environnement SA | [Manufacturing Software Engineer Intern](https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000163377969-manufacturing-software-engineer-intern)<br><sub>“\*\*\*\*Candidates must be immediately eligible to work legally in Canada; the employer will not sponsor candidates for a work permit or any oth…”</sub> | Boulder, CO | 🛂❌ no sponsor | Nov 24 |
+| Samsung Semiconductor | [Intern, LLM Inference Acceleration Architecture \(MoE &amp; Attention–FFN Disaggregation\)](https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8216717003) | San Jose, CA |  | Nov 24 |
+| Veolia Environnement SA | [Manufacturing Software Engineer Intern](https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000163377969-manufacturing-software-engineer-intern)<br><sub>“\*\*\*\*Candidates must be immediately eligible to work legally in Canada; the employer will not sponsor candidates for a work permit or any oth…”</sub> | Boulder, CO | 🛂❌ no sponsor<br>⚠ unverified | Nov 24 |
 | Walmart | [Summer 2027 Corporate Intern: APD Automation Engineer](https://walmart.wd504.myworkdayjobs.com/WalmartExternal/job/USA-Together-Building-AR-Bentonville-Home-Office/Summer-2027-Corporate-Intern--APD-Automation-Engineer_R-2630170)<br><sub>“IMMIGRATION SPONSORSHIP IS NOT AVAILABLE FOR THIS ROLE”</sub> | \(USA\) Together Building AR Bentonville Home O… | 🛂❌ no sponsor<br>⚠ unverified | Nov 24 |
-| Waymo | [2027 Summer Intern, BS, Software Engineering, Labeling](https://careers.withwaymo.com/jobs?gh_jid=8238525) | Mountain View, CA | ⚠ unverified | — |
-| Waymo | [2027 Summer Intern, BS, Waymo ML Ops &amp; Automation](https://careers.withwaymo.com/jobs?gh_jid=8257237) | Mountain View, CA | ⚠ unverified | — |
-| Waymo | [2027 Summer Intern, BS/MS, Software Engineering, Maneuvering Tech](https://careers.withwaymo.com/jobs?gh_jid=8203200) | San Francisco, CA | ⚠ unverified | — |
 | Amgen | [Grad Intern - siRNA Stability and Data Science \(Summer 2027\)](https://amgen.wd1.myworkdayjobs.com/Careers/job/US---California---Thousand-Oaks/Grad-Intern---siRNA-Stability-and-Data-Science--Summer-2027-_R-261404) | US - California - Thousand Oaks | ⚠ unverified | Nov 23 |
 | ASML | [Internship-Data &amp; AI, Controls](https://asml.wd3.myworkdayjobs.com/ASMLEXT1/job/San-Diego-CA-USA/Internship-Data---AI--Controls_J-00357861) | San Diego, CA |  | Nov 23 |
 | ASML | [Internship/Co-Op: AI Engineer](https://asml.wd3.myworkdayjobs.com/ASMLEXT1/job/San-Jose-CA-USA/Internship-Co-Op--AI-Engineer_J-00358477) | San Jose, CA | 🔄 co-op | Nov 23 |
@@ -109,6 +110,7 @@ page 1 of 18 · [INTERNSHIPS page 2 ➡](INTERNSHIPS-2.md)
 | Hewlett Packard Enterprise | [Networking &amp; Cybersecurity Intern](https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Westford-Massachusetts-United-States-of-America/Networking---Cybersecurity-Intern_1214057) | Westford, MA | ⚠ unverified | Nov 22 |
 | Hewlett Packard Enterprise | [Networking &amp; Cybersecurity Intern](https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/San-Jose-California-United-States-of-America/Networking---Cybersecurity-Intern_1214058) | San Jose, CA | ⚠ unverified | Nov 22 |
 | The Aerospace Corporation | [2027 Defensive Cyber Operations Undergrad Intern](https://aero.wd5.myworkdayjobs.com/External/job/El-Segundo-CA/XMLNAME-2027-Defensive-Cyber-Operations-Undergrad-Intern_R017011)<br><sub>“U.S citizenship is required to obtain a security clearance.”</sub> | El Segundo, CA | 🗽 citizens<br>🔒 clearance<br>🎓 3.0+ GPA | Nov 22 |
+| Amazon | [Front-End Engineer Internship – 2027 \(US\)](https://www.amazon.jobs/en/jobs/10609992/front-end-engineer-internship-2027-us) | Seattle, WA |  | Nov 20 |
 | ASML | [Internship - Contract Management and AI](https://asml.wd3.myworkdayjobs.com/ASMLEXT1/job/San-Diego-CA-USA/Internship---Contract-Management-and-AI_J-00357971) | San Diego, CA |  | Nov 20 |
 | ASML | [Internship- Chandler CS DUV / EUV](https://asml.wd3.myworkdayjobs.com/ASMLEXT1/job/Chandler-AZ-USA/Internship--Chandler-CS-DUV---EUV_J-00357416) | Chandler, AZ |  | Nov 20 |
 | Bristol Myers Squibb | [Data Science Intern \(Undergrad\)-Summer 2027](https://bristolmyerssquibb.wd5.myworkdayjobs.com/BMS/job/Remote---United-States---US/Data-Science-Intern--Undergrad--Summer-2027_R1608665)<br><sub>“-Please note that immigration or visa sponsorship is not available for this position”</sub> | Remote - United States - | 🛂❌ no sponsor<br>🌐 remote | Nov 20 |
@@ -152,8 +154,6 @@ page 1 of 18 · [INTERNSHIPS page 2 ➡](INTERNSHIPS-2.md)
 | Bristol Myers Squibb | [Data &amp; Quantitative Sciences Intern-Summer 2027](https://bristolmyerssquibb.wd5.myworkdayjobs.com/BMS/job/Princeton---NJ---US/Data---Quantitative-Sciences-Intern-Summer-2027_R1608215)<br><sub>“Please note that immigration or visa sponsorship is not available for this position.”</sub> | Princeton - NJ - | 🛂❌ no sponsor | Nov 19 |
 | CACI International | [AWS Cloud Engineering Intern - Summer 2027](https://caci.wd1.myworkdayjobs.com/External/job/Sarasota-FL-US/AWS-Cloud-Engineering-Intern---Summer-2027_331437)<br><sub>“Must be legally authorized to work in the United States without the need for employer sponsorship, now or at any time in the future”</sub> | Sarasota, FL | 🛂❌ no sponsor<br>🔒 clearance<br>⚠ unverified | Nov 19 |
 | Cadence Design Systems | [Software Engineering Intern - Circuit Simulation infrastructure](https://cadence.wd1.myworkdayjobs.com/Univ_Careers/job/SAN-JOSE/Software-Engineering-Intern---Circuit-Simulation-infrastructure_R57254) | SAN JOSE |  | Nov 19 |
-| Centene Corporation | [Data and Analytics Summer 2027 Intern \(Undergraduate\)](https://centene.wd5.myworkdayjobs.com/Centene_External/job/Remote-MO/Data-and-Analytics-Summer-2027-Intern--Undergraduate-_1660515)<br><sub>“Sponsorship and future sponsorship are not available for this opportunity, including employment-based visa types H-1B, L-1, O-1, H-1B1, F-1,…”</sub> | Remote-MO | 🛂❌ no sponsor<br>🌐 remote<br>⚠ unverified | Nov 19 |
-| Centene Corporation | [Site Reliability Operational Analyst Intern \(Undergraduate Summer 2027\)](https://centene.wd5.myworkdayjobs.com/Centene_External/job/Remote-MO/Site-Reliability-Operational-Analyst-Intern--Undergraduate-Summer-2027-_1667701)<br><sub>“Sponsorship and future sponsorship are not available for this opportunity, including employment-based visa types H-1B, L-1, O-1, H-1B1, F-1,…”</sub> | Remote-MO | 🛂❌ no sponsor<br>🌐 remote<br>⚠ unverified | Nov 19 |
 
 page 1 of 18 · [INTERNSHIPS page 2 ➡](INTERNSHIPS-2.md)
 

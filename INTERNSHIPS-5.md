@@ -1,6 +1,6 @@
 # Internships
 
-[⬅ Back to the main page](./) · 2155 open · page 5 of 18 · updated 2026-11-24
+[⬅ Back to the main page](./) · 2122 open · page 5 of 18 · updated 2026-11-25
 
 [⬅ INTERNSHIPS page 4](INTERNSHIPS-4.md) · page 5 of 18 · [INTERNSHIPS page 6 ➡](INTERNSHIPS-6.md)
 
@@ -34,10 +34,6 @@
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
-| Zoetis | [IT/OT Security Intern](https://zoetis.wd5.myworkdayjobs.com/broadbean_external/job/Kalamazoo---Kilgore-Road/IT-OT-Security-Intern_JR00021980) | Kalamazoo - Kilgore Road |  | Nov 16 |
-| FlexStaff | [Emerging Technology &amp; AI Internship](https://eppr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/203746) | New Hyde Park, Nassau |  | Nov 15 |
-| RTX | [2027 Summer Intern - Software Engineering - Onsite](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-CA-EL-SEGUNDO-E04--2006-E-El-Segundo-Blvd--BLDG-E04/XMLNAME-2027-Summer-Intern---Software-Engineering---Onsite_01885225)<br><sub>“U.S. Citizen, U.S. Person, or Immigration Status Requirements: U.S. citizenship is required, as only U.S. citizens are authorized to access…”</sub> | US-CA-EL SEGUNDO-E04 \~ 2006 E El Segundo Blvd… | 🗽 citizens<br>⚠ unverified | Nov 15 |
-| Amazon | [Data Center Infrastructure Engineer Intern, Summer 2027 - East](https://www.amazon.jobs/en/jobs/10605141/data-center-infrastructure-engineer-intern-summer-2027-east) | Herndon, VA |  | Nov 14 |
 | Amazon | [Data Center Infrastructure Engineer Intern, Summer 2027 - West Coast](https://www.amazon.jobs/en/jobs/10605132/data-center-infrastructure-engineer-intern-summer-2027-west-coast) | Umatilla, OR |  | Nov 14 |
 | PTC | [Onshape Software Engineer Intern \(Summer 2027\)](https://ptc.wd1.myworkdayjobs.com/PTC/job/Boston-MA-USA/Software-Engineer-Intern--Summer-2027-_JR112943)<br><sub>“Applicants must be authorized to work in the United States without requiring current or future sponsorship from PTC .”</sub> | Boston, MA | 🛂❌ no sponsor | Nov 14 |
 | 3M | [Internship - 2027 Undergraduate Business Analytics Intern – Consumer Business Group \(CBG\)](https://3m.wd1.myworkdayjobs.com/Search/job/US-Minnesota-Maplewood/Internship---2027-Undergraduate-Business-Analytics-Intern---Consumer-Business-Group--CBG-_R01171049)<br><sub>“Must be legally authorized to work in country of employment without sponsorship for employment visa status \(e.g., H1B status\).”</sub> | US, Minnesota, Maplewood | 🛂❌ no sponsor<br>🎓 3.0+ GPA | Nov 13 |
@@ -95,7 +91,6 @@
 | Entegris | [Power Platform / Copilot Studio Intern – AI - Summer Intern](https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Aurora-IL/Power-Platform---Copilot-Studio-Intern---AI---Summer-Intern_REQ-15841) | Aurora, IL |  | Nov 12 |
 | Highmark Health | [Summer 2027 Business Analysis and AI enGen Undergraduate Intern](https://highmarkhealth.wd1.myworkdayjobs.com/highmark/job/Pittsburgh-PA-15222-PAP-Penn-Avenue-Place/Summer-2027-Business-Analysis-and-AI-enGen-Undergraduate-Intern_J291552)<br><sub>“At this time, we do not offer visa sponsorship for this role.”</sub> | Pittsburgh PA, 15222, PAP, Penn Avenue Place | 🛂❌ no sponsor<br>⚠ unverified | Nov 12 |
 | Intermountain Health | [AI/ML Engineer Intern](https://imh.wd108.myworkdayjobs.com/IntermountainCareers/job/Key-Bank-Tower/AI-ML-Engineer-Intern_R188835) | Key Bank Tower | ⚠ unverified | Nov 12 |
-| Intermountain Health | [IT Student Intern System Support 1](https://imh.wd108.myworkdayjobs.com/IntermountainCareers/job/Key-Bank-Tower/IT-Student-Intern-System-Support-1_R189508) | Key Bank Tower | ⚠ unverified | Nov 12 |
 | Intermountain Health | [Machine Learning Operations \(MLOps\) Intern](https://imh.wd108.myworkdayjobs.com/IntermountainCareers/job/Key-Bank-Tower/Machine-Learning-Operations--MLOps--Intern_R188318) | Key Bank Tower | ⚠ unverified | Nov 12 |
 | Jabil | [IT Programmer Analyst Spring Co-Op](https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Florence-KY/IT-Programmer-Analyst-Spring-Co-Op_J2471333) | Florence, KY | 🎓 3.0+ GPA<br>🔄 co-op<br>🌱 spring<br>⚠ unverified | Nov 12 |
 | Leidos | [Junior Software Engineer / Data Scientist Intern](https://leidos.wd5.myworkdayjobs.com/External/job/Tucson-AZ/Junior-Software-Engineer---Data-Scientist-Intern_R-00196510)<br><sub>“US citizenship required”</sub> | Tucson, AZ | 🗽 citizens<br>🔒 ts/sci + poly<br>⚠ unverified | Nov 12 |
@@ -154,6 +149,11 @@
 | Arch Insurance Group Inc | [IT Intern](https://archgroup.wd1.myworkdayjobs.com/Careers/job/Jersey-City-NJ-United-States-of-America/IT-Intern_R26_1092) | Jersey City, NJ | 🎓 3.0+ GPA<br>⚠ unverified | Nov 10 |
 | Astranis | [Embedded Software Developer, Network/Payload Intern \(Summer 2027\)](https://job-boards.greenhouse.io/astranis/jobs/4704569006)<br><sub>“U.S. Citizenship, Lawful Permanent Residency, or Refugee/Asylee Status Required”</sub> | San Francisco | 🗽 citizens | Nov 10 |
 | Booz Allen | [University - Summer 2027 Quantum Computing Research Intern](https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/Washington-DC/University---Summer-2027-Quantum-Computing-Research-Intern_R0249046)<br><sub>“Ability to obtain a Secret clearance”</sub> | Washington, DC | 🔒 secret<br>⚠ unverified | Nov 10 |
+| Carlisle | [AI &amp; Data Science Intern](https://jobs.smartrecruiters.com/Carlisle/3743990016774046-ai-data-science-intern) | Carlisle, PA | 🎓 3.0+ GPA | Nov 10 |
+| Cisco | [Hardware Engineer I \(Intern\) - United States](https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/Hardware-Engineer-I--Intern----United-States_2024756) | San Jose, CA | ⚠ unverified | Nov 10 |
+| Cisco | [Software Engineer Embedded Systems I \(Intern\) - United States](https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/Software-Engineer-Embedded-Systems-I--Intern----United-States_2024641-1) | San Jose, CA | ⚠ unverified | Nov 10 |
+| Clarios | [IT Digital/AI Intern \(Summer 2027\)](https://clarios.wd5.myworkdayjobs.com/clarioscareers/job/United-States-Wisconsin-Milwaukee/IT-Digital-AI-Intern--Summer-2027-_WD49910)<br><sub>“PLEASE NOTE that applicants must be authorized to work for any employer in the US without the need for sponsorship, now or in the future.”</sub> | United States, Wisconsin, Milwaukee | 🛂❌ no sponsor | Nov 10 |
+| DP World | [AI &amp; Analytics \(Talent Management\) Intern](https://ehpv.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/27855)<br><sub>“Please note : This position does not offer sponsorship for employment visas.”</sub> | Charlotte, NC | 🛂❌ no sponsor | Nov 10 |
 
 [⬅ INTERNSHIPS page 4](INTERNSHIPS-4.md) · page 5 of 18 · [INTERNSHIPS page 6 ➡](INTERNSHIPS-6.md)
 

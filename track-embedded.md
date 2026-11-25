@@ -1,6 +1,6 @@
 # Embedded and firmware
 
-[⬅ Back to the main page](./) · 82 open · updated 2026-11-24
+[⬅ Back to the main page](./) · 82 open · updated 2026-11-25
 
 Firmware, microcontroller and real-time software that runs on devices. New to this track? Read the [Embedded and firmware section of the Career tracks guide](guides/tracks.md#embedded-and-firmware).
 
@@ -38,6 +38,7 @@ The track comes from the words in the job title, so a few jobs may land in the w
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
+| Lightmatter | [Firmware Intern – Summer 2027](https://boards.greenhouse.io/lightmatter/jobs/5492829008?gh_jid=5492829008) | Boston, MA |  | Nov 25 |
 | Philips | [Intern – AI-Agentic Embedded Software Development - Bothell, WA - Summer 2027](https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Bothell-Washington-United-States/Intern---AI-Agentic-Embedded-Software-Development---Bothell--WA---Summer-2027_594989) | Bothell, WA |  | Nov 23 |
 | RTX | [Embedded System Engineering Intern](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-CT-WINDSOR-LOCKS-B1--1-Hamilton-Rd--BLDG-1/Embedded-System-Engineering-Intern_01890950)<br><sub>“U.S. Citizen, U.S. Person, or Immigration Status Requirements: U.S. citizenship is required, as only U.S. citizens are authorized to access…”</sub> | US-CT-WINDSOR LOCKS-B1 \~ 1 Hamilton Rd \~ BLDG… | 🗽 citizens<br>⚠ unverified | Nov 23 |
 | SharkNinja | [Summer 2027: Firmware Engineering Intern, Advanced Development \(May to August\)](https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4721682006) | Needham, MA |  | Nov 23 |
@@ -45,7 +46,6 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Neogen Corporation | [Software or Firmware Engineer Intern](https://neogen.wd5.myworkdayjobs.com/neogencareers/job/Oakdale/Software-or-Firmware-Engineer-Intern_REQ-11064) | Oakdale |  | Nov 19 |
 | Analog Devices | [Embedded Software Engineer Intern](https://analogdevices.wd1.myworkdayjobs.com/External/job/US-TX-Austin-Plaza-on-the-Lake/Embedded-Software-Engineer-Intern_R269548) | US, TX, Austin, Plaza on the Lake |  | Nov 18 |
 | Samsung Semiconductor | [Intern, SSD Firmware Engineer](https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8208662003) | San Jose, CA |  | Nov 18 |
-| General Dynamics Mission Systems | [Software Test Engineering Intern - Space and Embedded Crypto](https://careers-gdms.icims.com/jobs/75632/software-test-engineering-intern---space-and-embedded-crypto/job) | Scottsdale, AZ, US; Remote | 🌐 remote<br>⚠ unverified | — |
 | Shure | [Embedded Software Intern](https://careersus-shure.icims.com/jobs/5018/embedded-software-intern/job) | Niles, IL |  | — |
 | Signify | [Firmware Development Engineer Intern, Cooper Lighting Solutions - Spring 2027](https://lighting.wd3.myworkdayjobs.com/jobs-and-careers/job/Atlanta/Firmware-Development-Engineer-Intern--Cooper-Lighting-Solutions---Spring-2027_367134) | Atlanta | 🌱 spring | Nov 17 |
 | AGCO | [Embedded Software Engineering Intern - Summer 2027](https://careers.agcocorp.com/job/Hesston-Embedded-Software-Engineering-Intern-Summer-2027-KS-67062/1440993300/) | Hesston, KS |  | — |
@@ -91,8 +91,8 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Amazon | [Software Development Engineer \(Embedded Systems\) Intern, Amazon Leo - Summer 2027 \(USA\)](https://www.amazon.jobs/en/jobs/10571374/software-development-engineer-embedded-systems-intern-amazon-leo-summer-2027-usa)<br><sub>“Export Control Requirement: Due to applicable export control laws and regulations, candidates must be a U.S. citizen or national, U.S. perma…”</sub> | Redmond, WA | 🗽 citizens | Oct 7 |
 | Rockwell Automation | [Intern, Firmware and Software Test Development](https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers/job/Mequon-Wisconsin-United-States/Intern--Firmware-and-Software-Test-Development_R26-7568)<br><sub>“Legal authorization to work in the U.S. We will not sponsor individuals for employment visas, now or in the future, for this job opening.”</sub> | Mequon, WI | 🛂❌ no sponsor<br>🎓 2.8+ GPA | Oct 6 |
 | Amazon | [Software Development Engineer Intern \(Embedded Systems\) - Summer 2027 \(USA\)](https://www.amazon.jobs/en/jobs/10567914/software-development-engineer-intern-embedded-systems-summer-2027-usa) | Seattle, WA |  | Oct 2 |
-| Elkay Manufacturing | [Embedded Hardware Intern \(Summer 2027\)](https://elkay.wd1.myworkdayjobs.com/Elkay_External/job/Milwaukee-WI/Embedded-Hardware-Intern--Summer-2027-_REQ-020151) | Milwaukee, WI |  | Sep 25 |
-| Rivian and Volkswagen Group Technologies | [Embedded Systems Software Engineering Intern at UIUC Research Park \(January- August 2027\)](https://jobs.ashbyhq.com/rivianvw.tech/f421a524-72da-4dd6-a549-bbee9e98622e) | Champaign, IL |  | Sep 25 |
+| Elkay Manufacturing | [Embedded Hardware Intern \(Summer 2027\)](https://elkay.wd1.myworkdayjobs.com/Elkay_External/job/Milwaukee-WI/Embedded-Hardware-Intern--Summer-2027-_REQ-020151) | Milwaukee, WI | ⏳ 60+ days | Sep 25 |
+| Rivian and Volkswagen Group Technologies | [Embedded Systems Software Engineering Intern at UIUC Research Park \(January- August 2027\)](https://jobs.ashbyhq.com/rivianvw.tech/f421a524-72da-4dd6-a549-bbee9e98622e) | Champaign, IL | ⏳ 60+ days | Sep 25 |
 | iRhythm Technologies | [Embedded SDET Co-Op Full Time Intern January-June 2027](https://irhythmtech.wd5.myworkdayjobs.com/iRhythm/job/San-Francisco-CA/Embedded-SDET-Co-Op-Full-Time-Intern-January-June-2027_JR1758) | San Francisco, CA | 🔄 co-op<br>⏳ 60+ days | Sep 24 |
 | Stanley Black &amp; Decker, Inc | [Embedded Engineering Summer Intern 2027](https://sbdinc.wd1.myworkdayjobs.com/Stanley_Black_Decker_Career_Site/job/Towson-MD-United-States/Embedded-Engineering-Summer-Intern-2027_REQ-1000052019)<br><sub>“This role is not eligible for visa sponsorship \(H1B, OPT/CPT, TN etc\).”</sub> | Towson, MD | 🛂❌ no sponsor<br>🚫 no CPT/OPT<br>⏳ 60+ days | Sep 24 |
 | General Motors | [2027 Summer Intern - Digital Product: Embedded and Systems Engineering](https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern---Digital-Product--Embedded-and-Systems-Engineering_JR-202620513) | Warren, MI | ⏳ 60+ days | Sep 23 |

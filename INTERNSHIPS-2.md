@@ -1,6 +1,6 @@
 # Internships
 
-[⬅ Back to the main page](./) · 2155 open · page 2 of 18 · updated 2026-11-24
+[⬅ Back to the main page](./) · 2122 open · page 2 of 18 · updated 2026-11-25
 
 [⬅ INTERNSHIPS page 1](INTERNSHIPS.md) · page 2 of 18 · [INTERNSHIPS page 3 ➡](INTERNSHIPS-3.md)
 
@@ -34,6 +34,8 @@
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
+| Centene Corporation | [Data and Analytics Summer 2027 Intern \(Undergraduate\)](https://centene.wd5.myworkdayjobs.com/Centene_External/job/Remote-MO/Data-and-Analytics-Summer-2027-Intern--Undergraduate-_1660515)<br><sub>“Sponsorship and future sponsorship are not available for this opportunity, including employment-based visa types H-1B, L-1, O-1, H-1B1, F-1,…”</sub> | Remote-MO | 🛂❌ no sponsor<br>🌐 remote<br>⚠ unverified | Nov 19 |
+| Centene Corporation | [Site Reliability Operational Analyst Intern \(Undergraduate Summer 2027\)](https://centene.wd5.myworkdayjobs.com/Centene_External/job/Remote-MO/Site-Reliability-Operational-Analyst-Intern--Undergraduate-Summer-2027-_1667701)<br><sub>“Sponsorship and future sponsorship are not available for this opportunity, including employment-based visa types H-1B, L-1, O-1, H-1B1, F-1,…”</sub> | Remote-MO | 🛂❌ no sponsor<br>🌐 remote<br>⚠ unverified | Nov 19 |
 | DraftKings Inc | [Data Engineer Intern \(Summer 2027\)](https://draftkings.wd1.myworkdayjobs.com/Campus_Career_Portal/job/Boston-MA/Data-Engineer-Intern--Summer-2027-_JR15464) | Boston, MA |  | Nov 19 |
 | Elkay Manufacturing | [IT Infrastructure &amp; AI Enablement Intern \(Summer 2027\)](https://elkay.wd1.myworkdayjobs.com/Elkay_External/job/Milwaukee-WI/IT-Infrastructure-Intern--Summer-2027-_REQ-020160) | Milwaukee, WI |  | Nov 19 |
 | GE Vernova | [GE Vernova Digital Technology Internship - Summer 2027](https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Atlanta/GE-Vernova-Digital-Technology-Internship---Summer-2027_R5049176-3) | Atlanta | ⚠ unverified | Nov 19 |
@@ -152,8 +154,6 @@
 | Anduril Industries | [2027 Machine Learning Engineer Intern](https://boards.greenhouse.io/andurilindustries/jobs/5274037007?gh_jid=5274037007)<br><sub>“Must be a U.S. Person due to required access to U.S. export-controlled information or facilities; U.S. clearance eligibility may be required…”</sub> | Santa Ana, CA | 🗽 citizens | Nov 17 |
 | Anduril Industries | [2027 Product Data Quality Co-op](https://boards.greenhouse.io/andurilindustries/jobs/5273039007?gh_jid=5273039007)<br><sub>“Must be a U.S. Person due to required access to U.S. export-controlled information or facilities; U.S. clearance eligibility may be required…”</sub> | Santa Ana, CA | 🗽 citizens<br>🔄 co-op | Nov 17 |
 | Blackhawk Network Holdings | [Technology Intern](https://careers-blackhawknetwork.icims.com/jobs/26867/technology-intern/job) | Pleasanton, CA |  | — |
-| Blackhawk Network Holdings | [Technology Intern](https://careers-blackhawknetwork.icims.com/jobs/26866/technology-intern/job) | Coppell, TX |  | — |
-| Bosch Group | [AI Application Intern \(8 months/40 hours per week\)](https://jobs.smartrecruiters.com/BoschGroup/744000162076254-ai-application-intern-8-months-40-hours-per-week-) | Farmington Hills, MI | 🎓 3.0+ GPA<br>⚠ unverified | Nov 17 |
 
 [⬅ INTERNSHIPS page 1](INTERNSHIPS.md) · page 2 of 18 · [INTERNSHIPS page 3 ➡](INTERNSHIPS-3.md)
 

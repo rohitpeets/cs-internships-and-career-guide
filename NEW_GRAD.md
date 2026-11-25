@@ -1,6 +1,6 @@
 # New Grad
 
-[⬅ Back to the main page](./) · 111 open · updated 2026-11-24
+[⬅ Back to the main page](./) · 109 open · updated 2026-11-25
 
 **Click a job title to open the company's application page.**
 
@@ -64,7 +64,6 @@
 | Olsson | [Entry-Level Power Systems Studies Engineer - Data Centers](https://job-boards.greenhouse.io/olsson/jobs/5446995008) | Overland Park, KS |  | Oct 7 |
 | Belvedere Trading | [Quantitative Researcher - Entry Level 2027](https://jobs.lever.co/belvederetrading/337314ee-4de5-4b96-a419-1b9287a7df68) | Chicago, IL |  | Oct 5 |
 | Relling | [Robotics Software Engineer - New Grad](https://jobs.ashbyhq.com/Relling/a31f91ae-30f9-4e36-b9d2-2cb74c398d2e) | San Francisco |  | Oct 2 |
-| Brain Co | [AI Platform Engineer, 2027 New Grad](https://jobs.ashbyhq.com/brainco/4d39773e-f4c3-49c1-87c3-812a9804fb15) | San Francisco Bay Area | ⚠ unverified | Oct 1 |
 | Brain Co | [AI Security Engineer, 2027 New Grad](https://jobs.ashbyhq.com/brainco/32c4e1c9-ccd1-4dca-a68b-31ad1b868030) | San Francisco Bay Area |  | Oct 1 |
 | Brain Co | [Machine Learning Engineer, 2027 New Grad](https://jobs.ashbyhq.com/brainco/4c9f8f00-0caf-4927-80da-02a3e53cb0cd) | San Francisco Bay Area |  | Oct 1 |
 | IMC | [Software Engineer, Early Career](https://job-boards.eu.greenhouse.io/imc/jobs/4796143101) | Chicago |  | Sep 30 |
@@ -76,7 +75,6 @@
 | Scale AI | [Software Engineer, Public Sector - New Grad](https://job-boards.greenhouse.io/scaleai/jobs/4736426005) | San Francisco, CA | ⏳ 60+ days | Sep 23 |
 | Anduril Industries | [2027 Early Career Firmware Engineer](https://boards.greenhouse.io/andurilindustries/jobs/5246141007?gh_jid=5246141007)<br><sub>“Must be a U.S. Person due to required access to U.S. export-controlled information or facilities; U.S. clearance eligibility may be required…”</sub> | Costa Mesa, CA | 🗽 citizens<br>⏳ 60+ days | Sep 22 |
 | KBR, Inc. | [Entry Level/ Junior Army Fires Modeling and Simulation Developer](https://kbr.wd5.myworkdayjobs.com/KBR_Careers/job/Fort-Belvoir-Virginia/Entry-Level--Junior-Army-Fires-Modeling-and-Simulation-Developer_R2129634)<br><sub>“A SECRET security clearance/ ability to obtain a SECRET clearance is required.”</sub> | Fort Belvoir, VA | 🔒 secret<br>⚠ unverified<br>⏳ 60+ days | Sep 22 |
-| Stripe | [Software Engineer, Early Career — Immediate Start](https://stripe.com/jobs/search?gh_jid=8212508) | San Francisco, Seattle, NY | ⚠ unverified<br>⏳ 60+ days | Sep 17 |
 | SingleStore | [Software Engineer-Engine-New Grad 2027](https://job-boards.greenhouse.io/singlestore/jobs/8205427) |  | ⏳ 60+ days | Sep 15 |
 | SingleStore | [Software Engineer-Helios-New Grad 2027](https://job-boards.greenhouse.io/singlestore/jobs/8205389) |  | ⏳ 60+ days | Sep 15 |
 | SpaceX | [New Graduate Engineer, Security Software \(Starshield\)](https://boards.greenhouse.io/spacex/jobs/8802897002?gh_jid=8802897002)<br><sub>“ITAR REQUIREMENTS: To conform to U.S. Government export regulations, applicant must be a \(i\) U.S. citizen or national, \(ii\) U.S. lawful, per…”</sub> | Washington, DC | 📜 ITAR<br>🔒 top secret<br>⏳ 60+ days | Sep 11 |
@@ -144,6 +142,6 @@
 | Palantir Technologies | [Software Engineer, New Grad](https://jobs.lever.co/palantir/94984771-0704-446c-88c6-91ce748f6d92)<br><sub>“Active US Security clearance, or eligibility and willingness to obtain a US Security clearance.”</sub> | New York, NY | 🔒 clearance<br>⏳ 60+ days | Jul 1 |
 | Palantir Technologies | [Software Engineer, New Grad](https://jobs.lever.co/palantir/c34b424e-caf2-455a-b104-ae1096ccca29)<br><sub>“Active US Security clearance, or eligibility and willingness to obtain a US Security clearance.”</sub> | Denver, CO | 🔒 clearance<br>⏳ 60+ days | Oct 27 |
 
-**Not on this board yet:** [Apple](https://jobs.apple.com/), [Netflix](https://jobs.netflix.com/), [AMD](https://careers.amd.com/), [Qualcomm](https://careers.qualcomm.com/), [IBM](https://www.ibm.com/careers), [ExxonMobil](https://jobs.exxonmobil.com/), [Phillips 66](https://www.phillips66.com/careers/), [Chevron](https://careers.chevron.com/), [Shell](https://www.shell.com/careers.html), [Lockheed Martin](https://www.lockheedmartinjobs.com/), [Boeing](https://jobs.boeing.com/), [Capital One](https://www.capitalonecareers.com/students), [JPMorgan Chase](https://careers.jpmorgan.com/), [Goldman Sachs](https://www.goldmansachs.com/careers/), [Bloomberg](https://careers.bloomberg.com/), [Uber](https://www.uber.com/us/en/careers/), [Tesla](https://www.tesla.com/careers), [Dell Technologies](https://jobs.dell.com/), [Workday](https://www.workday.com/en-us/company/careers.html), [Intuit](https://jobs.intuit.com/), [Visa](https://corporate.visa.com/en/jobs/), [Mastercard](https://careers.mastercard.com/us/en), [Target](https://corporate.target.com/careers). These companies hire new grads, but their job sites aren't read here yet. The links go to each company's own careers page.
+**Not on this board yet:** [Apple](https://jobs.apple.com/), [Netflix](https://jobs.netflix.com/), [AMD](https://careers.amd.com/), [Qualcomm](https://careers.qualcomm.com/), [IBM](https://www.ibm.com/careers), [ExxonMobil](https://jobs.exxonmobil.com/), [Phillips 66](https://www.phillips66.com/careers/), [Chevron](https://careers.chevron.com/), [Shell](https://www.shell.com/careers.html), [Lockheed Martin](https://www.lockheedmartinjobs.com/), [Boeing](https://jobs.boeing.com/), [Capital One](https://www.capitalonecareers.com/students), [JPMorgan Chase](https://careers.jpmorgan.com/), [Goldman Sachs](https://www.goldmansachs.com/careers/), [Bloomberg](https://careers.bloomberg.com/), [Uber](https://www.uber.com/us/en/careers/), [LinkedIn](https://careers.linkedin.com/), [Tesla](https://www.tesla.com/careers), [Dell Technologies](https://jobs.dell.com/), [Workday](https://www.workday.com/en-us/company/careers.html), [Intuit](https://jobs.intuit.com/), [Visa](https://corporate.visa.com/en/jobs/), [Mastercard](https://careers.mastercard.com/us/en), [Target](https://corporate.target.com/careers). These companies hire new grads, but their job sites aren't read here yet. The links go to each company's own careers page.
 
 _Listings and tags are generated automatically from employers' postings and can be wrong or out of date. Always read the full posting._

@@ -1,6 +1,6 @@
 # Internships
 
-[⬅ Back to the main page](./) · 2155 open · page 10 of 18 · updated 2026-11-24
+[⬅ Back to the main page](./) · 2122 open · page 10 of 18 · updated 2026-11-25
 
 [⬅ INTERNSHIPS page 9](INTERNSHIPS-9.md) · page 10 of 18 · [INTERNSHIPS page 11 ➡](INTERNSHIPS-11.md)
 
@@ -34,15 +34,6 @@
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
-| Nissan Motor Corporation | [Cyber Security Intern - Summer 2027 - Smyrna, TN](https://alliance.wd3.myworkdayjobs.com/nissanjobs/job/Smyrna-Tennessee---United-States-of-America/Cyber-Security-Intern---Summer-2027---Smyrna--TN_R00214879) | Smyrna, Tennessee - | 🎓 3.0+ GPA | Oct 22 |
-| Oshkosh Corporation | [Digital Technology Intern](https://oshkoshcorporation.wd5.myworkdayjobs.com/Oshkosh/job/Spartanburg-South-Carolina-United-States/Digital-Technology-Intern_R51072)<br><sub>“Applicants for these positions may need to be "U.S. Persons," as defined in these regulations.”</sub> | Spartanburg, SC | 🗽 citizens<br>🎓 3.0+ GPA | Oct 22 |
-| Palantir Technologies | [Forward Deployed Software Engineer, Internship - Warp Speed](https://jobs.lever.co/palantir/b3d81928-6c26-432f-8a0a-36602c2eefcb)<br><sub>“What We Require: U.S. Person Required”</sub> | New York, NY | 🗽 citizens | Oct 22 |
-| Rivian and Volkswagen Group Technologies | [Data Engineering Intern - AI &amp; Analytics \(Summer 2027\)](https://jobs.ashbyhq.com/rivianvw.tech/7967cd44-5469-48b8-b69f-f036e4098464) | Palo Alto, CA |  | Oct 22 |
-| Rivian and Volkswagen Group Technologies | [Software Engineering Intern - Applications \(Summer 2027\)](https://jobs.ashbyhq.com/rivianvw.tech/7cc3dd48-631f-45ec-ae95-46c7cf05b160) | Palo Alto, CA |  | Oct 22 |
-| Rivian and Volkswagen Group Technologies | [Software Engineering Intern - Connected Systems \(Summer 2027\)](https://jobs.ashbyhq.com/rivianvw.tech/62e45b20-cbdc-4d16-9466-00bc158b7a7f) | Palo Alto, CA |  | Oct 22 |
-| Rivian and Volkswagen Group Technologies | [Software Engineering Intern - Embedded Platforms \(Summer 2027\)](https://jobs.ashbyhq.com/rivianvw.tech/30c3af69-2dfc-4224-9abc-b2d9c0c41048) | Palo Alto, CA |  | Oct 22 |
-| Rivian and Volkswagen Group Technologies | [Software Engineering Intern - Vehicle Controls \(Summer 2027\)](https://jobs.ashbyhq.com/rivianvw.tech/cb3559f0-2514-45f1-8d36-a11fa1dded0c) | Palo Alto, CA |  | Oct 22 |
-| Rockwell Automation | [Intern, Firmware Engineer](https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers/job/Mequon-Wisconsin-United-States/Firmware-Engineer-Intern_R26-8321-2)<br><sub>“Legal authorization to work in the U.S. We will not sponsor individuals for employment visas, now or in the future, for this job opening.”</sub> | Mequon, WI | 🛂❌ no sponsor<br>🎓 2.8+ GPA | Oct 22 |
 | Rockwell Automation | [Intern, Firmware Engineering](https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers/job/Milwaukee-Wisconsin-United-States/Intern--Firmware-Engineering_R26-7922)<br><sub>“Legal authorization to work in the U.S. We will not sponsor individuals for employment visas, now or in the future, for this job opening.”</sub> | Milwaukee, WI | 🛂❌ no sponsor | Oct 22 |
 | Skydio | [Frontend Software Engineer Intern](https://jobs.ashbyhq.com/skydio/89bb6fee-3cd2-4e0b-a1c2-c73de8c1f9bd) | San Mateo, CA |  | Oct 22 |
 | Toyota Research Institute | [Robotics Intern, Human Aware Interactions and Learning](https://jobs.lever.co/tri/71e99c38-aa29-4414-956d-cc526644b9b7) | Cambridge, MA |  | Oct 22 |
@@ -70,7 +61,6 @@
 | AeroVironment | [Machine Learning Engineering Intern](https://avav.wd1.myworkdayjobs.com/AVAV/job/Centreville-VA/Machine-Learning-Engineering-Intern_8941)<br><sub>“U.S. Citizenship required.”</sub> | Centreville, VA | 🗽 citizens<br>🔒 clearance<br>🎓 3.0+ GPA | Oct 20 |
 | AeroVironment | [Software Engineering Intern](https://avav.wd1.myworkdayjobs.com/AVAV/job/Minneapolis-MN/Software-Engineering-Intern_8940)<br><sub>“U.S. Citizenship required.”</sub> | Minneapolis, MN | 🗽 citizens<br>🔒 clearance<br>🎓 3.0+ GPA | Oct 20 |
 | AeroVironment | [Software Engineering Intern](https://avav.wd1.myworkdayjobs.com/AVAV/job/San-Diego-CA/Software-Engineering-Intern_8828)<br><sub>“U.S. Citizenship required.”</sub> | San Diego, CA | 🗽 citizens<br>🔒 clearance<br>🎓 3.0+ GPA | Oct 20 |
-| Amazon | [Hardware Development Engineer Intern , Winter 2027](https://www.amazon.jobs/en/jobs/10584121/hardware-development-engineer-intern-winter-2027) | Bellevue, WA | ⚠ unverified | Oct 20 |
 | Anduril Industries | [2027 Finance Data Analyst Intern](https://boards.greenhouse.io/andurilindustries/jobs/5269977007?gh_jid=5269977007) | Costa Mesa, CA |  | Oct 20 |
 | Aptiv | [Linux Software Development Intern \(Hybrid San Antonio, TX\)](https://aptiv.wd5.myworkdayjobs.com/APTIV_CAREERS/job/USA-Home-Office---WR/Linux-Software-Development-Intern_J000704399) | USA Home Office - WR |  | Oct 20 |
 | Aptiv | [Linux Software Development Intern \(Hybrid - San Antonio, TX\)](https://aptiv.wd5.myworkdayjobs.com/APTIV_CAREERS/job/USA-Home-Office---WR/Linux-Software-Development-Intern_J000704398) | USA Home Office - WR |  | Oct 20 |
@@ -150,10 +140,20 @@
 | Wellmark, Inc | [Software Engineer Internship – Technology Health Plan](https://jobs.smartrecruiters.com/WellmarkInc/744000156043218-software-engineer-internship-technology-health-plan) | Des Moines, IA |  | Oct 16 |
 | AiDASH, Inc | [Software Engineering Intern, Backend](https://job-boards.greenhouse.io/aidashinc/jobs/4436057009) | Palo Alto, CA |  | Oct 15 |
 | American Family Insurance | [Enterprise Data Intern](https://amfam.wd1.myworkdayjobs.com/Careers/job/WI-Madison/Enterprise-Data-Intern_R39510)<br><sub>“Sponsorship will not be considered for this position unless specified in the posting”</sub> | WI Madison | 🛂❌ no sponsor | Oct 15 |
-| Axiom Space | [Software Engineering Intern \(Summer 2027\)](https://axiomspace.wd5.myworkdayjobs.com/External_Career_Site/job/Houston/Software-Engineering-Intern--Summer-2027-_JR100767)<br><sub>“This position may require access to export controlled technical data or technology subject to NASA regulations, International Traffic in Arm…”</sub> | Houston | 📜 ITAR<br>🎓 3.0+ GPA<br>⚠ unverified | Oct 15 |
 | CACI International | [Software Test Engineer Intern - Spring 2027](https://caci.wd1.myworkdayjobs.com/External/job/Remote-Any-State/Software-Test-Engineer-Intern---Spring-2027_333422)<br><sub>“Must be legally authorized to work in the United States without the need for employer sponsorship, now or at any time in the future.”</sub> | Remote \(Any State\) | 🛂❌ no sponsor<br>🔒 secret<br>🌱 spring<br>🌐 remote<br>⚠ unverified | Oct 15 |
 | Danaher Corporation | [CCM Data Governance - Intern Summer 2027](https://danaher.wd1.myworkdayjobs.com/DanaherJobs/job/Logan-Utah-United-States/CCM-Data-Governance---Intern-Summer-2027_R1318977) | Logan, UT | ⚠ unverified | Oct 15 |
 | GE Vernova | [GE Vernova Grid Solutions - Hardware Engineering Intern \(Critical Infrastructure Communications\) – Spring/Summer 2027](https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Rochester/GE-Vernova-Grid-Solutions---Hardware-Engineering-Intern--Critical-Infrastructure-Communications----Spring-Summer-2027_R5051647-2)<br><sub>“Must have the ability to work in the US for an unlimited amount of time without sponsorship”</sub> | Rochester | 🛂❌ no sponsor<br>🎓 3.0+ GPA<br>🌱 spring<br>⚠ unverified | Oct 15 |
+| General Matter | [Summer 2027 Internship - Information Security Engineer](https://job-boards.greenhouse.io/generalmatter/jobs/5448019008) | Los Angeles, CA |  | Oct 15 |
+| Hewlett Packard Enterprise | [AI &amp; HPC Performance Engineering Intern](https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Spring-Texas-United-States-of-America/AI---HPC-Performance-Engineering-Intern_1213397) | Spring, TX | ⚠ unverified | Oct 15 |
+| Hitachi | [Research Intern, Knowledge Engineering &amp; Generative AI](https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Santa-Clara-California-United-States/Research-Intern--Knowledge-Engineering---Generative-AI_R0148396) | Santa Clara, CA | ⚠ unverified | Oct 15 |
+| Inversion Space | [Avionics Embedded Software Engineer - Summer Internship 2027](https://job-boards.greenhouse.io/inversionspace/jobs/4744391005)<br><sub>“ITAR Compliance: To conform to U.S. Government space technology export regulations, including the International Traffic in Arms Regulations…”</sub> | Playa Vista, CA | 🗽 citizens<br>🎓 3.0+ GPA | Oct 15 |
+| Michael Baker International | [IT Support Desk Intern](https://ebxs.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_4004/job/310031) | Moon Township, PA | 🎓 3.0+ GPA | Oct 15 |
+| National Laboratory of the Rockies | [Graduate \(10-12 weeks\) Intern - AI/ML for Cybersecurity](https://nrel.wd5.myworkdayjobs.com/NLR/job/Golden-CO/Graduate--10-12-weeks--Intern---AI-ML-for-Cybersecurity_R14563) | Golden, CO | 🎓 3.0+ GPA | Oct 15 |
+| Quest Analytics | [Software Engineer Intern - C\#, ASP.NET - Summer 2027 in Kansas City](https://jobs.lever.co/questanalytics/8e5758b7-6945-4c22-9f89-3d029ca9716f)<br><sub>“Able to work without visa sponsorship now and in the future”</sub> | Overland Park, KS | 🛂❌ no sponsor | Oct 15 |
+| Well Enterprises | [Internship - IT - Summer 2027](https://hcsb.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/2209703) | Le Mars, IA |  | Oct 15 |
+| American Family Insurance | [Summer 2027 Intern - Cybersecurity](https://amfam.wd1.myworkdayjobs.com/AmFamGroupInternCareers/job/WI-Madison/Cybersecurity-Intern_R39591)<br><sub>“Sponsorship will not be considered for this position unless specified in the posting”</sub> | WI Madison | 🛂❌ no sponsor | Oct 14 |
+| Assurant | [Summer 2027 Intern: Data Support Analyst](https://assurant.wd1.myworkdayjobs.com/Assurant_Careers/job/Illinois-Virtual/Summer-2027-Intern--Data-Support-Analyst_R-115717)<br><sub>“The Company cannot offer employment to F-1 \(student\) visa holders who require employer sponsorship in the future or cannot work now on a ful…”</sub> | Illinois Virtual | 🛂❌ no sponsor<br>🚫 no CPT/OPT | Oct 14 |
+| Booz Allen | [University - Spring 2027 Electronic Warfare FPGA Engineering Intern](https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/Beavercreek-OH/University---Summer-2027-Electronic-Warfare-FPGA-Engineering-Intern_R0248465-1)<br><sub>“Due to the nature of work performed within this facility, U.S. citizenship is required.”</sub> | Beavercreek, OH | 🗽 citizens<br>🌱 spring<br>⚠ unverified | Oct 14 |
 
 [⬅ INTERNSHIPS page 9](INTERNSHIPS-9.md) · page 10 of 18 · [INTERNSHIPS page 11 ➡](INTERNSHIPS-11.md)
 
