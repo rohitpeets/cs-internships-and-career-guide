@@ -1,6 +1,6 @@
 # Hardware and chips
 
-[⬅ Back to the main page](./) · 143 open · updated 2026-11-25
+[⬅ Back to the main page](./) · 141 open · updated 2026-11-26
 
 Chip design, FPGA and ASIC work, and design verification. New to this track? Read the [Hardware and chips section of the Career tracks guide](guides/tracks.md#hardware-and-chips).
 
@@ -34,7 +34,7 @@ The track comes from the words in the job title, so a few jobs may land in the w
 
 <div class="job-filter" id="job-filter"></div>
 
-## Internships (136)
+## Internships (134)
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
@@ -55,7 +55,6 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Samsung Research America | [2027 Spring Intern, Memory Subsystem, SoC Architecture](https://job-boards.greenhouse.io/samsungresearchamericainternship/jobs/8949357002) | 665 Clyde Avenue, Mountain View, CA | 🌱 spring | Nov 19 |
 | Analog Devices | [Digital Design Engineering Intern - Summer 2027](https://analogdevices.wd1.myworkdayjobs.com/External/job/US-TX-Austin-Plaza-on-the-Lake/Digital-Design-Engineering-Intern---Summer-2027_R268548) | US, TX, Austin, Plaza on the Lake |  | Nov 18 |
 | Leidos | [FPGA Engineer Intern](https://leidos.wd5.myworkdayjobs.com/External/job/Arlington-VA/FPGA-Engineer-Intern_R-00197304)<br><sub>“U.S. citizen - Ability to obtain DoD secret security clearance”</sub> | Arlington, VA | 🔒 secret<br>⚠ unverified | Nov 18 |
-| General Dynamics Mission Systems | [FPGA Engineer Intern](https://careers-gdms.icims.com/jobs/78722/fpga-engineer-intern/job) | Scottsdale, AZ | ⚠ unverified | — |
 | Micron Technology | [Intern - SSD Hardware Engineering](https://micron.wd1.myworkdayjobs.com/External/job/Longmont-MAX--Office-CO/Intern---SSD-Hardware-Engineering_JR114232) | Longmont-MAX- Office, CO | ⚠ unverified | Nov 17 |
 | Shure | [System Verification Engineering Intern](https://careersus-shure.icims.com/jobs/5000/system-verification-engineering-intern/job) | Skokie, IL |  | — |
 | Cirrus Logic | [2027 Internship - Design Verification Engineer](https://jobs.eu.lever.co/cirrus/c71a6365-31c7-4ba1-bdc4-9f2df1fc483e) | Chandler, AZ |  | — |
@@ -122,7 +121,6 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | Hewlett Packard Enterprise | [Hardware Engineering Intern](https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Sunnyvale-California-United-States-of-America/Hardware-Engineering-Intern_1214064) | Sunnyvale, CA | ⚠ unverified | Oct 6 |
 | BorgWarner | [Electronics Hardware Design Intern](https://borgwarner.wd5.myworkdayjobs.com/BorgWarner_Careers/job/Kokomo-Technical-Center---Indiana---USA/Electronics-Hardware-Design-Intern_R2026-3941)<br><sub>“However, for this role, sponsorship is not available.”</sub> | Kokomo Technical Center - Indiana - | 🛂❌ no sponsor | Oct 5 |
 | Marvell Technology | [Hardware Engineer Intern, BS - Summer 2027](https://marvell.wd1.myworkdayjobs.com/MarvellCareers2/job/Santa-Clara-CA/Hardware-Engineer-Intern--BS---Summer-2027_2604975) | Santa Clara, CA |  | Oct 5 |
-| RosaicLabs | [AI Accelerator Design Verification Engineer - Intern](https://jobs.lever.co/rosaiclabs/8e3e00f8-5b06-450c-bb63-5cc4fc3136ab) | Santa Clara, CA | ⚠ unverified | Oct 5 |
 | RosaicLabs | [CPU Design Verification Engineer - Intern](https://jobs.lever.co/rosaiclabs/11a93b50-2472-4ec9-85d9-c99a3a17405e) | Santa Clara, CA |  | Oct 5 |
 | Hewlett Packard Enterprise | [Electric Hardware Engineering Intern](https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Chippewa-Falls-Wisconsin-United-States-of-America/Electric-Hardware-Engineering-Intern_1213414) | Chippewa Falls, WI | ⚠ unverified | Oct 4 |
 | Hewlett Packard Enterprise | [Hardware Tools and Libraries Intern](https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Sunnyvale-California-United-States-of-America/Hardware-Tools-and-Libraries-Intern_1214085) | Sunnyvale, CA | ⚠ unverified | Oct 4 |

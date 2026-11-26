@@ -1,6 +1,6 @@
 # Internships
 
-[⬅ Back to the main page](./) · 2122 open · page 2 of 18 · updated 2026-11-25
+[⬅ Back to the main page](./) · 2082 open · page 2 of 18 · updated 2026-11-26
 
 [⬅ INTERNSHIPS page 1](INTERNSHIPS.md) · page 2 of 18 · [INTERNSHIPS page 3 ➡](INTERNSHIPS-3.md)
 
@@ -34,6 +34,16 @@
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
+| T-Mobile | [Summer 2027 Software Engineering Internship](https://tmobile.wd1.myworkdayjobs.com/External/job/Bellevue-Washington/Summer-2027-Software-Engineering-Internship_REQ383767) | Bellevue, WA | ⚠ unverified | Nov 20 |
+| The Aerospace Corporation | [2027 Software Systems Engineer and Acquisition Grad Intern](https://aero.wd5.myworkdayjobs.com/External/job/El-Segundo-CA/XMLNAME-2027-Software-Systems-Engineer-and-Acquisition-Grad-Intern_R017175)<br><sub>“Active security clearance”</sub> | El Segundo, CA | 🔒 clearance<br>🎓 3.0+ GPA | Nov 20 |
+| Toyota Research Institute | [Robotics Intern, UX Design](https://jobs.lever.co/tri/2d9833d5-a940-4862-b13b-a1ecc9378fea) | Los Altos, CA |  | Nov 20 |
+| UMB Bank | [AI Intern](https://umb.wd1.myworkdayjobs.com/UMBExternal/job/Kansas-City-MO/AI-Intern_R-9796)<br><sub>“Work Visa sponsorship is not available for this position.”</sub> | Kansas City MO | 🛂❌ no sponsor | Nov 20 |
+| Western Governors University | [Intern - Data Governance](https://wgu.wd5.myworkdayjobs.com/External/job/Salt-Lake-City-UT/Intern---Technical-Writing_JR-026370)<br><sub>“-Must be eligible to work in the United States without sponsorship during the internship period.”</sub> | Salt Lake City, UT | 🛂❌ no sponsor | Nov 20 |
+| Applied Materials | [Summer 2027 Data Analyst Intern- Bachelor's \(Santa Clara, CA\)](https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/Summer-2027-Data-Finance-Analyst-Intern--Bachelor-s--Santa-Clara--CA-_R2626652) | Santa Clara,CA | ⚠ unverified | Nov 19 |
+| Blue Cross Blue Shield of Michigan | [Summer 2027 Intern - Object Oriented Programming](https://ejko.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/15160) | Detroit, MI | 🎓 3.0+ GPA | Nov 19 |
+| Bristol Myers Squibb | [Data &amp; Quantitative Sciences Intern-Summer 2027](https://bristolmyerssquibb.wd5.myworkdayjobs.com/BMS/job/Princeton---NJ---US/Data---Quantitative-Sciences-Intern-Summer-2027_R1608215)<br><sub>“Please note that immigration or visa sponsorship is not available for this position.”</sub> | Princeton - NJ - | 🛂❌ no sponsor | Nov 19 |
+| CACI International | [AWS Cloud Engineering Intern - Summer 2027](https://caci.wd1.myworkdayjobs.com/External/job/Sarasota-FL-US/AWS-Cloud-Engineering-Intern---Summer-2027_331437)<br><sub>“Must be legally authorized to work in the United States without the need for employer sponsorship, now or at any time in the future”</sub> | Sarasota, FL | 🛂❌ no sponsor<br>🔒 clearance<br>⚠ unverified | Nov 19 |
+| Cadence Design Systems | [Software Engineering Intern - Circuit Simulation infrastructure](https://cadence.wd1.myworkdayjobs.com/Univ_Careers/job/SAN-JOSE/Software-Engineering-Intern---Circuit-Simulation-infrastructure_R57254) | SAN JOSE |  | Nov 19 |
 | Centene Corporation | [Data and Analytics Summer 2027 Intern \(Undergraduate\)](https://centene.wd5.myworkdayjobs.com/Centene_External/job/Remote-MO/Data-and-Analytics-Summer-2027-Intern--Undergraduate-_1660515)<br><sub>“Sponsorship and future sponsorship are not available for this opportunity, including employment-based visa types H-1B, L-1, O-1, H-1B1, F-1,…”</sub> | Remote-MO | 🛂❌ no sponsor<br>🌐 remote<br>⚠ unverified | Nov 19 |
 | Centene Corporation | [Site Reliability Operational Analyst Intern \(Undergraduate Summer 2027\)](https://centene.wd5.myworkdayjobs.com/Centene_External/job/Remote-MO/Site-Reliability-Operational-Analyst-Intern--Undergraduate-Summer-2027-_1667701)<br><sub>“Sponsorship and future sponsorship are not available for this opportunity, including employment-based visa types H-1B, L-1, O-1, H-1B1, F-1,…”</sub> | Remote-MO | 🛂❌ no sponsor<br>🌐 remote<br>⚠ unverified | Nov 19 |
 | DraftKings Inc | [Data Engineer Intern \(Summer 2027\)](https://draftkings.wd1.myworkdayjobs.com/Campus_Career_Portal/job/Boston-MA/Data-Engineer-Intern--Summer-2027-_JR15464) | Boston, MA |  | Nov 19 |
@@ -109,7 +119,6 @@
 | HP | [Software and Engineering Intern Roles - Imaging and Print](https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Corvallis-Oregon-United-States-of-America/Software-and-Engineering-Intern-Roles---Imaging-and-Print_3168142-1)<br><sub>“This opportunity is intended for conversion to a full-time role that will not offer work authorization sponsorship in the future \(full-time…”</sub> | Corvallis, OR | 🛂❌ no sponsor | Nov 18 |
 | Intel Corporation | [Signal integrity AI enabling intern](https://intel.wd1.myworkdayjobs.com/External/job/US-Arizona-Phoenix/Signal-integrity-AI-enabling-intern_JR0289302) | US, Arizona, Phoenix |  | Nov 18 |
 | KLA | [Software Applications Engineering Intern](https://kla.wd1.myworkdayjobs.com/UR/job/Milpitas-CA/Software-Applications-Engineering-Intern_2642337) | Milpitas, CA |  | Nov 18 |
-| Labcorp | [Intern - Bioinformatics](https://labcorp.wd1.myworkdayjobs.com/External/job/Remote_United-States/Intern---Bioinformatics_2639114)<br><sub>“This position is not eligible for visa sponsorship now or in the future”</sub> | Remote\_ | 🛂❌ no sponsor<br>⚠ unverified | Nov 18 |
 | Labcorp | [Intern - Bioinformatics Scientist](https://labcorp.wd1.myworkdayjobs.com/External/job/Westborough-MA/Intern---Bioinformatics-Scientist_2638415-1)<br><sub>“This position is not eligible for visa sponsorship now or in the future”</sub> | Westborough MA | 🛂❌ no sponsor<br>⚠ unverified | Nov 18 |
 | Leidos | [Business Systems AI Intern](https://leidos.wd5.myworkdayjobs.com/External/job/6314-RemoteTeleworker-US/Business-Systems-AI-Intern_R-00193769)<br><sub>“Candidates must be US citizens able to obtain and/or maintain a Department of Defense Secret security clearance as a condition of employment”</sub> | 6314 Remote/Teleworker | 🗽 citizens<br>🔒 secret<br>🌐 remote<br>⚠ unverified | Nov 18 |
 | Leidos | [FPGA Engineer Intern](https://leidos.wd5.myworkdayjobs.com/External/job/Arlington-VA/FPGA-Engineer-Intern_R-00197304)<br><sub>“U.S. citizen - Ability to obtain DoD secret security clearance”</sub> | Arlington, VA | 🔒 secret<br>⚠ unverified | Nov 18 |
@@ -145,15 +154,6 @@
 | Zillow | [Data Science Intern](https://zillow.wd5.myworkdayjobs.com/Zillow_Group_External/job/Seattle-WA-2nd-Ave/Data-Science-Intern_P751677-1) | Seattle-WA-2nd Ave |  | Nov 18 |
 | Zillow | [Software Development Engineer - Intern](https://zillow.wd5.myworkdayjobs.com/Zillow_Group_External/job/Seattle-WA-2nd-Ave/Software-Development-Engineer---Intern_P751630) | Seattle-WA-2nd Ave |  | Nov 18 |
 | Amazon | [Software Development Engineer Intern - Artificial General Intelligence \(Summer 2027\)](https://www.amazon.jobs/en/jobs/10606968/software-development-engineer-intern-artificial-general-intelligence-summer-2027) | Sunnyvale, CA |  | Nov 17 |
-| Amentum | [DoD SkillBridge Internship - Cybersecurity Software and Systems Engineer](https://pae.wd1.myworkdayjobs.com/Amentum_Careers/job/US-TX-Houston/DoD-SkillBridge-Internship---Cybersecurity-Software-and-Systems-Engineer_R0175558-1) | US-TX-Houston | 🏛 gov<br>⚠ unverified | Nov 17 |
-| Amentum | [Software Programmer Intern](https://pae.wd1.myworkdayjobs.com/Amentum_Careers/job/US-TN-Tullahoma/Software-Programmer-Intern_R0169775) | US-TN-Tullahoma | ⚠ unverified | Nov 17 |
-| Amentum | [Software Programmer Intern](https://pae.wd1.myworkdayjobs.com/Amentum_Careers/job/US-MI-Detroit/Software-Programmer-Intern_R0169773) | US-MI-Detroit | ⚠ unverified | Nov 17 |
-| American Electric Power | [Technology Intern - Columbus, OH and nearby areas](https://aep.wd1.myworkdayjobs.com/AEPCareerSite/job/Columbus-OH/Technology-Intern---Columbus--OH-and-nearby-areas_R18961) | Columbus, OH | 🎓 3.0+ GPA | Nov 17 |
-| Amgen | [Grad Intern - Quantitative Pharmacology \(Summer 2027\)](https://amgen.wd1.myworkdayjobs.com/Careers/job/US---California---South-San-Francisco/Grad-Intern---Quantitative-Pharmacology--Summer-2027-_R-261804) | US - California - South San Francisco | ⚠ unverified | Nov 17 |
-| Amgen | [Grad Intern – AI-Enabled Knowledge Graphs for Patient Journey Analytics \(Summer 2027\)](https://amgen.wd1.myworkdayjobs.com/Careers/job/United-States---Remote/Grad-Intern---Knowledge-Graph-Applications--Summer-2027-_R-260625) | United States - Remote | 🌐 remote<br>⚠ unverified | Nov 17 |
-| Anduril Industries | [2027 Machine Learning Engineer Intern](https://boards.greenhouse.io/andurilindustries/jobs/5274037007?gh_jid=5274037007)<br><sub>“Must be a U.S. Person due to required access to U.S. export-controlled information or facilities; U.S. clearance eligibility may be required…”</sub> | Santa Ana, CA | 🗽 citizens | Nov 17 |
-| Anduril Industries | [2027 Product Data Quality Co-op](https://boards.greenhouse.io/andurilindustries/jobs/5273039007?gh_jid=5273039007)<br><sub>“Must be a U.S. Person due to required access to U.S. export-controlled information or facilities; U.S. clearance eligibility may be required…”</sub> | Santa Ana, CA | 🗽 citizens<br>🔄 co-op | Nov 17 |
-| Blackhawk Network Holdings | [Technology Intern](https://careers-blackhawknetwork.icims.com/jobs/26867/technology-intern/job) | Pleasanton, CA |  | — |
 
 [⬅ INTERNSHIPS page 1](INTERNSHIPS.md) · page 2 of 18 · [INTERNSHIPS page 3 ➡](INTERNSHIPS-3.md)
 

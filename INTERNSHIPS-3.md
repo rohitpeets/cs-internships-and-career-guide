@@ -1,6 +1,6 @@
 # Internships
 
-[⬅ Back to the main page](./) · 2122 open · page 3 of 18 · updated 2026-11-25
+[⬅ Back to the main page](./) · 2082 open · page 3 of 18 · updated 2026-11-26
 
 [⬅ INTERNSHIPS page 2](INTERNSHIPS-2.md) · page 3 of 18 · [INTERNSHIPS page 4 ➡](INTERNSHIPS-4.md)
 
@@ -34,16 +34,21 @@
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
+| Amentum | [DoD SkillBridge Internship - Cybersecurity Software and Systems Engineer](https://pae.wd1.myworkdayjobs.com/Amentum_Careers/job/US-TX-Houston/DoD-SkillBridge-Internship---Cybersecurity-Software-and-Systems-Engineer_R0175558-1) | US-TX-Houston | 🏛 gov<br>⚠ unverified | Nov 17 |
+| American Electric Power | [Technology Intern - Columbus, OH and nearby areas](https://aep.wd1.myworkdayjobs.com/AEPCareerSite/job/Columbus-OH/Technology-Intern---Columbus--OH-and-nearby-areas_R18961) | Columbus, OH | 🎓 3.0+ GPA | Nov 17 |
+| Amgen | [Grad Intern - Quantitative Pharmacology \(Summer 2027\)](https://amgen.wd1.myworkdayjobs.com/Careers/job/US---California---South-San-Francisco/Grad-Intern---Quantitative-Pharmacology--Summer-2027-_R-261804) | US - California - South San Francisco | ⚠ unverified | Nov 17 |
+| Amgen | [Grad Intern – AI-Enabled Knowledge Graphs for Patient Journey Analytics \(Summer 2027\)](https://amgen.wd1.myworkdayjobs.com/Careers/job/United-States---Remote/Grad-Intern---Knowledge-Graph-Applications--Summer-2027-_R-260625) | United States - Remote | 🌐 remote<br>⚠ unverified | Nov 17 |
+| Anduril Industries | [2027 Machine Learning Engineer Intern](https://boards.greenhouse.io/andurilindustries/jobs/5274037007?gh_jid=5274037007)<br><sub>“Must be a U.S. Person due to required access to U.S. export-controlled information or facilities; U.S. clearance eligibility may be required…”</sub> | Santa Ana, CA | 🗽 citizens | Nov 17 |
+| Anduril Industries | [2027 Product Data Quality Co-op](https://boards.greenhouse.io/andurilindustries/jobs/5273039007?gh_jid=5273039007)<br><sub>“Must be a U.S. Person due to required access to U.S. export-controlled information or facilities; U.S. clearance eligibility may be required…”</sub> | Santa Ana, CA | 🗽 citizens<br>🔄 co-op | Nov 17 |
+| Blackhawk Network Holdings | [Technology Intern](https://careers-blackhawknetwork.icims.com/jobs/26867/technology-intern/job) | Pleasanton, CA |  | — |
 | Blackhawk Network Holdings | [Technology Intern](https://careers-blackhawknetwork.icims.com/jobs/26866/technology-intern/job) | Coppell, TX |  | — |
 | Bosch Group | [AI Application Intern \(8 months/40 hours per week\)](https://jobs.smartrecruiters.com/BoschGroup/744000162076254-ai-application-intern-8-months-40-hours-per-week-) | Farmington Hills, MI | 🎓 3.0+ GPA<br>⚠ unverified | Nov 17 |
 | Bose Corporation | [Data Science Co-Op \(NLP &amp; GenAI\)](https://boseallaboutme.wd503.myworkdayjobs.com/Bose_Careers/job/US-MA---Framingham/Data-Science-Co-Op--NLP---GenAI-_R29251) | US, MA - Framingham | 🔄 co-op | Nov 17 |
 | CACI International | [Cybersecurity Intern - Summer 2027](https://caci.wd1.myworkdayjobs.com/External/job/Remote-Any-State/Cybersecurity-Intern---Summer-2027_335105)<br><sub>“Must be legally authorized to work in the United States without the need for employer sponsorship, now or at any time in the future.”</sub> | Remote \(Any State\) | 🛂❌ no sponsor<br>🌐 remote<br>⚠ unverified | Nov 17 |
 | CACI International | [Junior Operations and Technology Intern - Spring 2027](https://caci.wd1.myworkdayjobs.com/External/job/Ashburn-VA-US/Junior-Operations-and-Technology-Intern---Spring-2027_334935)<br><sub>“Required: • U.S. citizenship and ability to obtain a TS/SCI clearance.”</sub> | Ashburn, VA | 🔒 ts/sci<br>🌱 spring<br>⚠ unverified | Nov 17 |
-| CACI International | [Software Engineering Intern - Summer 2027](https://caci.wd1.myworkdayjobs.com/External/job/Sarasota-FL-US/Software-Engineering-Intern---Summer-2027_332618)<br><sub>“Must be legally authorized to work in the United States without the need for employer sponsorship, now or at any time in the future”</sub> | Sarasota, FL | 🛂❌ no sponsor<br>🔒 ts/sci<br>⚠ unverified | Nov 17 |
 | Draper | [Software Engineering &amp; DevOps Intern](https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Software-Engineering---DevOps-Intern_JR003155)<br><sub>“Applicants selected for this position may be required to obtain and maintain a government security clearance.”</sub> | Cambridge, MA | 🔒 clearance<br>⚠ unverified | Nov 17 |
 | Federal Reserve System | [2027 Summer Internship Program - Business of IT Analyst Intern](https://rb.wd5.myworkdayjobs.com/FRS/job/Atlanta-GA/XMLNAME-2027-Summer-Internship-Program---Business-of-IT-Analyst-Intern_R-0000034091)<br><sub>“Applicants must be currently authorized to work in the United States without the need for visa sponsorship now or in the future.”</sub> | Atlanta, GA | 🛂❌ no sponsor | Nov 17 |
 | Fermilab | [Quantum Computing Internship for Physics Undergraduates Program \(QCIPU\) - Summer 2027](https://fermilab.wd5.myworkdayjobs.com/FermilabCareers/job/Batavia/Quantum-Computing-Internship-for-Physics-Undergraduates-Program--QCIPU----Summer-2027_R_010003) | Batavia |  | Nov 17 |
-| General Dynamics Mission Systems | [FPGA Engineer Intern](https://careers-gdms.icims.com/jobs/78722/fpga-engineer-intern/job) | Scottsdale, AZ | ⚠ unverified | — |
 | General Dynamics Mission Systems | [Full-Stack Application Development Intern, Summer 2027](https://careers-gdms.icims.com/jobs/75971/full-stack-application-development-intern%2c-summer-2027/job) | Scottsdale, AZ, US; Chantilly, VA, US; Pittsf… | ⚠ unverified | — |
 | General Dynamics Mission Systems | [Full-Stack Software Engineering Intern, Summer 2027](https://careers-gdms.icims.com/jobs/75970/full-stack-software-engineering-intern%2c-summer-2027/job) | Scottsdale, AZ, US; Chantilly, VA, US; Pittsf… | 🌐 remote<br>⚠ unverified | — |
 | General Dynamics Mission Systems | [Ontology Data Analysis and Validation Intern, Summer 2027](https://careers-gdms.icims.com/jobs/76095/ontology-data-analysis-and-validation-intern%2c-summer-2027/job) | Pittsfield, MA, US; Scottsdale, AZ, US; Chant… | ⚠ unverified | — |
@@ -53,23 +58,19 @@
 | General Dynamics Mission Systems | [Systems and Software Development Intern](https://careers-gdms.icims.com/jobs/76099/systems-and-software-development-intern/job) | San Antonio, TX, US; Scottsdale, AZ, US; Remo… | 🌐 remote<br>⚠ unverified | — |
 | General Dynamics Mission Systems | [Systems Intern \(Cybersecurity and Linux Administration\)](https://careers-gdms.icims.com/jobs/76103/systems-intern-%28cybersecurity-and-linux-administration%29/job) | San Antonio, TX | ⚠ unverified | — |
 | Hewlett Packard Enterprise | [HPE Labs - AI Enablement Intern](https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Milpitas-California-United-States-of-America/HPE-Labs---AI-Enablement-Intern_1217939) | Milpitas, CA | ⚠ unverified | Nov 17 |
-| Hy-Vee, Inc | [Data Integration Intern - Summer 2027](https://hyvee.wd1.myworkdayjobs.com/HyVeeCareers/job/Corporate-Office-Westown-Pkwy-West-Des-Moines-IA/Data-Integration-Intern---Summer-2027_R250148) | Corporate Office, Westown Pkwy., West Des Moi… | ⚠ unverified | Nov 17 |
 | Idaho National Laboratory | [Electric Vehicle Charging Data Analysis Intern - Summer 2027](https://elhe.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/pro/job/2149) | Idaho Falls, ID | 🎓 3.0+ GPA | Nov 17 |
 | KLA | [Software Engineering Intern](https://kla.wd1.myworkdayjobs.com/UR/job/Milpitas-CA/Software-Engineering-Intern_2641572) | Milpitas, CA |  | Nov 17 |
 | Micron Technology | [Intern - SSD Hardware Engineering](https://micron.wd1.myworkdayjobs.com/External/job/Longmont-MAX--Office-CO/Intern---SSD-Hardware-Engineering_JR114232) | Longmont-MAX- Office, CO | ⚠ unverified | Nov 17 |
 | Motorola Solutions | [Software System Technologist Intern \(Summer 2027 Internship\)](https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Chicago-IL/Software-System-Technologist-Intern--Summer-2027-Internship-_R70839)<br><sub>“Employer work permit sponsorship is not available for this position.”</sub> | Chicago, IL | 🛂❌ no sponsor<br>🔒 clearance | Nov 17 |
 | Nelnet | [Intern - Data Analytics](https://nelnet.wd1.myworkdayjobs.com/MyNelnet/job/Lincoln-NE/Intern---Data-Analytics_R23367) | Lincoln, NE |  | Nov 17 |
 | Nelnet | [Intern - IT Software Engineer \(Summer 2027\)](https://nelnet.wd1.myworkdayjobs.com/MyNelnet/job/Lincoln-NE/Intern---IT-Software-Engineer--Summer-2027-_R23352) | Lincoln, NE |  | Nov 17 |
-| Oracle | [OCI Intern Conversion - Undergrad Software Engineer Full-Time - Nashville, TN - February 2027](https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/350821) | Nashville, TN | ⚠ unverified | Nov 17 |
 | Parsons Corporation | [Software Engineer Co-Op - TS/SCI](https://parsons.wd5.myworkdayjobs.com/Search/job/US---VA-Centreville/Software-Engineer-Co-Op---TS-SCI_R187147)<br><sub>“Required Qualifications: Active TS/SCI clearance”</sub> | US - VA, Centreville | 🔒 ts/sci<br>🔄 co-op<br>⚠ unverified | Nov 17 |
-| Parsons Corporation | [Software Intern \(Summer 2027\)](https://parsons.wd5.myworkdayjobs.com/Search/job/US---CO-Denver/Software-Intern--Summer-2027-_R185388)<br><sub>“Must be a U.S. citizen.”</sub> | US - CO, Denver | 🗽 citizens<br>🔒 ts/sci<br>⚠ unverified | Nov 17 |
 | Peraton | [IT Cybersecurity Intern - Fort Huachuca, AZ](https://careers-peraton.icims.com/jobs/171602/it-cybersecurity-intern---fort-huachuca%2c-az/job) | Home, AZ, US; Remote | 🌐 remote | — |
 | Peraton | [Mission Systems Software &amp; Edge Computing Intern – Norman, OK](https://careers-peraton.icims.com/jobs/172378/mission-systems-software-%26-edge-computing-intern-%e2%80%93-norman%2c-ok/job) | Home, OK, US; Remote | 🌐 remote | — |
 | Peraton | [Summer 2027 Cybersecurity Engineering Intern](https://careers-peraton.icims.com/jobs/171326/summer-2027-cybersecurity-engineering-intern/job) | Herndon, VA |  | — |
 | Peraton | [Summer 2027 Software Development Intern- Topeka, KS](https://careers-peraton.icims.com/jobs/172061/summer-2027-software-development-intern--topeka%2c-ks/job) | Topeka, KS |  | — |
 | Peraton | [Summer 2027 Software Engineer Intern](https://careers-peraton.icims.com/jobs/169665/summer-2027-software-engineer-intern/job) | Herndon, VA, US; Blacksburg, VA |  | — |
 | Rakuten | [Intern - Software Engineer, AI User Experience](https://rakuten.wd1.myworkdayjobs.com/RakutenAmericas/job/WA-Bellevue/Intern---Software-Engineer--AI-User-Experience_1033171) | WA-Bellevue | ⚠ unverified | Nov 17 |
-| RTX | [Software Engineering Intern \(Summer 2027\)](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-121--350-Collins-Rd-NE--BLDG-121/Software-Engineering-Intern--Summer-2027-_01889992)<br><sub>“U.S. Citizen, U.S. Person, or Immigration Status Requirements: The ability to obtain and maintain a U.S. government issued security clearanc…”</sub> | US-IA-CEDAR RAPIDS-121 \~ 350 Collins Rd NE \~… | 🗽 citizens<br>🔒 secret<br>⚠ unverified | Nov 17 |
 | S&amp;P Global | [Summer Intern, Client Services, Equity Analytics Products](https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/New-York-NY/Summer-Intern--Client-Services--Equity-Analytics-Products_332606-1) | New York, NY |  | Nov 17 |
 | SAS | [Summer 2027 - EVAAS Instructional Design e-Learning Developer Intern](https://careers-sas.icims.com/jobs/42765/summer-2027---evaas-instructional-design-e-learning-developer-intern/job) | Cary HQ, NC | ⚠ unverified | — |
 | SAS | [Summer 2027 - Technical Support Intern](https://careers-sas.icims.com/jobs/46696/summer-2027---technical-support-intern/job) | Cary HQ, NC | ⚠ unverified | — |
@@ -153,7 +154,6 @@
 | Cirrus Logic | [2027 Internship - Embedded Software Test Engineer](https://jobs.eu.lever.co/cirrus/db51b041-8f20-48e0-af08-be71201a8175) | Austin, TX |  | — |
 | Cirrus Logic | [2027 Internship - Formal Verification Engineer](https://jobs.eu.lever.co/cirrus/533c9938-3d35-48a6-b08b-1dd1675d2bdf) | Austin, TX |  | — |
 | Cirrus Logic | [2027 Internship - Validation Engineer](https://jobs.eu.lever.co/cirrus/89813bb2-94fb-42f6-aec2-03154cfde027) | Austin, TX |  | — |
-| Constellation Brands | [Intern, Data and AI Enablement](https://cbrands.wd5.myworkdayjobs.com/CBI_External_Careers/job/Rochester-New-York/Intern--Data-and-AI-Enablement_R-41721) | Rochester, NY |  | Nov 16 |
 
 [⬅ INTERNSHIPS page 2](INTERNSHIPS-2.md) · page 3 of 18 · [INTERNSHIPS page 4 ➡](INTERNSHIPS-4.md)
 

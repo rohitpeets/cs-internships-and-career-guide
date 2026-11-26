@@ -1,6 +1,6 @@
 # Internships
 
-[⬅ Back to the main page](./) · 2122 open · page 18 of 18 · updated 2026-11-25
+[⬅ Back to the main page](./) · 2082 open · page 18 of 18 · updated 2026-11-26
 
 [⬅ INTERNSHIPS page 17](INTERNSHIPS-17.md) · page 18 of 18
 
@@ -34,50 +34,10 @@
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
-| Akuna Capital | [Quantitative Research Intern, Summer 2027 / Columbia University](https://job-boards.greenhouse.io/akunacapitaloci/jobs/8065680) | Chicago, IL | 🎓 3.5+ GPA<br>⏳ 60+ days | Jul 15 |
-| Akuna Capital | [Quantitative Research Intern, Summer 2027 / Georgia Institute of Technology](https://job-boards.greenhouse.io/akunacapitaloci/jobs/8065656) | Chicago, IL | 🎓 3.5+ GPA<br>⏳ 60+ days | Jul 15 |
-| Akuna Capital | [Quantitative Research Intern, Summer 2027 / Massachusetts Institute of Technology](https://job-boards.greenhouse.io/akunacapitaloci/jobs/8065670) | Chicago, IL | 🎓 3.5+ GPA<br>⏳ 60+ days | Jul 15 |
-| Copart | [Software Engineering Intern](https://copart.wd12.myworkdayjobs.com/Copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR109689) | Dallas, TX - Headquarters | ⏳ 60+ days | Jul 15 |
-| Five Rings Capital | [Summer Intern 2027 - Quantitative Trader](https://job-boards.greenhouse.io/fiveringsllc/jobs/5139668008) | NY | ⏳ 60+ days | Jul 14 |
-| Five Rings Capital | [Summer Intern 2027 - Software Developer](https://job-boards.greenhouse.io/fiveringsllc/jobs/5349707008) | NY | ⏳ 60+ days | Jul 14 |
-| DRW | [Quantitative Research Intern](https://job-boards.greenhouse.io/drweng/jobs/7818540) | Chicago, New York City | ⏳ 60+ days | Jul 13 |
-| DRW | [Quantitative Trading Analyst Intern](https://job-boards.greenhouse.io/drweng/jobs/7668776) | Chicago, IL | ⏳ 60+ days | Jul 13 |
-| Copart | [QA Engineering Intern](https://copart.wd12.myworkdayjobs.com/Copart/job/Dallas-TX---Headquarters/QA-Engineering-Intern_JR109671) | Dallas, TX - Headquarters | ⏳ 60+ days | Jul 10 |
-| Flow Traders | [Quantitative Trading Intern Summer 2027](https://job-boards.greenhouse.io/flowtraders/jobs/8047166) | NY | ⏳ 60+ days | Jul 8 |
-| Marshall Wace | [Technology Intern - New York - 2027](https://job-boards.greenhouse.io/mwinternshipprogram/jobs/8606238002) | NY | ⏳ 60+ days | Jul 6 |
-| IMC | [Deep Learning Research Intern - Summer 2027 - New York](https://job-boards.eu.greenhouse.io/imc/jobs/4907430101) | NY | ⏳ 60+ days | Jul 1 |
-| IMC | [Quantitative Research Intern \(BS/MS\) - Summer 2027](https://job-boards.eu.greenhouse.io/imc/jobs/4907399101) | Chicago | ⏳ 60+ days | Jul 1 |
-| IMC | [Quantitative Trader Intern - Summer 2027](https://job-boards.eu.greenhouse.io/imc/jobs/4823923101) | Chicago | ⏳ 60+ days | Jul 1 |
-| IMC | [Software Engineer Intern - Summer 2027](https://job-boards.eu.greenhouse.io/imc/jobs/4823924101)<br><sub>“Please note that immigration sponsorship is not offered for this specific opening.”</sub> | Chicago | 🛂❌ no sponsor<br>⏳ 60+ days | Jul 1 |
-| Mayo Clinic | [AI/ML Intern - Radiation Oncology](https://fa-euwp-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/385703)<br><sub>“This vacancy is not eligible for sponsorship/we will not sponsor or transfer visas for this position.”</sub> | Rochester, MN | 🛂❌ no sponsor<br>⏳ 60+ days | Jun 25 |
-| Palantir Technologies | [Year at Palantir - Forward Deployed Software Engineer, Internship - Commercial](https://jobs.lever.co/palantir/75cc1c09-8ebd-44c8-b3bc-d122cd1fecb3)<br><sub>“For USG: An active U.S. security clearance, or eligibility and willingness to obtain one, is required”</sub> | Chicago, IL | 🔒 clearance<br>⏳ 60+ days | Jun 24 |
-| Thales | [AI Engineer - Internship \(Open also to Protected Categories, Law 68/99\)](https://thales.wd3.myworkdayjobs.com/Careers/job/Gorgonzola/AI-Engineer---Internship--Open-also-to-Protected-Categories--Law-68-99-_R0332137) | Gorgonzola | ⚠ unverified<br>⏳ 60+ days | Jun 18 |
-| Quantiq | [Software Developer Internship \(Summer 2027\)](https://job-boards.greenhouse.io/quantiq/jobs/4287936009) | Austin, TX | ⏳ 60+ days | Jun 17 |
-| Campbell's | [Agentic AI Engineer Co-Op](https://campbellsoup.wd5.myworkdayjobs.com/ExternalCareers_GlobalSite/job/USA---Remote/Agentic-AI-Engineer-Co-Op_Req-66015) | USA - Remote | 🔄 co-op<br>🌐 remote<br>⏳ 60+ days | Jun 16 |
-| Campbell's | [Business Analyst \(Co-op\), DA&amp;AI](https://campbellsoup.wd5.myworkdayjobs.com/ExternalCareers_GlobalSite/job/USA---Remote/Business-Analyst--Co-op---DA-AI_Req-65915) | USA - Remote | 🔄 co-op<br>🌐 remote<br>⏳ 60+ days | Jun 12 |
-| Campbell's | [Data Engineer - Operational Support \(Co-op\)](https://campbellsoup.wd5.myworkdayjobs.com/ExternalCareers_GlobalSite/job/USA---NJ---Camden/Data-Engineer---Operational-Support--Co-op-_Req-65842) | USA - NJ - Camden | 🔄 co-op<br>⏳ 60+ days | Jun 12 |
-| Campbell's | [Data Engineer – Agentic AI &amp; ML Ops \(Co-op\)](https://campbellsoup.wd5.myworkdayjobs.com/ExternalCareers_GlobalSite/job/USA---NJ---Camden/Data-Engineer---Agentic-AI---ML-Ops--Co-op-_Req-65843) | USA - NJ - Camden | 🔄 co-op<br>⏳ 60+ days | Jun 12 |
-| Campbell's | [Data Engineer, DA&amp;AI Co-Op](https://campbellsoup.wd5.myworkdayjobs.com/ExternalCareers_GlobalSite/job/USA---NJ---Camden/Data-Engineer--DA-AI-Co-Op_Req-65838) | USA - NJ - Camden | 🔄 co-op<br>⏳ 60+ days | Jun 12 |
-| Campbell's | [Data Science Intern](https://campbellsoup.wd5.myworkdayjobs.com/ExternalCareers_GlobalSite/job/USA---NJ---Camden/Data-Science-Intern_Req-65845) | USA - NJ - Camden | ⏳ 60+ days | Jun 12 |
-| Voloridge Investment Management | [Quantitative Research Intern 2027](https://job-boards.greenhouse.io/voloridgeinvestmentmanagement/jobs/4226247009) | Jupiter, FL | ⏳ 60+ days | Jun 11 |
-| Anduril Industries | [2027 Software Engineer Intern](https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007)<br><sub>“Must be a U.S. Person due to required access to U.S. export-controlled information or facilities; U.S. clearance eligibility may be required…”</sub> | Atlanta, Georgia, United States; Boston, Mass… | 🗽 citizens<br>⏳ 60+ days | Jun 10 |
-| TransMarket Group | [DevOps/SRE Intern](https://job-boards.greenhouse.io/transmarketgroup/jobs/5151577007?gh_jid=5151577007) | Chicago, IL | ⏳ 60+ days | Jun 2 |
-| TransMarket Group | [Quantitative Trader Intern](https://job-boards.greenhouse.io/transmarketgroup/jobs/5151569007?gh_jid=5151569007) | Chicago, IL | 🎓 3.5+ GPA<br>⏳ 60+ days | Jun 2 |
-| Walleye Capital | [Equity Volatility Quant Researcher Intern \(Summer 2027\)](https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4676334006) | Miami, FL | ⏳ 60+ days | Jun 1 |
-| Base Power Company | [Hardware Engineering Intern](https://jobs.ashbyhq.com/base-power/f22cee0e-55d9-42cd-806e-1c1fc7217770) | Austin, TX | ⏳ 60+ days | May 21 |
-| Procter &amp; Gamble | [Tech Intern - Estudiante en práctica](https://pg.wd5.myworkdayjobs.com/1000/job/Santiago/Tech-Intern---Estudiante-en-prctica_R000145735) | Santiago | ⏳ 60+ days | May 13 |
-| Palantir Technologies | [Year at Palantir - Forward Deployed Software Engineer, Internship - USG](https://jobs.lever.co/palantir/5c4c65c5-77da-4d36-856c-4ade87631019)<br><sub>“For USG: An active U.S. security clearance, or eligibility and willingness to obtain one, is required”</sub> | Washington, D.C. | 🔒 clearance<br>⏳ 60+ days | Apr 23 |
-| Etched | [DFT Intern](https://jobs.ashbyhq.com/Etched/5f1f5739-3b58-467c-b351-ff183c94d96d) | San Jose | ⏳ 60+ days | Apr 13 |
-| Ramp | [Software Engineering Intern, Backend](https://jobs.ashbyhq.com/ramp/acf6b28d-767f-483f-8ff2-114620cd7e04) | New York, NY \(HQ\) | ⏳ 60+ days | Apr 9 |
-| Eulerity | [Mobile iOS Developer Intern](https://job-boards.greenhouse.io/eulerity/jobs/4671025006) | New York, NY | ⏳ 60+ days | Apr 7 |
-| Aquatic Capital Management | [Software Engineer, Intern \(Summer 2027\)](https://job-boards.greenhouse.io/aquaticcapitalmanagement/jobs/8489233002) | Chicago | ⏳ 60+ days | Apr 1 |
-| PwC | [Consulting - Internship - AI &amp; Data Science](https://pwc.wd3.myworkdayjobs.com/NonPublic_Postings/job/Yogyakarta/Consulting---Internship---Strategy---Operations--AI---Data-Science-_718300WD)<br><sub>“Government Clearance Required?”</sub> | Yogyakarta | 🔒 clearance<br>🎓 3.0+ GPA<br>⚠ unverified<br>⏳ 60+ days | Apr 1 |
-| Palantir Technologies | [Year at Palantir - Forward Deployed Software Engineer, Internship - Commercial](https://jobs.lever.co/palantir/e6789b17-62fb-4226-a079-f8c17ff19e2d)<br><sub>“For USG: An active U.S. security clearance, or eligibility and willingness to obtain one, is required”</sub> | New York, NY | 🔒 clearance<br>⏳ 60+ days | Mar 20 |
-| Palantir Technologies | [Year at Palantir - Forward Deployed Software Engineer, Internship - USG](https://jobs.lever.co/palantir/5c7bb70c-83ea-43e7-8055-0c8f319f4333)<br><sub>“For USG: An active U.S. security clearance, or eligibility and willingness to obtain one, is required”</sub> | New York, NY | 🔒 clearance<br>⏳ 60+ days | Mar 20 |
-| Palantir Technologies | [Year at Palantir - Software Engineer, Internship](https://jobs.lever.co/palantir/655f9937-a4ce-4e7d-80e2-a6659af07329)<br><sub>“For USG: An active U.S. security clearance, or eligibility and willingness to obtain one, is required”</sub> | New York, NY | 🔒 clearance<br>⏳ 60+ days | Mar 20 |
 | Etched | [Firmware Intern](https://jobs.ashbyhq.com/Etched/699f3ab2-07e4-466c-9d76-3d4a3abb4ebc) | San Jose | ⏳ 60+ days | Feb 7 |
 | Ginkgo Bioworks Inc | [Software Intern, Autonomous Lab](https://job-boards.greenhouse.io/ginkgobioworks/jobs/5033167007) | Emeryville, CA | ⏳ 60+ days | Jan 28 |
-| Atoms | [Software Engineering Intern - 2027 Winter Term](https://job-boards.greenhouse.io/atoms/jobs/8356071002) | Los Angeles, CA | 🎓 3.7+ GPA<br>⏳ 60+ days | Jan 6 |
+| Atoms | [Software Engineering Intern - 2027 Summer Term](https://job-boards.greenhouse.io/atoms/jobs/8356100002) | San Francisco, CA | 🎓 3.7+ GPA<br>⏳ 60+ days | Jan 6 |
+| Atoms | [Software Engineering Intern - 2027 Winter Term](https://job-boards.greenhouse.io/atoms/jobs/8356071002) | Los Angeles, CA | 🎓 3.7+ GPA<br>⚠ unverified<br>⏳ 60+ days | Jan 6 |
 | Palantir Technologies | [Forward Deployed Software Engineer, Internship - US Government](https://jobs.lever.co/palantir/315f695d-04d1-4a9a-848e-cb2bec7a997e) | Honolulu, HI | 🏛 gov<br>⏳ 60+ days | Dec 11 |
 | First Quality | [INTERN OR CO-OP - Analytics Engineer](https://firstquality.wd5.myworkdayjobs.com/FIRSTQUALITY/job/US-SC-Anderson/INTERN-OR-CO-OP---Analytics-Engineer_R9813) | US SC Anderson | 🎓 3.2+ GPA<br>🔄 co-op<br>⏳ 60+ days | Dec 8 |
 | Figure | [Validation Engineering Intern \[Winter 2027\]](https://job-boards.greenhouse.io/figureai/jobs/4606072006) | San Jose, CA | ⏳ 60+ days | Oct 1 |
@@ -119,6 +79,6 @@
 
 [⬅ INTERNSHIPS page 17](INTERNSHIPS-17.md) · page 18 of 18
 
-**Not on this board yet:** [Apple](https://jobs.apple.com/), [Netflix](https://jobs.netflix.com/), [AMD](https://careers.amd.com/), [Qualcomm](https://careers.qualcomm.com/), [IBM](https://www.ibm.com/careers), [ExxonMobil](https://jobs.exxonmobil.com/), [Phillips 66](https://www.phillips66.com/careers/), [Chevron](https://careers.chevron.com/), [Shell](https://www.shell.com/careers.html), [Lockheed Martin](https://www.lockheedmartinjobs.com/), [Boeing](https://jobs.boeing.com/), [Capital One](https://www.capitalonecareers.com/students), [JPMorgan Chase](https://careers.jpmorgan.com/), [Goldman Sachs](https://www.goldmansachs.com/careers/), [Bloomberg](https://careers.bloomberg.com/), [Uber](https://www.uber.com/us/en/careers/), [LinkedIn](https://careers.linkedin.com/), [Tesla](https://www.tesla.com/careers), [Dell Technologies](https://jobs.dell.com/), [Workday](https://www.workday.com/en-us/company/careers.html), [Intuit](https://jobs.intuit.com/), [Visa](https://corporate.visa.com/en/jobs/), [Mastercard](https://careers.mastercard.com/us/en), [Target](https://corporate.target.com/careers). These companies hire CS interns, but their job sites aren't read here yet. The links go to each company's own careers page.
+**Not on this board yet:** [Apple](https://jobs.apple.com/), [Netflix](https://jobs.netflix.com/), [AMD](https://careers.amd.com/), [Qualcomm](https://careers.qualcomm.com/), [IBM](https://www.ibm.com/careers), [Oracle](https://careers.oracle.com/), [ExxonMobil](https://jobs.exxonmobil.com/), [Phillips 66](https://www.phillips66.com/careers/), [Chevron](https://careers.chevron.com/), [Shell](https://www.shell.com/careers.html), [Lockheed Martin](https://www.lockheedmartinjobs.com/), [Boeing](https://jobs.boeing.com/), [Capital One](https://www.capitalonecareers.com/students), [JPMorgan Chase](https://careers.jpmorgan.com/), [Goldman Sachs](https://www.goldmansachs.com/careers/), [Bloomberg](https://careers.bloomberg.com/), [Uber](https://www.uber.com/us/en/careers/), [LinkedIn](https://careers.linkedin.com/), [Tesla](https://www.tesla.com/careers), [Dell Technologies](https://jobs.dell.com/), [Workday](https://www.workday.com/en-us/company/careers.html), [Intuit](https://jobs.intuit.com/), [Visa](https://corporate.visa.com/en/jobs/), [Mastercard](https://careers.mastercard.com/us/en), [Target](https://corporate.target.com/careers). These companies hire CS interns, but their job sites aren't read here yet. The links go to each company's own careers page.
 
 _Listings and tags are generated automatically from employers' postings and can be wrong or out of date. Always read the full posting._

@@ -1,6 +1,6 @@
 # Internships
 
-[⬅ Back to the main page](./) · 2122 open · page 4 of 18 · updated 2026-11-25
+[⬅ Back to the main page](./) · 2082 open · page 4 of 18 · updated 2026-11-26
 
 [⬅ INTERNSHIPS page 3](INTERNSHIPS-3.md) · page 4 of 18 · [INTERNSHIPS page 5 ➡](INTERNSHIPS-5.md)
 
@@ -34,6 +34,7 @@
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
+| Constellation Brands | [Intern, Data and AI Enablement](https://cbrands.wd5.myworkdayjobs.com/CBI_External_Careers/job/Rochester-New-York/Intern--Data-and-AI-Enablement_R-41721) | Rochester, NY |  | Nov 16 |
 | Constellation Brands | [Intern, Data Science](https://cbrands.wd5.myworkdayjobs.com/CBI_External_Careers/job/Rochester-New-York/Intern--Data-Science_R-41527) | Rochester, NY |  | Nov 16 |
 | Corning | [Engineering Data Analyst Intern - Summer 2027](https://corningjobs.corning.com/job/Keller-Engineering-Data-Analyst-Intern-Summer-2027-TX-76248/1437049900/) | Keller, TX |  | — |
 | Corning | [Science &amp; Technology - HPC DevOps Engineer Intern - Summer 2027](https://corningjobs.corning.com/job/Corning-Science-&-Technology-HPC-DevOps-Engineer-Intern-Summer-2027-NY-14831/1448743700/) | City of Corning, NY |  | — |
@@ -64,7 +65,7 @@
 | International | [Digital IT Intern](https://careers.international.com/jobs/60457) | Lisle, IL | ⚠ unverified | — |
 | International | [General IT Intern](https://careers.international.com/jobs/60707) | Lisle, IL | ⚠ unverified | — |
 | Keysight Technologies | [Data Scientist, Intern](https://jobs.keysight.com/external/jobs/54570) | Santa Rosa, CA |  | — |
-| Keysight Technologies | [EDA AI/ML Software Intern](https://jobs.keysight.com/external/jobs/54582) | Calabasas, CA |  | — |
+| Keysight Technologies | [EDA AI/ML Software Intern](https://jobs.keysight.com/external/jobs/54582) | Calabasas, CA | ⚠ unverified | — |
 | Keysight Technologies | [Embedded Software Engineer Intern](https://jobs.keysight.com/external/jobs/55093) | Cambridge, MA |  | — |
 | Keysight Technologies | [Quantum Application Engineering &amp; Business Development Intern](https://jobs.keysight.com/external/jobs/54643) | Santa Rosa, CA |  | — |
 | Keysight Technologies | [R&amp;D Software Engineer Intern](https://jobs.keysight.com/external/jobs/54805) | Santa Clara, CA |  | — |
@@ -123,11 +124,6 @@
 | SRC, Inc | [Machine Learning Engineer \(Intern - Summer 2027\)](https://jobs.jobvite.com/src-inc/job/o8lHAfwu) | Syracuse, NY |  | — |
 | State of Wisconsin Investment Board | [Information Security Intern](https://swib.wd12.myworkdayjobs.com/EXT/job/Madison-Wisconsin/Information-Security-Intern_R-001332) | Madison WI |  | Nov 16 |
 | Synopsys | [Physics AI Internship \(Summer 2027\)](https://synopsys.avature.net/careers/JobDetail/Intern-Technical-Engineering-19536/19536) | Sunnyvale, CA | ⚠ unverified | — |
-| T-Mobile | [Summer 2027 AI Engineering Internship](https://tmobile.wd1.myworkdayjobs.com/External/job/Bellevue-Washington/Summer-2027-AI-Engineering-Internship_REQ382110) | Bellevue, WA | ⚠ unverified | Nov 16 |
-| T-Mobile | [Summer 2027 Business Development, Physical &amp; Edge AI Internship](https://tmobile.wd1.myworkdayjobs.com/External/job/Bellevue-Washington/Summer-2027-Business-Development--Physical---Edge-AI-Internship_REQ380654) | Bellevue, WA | ⚠ unverified | Nov 16 |
-| T-Mobile | [Summer 2027 Software Engineer Internship](https://tmobile.wd1.myworkdayjobs.com/External/job/Overland-Park-Kansas/Summer-2027-Software-Engineer-Internship_REQ381357) | Overland Park, KS | ⚠ unverified | Nov 16 |
-| T-Mobile | [Summer 2027 Software Engineering AI Intern](https://tmobile.wd1.myworkdayjobs.com/External/job/Atlanta-Georgia/Summer-2027-Software-Engineering-AI-Intern_REQ381273) | Atlanta, GA | ⚠ unverified | Nov 16 |
-| T-Mobile | [Summer 2027 Software Engineering Intern](https://tmobile.wd1.myworkdayjobs.com/External/job/Overland-Park-Kansas/Summer-2027-Software-Engineering-Intern_REQ381368) | Overland Park, KS | ⚠ unverified | Nov 16 |
 | The Aerospace Corporation | [2027 Embedded Software Engineering Grad Intern](https://aero.wd5.myworkdayjobs.com/External/job/El-Segundo-CA/XMLNAME-2027-Embedded-Software-Engineering-Grad-Intern_R016950)<br><sub>“U.S citizenship is required to obtain a security clearance.”</sub> | El Segundo, CA | 🗽 citizens<br>🔒 clearance<br>🎓 3.0+ GPA | Nov 16 |
 | The Aerospace Corporation | [2027 Hardware Security Engineering Grad Intern](https://aero.wd5.myworkdayjobs.com/External/job/El-Segundo-CA/XMLNAME-2027-Hardware-Security-Engineering-Grad-Intern_R016953)<br><sub>“U.S citizenship is required to obtain a security clearance.”</sub> | El Segundo, CA | 🗽 citizens<br>🔒 clearance<br>🎓 3.0+ GPA | Nov 16 |
 | The Aerospace Corporation | [2027 Hardware Security Engineering Undergrad Intern](https://aero.wd5.myworkdayjobs.com/External/job/El-Segundo-CA/XMLNAME-2027-Hardware-Security-Engineering-Undergrad--Intern_R016954)<br><sub>“U.S citizenship is required to obtain a security clearance.”</sub> | El Segundo, CA | 🗽 citizens<br>🔒 clearance<br>🎓 3.0+ GPA | Nov 16 |
@@ -154,6 +150,10 @@
 | FlexStaff | [Emerging Technology &amp; AI Internship](https://eppr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/203746) | New Hyde Park, Nassau |  | Nov 15 |
 | RTX | [2027 Summer Intern - Software Engineering - Onsite](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-CA-EL-SEGUNDO-E04--2006-E-El-Segundo-Blvd--BLDG-E04/XMLNAME-2027-Summer-Intern---Software-Engineering---Onsite_01885225)<br><sub>“U.S. Citizen, U.S. Person, or Immigration Status Requirements: U.S. citizenship is required, as only U.S. citizens are authorized to access…”</sub> | US-CA-EL SEGUNDO-E04 \~ 2006 E El Segundo Blvd… | 🗽 citizens<br>⚠ unverified | Nov 15 |
 | Amazon | [Data Center Infrastructure Engineer Intern, Summer 2027 - East](https://www.amazon.jobs/en/jobs/10605141/data-center-infrastructure-engineer-intern-summer-2027-east) | Herndon, VA |  | Nov 14 |
+| Amazon | [Data Center Infrastructure Engineer Intern, Summer 2027 - West Coast](https://www.amazon.jobs/en/jobs/10605132/data-center-infrastructure-engineer-intern-summer-2027-west-coast) | Umatilla, OR |  | Nov 14 |
+| PTC | [Onshape Software Engineer Intern \(Summer 2027\)](https://ptc.wd1.myworkdayjobs.com/PTC/job/Boston-MA-USA/Software-Engineer-Intern--Summer-2027-_JR112943)<br><sub>“Applicants must be authorized to work in the United States without requiring current or future sponsorship from PTC .”</sub> | Boston, MA | 🛂❌ no sponsor | Nov 14 |
+| 3M | [Internship - 2027 Undergraduate Business Analytics Intern – Consumer Business Group \(CBG\)](https://3m.wd1.myworkdayjobs.com/Search/job/US-Minnesota-Maplewood/Internship---2027-Undergraduate-Business-Analytics-Intern---Consumer-Business-Group--CBG-_R01171049)<br><sub>“Must be legally authorized to work in country of employment without sponsorship for employment visa status \(e.g., H1B status\).”</sub> | US, Minnesota, Maplewood | 🛂❌ no sponsor<br>🎓 3.0+ GPA | Nov 13 |
+| Airbus | [Internship \(d/f/m\) Embedded Software Engineering for Weapon Systems](https://ag.wd3.myworkdayjobs.com/Airbus/job/Donauwrth/Internship--d-f-m--Embedded-Software-Engineering-for-Weapon-Systems_JR10442671-2) | Donauwörth | ⚠ unverified | Nov 13 |
 
 [⬅ INTERNSHIPS page 3](INTERNSHIPS-3.md) · page 4 of 18 · [INTERNSHIPS page 5 ➡](INTERNSHIPS-5.md)
 

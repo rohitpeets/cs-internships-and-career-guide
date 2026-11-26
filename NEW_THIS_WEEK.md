@@ -1,6 +1,6 @@
 # 🆕 New this week
 
-[⬅ Back to the main page](./) · 237 posted in the last 7 days · updated 2026-11-25
+[⬅ Back to the main page](./) · 196 posted in the last 7 days · updated 2026-11-26
 
 **Click a job title to open the company's application page.**
 
@@ -32,14 +32,23 @@
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
+| Brex | [Software Engineer, Intern \(Summer 2027\)](https://www.brex.com/careers/8936403002?gh_jid=8936403002) | San Francisco, CA | ⚠ unverified | — |
+| Formlabs | [2027 \(Summer\) - Manufacturing - Manufacturing Test Software Intern](https://careers.formlabs.com/job/8374598/apply/?gh_jid=8374598) | Somerville, MA | ⚠ unverified | — |
+| General Dynamics Mission Systems | [Software Test Engineering Intern - Space and Embedded Crypto](https://careers-gdms.icims.com/jobs/75632/software-test-engineering-intern---space-and-embedded-crypto/job) | Scottsdale, AZ, US; Remote | 🌐 remote<br>⚠ unverified | — |
+| IDEMIA | [Cloud Software Engineering Internship](https://uscareers-idemia.icims.com/jobs/8707/cloud-software-engineering-internship/job) | Reston, VA | ⚠ unverified | — |
+| IDEMIA | [Full Stack Software Engineering Internship](https://uscareers-idemia.icims.com/jobs/8708/full-stack-software-engineering-internship/job) | Eden Prairie, MN | ⚠ unverified | — |
+| SAP IT Business Systeme | [SAP iXp Intern – Order to Invoice Cloud, Software &amp; Support](https://jobs.smartrecruiters.com/SAPITBusinessSysteme/744000163918509-sap-ixp-intern-order-to-invoice-cloud-software-support) | Buenos Aires, AR |  | Nov 26 |
+| SAS | [Summer 2027 - Software Developer Intern \(Go/Golang Experience\)](https://careers-sas.icims.com/jobs/42797/summer-2027---software-developer-intern-%28go-golang-experience%29/job) | Cary HQ, NC | ⚠ unverified | — |
+| Springs Window Fashions | [Consumer Business Unit - AI Analyst Internship - Summer 2027](https://careers-springswindowfashions.icims.com/jobs/12875/consumer-business-unit---ai-analyst-internship---summer-2027/job) | MIDDLETON, WI | ⚠ unverified | — |
+| Springs Window Fashions | [Consumer Business Unit - Data Analyst Internship - Summer 2027](https://careers-springswindowfashions.icims.com/jobs/12874/consumer-business-unit---data-analyst-internship---summer-2027/job) | MIDDLETON, WI | ⚠ unverified | — |
+| Springs Window Fashions | [Dealer Business Operations &amp; Analytics Internship - Summer 2027](https://careers-springswindowfashions.icims.com/jobs/12886/dealer-business-operations-%26-analytics-internship---summer-2027/job) | MIDDLETON, WI | ⚠ unverified | — |
+| V2X | [Artificial Intelligence Intern 2027](https://careers.gov2x.com/why-gov2x/jobs/62843) | Indianapolis, IN | ⚠ unverified | — |
+| Waymo | [2027 Summer Intern, BS, Software Engineering, Labeling](https://careers.withwaymo.com/jobs?gh_jid=8238525) | Mountain View, CA | ⚠ unverified | — |
+| Waymo | [2027 Summer Intern, BS, Waymo ML Ops &amp; Automation](https://careers.withwaymo.com/jobs?gh_jid=8257237) | Mountain View, CA | ⚠ unverified | — |
+| Waymo | [2027 Summer Intern, BS/MS, Software Engineering, Maneuvering Tech](https://careers.withwaymo.com/jobs?gh_jid=8203200) | San Francisco, CA | ⚠ unverified | — |
 | Base Power Company | [Quantitative Developer Intern](https://jobs.ashbyhq.com/base-power/b6b2332e-1226-4575-b2c9-9e5258f2540e) | Austin, TX |  | Nov 25 |
-| International | [AI/ML Intern](https://careers.international.com/jobs/60456) | Lisle, IL | ⚠ unverified | — |
-| International | [IT Security Intern](https://careers.international.com/jobs/60661) | Lisle, IL | ⚠ unverified | — |
-| Keysight Technologies | [EDA AI/ML Layout Engineering Intern](https://jobs.keysight.com/external/jobs/54606) | Calabasas, CA | ⚠ unverified | — |
-| Keysight Technologies | [R&amp;D Software Engineering Internship](https://jobs.keysight.com/external/jobs/54724) | Colorado Springs, CO | ⚠ unverified | — |
 | Lightmatter | [Firmware Intern – Summer 2027](https://boards.greenhouse.io/lightmatter/jobs/5492829008?gh_jid=5492829008) | Boston, MA |  | Nov 25 |
-| Schneider Electric | [Technical Support Engineering Intern](https://careers.se.com/jobs/134954) | Irvine, CA | ⚠ unverified | — |
-| Shure | [Mobile Applications \(Android\) Intern](https://careersus-shure.icims.com/jobs/5006/mobile-applications-%28android%29-intern/job) | Niles, IL | ⚠ unverified | — |
+| QuEra Computing, Inc | [Internship – Data Management](https://job-boards.greenhouse.io/queracomputinginc/jobs/5495029008) | Boston, MA |  | Nov 25 |
 | Lightmatter | [Design Verification, Intern Summer 2027](https://boards.greenhouse.io/lightmatter/jobs/5493962008?gh_jid=5493962008) | Boston, MA |  | Nov 24 |
 | Lightmatter | [Design Verification, Intern Summer 2027](https://boards.greenhouse.io/lightmatter/jobs/5474684008?gh_jid=5474684008) | Mountain View, CA |  | Nov 24 |
 | QuEra Computing, Inc | [Site Reliability Engineer Co-op](https://job-boards.greenhouse.io/queracomputinginc/jobs/5493521008) | Boston, MA | 🔄 co-op | Nov 24 |
@@ -90,7 +99,7 @@
 | Northrop Grumman | [2027 Cyber Systems Engineer Intern - Roy UT](https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Utah-Roy/XMLNAME-2027-Cyber-Systems-Engineer-Intern---Roy-UT_R10249471)<br><sub>“U.S. Citizenship is required for all positions with a government clearance and certain other restricted positions.”</sub> | United States-Utah-Roy | 🗽 citizens<br>🔒 secret<br>🎓 3.0+ GPA<br>⚠ unverified | Nov 23 |
 | Northrop Grumman | [2027 Software Engineer Intern - Linthicum Maryland](https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Maryland-Linthicum/XMLNAME-2027-Software-Engineer-Intern---Linthicum-Maryland_R10248910)<br><sub>“U.S. Citizenship is required for all positions with a government clearance and certain other restricted positions.”</sub> | United States-Maryland-Linthicum | 🗽 citizens<br>🔒 top secret<br>🎓 3.0+ GPA<br>⚠ unverified | Nov 23 |
 | Northrop Grumman | [2027 Software Engineering Intern - Boulder CO](https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Colorado-Boulder/XMLNAME-2027-Software-Engineering-Intern---Boulder-CO_R10257798)<br><sub>“U.S. Citizenship is required for all positions with a government clearance and certain other restricted positions.”</sub> | United States-Colorado-Boulder | 🗽 citizens<br>🔒 secret<br>🎓 3.0+ GPA<br>⚠ unverified | Nov 23 |
-| NVIDIA | [Ignite Pre-Internship Program](https://www.nvidia.com/en-us/about-nvidia/university-recruiting/) |  |  | — |
+| NVIDIA | [Ignite Pre-Internship Program](https://www.nvidia.com/en-us/about-nvidia/university-recruiting/) |  | ⚠ unverified | — |
 | Philips | [Intern – AI-Agentic Embedded Software Development - Bothell, WA - Summer 2027](https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Bothell-Washington-United-States/Intern---AI-Agentic-Embedded-Software-Development---Bothell--WA---Summer-2027_594989) | Bothell, WA |  | Nov 23 |
 | Procter &amp; Gamble | [IT Internship - January 2027](https://pg.wd5.myworkdayjobs.com/1000/job/Santiago/IT-Internship---January-2027_R000163293) | Santiago |  | Nov 23 |
 | Rockwell Automation | [Intern, Software Engineer](https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers/job/Milwaukee-Wisconsin-United-States/Intern--Software-Engineer_R26-5303-1)<br><sub>“We will not sponsor individuals for employment visas, now or in the future.”</sub> | Milwaukee, WI | 🛂❌ no sponsor | Nov 23 |
@@ -98,16 +107,7 @@
 | RTX | [Embedded System Engineering Intern](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-CT-WINDSOR-LOCKS-B1--1-Hamilton-Rd--BLDG-1/Embedded-System-Engineering-Intern_01890950)<br><sub>“U.S. Citizen, U.S. Person, or Immigration Status Requirements: U.S. citizenship is required, as only U.S. citizens are authorized to access…”</sub> | US-CT-WINDSOR LOCKS-B1 \~ 1 Hamilton Rd \~ BLDG… | 🗽 citizens<br>⚠ unverified | Nov 23 |
 | RTX | [Semiconductor Foundry Intern \(Summer 2027\)](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-MA-ANDOVER-AR2--362-Lowell-St--AR2-PLYMOUTH-BLDG/Semiconductor-Foundry-Intern--Summer-2027-_01875840)<br><sub>“U.S. Citizen, U.S. Person, or Immigration Status Requirements: U.S. citizenship is required, as only U.S. citizens are authorized to access…”</sub> | US-MA-ANDOVER-AR2 \~ 362 Lowell St \~ AR2 PLYMO… | 🗽 citizens<br>⚠ unverified | Nov 23 |
 | Samsung Research America | [2027 Spring/Summer Intern, Computer Vision](https://job-boards.greenhouse.io/samsungresearchamericainternship/jobs/8955802002) | 665 Clyde Avenue, Mountain View, CA | 🌱 spring | Nov 23 |
-| SAP IT Business Systeme | [SAP iXp Intern - Strategic AI Initiatives](https://jobs.smartrecruiters.com/SAPITBusinessSysteme/744000163268054-sap-ixp-intern-strategic-ai-initiatives) | New York – Hudson Yards, NY |  | Nov 23 |
-| SharkNinja | [Summer 2027: Firmware Engineering Intern, Advanced Development \(May to August\)](https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4721682006) | Needham, MA |  | Nov 23 |
-| SharkNinja | [Summer 2027: Software Development Test Engineering Co-op\(May to August\)](https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4725867006) | Needham, MA | 🔄 co-op | Nov 23 |
-| Stantec | [Data Scientist Intern - Water \(Summer 2027\)](https://hdhl.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1009005) | San Diego, CA |  | Nov 23 |
-| T-Mobile | [Summer 2027 Database Platform Engineering Site Reliability Engineering / SRE / Internship](https://tmobile.wd1.myworkdayjobs.com/External/job/Atlanta-Georgia/Summer-2027-Database-Platform-Engineering-Site-Reliability-Engineering---SRE---Internship_REQ380923) | Atlanta, GA | ⚠ unverified | Nov 23 |
-| T-Mobile | [Summer 2027 Database Platform Engineering Site Reliability Engineering / SRE/ Internship](https://tmobile.wd1.myworkdayjobs.com/External/job/Atlanta-Georgia/Summer-2027-Database-Platform-Engineering-Site-Reliability-Engineering---SRE--Internship_REQ380920) | Atlanta, GA | ⚠ unverified | Nov 23 |
-| T-Mobile | [Summer 2027 Software Engineering Intern](https://tmobile.wd1.myworkdayjobs.com/External/job/Bellevue-Washington/Summer-2027-Software-Engineering-Intern_REQ380511) | Bellevue, WA | ⚠ unverified | Nov 23 |
-| The Aerospace Corporation | [2027 Machine Learning Engineer Undergrad Intern](https://aero.wd5.myworkdayjobs.com/External/job/El-Segundo-CA/XMLNAME-2027-Machine-Learning-Engineer-Undergrad-Intern_R016667)<br><sub>“U.S. citizenship is required to obtain a security clearance.”</sub> | El Segundo, CA | 🗽 citizens<br>🔒 clearance<br>🎓 3.0+ GPA | Nov 23 |
-| The Toro Company | [Data Science Intern - The Toro Company](https://ttc.wd1.myworkdayjobs.com/Toro_External_Careers/job/Bloomington-MN/Data-Science-Intern---The-Toro-Company_JR17932)<br><sub>“We are unable to sponsor or take over sponsorship of a school/employment or any other visa, regardless of expiration date, now or in the fut…”</sub> | Bloomington, MN | 🛂❌ no sponsor | Nov 23 |
 
-_237 postings were posted this week. This list shows up to 3 per company; the rest are in the [internships](INTERNSHIPS.md) and [new grad](NEW_GRAD.md) lists._
+_196 postings were posted this week. This list shows up to 3 per company; the rest are in the [internships](INTERNSHIPS.md) and [new grad](NEW_GRAD.md) lists._
 
 _Listings and tags are generated automatically from employers' postings and can be wrong or out of date. Always read the full posting._

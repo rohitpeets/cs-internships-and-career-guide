@@ -1,6 +1,6 @@
 # Internships
 
-[⬅ Back to the main page](./) · 2122 open · page 13 of 18 · updated 2026-11-25
+[⬅ Back to the main page](./) · 2082 open · page 13 of 18 · updated 2026-11-26
 
 [⬅ INTERNSHIPS page 12](INTERNSHIPS-12.md) · page 13 of 18 · [INTERNSHIPS page 14 ➡](INTERNSHIPS-14.md)
 
@@ -34,33 +34,6 @@
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
-| Range | [Software Engineering Intern](https://jobs.ashbyhq.com/range/5fe3697d-b5b3-4772-9de4-1551cb726718) | McLean, VA |  | Oct 1 |
-| Ricoh | [Robotics Engineer Intern](https://cbha.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8474) | Boulder, CO |  | Oct 1 |
-| Ricoh | [SW Engineer – Microservice Developer Intern](https://cbha.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8580) | Boulder, CO | 🎓 3.0+ GPA | Oct 1 |
-| Stand Together | [KIP Spring 2027 - Analytics Intern - Illinois Policy Institute](https://jobs.lever.co/standtogether/2d8f9d0f-9218-4936-8f39-dfb729db830b) | Chicago, IL | 🌱 spring | Oct 1 |
-| Stripe | [Data Analyst, Intern](https://stripe.com/jobs/search?gh_jid=8194291) | New York, Seattle, South San Francisco HQ |  | Oct 1 |
-| TD SYNNEX | [Summer 2027 Internship Program / Technical, Applied Innovation Track: • Information Technology • Systems and Cloud • Artificial Intelligence](https://synnex.wd5.myworkdayjobs.com/tdsynnexcareers/job/Greenville-SC/Summer-2027-Internship-Program---Technical--Applied-Innovation-Track----Information-Technology---Supply-Chain---Systems-and-Cloud---Artificial-Intelligence_R56571)<br><sub>“Authorized to work in the United States without current or future sponsorship”</sub> | Greenville, SC | 🛂❌ no sponsor | Oct 1 |
-| Varda Space Industries | [Cybersecurity Internship - Summer 2027](https://job-boards.greenhouse.io/vardaspace/jobs/8005821003)<br><sub>“ITAR Requirements”</sub> | El Segundo, CA | 📜 ITAR | Oct 1 |
-| Varda Space Industries | [Flight Software Internship - Summer 2027](https://job-boards.greenhouse.io/vardaspace/jobs/8010159003)<br><sub>“ITAR Requirements”</sub> | El Segundo, CA | 📜 ITAR | Oct 1 |
-| Allegion | [Summer Intern - Software Engineering - Quality Assurance](https://allegion.wd5.myworkdayjobs.com/careers/job/Golden-CO/Summer-Intern---Summer-Intern---Software-Engineering---Quality-Assurance_JR37856-1)<br><sub>“The company does not intend to provide sponsorship for employment visa status \(e.g., H-1B, TN, etc.\) for this employment position.”</sub> | Golden, CO | 🛂❌ no sponsor | Sep 30 |
-| Amazon | [2027 Frontier AI &amp; Robotics Internship \(Undergraduate\) - United States, Frontier AI &amp; Robotics, Frontier AI &amp; Robotics](https://www.amazon.jobs/en/jobs/10564599/2027-frontier-ai-robotics-internship-undergraduate-united-states-frontier-ai-robotics-frontier-ai-robotics) | San Francisco, CA |  | Sep 30 |
-| Amazon | [Software Development Engineer Intern, AWS Database - 2027 \(US\)](https://www.amazon.jobs/en/jobs/10565667/software-development-engineer-intern-aws-database-2027-us) | Seattle, WA |  | Sep 30 |
-| Astranis | [RF Hardware Intern \(Winter 2027\)](https://job-boards.greenhouse.io/astranis/jobs/4708417006)<br><sub>“U.S. Citizenship, Lawful Permanent Residency, or Refugee/Asylee Status Required”</sub> | San Francisco | 🗽 citizens | Sep 30 |
-| Base Power Company | [Hardware Reliability &amp; Test Engineering Intern](https://jobs.ashbyhq.com/base-power/fbb553e1-5fb8-49a1-b5a5-9c7dde6b4406) | Austin, TX |  | Sep 30 |
-| CarGurus Early Careers | [Data Analytics Engineer Intern](https://job-boards.greenhouse.io/ecjobb/jobs/8231510) | Boston, MA |  | Sep 30 |
-| CarGurus Early Careers | [Data Governance Engineer Intern](https://job-boards.greenhouse.io/ecjobb/jobs/8230749) | Boston, MA |  | Sep 30 |
-| CarGurus Early Careers | [Data Platform Engineer Intern](https://job-boards.greenhouse.io/ecjobb/jobs/8230750) | Boston, MA |  | Sep 30 |
-| CarGurus Early Careers | [Product Data Analyst Intern](https://job-boards.greenhouse.io/ecjobb/jobs/8230677) | Boston, MA |  | Sep 30 |
-| CarGurus Early Careers | [Software Development Engineer Intern](https://job-boards.greenhouse.io/ecjobb/jobs/8231504) | Boston, MA |  | Sep 30 |
-| CarGurus Early Careers | [Software Development Engineer Intern \(Full Stack\)](https://job-boards.greenhouse.io/ecjobb/jobs/8230763) | Boston, MA |  | Sep 30 |
-| Dallas Fort Worth International Airport | [2027 Undergraduate Summer Internship – Enterprise Data &amp; Analytics](https://dfwairport.wd5.myworkdayjobs.com/External/job/DFW-Intl-Airport-Board/XMLNAME-2027-Undergraduate-Summer-Internship---Enterprise-Data---Analytics_JR102162-1)<br><sub>“However, we are not able to sponsor visas for this position at this time.”</sub> | DFW Intl. Airport Board | 🛂❌ no sponsor<br>🎓 3.0+ GPA | Sep 30 |
-| GE Aerospace | [Lynn CNC Programmer Co-Op](https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Lynn/Lynn-CNC-Programmer-Co-Op_R5040944-1) | Lynn | 🔄 co-op | Sep 30 |
-| GenScript | [AI Intern, Enterprise Agent Development](https://job-boards.greenhouse.io/genscript/jobs/5253581007) | Piscataway, NJ |  | Sep 30 |
-| Intel Corporation | [Research Scientist Intern - Graphics, ML](https://intel.wd1.myworkdayjobs.com/External/job/Virtual-US/Research-Scientist-Intern---Graphics--ML_JR0287525) | Virtual |  | Sep 30 |
-| ITW | [Summer 2027 Software Engineering Intern](https://itw.wd5.myworkdayjobs.com/External/job/MTS-Headquarters/Software-Engineering-Intern_JR10261) | MTS Headquarters |  | Sep 30 |
-| Muon Space | [Flight Software Engineering Intern \(Summer 2027\)](https://job-boards.greenhouse.io/muonspace/jobs/5247725007)<br><sub>“To conform to U.S. Government export regulations applicable to that information, applicant must either be \(A\) a U.S. person, defined as a \(i…”</sub> | San Jose, CA | 🗽 citizens | Sep 30 |
-| Oceaneering | [IT Security Architecture Intern](https://ebfr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/jobs/job/11613) | Houston, TX | 🎓 3.0+ GPA | Sep 30 |
-| POET | [Data Engineering Intern - Summer 2027](https://poet.wd1.myworkdayjobs.com/POET/job/Sioux-Falls-SD/Data-Engineering-Intern_R101787) | Sioux Falls, SD |  | Sep 30 |
 | Procter &amp; Gamble | [Analytics &amp; Insights Internship \(Advanced Analytics\)](https://pg.wd5.myworkdayjobs.com/1000/job/CINCINNATI-GENERAL-OFFICES/Analytics---Insights-Internship--Advanced-Analytics-_R000157697)<br><sub>“Immigration Sponsorship is not available for this role.”</sub> | CINCINNATI GENERAL OFFICES | 🛂❌ no sponsor | Sep 30 |
 | Procter &amp; Gamble | [Data &amp; AI Engineering Internship](https://pg.wd5.myworkdayjobs.com/1000/job/CINCINNATI-GENERAL-OFFICES/Data---AI-Engineering-Internship_R000157499)<br><sub>“Immigration Sponsorship is not available for this role.”</sub> | CINCINNATI GENERAL OFFICES | 🛂❌ no sponsor | Sep 30 |
 | Procter &amp; Gamble | [IT Engineering Internship \(Software, Platform, &amp; Network\)](https://pg.wd5.myworkdayjobs.com/1000/job/CINCINNATI-GENERAL-OFFICES/IT-Engineering-Internship--Software--Platform----Network-_R000157503)<br><sub>“Immigration Sponsorship is not available for this role.”</sub> | CINCINNATI GENERAL OFFICES | 🛂❌ no sponsor | Sep 30 |
@@ -154,6 +127,33 @@
 | Astranis | [Software Defined Radio Hardware Intern \(Winter 2027\)](https://job-boards.greenhouse.io/astranis/jobs/4716087006)<br><sub>“U.S. Citizenship, Lawful Permanent Residency, or Refugee/Asylee Status Required”</sub> | San Francisco | 🗽 citizens<br>⏳ 60+ days | Sep 23 |
 | Bracket Bot Inc | [Robotics Engineering Intern](https://jobs.ashbyhq.com/bracket-bot/aecb5cb3-a96b-4ba8-863d-a1ad45414086) | San Francisco | ⏳ 60+ days | Sep 23 |
 | Brunswick | [Mercury Marine: Data Analytics Internship](https://brunswick.wd1.myworkdayjobs.com/search/job/Fond-du-Lac-WI/Data-Analytics-Co-Op_JR-051119) | Fond du Lac, WI | ⚠ unverified<br>⏳ 60+ days | Sep 23 |
+| Clearwater Analytics | [Data Management &amp; Reporting Intern](https://clearwateranalytics.wd1.myworkdayjobs.com/Clearwater_Analytics_Careers/job/Office---New-York/Data-Management---Reporting-Intern_R12095) | Office - NY | ⏳ 60+ days | Sep 23 |
+| Figma | [Data Engineer Intern \(2027\)](https://boards.greenhouse.io/figma/jobs/6178851004?gh_jid=6178851004) | San Francisco, CA • New York, NY | ⏳ 60+ days | Sep 23 |
+| General Motors | [2027 Summer Intern - Digital Product: Embedded and Systems Engineering](https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern---Digital-Product--Embedded-and-Systems-Engineering_JR-202620513) | Warren, MI | ⏳ 60+ days | Sep 23 |
+| General Motors | [2027 Summer Intern - Digital Product: Software Engineering](https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern---Digital-Product--Software-Engineering_JR-202620546) | Warren, MI | ⏳ 60+ days | Sep 23 |
+| Hewlett Packard Enterprise | [Cloud Developer Intern](https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Aguadilla-Puerto-Rico-Puerto-Rico/Cloud-Developer-Intern_1215274-1) | Aguadilla, Puerto Rico, Puerto Rico | ⚠ unverified<br>⏳ 60+ days | Sep 23 |
+| Hewlett Packard Enterprise | [Software Intern](https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Aguadilla-Puerto-Rico-Puerto-Rico/Software-Intern_1215275-1) | Aguadilla, Puerto Rico, Puerto Rico | ⚠ unverified<br>⏳ 60+ days | Sep 23 |
+| Hitachi | [Intern – Network Engineering](https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Pittsburgh-Pennsylvania-United-States/Intern---Network-Engineering_R0145672-1) | Pittsburgh, PA | ⚠ unverified<br>⏳ 60+ days | Sep 23 |
+| Insulet Corporation | [Intern, DevOps Engineer: June-August 2027 \(Onsite\)](https://insulet.wd5.myworkdayjobs.com/insuletcareers/job/San-Diego-California/Intern--DevOps-Engineer--June-August-2027--Onsite-_REQ-2026-18202)<br><sub>“Candidates must have authorization to work in the U.S. without current or future sponsorship needs.”</sub> | San Diego, CA | 🛂❌ no sponsor<br>⏳ 60+ days | Sep 23 |
+| Keenfinity | [Embedded Firmware Engineer Co-Op](https://jobs.smartrecruiters.com/Keenfinity/744000151397189-embedded-firmware-engineer-co-op)<br><sub>“Future sponsorship for work authorization is not available.”</sub> | Fairport, NY | 🛂❌ no sponsor<br>🔄 co-op<br>⏳ 60+ days | Sep 23 |
+| Keenfinity | [Software Test Automation Co-Op](https://jobs.smartrecruiters.com/Keenfinity/744000151395769-software-test-automation-co-op)<br><sub>“Future sponsorship for work authorization is not available.”</sub> | Fairport, NY | 🛂❌ no sponsor<br>🔄 co-op<br>⏳ 60+ days | Sep 23 |
+| Marvell Technology | [Security Verification/Validation Engineer Intern, BS - Summer 2027](https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Chandler-AZ/Security-Verification-Validation-Engineer-Intern--BS---Summer-2027_2604148-1) | Chandler, AZ | ⏳ 60+ days | Sep 23 |
+| Muon Space | [Junior Help Desk Intern \(Summer 2027\)](https://job-boards.greenhouse.io/muonspace/jobs/5247733007)<br><sub>“To conform to U.S. Government export regulations applicable to that information, applicant must either be \(A\) a U.S. person, defined as a \(i…”</sub> | Mountain View, CA | 🗽 citizens<br>⏳ 60+ days | Sep 23 |
+| Oceaneering | [C++ Software Intern](https://ebfr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/jobs/job/11514) | Austin, TX | 🎓 2.5+ GPA<br>⏳ 60+ days | Sep 23 |
+| ZipRecruiter | [Software Engineer - Intern](https://job-boards.greenhouse.io/ziprecruiter/jobs/8180455) | Santa Monica, CA | ⏳ 60+ days | Sep 23 |
+| Amazon | [Security Engineer Internship – 2027 \(US\)](https://www.amazon.jobs/en/jobs/10557133/security-engineer-internship-2027-us) | Seattle, WA | ⏳ 60+ days | Sep 22 |
+| Astranis | [Flight Software Intern \(Summer 2027\)](https://job-boards.greenhouse.io/astranis/jobs/4704598006)<br><sub>“U.S. Citizenship, Lawful Permanent Residency, or Refugee/Asylee Status Required”</sub> | San Francisco | 🗽 citizens<br>⏳ 60+ days | Sep 22 |
+| Astranis | [Flight Software Intern \(Winter 2027\)](https://job-boards.greenhouse.io/astranis/jobs/4704595006)<br><sub>“U.S. Citizenship, Lawful Permanent Residency, or Refugee/Asylee Status Required”</sub> | San Francisco | 🗽 citizens<br>⏳ 60+ days | Sep 22 |
+| Astranis | [Hardware Test Intern \(Winter 2027\)](https://job-boards.greenhouse.io/astranis/jobs/4707012006)<br><sub>“U.S. Citizenship, Lawful Permanent Residency, or Refugee/Asylee Status Required”</sub> | San Francisco | 🗽 citizens<br>⏳ 60+ days | Sep 22 |
+| Astranis | [Software Engineer - Enterprise Systems Intern \(Summer 2027\)](https://job-boards.greenhouse.io/astranis/jobs/4705610006)<br><sub>“U.S. Citizenship, Lawful Permanent Residency, or Refugee/Asylee Status Required”</sub> | San Francisco, CA | 🗽 citizens<br>⏳ 60+ days | Sep 22 |
+| Astranis | [Software Engineer Backend Intern \(Summer 2027\)](https://job-boards.greenhouse.io/astranis/jobs/4705214006)<br><sub>“U.S. Citizenship, Lawful Permanent Residency, or Refugee/Asylee Status Required”</sub> | San Francisco, CA | 🗽 citizens<br>⏳ 60+ days | Sep 22 |
+| Bracco Medical Technologies | [Product Security Engineering Intern](https://bracco.wd103.myworkdayjobs.com/BraccoCareers/job/USA-Eden-Prairie-Minnesota-55344/Product-Security-Engineering-Intern_JR100318) | USA, Eden Prairie, Minnesota, 55344 | ⏳ 60+ days | Sep 22 |
+| Exol | [Co-op- Hardware Engineer](https://symbotic.wd504.myworkdayjobs.com/Symbotic/job/USA-Wilmington-MA---ITC/Hardware-Engineer_R7976) | USA Wilmington, MA - ITC | 🔄 co-op<br>⏳ 60+ days | Sep 22 |
+| Formlabs Internships | [Desktop Software Intern \(Winter/Spring 2027\)](https://job-boards.greenhouse.io/formlabsinternships/jobs/8188725) | Somerville, MA | 🌱 spring<br>⚠ unverified<br>⏳ 60+ days | Sep 22 |
+| Geneva Trading | [Python Developer Intern](https://job-boards.greenhouse.io/genevatrading/jobs/5242196007) | Chicago Office | ⏳ 60+ days | Sep 22 |
+| Gordon Food Service | [Identity Analyst IT Internship](https://gfs.wd5.myworkdayjobs.com/usjobs-gen-gfs/job/Wyoming-Michigan/Identity-Analyst-IT-Internship_R-57499-1) | Wyoming, MI | 🎓 3.0+ GPA<br>⏳ 60+ days | Sep 22 |
+| Idaho National Laboratory | [Computer Security Research Intern - Summer 2027](https://elhe.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/pro/job/2092) | Idaho Falls, ID | 🎓 3.0+ GPA<br>⏳ 60+ days | Sep 22 |
+| Idaho National Laboratory | [Cyber Security Research Intern - Summer 2027](https://elhe.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/pro/job/2093) | Idaho Falls, ID | 🎓 3.0+ GPA<br>⏳ 60+ days | Sep 22 |
 
 [⬅ INTERNSHIPS page 12](INTERNSHIPS-12.md) · page 13 of 18 · [INTERNSHIPS page 14 ➡](INTERNSHIPS-14.md)
 

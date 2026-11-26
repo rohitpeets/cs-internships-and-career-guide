@@ -1,6 +1,6 @@
 # Security
 
-[⬅ Back to the main page](./) · 198 open · updated 2026-11-25
+[⬅ Back to the main page](./) · 197 open · updated 2026-11-26
 
 Cybersecurity, security analyst and penetration testing roles. New to this track? Read the [Security section of the Career tracks guide](guides/tracks.md#security).
 
@@ -34,11 +34,10 @@ The track comes from the words in the job title, so a few jobs may land in the w
 
 <div class="job-filter" id="job-filter"></div>
 
-## Internships (189)
+## Internships (188)
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
-| International | [IT Security Intern](https://careers.international.com/jobs/60661) | Lisle, IL | ⚠ unverified | — |
 | Booz Allen | [University - 2027 Summer Games Cyber Security Intern - McLean, VA](https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/McLean-VA/University---2027-Summer-Games-Cyber-Security-Intern---McLean--VA_R0248034)<br><sub>“Ability to obtain a Secret clearance”</sub> | McLean, VA | 🔒 secret<br>⚠ unverified | Nov 23 |
 | Entegris | [Cyber Threat Analyst Co-Op - Spring 2027](https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Chaska-MN/Cyber-Threat-Analyst-Co-Op_REQ-14505) | Chaska, MN | 🔄 co-op<br>🌱 spring | Nov 23 |
 | Leidos | [System Administration/Cybersecurity Intern](https://leidos.wd5.myworkdayjobs.com/External/job/Clarksburg-WV/System-Administration-Cybersecurity-Intern_R-00197267)<br><sub>“U.S. Citizenship is required”</sub> | Clarksburg, WV | 🗽 citizens<br>🔒 secret<br>⚠ unverified | Nov 23 |
@@ -213,7 +212,7 @@ The track comes from the words in the job title, so a few jobs may land in the w
 | HP | [Software Product Security Engineer Intern](https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Spring-Texas-United-States-of-America/Software-Product-Security-Engineer-Intern_UNI4740-1)<br><sub>“This opportunity is intended for conversion to a full-time role that will not offer work authorization sponsorship in the future \(full-time…”</sub> | Spring, TX | 🛂❌ no sponsor<br>⏳ 60+ days | Sep 7 |
 | Schonfeld | [2027 Cybersecurity Operations Intern](https://job-boards.greenhouse.io/schonfeld/jobs/8171696) | New York, NY | ⏳ 60+ days | Sep 4 |
 | Genuine Parts Company | [GRC/Cybersecurity Analyst Intern](https://genpt.wd1.myworkdayjobs.com/Careers/job/Birmingham-AL-USA/GRC-Cybersecurity-Analyst-Intern_R26_0000029137) | Birmingham, AL | ⚠ unverified<br>⏳ 60+ days | Sep 1 |
-| HP IQ | [Software Engineering Intern, Security Intern \(Summer 2027\)](https://job-boards.greenhouse.io/hpiq/jobs/6116398004) | San Francisco, CA | ⏳ 60+ days | Aug 31 |
+| HP IQ | [Software Engineering Intern, Security Intern \(Summer 2027\)](https://job-boards.greenhouse.io/hpiq/jobs/6116398004) | San Francisco, CA | ⚠ unverified<br>⏳ 60+ days | Aug 31 |
 | United Parcel Service | [UPS Information Security Summer 2027 Internship - GA](https://hcmportal.wd5.myworkdayjobs.com/Search/job/US---UPS-CORPORATE-OFFICES-GACOR/UPS-Information-Security-Summer-2027-Internship---GA_R26029762)<br><sub>“Basic Qualifications: Must be a U.S. Citizen or National of the U.S., an alien lawfully admitted for permanent residence, or an alien author…”</sub> | US - UPS CORPORATE OFFICES \(GACOR\) | 🗽 citizens<br>⚠ unverified<br>⏳ 60+ days | Aug 31 |
 | United Parcel Service | [UPS Information Security Summer 2027 Internship - KY](https://hcmportal.wd5.myworkdayjobs.com/Search/job/US---AIR-GROUP-BUILDING-KYARP/UPS-Information-Security-Summer-2027-Internship---KY_R26029765)<br><sub>“Basic Qualifications: Must be a U.S. Citizen or National of the U.S., an alien lawfully admitted for permanent residence, or an alien author…”</sub> | US - AIR GROUP BUILDING \(KYARP\) | 🗽 citizens<br>⚠ unverified<br>⏳ 60+ days | Aug 31 |
 | United Parcel Service | [UPS Information Security Summer 2027 Internship - NJ](https://hcmportal.wd5.myworkdayjobs.com/Search/job/US---UPS-TECHNOLOGY-HEADQUARTERS--DATACENTER-NJRAR/UPS-Information-Security-Summer-2027-Internship---NJ_R26029761)<br><sub>“Basic Qualifications: Must be a U.S. Citizen or National of the U.S., an alien lawfully admitted for permanent residence, or an alien author…”</sub> | US - UPS TECHNOLOGY HEADQUARTERS &amp; DATACENTER… | 🗽 citizens<br>⚠ unverified<br>⏳ 60+ days | Aug 31 |
