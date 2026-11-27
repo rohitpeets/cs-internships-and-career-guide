@@ -1,6 +1,6 @@
 # Internships
 
-[⬅ Back to the main page](./) · 2082 open · page 18 of 18 · updated 2026-11-26
+[⬅ Back to the main page](./) · 2071 open · page 18 of 18 · updated 2026-11-27
 
 [⬅ INTERNSHIPS page 17](INTERNSHIPS-17.md) · page 18 of 18
 
@@ -34,17 +34,6 @@
 
 | Company | Role | Location | Tags | Posted |
 |---|---|---|---|---|
-| Etched | [Firmware Intern](https://jobs.ashbyhq.com/Etched/699f3ab2-07e4-466c-9d76-3d4a3abb4ebc) | San Jose | ⏳ 60+ days | Feb 7 |
-| Ginkgo Bioworks Inc | [Software Intern, Autonomous Lab](https://job-boards.greenhouse.io/ginkgobioworks/jobs/5033167007) | Emeryville, CA | ⏳ 60+ days | Jan 28 |
-| Atoms | [Software Engineering Intern - 2027 Summer Term](https://job-boards.greenhouse.io/atoms/jobs/8356100002) | San Francisco, CA | 🎓 3.7+ GPA<br>⏳ 60+ days | Jan 6 |
-| Atoms | [Software Engineering Intern - 2027 Winter Term](https://job-boards.greenhouse.io/atoms/jobs/8356071002) | Los Angeles, CA | 🎓 3.7+ GPA<br>⚠ unverified<br>⏳ 60+ days | Jan 6 |
-| Palantir Technologies | [Forward Deployed Software Engineer, Internship - US Government](https://jobs.lever.co/palantir/315f695d-04d1-4a9a-848e-cb2bec7a997e) | Honolulu, HI | 🏛 gov<br>⏳ 60+ days | Dec 11 |
-| First Quality | [INTERN OR CO-OP - Analytics Engineer](https://firstquality.wd5.myworkdayjobs.com/FIRSTQUALITY/job/US-SC-Anderson/INTERN-OR-CO-OP---Analytics-Engineer_R9813) | US SC Anderson | 🎓 3.2+ GPA<br>🔄 co-op<br>⏳ 60+ days | Dec 8 |
-| Figure | [Validation Engineering Intern \[Winter 2027\]](https://job-boards.greenhouse.io/figureai/jobs/4606072006) | San Jose, CA | ⏳ 60+ days | Oct 1 |
-| Marmon Holdings | [Data Engineering Intern OR Student Co-Op](https://marmon.wd501.myworkdayjobs.com/Marmon_Careers/job/Milwaukee-WI/Data-Engineering-Intern-OR-Student-Co-Op_JR0000037453-1) | Milwaukee, WI | 🔄 co-op<br>⏳ 60+ days | Sep 18 |
-| Figure | [Firmware Engineering Intern \[Winter 2027\]](https://job-boards.greenhouse.io/figureai/jobs/4601309006) | San Jose, CA | ⏳ 60+ days | Sep 12 |
-| Seven Research | [Algorithmic Developer - Summer Intern](https://job-boards.greenhouse.io/sevenresearch/jobs/4895082008) | NY | ⏳ 60+ days | Aug 26 |
-| Seven Research | [Core Developer - Summer Intern](https://job-boards.greenhouse.io/sevenresearch/jobs/4895047008) | NY | ⏳ 60+ days | Aug 26 |
 | Seven Research | [Deep Learning Researcher - Summer Intern](https://job-boards.greenhouse.io/sevenresearch/jobs/4895007008) | NY | ⏳ 60+ days | Aug 26 |
 | Seven Research | [Quantitative Researcher - Summer Intern](https://job-boards.greenhouse.io/sevenresearch/jobs/4894946008) | NY | ⏳ 60+ days | Aug 26 |
 | Palantir Technologies | [Software Engineer, Internship - Infrastructure](https://jobs.lever.co/palantir/f221738b-e97c-4ce3-a12a-17ada2b855e4)<br><sub>“Active US Security clearance, or eligibility and willingness to obtain a US Security clearance.”</sub> | Palo Alto, CA | 🔒 clearance<br>⏳ 60+ days | Aug 19 |
@@ -65,7 +54,7 @@
 | Palantir Technologies | [Software Engineer, Internship - Defense Tech](https://jobs.lever.co/palantir/8bcf4f33-0a79-4248-bbfd-49ac4be9dd8e)<br><sub>“Active US Security clearance, or eligibility and willingness to obtain a US Security clearance prior to start of internship.”</sub> | New York, NY | 🔒 clearance<br>⏳ 60+ days | Aug 5 |
 | Palantir Technologies | [Software Engineer, Internship - Defense Tech](https://jobs.lever.co/palantir/a483f41b-0da9-42ea-8ed6-cbf6eb93cc6d)<br><sub>“Active US Security clearance, or eligibility and willingness to obtain a US Security clearance prior to start of internship.”</sub> | Palo Alto, CA | 🔒 clearance<br>⏳ 60+ days | Aug 5 |
 | Palantir Technologies | [Software Engineer, Internship - Defense Tech](https://jobs.lever.co/palantir/f17e98d0-046a-4e6e-9d65-ed0b12dd0ff7)<br><sub>“Active US Security clearance, or eligibility and willingness to obtain a US Security clearance prior to start of internship.”</sub> | Washington, D.C. | 🔒 clearance<br>⏳ 60+ days | Aug 5 |
-| University of Arkansas for Medical Sciences \(UAMS\) | [CW IT Intern](https://uasys.wd5.myworkdayjobs.com/UAMS_CW_Career_Site/job/UAMS/CW-IT-Intern_R0056484) | UAMS | ⏳ 60+ days | May 17 |
+| University of Arkansas for Medical Sciences \(UAMS\) | [CW IT Intern](https://uasys.wd5.myworkdayjobs.com/UAMS_CW_Career_Site/job/UAMS/CW-IT-Intern_R0056484) | UAMS | ⚠ unverified<br>⏳ 60+ days | May 17 |
 | Perpay | [Analytics Internship, Summer 2027](https://job-boards.greenhouse.io/perpay/jobs/4076934007) | Philadelphia, PA | ⏳ 60+ days | Sep 12 |
 | Perpay | [Software Engineering Internship, Summer 2027](https://job-boards.greenhouse.io/perpay/jobs/4076988007) | Philadelphia, PA | 🎓 3.0+ GPA<br>⏳ 60+ days | Sep 12 |
 | Databricks | [Data Science Intern \(2027 Start\)](https://databricks.com/company/careers/open-positions/job?gh_jid=6866538002) | Mountain View, California; San Francisco, CA | ⏳ 60+ days | Aug 17 |

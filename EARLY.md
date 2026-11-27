@@ -1,6 +1,6 @@
 # Early Programs (freshmen & sophomores)
 
-[⬅ Back to the main page](./) · 7 open · updated 2026-11-26
+[⬅ Back to the main page](./) · 6 open · updated 2026-11-27
 
 Postings that say freshmen or sophomores can apply, or programs built for them. The grey line under each title is the sentence from the posting, so you can check it.
 
@@ -40,9 +40,8 @@ Only a few programs are open at a time. Freshmen and sophomores should also chec
 |---|---|---|---|---|
 | Google | [STEP \(Student Training in Engineering Program\)](https://buildyourfuture.withgoogle.com/programs/step)<br><sub>“Our STEP program is a developmental opportunity for first- and second-year undergraduate students with a passion for technology and Computer…”</sub> |  |  | — |
 | Microsoft | [Explore Microsoft Internship](https://careers.microsoft.com/students/us/en/ur-lp-united-states)<br><sub>“Created for first- and second-year college students, Explore Microsoft is a 12-week summer internship that lets you try out different softwa…”</sub> |  |  | — |
-| NVIDIA | [Ignite Pre-Internship Program](https://www.nvidia.com/en-us/about-nvidia/university-recruiting/)<br><sub>“This inclusive, 12-week summer pre-internship program was created to give current freshmen and sophomores from a wide range of backgrounds a…”</sub> |  | ⚠ unverified | — |
-| TruStage | [Information Technology - Development and Infrastructure Internship \(hybrid\)](https://trustage.wd1.myworkdayjobs.com/TruStage/job/Wisconsin---Remote/Enterprise-Information---Technology-Internship--Hybrid-_R-012155)<br><sub>“Most appropriate for freshmen and sophomores.”</sub> | Wisconsin - Remote | 🌐 remote | Nov 23 |
-| CrowdStrike | [AI Research Launch Intern](https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/USA---Sunnyvale-CA/AI-Research-Launch-Intern_R30599)<br><sub>“The CrowdStrike Launch Internship Program is an exclusive early-career opportunity designed for exceptional freshmen and sophomore level stu…”</sub> | USA - Sunnyvale, CA |  | Nov 17 |
+| TruStage | [Information Technology - Development and Infrastructure Internship \(hybrid\)](https://trustage.wd1.myworkdayjobs.com/TruStage/job/Wisconsin---Remote/Enterprise-Information---Technology-Internship--Hybrid-_R-012155)<br><sub>“Most appropriate for freshmen and sophomores.”</sub> | Wisconsin - Remote | 🌐 remote<br>⚠ unverified | Nov 23 |
+| CrowdStrike | [AI Research Launch Intern](https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/USA---Sunnyvale-CA/AI-Research-Launch-Intern_R30599)<br><sub>“The CrowdStrike Launch Internship Program is an exclusive early-career opportunity designed for exceptional freshmen and sophomore level stu…”</sub> | USA - Sunnyvale, CA | ⚠ unverified | Nov 17 |
 | AstraZeneca | [Commercial IT Intern, Undergraduate](https://astrazeneca.wd3.myworkdayjobs.com/Careers/job/US---Wilmington---DE/Commercial-IT-Intern--Undergraduate_R-264455)<br><sub>“We are looking for Sophomore and Junior students majoring in Computer Science, Business Administration, IT, MIS, or a related field for a 12…”</sub> | US - Wilmington - DE | ⚠ unverified | Nov 16 |
 | AstraZeneca | [Finance AI &amp; Data Analytics Intern, Undergraduate - LIFT Program](https://astrazeneca.wd3.myworkdayjobs.com/Careers/job/US---Wilmington---DE/Finance-AI---Data-Analytics-Intern--Undergraduate---LIFT-Program_R-264458)<br><sub>“We are seeking sophomore and junior undergraduate students interested in Finance, Artificial Intelligence, Data Analytics, and Digital Trans…”</sub> | US - Wilmington - DE | 🚫 no CPT/OPT<br>🎓 3.0+ GPA<br>⚠ unverified | Nov 16 |
 
