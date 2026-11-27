@@ -130,7 +130,7 @@ Reread the code before the interview. If you can't explain a part, learn it or t
 
 ## AI tools
 
-Using AI tools to build your projects is common, and interviewers know. What they check is whether *you* understand the result. Some companies are now experimenting with letting candidates use AI in coding rounds (Meta piloted it, per press reports), so ask which rules apply to your round.
+Using AI tools to build your projects is common, and interviewers know. What they check is whether *you* understand the result. Some companies are now experimenting with letting candidates use AI in coding rounds (Meta piloted it, per press reports), so ask which rules apply to your round. Meta's hiring page now says many of its interviews include an AI assistant built into the interview environment and candidates are expected to use it, and some companies run a round like that at intern and new-grad level too: [a sourced list by company](https://nyrion.ai/companies/interns-and-new-grads).
 
 Be ready for:
 

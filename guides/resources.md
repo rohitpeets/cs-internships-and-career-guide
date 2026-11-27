@@ -26,6 +26,7 @@ Too many lists make it hard to start. Begin with the top picks, then use the gro
 
 **Practice interviews**
 - [NeetCode](https://neetcode.io), [Tech Interview Handbook](https://www.techinterviewhandbook.org), and peer mocks on [Pramp](https://www.pramp.com) (its FAQ says free, but reports say sessions moved platforms, so check). Plans and Java references: [interviews](interviews.md#resources).
+- [Nyrion](https://nyrion.ai): practice for coding rounds where you work with an AI assistant. Free plan; Pro is $19 a month.
 
 **More job lists**
 - [Summer 2027 internships](https://github.com/SimplifyJobs/Summer2027-Internships) and [new-grad positions](https://github.com/SimplifyJobs/New-Grad-Positions): community-kept Simplify lists, updated daily in November 2026.
